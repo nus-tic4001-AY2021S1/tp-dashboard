@@ -1,0 +1,13 @@
+Repository's Location,Group Name,Globs
+https://github.com/AY2021S1-TIC4001-3/tp.git,docs,**.md;**.adoc
+https://github.com/AY2021S1-TIC4001-3/tp.git,functional-code,src/main/**
+https://github.com/AY2021S1-TIC4001-3/tp.git,test-code,src/test/**
+https://github.com/AY2021S1-TIC4001-1/tp.git,docs,**.md;**.adoc
+https://github.com/AY2021S1-TIC4001-1/tp.git,functional-code,src/main/**
+https://github.com/AY2021S1-TIC4001-1/tp.git,test-code,src/test/**
+https://github.com/AY2021S1-TIC4001-4/tp.git,docs,**.md;**.adoc
+https://github.com/AY2021S1-TIC4001-4/tp.git,functional-code,src/main/**
+https://github.com/AY2021S1-TIC4001-4/tp.git,test-code,src/test/**
+https://github.com/AY2021S1-TIC4001-2/tp.git,docs,**.md;**.adoc
+https://github.com/AY2021S1-TIC4001-2/tp.git,functional-code,src/main/**
+https://github.com/AY2021S1-TIC4001-2/tp.git,test-code,src/test/**
