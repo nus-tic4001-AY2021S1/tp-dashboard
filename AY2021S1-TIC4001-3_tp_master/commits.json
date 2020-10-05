@@ -1,0 +1,239 @@
+{
+  "authorDailyContributionsMap": {
+    "ZhengShijieNUS": [
+      {
+        "date": "2020-09-20",
+        "commitResults": [
+          {
+            "hash": "21ce2a47c9282ffb1a996bd033cc6d9d2575f1e6",
+            "messageTitle": "add VIEW function",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 9,
+                "deletions": 0
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "tototto": [],
+    "JanuariusJang": [
+      {
+        "date": "2020-09-26",
+        "commitResults": [
+          {
+            "hash": "ed76104e3a9ecf17bb6d5dd570e5454547628632",
+            "messageTitle": "Added the Delete function.",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 5,
+                "deletions": 0
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "pigoliver": [
+      {
+        "date": "2020-09-19",
+        "commitResults": [
+          {
+            "hash": "d5ffa1871c711b6e621b31247524dab7bc471d73",
+            "messageTitle": "Completed Parser Class and ADD case.",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 137,
+                "deletions": 7
+              }
+            }
+          },
+          {
+            "hash": "834331706779d78e0f86017d7bdd347dda0d2576",
+            "messageTitle": "Edit build.gradle to handle change of package and main class name",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "other": {
+                "insertions": 2,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "4ec5f70b88f47657be89f31b9bf2a979f3c7e98d",
+            "messageTitle": "Edit checkstyle.xml and build.gradle to handle error",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "other": {
+                "insertions": 5,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "44dbb3f58e1bbcc45aae03147cfbc80dd8ce9c3d",
+            "messageTitle": "Revert \"Edit checkstyle.xml and build.gradle to handle error\"",
+            "messageBody": "This reverts commit 4ec5f70b88f47657be89f31b9bf2a979f3c7e98d.\n",
+            "fileTypesAndContributionMap": {
+              "other": {
+                "insertions": 1,
+                "deletions": 5
+              }
+            }
+          },
+          {
+            "hash": "49a6c17d54dc330849e54120f23647ea5c18f5c3",
+            "messageTitle": "Edit coding patterns to follow gradle rules",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 110,
+                "deletions": 95
+              },
+              "other": {
+                "insertions": 2,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "5648b4ec9deee333b297e365409287eb113db170",
+            "messageTitle": "Edit coding patterns to follow gradle rules",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 6,
+                "deletions": 6
+              }
+            }
+          },
+          {
+            "hash": "ff0fd2e311ad0b78fcbfdbbd584f34827fe6a89d",
+            "messageTitle": "Edit coding patterns to follow gradle rules",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 13,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "75967ed0f87abb61582485b4d302c2e8a27a1196",
+            "messageTitle": "Edit coding patterns to follow gradle rules",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "815463761d8e67596b998be079f270f55d3c91de",
+            "messageTitle": "Edit coding patterns to follow gradle rules",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 23,
+                "deletions": 7
+              }
+            }
+          },
+          {
+            "hash": "6dec1e3d66fc4ed270d2e022da56adb914020bd0",
+            "messageTitle": "Edit coding patterns to follow gradle rules",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 5,
+                "deletions": 1
+              },
+              "other": {
+                "insertions": 2,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "bee2a0704c03b1bdee332a3bbeac4002ece9bb1d",
+            "messageTitle": "Edit coding patterns to follow gradle rules",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 3,
+                "deletions": 3
+              }
+            }
+          },
+          {
+            "hash": "1afdca676090483c587ce2e9da43385a63898bc4",
+            "messageTitle": "Edit coding patterns to follow gradle rules",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-10-02",
+        "commitResults": [
+          {
+            "hash": "54d7b749a34a0ad51c9ab0499152bdeb4303e910",
+            "messageTitle": "Add JUnit Test for Parser Class",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "test-code": {
+                "insertions": 40,
+                "deletions": 0
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "authorFileTypeContributionMap": {
+    "ZhengShijieNUS": {
+      "docs": 0,
+      "functional-code": 9,
+      "test-code": 0
+    },
+    "tototto": {
+      "docs": 0,
+      "functional-code": 0,
+      "test-code": 0
+    },
+    "JanuariusJang": {
+      "docs": 0,
+      "functional-code": 5,
+      "test-code": 0
+    },
+    "pigoliver": {
+      "docs": 0,
+      "functional-code": 242,
+      "test-code": 41,
+      "other": 3
+    }
+  },
+  "authorContributionVariance": {
+    "ZhengShijieNUS": 1.5876004,
+    "tototto": 0.0,
+    "JanuariusJang": 0.49000004,
+    "pigoliver": 3898.4106
+  },
+  "authorDisplayNameMap": {
+    "ZhengShijieNUS": "TIC4001-3 ZHEN..IJIE",
+    "tototto": "TIC4001-3 TAY .. WEN",
+    "JanuariusJang": "TIC4001-3 JANU.. LIM",
+    "pigoliver": "TIC4001-3 HONG..HENG"
+  }
+}

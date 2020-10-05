@@ -1,0 +1,3383 @@
+[
+  {
+    "path": "build.gradle",
+    "fileType": "other",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "plugins {"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    id \u0027java\u0027"
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    id \u0027application\u0027"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    id \u0027checkstyle\u0027"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    id \u0027com.github.johnrengelman.shadow\u0027 version \u00275.1.0\u0027"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "}"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "repositories {"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    mavenCentral()"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "}"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "dependencies {"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    testImplementation group: \u0027org.junit.jupiter\u0027, name: \u0027junit-jupiter-api\u0027, version: \u00275.5.0\u0027"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    testRuntimeOnly group: \u0027org.junit.jupiter\u0027, name: \u0027junit-jupiter-engine\u0027, version: \u00275.5.0\u0027"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "}"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "test {"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    useJUnitPlatform()"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    testLogging {"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        events \"passed\", \"skipped\", \"failed\""
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        showExceptions true"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        exceptionFormat \"full\""
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        showCauses true"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        showStackTraces true"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        showStandardStreams \u003d false"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "}"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "application {"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    mainClassName \u003d \"seedu.itlogger.ItLogger\""
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "}"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "shadowJar {"
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    archiveBaseName \u003d \"itlogger\""
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    archiveClassifier \u003d null"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "}"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "checkstyle {"
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    toolVersion \u003d \u00278.23\u0027"
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "}"
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "run{"
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    standardInput \u003d System.in"
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "-": 44,
+      "pigoliver": 2
+    }
+  },
+  {
+    "path": "src/main/java/seedu/itlogger/Defect.java",
+    "fileType": "functional-code",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "package seedu.itlogger;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "import java.sql.Timestamp;"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "import java.text.SimpleDateFormat;"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "import java.time.Instant;"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import java.util.Date;"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "public class Defect {"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    String title;"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    String status;"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    int severity;"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    Date dateRaised;"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    Date deadline;"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    String owner;"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    public Defect(String title, String status, int severity, Date deadline, String owner) {"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        this.title \u003d title;"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        this.status \u003d status;"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        this.severity \u003d severity;"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        this.dateRaised \u003d Date.from(Instant.now());"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        this.deadline \u003d deadline;"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        this.owner \u003d owner;"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     * toString method will convert Defect object into String"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     * to print out."
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     * @return String to print out for this Defect"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    public String toString() {"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        SimpleDateFormat dateFormat \u003d new SimpleDateFormat(\"MMM dd yyyy\");"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        return \"Title: \" + title + System.lineSeparator()"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "                + \"Status: \" + status + System.lineSeparator()"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "                + \"Severity: Level \" + severity + System.lineSeparator()"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "                + \"Date Raised: \" + dateFormat.format(dateRaised) + System.lineSeparator()"
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "                + \"Deadline: \" + dateFormat.format(deadline) + System.lineSeparator()"
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "                + \"Owner: \" + owner;"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "-": 20,
+      "pigoliver": 20
+    }
+  },
+  {
+    "path": "src/main/java/seedu/itlogger/InputHandler.java",
+    "fileType": "functional-code",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "package seedu.itlogger;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import java.util.Scanner;"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "public class InputHandler {"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    private static Scanner inputStream \u003d new Scanner(System.in);"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    public static String getInput() {"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        return inputStream.nextLine();"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    public static boolean hasNextLine() {"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        return inputStream.hasNextLine();"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "-": 9,
+      "pigoliver": 6
+    }
+  },
+  {
+    "path": "src/main/java/seedu/itlogger/Interface.java",
+    "fileType": "functional-code",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "package seedu.itlogger;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import java.util.Iterator;"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import java.util.Vector;"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "public class Interface {"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    private static String LOGO \u003d  \" ____        _\\n\""
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                                + \"|  _ \\\\ _   _| | _____ \\n\""
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                                + \"| | | | | | | |/ / _ \\\\\\n\""
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                                + \"| |_| | |_| |   \u003c  __/\\n\""
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                                + \"|____/ \\\\__,_|_|\\\\_\\\\___|\\n\";"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    private static String ASK_NAME \u003d \"What is your name?\";"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    private static String GREEETING_MSG \u003d \"Hello \";"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    private static String PROGRAM_OPENING \u003d \"What would you like to do?\";"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    private static String EMPTY_ERROR_MSG \u003d \"There are no items now\";"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    public static void printLogo() {"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        System.out.println(LOGO);"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    public static void askName() {"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        System.out.println(ASK_NAME);"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    public static void greeter(String name) {"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        System.out.println(GREEETING_MSG + name);"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    public static void programOpening() {"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        System.out.println(PROGRAM_OPENING);"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    public static void displayIssues(Vector toBeDisplayed) {"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        Iterator iter \u003d toBeDisplayed.iterator();"
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        while (iter.hasNext()) {"
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            Defect issue \u003d (Defect) iter.next();"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            System.out.println(issue);"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    public static void emptyErrorMsg() {"
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        System.out.println(EMPTY_ERROR_MSG);"
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "-": 37,
+      "pigoliver": 8
+    }
+  },
+  {
+    "path": "src/main/java/seedu/itlogger/IssueList.java",
+    "fileType": "functional-code",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "package seedu.itlogger;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import java.util.Vector;"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "public class IssueList {"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    private Vector\u003cDefect\u003e issueList;"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    public IssueList() {"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        issueList \u003d new Vector\u003c\u003e();"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    public Vector\u003cDefect\u003e getIssue() {"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        return issueList;"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    public void addIssue(Defect defect) {"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        issueList.add(defect);"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    public void deleteIssue(int index) {"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        issueList.remove(index);"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": "    public Defect getDefect(int index) {"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": "        return issueList.get(index);"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "ZhengShijieNUS": 4,
+      "-": 21,
+      "pigoliver": 3
+    }
+  },
+  {
+    "path": "src/main/java/seedu/itlogger/ItLogger.java",
+    "fileType": "functional-code",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "package seedu.itlogger;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "import java.text.ParseException;"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import java.util.Vector;"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "import static seedu.itlogger.InputHandler.getInput;"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "import static seedu.itlogger.InputHandler.hasNextLine;"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import static seedu.itlogger.Interface.askName;"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import static seedu.itlogger.Interface.displayIssues;"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import static seedu.itlogger.Interface.emptyErrorMsg;"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "import static seedu.itlogger.Interface.greeter;"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "import static seedu.itlogger.Interface.printLogo;"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "import static seedu.itlogger.Interface.programOpening;"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "import static seedu.itlogger.Parser.parseDeadline;"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "import static seedu.itlogger.Parser.parseIndex;"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "import static seedu.itlogger.Parser.parseKeyWord;"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "import static seedu.itlogger.Parser.parseOwner;"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "import static seedu.itlogger.Parser.parseSeverity;"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "import static seedu.itlogger.Parser.parseStatus;"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "import static seedu.itlogger.Parser.parseTitle;"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "public class ItLogger {"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     * Main entry-point for the java.duke.Duke application."
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    public static void main(String[] args) {"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        IssueList issueList \u003d new IssueList();"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        printLogo();"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        askName();"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        String userName \u003d \"\";"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        if (hasNextLine()) {"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "            userName \u003d getInput();"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        greeter(userName);"
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        boolean keepRun \u003d true;"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        while (keepRun) {"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "            programOpening();"
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "            String input \u003d \"\";"
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "            if (hasNextLine()) {"
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "                input \u003d getInput();"
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "            KeyWord command \u003d KeyWord.OTHERS;"
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 47,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "            try {"
+      },
+      {
+        "lineNumber": 48,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                command \u003d parseKeyWord(input.toUpperCase());"
+      },
+      {
+        "lineNumber": 49,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "            } catch (IllegalArgumentException e) {"
+      },
+      {
+        "lineNumber": 50,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "                System.out.println(e);"
+      },
+      {
+        "lineNumber": 51,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "            //todo -\u003e build PARSER"
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 54,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "            //String placeHolder \u003d \"\";"
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "            switch (command) {"
+      },
+      {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "            case ADD: // Jian Cheng"
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "                // todo -\u003e add Defect"
+      },
+      {
+        "lineNumber": 58,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "                try {"
+      },
+      {
+        "lineNumber": 59,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "                    Defect newIssue \u003d new Defect(parseTitle(input), parseStatus(input),"
+      },
+      {
+        "lineNumber": 60,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "                                        parseSeverity(input), parseDeadline(input), parseOwner(input));"
+      },
+      {
+        "lineNumber": 61,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "                    //System.out.println(test.toString());"
+      },
+      {
+        "lineNumber": 62,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "                    issueList.addIssue(newIssue);"
+      },
+      {
+        "lineNumber": 63,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "                } catch (ParseException e) {"
+      },
+      {
+        "lineNumber": 64,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "                    System.out.println(e);"
+      },
+      {
+        "lineNumber": 65,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "                }"
+      },
+      {
+        "lineNumber": 66,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 67,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "                break;"
+      },
+      {
+        "lineNumber": 68,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 69,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "            case VIEW: // Shi Jie"
+      },
+      {
+        "lineNumber": 70,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "                // todo -\u003e view ONE Defect with INDEX NUMBER"
+      },
+      {
+        "lineNumber": 71,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": "                try {"
+      },
+      {
+        "lineNumber": 72,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": "                    System.out.println(issueList.getDefect(parseIndex(input)).toString());"
+      },
+      {
+        "lineNumber": 73,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": "                } catch (Exception e) {"
+      },
+      {
+        "lineNumber": 74,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": "                    System.out.println(e.getMessage());"
+      },
+      {
+        "lineNumber": 75,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": "                }"
+      },
+      {
+        "lineNumber": 76,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "                break;"
+      },
+      {
+        "lineNumber": 77,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 78,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "            case DELETE: // Jang"
+      },
+      {
+        "lineNumber": 79,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "                // todo -\u003e delete ONE Defect using INDEX NUMBER"
+      },
+      {
+        "lineNumber": 80,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "                try {"
+      },
+      {
+        "lineNumber": 81,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "                    issueList.deleteIssue(parseIndex(input));"
+      },
+      {
+        "lineNumber": 82,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "                } catch (Exception e) {"
+      },
+      {
+        "lineNumber": 83,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "                    System.out.println(e.getMessage());"
+      },
+      {
+        "lineNumber": 84,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "                }"
+      },
+      {
+        "lineNumber": 85,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "                break;"
+      },
+      {
+        "lineNumber": 86,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 87,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "            case LIST:  // Jun Wen"
+      },
+      {
+        "lineNumber": 88,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "                // todo -\u003e list ALL avaliable Defect in Issue List"
+      },
+      {
+        "lineNumber": 89,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                Vector toBeDisplayed \u003d issueList.getIssue();"
+      },
+      {
+        "lineNumber": 90,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                displayIssues(toBeDisplayed);"
+      },
+      {
+        "lineNumber": 91,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                if (toBeDisplayed.size() \u003d\u003d 0) {"
+      },
+      {
+        "lineNumber": 92,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                    emptyErrorMsg();"
+      },
+      {
+        "lineNumber": 93,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "                }"
+      },
+      {
+        "lineNumber": 94,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "                break;"
+      },
+      {
+        "lineNumber": 95,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 96,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "            case EXIT:"
+      },
+      {
+        "lineNumber": 97,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "                keepRun \u003d false;"
+      },
+      {
+        "lineNumber": 98,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "                break;"
+      },
+      {
+        "lineNumber": 99,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 100,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "            default:"
+      },
+      {
+        "lineNumber": 101,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "                System.out.println(\"Unknown KeyWord, please try again!\");"
+      },
+      {
+        "lineNumber": 102,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "                break;"
+      },
+      {
+        "lineNumber": 103,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 104,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 105,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 106,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 107,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 108,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "ZhengShijieNUS": 5,
+      "-": 11,
+      "JanuariusJang": 5,
+      "pigoliver": 87
+    }
+  },
+  {
+    "path": "src/main/java/seedu/itlogger/KeyWord.java",
+    "fileType": "functional-code",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "package seedu.itlogger;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "public enum KeyWord {"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    ADD,"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    VIEW,"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    DELETE,"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    LIST,"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    EXIT,"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    OTHERS"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "-": 7,
+      "pigoliver": 3
+    }
+  },
+  {
+    "path": "src/main/java/seedu/itlogger/Parser.java",
+    "fileType": "functional-code",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "package seedu.itlogger;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "// Jian Cheng"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "import java.text.ParseException;"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "import java.text.SimpleDateFormat;"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "import java.time.LocalDate;"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "import java.util.Date;"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "import java.util.regex.Pattern;"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "/**"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": " * This Parser Class handles the String input."
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": " * It will parse the string into respective output in"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": " * correct format and type."
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": " */"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "public class Parser {"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     * parseKeyWord method will parse the fullInput"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     * and get KeyWord from fullInput."
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     * @param fullInput -\u003e user\u0027s full command"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     * @return keyword provided by user and in KeyWord enum"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    public static KeyWord parseKeyWord(String fullInput) throws IllegalArgumentException {"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        String possibleKeyWord;"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        if (fullInput.contains(\" \")) {"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "            possibleKeyWord \u003d fullInput.split(\" \")[0];"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        } else {"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "            possibleKeyWord \u003d fullInput;"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        return KeyWord.valueOf(possibleKeyWord);"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     * parseInputElement method will parse the input given"
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     * and return the element as String that is between startNotation"
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     * and endNotation."
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     * @param input -\u003e input String to parse"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     * @param startNotation -\u003e notation to start the element"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     * @param endNotation -\u003e notation to end the element"
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     * @return element that is between start and end notation as String type"
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    protected static String parseInputElement(String input, String startNotation, String endNotation) {"
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        int elementStartIndex \u003d input.indexOf(startNotation) + startNotation.length();"
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        int elementEndIndex \u003d input.indexOf(endNotation);"
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        return input.substring(elementStartIndex,elementEndIndex);"
+      },
+      {
+        "lineNumber": 47,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 48,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 49,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 50,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     * parseTitle method will parse the fullInput"
+      },
+      {
+        "lineNumber": 51,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     * and return Title of Defect for ADD Command."
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     * @param fullInput -\u003e user\u0027s full command"
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     * @return Defect title provided by user and in String type"
+      },
+      {
+        "lineNumber": 54,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    public static String parseTitle(String fullInput) {"
+      },
+      {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        String titleStartNotation \u003d \"t/\";"
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        String titleEndNotation \u003d \" s/\";"
+      },
+      {
+        "lineNumber": 58,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        return parseInputElement(fullInput,titleStartNotation,titleEndNotation);"
+      },
+      {
+        "lineNumber": 59,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 60,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 61,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 62,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     * parseStatus method will parse the fullInput"
+      },
+      {
+        "lineNumber": 63,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     * and return Status of Defect for ADD Command."
+      },
+      {
+        "lineNumber": 64,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     * @param fullInput -\u003e user\u0027s full command"
+      },
+      {
+        "lineNumber": 65,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     * @return Defect status provided by user and in String type"
+      },
+      {
+        "lineNumber": 66,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 67,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    public static String parseStatus(String fullInput) {"
+      },
+      {
+        "lineNumber": 68,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        String statusStartNotation \u003d \"s/\";"
+      },
+      {
+        "lineNumber": 69,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        String statusEndNotation \u003d \" sv/\";"
+      },
+      {
+        "lineNumber": 70,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        return parseInputElement(fullInput,statusStartNotation,statusEndNotation);"
+      },
+      {
+        "lineNumber": 71,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 72,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 73,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 74,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     * parseSeverity method will parse the fullInput"
+      },
+      {
+        "lineNumber": 75,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     * and return Severity of Defect for ADD Command."
+      },
+      {
+        "lineNumber": 76,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     * @param fullInput -\u003e user\u0027s full command"
+      },
+      {
+        "lineNumber": 77,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     * @return Defect severity provided by user and in int type"
+      },
+      {
+        "lineNumber": 78,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 79,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    public static int parseSeverity(String fullInput) {"
+      },
+      {
+        "lineNumber": 80,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        String severityStartNotation \u003d \"sv/\";"
+      },
+      {
+        "lineNumber": 81,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        String severityEndNotation \u003d \" dl/\";"
+      },
+      {
+        "lineNumber": 82,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        String severity \u003d parseInputElement(fullInput,severityStartNotation,severityEndNotation);"
+      },
+      {
+        "lineNumber": 83,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        return Integer.parseInt(severity);"
+      },
+      {
+        "lineNumber": 84,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 85,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 86,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 87,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     * parseDeadline method will parse the fullInput"
+      },
+      {
+        "lineNumber": 88,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     * and return Deadline of Defect for ADD Command."
+      },
+      {
+        "lineNumber": 89,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     * @param fullInput -\u003e user\u0027s full command"
+      },
+      {
+        "lineNumber": 90,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     * @return Defect deadline provided by user and in Date type"
+      },
+      {
+        "lineNumber": 91,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 92,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    public static Date parseDeadline(String fullInput) throws ParseException {"
+      },
+      {
+        "lineNumber": 93,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        String deadlineStartNotation \u003d \"dl/\";"
+      },
+      {
+        "lineNumber": 94,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        String deadlineEndNotation \u003d \" o/\";"
+      },
+      {
+        "lineNumber": 95,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        String deadline \u003d parseInputElement(fullInput,deadlineStartNotation, deadlineEndNotation);"
+      },
+      {
+        "lineNumber": 96,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        return new SimpleDateFormat(\"dd-MM-yyyy\").parse(deadline);"
+      },
+      {
+        "lineNumber": 97,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 98,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 99,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 100,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     * parseOwner method will parse the fullInput"
+      },
+      {
+        "lineNumber": 101,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     * and return Owner of Defect for ADD Command."
+      },
+      {
+        "lineNumber": 102,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     * @param fullInput -\u003e user\u0027s full command"
+      },
+      {
+        "lineNumber": 103,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     * @return Defect owner provided by user and in String type"
+      },
+      {
+        "lineNumber": 104,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 105,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    public static String parseOwner(String fullInput) {"
+      },
+      {
+        "lineNumber": 106,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        int ownerStartIndex \u003d fullInput.indexOf(\"o/\") + 2;"
+      },
+      {
+        "lineNumber": 107,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        return fullInput.substring(ownerStartIndex);"
+      },
+      {
+        "lineNumber": 108,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 109,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 110,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 111,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     * parseIndex method will parse the fullInput and return"
+      },
+      {
+        "lineNumber": 112,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     * user indicated index for VIEW and DELETE Command."
+      },
+      {
+        "lineNumber": 113,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     * @param fullInput -\u003e user\u0027s full command"
+      },
+      {
+        "lineNumber": 114,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     * @return Defect index provided by user and in int type"
+      },
+      {
+        "lineNumber": 115,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 116,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    public static int parseIndex(String fullInput) {"
+      },
+      {
+        "lineNumber": 117,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        String possibleIndex \u003d fullInput.split(\"/\")[1];"
+      },
+      {
+        "lineNumber": 118,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        return Integer.parseInt(possibleIndex);"
+      },
+      {
+        "lineNumber": 119,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 120,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "-": 5,
+      "pigoliver": 115
+    }
+  },
+  {
+    "path": "src/test/java/seedu/itlogger/ItLoggerTest.java",
+    "fileType": "test-code",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "package seedu.itlogger;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import static org.junit.jupiter.api.Assertions.assertTrue;"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "import org.junit.jupiter.api.Test;"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "class ItLoggerTest {"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    @Test"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    public void sampleTest() {"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        assertTrue(true);"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "}"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      }
+    ],
+    "authorContributionMap": {
+      "-": 12,
+      "pigoliver": 1
+    }
+  },
+  {
+    "path": "src/test/java/seedu/itlogger/ParserTest.java",
+    "fileType": "test-code",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "package seedu.itlogger;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "import org.junit.jupiter.api.Test;"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "import java.text.SimpleDateFormat;"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "import java.util.Date;"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "import static org.junit.jupiter.api.Assertions.assertEquals;"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "import static seedu.itlogger.Parser.parseKeyWord;"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "public class ParserTest {"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    @Test"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    public void simpleTest() {"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        String testText \u003d \"ADD t/Test s/New sv/1 dl/20-10-2020 o/Tester\";"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        assertEquals(Parser.parseKeyWord(testText),KeyWord.ADD);"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        assertEquals(Parser.parseStatus(testText),\"New\");"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        assertEquals(Parser.parseTitle(testText),\"Test\");"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        assertEquals(Parser.parseSeverity(testText),1);"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        try {"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "            assertEquals(Parser.parseDeadline(testText), new SimpleDateFormat(\"dd/MM/yyyy\").parse(\"20/10/2020\"));"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        } catch (Exception e) {"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "            System.out.println(e);"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        assertEquals(Parser.parseOwner(testText),\"Tester\");"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    @Test"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    public void viewKeyWordTest() {"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        String testText \u003d \"VIEW v/10\";"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        assertEquals(Parser.parseKeyWord(testText),KeyWord.VIEW);"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        assertEquals(Parser.parseIndex(testText),10);"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    @Test"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    public void deleteKeyWordTest() {"
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        String testText \u003d \"DELETE d/11\";"
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        assertEquals(Parser.parseKeyWord(testText),KeyWord.DELETE);"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        assertEquals(Parser.parseIndex(testText),11);"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "pigoliver": 40
+    }
+  },
+  {
+    "path": "text-ui-test/input.txt",
+    "fileType": "other",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "James Gosling"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "EXIT"
+      }
+    ],
+    "authorContributionMap": {
+      "-": 1,
+      "pigoliver": 1
+    }
+  }
+]

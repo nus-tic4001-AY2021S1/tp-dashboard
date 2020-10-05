@@ -1,0 +1,106 @@
+{
+  "authorDailyContributionsMap": {
+    "Chilaiping": [],
+    "skyventus": [
+      {
+        "date": "2020-09-26",
+        "commitResults": [
+          {
+            "hash": "be9c936c890221a768f6ab7515ce9a99136bfc7d",
+            "messageTitle": "Fixing CheckStyle errors",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 6,
+                "deletions": 10
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "timmyly7": [],
+    "adi-kd0021": [
+      {
+        "date": "2020-09-22",
+        "commitResults": [
+          {
+            "hash": "3c7679eb437300b1e31b662cc34958defba7ecb8",
+            "messageTitle": "v0.1 Baseline",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 99,
+                "deletions": 0
+              },
+              "other": {
+                "insertions": 3,
+                "deletions": 2
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "e0261618": [
+      {
+        "date": "2020-09-22",
+        "commitResults": [
+          {
+            "hash": "aa5252ed308038e279ebd650bdeba737766f73e9",
+            "messageTitle": "testing",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 1,
+                "deletions": 0
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "authorFileTypeContributionMap": {
+    "Chilaiping": {
+      "docs": 0,
+      "functional-code": 0,
+      "test-code": 0
+    },
+    "skyventus": {
+      "docs": 0,
+      "functional-code": 6,
+      "test-code": 0
+    },
+    "timmyly7": {
+      "docs": 0,
+      "functional-code": 0,
+      "test-code": 0
+    },
+    "adi-kd0021": {
+      "docs": 0,
+      "functional-code": 92,
+      "test-code": 0,
+      "other": 1
+    },
+    "e0261618": {
+      "docs": 0,
+      "functional-code": 0,
+      "test-code": 0
+    }
+  },
+  "authorContributionVariance": {
+    "Chilaiping": 0.0,
+    "skyventus": 5.6859508,
+    "timmyly7": 0.0,
+    "adi-kd0021": 240.2314,
+    "e0261618": 0.022210745
+  },
+  "authorDisplayNameMap": {
+    "Chilaiping": "TIC4001-4 CHI ..PING",
+    "skyventus": "TIC4001-4 OLIV..N DA",
+    "timmyly7": "TIC4001-4 LI Y..I YI",
+    "adi-kd0021": "TIC4001-4 ADI ..KARI",
+    "e0261618": "TIC4001-4 HNGO.. WEN"
+  }
+}

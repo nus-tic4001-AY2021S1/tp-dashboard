@@ -1,0 +1,63 @@
+{
+  "authorDailyContributionsMap": {
+    "linqing42": [],
+    "Yiheng0410": [],
+    "Impala36": [],
+    "binbinhui": [
+      {
+        "date": "2020-10-02",
+        "commitResults": [
+          {
+            "hash": "7ef86b4871cf58c9e165d43d89ed24554bee57a2",
+            "messageTitle": "adding project",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 85,
+                "deletions": 0
+              },
+              "other": {
+                "insertions": 3,
+                "deletions": 3
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "authorFileTypeContributionMap": {
+    "linqing42": {
+      "docs": 0,
+      "functional-code": 0,
+      "test-code": 0
+    },
+    "Yiheng0410": {
+      "docs": 0,
+      "functional-code": 0,
+      "test-code": 0
+    },
+    "Impala36": {
+      "docs": 0,
+      "functional-code": 0,
+      "test-code": 0
+    },
+    "binbinhui": {
+      "docs": 0,
+      "functional-code": 87,
+      "test-code": 1
+    }
+  },
+  "authorContributionVariance": {
+    "linqing42": 0.0,
+    "Yiheng0410": 0.0,
+    "Impala36": 0.0,
+    "binbinhui": 162.3076
+  },
+  "authorDisplayNameMap": {
+    "linqing42": "TIC4001-1 LIN ..QING",
+    "Yiheng0410": "TIC4001-1 ZHEN..HENG",
+    "Impala36": "TIC4001-1 WANG..QUAN",
+    "binbinhui": "TIC4001-1 LIN ..NHUI"
+  }
+}

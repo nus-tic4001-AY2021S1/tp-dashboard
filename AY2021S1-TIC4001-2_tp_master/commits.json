@@ -1,0 +1,235 @@
+{
+  "authorDailyContributionsMap": {
+    "daiweinus": [],
+    "dgc5213": [],
+    "e0260222": [
+      {
+        "date": "2020-10-02",
+        "commitResults": [
+          {
+            "hash": "b5fcfc4d4ca02b6ae3255d3d0f3f1dbe2795ce5d",
+            "messageTitle": "Add code skeleton",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 226,
+                "deletions": 0
+              },
+              "other": {
+                "insertions": 3,
+                "deletions": 5
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-10-03",
+        "commitResults": [
+          {
+            "hash": "0c99ab6df6987de41dd1c59089bdaae9702b24fe",
+            "messageTitle": "Complete code skeleton",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 505,
+                "deletions": 191
+              },
+              "other": {
+                "insertions": 18,
+                "deletions": 18
+              }
+            }
+          },
+          {
+            "hash": "a68f59380e00b50a80c0fea2ff31ea860a34ce40",
+            "messageTitle": "Fix errors found by Gradle check",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 34,
+                "deletions": 21
+              }
+            }
+          },
+          {
+            "hash": "b0c41b3abb24f00e6eec0cbb7c05c79e4ee25d14",
+            "messageTitle": "Fix WhitespaceAround problem found by Gradle check",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "9235b9ba18ae48cb4f87d8ee730ec143c9967e73",
+            "messageTitle": "Add methods for Transaction class and its subclasses",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 104,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "9d88a1c1ca5ccc7be80e353d1171265ce2180ce9",
+            "messageTitle": "Fix line exceeding 120 characters issue",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 2,
+                "deletions": 1
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-10-04",
+        "commitResults": [
+          {
+            "hash": "b3cfd921df58f74cb1fe2168f83ebb010f576370",
+            "messageTitle": "Override toString method for Income and Expense classes",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 19,
+                "deletions": 0
+              },
+              "other": {
+                "insertions": 1,
+                "deletions": 1
+              },
+              "test-code": {
+                "insertions": 40,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "cbc44960ac468dd8793f0669dd8aa6e78e8f5abb",
+            "messageTitle": "Fix Gradle check failures",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "test-code": {
+                "insertions": 2,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "50b5dc020a3913dc6658b92a7b73783507692793",
+            "messageTitle": "TransactionList class: Add addTransaction, getTransaction and removeTransaction methods",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 36,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "66b1fee404d65ca10cc3d7ed08cdd15d295789a8",
+            "messageTitle": "Fix Gradle check failure",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "Chenduo1412": [
+      {
+        "date": "2020-10-04",
+        "commitResults": [
+          {
+            "hash": "7e6be4e2c01a9b740819fb86c490a9e3d67b7541",
+            "messageTitle": "Add IncomeCategoryList and ExpenseCategoryList class",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 114,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "67a164957f3280d53c04a07c6619bb92612101aa",
+            "messageTitle": "Fix gradle check issue",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 1,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "e96fd1f46bd55a4a9e7251e0d8015b6dee58636e",
+            "messageTitle": "Fix the gradle check issue",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 2,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "e8b49fc8fed384259b99f5acc34caa449998a6f5",
+            "messageTitle": "Fix the gradle check issue.",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 2,
+                "deletions": 0
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "authorFileTypeContributionMap": {
+    "daiweinus": {
+      "docs": 0,
+      "functional-code": 0,
+      "test-code": 0
+    },
+    "dgc5213": {
+      "docs": 0,
+      "functional-code": 0,
+      "test-code": 0
+    },
+    "e0260222": {
+      "docs": 0,
+      "functional-code": 729,
+      "test-code": 42,
+      "other": 2
+    },
+    "Chenduo1412": {
+      "docs": 0,
+      "functional-code": 116,
+      "test-code": 0
+    }
+  },
+  "authorContributionVariance": {
+    "daiweinus": 0.0,
+    "dgc5213": 0.0,
+    "e0260222": 16170.1875,
+    "Chenduo1412": 285.34723
+  },
+  "authorDisplayNameMap": {
+    "daiweinus": "TIC4001-2 DAI .. WEI",
+    "dgc5213": "TIC4001-2 LIN ..TONG",
+    "e0260222": "TIC4001-2 CHAN..HONG",
+    "Chenduo1412": "TIC4001-2 CHEN.. DUO"
+  }
+}
