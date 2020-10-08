@@ -1,7 +1,7 @@
 {
   "repoSenseVersion": "abbabb3afe",
-  "reportGeneratedTime": "Wed Oct 7 08:22:20 2020 UTC+08:00",
-  "reportGenerationTime": " 1.87 second(s)",
+  "reportGeneratedTime": "Thu Oct 8 08:20:16 2020 UTC+08:00",
+  "reportGenerationTime": " 3.40 second(s)",
   "repos": [
     {
       "location": {
@@ -46,7 +46,7 @@
   ],
   "errorList": [],
   "sinceDate": "2020-08-14",
-  "untilDate": "2020-10-07",
+  "untilDate": "2020-10-08",
   "isSinceDateProvided": true,
   "isUntilDateProvided": false
 }
