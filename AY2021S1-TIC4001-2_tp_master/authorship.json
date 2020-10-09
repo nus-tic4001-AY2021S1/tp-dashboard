@@ -923,138 +923,159 @@
       {
         "lineNumber": 5,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
-        "content": "import moneytracker.transaction.TransactionList;"
+        "content": "import moneytracker.transaction.Expense;"
       },
       {
         "lineNumber": 6,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
-        "content": "import moneytracker.ui.Ui;"
+        "content": "import moneytracker.transaction.Transaction;"
       },
       {
         "lineNumber": 7,
         "author": {
           "gitId": "e0260222"
         },
-        "content": ""
+        "content": "import moneytracker.transaction.TransactionList;"
       },
       {
         "lineNumber": 8,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "public class AddExpenseCommand extends Command {"
+        "content": "import moneytracker.ui.Ui;"
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    private final String fullCommand;"
+        "content": ""
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "e0260222"
         },
-        "content": ""
+        "content": "public class AddExpenseCommand extends Command {"
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    /**"
+        "content": "    private final String fullCommand;"
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "     * Initializes a \u003ccode\u003eAddExpenseCommand\u003c/code\u003e object."
+        "content": ""
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "     *"
+        "content": "    /**"
       },
       {
         "lineNumber": 14,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "     * @param fullCommand User\u0027s full input string."
+        "content": "     * Initializes a \u003ccode\u003eAddExpenseCommand\u003c/code\u003e object."
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "     */"
+        "content": "     *"
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    public AddExpenseCommand(String fullCommand) {"
+        "content": "     * @param fullCommand User\u0027s full input string."
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        this.fullCommand \u003d fullCommand;"
+        "content": "     */"
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    }"
+        "content": "    public AddExpenseCommand(String fullCommand) {"
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "e0260222"
         },
-        "content": ""
+        "content": "        this.fullCommand \u003d fullCommand;"
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    @Override"
+        "content": "    }"
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    public void execute(TransactionList transactions, Ui ui, Storage storage) throws MoneyTrackerException {"
+        "content": ""
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "e0260222"
         },
-        "content": ""
+        "content": "    @Override"
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    }"
+        "content": "    public void execute(TransactionList transactions, Ui ui, Storage storage) throws MoneyTrackerException {"
       },
       {
         "lineNumber": 24,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "  "
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 27,
         "author": {
           "gitId": "e0260222"
         },
@@ -1062,6 +1083,7 @@
       }
     ],
     "authorContributionMap": {
+      "dgc5213": 3,
       "e0260222": 24
     }
   },
@@ -2812,19 +2834,61 @@
       {
         "lineNumber": 22,
         "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "        transactions.setIsInitialized(true);"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "        transactions.clearSearchResultIndexes();"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "        for (int i \u003d 0; i \u003c transactions.getSize(); i++) {"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "            transactions.addSearchResultIndex(i);"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
           "gitId": "e0260222"
         },
         "content": ""
       },
       {
-        "lineNumber": 23,
+        "lineNumber": 27,
         "author": {
           "gitId": "e0260222"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "        ui.printListTransaction(transactions);"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "dgc5213"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 24,
+        "lineNumber": 30,
         "author": {
           "gitId": "e0260222"
         },
@@ -2832,6 +2896,7 @@
       }
     ],
     "authorContributionMap": {
+      "dgc5213": 6,
       "e0260222": 24
     }
   },
@@ -5754,341 +5819,502 @@
       {
         "lineNumber": 9,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "    private final ArrayList\u003cInteger\u003e searchResultIndexes \u003d new ArrayList\u003c\u003e();"
       },
       {
         "lineNumber": 10,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
-        "content": "    /**"
+        "content": "    private boolean isInitialized \u003d false;"
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "     * Initializes an empty \u003ccode\u003eTransactionList\u003c/code\u003e object."
+        "content": ""
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "     */"
+        "content": "    /**"
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    public TransactionList() {"
+        "content": "     * Initializes an empty \u003ccode\u003eTransactionList\u003c/code\u003e object."
       },
       {
         "lineNumber": 14,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    }"
+        "content": "     */"
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "e0260222"
         },
-        "content": ""
+        "content": "    public TransactionList() {"
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    /**"
+        "content": "    }"
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "     * Initializes a \u003ccode\u003eTransactionList\u003c/code\u003e object."
+        "content": ""
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "     *"
+        "content": "    /**"
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "     * @param transactions List of \u003ccode\u003eTransaction\u003c/code\u003e objects."
+        "content": "     * Initializes a \u003ccode\u003eTransactionList\u003c/code\u003e object."
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "     */"
+        "content": "     *"
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    public TransactionList(ArrayList\u003cTransaction\u003e transactions) {"
+        "content": "     * @param transactions List of \u003ccode\u003eTransaction\u003c/code\u003e objects."
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        this.transactions \u003d transactions;"
+        "content": "     */"
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    }"
+        "content": "    public TransactionList(ArrayList\u003cTransaction\u003e transactions) {"
       },
       {
         "lineNumber": 24,
         "author": {
           "gitId": "e0260222"
         },
-        "content": ""
+        "content": "        this.transactions \u003d transactions;"
       },
       {
         "lineNumber": 25,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    /**"
+        "content": "    }"
       },
       {
         "lineNumber": 26,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "     * Get \u003ccode\u003eTransaction\u003c/code\u003e object from the \u003ccode\u003eTransactionList\u003c/code\u003e."
+        "content": ""
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "     *"
+        "content": "    /**"
       },
       {
         "lineNumber": 28,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "     * @param index Index of Transaction in the \u003ccode\u003eTransactionList\u003c/code\u003e."
+        "content": "     * Get \u003ccode\u003eTransaction\u003c/code\u003e object from the \u003ccode\u003eTransactionList\u003c/code\u003e."
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "     * @return \u003ccode\u003eTransaction\u003c/code\u003e object."
+        "content": "     *"
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "     */"
+        "content": "     * @param index Index of Transaction in the \u003ccode\u003eTransactionList\u003c/code\u003e."
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    public Transaction getTransaction(int index) {"
+        "content": "     * @return \u003ccode\u003eTransaction\u003c/code\u003e object."
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        return transactions.get(index);"
+        "content": "     */"
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    }"
+        "content": "    public Transaction getTransaction(int index) {"
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "e0260222"
         },
-        "content": ""
+        "content": "        return transactions.get(index);"
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    /**"
+        "content": "    }"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "     * Add a transaction to the \u003ccode\u003eTransactionList\u003c/code\u003e object."
+        "content": ""
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "     *"
+        "content": "    /**"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "     * @param t \u003ccode\u003eTransaction\u003c/code\u003e object."
+        "content": "     * Add a transaction to the \u003ccode\u003eTransactionList\u003c/code\u003e object."
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "     */"
+        "content": "     *"
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    public void addTransaction(Transaction t) {"
+        "content": "     * @param t \u003ccode\u003eTransaction\u003c/code\u003e object."
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        transactions.add(t);"
+        "content": "     */"
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    }"
+        "content": "    public void addTransaction(Transaction t) {"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "e0260222"
         },
-        "content": ""
+        "content": "        transactions.add(t);"
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    /**"
+        "content": "    }"
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "     * Remove a \u003ccode\u003eTransaction\u003c/code\u003e object from the \u003ccode\u003eTransactionList\u003c/code\u003e."
+        "content": ""
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "     *"
+        "content": "    /**"
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "     * @param index Index of a \u003ccode\u003eTransaction\u003c/code\u003e in \u003ccode\u003eTransactionList\u003c/code\u003e."
+        "content": "     * Remove a \u003ccode\u003eTransaction\u003c/code\u003e object from the \u003ccode\u003eTransactionList\u003c/code\u003e."
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "     * @throws MoneyTrackerException If index is invalid."
+        "content": "     *"
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "     */"
+        "content": "     * @param index Index of a \u003ccode\u003eTransaction\u003c/code\u003e in \u003ccode\u003eTransactionList\u003c/code\u003e."
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    public void removeTransaction(int index) throws MoneyTrackerException {"
+        "content": "     * @throws MoneyTrackerException If index is invalid."
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        try {"
+        "content": "     */"
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "            transactions.remove(transactions.get(index));"
+        "content": "    public void removeTransaction(int index) throws MoneyTrackerException {"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        } catch (IndexOutOfBoundsException e) {"
+        "content": "        try {"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "            throw new MoneyTrackerException(\"Invalid index\");"
+        "content": "            transactions.remove(transactions.get(index));"
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        }"
+        "content": "        } catch (IndexOutOfBoundsException e) {"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    }"
+        "content": "            throw new MoneyTrackerException(\"Invalid index\");"
       },
       {
         "lineNumber": 57,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 58,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 59,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 60,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "    public int getSize() {"
+      },
+      {
+        "lineNumber": 61,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "        return transactions.size();"
+      },
+      {
+        "lineNumber": 62,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 63,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 64,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "    public void setIsInitialized(boolean isInitialized) {"
+      },
+      {
+        "lineNumber": 65,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "        this.isInitialized \u003d isInitialized;"
+      },
+      {
+        "lineNumber": 66,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 67,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 68,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "    public boolean getIsInitialized() {"
+      },
+      {
+        "lineNumber": 69,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "        return isInitialized;"
+      },
+      {
+        "lineNumber": 70,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 71,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "    "
+      },
+      {
+        "lineNumber": 72,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "    public void clearSearchResultIndexes() {"
+      },
+      {
+        "lineNumber": 73,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "        searchResultIndexes.clear();"
+      },
+      {
+        "lineNumber": 74,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 75,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 76,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "    public void addSearchResultIndex(int searchResultIndex) {"
+      },
+      {
+        "lineNumber": 77,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "        searchResultIndexes.add(searchResultIndex);"
+      },
+      {
+        "lineNumber": 78,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 79,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 80,
         "author": {
           "gitId": "e0260222"
         },
@@ -6096,6 +6322,7 @@
       }
     ],
     "authorContributionMap": {
+      "dgc5213": 23,
       "e0260222": 57
     }
   },
@@ -6120,14 +6347,14 @@
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
-        "content": "import java.util.Scanner;"
+        "content": "import moneytracker.transaction.TransactionList;"
       },
       {
         "lineNumber": 4,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
         "content": ""
       },
@@ -6136,182 +6363,182 @@
         "author": {
           "gitId": "e0260222"
         },
-        "content": "public class Ui {"
+        "content": "import java.util.Scanner;"
       },
       {
         "lineNumber": 6,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    public static final String LINE \u003d \"____________________________________________________________________\";"
+        "content": ""
       },
       {
         "lineNumber": 7,
         "author": {
           "gitId": "e0260222"
         },
-        "content": ""
+        "content": "public class Ui {"
       },
       {
         "lineNumber": 8,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    /**"
+        "content": "    public static final String LINE \u003d \"____________________________________________________________________\";"
       },
       {
         "lineNumber": 9,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
-        "content": "     * Get the input stream from the user."
+        "content": "    public static final String INDENT \u003d \"      \";"
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "     * @return Input stream from the user."
+        "content": ""
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "     */"
+        "content": "    /**"
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    public String readUserCommand() {"
+        "content": "     * Get the input stream from the user."
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        Scanner in \u003d new Scanner(System.in);"
+        "content": "     * @return Input stream from the user."
       },
       {
         "lineNumber": 14,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        System.out.print(\"You:  \");"
+        "content": "     */"
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        return in.nextLine().trim();"
+        "content": "    public String readUserCommand() {"
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    }"
+        "content": "        Scanner in \u003d new Scanner(System.in);"
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "e0260222"
         },
-        "content": ""
+        "content": "        System.out.print(\"You:  \");"
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    public void printWelcome() {"
+        "content": "        return in.nextLine().trim();"
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        String logo \u003d \" __  __                          _______             _             \" + System.lineSeparator()"
+        "content": "    }"
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "                + \"|  \\\\/  |                        |__   __|           | |            \" + System.lineSeparator()"
+        "content": ""
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "                + \"| \\\\  / | ___  _ __   ___ _   _     | |_ __ __ _  ___| | _____ _ __ \" + System.lineSeparator()"
+        "content": "    public void printWelcome() {"
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "                + \"| |\\\\/| |/ _ \\\\| \u0027_ \\\\ / _ \\\\ | | |    | | \u0027__/ _` |/ __| |/ / _ \\\\ \u0027__|\" + System.lineSeparator()"
+        "content": "        String logo \u003d \" __  __                          _______             _             \" + System.lineSeparator()"
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "                + \"| |  | | (_) | | | |  __/ |_| |    | | | | (_| | (__|   \u003c  __/ |   \" + System.lineSeparator()"
+        "content": "                + \"|  \\\\/  |                        |__   __|           | |            \" + System.lineSeparator()"
       },
       {
         "lineNumber": 24,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "                + \"|_|  |_|\\\\___/|_| |_|\\\\___|\\\\__, |    |_|_|  \\\\__,_|\\\\___|_|\\\\_\\\\___|_|   \" + System.lineSeparator()"
+        "content": "                + \"| \\\\  / | ___  _ __   ___ _   _     | |_ __ __ _  ___| | _____ _ __ \" + System.lineSeparator()"
       },
       {
         "lineNumber": 25,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "                + \"                          __/ |                                    \" + System.lineSeparator()"
+        "content": "                + \"| |\\\\/| |/ _ \\\\| \u0027_ \\\\ / _ \\\\ | | |    | | \u0027__/ _` |/ __| |/ / _ \\\\ \u0027__|\" + System.lineSeparator()"
       },
       {
         "lineNumber": 26,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "                + \"                         |___/                                     \" + System.lineSeparator();"
+        "content": "                + \"| |  | | (_) | | | |  __/ |_| |    | | | | (_| | (__|   \u003c  __/ |   \" + System.lineSeparator()"
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "e0260222"
         },
-        "content": ""
+        "content": "                + \"|_|  |_|\\\\___/|_| |_|\\\\___|\\\\__, |    |_|_|  \\\\__,_|\\\\___|_|\\\\_\\\\___|_|   \" + System.lineSeparator()"
       },
       {
         "lineNumber": 28,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        printLine();"
+        "content": "                + \"                          __/ |                                    \" + System.lineSeparator()"
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        System.out.println(logo);"
+        "content": "                + \"                         |___/                                     \" + System.lineSeparator();"
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        System.out.println(\"Money Tracker: Hello! What can I do for you?\");"
+        "content": ""
       },
       {
         "lineNumber": 31,
@@ -6325,143 +6552,283 @@
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    }"
+        "content": "        System.out.println(logo);"
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "e0260222"
         },
-        "content": ""
+        "content": "        System.out.println(\"Money Tracker: Hello! What can I do for you?\");"
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    public void printError(String errorMessage) {"
+        "content": "        printLine();"
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        System.out.println(\"Money Tracker: OOPS!! \" + errorMessage);"
+        "content": "    }"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        printLine();"
+        "content": ""
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    }"
+        "content": "    public void printError(String errorMessage) {"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "e0260222"
         },
-        "content": ""
+        "content": "        System.out.println(\"Money Tracker: OOPS!! \" + errorMessage);"
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    public void printHelp() {"
+        "content": "        printLine();"
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        System.out.println(\"Money Tracker: User guide will be available soon!\");"
+        "content": "    }"
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        printLine();"
+        "content": ""
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    }"
+        "content": "    public void printHelp() {"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "e0260222"
         },
-        "content": ""
+        "content": "        System.out.println(\"Money Tracker: User guide will be available soon!\");"
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    public void printGoodbye() {"
+        "content": "        printLine();"
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        System.out.println(\"Money Tracker: Bye! Hope to see you again soon.\");"
+        "content": "    }"
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        printLine();"
+        "content": ""
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    }"
+        "content": "    public void printGoodbye() {"
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "e0260222"
         },
-        "content": ""
+        "content": "        System.out.println(\"Money Tracker: Bye! Hope to see you again soon.\");"
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    public void printLine() {"
+        "content": "        printLine();"
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        System.out.println(LINE);"
+        "content": "    }"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 52,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "    public void printLine() {"
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "        System.out.println(LINE);"
+      },
+      {
+        "lineNumber": 54,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "    public void printIndentation() {"
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "        System.out.print(INDENT);"
+      },
+      {
+        "lineNumber": 58,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 59,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 60,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "    public void printListTransaction(TransactionList transactions) {"
+      },
+      {
+        "lineNumber": 61,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "        if (transactions.getSize() \u003d\u003d 0) {"
+      },
+      {
+        "lineNumber": 62,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "            System.out.println(\"Sorry, there is no record in your list.\");"
+      },
+      {
+        "lineNumber": 63,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "        } else {"
+      },
+      {
+        "lineNumber": 64,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "            System.out.println(\"Here are your records:\");"
+      },
+      {
+        "lineNumber": 65,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "            for (int i \u003d 0; i \u003c transactions.getSize(); i++) {"
+      },
+      {
+        "lineNumber": 66,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "                printIndentation();"
+      },
+      {
+        "lineNumber": 67,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "                System.out.println((i + 1) + \". \" + transactions.getTransaction(i).toString());"
+      },
+      {
+        "lineNumber": 68,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 69,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 70,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "        printLine();"
+      },
+      {
+        "lineNumber": 71,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 72,
         "author": {
           "gitId": "e0260222"
         },
@@ -6469,6 +6836,7 @@
       }
     ],
     "authorContributionMap": {
+      "dgc5213": 20,
       "e0260222": 52
     }
   },

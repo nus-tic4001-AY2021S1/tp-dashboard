@@ -324,11 +324,60 @@
           "gitId": "-"
         },
         "content": "}"
+      },
+      {
+        "lineNumber": 47,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 48,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "jar {"
+      },
+      {
+        "lineNumber": 49,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "  manifest {"
+      },
+      {
+        "lineNumber": 50,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "    attributes("
+      },
+      {
+        "lineNumber": 51,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "      \"Class-Path\": configurations.compile.collect { it.getName() }.join(\u0027 \u0027))"
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "  }"
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "}"
       }
     ],
     "authorContributionMap": {
       "-": 45,
-      "adi-kd0021": 1
+      "adi-kd0021": 8
     }
   },
   {
@@ -368,115 +417,283 @@
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "public class NusExpenses {"
+        "content": ""
       },
       {
         "lineNumber": 6,
         "author": {
-          "gitId": "-"
+          "gitId": "adi-kd0021"
         },
-        "content": "    /**"
+        "content": "public class NusExpenses {"
       },
       {
         "lineNumber": 7,
         "author": {
           "gitId": "-"
         },
-        "content": "     * Main entry-point for the java.duke.Duke application."
+        "content": "    /**"
       },
       {
         "lineNumber": 8,
         "author": {
           "gitId": "-"
         },
-        "content": "     */"
+        "content": "     * Main entry-point for the java.duke.Duke application."
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "-"
         },
-        "content": "    public static void main(String[] args) {"
+        "content": "     */"
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "-"
         },
-        "content": "        String logo \u003d \" ____        _        \\n\""
+        "content": "    public static void main(String[] args) {"
       },
       {
         "lineNumber": 11,
         "author": {
-          "gitId": "-"
-        },
-        "content": "                + \"|  _ \\\\ _   _| | _____ \\n\""
-      },
-      {
-        "lineNumber": 12,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "                + \"| | | | | | | |/ / _ \\\\\\n\""
-      },
-      {
-        "lineNumber": 13,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "                + \"| |_| | |_| |   \u003c  __/\\n\""
-      },
-      {
-        "lineNumber": 14,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "                + \"|____/ \\\\__,_|_|\\\\_\\\\___|\\n\";"
-      },
-      {
-        "lineNumber": 15,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        System.out.println(\"Hello from\\n\" + logo);"
-      },
-      {
-        "lineNumber": 16,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "        System.out.println(\"What is your name?\");"
-      },
-      {
-        "lineNumber": 17,
-        "author": {
-          "gitId": "-"
+          "gitId": "adi-kd0021"
         },
         "content": ""
       },
       {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "        //Start the Expense Tracker."
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "        new NusExpenses().run();"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "    public void run() {"
+      },
+      {
         "lineNumber": 18,
         "author": {
-          "gitId": "-"
+          "gitId": "adi-kd0021"
         },
-        "content": "        Scanner in \u003d new Scanner(System.in);"
+        "content": "        boolean isExit \u003d false;"
       },
       {
         "lineNumber": 19,
         "author": {
-          "gitId": "-"
+          "gitId": "adi-kd0021"
         },
-        "content": "        System.out.println(\"Hello \" + in.nextLine());"
+        "content": "        while (isExit) {"
       },
       {
         "lineNumber": 20,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "            try {"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "                switch (\"\") {"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "                case \"EXIT\":"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "                    isExit \u003d true;"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "                    break;"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "                case \"ADD\":"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "                    break;"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "                case \"VIEW\":"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "                    break;"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "                case \"DELETE\":"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "                    break;"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "                case \"SEARCH\":"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "                    break;"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "                case \"TOTAL\":"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "                    break;"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "                default:"
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "                    break;"
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "                }"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "            } catch (Exception e) {"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "                System.out.println(e.getMessage());"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "        System.exit(0);"
+      },
+      {
+        "lineNumber": 44,
         "author": {
           "gitId": "-"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 21,
+        "lineNumber": 45,
         "author": {
           "gitId": "-"
         },
@@ -484,12 +701,12 @@
       }
     ],
     "authorContributionMap": {
-      "-": 20,
-      "adi-kd0021": 1
+      "-": 10,
+      "adi-kd0021": 35
     }
   },
   {
-    "path": "src/main/java/seedu/duke/Transaction.java",
+    "path": "src/main/java/seedu/duke/commands/AddCommand.java",
     "fileType": "functional-code",
     "lines": [
       {
@@ -497,7 +714,7 @@
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "package seedu.duke;"
+        "content": "package seedu.duke.commands;"
       },
       {
         "lineNumber": 2,
@@ -511,28 +728,65 @@
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "public class Transaction {"
+        "content": "public class AddCommand {"
       },
       {
         "lineNumber": 4,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "    private int amount;"
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "adi-kd0021": 4
+    }
+  },
+  {
+    "path": "src/main/java/seedu/duke/commands/Command.java",
+    "fileType": "functional-code",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "package seedu.duke.commands;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "import seedu.duke.data.Transaction;"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "import seedu.duke.data.TransactionList;"
       },
       {
         "lineNumber": 5,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "    private String description;"
+        "content": ""
       },
       {
         "lineNumber": 6,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "    private String date;"
+        "content": "class Command {"
       },
       {
         "lineNumber": 7,
@@ -546,105 +800,105 @@
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": ""
+        "content": "    protected TransactionList transactionList;"
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "    public int getAmount() {"
+        "content": "    private int targetIndex \u003d -1;"
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "        return amount;"
+        "content": ""
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "    }"
+        "content": "    public Command(int targetIndex) {"
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": ""
+        "content": "        this.setTargetIndex(targetIndex);"
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "    public void setAmount(int amount) {"
+        "content": "    }"
       },
       {
         "lineNumber": 14,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "        this.amount \u003d amount;"
+        "content": ""
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "    }"
+        "content": "    protected Command() {"
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "    public String getDate() {"
+        "content": ""
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "        return date;"
+        "content": "    /**"
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "    }"
+        "content": "     * Executes the command and returns the result."
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": ""
+        "content": "     */"
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "    public void setDate(String date) {"
+        "content": "    public CommandResult execute() {"
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "        this.date \u003d date;"
+        "content": "        throw new UnsupportedOperationException(\"This method is to be implemented by child classes\");"
       },
       {
         "lineNumber": 23,
@@ -665,14 +919,14 @@
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "    public String getDescription() {"
+        "content": "    public int getTargetIndex() {"
       },
       {
         "lineNumber": 26,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "        return description;"
+        "content": "        return targetIndex;"
       },
       {
         "lineNumber": 27,
@@ -693,14 +947,14 @@
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "    public void setDescription(String description) {"
+        "content": "    public void setTargetIndex(int targetIndex) {"
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "        this.description \u003d description;"
+        "content": "        this.targetIndex \u003d targetIndex;"
       },
       {
         "lineNumber": 31,
@@ -714,59 +968,773 @@
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": ""
+        "content": "}"
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "    /**"
-      },
+        "content": ""
+      }
+    ],
+    "authorContributionMap": {
+      "adi-kd0021": 33
+    }
+  },
+  {
+    "path": "src/main/java/seedu/duke/commands/CommandResult.java",
+    "fileType": "functional-code",
+    "lines": [
       {
-        "lineNumber": 34,
-        "author": {
-          "gitId": "skyventus"
-        },
-        "content": "     * To display task in String format."
-      },
-      {
-        "lineNumber": 35,
+        "lineNumber": 1,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "     * @return"
+        "content": "package seedu.duke.commands;"
       },
       {
-        "lineNumber": 36,
+        "lineNumber": 2,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "import seedu.duke.data.ReadOnlyTransaction;"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "import java.util.ArrayList;"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "import java.util.List;"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "public class CommandResult {"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "     * The feedback message to be shown to the user. Contains a description of the execution result."
+      },
+      {
+        "lineNumber": 12,
         "author": {
           "gitId": "adi-kd0021"
         },
         "content": "     */"
       },
       {
-        "lineNumber": 37,
+        "lineNumber": 13,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "    public String toString() {"
+        "content": "    public final String feedbackToUser;"
       },
       {
-        "lineNumber": 38,
+        "lineNumber": 14,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "        return String.format(\"%s\", this.getDescription());"
+        "content": ""
       },
       {
-        "lineNumber": 39,
+        "lineNumber": 15,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "     * The list of persons that was produced by the command."
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "    private final List\u003c? extends ReadOnlyTransaction\u003e transaction;"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "    public CommandResult(String feedbackToUser) {"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "        this.feedbackToUser \u003d feedbackToUser;"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "        transaction \u003d null;"
+      },
+      {
+        "lineNumber": 25,
         "author": {
           "gitId": "adi-kd0021"
         },
         "content": "    }"
       },
       {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "    public CommandResult(String feedbackToUser, List\u003c? extends ReadOnlyTransaction\u003e transaction) {"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "        this.feedbackToUser \u003d feedbackToUser;"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "        this.transaction \u003d transaction;"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "adi-kd0021": 31
+    }
+  },
+  {
+    "path": "src/main/java/seedu/duke/commands/DeleteCommand.java",
+    "fileType": "functional-code",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "package seedu.duke.commands;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "public class DeleteCommand {"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "adi-kd0021": 4
+    }
+  },
+  {
+    "path": "src/main/java/seedu/duke/commands/SearchCommand.java",
+    "fileType": "functional-code",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "package seedu.duke.commands;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "public class SearchCommand {"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "adi-kd0021": 4
+    }
+  },
+  {
+    "path": "src/main/java/seedu/duke/commands/TotalCommand.java",
+    "fileType": "functional-code",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "package seedu.duke.commands;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "public class TotalCommand {"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "adi-kd0021": 4
+    }
+  },
+  {
+    "path": "src/main/java/seedu/duke/commands/ViewCommand.java",
+    "fileType": "functional-code",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "package seedu.duke.commands;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "public class ViewCommand {"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "adi-kd0021": 4
+    }
+  },
+  {
+    "path": "src/main/java/seedu/duke/data/ReadOnlyTransaction.java",
+    "fileType": "functional-code",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "package seedu.duke.data;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "public interface ReadOnlyTransaction {"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "    double getAmount();"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "    String getDescription();"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "    String getDate();"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "adi-kd0021": 11
+    }
+  },
+  {
+    "path": "src/main/java/seedu/duke/data/Transaction.java",
+    "fileType": "functional-code",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "package seedu.duke.data;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "public class Transaction implements ReadOnlyTransaction {"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "    private double amount;"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "    private String description;"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "    private String date;"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "    public double getAmount() {"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "        return amount;"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "    public void setAmount(int amount) {"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "        this.amount \u003d amount;"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "    public String getDate() {"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "        return date;"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "    public void setDate(String date) {"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "        this.date \u003d date;"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "    public String getDescription() {"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "        return description;"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "    public void setDescription(String description) {"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "        this.description \u003d description;"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "     * To display task in String format."
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "     *"
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "     * @return"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "    public String toString() {"
+      },
+      {
         "lineNumber": 40,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "        return String.format(\"%s Date:%s Amount:$%.2f\", this.getDescription(), this.getDate(), this.getAmount());"
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 42,
         "author": {
           "gitId": "adi-kd0021"
         },
@@ -775,11 +1743,11 @@
     ],
     "authorContributionMap": {
       "skyventus": 1,
-      "adi-kd0021": 39
+      "adi-kd0021": 41
     }
   },
   {
-    "path": "src/main/java/seedu/duke/TransactionList.java",
+    "path": "src/main/java/seedu/duke/data/TransactionList.java",
     "fileType": "functional-code",
     "lines": [
       {
@@ -787,7 +1755,7 @@
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "package seedu.duke;"
+        "content": "package seedu.duke.data;"
       },
       {
         "lineNumber": 2,
@@ -829,14 +1797,14 @@
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "    private List\u003cTransaction\u003e transactionList;"
+        "content": ""
       },
       {
         "lineNumber": 8,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": ""
+        "content": "    private List\u003cTransaction\u003e transactionList;"
       },
       {
         "lineNumber": 9,
@@ -850,24 +1818,38 @@
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "    public TransactionList() {"
+        "content": ""
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "        this.transactionList \u003d new ArrayList\u003c\u003e();"
+        "content": "    public TransactionList(List\u003cTransaction\u003e transactionList) {"
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "    }"
+        "content": "        this.transactionList \u003d new ArrayList\u003c\u003e();"
       },
       {
         "lineNumber": 13,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 15,
         "author": {
           "gitId": "adi-kd0021"
         },
@@ -875,7 +1857,7 @@
       }
     ],
     "authorContributionMap": {
-      "adi-kd0021": 13
+      "adi-kd0021": 15
     }
   },
   {
@@ -908,11 +1890,18 @@
         "author": {
           "gitId": "adi-kd0021"
         },
+        "content": ""
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
         "content": "}"
       }
     ],
     "authorContributionMap": {
-      "adi-kd0021": 4
+      "adi-kd0021": 5
     }
   },
   {
@@ -1212,6 +2201,30 @@
     "authorContributionMap": {
       "skyventus": 5,
       "adi-kd0021": 31
+    }
+  },
+  {
+    "path": "text-ui-test/input.txt",
+    "fileType": "other",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "James Gosling"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "EXIT"
+      }
+    ],
+    "authorContributionMap": {
+      "-": 1,
+      "adi-kd0021": 1
     }
   }
 ]
