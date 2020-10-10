@@ -35,6 +35,102 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-02",
+        "commitResults": [
+          {
+            "hash": "4eb0124e280b6459cb1bb5c647fa13c0358e636b",
+            "messageTitle": "Added the getSize() method as I needed this for my JUnit Testing. Added DeteleFunctionTest class for JUnit testing",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 2,
+                "deletions": 0
+              },
+              "test-code": {
+                "insertions": 46,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "3dce1bfa9617467e36c92e2e925a17018a5e47ab",
+            "messageTitle": "changed the spacing as it failed the CheckStyle",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "test-code": {
+                "insertions": 3,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "fdb7937da79774d3cde25c746de311846eef16c2",
+            "messageTitle": "changed spacing to pass CheckStyle",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 4,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "6d9b7bbf2ef46a8b0229b8b8e2e164fe2002aea1",
+            "messageTitle": "removed unused changes",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "test-code": {
+                "insertions": 0,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "53a019b765b951b6fd715492e8550e6e6d946aa1",
+            "messageTitle": "Removed space to pass CheckStyle",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 1,
+                "deletions": 2
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-10-03",
+        "commitResults": [
+          {
+            "hash": "b8b5ba2f435da478e84104cec3fb2e4ec52e4f43",
+            "messageTitle": "made Styling changes",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "test-code": {
+                "insertions": 11,
+                "deletions": 13
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-10-09",
+        "commitResults": [
+          {
+            "hash": "f068010de6391613248f51109ce167c075e6bf20",
+            "messageTitle": "made formatting changes to pass gradle testing",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "test-code": {
+                "insertions": 9,
+                "deletions": 8
+              }
+            }
+          }
+        ]
       }
     ],
     "pigoliver": [
@@ -198,6 +294,26 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-09",
+        "commitResults": [
+          {
+            "hash": "bc72fa8d84fc3f29dd0a261832854aef96144bc6",
+            "messageTitle": "Add Skeleton for Assertion, Exception, and Logger",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 7,
+                "deletions": 0
+              },
+              "other": {
+                "insertions": 2,
+                "deletions": 1
+              }
+            }
+          }
+        ]
       }
     ]
   },
@@ -214,21 +330,21 @@
     },
     "JanuariusJang": {
       "docs": 0,
-      "functional-code": 5,
-      "test-code": 0
+      "functional-code": 9,
+      "test-code": 45
     },
     "pigoliver": {
       "docs": 0,
-      "functional-code": 242,
+      "functional-code": 249,
       "test-code": 41,
-      "other": 3
+      "other": 4
     }
   },
   "authorContributionVariance": {
-    "ZhengShijieNUS": 1.5876004,
+    "ZhengShijieNUS": 1.3961225,
     "tototto": 0.0,
-    "JanuariusJang": 0.49000004,
-    "pigoliver": 3898.4106
+    "JanuariusJang": 77.37089,
+    "pigoliver": 3428.534
   },
   "authorDisplayNameMap": {
     "ZhengShijieNUS": "TIC4001-3 ZHEN..IJIE",

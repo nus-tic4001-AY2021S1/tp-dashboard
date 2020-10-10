@@ -321,6 +321,13 @@
       {
         "lineNumber": 46,
         "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    enableAssertions \u003d true"
+      },
+      {
+        "lineNumber": 47,
+        "author": {
           "gitId": "-"
         },
         "content": "}"
@@ -328,7 +335,7 @@
     ],
     "authorContributionMap": {
       "-": 44,
-      "pigoliver": 2
+      "pigoliver": 3
     }
   },
   {
@@ -1257,6 +1264,34 @@
       {
         "lineNumber": 28,
         "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "    public int getSize() {"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        return issueList.size();"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
           "gitId": "-"
         },
         "content": "}"
@@ -1265,6 +1300,7 @@
     "authorContributionMap": {
       "ZhengShijieNUS": 4,
       "-": 21,
+      "JanuariusJang": 4,
       "pigoliver": 3
     }
   },
@@ -2967,6 +3003,388 @@
     }
   },
   {
+    "path": "src/main/java/seedu/itlogger/exception/ItLoggerException.java",
+    "fileType": "functional-code",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "package seedu.itlogger.exception;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "public class ItLoggerException extends Exception {"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    public ItLoggerException(String message) {"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        super(message);"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "pigoliver": 7
+    }
+  },
+  {
+    "path": "src/test/java/seedu/itlogger/DeleteFunctionTest.java",
+    "fileType": "test-code",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "package seedu.itlogger;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "import org.junit.jupiter.api.Test;"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "import java.text.SimpleDateFormat;"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "import static org.junit.jupiter.api.Assertions.assertEquals;"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "public class DeleteFunctionTest {"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "    @Test"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "    public void deleteFunctionTest() {"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        IssueList issueList \u003d new IssueList();"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        try {"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "            issueList.addIssue(new Defect(\"cannot launch\", \"new\", 1,"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "                    new SimpleDateFormat(\"dd/MM/yyyy\").parse(\"20/10/2020\"),"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "                    \"Jack\"));"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "            issueList.addIssue(new Defect(\"cannot login\", \"new\", 1,"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "                    new SimpleDateFormat(\"dd/MM/yyyy\").parse(\"20/10/2020\"),"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "                    \"Jack\"));"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "            issueList.addIssue(new Defect(\"cannot exit\", \"new\", 1,"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "                    new SimpleDateFormat(\"dd/MM/yyyy\").parse(\"20/10/2020\"),"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "                    \"Jack\"));"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        } catch (Exception e) {"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "            System.out.println(e);"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        //checks number of tasks created."
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        assertEquals(3, issueList.getSize());"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        //deletes the first item"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        issueList.deleteIssue(0);"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        //check that title of the next item"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        assertEquals(\"cannot login\", issueList.getDefect(0).title);"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        //deletes the next item which is now index 0"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        issueList.deleteIssue(0);"
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        //check that title of the next item"
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        assertEquals(\"cannot exit\", issueList.getDefect(0).title);"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        //deletes the next item which is now index 0"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        issueList.deleteIssue(0);"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        //checks number of tasks left."
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        assertEquals(0, issueList.getSize());"
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "}"
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": ""
+      }
+    ],
+    "authorContributionMap": {
+      "JanuariusJang": 45
+    }
+  },
+  {
     "path": "src/test/java/seedu/itlogger/ItLoggerTest.java",
     "fileType": "test-code",
     "lines": [
@@ -3003,59 +3421,66 @@
         "author": {
           "gitId": "-"
         },
-        "content": "import org.junit.jupiter.api.Test;"
+        "content": ""
       },
       {
         "lineNumber": 6,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "import org.junit.jupiter.api.Test;"
       },
       {
         "lineNumber": 7,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 8,
         "author": {
           "gitId": "pigoliver"
         },
         "content": "class ItLoggerTest {"
       },
       {
-        "lineNumber": 8,
+        "lineNumber": 9,
         "author": {
           "gitId": "-"
         },
         "content": "    @Test"
       },
       {
-        "lineNumber": 9,
+        "lineNumber": 10,
         "author": {
           "gitId": "-"
         },
         "content": "    public void sampleTest() {"
       },
       {
-        "lineNumber": 10,
+        "lineNumber": 11,
         "author": {
           "gitId": "-"
         },
         "content": "        assertTrue(true);"
       },
       {
-        "lineNumber": 11,
+        "lineNumber": 12,
         "author": {
           "gitId": "-"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 12,
+        "lineNumber": 13,
         "author": {
           "gitId": "-"
         },
         "content": "}"
       },
       {
-        "lineNumber": 13,
+        "lineNumber": 14,
         "author": {
           "gitId": "-"
         },
@@ -3063,7 +3488,7 @@
       }
     ],
     "authorContributionMap": {
-      "-": 12,
+      "-": 13,
       "pigoliver": 1
     }
   },

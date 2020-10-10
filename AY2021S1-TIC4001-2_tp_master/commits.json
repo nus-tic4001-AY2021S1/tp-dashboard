@@ -182,6 +182,53 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-09",
+        "commitResults": [
+          {
+            "hash": "00bc2a7afdf499141b561f5e053c7977eeb5618b",
+            "messageTitle": "Add add income feature",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 76,
+                "deletions": 7
+              }
+            }
+          },
+          {
+            "hash": "4f5771d582dadbcd8d54e87a6a3050dc73a0bbe5",
+            "messageTitle": "Add expense",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 92,
+                "deletions": 37
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-10-10",
+        "commitResults": [
+          {
+            "hash": "2322dc5dbe1a717c974a1b40273302b5b4e24cd7",
+            "messageTitle": "Storage class: add saveTransactions method",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 92,
+                "deletions": 8
+              },
+              "other": {
+                "insertions": 1,
+                "deletions": 0
+              }
+            }
+          }
+        ]
       }
     ],
     "Chenduo1412": [
@@ -244,14 +291,14 @@
     },
     "dgc5213": {
       "docs": 0,
-      "functional-code": 52,
+      "functional-code": 37,
       "test-code": 0
     },
     "e0260222": {
       "docs": 0,
-      "functional-code": 729,
+      "functional-code": 940,
       "test-code": 42,
-      "other": 2
+      "other": 3
     },
     "Chenduo1412": {
       "docs": 0,
@@ -261,9 +308,9 @@
   },
   "authorContributionVariance": {
     "daiweinus": 0.0,
-    "dgc5213": 117.9273,
-    "e0260222": 15052.586,
-    "Chenduo1412": 265.33643
+    "dgc5213": 113.93222,
+    "e0260222": 15241.557,
+    "Chenduo1412": 256.34747
   },
   "authorDisplayNameMap": {
     "daiweinus": "TIC4001-2 DAI .. WEI",
