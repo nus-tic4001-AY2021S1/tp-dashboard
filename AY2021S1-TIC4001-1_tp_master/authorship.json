@@ -1,5 +1,1969 @@
 [
   {
+    "path": "CONTRIBUTORS.md",
+    "fileType": "docs",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "# Contributors"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "Display | Name | Github Profile | Homepage"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "---|:---:|:---:|:---:"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "![](https://avatars0.githubusercontent.com/u/22460123?s\u003d100) | Jeffry Lum | [Github](https://github.com/j-lum/) | [Homepage](https://se.kasugano.moe)"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "![](https://avatars0.githubusercontent.com/u/1673303?s\u003d100) | Damith C. Rajapakse | [Github](https://github.com/damithc/) | [Homepage](https://www.comp.nus.edu.sg/~damithch/)"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "# I would like to join this list. How can I help the seedu.tracker.project"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "For more information, please refer to our [contributor\u0027s guide](https://oss-generic.github.io/process/)."
+      }
+    ],
+    "authorContributionMap": {
+      "Impala36": 1,
+      "-": 8
+    }
+  },
+  {
+    "path": "README.md",
+    "fileType": "docs",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "# Tracker seedu.tracker.project template"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "This is a seedu.tracker.project template for a greenfield Java seedu.tracker.project. It\u0027s named after the Java mascot _Tracker_. Given below are instructions on how to use it."
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "## Setting up in Intellij"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "Prerequisites: JDK 11 (use the exact version), update Intellij to the most recent version."
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "1. **Configure Intellij for JDK 11**, as described [here](https://se-education.org/guides/tutorials/intellijJdk.html)."
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "1. **Import the seedu.tracker.project _as a Gradle project_**, as described [here](https://se-education.org/guides/tutorials/intellijImportGradleProject.html)."
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "1. **Verify the set up**: After the importing is complete, locate the `src/main/java/seedu/tracker/Tracker.java` file, right-click it, and choose `Run Tracker.main()`. If the setup is correct, you should see something like the below:"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "   ```"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "   \u003e Task :compileJava"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "   \u003e Task :processResources NO-SOURCE"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "   \u003e Task :classes"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "   "
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "   \u003e Task :Tracker.main()"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "   Hello from"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    ____        _        "
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "   |  _ \\ _   _| | _____ "
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "   | | | | | | | |/ / _ \\"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "   | |_| | |_| |   \u003c  __/"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "   |____/ \\__,_|_|\\_\\___|"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "   "
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "   What is your name?"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "   ```"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "   Type some word and press enter to let the execution proceed to the end."
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "## Build automation using Gradle"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "* This seedu.tracker.project uses Gradle for build automation and dependency management. It includes a basic build script as well (i.e. the `build.gradle` file)."
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "* If you are new to Gradle, refer to the [Gradle Tutorial at se-education.org/guides](https://se-education.org/guides/tutorials/gradle.html)."
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "## Testing"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "### I/O redirection tests"
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "* To run _I/O redirection_ tests (aka _Text UI tests_), navigate to the `text-seedu.tracker.ui-test` and run the `runtest(.bat/.sh)` script."
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "### JUnit tests"
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "* A skeleton JUnit test (`src/test/java/seedu/tracker/TrackerTest.java`) is provided with this seedu.tracker.project template. "
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "* If you are new to JUnit, refer to the [JUnit Tutorial at se-education.org/guides](https://se-education.org/guides/tutorials/junit.html)."
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "## Checkstyle"
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 47,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "* A sample CheckStyle rule configuration is provided in this seedu.tracker.project."
+      },
+      {
+        "lineNumber": 48,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "* If you are new to Checkstyle, refer to the [Checkstyle Tutorial at se-education.org/guides](https://se-education.org/guides/tutorials/checkstyle.html)."
+      },
+      {
+        "lineNumber": 49,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 50,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "## CI using GitHub Actions"
+      },
+      {
+        "lineNumber": 51,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "The seedu.tracker.project uses [GitHub actions](https://github.com/features/actions) for CI. When you push a commit to this repo or PR against it, GitHub actions will run automatically to build and verify the code as updated by the commit/PR."
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 54,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "## Documentation"
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "`/docs` folder contains a skeleton version of the seedu.tracker.project documentation."
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 58,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "Steps for publishing documentation to the public: "
+      },
+      {
+        "lineNumber": 59,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "1. If you are using this seedu.tracker.project template for an individual seedu.tracker.project, go your fork on GitHub.\u003cbr\u003e"
+      },
+      {
+        "lineNumber": 60,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "   If you are using this seedu.tracker.project template for a team seedu.tracker.project, go to the team fork on GitHub."
+      },
+      {
+        "lineNumber": 61,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "1. Click on the `settings` tab."
+      },
+      {
+        "lineNumber": 62,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "1. Scroll down to the `GitHub Pages` section."
+      },
+      {
+        "lineNumber": 63,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "1. Set the `source` as `master branch /docs folder`."
+      },
+      {
+        "lineNumber": 64,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "1. Optionally, use the `choose a theme` button to choose a theme for your documentation."
+      }
+    ],
+    "authorContributionMap": {
+      "Impala36": 13,
+      "-": 51
+    }
+  },
+  {
+    "path": "build.gradle",
+    "fileType": "other",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "plugins {"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    id \u0027java\u0027"
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    id \u0027application\u0027"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    id \u0027checkstyle\u0027"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    id \u0027com.github.johnrengelman.shadow\u0027 version \u00275.1.0\u0027"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "}"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "repositories {"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    mavenCentral()"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "}"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "dependencies {"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    testImplementation group: \u0027org.junit.jupiter\u0027, name: \u0027junit-jupiter-api\u0027, version: \u00275.5.0\u0027"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    testRuntimeOnly group: \u0027org.junit.jupiter\u0027, name: \u0027junit-jupiter-engine\u0027, version: \u00275.5.0\u0027"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "}"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "test {"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    useJUnitPlatform()"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    testLogging {"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        events \"passed\", \"skipped\", \"failed\""
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        showExceptions true"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        exceptionFormat \"full\""
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        showCauses true"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        showStackTraces true"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        showStandardStreams \u003d false"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "}"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "application {"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    mainClassName \u003d \"seedu.tracker.Tracker\""
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "}"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "shadowJar {"
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    archiveBaseName \u003d \"tracker\""
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    archiveClassifier \u003d null"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "}"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "checkstyle {"
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    toolVersion \u003d \u00278.23\u0027"
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "}"
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "run{"
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    standardInput \u003d System.in"
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "Impala36": 2,
+      "-": 44
+    }
+  },
+  {
+    "path": "docs/README.md",
+    "fileType": "docs",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "# Tracker"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "{Give product intro here}"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "Useful links:"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "* [User Guide](UserGuide.md)"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "* [Developer Guide](DeveloperGuide.md)"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "* [About Us](AboutUs.md)"
+      }
+    ],
+    "authorContributionMap": {
+      "Impala36": 1,
+      "-": 7
+    }
+  },
+  {
+    "path": "docs/UserGuide.md",
+    "fileType": "docs",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "# User Guide"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "## Introduction"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "{Give a product intro}"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "## Quick Start"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "{Give steps to get started quickly}"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "1. Ensure that you have Java 11 or above installed."
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "1. Down the latest version of `Tracker` from [here](http://link.to/tracker)."
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "## Features "
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "{Give detailed description of each feature}"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "### Adding a todo: `todo`"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "Adds a new item to the list of todo items."
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "Format: `todo n/TODO_NAME d/DEADLINE`"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "* The `DEADLINE` can be in a natural language format."
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "* The `TODO_NAME` cannot contain punctuation.  "
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "Example of usage: "
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "`todo n/Write the rest of the User Guide d/next week`"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "`todo n/Refactor the User Guide to remove passive voice d/13/04/2020`"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "## FAQ"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "**Q**: How do I transfer my data to another computer? "
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "**A**: {your answer here}"
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "## Command Summary"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "{Give a \u0027cheat sheet\u0027 of commands here}"
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "* Add todo `todo n/TODO_NAME d/DEADLINE`"
+      }
+    ],
+    "authorContributionMap": {
+      "Impala36": 1,
+      "-": 41
+    }
+  },
+  {
+    "path": "gradlew.bat",
+    "fileType": "other",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "@rem"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "@rem Copyright 2015 the original author or authors."
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "@rem"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "@rem Licensed under the Apache License, Version 2.0 (the \"License\");"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "@rem you may not use this file except in compliance with the License."
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "@rem You may obtain a copy of the License at"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "@rem"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "@rem      https://www.apache.org/licenses/LICENSE-2.0"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "@rem"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "@rem Unless required by applicable law or agreed to in writing, software"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "@rem distributed under the License is distributed on an \"AS IS\" BASIS,"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "@rem WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied."
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "@rem See the License for the specific language governing permissions and"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "@rem limitations under the License."
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "@rem"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "@if \"%DEBUG%\" \u003d\u003d \"\" @echo off"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "@rem ##########################################################################"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "@rem"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "@rem  Gradle startup script for Windows"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "@rem"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "@rem ##########################################################################"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "@rem Set local scope for the variables with windows NT shell"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "if \"%OS%\"\u003d\u003d\"Windows_NT\" setlocal"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "set DIRNAME\u003d%~dp0"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "if \"%DIRNAME%\" \u003d\u003d \"\" set DIRNAME\u003d."
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "set APP_BASE_NAME\u003d%~n0"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "set APP_HOME\u003d%DIRNAME%"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "@rem Resolve any \".\" and \"..\" in APP_HOME to make it shorter."
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "for %%i in (\"%APP_HOME%\") do set APP_HOME\u003d%%~fi"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "@rem Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script."
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "set DEFAULT_JVM_OPTS\u003d\"-Xmx64m\" \"-Xms64m\""
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "@rem Find java.exe"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "if defined JAVA_HOME goto findJavaFromJavaHome"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "set JAVA_EXE\u003djava.exe"
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "%JAVA_EXE% -version \u003eNUL 2\u003e\u00261"
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "if \"%ERRORLEVEL%\" \u003d\u003d \"0\" goto init"
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "echo."
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "echo ERROR: JAVA_HOME is not set and no \u0027java\u0027 seedu.tracker.command could be found in your PATH."
+      },
+      {
+        "lineNumber": 47,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "echo."
+      },
+      {
+        "lineNumber": 48,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "echo Please set the JAVA_HOME variable in your environment to match the"
+      },
+      {
+        "lineNumber": 49,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "echo location of your Java installation."
+      },
+      {
+        "lineNumber": 50,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 51,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "goto fail"
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ":findJavaFromJavaHome"
+      },
+      {
+        "lineNumber": 54,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "set JAVA_HOME\u003d%JAVA_HOME:\"\u003d%"
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "set JAVA_EXE\u003d%JAVA_HOME%/bin/java.exe"
+      },
+      {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "if exist \"%JAVA_EXE%\" goto init"
+      },
+      {
+        "lineNumber": 58,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 59,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "echo."
+      },
+      {
+        "lineNumber": 60,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "echo ERROR: JAVA_HOME is set to an invalid directory: %JAVA_HOME%"
+      },
+      {
+        "lineNumber": 61,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "echo."
+      },
+      {
+        "lineNumber": 62,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "echo Please set the JAVA_HOME variable in your environment to match the"
+      },
+      {
+        "lineNumber": 63,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "echo location of your Java installation."
+      },
+      {
+        "lineNumber": 64,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 65,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "goto fail"
+      },
+      {
+        "lineNumber": 66,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 67,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ":init"
+      },
+      {
+        "lineNumber": 68,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "@rem Get seedu.tracker.command-line arguments, handling Windows variants"
+      },
+      {
+        "lineNumber": 69,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 70,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "if not \"%OS%\" \u003d\u003d \"Windows_NT\" goto win9xME_args"
+      },
+      {
+        "lineNumber": 71,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 72,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ":win9xME_args"
+      },
+      {
+        "lineNumber": 73,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "@rem Slurp the seedu.tracker.command line arguments."
+      },
+      {
+        "lineNumber": 74,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "set CMD_LINE_ARGS\u003d"
+      },
+      {
+        "lineNumber": 75,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "set _SKIP\u003d2"
+      },
+      {
+        "lineNumber": 76,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 77,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ":win9xME_args_slurp"
+      },
+      {
+        "lineNumber": 78,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "if \"x%~1\" \u003d\u003d \"x\" goto execute"
+      },
+      {
+        "lineNumber": 79,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 80,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "set CMD_LINE_ARGS\u003d%*"
+      },
+      {
+        "lineNumber": 81,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 82,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ":execute"
+      },
+      {
+        "lineNumber": 83,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "@rem Setup the seedu.tracker.command line"
+      },
+      {
+        "lineNumber": 84,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 85,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "set CLASSPATH\u003d%APP_HOME%\\gradle\\wrapper\\gradle-wrapper.jar"
+      },
+      {
+        "lineNumber": 86,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 87,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "@rem Execute Gradle"
+      },
+      {
+        "lineNumber": 88,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\"%JAVA_EXE%\" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %GRADLE_OPTS% \"-Dorg.gradle.appname\u003d%APP_BASE_NAME%\" -classpath \"%CLASSPATH%\" org.gradle.wrapper.GradleWrapperMain %CMD_LINE_ARGS%"
+      },
+      {
+        "lineNumber": 89,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 90,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ":end"
+      },
+      {
+        "lineNumber": 91,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "@rem End local scope for the variables with windows NT shell"
+      },
+      {
+        "lineNumber": 92,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "if \"%ERRORLEVEL%\"\u003d\u003d\"0\" goto mainEnd"
+      },
+      {
+        "lineNumber": 93,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 94,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ":fail"
+      },
+      {
+        "lineNumber": 95,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "rem Set variable GRADLE_EXIT_CONSOLE if you need the _script_ return code instead of"
+      },
+      {
+        "lineNumber": 96,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "rem the _cmd.exe /c_ return code!"
+      },
+      {
+        "lineNumber": 97,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "if  not \"\" \u003d\u003d \"%GRADLE_EXIT_CONSOLE%\" exit 1"
+      },
+      {
+        "lineNumber": 98,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "exit /b 1"
+      },
+      {
+        "lineNumber": 99,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 100,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ":mainEnd"
+      },
+      {
+        "lineNumber": 101,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "if \"%OS%\"\u003d\u003d\"Windows_NT\" endlocal"
+      },
+      {
+        "lineNumber": 102,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 103,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ":omega"
+      }
+    ],
+    "authorContributionMap": {
+      "Impala36": 4,
+      "-": 99
+    }
+  },
+  {
     "path": "src/main/java/seedu/tracker/Tracker.java",
     "fileType": "functional-code",
     "lines": [
@@ -20,131 +1984,292 @@
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "-"
+          "gitId": "Impala36"
         },
-        "content": "import java.util.Scanner;"
+        "content": "import seedu.tracker.command.Command;"
       },
       {
         "lineNumber": 4,
         "author": {
-          "gitId": "-"
+          "gitId": "Impala36"
         },
-        "content": ""
+        "content": "import seedu.tracker.command.Exit;"
       },
       {
         "lineNumber": 5,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Impala36"
         },
-        "content": "public class Tracker {"
+        "content": "import seedu.tracker.parser.Parser;"
       },
       {
         "lineNumber": 6,
         "author": {
-          "gitId": "-"
+          "gitId": "Impala36"
         },
-        "content": "    /**"
+        "content": "import seedu.tracker.project.ProjectList;"
       },
       {
         "lineNumber": 7,
         "author": {
-          "gitId": "-"
+          "gitId": "Impala36"
         },
-        "content": "     * Main entry-point for the java.duke.Duke application."
+        "content": "import seedu.tracker.storage.Storage;"
       },
       {
         "lineNumber": 8,
         "author": {
-          "gitId": "-"
+          "gitId": "Impala36"
         },
-        "content": "     */"
+        "content": "import seedu.tracker.ui.Ui;"
       },
       {
         "lineNumber": 9,
         "author": {
-          "gitId": "-"
+          "gitId": "Impala36"
         },
-        "content": "    public static void main(String[] args) {"
+        "content": ""
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "-"
         },
-        "content": "        String logo \u003d \" ____        _        \\n\""
+        "content": "import java.util.Scanner;"
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "-"
         },
-        "content": "                + \"|  _ \\\\ _   _| | _____ \\n\""
+        "content": ""
       },
       {
         "lineNumber": 12,
         "author": {
-          "gitId": "-"
+          "gitId": "binbinhui"
         },
-        "content": "                + \"| | | | | | | |/ / _ \\\\\\n\""
+        "content": "public class Tracker {"
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "-"
         },
-        "content": "                + \"| |_| | |_| |   \u003c  __/\\n\""
+        "content": "    /**"
       },
       {
         "lineNumber": 14,
         "author": {
-          "gitId": "-"
+          "gitId": "Impala36"
         },
-        "content": "                + \"|____/ \\\\__,_|_|\\\\_\\\\___|\\n\";"
+        "content": "     * Main entry-point for the java.seedu.tracker.Tracker application."
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "-"
         },
-        "content": "        System.out.println(\"Hello from\\n\" + logo);"
+        "content": "     */"
       },
       {
         "lineNumber": 16,
         "author": {
-          "gitId": "-"
+          "gitId": "Impala36"
         },
-        "content": "        System.out.println(\"What is your name?\");"
+        "content": "    private final Ui ui \u003d new Ui();"
       },
       {
         "lineNumber": 17,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    private final Parser parser \u003d new Parser();"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    private final Scanner in \u003d new Scanner(System.in);"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    private final ProjectList projects \u003d new ProjectList();"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    private final Storage storage \u003d new Storage(\"projects.txt\", projects, ui);"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    public static void main(String[] args) {"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        new Tracker().run();"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    private void run() {"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        ui.printGreeting();"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        ui.printHelp();"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        storage.readStorage(projects, ui, storage);"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        readUserInput();"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    private void readUserInput() {"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        while (true) {"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            Command command \u003d parser.parseInput(in.nextLine(), ui, projects, storage);"
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            command.execute();"
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            if (isExit(command)) return;"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 40,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 18,
+        "lineNumber": 41,
         "author": {
-          "gitId": "-"
+          "gitId": "Impala36"
         },
-        "content": "        Scanner in \u003d new Scanner(System.in);"
+        "content": "    private boolean isExit(Command command) {"
       },
       {
-        "lineNumber": 19,
+        "lineNumber": 42,
         "author": {
-          "gitId": "-"
+          "gitId": "Impala36"
         },
-        "content": "        System.out.println(\"Hello \" + in.nextLine());"
+        "content": "        return Exit.class.isAssignableFrom(command.getClass());"
       },
       {
-        "lineNumber": 20,
+        "lineNumber": 43,
         "author": {
           "gitId": "-"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 21,
+        "lineNumber": 44,
         "author": {
           "gitId": "-"
         },
@@ -152,56 +2277,612 @@
       }
     ],
     "authorContributionMap": {
+      "Impala36": 33,
       "binbinhui": 2,
-      "-": 19
+      "-": 9
     }
   },
   {
-    "path": "src/main/java/seedu/tracker/command/command.java",
+    "path": "src/main/java/seedu/tracker/command/Command.java",
     "fileType": "functional-code",
     "lines": [
       {
         "lineNumber": 1,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Impala36"
         },
         "content": "package seedu.tracker.command;"
       },
       {
         "lineNumber": 2,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Impala36"
         },
         "content": ""
       },
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Impala36"
         },
-        "content": "public abstract class command {"
+        "content": "import seedu.tracker.storage.Storage;"
       },
       {
         "lineNumber": 4,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Impala36"
         },
-        "content": ""
+        "content": "import seedu.tracker.project.ProjectList;"
       },
       {
         "lineNumber": 5,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Impala36"
+        },
+        "content": "import seedu.tracker.ui.Ui;"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "/**"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": " * An abstract class that is inherited by every command."
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": " */"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "public abstract class Command {"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    public String line;"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    public ProjectList projects;"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    public Storage storage;"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    public Ui ui;"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    protected Command(String line, ProjectList projects, Ui ui, Storage storage) {"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        this.line \u003d line;"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        this.storage \u003d storage;"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        this.projects \u003d projects;"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        this.ui \u003d ui;"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    protected Command(String line, ProjectList projects, Ui ui) {"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        this.line \u003d line;"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        this.projects \u003d projects;"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        this.ui \u003d ui;"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    protected Command(ProjectList projects, Ui ui) {"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        this.projects \u003d projects;"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        this.ui \u003d ui;"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    protected Command(Ui ui) {"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        this.ui \u003d ui;"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    public abstract void execute();"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "Impala36"
         },
         "content": "}"
       }
     ],
     "authorContributionMap": {
-      "binbinhui": 5
+      "Impala36": 38
     }
   },
   {
-    "path": "src/main/java/seedu/tracker/command/delete.java",
+    "path": "src/main/java/seedu/tracker/command/Delete.java",
+    "fileType": "functional-code",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "package seedu.tracker.command;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "import seedu.tracker.storage.Storage;"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "import seedu.tracker.exception.TrackerException;"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "import seedu.tracker.project.ProjectList;"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "import seedu.tracker.ui.Ui;"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "import java.io.IOException;"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "/**"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": " * A command to delete a project from the project list."
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": " */"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "public class Delete extends Command {"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    public static final String word \u003d \"--delete\";"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    public Delete(String projectDescription, ProjectList projects, Ui ui, Storage storage) {"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        super(projectDescription, projects, ui, storage);"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    public void execute() {"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        try {"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            if (projects.size() \u003d\u003d 0) {"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "                ui.printBorderline(\"It appears that you have no projects yet, so you can\u0027t delete any!\\n\" +"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "                        \"Perhaps you should start creating one?\");"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "                return;"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            if (line.isEmpty()) {"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "                throw new TrackerException(\"You almost typed a proper delete command, but you missed out the number!\\n\" +"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "                        \"Please type in the \u0027--delete \u003cproject index number\u003e\u0027 format.\");"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            int index \u003d Integer.parseInt(line);"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            ui.printTaskRemoved(projects, index);"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            projects.remove(index);"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            storage.updateStorage(projects);"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        } catch (TrackerException | IOException e) {"
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            ui.printBorderline(e.getMessage());"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        } catch (NumberFormatException e) {"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            ui.printBorderline(\"I\u0027m sorry, but the list goes numerically.\\nPerhaps you could type a number for the index?\");"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        } catch (IndexOutOfBoundsException e) {"
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            ui.printBorderline(\"It appears that you only have \" + projects.size() + \" project(s) in your list,\\n\" +"
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "                    \"perhaps you might want to try typing an index number from 1 to \" + projects.size() + \" instead?\");"
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "Impala36": 45
+    }
+  },
+  {
+    "path": "src/main/java/seedu/tracker/command/Description.java",
     "fileType": "functional-code",
     "lines": [
       {
@@ -221,9 +2902,9 @@
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Impala36"
         },
-        "content": "public class delete {"
+        "content": "public class Description {"
       },
       {
         "lineNumber": 4,
@@ -234,11 +2915,12 @@
       }
     ],
     "authorContributionMap": {
-      "binbinhui": 4
+      "Impala36": 1,
+      "binbinhui": 3
     }
   },
   {
-    "path": "src/main/java/seedu/tracker/command/description.java",
+    "path": "src/main/java/seedu/tracker/command/DueDate.java",
     "fileType": "functional-code",
     "lines": [
       {
@@ -258,9 +2940,9 @@
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Impala36"
         },
-        "content": "public class description {"
+        "content": "public class DueDate {"
       },
       {
         "lineNumber": 4,
@@ -271,11 +2953,147 @@
       }
     ],
     "authorContributionMap": {
-      "binbinhui": 4
+      "Impala36": 1,
+      "binbinhui": 3
     }
   },
   {
-    "path": "src/main/java/seedu/tracker/command/duedate.java",
+    "path": "src/main/java/seedu/tracker/command/Exit.java",
+    "fileType": "functional-code",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "package seedu.tracker.command;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "import seedu.tracker.ui.Ui;"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "/**"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": " * A command to exit the program."
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": " */"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "public class Exit extends Command {"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    public static final String word \u003d \"--exit\";"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    public Exit(Ui ui) {"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        super(ui);"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    public void execute() {"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        ui.printFarewell();"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "Impala36": 18
+    }
+  },
+  {
+    "path": "src/main/java/seedu/tracker/command/Find.java",
     "fileType": "functional-code",
     "lines": [
       {
@@ -295,9 +3113,9 @@
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Impala36"
         },
-        "content": "public class duedate {"
+        "content": "public class Find {"
       },
       {
         "lineNumber": 4,
@@ -308,11 +3126,147 @@
       }
     ],
     "authorContributionMap": {
-      "binbinhui": 4
+      "Impala36": 1,
+      "binbinhui": 3
     }
   },
   {
-    "path": "src/main/java/seedu/tracker/command/exit.java",
+    "path": "src/main/java/seedu/tracker/command/Help.java",
+    "fileType": "functional-code",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "package seedu.tracker.command;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "import seedu.tracker.ui.Ui;"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "/**"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": " * A command that shows all available commands."
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": " */"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "public class Help extends Command {"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    public static final String word \u003d \"--help\";"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    public Help(Ui ui) {"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        super(ui);"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    public void execute() {"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        ui.printHelp();"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "Impala36": 18
+    }
+  },
+  {
+    "path": "src/main/java/seedu/tracker/command/InCharge.java",
     "fileType": "functional-code",
     "lines": [
       {
@@ -332,9 +3286,9 @@
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Impala36"
         },
-        "content": "public class exit {"
+        "content": "public class InCharge {"
       },
       {
         "lineNumber": 4,
@@ -345,11 +3299,133 @@
       }
     ],
     "authorContributionMap": {
-      "binbinhui": 4
+      "Impala36": 1,
+      "binbinhui": 3
     }
   },
   {
-    "path": "src/main/java/seedu/tracker/command/find.java",
+    "path": "src/main/java/seedu/tracker/command/Invalid.java",
+    "fileType": "functional-code",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "package seedu.tracker.command;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "import seedu.tracker.ui.Ui;"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "/**"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": " * A command that handles invalid commands."
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": " */"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "public class Invalid extends Command {"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    public Invalid(Ui ui) {"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        super(ui);"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    public void execute() {"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        ui.printInvalidCommand();"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "Impala36": 16
+    }
+  },
+  {
+    "path": "src/main/java/seedu/tracker/command/Involve.java",
     "fileType": "functional-code",
     "lines": [
       {
@@ -369,9 +3445,9 @@
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Impala36"
         },
-        "content": "public class find {"
+        "content": "public class Involve {"
       },
       {
         "lineNumber": 4,
@@ -382,11 +3458,210 @@
       }
     ],
     "authorContributionMap": {
-      "binbinhui": 4
+      "Impala36": 1,
+      "binbinhui": 3
     }
   },
   {
-    "path": "src/main/java/seedu/tracker/command/help.java",
+    "path": "src/main/java/seedu/tracker/command/List.java",
+    "fileType": "functional-code",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "package seedu.tracker.command;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "import seedu.tracker.project.ProjectList;"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "import seedu.tracker.ui.Ui;"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "/**"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": " * A command to print out all tasks in the list."
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": " */"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "public class List extends Command {"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    public static final String word \u003d \"--list\";"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    public List(ProjectList tasks, Ui ui) {"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        super(tasks, ui);"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    public void execute() {"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        if (projects.size() \u003d\u003d 0) {"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            ui.printBorderline(\"It appears that you have no projects! Perhaps you should start creating one?\");"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            return;"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        String total \u003d \"Here are the projects that you currently have!\\n\";"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        for (int i \u003d 0; i \u003c projects.size(); i++) {"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            total \u003d total.concat((i + 1) + \". \" + projects.get(i).getDescription()) + \"\\n\";"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        ui.printBorderline(total);"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "Impala36": 27
+    }
+  },
+  {
+    "path": "src/main/java/seedu/tracker/command/Name.java",
     "fileType": "functional-code",
     "lines": [
       {
@@ -406,9 +3681,9 @@
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Impala36"
         },
-        "content": "public class help {"
+        "content": "public class Name {"
       },
       {
         "lineNumber": 4,
@@ -419,11 +3694,12 @@
       }
     ],
     "authorContributionMap": {
-      "binbinhui": 4
+      "Impala36": 1,
+      "binbinhui": 3
     }
   },
   {
-    "path": "src/main/java/seedu/tracker/command/incharge.java",
+    "path": "src/main/java/seedu/tracker/command/Project.java",
     "fileType": "functional-code",
     "lines": [
       {
@@ -443,9 +3719,9 @@
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Impala36"
         },
-        "content": "public class incharge {"
+        "content": "public class Project {"
       },
       {
         "lineNumber": 4,
@@ -456,11 +3732,12 @@
       }
     ],
     "authorContributionMap": {
-      "binbinhui": 4
+      "Impala36": 1,
+      "binbinhui": 3
     }
   },
   {
-    "path": "src/main/java/seedu/tracker/command/involve.java",
+    "path": "src/main/java/seedu/tracker/command/StartDate.java",
     "fileType": "functional-code",
     "lines": [
       {
@@ -480,9 +3757,9 @@
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Impala36"
         },
-        "content": "public class involve {"
+        "content": "public class StartDate {"
       },
       {
         "lineNumber": 4,
@@ -493,233 +3770,345 @@
       }
     ],
     "authorContributionMap": {
-      "binbinhui": 4
+      "Impala36": 1,
+      "binbinhui": 3
     }
   },
   {
-    "path": "src/main/java/seedu/tracker/command/list.java",
+    "path": "src/main/java/seedu/tracker/exception/TrackerException.java",
     "fileType": "functional-code",
     "lines": [
       {
         "lineNumber": 1,
         "author": {
-          "gitId": "binbinhui"
-        },
-        "content": "package seedu.tracker.command;"
-      },
-      {
-        "lineNumber": 2,
-        "author": {
-          "gitId": "binbinhui"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 3,
-        "author": {
-          "gitId": "binbinhui"
-        },
-        "content": "public class list {"
-      },
-      {
-        "lineNumber": 4,
-        "author": {
-          "gitId": "binbinhui"
-        },
-        "content": "}"
-      }
-    ],
-    "authorContributionMap": {
-      "binbinhui": 4
-    }
-  },
-  {
-    "path": "src/main/java/seedu/tracker/command/name.java",
-    "fileType": "functional-code",
-    "lines": [
-      {
-        "lineNumber": 1,
-        "author": {
-          "gitId": "binbinhui"
-        },
-        "content": "package seedu.tracker.command;"
-      },
-      {
-        "lineNumber": 2,
-        "author": {
-          "gitId": "binbinhui"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 3,
-        "author": {
-          "gitId": "binbinhui"
-        },
-        "content": "public class name {"
-      },
-      {
-        "lineNumber": 4,
-        "author": {
-          "gitId": "binbinhui"
-        },
-        "content": "}"
-      }
-    ],
-    "authorContributionMap": {
-      "binbinhui": 4
-    }
-  },
-  {
-    "path": "src/main/java/seedu/tracker/command/project.java",
-    "fileType": "functional-code",
-    "lines": [
-      {
-        "lineNumber": 1,
-        "author": {
-          "gitId": "binbinhui"
-        },
-        "content": "package seedu.tracker.command;"
-      },
-      {
-        "lineNumber": 2,
-        "author": {
-          "gitId": "binbinhui"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 3,
-        "author": {
-          "gitId": "binbinhui"
-        },
-        "content": "public class project {"
-      },
-      {
-        "lineNumber": 4,
-        "author": {
-          "gitId": "binbinhui"
-        },
-        "content": "}"
-      }
-    ],
-    "authorContributionMap": {
-      "binbinhui": 4
-    }
-  },
-  {
-    "path": "src/main/java/seedu/tracker/command/startdate.java",
-    "fileType": "functional-code",
-    "lines": [
-      {
-        "lineNumber": 1,
-        "author": {
-          "gitId": "binbinhui"
-        },
-        "content": "package seedu.tracker.command;"
-      },
-      {
-        "lineNumber": 2,
-        "author": {
-          "gitId": "binbinhui"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 3,
-        "author": {
-          "gitId": "binbinhui"
-        },
-        "content": "public class startdate {"
-      },
-      {
-        "lineNumber": 4,
-        "author": {
-          "gitId": "binbinhui"
-        },
-        "content": "}"
-      }
-    ],
-    "authorContributionMap": {
-      "binbinhui": 4
-    }
-  },
-  {
-    "path": "src/main/java/seedu/tracker/exception/exception.java",
-    "fileType": "functional-code",
-    "lines": [
-      {
-        "lineNumber": 1,
-        "author": {
-          "gitId": "binbinhui"
+          "gitId": "Impala36"
         },
         "content": "package seedu.tracker.exception;"
       },
       {
         "lineNumber": 2,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Impala36"
         },
         "content": ""
       },
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Impala36"
         },
-        "content": "public class exception {"
+        "content": "/**"
       },
       {
         "lineNumber": 4,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Impala36"
+        },
+        "content": " * Inherits the Exception class. \u003cp\u003e"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": " * Overrides the constructor that takes a String parameter with custom error information"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": " * when you create a TaskManagerException object.\u003cp\u003e"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": " * Throw a new TaskManagerException object when you detect some necessary information"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": " * is missing in the seedu.tracker.command. \u003cp\u003e"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": " * Catch that seedu.tracker.exception somewhere else and print the message inside the seedu.tracker.exception object."
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": " */"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "public class TrackerException extends Exception {"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    public TrackerException(String input) {"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        super(input);"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "Impala36"
         },
         "content": "}"
       }
     ],
     "authorContributionMap": {
-      "binbinhui": 4
+      "Impala36": 15
     }
   },
   {
-    "path": "src/main/java/seedu/tracker/parser/parser.java",
+    "path": "src/main/java/seedu/tracker/parser/Parser.java",
     "fileType": "functional-code",
     "lines": [
       {
         "lineNumber": 1,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Impala36"
         },
         "content": "package seedu.tracker.parser;"
       },
       {
         "lineNumber": 2,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Impala36"
         },
         "content": ""
       },
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Impala36"
         },
-        "content": "public class parser {"
+        "content": "import seedu.tracker.command.*;"
       },
       {
         "lineNumber": 4,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Impala36"
+        },
+        "content": "import seedu.tracker.project.ProjectList;"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "import seedu.tracker.storage.Storage;"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "import seedu.tracker.ui.Ui;"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "/**"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": " * Parses the user input into meaningful details and returns the appropriate seedu.tracker.command."
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": " */"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "public class Parser {"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    public Command parseInput(String line, Ui ui, ProjectList projects, Storage storage) {"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        String commandWord \u003d line.trim().split(\" \")[0];"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        String lineWithoutCommand \u003d line.substring(line.indexOf(\" \") + 1).trim();"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        switch (commandWord) {"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            case Help.word:"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "                return new Help(ui);"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            case Delete.word:"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "                return new Delete(lineWithoutCommand, projects, ui, storage);"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            case List.word:"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "                return new List(projects, ui);"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            case Exit.word:"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            case \"\":        // also exits when user input is empty"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "                return new Exit(ui);"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            default:"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "                return new Invalid(ui);"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "Impala36"
         },
         "content": "}"
       }
     ],
     "authorContributionMap": {
-      "binbinhui": 4
+      "Impala36": 30
     }
   },
   {
-    "path": "src/main/java/seedu/tracker/project/newproject.java",
+    "path": "src/main/java/seedu/tracker/project/NewProject.java",
     "fileType": "functional-code",
     "lines": [
       {
@@ -739,9 +4128,9 @@
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Impala36"
         },
-        "content": "public class newproject {"
+        "content": "public class NewProject {"
       },
       {
         "lineNumber": 4,
@@ -752,11 +4141,12 @@
       }
     ],
     "authorContributionMap": {
-      "binbinhui": 4
+      "Impala36": 1,
+      "binbinhui": 3
     }
   },
   {
-    "path": "src/main/java/seedu/tracker/project/oldproject.java",
+    "path": "src/main/java/seedu/tracker/project/OldProject.java",
     "fileType": "functional-code",
     "lines": [
       {
@@ -776,9 +4166,9 @@
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Impala36"
         },
-        "content": "public class oldproject {"
+        "content": "public class OldProject {"
       },
       {
         "lineNumber": 4,
@@ -789,159 +4179,1364 @@
       }
     ],
     "authorContributionMap": {
-      "binbinhui": 4
+      "Impala36": 1,
+      "binbinhui": 3
     }
   },
   {
-    "path": "src/main/java/seedu/tracker/project/project.java",
+    "path": "src/main/java/seedu/tracker/project/Project.java",
     "fileType": "functional-code",
     "lines": [
       {
         "lineNumber": 1,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Impala36"
         },
         "content": "package seedu.tracker.project;"
       },
       {
         "lineNumber": 2,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Impala36"
         },
         "content": ""
       },
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Impala36"
         },
-        "content": "public class project {"
+        "content": "public abstract class Project {"
       },
       {
         "lineNumber": 4,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Impala36"
+        },
+        "content": "    String description;"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    Project(String input) {"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        description \u003d input;"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    public String getDescription() {"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        return description;"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "Impala36"
         },
         "content": "}"
       }
     ],
     "authorContributionMap": {
-      "binbinhui": 4
+      "Impala36": 13
     }
   },
   {
-    "path": "src/main/java/seedu/tracker/project/projectlist.java",
+    "path": "src/main/java/seedu/tracker/project/ProjectList.java",
     "fileType": "functional-code",
     "lines": [
       {
         "lineNumber": 1,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Impala36"
         },
         "content": "package seedu.tracker.project;"
       },
       {
         "lineNumber": 2,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Impala36"
         },
         "content": ""
       },
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Impala36"
         },
-        "content": "public class projectlist {"
+        "content": "import java.util.ArrayList;"
       },
       {
         "lineNumber": 4,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Impala36"
+        },
+        "content": "/**"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": " * Responsible for methods regarding the project list."
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": " * This class will use an ArrayList inside it."
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": " */"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "public class ProjectList {"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    private final ArrayList\u003cProject\u003e projects;"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    ProjectList(ArrayList\u003cProject\u003e projects) {"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        this.projects \u003d projects;"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    public ProjectList() {"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        projects \u003d new ArrayList\u003c\u003e();"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    public int size() {"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        return projects.size();"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    public void add(Project task) {"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        projects.add(task);"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    public void remove(int index) {"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        projects.remove(index - 1);"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    public Project get(int index) {"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        return projects.get(index);"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "Impala36"
         },
         "content": "}"
       }
     ],
     "authorContributionMap": {
-      "binbinhui": 4
+      "Impala36": 34
     }
   },
   {
-    "path": "src/main/java/seedu/tracker/storage/storage.java",
+    "path": "src/main/java/seedu/tracker/storage/Storage.java",
     "fileType": "functional-code",
     "lines": [
       {
         "lineNumber": 1,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Impala36"
         },
         "content": "package seedu.tracker.storage;"
       },
       {
         "lineNumber": 2,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Impala36"
         },
         "content": ""
       },
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Impala36"
         },
-        "content": "public class storage {"
+        "content": "import seedu.tracker.command.List;"
       },
       {
         "lineNumber": 4,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Impala36"
+        },
+        "content": "import seedu.tracker.project.ProjectList;"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "import seedu.tracker.ui.Ui;"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "import java.io.File;"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "import java.io.FileNotFoundException;"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "import java.io.FileWriter;"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "import java.io.IOException;"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "import java.util.ArrayList;"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "import java.util.Scanner;"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "/**"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": " * Responsible for all interactions between the in-memory projects and the projects file."
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": " */"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "public class Storage {"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    String fileName;"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    public Storage(String fileName, ProjectList projects, Ui ui) {"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        this.fileName \u003d fileName;"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    public void updateStorage(ProjectList projects) throws IOException {"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        FileWriter fw \u003d new FileWriter(\"./\" + fileName, false);"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        for (int i \u003d 0; i \u003c projects.size(); i++) {"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            String line \u003d (i + 1) + \". \" + projects.get(i).getDescription() + \"\\n\";"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            fw.write(line);"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        fw.close();"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    public void readStorage(ProjectList projects, Ui ui, Storage storage) {"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        try {"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            ArrayList\u003cString\u003e lines \u003d getLines(fileName);"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            projects \u003d extractProjects(lines, projects, ui, storage);"
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            ui.printFileExists();"
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            new List(projects, ui).execute();"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        } catch (FileNotFoundException e) {"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            ui.printNoFileFound();"
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        } catch (IOException e) {"
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            ui.printBorderline(\"IOException encountered: \" + e.getMessage());"
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    private ArrayList\u003cString\u003e getLines(String fileName) throws FileNotFoundException {"
+      },
+      {
+        "lineNumber": 47,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        Scanner s \u003d new Scanner(new File(fileName));"
+      },
+      {
+        "lineNumber": 48,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        ArrayList\u003cString\u003e list \u003d new ArrayList\u003c\u003e();"
+      },
+      {
+        "lineNumber": 49,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        while (s.hasNextLine()) {"
+      },
+      {
+        "lineNumber": 50,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            list.add(s.nextLine());"
+      },
+      {
+        "lineNumber": 51,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        s.close();"
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        return list;"
+      },
+      {
+        "lineNumber": 54,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    public ProjectList extractProjects(ArrayList\u003cString\u003e lines, ProjectList projects, Ui ui, Storage storage) throws IOException {"
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        for (String line : lines) {"
+      },
+      {
+        "lineNumber": 58,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            FileWriter fw \u003d new FileWriter(fileName, true);"
+      },
+      {
+        "lineNumber": 59,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            // Format of a project line has to be implemented"
+      },
+      {
+        "lineNumber": 60,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            // before we can extract from projects.txt,"
+      },
+      {
+        "lineNumber": 61,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            // hence the lines belows are commented."
+      },
+      {
+        "lineNumber": 62,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            /*String taskStatus \u003d line.split(\"]\")[0].substring(line.indexOf(\"[\") + 1);"
+      },
+      {
+        "lineNumber": 63,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            String taskType \u003d line.split(\"]\")[1].substring(line.indexOf(\"[\") - 1);"
+      },
+      {
+        "lineNumber": 64,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            String taskDescription \u003d line.split(\"]\")[2].trim();"
+      },
+      {
+        "lineNumber": 65,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 66,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            switch (taskType) {"
+      },
+      {
+        "lineNumber": 67,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "                case \"Deadline\" -\u003e projects.add(new Deadline(\"[Deadline] \" + taskDescription));"
+      },
+      {
+        "lineNumber": 68,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "                case \"Event\" -\u003e projects.add(new Event(\"[Event]    \" + taskDescription));"
+      },
+      {
+        "lineNumber": 69,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 70,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            if (taskStatus.equals(\"\\u2713\")) {"
+      },
+      {
+        "lineNumber": 71,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "                projects.get(projects.size() - 1).setDone();"
+      },
+      {
+        "lineNumber": 72,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            }*/"
+      },
+      {
+        "lineNumber": 73,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 74,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        return projects;"
+      },
+      {
+        "lineNumber": 75,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 76,
+        "author": {
+          "gitId": "Impala36"
         },
         "content": "}"
       }
     ],
     "authorContributionMap": {
-      "binbinhui": 4
+      "Impala36": 76
     }
   },
   {
-    "path": "src/main/java/seedu/tracker/ui/ui.java",
+    "path": "src/main/java/seedu/tracker/ui/Ui.java",
     "fileType": "functional-code",
     "lines": [
       {
         "lineNumber": 1,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Impala36"
         },
         "content": "package seedu.tracker.ui;"
       },
       {
         "lineNumber": 2,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Impala36"
         },
         "content": ""
       },
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Impala36"
         },
-        "content": "public class ui {"
+        "content": "import seedu.tracker.project.ProjectList;"
       },
       {
         "lineNumber": 4,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Impala36"
+        },
+        "content": "/**"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": " * Responsible for displaying all messages and its format to the user except for error-related messages."
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": " */"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "public class Ui {"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    public String colorRed(String input) {"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        return \"\\033[31m\" + input + \"\\033[0m\";"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    "
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    public String colorGreen(String input) {"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        return \"\\033[33m\" + input + \"\\033[0m\";"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "     * Prints the input string with borderlines."
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    public void printBorderline(String input) {"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        System.out.println( input + \"\\n⬢⬢⬡⬡⬢⬢⬡⬡⬢⬢⬡⬡⬢⬢⬡⬡⬢⬢⬡⬡⬢⬢⬡⬡⬢⬢⬡⬡⬢⬢⬡⬡⬢⬢⬡⬡⬢⬢⬡⬡⬢⬢⬡⬡⬢⬢⬡⬡⬢⬢⬡⬡⬢⬢⬡⬡⬢⬢\\n\");"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    public void printGreeting() {"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        String greeting \u003d \"Hello! I\u0027m Tracker.\\n\""
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "                + \"I can help you manage a list of projects!\\n\";"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        printBorderline(\"\");"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        System.out.print(greeting);"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    public void printHelp() {"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        String help \u003d \"What you can tell me to do is listed below:\\n\""
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "                + \"  ⬢  See all commands          | \" + colorGreen(\"--help\\n\")"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "                + \"  ⬡  Delete a project          | \" + colorGreen(\"--delete \u003c project index number\u003e\\n\")"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "                + \"  ⬢  List down all projects    | \" + colorGreen(\"--list\\n\")"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "                + \"  ⬡  Exit my program           | \" + colorGreen(\"--exit or hit Enter\");"
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        printBorderline(help);"
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    public void printFarewell() {"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        String farewell \u003d \"Bye. Hope to see you again soon!\";"
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        printBorderline(farewell);"
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    public void printTaskRemoved(ProjectList projects, int index) {"
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        String added \u003d \"Okay! We have removed the project as shown below:\\n\""
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "                + colorRed(projects.get(index - 1).getDescription()"
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "                + colorGreen(\"\\nWe now have \" + (projects.size() - 1) + \" project(s) in your list!\"));"
+      },
+      {
+        "lineNumber": 47,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        printBorderline(added);"
+      },
+      {
+        "lineNumber": 48,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 49,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 50,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    public void printInvalidCommand() {"
+      },
+      {
+        "lineNumber": 51,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        String message \u003d \"It seems that you have typed something out of my unfortunately\\n\""
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "                + \"limited vocabulary. Can you try again?\";"
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        printBorderline(message);"
+      },
+      {
+        "lineNumber": 54,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    public void printNoFileFound() {"
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        String message \u003d \"It looks like it\u0027s your first time as I could not find any existing project file.\\n\" +"
+      },
+      {
+        "lineNumber": 58,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "                \"Get started by creating a project!\";"
+      },
+      {
+        "lineNumber": 59,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        printBorderline(message);"
+      },
+      {
+        "lineNumber": 60,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 61,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    public void printFileExists() {"
+      },
+      {
+        "lineNumber": 62,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        String message \u003d \"An existing project file is found!\";"
+      },
+      {
+        "lineNumber": 63,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        printBorderline(message);"
+      },
+      {
+        "lineNumber": 64,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 65,
+        "author": {
+          "gitId": "Impala36"
         },
         "content": "}"
       }
     ],
     "authorContributionMap": {
-      "binbinhui": 4
+      "Impala36": 65
     }
   },
   {
-    "path": "src/test/java/seedu/tracker/DukeTest.java",
+    "path": "src/test/java/seedu/tracker/TrackerTest.java",
     "fileType": "test-code",
     "lines": [
       {
@@ -963,7 +5558,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "import static org.junit.jupiter.api.Assertions.assertTrue;"
+        "content": "import org.junit.jupiter.api.Test;"
       },
       {
         "lineNumber": 4,
@@ -975,23 +5570,23 @@
       {
         "lineNumber": 5,
         "author": {
-          "gitId": "-"
+          "gitId": "Impala36"
         },
-        "content": "import org.junit.jupiter.api.Test;"
+        "content": "import static org.junit.jupiter.api.Assertions.assertTrue;"
       },
       {
         "lineNumber": 6,
         "author": {
-          "gitId": "-"
+          "gitId": "Impala36"
         },
         "content": ""
       },
       {
         "lineNumber": 7,
         "author": {
-          "gitId": "-"
+          "gitId": "Impala36"
         },
-        "content": "class DukeTest {"
+        "content": "class TrackerTest {"
       },
       {
         "lineNumber": 8,
@@ -1030,8 +5625,152 @@
       }
     ],
     "authorContributionMap": {
+      "Impala36": 3,
       "binbinhui": 1,
-      "-": 11
+      "-": 8
+    }
+  },
+  {
+    "path": "text-ui-test/runtest.bat",
+    "fileType": "other",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "@echo off"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "setlocal enableextensions"
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "pushd %~dp0"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "cd .."
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "call gradlew clean shadowJar"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "cd build\\libs"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "for /f \"tokens\u003d*\" %%a in ("
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    \u0027dir /b *.jar\u0027"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ") do ("
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    set jarloc\u003d%%a"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ")"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "java -jar %jarloc% \u003c ..\\..\\text-seedu.tracker.ui-test\\input.txt \u003e ..\\..\\text-seedu.tracker.ui-test\\ACTUAL.TXT"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "cd ..\\..\\text-seedu.tracker.ui-test"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "FC ACTUAL.TXT EXPECTED.TXT \u003eNUL \u0026\u0026 ECHO Test passed! || Echo Test failed!"
+      }
+    ],
+    "authorContributionMap": {
+      "Impala36": 2,
+      "-": 17
     }
   }
 ]

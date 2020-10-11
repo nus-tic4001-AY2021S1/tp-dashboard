@@ -2,7 +2,32 @@
   "authorDailyContributionsMap": {
     "linqing42": [],
     "Yiheng0410": [],
-    "Impala36": [],
+    "Impala36": [
+      {
+        "date": "2020-10-10",
+        "commitResults": [
+          {
+            "hash": "f1cb00748c0cf4336bec9d9d620549499e067223",
+            "messageTitle": "A-Skeleton",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 436,
+                "deletions": 63
+              },
+              "other": {
+                "insertions": 19,
+                "deletions": 19
+              },
+              "docs": {
+                "insertions": 16,
+                "deletions": 16
+              }
+            }
+          }
+        ]
+      }
+    ],
     "binbinhui": [
       {
         "date": "2020-10-02",
@@ -38,21 +63,22 @@
       "test-code": 0
     },
     "Impala36": {
-      "docs": 0,
-      "functional-code": 0,
-      "test-code": 0
+      "docs": 16,
+      "functional-code": 438,
+      "test-code": 3,
+      "other": 8
     },
     "binbinhui": {
       "docs": 0,
-      "functional-code": 87,
+      "functional-code": 32,
       "test-code": 1
     }
   },
   "authorContributionVariance": {
     "linqing42": 0.0,
     "Yiheng0410": 0.0,
-    "Impala36": 0.0,
-    "binbinhui": 162.3076
+    "Impala36": 5485.8433,
+    "binbinhui": 140.3142
   },
   "authorDisplayNameMap": {
     "linqing42": "TIC4001-1 LIN ..QING",

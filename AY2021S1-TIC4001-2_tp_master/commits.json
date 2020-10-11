@@ -227,6 +227,120 @@
                 "deletions": 0
               }
             }
+          },
+          {
+            "hash": "157211b57fe3d765731b6e61a534a1bbe74fc974",
+            "messageTitle": "Add load transactions upon startup feature",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 59,
+                "deletions": 2
+              },
+              "other": {
+                "insertions": 2,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "f2a6465da5ec6294c94830348b59d7932f3b52e5",
+            "messageTitle": "Remove assertions in code to allow enable assertions in build.gradle",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 4,
+                "deletions": 4
+              }
+            }
+          },
+          {
+            "hash": "c0f3b0bdc371db391c345a05bd049136067842ad",
+            "messageTitle": "Fix syntax issue to pass Gradle checks",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "988814a586f38df1a7131b716356d583984b67e3",
+            "messageTitle": "Update EXPECTED.txt for text ui test",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "other": {
+                "insertions": 0,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "245b5fb08deadad46f852cd8177c21dac1f7407d",
+            "messageTitle": "Add assertions",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 4,
+                "deletions": 4
+              }
+            }
+          },
+          {
+            "hash": "ae6d97811f977c24363b1865b819eca262b8319c",
+            "messageTitle": "Add delete transaction feature",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 53,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "d867567fbedcfabf87c30473b04b5a57e52aa09f",
+            "messageTitle": "Update UserGuide.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 84,
+                "deletions": 26
+              }
+            }
+          },
+          {
+            "hash": "1290fa2c903b6d71243af650649bedd2bb58e572",
+            "messageTitle": "Update UserGuide.md with delete income/expense commands",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 24,
+                "deletions": 7
+              }
+            }
+          },
+          {
+            "hash": "de13be1cd40b68101129ace00c926aabe99148da",
+            "messageTitle": "Update UserGuide.md with delete command for Command Summary section",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "4b57eb80cf032b7bc5c955fa0f68cdecc8436888",
+            "messageTitle": "Update UserGuide.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
           }
         ]
       }
@@ -295,8 +409,8 @@
       "test-code": 0
     },
     "e0260222": {
-      "docs": 0,
-      "functional-code": 940,
+      "docs": 101,
+      "functional-code": 1049,
       "test-code": 42,
       "other": 3
     },
@@ -309,7 +423,7 @@
   "authorContributionVariance": {
     "daiweinus": 0.0,
     "dgc5213": 113.93222,
-    "e0260222": 15241.557,
+    "e0260222": 17299.525,
     "Chenduo1412": 256.34747
   },
   "authorDisplayNameMap": {
