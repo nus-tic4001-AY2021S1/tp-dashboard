@@ -1,6 +1,45 @@
 {
   "authorDailyContributionsMap": {
-    "linqing42": [],
+    "linqing42": [
+      {
+        "date": "2020-10-11",
+        "commitResults": [
+          {
+            "hash": "6210d0e4b0630f758309959d467163e6ac2440f6",
+            "messageTitle": "add FindCommand and some error with InCharge",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 82,
+                "deletions": 14
+              }
+            }
+          },
+          {
+            "hash": "d5e6bc4aa5658592ee91ee04dcd30e16f3a4c495",
+            "messageTitle": "edit UserGuid and ReadMe.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 75,
+                "deletions": 18
+              }
+            }
+          },
+          {
+            "hash": "6965a02f9bc47ce6dc5859a54f6af6d62667e23e",
+            "messageTitle": "add link for online user guid",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          }
+        ]
+      }
+    ],
     "Yiheng0410": [],
     "Impala36": [
       {
@@ -22,6 +61,70 @@
               "docs": {
                 "insertions": 16,
                 "deletions": 16
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-10-11",
+        "commitResults": [
+          {
+            "hash": "7b6c652a793bbf847042ecfac2fb491f3bae76bb",
+            "messageTitle": "Renamed back to text-ui-test and removed EXPECTED and input text",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "other": {
+                "insertions": 2,
+                "deletions": 3
+              },
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "352c303a16da2c49f48d0ead8a80b7d51d2ceeff",
+            "messageTitle": "Reformatted all code to checkstyle.xml using CheckStyle-IDEA plugin",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 59,
+                "deletions": 39
+              }
+            }
+          },
+          {
+            "hash": "ede2d9e39a863e74a758eeecabc3328f73a875da",
+            "messageTitle": "Reformatted again",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 14,
+                "deletions": 11
+              }
+            }
+          },
+          {
+            "hash": "d1e81d14be674077c8606e0270cf8e6e9826ee3e",
+            "messageTitle": "readUserInput() throws NoSuchElementException",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 11,
+                "deletions": 4
+              }
+            }
+          },
+          {
+            "hash": "2973a6034d777584a108f1a8e21451f92a1121ef",
+            "messageTitle": "readUserInput() catch NoSuchElementException",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 0,
+                "deletions": 1
               }
             }
           }
@@ -53,8 +156,8 @@
   },
   "authorFileTypeContributionMap": {
     "linqing42": {
-      "docs": 0,
-      "functional-code": 0,
+      "docs": 74,
+      "functional-code": 82,
       "test-code": 0
     },
     "Yiheng0410": {
@@ -63,10 +166,10 @@
       "test-code": 0
     },
     "Impala36": {
-      "docs": 16,
-      "functional-code": 438,
+      "docs": 14,
+      "functional-code": 453,
       "test-code": 3,
-      "other": 8
+      "other": 6
     },
     "binbinhui": {
       "docs": 0,
@@ -75,10 +178,10 @@
     }
   },
   "authorContributionVariance": {
-    "linqing42": 0.0,
+    "linqing42": 607.84204,
     "Yiheng0410": 0.0,
-    "Impala36": 5485.8433,
-    "binbinhui": 140.3142
+    "Impala36": 5701.901,
+    "binbinhui": 137.97702
   },
   "authorDisplayNameMap": {
     "linqing42": "TIC4001-1 LIN ..QING",

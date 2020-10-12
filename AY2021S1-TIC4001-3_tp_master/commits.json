@@ -16,6 +16,71 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-11",
+        "commitResults": [
+          {
+            "hash": "85189ef342647df91c30e0a08949a34b38895737",
+            "messageTitle": "add Junit test for Defect class Using SimpleDateFormat(\"MMM dd yyyy\",Locale.ENGLISH) to force converting in English format date",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 4,
+                "deletions": 2
+              },
+              "test-code": {
+                "insertions": 13,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "203d49949c609553ba0c918c0b50a4dc07452db2",
+            "messageTitle": "add ViewFuncionTest, add exception for view, add view exception test.",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 3,
+                "deletions": 0
+              },
+              "test-code": {
+                "insertions": 85,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "fb5b12ee2befc620d9e12623687ab49feb097851",
+            "messageTitle": "add assert and log info to view",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 7,
+                "deletions": 1
+              },
+              "test-code": {
+                "insertions": 0,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "e82b5f42daf9987414ee954352afdf03b61f2b05",
+            "messageTitle": "changing style of code",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 3,
+                "deletions": 2
+              },
+              "test-code": {
+                "insertions": 16,
+                "deletions": 6
+              }
+            }
+          }
+        ]
       }
     ],
     "tototto": [],
@@ -320,8 +385,8 @@
   "authorFileTypeContributionMap": {
     "ZhengShijieNUS": {
       "docs": 0,
-      "functional-code": 9,
-      "test-code": 0
+      "functional-code": 23,
+      "test-code": 107
     },
     "tototto": {
       "docs": 0,
@@ -335,16 +400,16 @@
     },
     "pigoliver": {
       "docs": 0,
-      "functional-code": 249,
+      "functional-code": 230,
       "test-code": 41,
       "other": 4
     }
   },
   "authorContributionVariance": {
-    "ZhengShijieNUS": 1.3961225,
+    "ZhengShijieNUS": 341.3289,
     "tototto": 0.0,
-    "JanuariusJang": 77.37089,
-    "pigoliver": 3428.534
+    "JanuariusJang": 74.86355,
+    "pigoliver": 3314.7808
   },
   "authorDisplayNameMap": {
     "ZhengShijieNUS": "TIC4001-3 ZHEN..IJIE",
