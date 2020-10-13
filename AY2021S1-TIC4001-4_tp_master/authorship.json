@@ -506,58 +506,58 @@
       {
         "lineNumber": 18,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "timmyly7"
         },
-        "content": "        boolean isExit \u003d false;"
+        "content": ""
       },
       {
         "lineNumber": 19,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "timmyly7"
         },
-        "content": "        while (isExit) {"
+        "content": ""
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "            try {"
+        "content": "        boolean isExit \u003d false;"
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "                switch (\"\") {"
+        "content": "        while (isExit) {"
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "                case \"EXIT\":"
+        "content": "            try {"
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "                    isExit \u003d true;"
+        "content": "                switch (\"\") {"
       },
       {
         "lineNumber": 24,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "                    break;"
+        "content": "                case \"EXIT\":"
       },
       {
         "lineNumber": 25,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "                case \"ADD\":"
+        "content": "                    isExit \u003d true;"
       },
       {
         "lineNumber": 26,
@@ -571,7 +571,7 @@
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "                case \"VIEW\":"
+        "content": "                case \"ADD\":"
       },
       {
         "lineNumber": 28,
@@ -585,7 +585,7 @@
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "                case \"DELETE\":"
+        "content": "                case \"VIEW\":"
       },
       {
         "lineNumber": 30,
@@ -599,7 +599,7 @@
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "                case \"SEARCH\":"
+        "content": "                case \"DELETE\":"
       },
       {
         "lineNumber": 32,
@@ -613,7 +613,7 @@
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "                case \"TOTAL\":"
+        "content": "                case \"SEARCH\":"
       },
       {
         "lineNumber": 34,
@@ -627,7 +627,7 @@
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "                default:"
+        "content": "                case \"TOTAL\":"
       },
       {
         "lineNumber": 36,
@@ -641,59 +641,73 @@
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "                }"
+        "content": "                default:"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "            } catch (Exception e) {"
+        "content": "                    break;"
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "                System.out.println(e.getMessage());"
+        "content": "                }"
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "            }"
+        "content": "            } catch (Exception e) {"
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": ""
+        "content": "                System.out.println(e.getMessage());"
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "        }"
+        "content": "            }"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "        System.exit(0);"
+        "content": ""
       },
       {
         "lineNumber": 44,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "        System.exit(0);"
+      },
+      {
+        "lineNumber": 46,
         "author": {
           "gitId": "-"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 45,
+        "lineNumber": 47,
         "author": {
           "gitId": "-"
         },
@@ -701,6 +715,7 @@
       }
     ],
     "authorContributionMap": {
+      "timmyly7": 2,
       "-": 10,
       "adi-kd0021": 35
     }
@@ -726,12 +741,33 @@
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "timmyly7"
         },
-        "content": "public class AddCommand {"
+        "content": "public class AddCommand extends Command {"
       },
       {
         "lineNumber": 4,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "    public static final String COMMAND_WORD \u003d \"add\";"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 7,
         "author": {
           "gitId": "adi-kd0021"
         },
@@ -739,7 +775,8 @@
       }
     ],
     "authorContributionMap": {
-      "adi-kd0021": 4
+      "timmyly7": 4,
+      "adi-kd0021": 3
     }
   },
   {
@@ -763,9 +800,9 @@
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "timmyly7"
         },
-        "content": "import seedu.duke.data.Transaction;"
+        "content": ""
       },
       {
         "lineNumber": 4,
@@ -784,9 +821,9 @@
       {
         "lineNumber": 6,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "timmyly7"
         },
-        "content": "class Command {"
+        "content": "public class Command {"
       },
       {
         "lineNumber": 7,
@@ -979,7 +1016,8 @@
       }
     ],
     "authorContributionMap": {
-      "adi-kd0021": 33
+      "timmyly7": 2,
+      "adi-kd0021": 31
     }
   },
   {
@@ -1237,12 +1275,33 @@
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "timmyly7"
         },
-        "content": "public class DeleteCommand {"
+        "content": "public class DeleteCommand extends Command {"
       },
       {
         "lineNumber": 4,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "    public static final String COMMAND_WORD \u003d \"delete\";"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 7,
         "author": {
           "gitId": "adi-kd0021"
         },
@@ -1250,7 +1309,89 @@
       }
     ],
     "authorContributionMap": {
-      "adi-kd0021": 4
+      "timmyly7": 4,
+      "adi-kd0021": 3
+    }
+  },
+  {
+    "path": "src/main/java/seedu/duke/commands/HelpCommand.java",
+    "fileType": "functional-code",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "package seedu.duke.commands;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "public class HelpCommand extends Command {"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "    public static final String COMMAND_WORD \u003d \"help\";"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "timmyly7": 5
+    }
+  },
+  {
+    "path": "src/main/java/seedu/duke/commands/IncorrectCommand.java",
+    "fileType": "functional-code",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "package seedu.duke.commands;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "public class IncorrectCommand extends Command {"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "timmyly7": 4
     }
   },
   {
@@ -1274,12 +1415,19 @@
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "timmyly7"
         },
-        "content": "public class SearchCommand {"
+        "content": "public class SearchCommand extends Command {"
       },
       {
         "lineNumber": 4,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "    public static final String COMMAND_WORD \u003d \"search\";"
+      },
+      {
+        "lineNumber": 5,
         "author": {
           "gitId": "adi-kd0021"
         },
@@ -1287,7 +1435,8 @@
       }
     ],
     "authorContributionMap": {
-      "adi-kd0021": 4
+      "timmyly7": 2,
+      "adi-kd0021": 3
     }
   },
   {
@@ -1454,12 +1603,19 @@
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "timmyly7"
         },
-        "content": "public class ViewCommand {"
+        "content": "public class ViewCommand extends Command {"
       },
       {
         "lineNumber": 4,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "    public static final String COMMAND_WORD \u003d \"view\";"
+      },
+      {
+        "lineNumber": 5,
         "author": {
           "gitId": "adi-kd0021"
         },
@@ -1467,7 +1623,8 @@
       }
     ],
     "authorContributionMap": {
-      "adi-kd0021": 4
+      "timmyly7": 2,
+      "adi-kd0021": 3
     }
   },
   {
@@ -2166,6 +2323,92 @@
     }
   },
   {
+    "path": "src/main/java/seedu/duke/exception/ProcessingException.java",
+    "fileType": "functional-code",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "package seedu.duke.exception;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "public class ProcessingException extends Exception {"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "    private final String message;"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "    public ProcessingException(String message) {"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        super(message);"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        this.message \u003d message;"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "timmyly7": 11
+    }
+  },
+  {
     "path": "src/main/java/seedu/duke/utilities/Parser.java",
     "fileType": "functional-code",
     "lines": [
@@ -2186,19 +2429,705 @@
       {
         "lineNumber": 3,
         "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "import seedu.duke.commands.AddCommand;"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "import seedu.duke.commands.DeleteCommand;"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "import seedu.duke.commands.Command;"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "import seedu.duke.commands.HelpCommand;"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "import seedu.duke.commands.IncorrectCommand;"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "import seedu.duke.commands.SearchCommand;"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "import seedu.duke.commands.TotalCommand;"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "import seedu.duke.commands.ViewCommand;"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "import java.util.regex.Matcher;"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "import java.util.regex.Pattern;"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 14,
+        "author": {
           "gitId": "adi-kd0021"
         },
         "content": "public class Parser {"
       },
       {
-        "lineNumber": 4,
+        "lineNumber": 15,
         "author": {
           "gitId": "adi-kd0021"
         },
         "content": ""
       },
       {
-        "lineNumber": 5,
+        "lineNumber": 16,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "     * Used for initial separation of command word and args."
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "    public static final Pattern BASIC_COMMAND_FORMAT \u003d Pattern.compile(\"(?\u003ccommandWord\u003e\\\\S+)(?\u003carguments\u003e.*)\");"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "    public Command parseCommand(String userInput) {"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        final Matcher matcher \u003d BASIC_COMMAND_FORMAT.matcher(userInput.trim());"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        if (!matcher.matches()) {"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "            //return new IncorrectCommand(String.format(MESSAGE_INVALID_COMMAND_FORMAT, HelpCommand.MESSAGE_USAGE));"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        final String commandWord \u003d matcher.group(\"commandWord\");"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        final String arguments \u003d matcher.group(\"arguments\");"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        switch (commandWord) {"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        case AddCommand.COMMAND_WORD:"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "            return createAddCommand(arguments);"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        case DeleteCommand.COMMAND_WORD:"
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "            return createDeleteCommand(arguments);"
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        case SearchCommand.COMMAND_WORD:"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "            return createSearchCommand(arguments);"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        case TotalCommand.COMMAND_WORD:"
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "            return createTotalCommand(arguments);"
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        case ViewCommand.COMMAND_WORD:"
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "            return createViewCommand(arguments);"
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 47,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        case HelpCommand.COMMAND_WORD: // Fallthrough"
+      },
+      {
+        "lineNumber": 48,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        default:"
+      },
+      {
+        "lineNumber": 49,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "            return new HelpCommand();"
+      },
+      {
+        "lineNumber": 50,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 51,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "    private Command createAddCommand(String args) {"
+      },
+      {
+        "lineNumber": 54,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        Command finalCommand;"
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        try {"
+      },
+      {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "            finalCommand \u003d new AddCommand();"
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        } catch (Exception e) {"
+      },
+      {
+        "lineNumber": 58,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "            finalCommand \u003d new IncorrectCommand();"
+      },
+      {
+        "lineNumber": 59,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 60,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        return finalCommand;"
+      },
+      {
+        "lineNumber": 61,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 62,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 63,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "    private Command createDeleteCommand(String args) {"
+      },
+      {
+        "lineNumber": 64,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        Command finalCommand;"
+      },
+      {
+        "lineNumber": 65,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        try {"
+      },
+      {
+        "lineNumber": 66,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "            finalCommand \u003d new DeleteCommand();"
+      },
+      {
+        "lineNumber": 67,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        } catch (Exception e) {"
+      },
+      {
+        "lineNumber": 68,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "            finalCommand \u003d new IncorrectCommand();"
+      },
+      {
+        "lineNumber": 69,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 70,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        return finalCommand;"
+      },
+      {
+        "lineNumber": 71,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 72,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 73,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "    private Command createSearchCommand(String args) {"
+      },
+      {
+        "lineNumber": 74,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        Command finalCommand;"
+      },
+      {
+        "lineNumber": 75,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        try {"
+      },
+      {
+        "lineNumber": 76,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "            finalCommand \u003d new SearchCommand();"
+      },
+      {
+        "lineNumber": 77,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        } catch (Exception e) {"
+      },
+      {
+        "lineNumber": 78,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "            finalCommand \u003d new IncorrectCommand();"
+      },
+      {
+        "lineNumber": 79,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 80,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        return finalCommand;"
+      },
+      {
+        "lineNumber": 81,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 82,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 83,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "    private Command createTotalCommand(String args) {"
+      },
+      {
+        "lineNumber": 84,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        Command finalCommand;"
+      },
+      {
+        "lineNumber": 85,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        try {"
+      },
+      {
+        "lineNumber": 86,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "            finalCommand \u003d new TotalCommand();"
+      },
+      {
+        "lineNumber": 87,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        } catch (Exception e) {"
+      },
+      {
+        "lineNumber": 88,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "            finalCommand \u003d new IncorrectCommand();"
+      },
+      {
+        "lineNumber": 89,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 90,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        return finalCommand;"
+      },
+      {
+        "lineNumber": 91,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 92,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 93,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "    private Command createViewCommand(String args) {"
+      },
+      {
+        "lineNumber": 94,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        Command finalCommand;"
+      },
+      {
+        "lineNumber": 95,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        try {"
+      },
+      {
+        "lineNumber": 96,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "            finalCommand \u003d new ViewCommand();"
+      },
+      {
+        "lineNumber": 97,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        } catch (Exception e) {"
+      },
+      {
+        "lineNumber": 98,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "            finalCommand \u003d new IncorrectCommand();"
+      },
+      {
+        "lineNumber": 99,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 100,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        return finalCommand;"
+      },
+      {
+        "lineNumber": 101,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 102,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 103,
         "author": {
           "gitId": "adi-kd0021"
         },
@@ -2206,6 +3135,7 @@
       }
     ],
     "authorContributionMap": {
+      "timmyly7": 98,
       "adi-kd0021": 5
     }
   },

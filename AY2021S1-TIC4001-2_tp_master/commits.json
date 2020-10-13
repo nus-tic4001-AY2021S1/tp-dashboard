@@ -93,6 +93,78 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-12",
+        "commitResults": [
+          {
+            "hash": "07de5a9c7a3c5a7c752028cc7e6b2453436188e7",
+            "messageTitle": "update my master",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 353,
+                "deletions": 197
+              },
+              "other": {
+                "insertions": 1,
+                "deletions": 1
+              },
+              "docs": {
+                "insertions": 161,
+                "deletions": 0
+              },
+              "test-code": {
+                "insertions": 0,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "fc878c428c364a2ea10f188d529990be522118cc",
+            "messageTitle": "update my master v2",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 110,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "6bc2f377433d61cedd385a19e48e7689800ed727",
+            "messageTitle": "update my master v2",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 97,
+                "deletions": 11
+              }
+            }
+          },
+          {
+            "hash": "b9af5f584277fb76d4614da02671d64543e353ad",
+            "messageTitle": "Add branch-List category",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 17,
+                "deletions": 5
+              }
+            }
+          },
+          {
+            "hash": "095d2c255150f4af3641392286d8c693acbcb099",
+            "messageTitle": "Add User Guide version 2",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 149,
+                "deletions": 120
+              }
+            }
+          }
+        ]
       }
     ],
     "e0260222": [
@@ -516,6 +588,61 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-12",
+        "commitResults": [
+          {
+            "hash": "cb75063029b954206b8787750aa7b1dfa1d4442f",
+            "messageTitle": "Add  more JUnit test cases",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 1,
+                "deletions": 2
+              },
+              "test-code": {
+                "insertions": 271,
+                "deletions": 7
+              }
+            }
+          },
+          {
+            "hash": "48cd220682209f89d71ac1247a98c3ebcfb6f2d6",
+            "messageTitle": "Storage class: add logger",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 81,
+                "deletions": 12
+              },
+              "other": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-10-13",
+        "commitResults": [
+          {
+            "hash": "49096507f1bb8c0ec9647912ada1a0c8081b9c3f",
+            "messageTitle": "Add delete category feature",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 210,
+                "deletions": 93
+              },
+              "test-code": {
+                "insertions": 5,
+                "deletions": 5
+              }
+            }
+          }
+        ]
       }
     ],
     "Chenduo1412": [
@@ -577,15 +704,15 @@
       "test-code": 0
     },
     "dgc5213": {
-      "docs": 159,
-      "functional-code": 239,
+      "docs": 208,
+      "functional-code": 453,
       "test-code": 36
     },
     "e0260222": {
-      "docs": 92,
-      "functional-code": 1362,
-      "test-code": 40,
-      "other": 3
+      "docs": 75,
+      "functional-code": 1446,
+      "test-code": 307,
+      "other": 4
     },
     "Chenduo1412": {
       "docs": 0,
@@ -595,9 +722,9 @@
   },
   "authorContributionVariance": {
     "daiweinus": 0.0,
-    "dgc5213": 12308.958,
-    "e0260222": 34119.938,
-    "Chenduo1412": 252.0775
+    "dgc5213": 35453.297,
+    "e0260222": 35808.273,
+    "Chenduo1412": 243.95049
   },
   "authorDisplayNameMap": {
     "daiweinus": "TIC4001-2 DAI .. WEI",

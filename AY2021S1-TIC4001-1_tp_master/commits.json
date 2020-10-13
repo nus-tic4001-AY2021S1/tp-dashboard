@@ -129,6 +129,22 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-12",
+        "commitResults": [
+          {
+            "hash": "0e747098e6a8006b2632b72b8527e507245c8ac2",
+            "messageTitle": "Update README.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          }
+        ]
       }
     ],
     "binbinhui": [
@@ -151,13 +167,40 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-13",
+        "commitResults": [
+          {
+            "hash": "2ef6538ca60d3b3709161c3e72bc7f82c9bd5e35",
+            "messageTitle": "Implement adding new project and replacement of current project\u0027s value.",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 475,
+                "deletions": 34
+              }
+            }
+          },
+          {
+            "hash": "fbc7578a47917a7505190a02811e19cbb24d0dbd",
+            "messageTitle": "Gradle change",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "other": {
+                "insertions": 12,
+                "deletions": 14
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFileTypeContributionMap": {
     "linqing42": {
       "docs": 74,
-      "functional-code": 82,
+      "functional-code": 74,
       "test-code": 0
     },
     "Yiheng0410": {
@@ -167,21 +210,22 @@
     },
     "Impala36": {
       "docs": 14,
-      "functional-code": 453,
+      "functional-code": 442,
       "test-code": 3,
-      "other": 6
+      "other": 5
     },
     "binbinhui": {
       "docs": 0,
-      "functional-code": 32,
-      "test-code": 1
+      "functional-code": 492,
+      "test-code": 1,
+      "other": 12
     }
   },
   "authorContributionVariance": {
-    "linqing42": 607.84204,
+    "linqing42": 588.2451,
     "Yiheng0410": 0.0,
-    "Impala36": 5701.901,
-    "binbinhui": 137.97702
+    "Impala36": 5518.907,
+    "binbinhui": 4722.653
   },
   "authorDisplayNameMap": {
     "linqing42": "TIC4001-1 LIN ..QING",

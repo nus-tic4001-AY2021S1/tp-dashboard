@@ -81,7 +81,7 @@
         "author": {
           "gitId": "Impala36"
         },
-        "content": "# Tracker seedu.tracker.project template"
+        "content": "# Tracker"
       },
       {
         "lineNumber": 2,
@@ -649,208 +649,194 @@
       {
         "lineNumber": 17,
         "author": {
-          "gitId": "-"
+          "gitId": "binbinhui"
         },
-        "content": "test {"
+        "content": "//test {"
       },
       {
         "lineNumber": 18,
         "author": {
-          "gitId": "-"
+          "gitId": "binbinhui"
         },
-        "content": "    useJUnitPlatform()"
+        "content": "//    useJUnitPlatform()"
       },
       {
         "lineNumber": 19,
         "author": {
-          "gitId": "-"
+          "gitId": "binbinhui"
         },
-        "content": ""
+        "content": "//    testLogging {"
       },
       {
         "lineNumber": 20,
         "author": {
-          "gitId": "-"
+          "gitId": "binbinhui"
         },
-        "content": "    testLogging {"
+        "content": "//        events \"passed\", \"skipped\", \"failed\""
       },
       {
         "lineNumber": 21,
         "author": {
-          "gitId": "-"
+          "gitId": "binbinhui"
         },
-        "content": "        events \"passed\", \"skipped\", \"failed\""
+        "content": "//        showExceptions true"
       },
       {
         "lineNumber": 22,
         "author": {
-          "gitId": "-"
+          "gitId": "binbinhui"
         },
-        "content": ""
+        "content": "//        exceptionFormat \"full\""
       },
       {
         "lineNumber": 23,
         "author": {
-          "gitId": "-"
+          "gitId": "binbinhui"
         },
-        "content": "        showExceptions true"
+        "content": "//        showCauses true"
       },
       {
         "lineNumber": 24,
         "author": {
-          "gitId": "-"
+          "gitId": "binbinhui"
         },
-        "content": "        exceptionFormat \"full\""
+        "content": "//        showStackTraces true"
       },
       {
         "lineNumber": 25,
         "author": {
-          "gitId": "-"
+          "gitId": "binbinhui"
         },
-        "content": "        showCauses true"
+        "content": "//        showStandardStreams \u003d false"
       },
       {
         "lineNumber": 26,
         "author": {
-          "gitId": "-"
+          "gitId": "binbinhui"
         },
-        "content": "        showStackTraces true"
+        "content": "//    }"
       },
       {
         "lineNumber": 27,
         "author": {
-          "gitId": "-"
+          "gitId": "binbinhui"
         },
-        "content": "        showStandardStreams \u003d false"
+        "content": "//}"
       },
       {
         "lineNumber": 28,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
+        "content": "application {"
       },
       {
         "lineNumber": 30,
         "author": {
-          "gitId": "-"
+          "gitId": "binbinhui"
         },
-        "content": ""
+        "content": "    mainClassName \u003d \"src.main.java.seedu.tracker.Tracker\""
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "-"
         },
-        "content": "application {"
+        "content": "}"
       },
       {
         "lineNumber": 32,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "-"
         },
-        "content": "    mainClassName \u003d \"seedu.tracker.Tracker\""
+        "content": ""
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "-"
         },
-        "content": "}"
-      },
-      {
-        "lineNumber": 34,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 35,
-        "author": {
-          "gitId": "-"
-        },
         "content": "shadowJar {"
       },
       {
-        "lineNumber": 36,
+        "lineNumber": 34,
         "author": {
           "gitId": "Impala36"
         },
         "content": "    archiveBaseName \u003d \"tracker\""
       },
       {
-        "lineNumber": 37,
+        "lineNumber": 35,
         "author": {
           "gitId": "-"
         },
         "content": "    archiveClassifier \u003d null"
       },
       {
-        "lineNumber": 38,
+        "lineNumber": 36,
         "author": {
           "gitId": "-"
         },
         "content": "}"
       },
       {
-        "lineNumber": 39,
+        "lineNumber": 37,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 40,
+        "lineNumber": 38,
         "author": {
           "gitId": "-"
         },
         "content": "checkstyle {"
       },
       {
-        "lineNumber": 41,
+        "lineNumber": 39,
         "author": {
           "gitId": "-"
         },
         "content": "    toolVersion \u003d \u00278.23\u0027"
       },
       {
-        "lineNumber": 42,
+        "lineNumber": 40,
         "author": {
           "gitId": "-"
         },
         "content": "}"
       },
       {
-        "lineNumber": 43,
+        "lineNumber": 41,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 44,
+        "lineNumber": 42,
         "author": {
           "gitId": "-"
         },
         "content": "run{"
       },
       {
-        "lineNumber": 45,
+        "lineNumber": 43,
         "author": {
           "gitId": "-"
         },
         "content": "    standardInput \u003d System.in"
       },
       {
-        "lineNumber": 46,
+        "lineNumber": 44,
         "author": {
           "gitId": "-"
         },
@@ -858,8 +844,9 @@
       }
     ],
     "authorContributionMap": {
-      "Impala36": 2,
-      "-": 44
+      "Impala36": 1,
+      "-": 31,
+      "binbinhui": 12
     }
   },
   {
@@ -2843,173 +2830,208 @@
       {
         "lineNumber": 15,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "binbinhui"
         },
-        "content": ""
+        "content": "    public String arr[];"
       },
       {
         "lineNumber": 16,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "binbinhui"
         },
-        "content": "    protected Command(String line, ProjectList projects, Ui ui, Storage storage) {"
+        "content": "    public String arr2[];"
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        this.line \u003d line;"
+        "content": ""
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        this.storage \u003d storage;"
+        "content": "    protected Command(String line, ProjectList projects, Ui ui, Storage storage) {"
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        this.projects \u003d projects;"
+        "content": "        this.line \u003d line;"
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        this.ui \u003d ui;"
+        "content": "        this.storage \u003d storage;"
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    }"
+        "content": "        this.projects \u003d projects;"
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "Impala36"
         },
-        "content": ""
+        "content": "        this.ui \u003d ui;"
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    protected Command(String line, ProjectList projects, Ui ui) {"
+        "content": "    }"
       },
       {
         "lineNumber": 24,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        this.line \u003d line;"
+        "content": ""
       },
       {
         "lineNumber": 25,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        this.projects \u003d projects;"
+        "content": "    protected Command(String line, ProjectList projects, Ui ui) {"
       },
       {
         "lineNumber": 26,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        this.ui \u003d ui;"
+        "content": "        this.line \u003d line;"
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    }"
+        "content": "        this.projects \u003d projects;"
       },
       {
         "lineNumber": 28,
         "author": {
           "gitId": "Impala36"
         },
-        "content": ""
+        "content": "        this.ui \u003d ui;"
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    protected Command(ProjectList projects, Ui ui) {"
+        "content": "    }"
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        this.projects \u003d projects;"
+        "content": ""
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        this.ui \u003d ui;"
+        "content": "    protected Command(ProjectList projects, Ui ui) {"
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    }"
+        "content": "        this.projects \u003d projects;"
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "Impala36"
         },
-        "content": ""
+        "content": "        this.ui \u003d ui;"
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    protected Command(Ui ui) {"
+        "content": "    }"
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        this.ui \u003d ui;"
+        "content": ""
       },
       {
         "lineNumber": 36,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    protected Command(String arr[], String arr2[], ProjectList projects) {"
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        this.projects\u003dprojects;"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    protected Command(Ui ui) {"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        this.ui \u003d ui;"
+      },
+      {
+        "lineNumber": 41,
         "author": {
           "gitId": "Impala36"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 37,
+        "lineNumber": 42,
         "author": {
           "gitId": "Impala36"
         },
         "content": ""
       },
       {
-        "lineNumber": 38,
+        "lineNumber": 43,
         "author": {
           "gitId": "Impala36"
         },
         "content": "    public abstract void execute();"
       },
       {
-        "lineNumber": 39,
+        "lineNumber": 44,
         "author": {
           "gitId": "Impala36"
         },
@@ -3017,7 +3039,8 @@
       }
     ],
     "authorContributionMap": {
-      "Impala36": 39
+      "Impala36": 39,
+      "binbinhui": 5
     }
   },
   {
@@ -3386,12 +3409,397 @@
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "binbinhui"
         },
-        "content": "public class Description {"
+        "content": "import seedu.tracker.exception.TrackerException;"
       },
       {
         "lineNumber": 4,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "import seedu.tracker.project.Project;"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "import seedu.tracker.project.ProjectList;"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "import seedu.tracker.storage.Storage;"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "import seedu.tracker.ui.Ui;"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "public class Description extends Command {"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    public static final String word \u003d \"--description\";"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    public Description(String line, ProjectList projects, Ui ui, Storage storage) {"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        super(line, projects, ui, storage);"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    public void execute() {"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        try {"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            String arr[]\u003dline.split( \"--\");"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            String firstWord \u003d arr[1];"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            String secWord \u003d arr[2];"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            String arr2[]\u003dfirstWord.split(\" \",2);"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            String arr3[]\u003dsecWord.split(\" \", 2);"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            if (arr2[1].isEmpty()) {"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                throw new TrackerException(\"It seems that you missed out the task description!\\n\" +"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                        \"Please type in the \u0027--inCharge \u003csomething\u003e\u0027 format.\");"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            else {"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                // new Replace(arr2[], arr3[], projects);"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                int he \u003d Integer.parseInt(arr2[1].trim())-1;"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                String line \u003d projects.getProject().get(he).toString();"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                String arr4[] \u003d line.split(\"--\");"
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                String temp2 \u003d \"\";"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                String temp3 ;"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                for(int num \u003d 1; num \u003c arr4.length; num++){"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                    String arr5[] \u003d arr4[num].split(\" \",2);"
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                    if (arr2[0].equalsIgnoreCase(arr5[0])){"
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                        String temp \u003d arr4[num].replace(arr5[1], arr3[1]);"
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                        System.out.println(temp);"
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                        temp2 \u003d temp2 + temp+ \" \";"
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                    }else{"
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                        temp3 \u003d \"--\" + arr4[num];"
+      },
+      {
+        "lineNumber": 47,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                        temp2 \u003d temp2 + temp3;"
+      },
+      {
+        "lineNumber": 48,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                    }"
+      },
+      {
+        "lineNumber": 49,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                }"
+      },
+      {
+        "lineNumber": 50,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 51,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                projects.set(he,new Project(temp2));"
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 54,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        } catch (TrackerException e) {"
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            ui.printBorderline(e.getMessage());"
+      },
+      {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 58,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 59,
         "author": {
           "gitId": "binbinhui"
         },
@@ -3399,8 +3807,7 @@
       }
     ],
     "authorContributionMap": {
-      "Impala36": 1,
-      "binbinhui": 3
+      "binbinhui": 59
     }
   },
   {
@@ -3424,12 +3831,397 @@
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "binbinhui"
         },
-        "content": "public class DueDate {"
+        "content": "import seedu.tracker.exception.TrackerException;"
       },
       {
         "lineNumber": 4,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "import seedu.tracker.project.Project;"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "import seedu.tracker.project.ProjectList;"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "import seedu.tracker.storage.Storage;"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "import seedu.tracker.ui.Ui;"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "public class DueDate extends Command{"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    public static final String word \u003d \"--duedate\";"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    public DueDate(String line, ProjectList projects, Ui ui, Storage storage) {"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        super(line, projects, ui, storage);"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    public void execute() {"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        try {"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            String arr[]\u003dline.split( \"--\");"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            String firstWord \u003d arr[1];"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            String secWord \u003d arr[2];"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            String arr2[]\u003dfirstWord.split(\" \",2);"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            String arr3[]\u003dsecWord.split(\" \", 2);"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            if (arr2[1].isEmpty()) {"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                throw new TrackerException(\"It seems that you missed out the task description!\\n\" +"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                        \"Please type in the \u0027--inCharge \u003csomething\u003e\u0027 format.\");"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            else {"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                // new Replace(arr2[], arr3[], projects);"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                int he \u003d Integer.parseInt(arr2[1].trim())-1;"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                String line \u003d projects.getProject().get(he).toString();"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                String arr4[] \u003d line.split(\"--\");"
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                String temp2 \u003d \"\";"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                String temp3 ;"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                for(int num \u003d 1; num \u003c arr4.length; num++){"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                    String arr5[] \u003d arr4[num].split(\" \",2);"
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                    if (arr2[0].equalsIgnoreCase(arr5[0])){"
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                        String temp \u003d arr4[num].replace(arr5[1], arr3[1]);"
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                        System.out.println(temp);"
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                        temp2 \u003d temp2 + temp+ \" \";"
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                    }else{"
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                        temp3 \u003d \"--\" + arr4[num];"
+      },
+      {
+        "lineNumber": 47,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                        temp2 \u003d temp2 + temp3;"
+      },
+      {
+        "lineNumber": 48,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                    }"
+      },
+      {
+        "lineNumber": 49,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                }"
+      },
+      {
+        "lineNumber": 50,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 51,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                projects.set(he,new Project(temp2));"
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 54,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        } catch (TrackerException e) {"
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            ui.printBorderline(e.getMessage());"
+      },
+      {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 58,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 59,
         "author": {
           "gitId": "binbinhui"
         },
@@ -3437,8 +4229,7 @@
       }
     ],
     "authorContributionMap": {
-      "Impala36": 1,
-      "binbinhui": 3
+      "binbinhui": 59
     }
   },
   {
@@ -3807,68 +4598,75 @@
       {
         "lineNumber": 32,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "binbinhui"
         },
-        "content": "        }"
+        "content": ""
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "        if (!hasMatch) {"
+        "content": "        }"
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "            matches \u003d \"It appears that are no matches for \u0027\" + searchWord + \"\u0027!\\n\" +"
+        "content": "        if (!hasMatch) {"
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "                    \"Perhaps you could try searching another word?\";"
+        "content": "            matches \u003d \"It appears that are no matches for \u0027\" + searchWord + \"\u0027!\\n\" +"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "        }"
+        "content": "                    \"Perhaps you could try searching another word?\";"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "        ui.printBorderline(matches);"
+        "content": "        }"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "linqing42"
         },
-        "content": ""
+        "content": "        ui.printBorderline(matches);"
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "linqing42"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 41,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 42,
         "author": {
           "gitId": "binbinhui"
         },
@@ -3877,7 +4675,7 @@
     ],
     "authorContributionMap": {
       "linqing42": 38,
-      "binbinhui": 3
+      "binbinhui": 4
     }
   },
   {
@@ -4080,171 +4878,360 @@
         "author": {
           "gitId": "linqing42"
         },
-        "content": "import java.io.IOException;"
+        "content": "public class InCharge extends Command {"
       },
       {
         "lineNumber": 9,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "binbinhui"
         },
-        "content": ""
+        "content": "    public static final String word \u003d \"--incharge\";"
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "public class InCharge extends Command {"
+        "content": ""
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "    public static final String word \u003d \"--inCharge\";"
+        "content": "    public InCharge(String line, ProjectList projects, Ui ui, Storage storage) {"
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "linqing42"
         },
-        "content": ""
+        "content": "        super(line, projects, ui, storage);"
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "    public InCharge(String line, ProjectList projects, Ui ui, Storage storage) {"
+        "content": "    }"
       },
       {
         "lineNumber": 14,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "        super(line, projects, ui, storage);"
+        "content": ""
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "    }"
+        "content": "    @Override"
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "linqing42"
         },
-        "content": ""
+        "content": "    public void execute() {"
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "    @Override"
+        "content": "        try {"
       },
       {
         "lineNumber": 18,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "binbinhui"
         },
-        "content": "    public void execute() {"
+        "content": ""
       },
       {
         "lineNumber": 19,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "binbinhui"
         },
-        "content": "        try {"
+        "content": "            String arr[]\u003dline.split( \"--\");"
       },
       {
         "lineNumber": 20,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "binbinhui"
         },
-        "content": "            if (line.isEmpty()) {"
+        "content": "            String firstWord \u003d arr[1];"
       },
       {
         "lineNumber": 21,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "binbinhui"
         },
-        "content": "                throw new TrackerException(\"It seems that you missed out the task description!\\n\" +"
+        "content": "            String secWord \u003d arr[2];"
       },
       {
         "lineNumber": 22,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "binbinhui"
         },
-        "content": "                        \"Please type in the \u0027--inCharge \u003csomething\u003e\u0027 format.\");"
+        "content": ""
       },
       {
         "lineNumber": 23,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "binbinhui"
         },
-        "content": "            }"
+        "content": "            String arr2[]\u003dfirstWord.split(\" \",2);"
       },
       {
         "lineNumber": 24,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "binbinhui"
         },
-        "content": "            line \u003d \"[InCharge]     \" + line;"
+        "content": "            String arr3[]\u003dsecWord.split(\" \", 2);"
       },
       {
         "lineNumber": 25,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "binbinhui"
         },
-        "content": "            projects.add(new Project(line));"
+        "content": "            if (arr2[1].isEmpty()) {"
       },
       {
         "lineNumber": 26,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "        } catch (TrackerException e) {"
+        "content": "                throw new TrackerException(\"It seems that you missed out the task description!\\n\" +"
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "            ui.printBorderline(e.getMessage());"
+        "content": "                        \"Please type in the \u0027--inCharge \u003csomething\u003e\u0027 format.\");"
       },
       {
         "lineNumber": 28,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "linqing42"
         },
-        "content": "        }"
+        "content": "            }"
       },
       {
         "lineNumber": 29,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "binbinhui"
         },
-        "content": "    }"
+        "content": "            else {"
       },
       {
         "lineNumber": 30,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "binbinhui"
         },
         "content": ""
       },
       {
         "lineNumber": 31,
         "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                // new Replace(arr2[], arr3[], projects);"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "               int he \u003d Integer.parseInt(arr2[1].trim())-1;"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "               String line \u003d projects.getProject().get(he).toString();"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "               String arr4[] \u003d line.split(\"--\");"
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "               String temp2 \u003d \"\";"
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "               String temp3 ;"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "               for(int num \u003d 1; num \u003c arr4.length; num++){"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                   String arr5[] \u003d arr4[num].split(\" \",2);"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                   if (arr2[0].equalsIgnoreCase(arr5[0])){"
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                       String temp \u003d arr4[num].replace(arr5[1], arr3[1]);"
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                       System.out.println(temp);"
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                       temp2 \u003d temp2 + temp+ \" \";"
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                   }else{"
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                       temp3 \u003d \"--\" + arr4[num];"
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                       temp2 \u003d temp2 + temp3;"
+      },
+      {
+        "lineNumber": 47,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                   }"
+      },
+      {
+        "lineNumber": 48,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "               }"
+      },
+      {
+        "lineNumber": 49,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 50,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                projects.set(he,new Project(temp2));"
+      },
+      {
+        "lineNumber": 51,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "        } catch (TrackerException e) {"
+      },
+      {
+        "lineNumber": 54,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "            ui.printBorderline(e.getMessage());"
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 58,
+        "author": {
           "gitId": "linqing42"
         },
         "content": "}"
       },
       {
-        "lineNumber": 32,
+        "lineNumber": 59,
         "author": {
           "gitId": "linqing42"
         },
@@ -4252,8 +5239,8 @@
       }
     ],
     "authorContributionMap": {
-      "linqing42": 29,
-      "binbinhui": 3
+      "linqing42": 23,
+      "binbinhui": 36
     }
   },
   {
@@ -4405,12 +5392,397 @@
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "binbinhui"
         },
-        "content": "public class Involve {"
+        "content": "import seedu.tracker.exception.TrackerException;"
       },
       {
         "lineNumber": 4,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "import seedu.tracker.project.Project;"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "import seedu.tracker.project.ProjectList;"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "import seedu.tracker.storage.Storage;"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "import seedu.tracker.ui.Ui;"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "public class Involve extends Command {"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    public static final String word \u003d \"--involve\";"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    public Involve(String line, ProjectList projects, Ui ui, Storage storage) {"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        super(line, projects, ui, storage);"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    public void execute() {"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        try {"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            String arr[]\u003dline.split( \"--\");"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            String firstWord \u003d arr[1];"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            String secWord \u003d arr[2];"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            String arr2[]\u003dfirstWord.split(\" \",2);"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            String arr3[]\u003dsecWord.split(\" \", 2);"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            if (arr2[1].isEmpty()) {"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                throw new TrackerException(\"It seems that you missed out the task description!\\n\" +"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                        \"Please type in the \u0027--inCharge \u003csomething\u003e\u0027 format.\");"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            else {"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                // new Replace(arr2[], arr3[], projects);"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                int he \u003d Integer.parseInt(arr2[1].trim())-1;"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                String line \u003d projects.getProject().get(he).toString();"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                String arr4[] \u003d line.split(\"--\");"
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                String temp2 \u003d \"\";"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                String temp3 ;"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                for(int num \u003d 1; num \u003c arr4.length; num++){"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                    String arr5[] \u003d arr4[num].split(\" \",2);"
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                    if (arr2[0].equalsIgnoreCase(arr5[0])){"
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                        String temp \u003d arr4[num].replace(arr5[1], arr3[1]);"
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                        System.out.println(temp);"
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                        temp2 \u003d temp2 + temp+ \" \";"
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                    }else{"
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                        temp3 \u003d \"--\" + arr4[num];"
+      },
+      {
+        "lineNumber": 47,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                        temp2 \u003d temp2 + temp3;"
+      },
+      {
+        "lineNumber": 48,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                    }"
+      },
+      {
+        "lineNumber": 49,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                }"
+      },
+      {
+        "lineNumber": 50,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 51,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                projects.set(he,new Project(temp2));"
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 54,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        } catch (TrackerException e) {"
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            ui.printBorderline(e.getMessage());"
+      },
+      {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 58,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 59,
         "author": {
           "gitId": "binbinhui"
         },
@@ -4418,8 +5790,7 @@
       }
     ],
     "authorContributionMap": {
-      "Impala36": 1,
-      "binbinhui": 3
+      "binbinhui": 59
     }
   },
   {
@@ -4597,26 +5968,33 @@
       {
         "lineNumber": 25,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "binbinhui"
         },
-        "content": "        }"
+        "content": "            //total \u003d total.concat((i + 1) + \". \" + projects.getProject().get(i).toString()) + \"\\n\";"
       },
       {
         "lineNumber": 26,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        ui.printBorderline(total);"
+        "content": "        }"
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    }"
+        "content": "        ui.printBorderline(total);"
       },
       {
         "lineNumber": 28,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 29,
         "author": {
           "gitId": "Impala36"
         },
@@ -4624,7 +6002,8 @@
       }
     ],
     "authorContributionMap": {
-      "Impala36": 28
+      "Impala36": 28,
+      "binbinhui": 1
     }
   },
   {
@@ -4648,19 +6027,404 @@
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "binbinhui"
         },
-        "content": "public class Name {"
+        "content": "import seedu.tracker.exception.TrackerException;"
       },
       {
         "lineNumber": 4,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "import seedu.tracker.project.Project;"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "import seedu.tracker.project.ProjectList;"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "import seedu.tracker.storage.Storage;"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "import seedu.tracker.ui.Ui;"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "public class Name extends Command {"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    public static final String word \u003d \"--name\";"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    public Name(String line, ProjectList projects, Ui ui, Storage storage) {"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        super(line, projects, ui, storage);"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    public void execute() {"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        try {"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            String arr[]\u003dline.split( \"--\");"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            String firstWord \u003d arr[1];"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            String secWord \u003d arr[2];"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            String arr2[]\u003dfirstWord.split(\" \",2);"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            String arr3[]\u003dsecWord.split(\" \", 2);"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            if (arr2[1].isEmpty()) {"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                throw new TrackerException(\"It seems that you missed out the task description!\\n\" +"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                        \"Please type in the \u0027--inCharge \u003csomething\u003e\u0027 format.\");"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            else {"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                // new Replace(arr2[], arr3[], projects);"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                int he \u003d Integer.parseInt(arr2[1].trim())-1;"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                String line \u003d projects.getProject().get(he).toString();"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                String arr4[] \u003d line.split(\"--\");"
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                String temp2 \u003d \"\";"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                String temp3 ;"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                for(int num \u003d 1; num \u003c arr4.length; num++){"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                    String arr5[] \u003d arr4[num].split(\" \",2);"
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                    if (arr2[0].equalsIgnoreCase(arr5[0])){"
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                        String temp \u003d arr4[num].replace(arr5[1], arr3[1]);"
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                        System.out.println(temp);"
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                        temp2 \u003d temp2 + temp+ \" \";"
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                    }else{"
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                        temp3 \u003d \"--\" + arr4[num];"
+      },
+      {
+        "lineNumber": 47,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                        temp2 \u003d temp2 + temp3;"
+      },
+      {
+        "lineNumber": 48,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                    }"
+      },
+      {
+        "lineNumber": 49,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                }"
+      },
+      {
+        "lineNumber": 50,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 51,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                projects.set(he,new Project(temp2));"
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 54,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        } catch (TrackerException e) {"
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            ui.printBorderline(e.getMessage());"
+      },
+      {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 58,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 59,
         "author": {
           "gitId": "linqing42"
         },
         "content": ""
       },
       {
-        "lineNumber": 5,
+        "lineNumber": 60,
         "author": {
           "gitId": "binbinhui"
         },
@@ -4669,8 +6433,7 @@
     ],
     "authorContributionMap": {
       "linqing42": 1,
-      "Impala36": 1,
-      "binbinhui": 3
+      "binbinhui": 59
     }
   },
   {
@@ -4694,12 +6457,404 @@
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "binbinhui"
         },
-        "content": "public class Project {"
+        "content": "import seedu.tracker.project.NewProject;"
       },
       {
         "lineNumber": 4,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "import seedu.tracker.project.ProjectList;"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "import seedu.tracker.storage.Storage;"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "import seedu.tracker.ui.Ui;"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "import java.util.ArrayList;"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "public class Project extends Command {"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    public static final String word \u003d \"--project\";"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    public Project(String line, ProjectList projects, Ui ui, Storage storage) {"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        super(line, projects, ui, storage);"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    public void execute() {"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        //String newData \u003d \"\";"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        String temp;"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        ArrayList newProject \u003d new ArrayList();"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        newProject.add(\"name\");"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        newProject.add(\"description\");"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        newProject.add(\"involve\");"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        newProject.add(\"duedate\");"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        newProject.add(\"startdate\");"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        newProject.add(\"incharge\");"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        String arr[] \u003d line.split(\"--\");"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        if (arr.length \u003d\u003d 8) {"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            String newData \u003d \"\";"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            for(Object obj: newProject){"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                for(int num \u003d 1; num \u003c arr.length; num++){"
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                    if(arr[num].contains(obj.toString())){"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                        temp \u003d \"--\" + arr[num];"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                        newData \u003d newData + temp;"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                    }"
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                }"
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            System.out.println(newData);"
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            projects.add(new NewProject(newData));"
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 47,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        else{"
+      },
+      {
+        "lineNumber": 48,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 49,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            for (Object obj : newProject) {"
+      },
+      {
+        "lineNumber": 50,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                if (line.contains(\"--\"+obj.toString())) {"
+      },
+      {
+        "lineNumber": 51,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                } else {"
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                    System.out.println(\"command line is missing \" + obj.toString());"
+      },
+      {
+        "lineNumber": 54,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                }"
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 58,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 59,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 60,
         "author": {
           "gitId": "binbinhui"
         },
@@ -4707,8 +6862,282 @@
       }
     ],
     "authorContributionMap": {
-      "Impala36": 1,
-      "binbinhui": 3
+      "binbinhui": 60
+    }
+  },
+  {
+    "path": "src/main/java/seedu/tracker/command/Replace.java",
+    "fileType": "functional-code",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "package seedu.tracker.command;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "import seedu.tracker.project.Project;"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "import seedu.tracker.project.ProjectList;"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "public class Replace extends Command{"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    public static final String word \u003d \"--replace\";"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    public Replace(String[] arr, String[] arr2, ProjectList projects){"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        super(arr, arr2, projects);"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    public void execute() {"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        int he \u003d Integer.parseInt(arr[1].trim())-1;"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        String line \u003d projects.getProject().get(he).toString();"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        String arr3[] \u003d line.split(\"--\");"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        String haha ;"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        String temp2 \u003d \"\";"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        for(int num \u003d 1; num \u003c arr2.length; num++){"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            String arr4[] \u003d arr3[num].split(\" \",2);"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            if (arr2[0].equalsIgnoreCase(arr4[0])){"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                String temp \u003d arr3[num].replace(arr4[1], arr2[1]);"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                System.out.println(temp);"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                temp2 \u003d temp2 + temp;"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            }else{"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                haha \u003d \"--\" + arr3[num];"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                temp2 \u003d temp2 + haha;"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        projects.set(he,new Project(temp2));"
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "binbinhui": 38
     }
   },
   {
@@ -4732,12 +7161,397 @@
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "binbinhui"
         },
-        "content": "public class StartDate {"
+        "content": "import seedu.tracker.exception.TrackerException;"
       },
       {
         "lineNumber": 4,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "import seedu.tracker.project.Project;"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "import seedu.tracker.project.ProjectList;"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "import seedu.tracker.storage.Storage;"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "import seedu.tracker.ui.Ui;"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "public class StartDate extends Command {"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    public static final String word \u003d \"--startdate\";"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    public StartDate(String line, ProjectList projects, Ui ui, Storage storage) {"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        super(line, projects, ui, storage);"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    public void execute() {"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        try {"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            String arr[]\u003dline.split( \"--\");"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            String firstWord \u003d arr[1];"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            String secWord \u003d arr[2];"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            String arr2[]\u003dfirstWord.split(\" \",2);"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            String arr3[]\u003dsecWord.split(\" \", 2);"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            if (arr2[1].isEmpty()) {"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                throw new TrackerException(\"It seems that you missed out the task description!\\n\" +"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                        \"Please type in the \u0027--inCharge \u003csomething\u003e\u0027 format.\");"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            else {"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                // new Replace(arr2[], arr3[], projects);"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                int he \u003d Integer.parseInt(arr2[1].trim())-1;"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                String line \u003d projects.getProject().get(he).toString();"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                String arr4[] \u003d line.split(\"--\");"
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                String temp2 \u003d \"\";"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                String temp3 ;"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                for(int num \u003d 1; num \u003c arr4.length; num++){"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                    String arr5[] \u003d arr4[num].split(\" \",2);"
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                    if (arr2[0].equalsIgnoreCase(arr5[0])){"
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                        String temp \u003d arr4[num].replace(arr5[1], arr3[1]);"
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                        System.out.println(temp);"
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                        temp2 \u003d temp2 + temp+ \" \";"
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                    }else{"
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                        temp3 \u003d \"--\" + arr4[num];"
+      },
+      {
+        "lineNumber": 47,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                        temp2 \u003d temp2 + temp3;"
+      },
+      {
+        "lineNumber": 48,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                    }"
+      },
+      {
+        "lineNumber": 49,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                }"
+      },
+      {
+        "lineNumber": 50,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 51,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                projects.set(he,new Project(temp2));"
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 54,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        } catch (TrackerException e) {"
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            ui.printBorderline(e.getMessage());"
+      },
+      {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 58,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 59,
         "author": {
           "gitId": "binbinhui"
         },
@@ -4745,8 +7559,7 @@
       }
     ],
     "authorContributionMap": {
-      "Impala36": 1,
-      "binbinhui": 3
+      "binbinhui": 59
     }
   },
   {
@@ -4968,9 +7781,9 @@
       {
         "lineNumber": 14,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "binbinhui"
         },
-        "content": "        String commandWord \u003d line.trim().split(\" \")[0];"
+        "content": "        String commandWord \u003d line.trim().split(\" \",2)[0];"
       },
       {
         "lineNumber": 15,
@@ -4998,42 +7811,42 @@
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        case Help.word:"
+        "content": "            case Help.word:"
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "            return new Help(ui);"
+        "content": "                return new Help(ui);"
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        case Delete.word:"
+        "content": "            case Delete.word:"
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "            return new Delete(lineWithoutCommand, projects, ui, storage);"
+        "content": "                return new Delete(lineWithoutCommand, projects, ui, storage);"
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        case List.word:"
+        "content": "            case List.word:"
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "            return new List(projects, ui);"
+        "content": "                return new List(projects, ui);"
       },
       {
         "lineNumber": 24,
@@ -5059,61 +7872,145 @@
       {
         "lineNumber": 27,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "binbinhui"
         },
-        "content": "                return new InCharge(lineWithoutCommand, projects, ui, storage);"
+        "content": "                return new InCharge(line, projects, ui, storage);"
       },
       {
         "lineNumber": 28,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "binbinhui"
         },
-        "content": "        case Exit.word:"
+        "content": "            case Name.word:"
       },
       {
         "lineNumber": 29,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "binbinhui"
         },
-        "content": "        case \"\":        // also exits when user input is empty"
+        "content": "                return new Name(line, projects, ui, storage);"
       },
       {
         "lineNumber": 30,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "binbinhui"
         },
-        "content": "            return new Exit(ui);"
+        "content": "            case StartDate.word:"
       },
       {
         "lineNumber": 31,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "binbinhui"
         },
-        "content": "        default:"
+        "content": "                return new StartDate(line, projects, ui, storage);"
       },
       {
         "lineNumber": 32,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "binbinhui"
         },
-        "content": "            return new Invalid(ui);"
+        "content": "            case DueDate.word:"
       },
       {
         "lineNumber": 33,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                return new DueDate(line, projects, ui, storage);"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            case Project.word:"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                return new Project(line, projects, ui, storage);"
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            case Involve.word:"
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                return new Involve(line, projects, ui, storage);"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "            case Description.word:"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                return new Description(line, projects, ui, storage);"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            case Exit.word:"
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            case \"\":        // also exits when user input is empty"
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "                return new Exit(ui);"
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            default:"
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "                return new Invalid(ui);"
+      },
+      {
+        "lineNumber": 45,
         "author": {
           "gitId": "Impala36"
         },
         "content": "        }"
       },
       {
-        "lineNumber": 34,
+        "lineNumber": 46,
         "author": {
           "gitId": "Impala36"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 35,
+        "lineNumber": 47,
         "author": {
           "gitId": "Impala36"
         },
@@ -5121,8 +8018,9 @@
       }
     ],
     "authorContributionMap": {
-      "linqing42": 5,
-      "Impala36": 30
+      "linqing42": 4,
+      "Impala36": 29,
+      "binbinhui": 14
     }
   },
   {
@@ -5146,50 +8044,89 @@
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "binbinhui"
         },
-        "content": "public class NewProject {"
+        "content": "import java.security.PublicKey;"
       },
       {
         "lineNumber": 4,
-        "author": {
-          "gitId": "binbinhui"
-        },
-        "content": "}"
-      }
-    ],
-    "authorContributionMap": {
-      "Impala36": 1,
-      "binbinhui": 3
-    }
-  },
-  {
-    "path": "src/main/java/seedu/tracker/project/OldProject.java",
-    "fileType": "functional-code",
-    "lines": [
-      {
-        "lineNumber": 1,
-        "author": {
-          "gitId": "binbinhui"
-        },
-        "content": "package seedu.tracker.project;"
-      },
-      {
-        "lineNumber": 2,
         "author": {
           "gitId": "binbinhui"
         },
         "content": ""
       },
       {
-        "lineNumber": 3,
+        "lineNumber": 5,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "binbinhui"
         },
-        "content": "public class OldProject {"
+        "content": "public class NewProject extends Project {"
       },
       {
-        "lineNumber": 4,
+        "lineNumber": 6,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    public NewProject(String Description){"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        super(Description);"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    public String toString() {"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "       return description;"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 15,
         "author": {
           "gitId": "binbinhui"
         },
@@ -5197,8 +8134,7 @@
       }
     ],
     "authorContributionMap": {
-      "Impala36": 1,
-      "binbinhui": 3
+      "binbinhui": 15
     }
   },
   {
@@ -5243,16 +8179,16 @@
       {
         "lineNumber": 6,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "binbinhui"
         },
-        "content": "    public Project(String input) {"
+        "content": "    public Project(String description) {"
       },
       {
         "lineNumber": 7,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "binbinhui"
         },
-        "content": "        description \u003d input;"
+        "content": "        this.description \u003d description;"
       },
       {
         "lineNumber": 8,
@@ -5292,14 +8228,43 @@
       {
         "lineNumber": 13,
         "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    public String toString(){"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        return description;"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
           "gitId": "Impala36"
         },
         "content": "}"
       }
     ],
     "authorContributionMap": {
-      "linqing42": 2,
-      "Impala36": 11
+      "linqing42": 1,
+      "Impala36": 10,
+      "binbinhui": 6
     }
   },
   {
@@ -5372,173 +8337,264 @@
       {
         "lineNumber": 10,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "binbinhui"
         },
-        "content": ""
+        "content": "    //private final ArrayList projects;"
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    ProjectList(ArrayList\u003cProject\u003e projects) {"
+        "content": ""
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        this.projects \u003d projects;"
+        "content": "    ProjectList(ArrayList\u003cProject\u003e projects) {"
       },
       {
         "lineNumber": 13,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "binbinhui"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 14,
         "author": {
           "gitId": "Impala36"
         },
-        "content": ""
+        "content": "        this.projects \u003d projects;"
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    public ProjectList() {"
+        "content": "    }"
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        projects \u003d new ArrayList\u003c\u003e();"
+        "content": ""
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    }"
+        "content": "    public ProjectList() {"
       },
       {
         "lineNumber": 18,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "binbinhui"
         },
         "content": ""
       },
       {
         "lineNumber": 19,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "binbinhui"
         },
-        "content": "    public int size() {"
+        "content": "        this.projects \u003d new ArrayList\u003c\u003e();"
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        return projects.size();"
+        "content": "    }"
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "Impala36"
         },
-        "content": ""
+        "content": "    public int size() {"
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    public void add(Project task) {"
+        "content": "        return projects.size();"
       },
       {
         "lineNumber": 24,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        projects.add(task);"
+        "content": "    }"
       },
       {
         "lineNumber": 25,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 26,
         "author": {
           "gitId": "Impala36"
         },
-        "content": ""
+        "content": "    public void add(Project task) {"
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    public void remove(int index) {"
+        "content": "        projects.add(task);"
       },
       {
         "lineNumber": 28,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        projects.remove(index - 1);"
+        "content": "    }"
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 30,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    public void set(int number, Project obj){"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        projects.set(number,obj);"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    public void remove(int index) {"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        projects.remove(index - 1);"
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 37,
         "author": {
           "gitId": "Impala36"
         },
         "content": ""
       },
       {
-        "lineNumber": 31,
+        "lineNumber": 38,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 40,
         "author": {
           "gitId": "Impala36"
         },
         "content": "    public Project get(int index) {"
       },
       {
-        "lineNumber": 32,
+        "lineNumber": 41,
         "author": {
           "gitId": "Impala36"
         },
         "content": "        return projects.get(index);"
       },
       {
-        "lineNumber": 33,
+        "lineNumber": 42,
         "author": {
           "gitId": "Impala36"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 34,
+        "lineNumber": 43,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    public ArrayList\u003cProject\u003e getProject(){"
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "        return new ArrayList\u003c\u003e(projects);"
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 47,
         "author": {
           "gitId": "Impala36"
         },
@@ -5546,7 +8602,8 @@
       }
     ],
     "authorContributionMap": {
-      "Impala36": 34
+      "Impala36": 33,
+      "binbinhui": 14
     }
   },
   {
@@ -5745,355 +8802,362 @@
       {
         "lineNumber": 28,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "binbinhui"
         },
-        "content": "            fw.write(line);"
+        "content": "            //String line \u003d (i + 1) + \". \" + projects.getProject().get(i).toString() + \"\\n\";"
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        }"
+        "content": "            fw.write(line);"
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        fw.close();"
+        "content": "        }"
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    }"
+        "content": "        fw.close();"
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "Impala36"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    public void readStorage(ProjectList projects, Ui ui, Storage storage) {"
+        "content": ""
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        try {"
+        "content": "    public void readStorage(ProjectList projects, Ui ui, Storage storage) {"
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "            ArrayList\u003cString\u003e lines \u003d getLines(fileName);"
+        "content": "        try {"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "            projects \u003d extractProjects(lines, projects, ui, storage);"
+        "content": "            ArrayList\u003cString\u003e lines \u003d getLines(fileName);"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "            ui.printFileExists();"
+        "content": "            projects \u003d extractProjects(lines, projects, ui, storage);"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "            new List(projects, ui).execute();"
+        "content": "            ui.printFileExists();"
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "Impala36"
         },
-        "content": ""
+        "content": "            new List(projects, ui).execute();"
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        } catch (FileNotFoundException e) {"
+        "content": ""
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "            ui.printNoFileFound();"
+        "content": "        } catch (FileNotFoundException e) {"
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        } catch (IOException e) {"
+        "content": "            ui.printNoFileFound();"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "            ui.printBorderline(\"IOException encountered: \" + e.getMessage());"
+        "content": "        } catch (IOException e) {"
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        }"
+        "content": "            ui.printBorderline(\"IOException encountered: \" + e.getMessage());"
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    }"
+        "content": "        }"
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "Impala36"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    private ArrayList\u003cString\u003e getLines(String fileName) throws FileNotFoundException {"
+        "content": ""
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        Scanner s \u003d new Scanner(new File(fileName));"
+        "content": "    private ArrayList\u003cString\u003e getLines(String fileName) throws FileNotFoundException {"
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        ArrayList\u003cString\u003e list \u003d new ArrayList\u003c\u003e();"
+        "content": "        Scanner s \u003d new Scanner(new File(fileName));"
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        while (s.hasNextLine()) {"
+        "content": "        ArrayList\u003cString\u003e list \u003d new ArrayList\u003c\u003e();"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "            list.add(s.nextLine());"
+        "content": "        while (s.hasNextLine()) {"
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        }"
+        "content": "            list.add(s.nextLine());"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        s.close();"
+        "content": "        }"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        return list;"
+        "content": "        s.close();"
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    }"
+        "content": "        return list;"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "Impala36"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    public ProjectList extractProjects(ArrayList\u003cString\u003e lines, ProjectList projects, Ui ui, Storage storage)"
+        "content": ""
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        throws IOException {"
+        "content": "    public ProjectList extractProjects(ArrayList\u003cString\u003e lines, ProjectList projects, Ui ui, Storage storage)"
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        for (String line : lines) {"
+        "content": "        throws IOException {"
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "            FileWriter fw \u003d new FileWriter(fileName, true);"
+        "content": "        for (String line : lines) {"
       },
       {
         "lineNumber": 61,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "            // Format of a project line has to be implemented"
+        "content": "            FileWriter fw \u003d new FileWriter(fileName, true);"
       },
       {
         "lineNumber": 62,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "            // before we can extract from projects.txt,"
+        "content": "            // Format of a project line has to be implemented"
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "            // hence the lines belows are commented."
+        "content": "            // before we can extract from projects.txt,"
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "            /*String taskStatus \u003d line.split(\"]\")[0].substring(line.indexOf(\"[\") + 1);"
+        "content": "            // hence the lines belows are commented."
       },
       {
         "lineNumber": 65,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "            String taskType \u003d line.split(\"]\")[1].substring(line.indexOf(\"[\") - 1);"
+        "content": "            /*String taskStatus \u003d line.split(\"]\")[0].substring(line.indexOf(\"[\") + 1);"
       },
       {
         "lineNumber": 66,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "            String taskDescription \u003d line.split(\"]\")[2].trim();"
+        "content": "            String taskType \u003d line.split(\"]\")[1].substring(line.indexOf(\"[\") - 1);"
       },
       {
         "lineNumber": 67,
         "author": {
           "gitId": "Impala36"
         },
-        "content": ""
+        "content": "            String taskDescription \u003d line.split(\"]\")[2].trim();"
       },
       {
         "lineNumber": 68,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "            switch (taskType) {"
+        "content": ""
       },
       {
         "lineNumber": 69,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "                case \"Deadline\" -\u003e projects.add(new Deadline(\"[Deadline] \" + taskDescription));"
+        "content": "            switch (taskType) {"
       },
       {
         "lineNumber": 70,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "                case \"Event\" -\u003e projects.add(new Event(\"[Event]    \" + taskDescription));"
+        "content": "                case \"Deadline\" -\u003e projects.add(new Deadline(\"[Deadline] \" + taskDescription));"
       },
       {
         "lineNumber": 71,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "            }"
+        "content": "                case \"Event\" -\u003e projects.add(new Event(\"[Event]    \" + taskDescription));"
       },
       {
         "lineNumber": 72,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "            if (taskStatus.equals(\"\\u2713\")) {"
+        "content": "            }"
       },
       {
         "lineNumber": 73,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "                projects.get(projects.size() - 1).setDone();"
+        "content": "            if (taskStatus.equals(\"\\u2713\")) {"
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "            }*/"
+        "content": "                projects.get(projects.size() - 1).setDone();"
       },
       {
         "lineNumber": 75,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        }"
+        "content": "            }*/"
       },
       {
         "lineNumber": 76,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        return projects;"
+        "content": "        }"
       },
       {
         "lineNumber": 77,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    }"
+        "content": "        return projects;"
       },
       {
         "lineNumber": 78,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 79,
         "author": {
           "gitId": "Impala36"
         },
@@ -6101,7 +9165,8 @@
       }
     ],
     "authorContributionMap": {
-      "Impala36": 78
+      "Impala36": 78,
+      "binbinhui": 1
     }
   },
   {
@@ -6454,149 +9519,149 @@
       {
         "lineNumber": 50,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "binbinhui"
         },
-        "content": "            + colorGreen(\"\\nWe now have \" + (projects.size() - 1) + \" project(s) in your list!\"));"
+        "content": "            //    + colorRed(projects.getProject().get(index - 1).toString()"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        printBorderline(added);"
+        "content": "                + colorGreen(\"\\nWe now have \" + (projects.size() - 1) + \" project(s) in your list!\"));"
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    }"
+        "content": "        printBorderline(added);"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "Impala36"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    public void printInvalidCommand() {"
+        "content": ""
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        String message \u003d \"It seems that you have typed something out of my unfortunately\\n\""
+        "content": "    public void printInvalidCommand() {"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "            + \"limited vocabulary. Can you try again?\";"
+        "content": "        String message \u003d \"It seems that you have typed something out of my unfortunately\\n\""
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        printBorderline(message);"
+        "content": "            + \"limited vocabulary. Can you try again?\";"
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    }"
+        "content": "        printBorderline(message);"
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "Impala36"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    public void printNoFileFound() {"
+        "content": ""
       },
       {
         "lineNumber": 61,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        String message \u003d \"It looks like it\u0027s your first time as I could not find any existing project file.\\n\""
+        "content": "    public void printNoFileFound() {"
       },
       {
         "lineNumber": 62,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "            + \"Get started by creating a project!\";"
+        "content": "        String message \u003d \"It looks like it\u0027s your first time as I could not find any existing project file.\\n\""
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        printBorderline(message);"
+        "content": "            + \"Get started by creating a project!\";"
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    }"
+        "content": "        printBorderline(message);"
       },
       {
         "lineNumber": 65,
         "author": {
           "gitId": "Impala36"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 66,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    public void printFileExists() {"
+        "content": ""
       },
       {
         "lineNumber": 67,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        String message \u003d \"An existing project file is found!\";"
+        "content": "    public void printFileExists() {"
       },
       {
         "lineNumber": 68,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        printBorderline(message);"
+        "content": "        String message \u003d \"An existing project file is found!\";"
       },
       {
         "lineNumber": 69,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    }"
+        "content": "        printBorderline(message);"
       },
       {
         "lineNumber": 70,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "Impala36"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 71,
@@ -6608,6 +9673,13 @@
       {
         "lineNumber": 72,
         "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 73,
+        "author": {
           "gitId": "Impala36"
         },
         "content": "}"
@@ -6615,7 +9687,8 @@
     ],
     "authorContributionMap": {
       "linqing42": 7,
-      "Impala36": 65
+      "Impala36": 65,
+      "binbinhui": 1
     }
   },
   {
