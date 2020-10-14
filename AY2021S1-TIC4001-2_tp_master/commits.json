@@ -641,6 +641,76 @@
                 "deletions": 5
               }
             }
+          },
+          {
+            "hash": "e1b3ad3dd04c3a2f5475b47f7b6c291fd426b9fc",
+            "messageTitle": "Update User Guide",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 21,
+                "deletions": 44
+              }
+            }
+          },
+          {
+            "hash": "d852d7e45db4f9ffdb5835a0f34edf311589f459",
+            "messageTitle": "Update User Guide",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 5,
+                "deletions": 4
+              }
+            }
+          },
+          {
+            "hash": "a1e334a6a214880afde545a846c9d46c0e32c064",
+            "messageTitle": "Update User Guide",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 3,
+                "deletions": 3
+              }
+            }
+          },
+          {
+            "hash": "f2b7a694a68eec0b0e53ead156d1443e55baf6a2",
+            "messageTitle": "Update User Guide",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "46c59ab6b2eee048a6ecec2e132a9c08f4907759",
+            "messageTitle": "Update User Guide",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "69b62db76654c2d5a611a20bac0faed69e36b9cb",
+            "messageTitle": "Fix bug with clear command not working",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 23,
+                "deletions": 7
+              },
+              "other": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
           }
         ]
       }
@@ -704,13 +774,13 @@
       "test-code": 0
     },
     "dgc5213": {
-      "docs": 208,
-      "functional-code": 453,
+      "docs": 169,
+      "functional-code": 446,
       "test-code": 36
     },
     "e0260222": {
-      "docs": 75,
-      "functional-code": 1446,
+      "docs": 105,
+      "functional-code": 1469,
       "test-code": 307,
       "other": 4
     },
@@ -723,7 +793,7 @@
   "authorContributionVariance": {
     "daiweinus": 0.0,
     "dgc5213": 35453.297,
-    "e0260222": 35808.273,
+    "e0260222": 36981.453,
     "Chenduo1412": 243.95049
   },
   "authorDisplayNameMap": {

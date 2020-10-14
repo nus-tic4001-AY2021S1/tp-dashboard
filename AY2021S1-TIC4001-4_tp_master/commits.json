@@ -60,6 +60,44 @@
                 "deletions": 31
               }
             }
+          },
+          {
+            "hash": "2e3c7d3ec03135b01e3787b10b76adf5bb73e1b0",
+            "messageTitle": "Add function added",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 118,
+                "deletions": 4
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-10-13",
+        "commitResults": [
+          {
+            "hash": "931c2a12c0fff5cd66c2ea8fa3e20997cfb6f357",
+            "messageTitle": "Style check",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 2,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "f93be34827faf9715089d1aad3faee4cee7ae8af",
+            "messageTitle": "Style check",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 2,
+                "deletions": 13
+              }
+            }
           }
         ]
       }
@@ -152,6 +190,48 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-14",
+        "commitResults": [
+          {
+            "hash": "2aa637f51e1a1f14db081ed8d92f6e425d9eddef",
+            "messageTitle": "branch-Ui Fixed Addcommand and Parser",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 251,
+                "deletions": 84
+              }
+            }
+          },
+          {
+            "hash": "2eb44d0042c5ec24d7ef8c10f45c68f5615285eb",
+            "messageTitle": "Fixed ExitCommand",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 5,
+                "deletions": 9
+              },
+              "other": {
+                "insertions": 1,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "2f3f3ebbbe785b4ac42f0ec84f956a9078919c7f",
+            "messageTitle": "Fixed CheckStyle",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 10,
+                "deletions": 4
+              }
+            }
+          }
+        ]
       }
     ],
     "e0261618": [
@@ -170,6 +250,22 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-13",
+        "commitResults": [
+          {
+            "hash": "0034555ec32cb221e830aa036b1119574751064c",
+            "messageTitle": "Delete function Added",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 38,
+                "deletions": 1
+              }
+            }
+          }
+        ]
       }
     ]
   },
@@ -181,32 +277,32 @@
     },
     "skyventus": {
       "docs": 0,
-      "functional-code": 57,
+      "functional-code": 52,
       "test-code": 0
     },
     "timmyly7": {
       "docs": 0,
-      "functional-code": 134,
+      "functional-code": 197,
       "test-code": 0
     },
     "adi-kd0021": {
       "docs": 0,
-      "functional-code": 212,
+      "functional-code": 428,
       "test-code": 0,
       "other": 9
     },
     "e0261618": {
       "docs": 0,
-      "functional-code": 0,
+      "functional-code": 38,
       "test-code": 0
     }
   },
   "authorContributionVariance": {
     "Chilaiping": 0.0,
-    "skyventus": 60.720833,
-    "timmyly7": 688.74304,
-    "adi-kd0021": 1030.9456,
-    "e0261618": 0.016388884
+    "skyventus": 58.810875,
+    "timmyly7": 1699.3401,
+    "adi-kd0021": 3060.787,
+    "e0261618": 24.132154
   },
   "authorDisplayNameMap": {
     "Chilaiping": "TIC4001-4 CHI ..PING",

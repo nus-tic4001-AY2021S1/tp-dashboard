@@ -38,6 +38,52 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-13",
+        "commitResults": [
+          {
+            "hash": "9ba7a90287c5e5a49ec66430d456a901fc9f34a2",
+            "messageTitle": "update user guid and --help",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 3,
+                "deletions": 1
+              },
+              "docs": {
+                "insertions": 50,
+                "deletions": 7
+              }
+            }
+          },
+          {
+            "hash": "a8660855cb33f173e5dad2e2423a758e531263c6",
+            "messageTitle": "update user guid and --help",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "26fb7b7c8e2be59e41d1c3ffad856fed4764463d",
+            "messageTitle": "update user guid ,--help",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 12,
+                "deletions": 5
+              },
+              "docs": {
+                "insertions": 33,
+                "deletions": 8
+              }
+            }
+          }
+        ]
       }
     ],
     "Yiheng0410": [],
@@ -192,6 +238,65 @@
                 "deletions": 14
               }
             }
+          },
+          {
+            "hash": "44777508f2016153089352d9bdbe4e1a94d8c77c",
+            "messageTitle": "add replace and add command",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 47,
+                "deletions": 334
+              },
+              "other": {
+                "insertions": 17,
+                "deletions": 18
+              }
+            }
+          },
+          {
+            "hash": "fdd4b5d819d438fcd96ebcb0d509c80f7a50b770",
+            "messageTitle": "edit add feature",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 4,
+                "deletions": 4
+              }
+            }
+          },
+          {
+            "hash": "17d574c57695825eef923c12a7cfea7660b0857e",
+            "messageTitle": "Update UI",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 13,
+                "deletions": 12
+              }
+            }
+          },
+          {
+            "hash": "d10d12365b73a95c4ebd610b4f46f0bec1adaa70",
+            "messageTitle": "added text-ui-test",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "other": {
+                "insertions": 12,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "81399b93a1af9243621a2587cb5be9bd9d0eb720",
+            "messageTitle": "remote print",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 0,
+                "deletions": 4
+              }
+            }
           }
         ]
       }
@@ -199,8 +304,8 @@
   },
   "authorFileTypeContributionMap": {
     "linqing42": {
-      "docs": 74,
-      "functional-code": 74,
+      "docs": 140,
+      "functional-code": 60,
       "test-code": 0
     },
     "Yiheng0410": {
@@ -216,16 +321,16 @@
     },
     "binbinhui": {
       "docs": 0,
-      "functional-code": 492,
+      "functional-code": 224,
       "test-code": 1,
       "other": 12
     }
   },
   "authorContributionVariance": {
-    "linqing42": 588.2451,
+    "linqing42": 811.90485,
     "Yiheng0410": 0.0,
     "Impala36": 5518.907,
-    "binbinhui": 4722.653
+    "binbinhui": 16241.532
   },
   "authorDisplayNameMap": {
     "linqing42": "TIC4001-1 LIN ..QING",

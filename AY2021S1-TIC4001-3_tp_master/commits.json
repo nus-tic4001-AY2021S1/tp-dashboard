@@ -379,14 +379,67 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-11",
+        "commitResults": [
+          {
+            "hash": "3d46756d1e18fec400ed53cec40ae04b3c0e78df",
+            "messageTitle": "Add assertion, Exception, and Logger for Parser Class and ADD command",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 67,
+                "deletions": 16
+              },
+              "test-code": {
+                "insertions": 3,
+                "deletions": 3
+              }
+            }
+          },
+          {
+            "hash": "ce6dc24248c885aece07bb89fee660b7b0904669",
+            "messageTitle": "Update ItLogger.java",
+            "messageBody": "There is a conflict in parseIndex() in VIEW part after my editing, and it has been resolved",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "1965ef1137151347542cf6541ef37d2354d530bd",
+            "messageTitle": "Update ViewFunctionTest.java",
+            "messageBody": "Resolve conflict after changing parseIndex() function",
+            "fileTypesAndContributionMap": {
+              "test-code": {
+                "insertions": 3,
+                "deletions": 3
+              }
+            }
+          },
+          {
+            "hash": "8f585fe8f6087cca099d6515175da284ffe81aaa",
+            "messageTitle": "Update ViewFunctionTest.java",
+            "messageBody": "Resolve conflict caused by editing parseIndex() method.",
+            "fileTypesAndContributionMap": {
+              "test-code": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFileTypeContributionMap": {
     "ZhengShijieNUS": {
       "docs": 0,
-      "functional-code": 23,
-      "test-code": 107
+      "functional-code": 20,
+      "test-code": 103
     },
     "tototto": {
       "docs": 0,
@@ -395,13 +448,13 @@
     },
     "JanuariusJang": {
       "docs": 0,
-      "functional-code": 9,
+      "functional-code": 8,
       "test-code": 45
     },
     "pigoliver": {
       "docs": 0,
-      "functional-code": 230,
-      "test-code": 41,
+      "functional-code": 294,
+      "test-code": 45,
       "other": 4
     }
   },
@@ -409,7 +462,7 @@
     "ZhengShijieNUS": 341.3289,
     "tototto": 0.0,
     "JanuariusJang": 74.86355,
-    "pigoliver": 3314.7808
+    "pigoliver": 3449.927
   },
   "authorDisplayNameMap": {
     "ZhengShijieNUS": "TIC4001-3 ZHEN..IJIE",
