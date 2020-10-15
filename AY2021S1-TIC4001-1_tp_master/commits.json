@@ -191,6 +191,26 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-14",
+        "commitResults": [
+          {
+            "hash": "e538046a550b7db985b95a4778a7501c3848de2a",
+            "messageTitle": "Renamed variables for readability Working Storage that creates and updates project.txt Added comma between words in Add command",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 167,
+                "deletions": 164
+              },
+              "docs": {
+                "insertions": 21,
+                "deletions": 21
+              }
+            }
+          }
+        ]
       }
     ],
     "binbinhui": [
@@ -304,8 +324,8 @@
   },
   "authorFileTypeContributionMap": {
     "linqing42": {
-      "docs": 140,
-      "functional-code": 60,
+      "docs": 122,
+      "functional-code": 51,
       "test-code": 0
     },
     "Yiheng0410": {
@@ -314,23 +334,23 @@
       "test-code": 0
     },
     "Impala36": {
-      "docs": 14,
-      "functional-code": 442,
+      "docs": 32,
+      "functional-code": 548,
       "test-code": 3,
       "other": 5
     },
     "binbinhui": {
       "docs": 0,
-      "functional-code": 224,
+      "functional-code": 130,
       "test-code": 1,
       "other": 12
     }
   },
   "authorContributionVariance": {
-    "linqing42": 811.90485,
+    "linqing42": 799.22473,
     "Yiheng0410": 0.0,
-    "Impala36": 5518.907,
-    "binbinhui": 16241.532
+    "Impala36": 7500.7603,
+    "binbinhui": 15984.656
   },
   "authorDisplayNameMap": {
     "linqing42": "TIC4001-1 LIN ..QING",

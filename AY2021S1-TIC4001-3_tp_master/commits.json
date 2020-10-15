@@ -196,6 +196,64 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-13",
+        "commitResults": [
+          {
+            "hash": "ae0685e262ec27ccc4733c152c96b980987f75b5",
+            "messageTitle": "updated version of my Checkstyle",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "other": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-10-14",
+        "commitResults": [
+          {
+            "hash": "28a6c1ddd03a0e4ad6dea1c1a810030452af2409",
+            "messageTitle": "Added Logging, Assertions and Exceptions",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 10,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "ad290299fc942166059e30c2fc63869748320be1",
+            "messageTitle": "Changed formatting to pass CheckStyle",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 2,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "0d73702bef872e4b1a2832471f23caed92de7cf8",
+            "messageTitle": "reverted to CheckStyle version 8.23.  8.29 was causing some issues.",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 6,
+                "deletions": 6
+              },
+              "other": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          }
+        ]
       }
     ],
     "pigoliver": [
@@ -432,6 +490,33 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-14",
+        "commitResults": [
+          {
+            "hash": "abb924210f9b009047298579fc4eb6a804c251b4",
+            "messageTitle": "Update ItLogger.java",
+            "messageBody": "Try to resolve conflict in Delete part. Also did minor edition in line 145 to reuse indexDeletion variable",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 2,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "42741c8c23687db3ee2d7faf876d72eb74c11edf",
+            "messageTitle": "Create jar file and set java version from 13 back to 11",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "other": {
+                "insertions": 5,
+                "deletions": 0
+              }
+            }
+          }
+        ]
       }
     ]
   },
@@ -448,21 +533,21 @@
     },
     "JanuariusJang": {
       "docs": 0,
-      "functional-code": 8,
+      "functional-code": 18,
       "test-code": 45
     },
     "pigoliver": {
       "docs": 0,
-      "functional-code": 294,
+      "functional-code": 295,
       "test-code": 45,
-      "other": 4
+      "other": 9
     }
   },
   "authorContributionVariance": {
-    "ZhengShijieNUS": 341.3289,
+    "ZhengShijieNUS": 325.11856,
     "tototto": 0.0,
-    "JanuariusJang": 74.86355,
-    "pigoliver": 3449.927
+    "JanuariusJang": 81.381874,
+    "pigoliver": 3286.1677
   },
   "authorDisplayNameMap": {
     "ZhengShijieNUS": "TIC4001-3 ZHEN..IJIE",
