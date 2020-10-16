@@ -84,9 +84,140 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-15",
+        "commitResults": [
+          {
+            "hash": "e160d66ace079036465a4ec7aaab583cfbbec4ee",
+            "messageTitle": "update developer guide.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 17,
+                "deletions": 4
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-10-16",
+        "commitResults": [
+          {
+            "hash": "f53c7f4b7a7aa7837920e40e9687033ba3eec526",
+            "messageTitle": "update image in developer guide",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 3,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "e8619ef73450f19a6f7d709f1627083de9e10a73",
+            "messageTitle": "Update DeveloperGuide.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 2,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "d5993c72e4b59121bc4136271acd0f223d8cb0d5",
+            "messageTitle": "update image in developer guide",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "0d91ad5d91add0582995cb5d5996051febed4c2c",
+            "messageTitle": "update image in developer guide",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 2,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "d4cbf4bb5cd9b3f2e484ad2e05c69973739791ec",
+            "messageTitle": "update image in developer guide",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 2,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "eaf8298f6f9e7692cbf6e647d75a05f82c9fc4ee",
+            "messageTitle": "update glossary in developer guide",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 2,
+                "deletions": 2
+              }
+            }
+          }
+        ]
       }
     ],
-    "Yiheng0410": [],
+    "Yiheng0410": [
+      {
+        "date": "2020-10-15",
+        "commitResults": [
+          {
+            "hash": "5ee400ac08530393acef8ecd7120adb2628a3e0f",
+            "messageTitle": "update list command",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 18,
+                "deletions": 8
+              }
+            }
+          },
+          {
+            "hash": "64ef088de5aafaf6b38813e72a64702eaa8f9a9d",
+            "messageTitle": "update list command",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 1,
+                "deletions": 0
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-10-16",
+        "commitResults": [
+          {
+            "hash": "0015df4eb427a429d8f92c37e65f9ac766fc518b",
+            "messageTitle": "Add Junit Test",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "test-code": {
+                "insertions": 85,
+                "deletions": 0
+              }
+            }
+          }
+        ]
+      }
+    ],
     "Impala36": [
       {
         "date": "2020-10-10",
@@ -211,6 +342,132 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-15",
+        "commitResults": [
+          {
+            "hash": "1c333f76ad1eb2735d4a0188c2bf153af377bb68",
+            "messageTitle": "Shifted displaying of project to Ui so it can be used by project, delete \u0026 list",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 28,
+                "deletions": 25
+              }
+            }
+          },
+          {
+            "hash": "ae7bad06099dbbc153d5ce727fe5ba97136f053f",
+            "messageTitle": "Update AboutUs.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 6,
+                "deletions": 7
+              }
+            }
+          },
+          {
+            "hash": "8a17146df250c15e96efdd646eec218d91473028",
+            "messageTitle": "Update README.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 5,
+                "deletions": 61
+              }
+            }
+          },
+          {
+            "hash": "3a66b1b70ba34f71071afc334624c43815050ec7",
+            "messageTitle": "Update README.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 3,
+                "deletions": 3
+              }
+            }
+          },
+          {
+            "hash": "b3fe76a01fc951c4bab1993e8e8b4214a71c7f31",
+            "messageTitle": "Update AboutUs.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 3,
+                "deletions": 3
+              }
+            }
+          },
+          {
+            "hash": "b5bea8641c02659d8788b076a172cc530900fac8",
+            "messageTitle": "Update AboutUs.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 3,
+                "deletions": 3
+              }
+            }
+          },
+          {
+            "hash": "a9bb29b75980b347f1f368f48aaa88ad3a087776",
+            "messageTitle": "Update UserGuide.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 52,
+                "deletions": 20
+              }
+            }
+          },
+          {
+            "hash": "3fa886505f79b6968b9001202908d162ca350822",
+            "messageTitle": "Updated Find with ui.displayProject()",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 4,
+                "deletions": 6
+              }
+            }
+          },
+          {
+            "hash": "903bf7f031c449a9c3b9a57373a371d406e9ced6",
+            "messageTitle": "Update UserGuide.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 9,
+                "deletions": 4
+              }
+            }
+          },
+          {
+            "hash": "6019cef24d87013877d12761ee21bff252a8aa29",
+            "messageTitle": "Update UserGuide.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 2,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "d66a1bbe94805312479106cc0aac647d1996c6a3",
+            "messageTitle": "Update UserGuide.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 0,
+                "deletions": 1
+              }
+            }
+          }
+        ]
       }
     ],
     "binbinhui": [
@@ -324,33 +581,33 @@
   },
   "authorFileTypeContributionMap": {
     "linqing42": {
-      "docs": 122,
-      "functional-code": 51,
+      "docs": 135,
+      "functional-code": 48,
       "test-code": 0
     },
     "Yiheng0410": {
       "docs": 0,
-      "functional-code": 0,
-      "test-code": 0
+      "functional-code": 2,
+      "test-code": 84
     },
     "Impala36": {
-      "docs": 32,
-      "functional-code": 548,
+      "docs": 77,
+      "functional-code": 563,
       "test-code": 3,
       "other": 5
     },
     "binbinhui": {
       "docs": 0,
-      "functional-code": 130,
+      "functional-code": 129,
       "test-code": 1,
       "other": 12
     }
   },
   "authorContributionVariance": {
-    "linqing42": 799.22473,
-    "Yiheng0410": 0.0,
-    "Impala36": 7500.7603,
-    "binbinhui": 15984.656
+    "linqing42": 781.9677,
+    "Yiheng0410": 121.21875,
+    "Impala36": 8103.9644,
+    "binbinhui": 15494.527
   },
   "authorDisplayNameMap": {
     "linqing42": "TIC4001-1 LIN ..QING",

@@ -1,6 +1,130 @@
 {
   "authorDailyContributionsMap": {
-    "Chilaiping": [],
+    "Chilaiping": [
+      {
+        "date": "2020-09-27",
+        "commitResults": [
+          {
+            "hash": "e7b3b4f803a1bd572f6ebd3b93ab6e9b791b4cbd",
+            "messageTitle": "A-JUnit: Add JUnit Tests - Added 2 basic Test Case, Add and Delete",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "test-code": {
+                "insertions": 1,
+                "deletions": 0
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-10-14",
+        "commitResults": [
+          {
+            "hash": "69e56d241b281301c5f77927f8ebe46cb1bcf910",
+            "messageTitle": "Add View Function",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 30,
+                "deletions": 3
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-10-15",
+        "commitResults": [
+          {
+            "hash": "d40e31bc1c96e2f0e9275d00464ebc8c0f59e1b9",
+            "messageTitle": "Add View Function Fix Print out error",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 6,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "37b4e95bd28b17e226087b6961e2c8c3ce2434e3",
+            "messageTitle": "Revert \"Add View Function Fix Print out error\"",
+            "messageBody": "This reverts commit d40e31bc\n",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 2,
+                "deletions": 6
+              }
+            }
+          },
+          {
+            "hash": "a769eba99560af982b56ecc0339ea9ddbb2547e7",
+            "messageTitle": "Revert Add View Function Fix Print out error",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 6,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "90c8e12674b8dfc291f478c6300c4782c8428041",
+            "messageTitle": "Revert Add View Function Fix Print out error -1",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 1,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "aab8aafa9e4d85bd2b5195a990a01315b5cdcd26",
+            "messageTitle": "Add View Function Fix Print out error",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 1,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "6581705a736508cf089479f7938849929e2894da",
+            "messageTitle": "Cehck style fixed",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 3,
+                "deletions": 5
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-10-16",
+        "commitResults": [
+          {
+            "hash": "32058af76b33c601e75151c836d86cc91835df91",
+            "messageTitle": "Added Search JUnit Test",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 6,
+                "deletions": 5
+              },
+              "test-code": {
+                "insertions": 41,
+                "deletions": 1
+              }
+            }
+          }
+        ]
+      }
+    ],
     "skyventus": [
       {
         "date": "2020-09-26",
@@ -29,6 +153,75 @@
               "functional-code": {
                 "insertions": 51,
                 "deletions": 8
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-10-15",
+        "commitResults": [
+          {
+            "hash": "117b0ea60d31e0348e88c545c5e8b46f797da91b",
+            "messageTitle": "[Total Command] Final Code for total",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 11,
+                "deletions": 5
+              }
+            }
+          },
+          {
+            "hash": "9547a01a694b1f144e8dcedec09a0901a27449ee",
+            "messageTitle": "[Total Command] Final Code for total",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 7,
+                "deletions": 6
+              },
+              "test-code": {
+                "insertions": 75,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "ac1257719b79599741696e6428cd231bf9456466",
+            "messageTitle": "[Total Command] Final Code for total",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "test-code": {
+                "insertions": 12,
+                "deletions": 12
+              }
+            }
+          },
+          {
+            "hash": "adf95300c4f5444f29940ca441f5ff5854a6a349",
+            "messageTitle": "[Unit Test setup] setup data for testing",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "test-code": {
+                "insertions": 3,
+                "deletions": 2
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-10-16",
+        "commitResults": [
+          {
+            "hash": "a03b6b18575ff3d3d08fbe0a04dac9d9026c9da1",
+            "messageTitle": "[Unit Test] Pushing Total | Delete | TransactionListTest",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "test-code": {
+                "insertions": 87,
+                "deletions": 6
               }
             }
           }
@@ -96,6 +289,44 @@
               "functional-code": {
                 "insertions": 2,
                 "deletions": 13
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-10-16",
+        "commitResults": [
+          {
+            "hash": "52052d964e641b18ddced9c3d611b3a3636cb342",
+            "messageTitle": "Junit added",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "test-code": {
+                "insertions": 147,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "1b2f04a9d205e79c7bca94e04c7e208775c5e285",
+            "messageTitle": "Junit added",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "test-code": {
+                "insertions": 5,
+                "deletions": 5
+              }
+            }
+          },
+          {
+            "hash": "5923d66520855b0ac54b147b09cdd9bb009689ef",
+            "messageTitle": "Junit added",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "test-code": {
+                "insertions": 0,
+                "deletions": 5
               }
             }
           }
@@ -232,6 +463,71 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-15",
+        "commitResults": [
+          {
+            "hash": "c20c6577f16ede2a3932d11cf43467cec4a6d16e",
+            "messageTitle": "Update TransactionList.java",
+            "messageBody": "Resolving compile errors",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 4,
+                "deletions": 4
+              }
+            }
+          },
+          {
+            "hash": "d4a98f65f0402f182f3bf02d7139478d94a0a236",
+            "messageTitle": "Update TransactionList.java",
+            "messageBody": "Resolving compile issues, removed variable in constructor.",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "f123ab2832192fc628c3a1f03cb0bb1d8511b85e",
+            "messageTitle": "Update ViewCommand.java",
+            "messageBody": "Resolved Checkstyle error ViewCommand.java:16:26: WhitespaceAround: \u0027\u003c\u0027 is not preceded with whitespace. [WhitespaceAround]",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "440965b49f22b937311779276ee39f6c51ea4dfc",
+            "messageTitle": "Update TransactionList.java",
+            "messageBody": "Resolved checkstyle errors\r\nTransactionList.java:20: \u0027method def\u0027 child has incorrect indentation level 10, expected level should be 8. [Indentation]\r\nTransactionList.java:24: \u0027method def\u0027 child has incorrect indentation level 10, expected level should be 8. [Indentation]",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 2,
+                "deletions": 2
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-10-16",
+        "commitResults": [
+          {
+            "hash": "0a520c85e92a3470407ee2a30b31a773ea909171",
+            "messageTitle": "Added SearchCommand Function Fixed alot of Help messages",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 97,
+                "deletions": 15
+              }
+            }
+          }
+        ]
       }
     ],
     "e0261618": [
@@ -266,43 +562,59 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-16",
+        "commitResults": [
+          {
+            "hash": "a155d97251741f6a6d5bcf3feb07970b202837bf",
+            "messageTitle": "Amended User Guide",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 63,
+                "deletions": 53
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFileTypeContributionMap": {
     "Chilaiping": {
       "docs": 0,
-      "functional-code": 0,
-      "test-code": 0
+      "functional-code": 37,
+      "test-code": 41
     },
     "skyventus": {
       "docs": 0,
-      "functional-code": 52,
-      "test-code": 0
+      "functional-code": 50,
+      "test-code": 157
     },
     "timmyly7": {
       "docs": 0,
-      "functional-code": 197,
-      "test-code": 0
+      "functional-code": 188,
+      "test-code": 142
     },
     "adi-kd0021": {
       "docs": 0,
-      "functional-code": 428,
+      "functional-code": 516,
       "test-code": 0,
       "other": 9
     },
     "e0261618": {
-      "docs": 0,
-      "functional-code": 38,
+      "docs": 63,
+      "functional-code": 32,
       "test-code": 0
     }
   },
   "authorContributionVariance": {
-    "Chilaiping": 0.0,
-    "skyventus": 58.810875,
-    "timmyly7": 1699.3401,
-    "adi-kd0021": 3060.787,
-    "e0261618": 24.132154
+    "Chilaiping": 75.40991,
+    "skyventus": 447.80246,
+    "timmyly7": 2023.4646,
+    "adi-kd0021": 3121.246,
+    "e0261618": 228.08984
   },
   "authorDisplayNameMap": {
     "Chilaiping": "TIC4001-4 CHI ..PING",
