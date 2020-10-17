@@ -713,6 +713,22 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-16",
+        "commitResults": [
+          {
+            "hash": "eab38fb7ac651bd34ffcc55a47c6a42b104625d5",
+            "messageTitle": "Add v1.0 user stories",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 14,
+                "deletions": 4
+              }
+            }
+          }
+        ]
       }
     ],
     "Chenduo1412": [
@@ -779,7 +795,7 @@
       "test-code": 36
     },
     "e0260222": {
-      "docs": 105,
+      "docs": 119,
       "functional-code": 1469,
       "test-code": 307,
       "other": 4
@@ -792,9 +808,9 @@
   },
   "authorContributionVariance": {
     "daiweinus": 0.0,
-    "dgc5213": 35453.297,
-    "e0260222": 36981.453,
-    "Chenduo1412": 243.95049
+    "dgc5213": 33847.6,
+    "e0260222": 35383.027,
+    "Chenduo1412": 232.69698
   },
   "authorDisplayNameMap": {
     "daiweinus": "TIC4001-2 DAI .. WEI",
