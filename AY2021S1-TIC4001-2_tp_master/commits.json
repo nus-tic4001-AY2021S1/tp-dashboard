@@ -1,6 +1,72 @@
 {
   "authorDailyContributionsMap": {
-    "daiweinus": [],
+    "daiweinus": [
+      {
+        "date": "2020-10-11",
+        "commitResults": [
+          {
+            "hash": "abad9d67ee42ad3a8826ee984ff9433e4b54fb31",
+            "messageTitle": "Fix add categories feature",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 164,
+                "deletions": 44
+              }
+            }
+          },
+          {
+            "hash": "eb3320fd477bd9208016b415a9a86e7a452f12d2",
+            "messageTitle": "Fix add income categories",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 0,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "599d22c73b0a6cffa0abd710adfab2e0ac0f60bf",
+            "messageTitle": "fix code style",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 2,
+                "deletions": 2
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-10-12",
+        "commitResults": [
+          {
+            "hash": "2187cd492e0068f71755a74c4753e97f971a23f2",
+            "messageTitle": "update some java document",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 74,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "b0fcd8f151cf348537e4f639a4430d938facca19",
+            "messageTitle": "update report, exit and save features to userguide",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 37,
+                "deletions": 0
+              }
+            }
+          }
+        ]
+      }
+    ],
     "dgc5213": [
       {
         "date": "2020-10-08",
@@ -785,8 +851,8 @@
   },
   "authorFileTypeContributionMap": {
     "daiweinus": {
-      "docs": 0,
-      "functional-code": 0,
+      "docs": 23,
+      "functional-code": 46,
       "test-code": 0
     },
     "dgc5213": {
@@ -807,7 +873,7 @@
     }
   },
   "authorContributionVariance": {
-    "daiweinus": 0.0,
+    "daiweinus": 882.4599,
     "dgc5213": 33847.6,
     "e0260222": 35383.027,
     "Chenduo1412": 232.69698

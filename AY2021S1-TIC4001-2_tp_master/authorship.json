@@ -2406,14 +2406,14 @@
       {
         "lineNumber": 250,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "### Viewing monthly report: `report`"
       },
       {
         "lineNumber": 251,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "Shows a report that summarises the incomes and expenses for a specified month."
       },
@@ -2427,7 +2427,7 @@
       {
         "lineNumber": 253,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "Format: `report MONTH`"
       },
@@ -2441,7 +2441,7 @@
       {
         "lineNumber": 255,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "- The summary report for the specified month will be displayed."
       },
@@ -2455,7 +2455,7 @@
       {
         "lineNumber": 257,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "Example of usage: `report 2020-09`"
       },
@@ -2469,14 +2469,14 @@
       {
         "lineNumber": 259,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "Expected outcome:"
       },
       {
         "lineNumber": 260,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "```"
       },
@@ -2518,7 +2518,7 @@
       {
         "lineNumber": 266,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": ""
       },
@@ -2532,7 +2532,7 @@
       {
         "lineNumber": 268,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "  [I] SALARY $9000.00 on 01 Sep 2020 (Given $4000 bonus!)"
       },
@@ -2553,14 +2553,14 @@
       {
         "lineNumber": 271,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "  [E] FOOD $120.00 on 18 Sep 2020 (Dinner with wife.)"
       },
       {
         "lineNumber": 272,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": ""
       },
@@ -2588,77 +2588,77 @@
       {
         "lineNumber": 276,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "Income Categories:"
       },
       {
         "lineNumber": 277,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "  [I] SALARY $9000.00 (Highest) "
       },
       {
         "lineNumber": 278,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "  [I] DIVIDEND $200.00"
       },
       {
         "lineNumber": 279,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": ""
       },
       {
         "lineNumber": 280,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "Expense Categories:"
       },
       {
         "lineNumber": 281,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "  [E] FOOD $848.50 (Highest)"
       },
       {
         "lineNumber": 282,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "  [E] ENTERTAINMENT $651.50 [E] RENT $500.00"
       },
       {
         "lineNumber": 283,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "```"
       },
       {
         "lineNumber": 284,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": ""
       },
       {
         "lineNumber": 285,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "### Exiting the program: `exit`"
       },
       {
         "lineNumber": 286,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "Exits the program. "
       },
@@ -2672,7 +2672,7 @@
       {
         "lineNumber": 288,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "Format: `exit`"
       },
@@ -2930,9 +2930,10 @@
       }
     ],
     "authorContributionMap": {
+      "daiweinus": 23,
       "dgc5213": 169,
       "e0260222": 105,
-      "-": 50
+      "-": 27
     }
   },
   {
@@ -3476,7 +3477,7 @@
       {
         "lineNumber": 4,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "import moneytracker.parser.Parser;"
       },
@@ -3693,7 +3694,7 @@
       {
         "lineNumber": 35,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "    public void execute(TransactionList transactions, Ui ui, Storage storage,"
       },
@@ -3741,8 +3742,8 @@
       }
     ],
     "authorContributionMap": {
-      "e0260222": 39,
-      "-": 2
+      "daiweinus": 2,
+      "e0260222": 39
     }
   },
   {
@@ -3990,7 +3991,7 @@
       {
         "lineNumber": 35,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "    public void execute(TransactionList transactions, Ui ui, Storage storage,"
       },
@@ -4038,8 +4039,8 @@
       }
     ],
     "authorContributionMap": {
-      "e0260222": 40,
-      "-": 1
+      "daiweinus": 1,
+      "e0260222": 40
     }
   },
   {
@@ -4070,7 +4071,7 @@
       {
         "lineNumber": 4,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "import moneytracker.parser.Parser;"
       },
@@ -4287,7 +4288,7 @@
       {
         "lineNumber": 35,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "    public void execute(TransactionList transactions, Ui ui, Storage storage,"
       },
@@ -4335,8 +4336,8 @@
       }
     ],
     "authorContributionMap": {
-      "e0260222": 39,
-      "-": 2
+      "daiweinus": 2,
+      "e0260222": 39
     }
   },
   {
@@ -4584,7 +4585,7 @@
       {
         "lineNumber": 35,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "    public void execute(TransactionList transactions, Ui ui, Storage storage,"
       },
@@ -4632,8 +4633,8 @@
       }
     ],
     "authorContributionMap": {
-      "e0260222": 40,
-      "-": 1
+      "daiweinus": 1,
+      "e0260222": 40
     }
   },
   {
@@ -4727,7 +4728,7 @@
       {
         "lineNumber": 13,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": ""
       },
@@ -4804,7 +4805,7 @@
       {
         "lineNumber": 24,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "    public void execute(TransactionList transactions, Ui ui, Storage storage,"
       },
@@ -4859,8 +4860,8 @@
       }
     ],
     "authorContributionMap": {
-      "e0260222": 29,
-      "-": 2
+      "daiweinus": 2,
+      "e0260222": 29
     }
   },
   {
@@ -5031,7 +5032,7 @@
       {
         "lineNumber": 24,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "    public abstract void execute(TransactionList transactions, Ui ui, Storage storage,"
       },
@@ -5114,8 +5115,8 @@
       }
     ],
     "authorContributionMap": {
-      "e0260222": 34,
-      "-": 1
+      "daiweinus": 1,
+      "e0260222": 34
     }
   },
   {
@@ -5370,7 +5371,7 @@
       {
         "lineNumber": 36,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "    public void execute(TransactionList transactions, Ui ui, Storage storage,"
       },
@@ -5516,8 +5517,8 @@
       }
     ],
     "authorContributionMap": {
-      "e0260222": 55,
-      "-": 1
+      "daiweinus": 1,
+      "e0260222": 55
     }
   },
   {
@@ -5786,7 +5787,7 @@
       {
         "lineNumber": 38,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "    public void execute(TransactionList transactions, Ui ui, Storage storage,"
       },
@@ -5933,7 +5934,7 @@
       {
         "lineNumber": 59,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "    /**"
       },
@@ -5947,35 +5948,35 @@
       {
         "lineNumber": 61,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "     *"
       },
       {
         "lineNumber": 62,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "     * @param transaction \u003ccode\u003eTransaction\u003c/code\u003e object."
       },
       {
         "lineNumber": 63,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "     * @return type of a \u003ccode\u003eTransaction\u003c/code\u003e object."
       },
       {
         "lineNumber": 64,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "     * @throws MoneyTrackerException when this exceptional condition happens."
       },
       {
         "lineNumber": 65,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "     */"
       },
@@ -6065,8 +6066,8 @@
       }
     ],
     "authorContributionMap": {
-      "e0260222": 70,
-      "-": 7
+      "daiweinus": 7,
+      "e0260222": 70
     }
   },
   {
@@ -6216,7 +6217,7 @@
       {
         "lineNumber": 21,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "    public void execute(TransactionList transactions, Ui ui, Storage storage,"
       },
@@ -6306,8 +6307,8 @@
       }
     ],
     "authorContributionMap": {
-      "e0260222": 32,
-      "-": 1
+      "daiweinus": 1,
+      "e0260222": 32
     }
   },
   {
@@ -6457,7 +6458,7 @@
       {
         "lineNumber": 21,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "    public void execute(TransactionList transactions, Ui ui, Storage storage,"
       },
@@ -6491,8 +6492,8 @@
       }
     ],
     "authorContributionMap": {
-      "e0260222": 24,
-      "-": 1
+      "daiweinus": 1,
+      "e0260222": 24
     }
   },
   {
@@ -6656,56 +6657,56 @@
       {
         "lineNumber": 23,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "    /**"
       },
       {
         "lineNumber": 24,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "     * Executes the list categories command."
       },
       {
         "lineNumber": 25,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "     *"
       },
       {
         "lineNumber": 26,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "     * @param transactions List of \u003ccode\u003eTransaction\u003c/code\u003e objects."
       },
       {
         "lineNumber": 27,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "     * @param ui \u003ccode\u003eUi\u003c/code\u003e object for displaying user interactions."
       },
       {
         "lineNumber": 28,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "     * @param storage \u003ccode\u003eStorage\u003c/code\u003e object for loading and saving user data."
       },
       {
         "lineNumber": 29,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "     * @param categories List of categories."
       },
       {
         "lineNumber": 30,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "     */"
       },
@@ -6879,9 +6880,9 @@
       }
     ],
     "authorContributionMap": {
+      "daiweinus": 8,
       "dgc5213": 16,
-      "e0260222": 30,
-      "-": 8
+      "e0260222": 30
     }
   },
   {
@@ -7608,7 +7609,7 @@
       {
         "lineNumber": 32,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "    public void execute(TransactionList transactions, Ui ui, Storage storage,"
       },
@@ -7642,8 +7643,8 @@
       }
     ],
     "authorContributionMap": {
-      "e0260222": 35,
-      "-": 1
+      "daiweinus": 1,
+      "e0260222": 35
     }
   },
   {
@@ -7800,7 +7801,7 @@
       {
         "lineNumber": 22,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "    public void execute(TransactionList transactions, Ui ui, Storage storage,"
       },
@@ -7834,8 +7835,8 @@
       }
     ],
     "authorContributionMap": {
-      "e0260222": 25,
-      "-": 1
+      "daiweinus": 1,
+      "e0260222": 25
     }
   },
   {
@@ -8267,7 +8268,7 @@
       {
         "lineNumber": 49,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "        }"
       },
@@ -8281,14 +8282,14 @@
       {
         "lineNumber": 51,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "    }"
       },
       {
         "lineNumber": 52,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": ""
       },
@@ -8379,7 +8380,7 @@
       {
         "lineNumber": 65,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "        }"
       },
@@ -8393,14 +8394,14 @@
       {
         "lineNumber": 67,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "    }"
       },
       {
         "lineNumber": 68,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": ""
       },
@@ -9456,8 +9457,8 @@
       }
     ],
     "authorContributionMap": {
-      "e0260222": 212,
-      "-": 6
+      "daiweinus": 6,
+      "e0260222": 212
     }
   },
   {
@@ -9530,7 +9531,7 @@
       {
         "lineNumber": 10,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": ""
       },
@@ -11006,8 +11007,8 @@
       }
     ],
     "authorContributionMap": {
-      "e0260222": 219,
-      "-": 1
+      "daiweinus": 1,
+      "e0260222": 219
     }
   },
   {
@@ -11094,21 +11095,21 @@
       {
         "lineNumber": 12,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "    /**"
       },
       {
         "lineNumber": 13,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "     * Initializes a \u003ccode\u003eCategory\u003c/code\u003e object."
       },
       {
         "lineNumber": 14,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "     *"
       },
@@ -11129,7 +11130,7 @@
       {
         "lineNumber": 17,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "     */"
       },
@@ -11178,7 +11179,7 @@
       {
         "lineNumber": 24,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "    /**"
       },
@@ -11192,7 +11193,7 @@
       {
         "lineNumber": 26,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "     *"
       },
@@ -11206,7 +11207,7 @@
       {
         "lineNumber": 28,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "     */"
       },
@@ -11241,7 +11242,7 @@
       {
         "lineNumber": 33,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "    /**"
       },
@@ -11255,7 +11256,7 @@
       {
         "lineNumber": 35,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "     *"
       },
@@ -11269,7 +11270,7 @@
       {
         "lineNumber": 37,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": "     */"
       },
@@ -11401,8 +11402,8 @@
       }
     ],
     "authorContributionMap": {
-      "e0260222": 45,
-      "-": 10
+      "daiweinus": 10,
+      "e0260222": 45
     }
   },
   {

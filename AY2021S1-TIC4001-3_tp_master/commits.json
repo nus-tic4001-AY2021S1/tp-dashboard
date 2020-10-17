@@ -83,7 +83,149 @@
         ]
       }
     ],
-    "tototto": [],
+    "tototto": [
+      {
+        "date": "2020-09-18",
+        "commitResults": [
+          {
+            "hash": "b65899ff0a7165e381ded6c355798f498e82076b",
+            "messageTitle": "Built IT Logger skeleton with Team",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 152,
+                "deletions": 21
+              },
+              "other": {
+                "insertions": 2,
+                "deletions": 2
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-09-19",
+        "commitResults": [
+          {
+            "hash": "9d00a110b88a362652d5f13468712deefadd6579",
+            "messageTitle": "open import project as Gradel project",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "test-code": {
+                "insertions": 1,
+                "deletions": 0
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-09-21",
+        "commitResults": [
+          {
+            "hash": "c63424ed45bcd9d3c94ed1c1d18f6a95395e4cde",
+            "messageTitle": "Added functionality to display all the Defect (issue lists)",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 25,
+                "deletions": 2
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-10-03",
+        "commitResults": [
+          {
+            "hash": "9b3afc918f4a245cb6c274902c1b6c788aa2481c",
+            "messageTitle": "completed JUnit Automation TestScript for IssueList class.",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 1,
+                "deletions": 0
+              },
+              "test-code": {
+                "insertions": 56,
+                "deletions": 0
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-10-10",
+        "commitResults": [
+          {
+            "hash": "07f0292ec1e4d5b26d64c9aa9edeadcbdd7a8a19",
+            "messageTitle": "fixed damaged local copy",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 11,
+                "deletions": 14
+              },
+              "test-code": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "de1910def1cee26c6e9b6bd105329aaec59bdc28",
+            "messageTitle": "fixed further damage",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 13,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "519561f1a66b67721c61f373a4137c57cf4285cc",
+            "messageTitle": "completed tP JW-Code-Defensiveness",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 170,
+                "deletions": 15
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-10-11",
+        "commitResults": [
+          {
+            "hash": "c6a18c1af253eb74406b393e2388395ff6fbdb81",
+            "messageTitle": "made further updates to branch",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "test-code": {
+                "insertions": 30,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "368c4da2d07d7abc0507cfe5b2898a09e90baaa4",
+            "messageTitle": "fixed checkstyle for wildcard import for issueList.java",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 5,
+                "deletions": 1
+              }
+            }
+          }
+        ]
+      }
+    ],
     "JanuariusJang": [
       {
         "date": "2020-09-26",
@@ -528,8 +670,8 @@
     },
     "tototto": {
       "docs": 0,
-      "functional-code": 0,
-      "test-code": 0
+      "functional-code": 291,
+      "test-code": 88
     },
     "JanuariusJang": {
       "docs": 0,
@@ -545,7 +687,7 @@
   },
   "authorContributionVariance": {
     "ZhengShijieNUS": 325.11856,
-    "tototto": 0.0,
+    "tototto": 1349.7975,
     "JanuariusJang": 81.381874,
     "pigoliver": 3286.1677
   },
