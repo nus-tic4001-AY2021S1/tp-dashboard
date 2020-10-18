@@ -171,6 +171,52 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-17",
+        "commitResults": [
+          {
+            "hash": "919bdb4cef27a68227358fe2247501a684cc1e7c",
+            "messageTitle": "done command, email address and client, update and update related UG",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 79,
+                "deletions": 9
+              },
+              "other": {
+                "insertions": 2,
+                "deletions": 0
+              },
+              "docs": {
+                "insertions": 17,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "1213c3f55e7f445b5437eb72b039a374bd2d4e65",
+            "messageTitle": "done command, email address and client, update and update related UG",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 15,
+                "deletions": 6
+              }
+            }
+          },
+          {
+            "hash": "5400684fb11b6b3d7372292b17365e31ab5c24aa",
+            "messageTitle": "status, email address and client",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 94,
+                "deletions": 59
+              }
+            }
+          }
+        ]
       }
     ],
     "Yiheng0410": [
@@ -629,6 +675,50 @@
                 "deletions": 0
               }
             }
+          },
+          {
+            "hash": "6f4ae32d89c20b3e336c7a9d972639ff474d3c66",
+            "messageTitle": "Adding date verification and duration of the project.",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 109,
+                "deletions": 34
+              }
+            }
+          },
+          {
+            "hash": "97ae1a66bb54395bb576027c3bb572c962a4f336",
+            "messageTitle": "If the duration less than 7 days will send out a email to project incharge",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 15,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "08496caaf3c628a6c310e0c153ccbc61437a2a43",
+            "messageTitle": "git update",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 1,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "2c58e3ace42ccbce2dfa26824dbf731bc37bc718",
+            "messageTitle": "Delete create",
+            "messageBody": "Delete create",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 0,
+                "deletions": 70
+              }
+            }
           }
         ]
       }
@@ -636,9 +726,10 @@
   },
   "authorFileTypeContributionMap": {
     "linqing42": {
-      "docs": 135,
-      "functional-code": 48,
-      "test-code": 0
+      "docs": 149,
+      "functional-code": 164,
+      "test-code": 0,
+      "other": 2
     },
     "Yiheng0410": {
       "docs": 0,
@@ -646,23 +737,23 @@
       "test-code": 118
     },
     "Impala36": {
-      "docs": 77,
-      "functional-code": 562,
+      "docs": 76,
+      "functional-code": 529,
       "test-code": 3,
       "other": 5
     },
     "binbinhui": {
       "docs": 0,
-      "functional-code": 311,
+      "functional-code": 335,
       "test-code": 1,
       "other": 15
     }
   },
   "authorContributionVariance": {
-    "linqing42": 770.40094,
+    "linqing42": 1936.1602,
     "Yiheng0410": 234.94534,
     "Impala36": 7985.9297,
-    "binbinhui": 15724.413
+    "binbinhui": 17769.133
   },
   "authorDisplayNameMap": {
     "linqing42": "TIC4001-1 LIN ..QING",

@@ -795,6 +795,41 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-17",
+        "commitResults": [
+          {
+            "hash": "335514ca6d671026c203451bb2fda2f6b6873988",
+            "messageTitle": "Add edit category command",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 162,
+                "deletions": 21
+              },
+              "docs": {
+                "insertions": 20,
+                "deletions": 0
+              },
+              "test-code": {
+                "insertions": 25,
+                "deletions": 3
+              }
+            }
+          },
+          {
+            "hash": "fd7c00c09eec2b644edfce5124b9bd2784de3e5f",
+            "messageTitle": "Add confirmation for clear command",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 29,
+                "deletions": 7
+              }
+            }
+          }
+        ]
       }
     ],
     "Chenduo1412": [
@@ -857,26 +892,26 @@
     },
     "dgc5213": {
       "docs": 169,
-      "functional-code": 446,
+      "functional-code": 443,
       "test-code": 36
     },
     "e0260222": {
-      "docs": 119,
-      "functional-code": 1469,
-      "test-code": 307,
+      "docs": 139,
+      "functional-code": 1636,
+      "test-code": 329,
       "other": 4
     },
     "Chenduo1412": {
       "docs": 0,
-      "functional-code": 1,
+      "functional-code": 0,
       "test-code": 0
     }
   },
   "authorContributionVariance": {
-    "daiweinus": 882.4599,
-    "dgc5213": 33847.6,
-    "e0260222": 35383.027,
-    "Chenduo1412": 232.69698
+    "daiweinus": 869.2766,
+    "dgc5213": 33344.16,
+    "e0260222": 35501.934,
+    "Chenduo1412": 229.17305
   },
   "authorDisplayNameMap": {
     "daiweinus": "TIC4001-2 DAI .. WEI",
