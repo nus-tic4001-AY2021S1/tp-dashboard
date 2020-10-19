@@ -81,6 +81,22 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-18",
+        "commitResults": [
+          {
+            "hash": "c4e555be94fd14826a95a7ca6b27296335a5f3db",
+            "messageTitle": "add update function",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 107,
+                "deletions": 0
+              }
+            }
+          }
+        ]
       }
     ],
     "tototto": [
@@ -220,6 +236,33 @@
               "functional-code": {
                 "insertions": 5,
                 "deletions": 1
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-10-18",
+        "commitResults": [
+          {
+            "hash": "32dacb129418b130266190c40f7a3a27bf588d22",
+            "messageTitle": "remove console logger from default logger",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 40,
+                "deletions": 25
+              }
+            }
+          },
+          {
+            "hash": "8c0587b1530e42149cef7acbc86a0f63f43234a6",
+            "messageTitle": "fixed checkstyle issue",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 23,
+                "deletions": 3
               }
             }
           }
@@ -659,18 +702,34 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-18",
+        "commitResults": [
+          {
+            "hash": "f8ee1b3f47d9ea3b06f32617913d17c57c990f0a",
+            "messageTitle": "Update DeveloperGuide.md",
+            "messageBody": "Update Developer\u0027s Guide for Week 10",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 29,
+                "deletions": 9
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFileTypeContributionMap": {
     "ZhengShijieNUS": {
       "docs": 0,
-      "functional-code": 20,
+      "functional-code": 121,
       "test-code": 103
     },
     "tototto": {
       "docs": 0,
-      "functional-code": 291,
+      "functional-code": 334,
       "test-code": 88
     },
     "JanuariusJang": {
@@ -679,17 +738,17 @@
       "test-code": 45
     },
     "pigoliver": {
-      "docs": 0,
-      "functional-code": 295,
+      "docs": 28,
+      "functional-code": 293,
       "test-code": 45,
       "other": 9
     }
   },
   "authorContributionVariance": {
-    "ZhengShijieNUS": 325.11856,
-    "tototto": 1349.7975,
-    "JanuariusJang": 81.381874,
-    "pigoliver": 3286.1677
+    "ZhengShijieNUS": 469.13068,
+    "tototto": 1373.7068,
+    "JanuariusJang": 76.723595,
+    "pigoliver": 3103.418
   },
   "authorDisplayNameMap": {
     "ZhengShijieNUS": "TIC4001-3 ZHEN..IJIE",

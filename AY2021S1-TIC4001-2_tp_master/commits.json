@@ -231,6 +231,22 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-18",
+        "commitResults": [
+          {
+            "hash": "077239b7371dbd8319d21500f809b7048a401d60",
+            "messageTitle": "Add List Four by Category Details",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 296,
+                "deletions": 29
+              }
+            }
+          }
+        ]
       }
     ],
     "e0260222": [
@@ -830,6 +846,59 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-18",
+        "commitResults": [
+          {
+            "hash": "c055ae863bb2d0884afdcf4989fd0667a9caa48a",
+            "messageTitle": "Add skeleton for edit command",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 92,
+                "deletions": 14
+              },
+              "test-code": {
+                "insertions": 6,
+                "deletions": 6
+              }
+            }
+          },
+          {
+            "hash": "d8a985abf5f50f93f5d854068bbcd445cb1fb525",
+            "messageTitle": "Add edit command",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 178,
+                "deletions": 101
+              }
+            }
+          },
+          {
+            "hash": "30aa814d2225ac87e337159305042a8b984b6546",
+            "messageTitle": "Add edit command",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 31,
+                "deletions": 29
+              }
+            }
+          },
+          {
+            "hash": "7eea33b2a90135a36e84a61cf3448ae61cf85ccc",
+            "messageTitle": "Add edit transaction command",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 45,
+                "deletions": 29
+              }
+            }
+          }
+        ]
       }
     ],
     "Chenduo1412": [
@@ -887,17 +956,17 @@
   "authorFileTypeContributionMap": {
     "daiweinus": {
       "docs": 23,
-      "functional-code": 46,
+      "functional-code": 40,
       "test-code": 0
     },
     "dgc5213": {
       "docs": 169,
-      "functional-code": 443,
+      "functional-code": 681,
       "test-code": 36
     },
     "e0260222": {
       "docs": 139,
-      "functional-code": 1636,
+      "functional-code": 1851,
       "test-code": 329,
       "other": 4
     },
@@ -908,10 +977,10 @@
     }
   },
   "authorContributionVariance": {
-    "daiweinus": 869.2766,
-    "dgc5213": 33344.16,
-    "e0260222": 35501.934,
-    "Chenduo1412": 229.17305
+    "daiweinus": 856.48126,
+    "dgc5213": 34108.84,
+    "e0260222": 38260.707,
+    "Chenduo1412": 225.75401
   },
   "authorDisplayNameMap": {
     "daiweinus": "TIC4001-2 DAI .. WEI",
