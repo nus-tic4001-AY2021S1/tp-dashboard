@@ -265,6 +265,39 @@
                 "deletions": 3
               }
             }
+          },
+          {
+            "hash": "f40a93ce27b4b8d7e35fc583949aaae65c801d4b",
+            "messageTitle": "created Search functionality to search by title, status, severity, deadline, owner",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 151,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "94b4bf0a104348254a081b8cae700a979257d3d0",
+            "messageTitle": "fixed checkstyle",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 5,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "ce2a655af5884e6133ed3bb8e3a38b1ffef33330",
+            "messageTitle": "Update Defect.java",
+            "messageBody": "removed duplicatE",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 0,
+                "deletions": 23
+              }
+            }
           }
         ]
       }
@@ -724,12 +757,12 @@
   "authorFileTypeContributionMap": {
     "ZhengShijieNUS": {
       "docs": 0,
-      "functional-code": 121,
+      "functional-code": 120,
       "test-code": 103
     },
     "tototto": {
       "docs": 0,
-      "functional-code": 334,
+      "functional-code": 468,
       "test-code": 88
     },
     "JanuariusJang": {
@@ -746,7 +779,7 @@
   },
   "authorContributionVariance": {
     "ZhengShijieNUS": 469.13068,
-    "tototto": 1373.7068,
+    "tototto": 2302.6326,
     "JanuariusJang": 76.723595,
     "pigoliver": 3103.418
   },

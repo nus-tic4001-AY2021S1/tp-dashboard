@@ -65,6 +65,37 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-19",
+        "commitResults": [
+          {
+            "hash": "b6cc9a8954470075f8f0a2369657d3d055fc685b",
+            "messageTitle": "v2 add report",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 249,
+                "deletions": 10
+              }
+            }
+          },
+          {
+            "hash": "137b903893a6a780701b0bb1716eb20b62572631",
+            "messageTitle": "fix report",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 30,
+                "deletions": 15
+              },
+              "docs": {
+                "insertions": 14,
+                "deletions": 18
+              }
+            }
+          }
+        ]
       }
     ],
     "dgc5213": [
@@ -899,6 +930,94 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-19",
+        "commitResults": [
+          {
+            "hash": "57e953fd7e063a3c118b17a1d3db2ca54206681c",
+            "messageTitle": "Add budget command",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 258,
+                "deletions": 58
+              },
+              "other": {
+                "insertions": 1,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "98159c1577a0df703fc1405d3f06dd61e5f217f0",
+            "messageTitle": "Fix text ui text failure",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 0,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "ce401a943af5587d48fa3fc6d8bbfc711bc09edb",
+            "messageTitle": "Move Budget class to summary package",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 28,
+                "deletions": 23
+              },
+              "other": {
+                "insertions": 2,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "1997dc57bd0df4665544d211ca20646606d7d72d",
+            "messageTitle": "Fix ui text test for summary",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 7,
+                "deletions": 3
+              },
+              "other": {
+                "insertions": 0,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "421003bf48aa5c427d57d8c890e79c26d17a94d2",
+            "messageTitle": "Fix Gradle check failure",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 1,
+                "deletions": 0
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-10-20",
+        "commitResults": [
+          {
+            "hash": "ec6a3323207fb8f2e9ec36c89425624487dc9a68",
+            "messageTitle": "Prevent negative values to be stored for budget, income amount and expense amount",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 42,
+                "deletions": 21
+              }
+            }
+          }
+        ]
       }
     ],
     "Chenduo1412": [
@@ -950,37 +1069,102 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-18",
+        "commitResults": [
+          {
+            "hash": "67a7dfc44b008692121dce0eb4979f69469a3c2d",
+            "messageTitle": "Add Summary of the expense and income",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 51,
+                "deletions": 9
+              }
+            }
+          },
+          {
+            "hash": "2794ec15fe3a762cbb5912f1fbd2d6f5db722286",
+            "messageTitle": "Add private method of summary of INC and EXP",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 32,
+                "deletions": 16
+              }
+            }
+          },
+          {
+            "hash": "9402ed5f1b69e523ba4b6a97e0062a13b216a130",
+            "messageTitle": "Add private method of summary of INC and EXP",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 15,
+                "deletions": 11
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-10-19",
+        "commitResults": [
+          {
+            "hash": "db9071ac1a98d4a0f76c9d6aa2099cec3d8643ea",
+            "messageTitle": "Change the date and currency format",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 6,
+                "deletions": 4
+              }
+            }
+          },
+          {
+            "hash": "7a4772b6a1f44f9b0c4ed7d27a8a60c029b78217",
+            "messageTitle": "Solve the gradle error",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 1,
+                "deletions": 0
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFileTypeContributionMap": {
     "daiweinus": {
-      "docs": 23,
-      "functional-code": 40,
+      "docs": 28,
+      "functional-code": 303,
       "test-code": 0
     },
     "dgc5213": {
-      "docs": 169,
-      "functional-code": 681,
+      "docs": 167,
+      "functional-code": 665,
       "test-code": 36
     },
     "e0260222": {
-      "docs": 139,
-      "functional-code": 1851,
+      "docs": 132,
+      "functional-code": 2086,
       "test-code": 329,
       "other": 4
     },
     "Chenduo1412": {
       "docs": 0,
-      "functional-code": 0,
+      "functional-code": 67,
       "test-code": 0
     }
   },
   "authorContributionVariance": {
-    "daiweinus": 856.48126,
-    "dgc5213": 34108.84,
-    "e0260222": 38260.707,
-    "Chenduo1412": 225.75401
+    "daiweinus": 2420.4302,
+    "dgc5213": 33146.22,
+    "e0260222": 38591.695,
+    "Chenduo1412": 472.7907
   },
   "authorDisplayNameMap": {
     "daiweinus": "TIC4001-2 DAI .. WEI",
