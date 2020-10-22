@@ -751,6 +751,26 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-21",
+        "commitResults": [
+          {
+            "hash": "0fc3a5e0a040de0bb100b3c7bb21e5b1c070a28a",
+            "messageTitle": "Created the basic help command",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 26,
+                "deletions": 7
+              },
+              "other": {
+                "insertions": 38,
+                "deletions": 0
+              }
+            }
+          }
+        ]
       }
     ]
   },
@@ -762,7 +782,7 @@
     },
     "tototto": {
       "docs": 0,
-      "functional-code": 468,
+      "functional-code": 462,
       "test-code": 88
     },
     "JanuariusJang": {
@@ -772,16 +792,16 @@
     },
     "pigoliver": {
       "docs": 28,
-      "functional-code": 293,
+      "functional-code": 318,
       "test-code": 45,
-      "other": 9
+      "other": 47
     }
   },
   "authorContributionVariance": {
-    "ZhengShijieNUS": 469.13068,
-    "tototto": 2302.6326,
-    "JanuariusJang": 76.723595,
-    "pigoliver": 3103.418
+    "ZhengShijieNUS": 449.3741,
+    "tototto": 2208.5676,
+    "JanuariusJang": 73.564354,
+    "pigoliver": 3025.292
   },
   "authorDisplayNameMap": {
     "ZhengShijieNUS": "TIC4001-3 ZHEN..IJIE",

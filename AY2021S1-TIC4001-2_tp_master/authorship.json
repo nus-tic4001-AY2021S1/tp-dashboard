@@ -2002,7 +2002,7 @@
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "incomes and expenses will be listed. (`list` ,or `list [/tTYPE]` , or `list [/mMONTH]` ,  or `list [/tTYPE] [/mMONTH]` , or `list [/mMONTH] [/tTYPE]` )"
+        "content": "incomes and expenses will be listed. "
       },
       {
         "lineNumber": 192,
@@ -2023,231 +2023,231 @@
         "author": {
           "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "- `CATEGORY` must be added behind `/c`. `CATEGORY` can be case-insensitive. Only matched transactions in this category will be listed. "
       },
       {
         "lineNumber": 195,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
-        "content": "Example of usage: `list /te /m2020-09` "
+        "content": "- Other feasible list commands. Also, the order of filter condition is flexible: \u003cbr\u003e"
       },
       {
         "lineNumber": 196,
         "author": {
-          "gitId": "-"
+          "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "  * `list` "
       },
       {
         "lineNumber": 197,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "Expected outcome:"
+        "content": "  * `list [/tTYPE]` , or `list [/mMONTH]` , or `list [/cCATEGORY]` "
       },
       {
         "lineNumber": 198,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "```"
+        "content": "  * `list [/tTYPE] [/mMONTH]` , or `list [/mMONTH] [/tTYPE]`,or `list [/mMONTH] [/cCATEGORY]`,or `list [/cCATEGORY] [/mMONTH]`,or `list [/tTYPE] [/cCATEGORY]`,or `list [/cCATEGORY] [/tTYPE] ` "
       },
       {
         "lineNumber": 199,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "Here are your expense records for 2020-09:"
+        "content": "  * `list [/tTYPE] [/mMONTH] [/cCATEGORY]`, or `list [/mMONTH] [/cCATEGORY] [/tTYPE]`, or `list [/cCATEGORY] [/mMONTH] [/tTYPE]`"
       },
       {
         "lineNumber": 200,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "  1. [E] RENT $500 on 01 Sep 2020"
+        "content": ""
       },
       {
         "lineNumber": 201,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "e0260222"
         },
-        "content": "  2. [E] FOOD $10.00 on 18 Sep 2020 (Dinner at McDonalds’)"
+        "content": "Example of usage: `list /te /m2020-09` "
       },
       {
         "lineNumber": 202,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "  3. [E] FOOD $3.50 on 20 Sep 2020 (Lunch with boss.)"
+        "content": ""
       },
       {
         "lineNumber": 203,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "```"
+        "content": "Expected outcome:"
       },
       {
         "lineNumber": 204,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "```"
       },
       {
         "lineNumber": 205,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "Example of usage: `list`"
+        "content": "Here are your expense records for 2020-09:"
       },
       {
         "lineNumber": 206,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "  1. [E] RENT $500 on 01 Sep 2020"
       },
       {
         "lineNumber": 207,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "Expected outcome:"
+        "content": "  2. [E] FOOD $10.00 on 18 Sep 2020 (Dinner at McDonalds’)"
       },
       {
         "lineNumber": 208,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "```"
+        "content": "  3. [E] FOOD $3.50 on 20 Sep 2020 (Lunch with boss.)"
       },
       {
         "lineNumber": 209,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "Here are your transactions:"
+        "content": "```"
       },
       {
         "lineNumber": 210,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "-"
         },
-        "content": "  1. [I] SALARY $5000.00 on 01 Aug 2020"
+        "content": ""
       },
       {
         "lineNumber": 211,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "  2. [E] RENT $500 on 01 Aug 2020"
+        "content": "Example of usage: `list`"
       },
       {
         "lineNumber": 212,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "  3. [I] SALARY $9000.00 on 01 Sep 2020 (Given $4000 bonus!)"
+        "content": ""
       },
       {
         "lineNumber": 213,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "  4. [E] RENT $500 on 01 Sep 2020"
+        "content": "Expected outcome:"
       },
       {
         "lineNumber": 214,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "  5. [E] FOOD $10.00 on 18 Sep 2020 (Dinner at McDonalds’)"
+        "content": "```"
       },
       {
         "lineNumber": 215,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "  6. [E] FOOD $3.50 on 20 Sep 2020 (Lunch with boss.)"
+        "content": "Here are your transactions:"
       },
       {
         "lineNumber": 216,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "```"
+        "content": "  1. [I] SALARY $5000.00 on 01 Aug 2020"
       },
       {
         "lineNumber": 217,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "  2. [E] RENT $500 on 01 Aug 2020"
       },
       {
         "lineNumber": 218,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "Example of usage: `list /te`  "
+        "content": "  3. [I] SALARY $9000.00 on 01 Sep 2020 (Given $4000 bonus!)"
       },
       {
         "lineNumber": 219,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "  4. [E] RENT $500 on 01 Sep 2020"
       },
       {
         "lineNumber": 220,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "Expected outcome:"
+        "content": "  5. [E] FOOD $10.00 on 18 Sep 2020 (Dinner at McDonalds’)"
       },
       {
         "lineNumber": 221,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "```"
+        "content": "  6. [E] FOOD $3.50 on 20 Sep 2020 (Lunch with boss.)"
       },
       {
         "lineNumber": 222,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "Here are your expenses:"
+        "content": "```"
       },
       {
         "lineNumber": 223,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "  1. [E] RENT $500 on 01 Aug 2020"
+        "content": ""
       },
       {
         "lineNumber": 224,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "  2. [E] RENT $500 on 01 Sep 2020"
+        "content": "Example of usage: `list /te`  "
       },
       {
         "lineNumber": 225,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "  3. [E] FOOD $10.00 on 18 Sep 2020 (Dinner at McDonalds’)"
+        "content": ""
       },
       {
         "lineNumber": 226,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "  4. [E] FOOD $3.50 on 20 Sep 2020 (Lunch with boss.)"
+        "content": "Expected outcome:"
       },
       {
         "lineNumber": 227,
@@ -2261,63 +2261,63 @@
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "Example of usage: `list /m2020-09`  "
+        "content": "Here are your transactions:"
       },
       {
         "lineNumber": 229,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "  1. [E] RENT $500 on 01 Aug 2020"
       },
       {
         "lineNumber": 230,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "Expected outcome:"
+        "content": "  2. [E] RENT $500 on 01 Sep 2020"
       },
       {
         "lineNumber": 231,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "```"
+        "content": "  3. [E] FOOD $10.00 on 18 Sep 2020 (Dinner at McDonalds’)"
       },
       {
         "lineNumber": 232,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "Here are your transactions for 2020-09:"
+        "content": "  4. [E] FOOD $3.50 on 20 Sep 2020 (Lunch with boss.)"
       },
       {
         "lineNumber": 233,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "  1. [I] SALARY $9000.00 on 01 Sep 2020 (Given $4000 bonus!)"
+        "content": "```"
       },
       {
         "lineNumber": 234,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "  2. [E] RENT $500 on 01 Sep 2020"
+        "content": "Example of usage: `list /m2020-09`  "
       },
       {
         "lineNumber": 235,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "  3. [E] FOOD $10.00 on 18 Sep 2020 (Dinner at McDonalds’)"
+        "content": ""
       },
       {
         "lineNumber": 236,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "  4. [E] FOOD $3.50 on 20 Sep 2020 (Lunch with boss.)"
+        "content": "Expected outcome:"
       },
       {
         "lineNumber": 237,
@@ -2331,91 +2331,91 @@
         "author": {
           "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "Here are your transactions:"
       },
       {
         "lineNumber": 239,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "### Deleting an income / expense: `delete`"
+        "content": "  1. [I] SALARY $9000.00 on 01 Sep 2020 (Given $4000 bonus!)"
       },
       {
         "lineNumber": 240,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "Deletes a specified income or expense."
+        "content": "  2. [E] RENT $500 on 01 Sep 2020"
       },
       {
         "lineNumber": 241,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "  3. [E] FOOD $10.00 on 18 Sep 2020 (Dinner at McDonalds’)"
       },
       {
         "lineNumber": 242,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "Format: `delete INDEX`"
+        "content": "  4. [E] FOOD $3.50 on 20 Sep 2020 (Lunch with boss.)"
       },
       {
         "lineNumber": 243,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "- The `list` command must be executed first before using the `delete` command."
+        "content": "```"
       },
       {
         "lineNumber": 244,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "- `INDEX` refers to the index number shown in the list generated by the `list` command."
+        "content": "Example of usage: `list /cSALARY`  "
       },
       {
         "lineNumber": 245,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "- `INDEX` must a positive integer. E.g. `1`, `2`, `3`."
+        "content": ""
       },
       {
         "lineNumber": 246,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "- The transaction indicated by the index number will be deleted."
+        "content": "Expected outcome:"
       },
       {
         "lineNumber": 247,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "```"
       },
       {
         "lineNumber": 248,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "Example of usage: `delete 5`"
+        "content": "Here are your transactions:"
       },
       {
         "lineNumber": 249,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "  1. [I] SALARY $5000.00 on 01 Aug 2020"
       },
       {
         "lineNumber": 250,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "Expected outcome:"
+        "content": "  2. [I] SALARY $9000.00 on 01 Sep 2020 (Given $4000 bonus!)"
       },
       {
         "lineNumber": 251,
@@ -2429,56 +2429,56 @@
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "Noted! I have removed this expense:"
+        "content": "Example of usage: `list /te /m2020-09 /cFOOD` "
       },
       {
         "lineNumber": 253,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "    [E] FOOD $10.00 on 18 Sep 2020 (Dinner at McDonalds’)"
+        "content": ""
       },
       {
         "lineNumber": 254,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "```"
+        "content": "Expected outcome:"
       },
       {
         "lineNumber": 255,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "```"
       },
       {
         "lineNumber": 256,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "### Clearing all data: `clear`"
+        "content": "Here are your expense records for 2020-09:"
       },
       {
         "lineNumber": 257,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "Clears all incomes / expenses and income / expense categories."
+        "content": "  1. [E] FOOD $10.00 on 18 Sep 2020 (Dinner at McDonalds’)"
       },
       {
         "lineNumber": 258,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "  2. [E] FOOD $3.50 on 20 Sep 2020 (Lunch with boss.)"
       },
       {
         "lineNumber": 259,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "Format: `clear`"
+        "content": "```"
       },
       {
         "lineNumber": 260,
@@ -2490,203 +2490,203 @@
       {
         "lineNumber": 261,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
-        "content": "Example of usage: `clear`"
+        "content": "### Deleting an income / expense: `delete`"
       },
       {
         "lineNumber": 262,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "Deletes a specified income or expense."
       },
       {
         "lineNumber": 263,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "Expected outcome:"
+        "content": ""
       },
       {
         "lineNumber": 264,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "```"
+        "content": "Format: `delete INDEX`"
       },
       {
         "lineNumber": 265,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "Noted! I have cleared all data"
+        "content": "- The `list` command must be executed first before using the `delete` command."
       },
       {
         "lineNumber": 266,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "```"
+        "content": "- `INDEX` refers to the index number shown in the list generated by the `list` command."
       },
       {
         "lineNumber": 267,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "- `INDEX` must a positive integer. E.g. `1`, `2`, `3`."
       },
       {
         "lineNumber": 268,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "dgc5213"
         },
-        "content": "### Viewing monthly report: `report`"
+        "content": "- The transaction indicated by the index number will be deleted."
       },
       {
         "lineNumber": 269,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "dgc5213"
         },
-        "content": "Shows a report that summarises the incomes and expenses for a specified month."
+        "content": ""
       },
       {
         "lineNumber": 270,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "Example of usage: `delete 5`"
       },
       {
         "lineNumber": 271,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "dgc5213"
         },
-        "content": "Format: `report MONTH`"
+        "content": ""
       },
       {
         "lineNumber": 272,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
-        "content": "- `MONTH` must be in yyyy-MM format. E.g. `2020-09`."
+        "content": "Expected outcome:"
       },
       {
         "lineNumber": 273,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "dgc5213"
         },
-        "content": "- The summary report for the specified month will be displayed."
+        "content": "```"
       },
       {
         "lineNumber": 274,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "Noted! I have removed this expense:"
       },
       {
         "lineNumber": 275,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "dgc5213"
         },
-        "content": "Example of usage: `report 2020-09`"
+        "content": "    [E] FOOD $10.00 on 18 Sep 2020 (Dinner at McDonalds’)"
       },
       {
         "lineNumber": 276,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "```"
       },
       {
         "lineNumber": 277,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "dgc5213"
         },
-        "content": "Expected outcome:"
+        "content": ""
       },
       {
         "lineNumber": 278,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "dgc5213"
         },
-        "content": "```"
+        "content": "### Clearing all data: `clear`"
       },
       {
         "lineNumber": 279,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "dgc5213"
         },
-        "content": "Here is your report for 2020-09 :"
+        "content": "Clears all incomes / expenses and income / expense categories."
       },
       {
         "lineNumber": 280,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "dgc5213"
         },
-        "content": "Total Income: $27597.4"
+        "content": ""
       },
       {
         "lineNumber": 281,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "dgc5213"
         },
-        "content": "Total Expense: $31.0"
+        "content": "Format: `clear`"
       },
       {
         "lineNumber": 282,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "dgc5213"
         },
-        "content": "Balance: $27566.4"
+        "content": ""
       },
       {
         "lineNumber": 283,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "e0260222"
         },
-        "content": ""
+        "content": "Example of usage: `clear`"
       },
       {
         "lineNumber": 284,
         "author": {
-          "gitId": "daiweinus"
-        },
-        "content": "This month has 30 days."
-      },
-      {
-        "lineNumber": 285,
-        "author": {
-          "gitId": "daiweinus"
-        },
-        "content": "Average Expense Per Day: $1.03"
-      },
-      {
-        "lineNumber": 286,
-        "author": {
           "gitId": "e0260222"
         },
         "content": ""
       },
       {
+        "lineNumber": 285,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "Expected outcome:"
+      },
+      {
+        "lineNumber": 286,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "```"
+      },
+      {
         "lineNumber": 287,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "dgc5213"
         },
-        "content": "Highest Income: "
+        "content": "Noted! I have cleared all data"
       },
       {
         "lineNumber": 288,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "dgc5213"
         },
-        "content": "  [I] SALARY $9000.00 on 1 Sep 2020 (Given $4000 bonus!)"
+        "content": "```"
       },
       {
         "lineNumber": 289,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
         "content": ""
       },
@@ -2695,61 +2695,61 @@
         "author": {
           "gitId": "daiweinus"
         },
-        "content": "Frequency of Income Category:"
+        "content": "### Viewing monthly report: `report`"
       },
       {
         "lineNumber": 291,
         "author": {
           "gitId": "daiweinus"
         },
-        "content": "  SALARY\u003d3,"
+        "content": "Shows a report that summarises the incomes and expenses for a specified month."
       },
       {
         "lineNumber": 292,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "dgc5213"
         },
-        "content": "  HONGBAO\u003d5"
+        "content": ""
       },
       {
         "lineNumber": 293,
         "author": {
           "gitId": "daiweinus"
         },
-        "content": ""
+        "content": "Format: `report MONTH`"
       },
       {
         "lineNumber": 294,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "e0260222"
         },
-        "content": "Frequency of Expense Category:"
+        "content": "- `MONTH` must be in yyyy-MM format. E.g. `2020-09`."
       },
       {
         "lineNumber": 295,
         "author": {
           "gitId": "daiweinus"
         },
-        "content": "  DRINK\u003d4,"
+        "content": "- The summary report for the specified month will be displayed."
       },
       {
         "lineNumber": 296,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "dgc5213"
         },
-        "content": "  FOOD\u003d2"
+        "content": ""
       },
       {
         "lineNumber": 297,
         "author": {
           "gitId": "daiweinus"
         },
-        "content": "```"
+        "content": "Example of usage: `report 2020-09`"
       },
       {
         "lineNumber": 298,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "dgc5213"
         },
         "content": ""
       },
@@ -2758,283 +2758,437 @@
         "author": {
           "gitId": "daiweinus"
         },
-        "content": "### Exiting the program: `exit`"
+        "content": "Expected outcome:"
       },
       {
         "lineNumber": 300,
         "author": {
           "gitId": "daiweinus"
         },
-        "content": "Exits the program. "
+        "content": "```"
       },
       {
         "lineNumber": 301,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "daiweinus"
         },
-        "content": ""
+        "content": "Here is your report for 2020-09 :"
       },
       {
         "lineNumber": 302,
         "author": {
           "gitId": "daiweinus"
         },
-        "content": "Format: `exit`"
+        "content": "Total Income: $27597.4"
       },
       {
         "lineNumber": 303,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "daiweinus"
         },
-        "content": ""
+        "content": "Total Expense: $31.0"
       },
       {
         "lineNumber": 304,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "daiweinus"
         },
-        "content": "Example of usage: `exit`"
+        "content": "Balance: $27566.4"
       },
       {
         "lineNumber": 305,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "daiweinus"
         },
         "content": ""
       },
       {
         "lineNumber": 306,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "daiweinus"
         },
-        "content": "Expected outcome:"
+        "content": "This month has 30 days."
       },
       {
         "lineNumber": 307,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "daiweinus"
         },
-        "content": ""
+        "content": "Average Expense Per Day: $1.03"
       },
       {
         "lineNumber": 308,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "```"
+        "content": ""
       },
       {
         "lineNumber": 309,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "daiweinus"
         },
-        "content": "Bye! Hope to see you again soon."
+        "content": "Highest Income: "
       },
       {
         "lineNumber": 310,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "daiweinus"
         },
-        "content": "```"
+        "content": "  [I] SALARY $9000.00 on 1 Sep 2020 (Given $4000 bonus!)"
       },
       {
         "lineNumber": 311,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "e0260222"
         },
         "content": ""
       },
       {
         "lineNumber": 312,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "daiweinus"
         },
-        "content": "### Saving the data"
+        "content": "Frequency of Income Category:"
       },
       {
         "lineNumber": 313,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "daiweinus"
         },
-        "content": "There is no save command because any change "
+        "content": "  SALARY\u003d3,"
       },
       {
         "lineNumber": 314,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "daiweinus"
         },
-        "content": "to the data will be automatically saved."
+        "content": "  HONGBAO\u003d5"
       },
       {
         "lineNumber": 315,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "daiweinus"
         },
         "content": ""
       },
       {
         "lineNumber": 316,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
-        "content": "## FAQ"
+        "content": "Frequency of Expense Category:"
       },
       {
         "lineNumber": 317,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
-        "content": ""
+        "content": "  DRINK\u003d4,"
       },
       {
         "lineNumber": 318,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "daiweinus"
         },
-        "content": "**Q**:"
+        "content": "  FOOD\u003d2"
       },
       {
         "lineNumber": 319,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "daiweinus"
         },
-        "content": "How do I transfer my data to another computer? "
+        "content": "```"
       },
       {
         "lineNumber": 320,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": ""
       },
       {
         "lineNumber": 321,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "daiweinus"
         },
-        "content": "**A**: "
+        "content": "### Exiting the program: `exit`"
       },
       {
         "lineNumber": 322,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "daiweinus"
         },
-        "content": "Go to Money Tracker\u0027s root folder in the current computer."
+        "content": "Exits the program. "
       },
       {
         "lineNumber": 323,
         "author": {
-          "gitId": "e0260222"
-        },
-        "content": "Copy the data folder and paste it into the Money Tracker\u0027s root folder in the new computer."
-      },
-      {
-        "lineNumber": 324,
-        "author": {
-          "gitId": "e0260222"
-        },
-        "content": "Click `Yes` if the system prompts you for confirmation of overwriting."
-      },
-      {
-        "lineNumber": 325,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "## Command Summary"
-      },
-      {
-        "lineNumber": 326,
-        "author": {
-          "gitId": "-"
+          "gitId": "dgc5213"
         },
         "content": ""
       },
       {
-        "lineNumber": 327,
+        "lineNumber": 324,
+        "author": {
+          "gitId": "daiweinus"
+        },
+        "content": "Format: `exit`"
+      },
+      {
+        "lineNumber": 325,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 326,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "* View help `help`"
+        "content": "Example of usage: `exit`"
+      },
+      {
+        "lineNumber": 327,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
       },
       {
         "lineNumber": 328,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "* Add income category `addcati INCOME_CATEGORY`"
+        "content": "Expected outcome:"
       },
       {
         "lineNumber": 329,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
-        "content": "* Add expense category `addcate EXPENSE_CATEGORY`"
+        "content": ""
       },
       {
         "lineNumber": 330,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "* List income / expense categories `listcat [/tTYPE]`"
+        "content": "```"
       },
       {
         "lineNumber": 331,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "* Delete income / expense category `deletecat INDEX`"
+        "content": "Bye! Hope to see you again soon."
       },
       {
         "lineNumber": 332,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "* Edit income / expense category `editcat INDEX /nNEW_NAME`"
+        "content": "```"
       },
       {
         "lineNumber": 333,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "* Add income `addi /aAMOUNT /cINCOME_CATEGORY [/dDATE] [/eDESCRIPTION]`"
+        "content": ""
       },
       {
         "lineNumber": 334,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "e0260222"
         },
-        "content": "* Add expense `adde /aAMOUNT /cEXPENSE_CATEGORY [/dDATE] [/eDESCRIPTION]`"
+        "content": "### Saving the data"
       },
       {
         "lineNumber": 335,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "* List incomes / expenses `list [/tTYPE] [/mMONTH]`"
+        "content": "There is no save command because any change "
       },
       {
         "lineNumber": 336,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "to the data will be automatically saved."
+      },
+      {
+        "lineNumber": 337,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 338,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "## FAQ"
+      },
+      {
+        "lineNumber": 339,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 340,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "**Q**:"
+      },
+      {
+        "lineNumber": 341,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "How do I transfer my data to another computer? "
+      },
+      {
+        "lineNumber": 342,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 343,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "**A**: "
+      },
+      {
+        "lineNumber": 344,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "Go to Money Tracker\u0027s root folder in the current computer."
+      },
+      {
+        "lineNumber": 345,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "Copy the data folder and paste it into the Money Tracker\u0027s root folder in the new computer."
+      },
+      {
+        "lineNumber": 346,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "Click `Yes` if the system prompts you for confirmation of overwriting."
+      },
+      {
+        "lineNumber": 347,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "## Command Summary"
+      },
+      {
+        "lineNumber": 348,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 349,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "* View help `help`"
+      },
+      {
+        "lineNumber": 350,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "* Add income category `addcati INCOME_CATEGORY`"
+      },
+      {
+        "lineNumber": 351,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "* Add expense category `addcate EXPENSE_CATEGORY`"
+      },
+      {
+        "lineNumber": 352,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "* List income / expense categories `listcat [/tTYPE]`"
+      },
+      {
+        "lineNumber": 353,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "* Delete income / expense category `deletecat INDEX`"
+      },
+      {
+        "lineNumber": 354,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "* Edit income / expense category `editcat INDEX /nNEW_NAME`"
+      },
+      {
+        "lineNumber": 355,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "* Add income `addi /aAMOUNT /cINCOME_CATEGORY [/dDATE] [/eDESCRIPTION]`"
+      },
+      {
+        "lineNumber": 356,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "* Add expense `adde /aAMOUNT /cEXPENSE_CATEGORY [/dDATE] [/eDESCRIPTION]`"
+      },
+      {
+        "lineNumber": 357,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "* List incomes / expenses `list [/tTYPE] [/mMONTH]`"
+      },
+      {
+        "lineNumber": 358,
         "author": {
           "gitId": "dgc5213"
         },
         "content": "* Delete income / expense `delete INDEX`"
       },
       {
-        "lineNumber": 337,
+        "lineNumber": 359,
         "author": {
           "gitId": "e0260222"
         },
         "content": "* Clear data `clear`"
       },
       {
-        "lineNumber": 338,
+        "lineNumber": 360,
         "author": {
           "gitId": "e0260222"
         },
         "content": "* View monthly report `report MONTH`"
       },
       {
-        "lineNumber": 339,
+        "lineNumber": 361,
         "author": {
           "gitId": "e0260222"
         },
@@ -3043,7 +3197,7 @@
     ],
     "authorContributionMap": {
       "daiweinus": 28,
-      "dgc5213": 167,
+      "dgc5213": 189,
       "e0260222": 117,
       "-": 27
     }
@@ -8999,23 +9153,23 @@
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
-        "content": "import moneytracker.summary.Budget;"
+        "content": "import moneytracker.exception.MoneyTrackerException;"
       },
       {
         "lineNumber": 4,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "import moneytracker.storage.Storage;"
+        "content": "import moneytracker.summary.Budget;"
       },
       {
         "lineNumber": 5,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "e0260222"
         },
-        "content": "import moneytracker.transaction.CategoryList;"
+        "content": "import moneytracker.storage.Storage;"
       },
       {
         "lineNumber": 6,
@@ -9027,317 +9181,317 @@
       {
         "lineNumber": 7,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
-        "content": "import moneytracker.ui.Ui;"
+        "content": "import moneytracker.transaction.Transaction;"
       },
       {
         "lineNumber": 8,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "import moneytracker.transaction.Income;"
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "import java.util.Arrays;"
+        "content": "import moneytracker.transaction.Expense;"
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "import java.util.List;"
+        "content": "import moneytracker.transaction.CategoryList;"
       },
       {
         "lineNumber": 11,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "e0260222"
         },
-        "content": ""
+        "content": "import moneytracker.ui.Ui;"
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "/**"
+        "content": ""
       },
       {
         "lineNumber": 13,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
-        "content": " * Contains the methods for user to list all transactions."
+        "content": "import java.util.ArrayList;"
       },
       {
         "lineNumber": 14,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
-        "content": " */"
+        "content": "import java.util.stream.Collectors;"
       },
       {
         "lineNumber": 15,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
-        "content": "public class ListCommand extends Command {"
+        "content": ""
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    private final String fullCommand;"
+        "content": "/**"
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "e0260222"
         },
-        "content": ""
+        "content": " * Contains the methods for user to list all transactions."
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    /**"
+        "content": " */"
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "     * Initializes a \u003ccode\u003eListCommand\u003c/code\u003e object."
+        "content": "public class ListCommand extends Command {"
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "     *"
+        "content": "    private final String fullCommand;"
       },
       {
         "lineNumber": 21,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
-        "content": "     * @param fullCommand User\u0027s full input string."
+        "content": "    private final String errMsg \u003d null;"
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "     */"
+        "content": ""
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    public ListCommand(String fullCommand) {"
+        "content": "    /**"
       },
       {
         "lineNumber": 24,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        this.fullCommand \u003d fullCommand;"
+        "content": "     * Initializes a \u003ccode\u003eListCommand\u003c/code\u003e object."
       },
       {
         "lineNumber": 25,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    }"
+        "content": "     *"
       },
       {
         "lineNumber": 26,
         "author": {
           "gitId": "e0260222"
         },
-        "content": ""
+        "content": "     * @param fullCommand User\u0027s full input string."
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    /**"
+        "content": "     */"
       },
       {
         "lineNumber": 28,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "     * Executes the list transactions command."
+        "content": "    public ListCommand(String fullCommand) {"
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "     *"
+        "content": "        this.fullCommand \u003d fullCommand;"
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "     * @param transactions List of \u003ccode\u003eTransaction\u003c/code\u003e objects."
+        "content": "    }"
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "     * @param ui \u003ccode\u003eUi\u003c/code\u003e object for displaying user interactions."
+        "content": ""
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "     * @param storage \u003ccode\u003eStorage\u003c/code\u003e object for loading and saving user data."
+        "content": "    /**"
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "     * @param categories List of \u003ccode\u003eCategory\u003c/code\u003e objects."
+        "content": "     * Executes the list transactions command."
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "     * @param budget \u003ccode\u003eBudget\u003c/code\u003e object."
+        "content": "     *"
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "     */"
+        "content": "     * @param transactions List of \u003ccode\u003eTransaction\u003c/code\u003e objects."
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    @Override"
+        "content": "     * @param ui \u003ccode\u003eUi\u003c/code\u003e object for displaying user interactions."
       },
       {
         "lineNumber": 37,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "e0260222"
         },
-        "content": "    public void execute(TransactionList transactions, Ui ui, Storage storage,"
+        "content": "     * @param storage \u003ccode\u003eStorage\u003c/code\u003e object for loading and saving user data."
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "                        CategoryList categories, Budget budget) {"
+        "content": "     * @param categories List of \u003ccode\u003eCategory\u003c/code\u003e objects."
       },
       {
         "lineNumber": 39,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "e0260222"
         },
-        "content": "        String listMonthName \u003d null;"
+        "content": "     * @param budget \u003ccode\u003eBudget\u003c/code\u003e object."
       },
       {
         "lineNumber": 40,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "e0260222"
         },
-        "content": "        String categoryDetails \u003d null;"
+        "content": "     */"
       },
       {
         "lineNumber": 41,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "e0260222"
         },
-        "content": ""
+        "content": "    @Override"
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        transactions.setIsInitialized(true);"
+        "content": "    public void execute(TransactionList transactions, Ui ui, Storage storage,"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        transactions.clearSearchResultIndexes();"
+        "content": "                        CategoryList categories, Budget budget) throws MoneyTrackerException {"
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        for (int i \u003d 0; i \u003c transactions.getSize(); i++) {"
+        "content": ""
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "            transactions.addSearchResultIndex(i);"
+        "content": ""
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        }"
+        "content": "        transactions.setIsInitialized(true);"
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "        transactions.clearSearchResultIndexes();"
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "        for (int i \u003d 0; i \u003c transactions.getSize(); i++) {"
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        String commandParameterString \u003d fullCommand.replaceFirst(\"(?i)list\", \"\").trim();"
+        "content": "            transactions.addSearchResultIndex(i);"
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        String[] commandParametersArray \u003d commandParameterString.split(\"/\");"
+        "content": "        }"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        final int lenCommandParameters \u003d commandParametersArray.length;"
+        "content": ""
       },
       {
         "lineNumber": 52,
@@ -9351,35 +9505,35 @@
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        /// When there is only one keyword: list, so the commandParameterString is Empty."
+        "content": "        String commandParameterString \u003d fullCommand.replaceFirst(\"(?i)list\", \"\").trim();"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        /// We have to execute list all records. and return to main screen"
+        "content": "        String[] commandParametersArray \u003d commandParameterString.split(\"/\");"
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        if (commandParameterString.isEmpty()) {"
+        "content": "        String[] rules \u003d new String[commandParametersArray.length];"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "            ui.printListTransaction(transactions);"
+        "content": "        for (int i \u003d 0; i \u003c commandParametersArray.length; i++) {"
       },
       {
         "lineNumber": 57,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
-        "content": "            return;"
+        "content": "            rules[i] \u003d commandParametersArray[i].trim();"
       },
       {
         "lineNumber": 58,
@@ -9400,206 +9554,535 @@
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        for (String innerCommand : commandParametersArray) {"
+        "content": ""
       },
       {
         "lineNumber": 61,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "            if (innerCommand.toLowerCase().startsWith(\"m\")) {"
+        "content": "        ArrayList\u003cTransaction\u003e filteredTransaction \u003d transactions.getTransactions();"
       },
       {
         "lineNumber": 62,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "                listMonthName \u003d innerCommand.replace(\"m\", \"\").trim();"
+        "content": "        if (transactions.getSize() \u003d\u003d 0) {"
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "            }"
+        "content": "            throw new MoneyTrackerException(\"Sorry, there is no transaction in your list.\");"
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "            if (innerCommand.toLowerCase().startsWith(\"c\")) {"
+        "content": "        }"
       },
       {
         "lineNumber": 65,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "                categoryDetails \u003d innerCommand.replace(\"c\", \"\").trim().toUpperCase();"
+        "content": ""
       },
       {
         "lineNumber": 66,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "            }"
+        "content": ""
       },
       {
         "lineNumber": 67,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
-        "content": "        }"
+        "content": "        /// When there is only one keyword: list, so the commandParameterString is Empty."
       },
       {
         "lineNumber": 68,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "        /// We have to execute list all records. and return to main screen"
       },
       {
         "lineNumber": 69,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        Arrays.parallelSetAll(commandParametersArray, (i) -\u003e commandParametersArray[i].trim());"
+        "content": "        if (commandParameterString.isEmpty()) {"
       },
       {
         "lineNumber": 70,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        List\u003cString\u003e list \u003d Arrays.asList(commandParametersArray);"
+        "content": "            ui.printListTransaction(transactions);"
       },
       {
         "lineNumber": 71,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "            return;"
       },
       {
         "lineNumber": 72,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        if ((lenCommandParameters \u003d\u003d 2) \u0026 (commandParametersArray[1].toLowerCase().equals(\"te\"))) {"
+        "content": "        }"
       },
       {
         "lineNumber": 73,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "            ui.printListTransactionExpenseOnly(transactions);"
+        "content": ""
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        } else if ((lenCommandParameters \u003d\u003d 2) \u0026 (commandParametersArray[1].toLowerCase().equals(\"ti\"))) {"
+        "content": "        ///When there are multiple keywords in the list command, we have to check each rule and return matched records"
       },
       {
         "lineNumber": 75,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "            ui.printListTransactionIncomeOnly(transactions);"
+        "content": "        for (int i \u003d 1; i \u003c rules.length; i++) {"
       },
       {
         "lineNumber": 76,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        } else if ((lenCommandParameters \u003d\u003d 2) \u0026 (commandParametersArray[1].toLowerCase().startsWith(\"m\"))) {"
+        "content": "            filteredTransaction \u003d getFilteredList(filteredTransaction, rules[i].trim());"
       },
       {
         "lineNumber": 77,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "            ui.printListTransactionMonthOnly(transactions,listMonthName);"
+        "content": "        }"
       },
       {
         "lineNumber": 78,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        } else if ((lenCommandParameters \u003d\u003d 3) \u0026 (list.contains(\"te\") || list.contains(\"m\"))) {"
+        "content": "        ui.printMyFilteredTransactions(filteredTransaction);"
       },
       {
         "lineNumber": 79,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "            ui.printListTransactionExpenseByMonth(transactions,listMonthName);"
+        "content": ""
       },
       {
         "lineNumber": 80,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        } else if ((lenCommandParameters \u003d\u003d 3) \u0026 (list.contains(\"ti\") || list.contains(\"m\"))) {"
+        "content": "    }"
       },
       {
         "lineNumber": 81,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "            ui.printListTransactionIncomeByMonth(transactions,listMonthName);"
+        "content": ""
       },
       {
         "lineNumber": 82,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        } else if ((lenCommandParameters \u003d\u003d 4) \u0026 (list.contains(\"ti\") || list.contains(\"m\") || list.contains(\"c\"))) {"
+        "content": ""
       },
       {
         "lineNumber": 83,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "            ui.printListTransactionIncomeByMonthByCatDetails(transactions,listMonthName,categoryDetails);"
+        "content": "    /**"
       },
       {
         "lineNumber": 84,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        } else if ((lenCommandParameters \u003d\u003d 4) \u0026 (list.contains(\"te\") || list.contains(\"m\") || list.contains(\"c\"))) {"
+        "content": "     * To get a list of transactions which satisfies filter requirement."
       },
       {
         "lineNumber": 85,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "            ui.printListTransactionExpenseByMonthByCatDetails(transactions,listMonthName,categoryDetails);"
+        "content": "     *"
       },
       {
         "lineNumber": 86,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        }"
+        "content": "     * @param transactions List of \u003ccode\u003eTransaction\u003c/code\u003e objects."
       },
       {
         "lineNumber": 87,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "     * @param rule String of rule provided by the user input."
       },
       {
         "lineNumber": 88,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "    }"
+        "content": "     */"
       },
       {
         "lineNumber": 89,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "    private  ArrayList\u003cTransaction\u003e  getFilteredList(ArrayList\u003cTransaction\u003e transactions, String rule)"
+      },
+      {
+        "lineNumber": 90,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "            throws MoneyTrackerException {"
+      },
+      {
+        "lineNumber": 91,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 92,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "        if (rule.equals(\"te\")) {"
+      },
+      {
+        "lineNumber": 93,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "            ArrayList\u003cTransaction\u003e filterByExpense \u003d (ArrayList\u003cTransaction\u003e) transactions.stream().filter(record -\u003e"
+      },
+      {
+        "lineNumber": 94,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "                    record instanceof Expense).collect(Collectors.toList());"
+      },
+      {
+        "lineNumber": 95,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "            if (filterByExpense.size() \u003c 1) {"
+      },
+      {
+        "lineNumber": 96,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "                throw new MoneyTrackerException(\"Sorry, there is no expense in your list.\");"
+      },
+      {
+        "lineNumber": 97,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 98,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "            return filterByExpense;"
+      },
+      {
+        "lineNumber": 99,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "        } else if (rule.equals(\"ti\")) {"
+      },
+      {
+        "lineNumber": 100,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "            ArrayList\u003cTransaction\u003e filterByIncome \u003d (ArrayList\u003cTransaction\u003e) transactions.stream().filter(record -\u003e"
+      },
+      {
+        "lineNumber": 101,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "                    record instanceof Income).collect(Collectors.toList());"
+      },
+      {
+        "lineNumber": 102,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "            if (filterByIncome.size() \u003c 1) {"
+      },
+      {
+        "lineNumber": 103,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "                throw new MoneyTrackerException(\"Sorry, there is no income in your list.\");"
+      },
+      {
+        "lineNumber": 104,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 105,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "            return filterByIncome;"
+      },
+      {
+        "lineNumber": 106,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "        }  else if (rule.startsWith(\"c\")) {"
+      },
+      {
+        "lineNumber": 107,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "            String inputCategory \u003d rule.replace(\"c\", \"\").trim().toUpperCase();"
+      },
+      {
+        "lineNumber": 108,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "            ArrayList\u003cTransaction\u003e expenseList \u003d (ArrayList\u003cTransaction\u003e) transactions.stream().filter(record -\u003e"
+      },
+      {
+        "lineNumber": 109,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "                    record instanceof Expense)"
+      },
+      {
+        "lineNumber": 110,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "                    .filter(record -\u003e ((Expense) record).getExpenseCategory().equals(inputCategory))"
+      },
+      {
+        "lineNumber": 111,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "                    .collect(Collectors.toList());"
+      },
+      {
+        "lineNumber": 112,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "            ArrayList\u003cTransaction\u003e incomeList \u003d (ArrayList\u003cTransaction\u003e) transactions.stream().filter(record"
+      },
+      {
+        "lineNumber": 113,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "                -\u003e record instanceof Income).filter(record -\u003e ((Income) record)"
+      },
+      {
+        "lineNumber": 114,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "                    .getIncomeCategory().equals(inputCategory)).collect(Collectors.toList());"
+      },
+      {
+        "lineNumber": 115,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "            ArrayList\u003cTransaction\u003e filteredByCategory \u003d new ArrayList\u003c\u003e(expenseList);"
+      },
+      {
+        "lineNumber": 116,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "            filteredByCategory.addAll(incomeList);"
+      },
+      {
+        "lineNumber": 117,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 118,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "            if (incomeList.size() \u003c 1 \u0026\u0026 expenseList.size() \u003c 1) {"
+      },
+      {
+        "lineNumber": 119,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "                throw new MoneyTrackerException(\"Sorry, there is no category \u0027\" + inputCategory + \"\u0027 in the list.\");"
+      },
+      {
+        "lineNumber": 120,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 121,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 122,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "            return filteredByCategory;"
+      },
+      {
+        "lineNumber": 123,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 124,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "        } else if (rule.startsWith(\"m\")) {"
+      },
+      {
+        "lineNumber": 125,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "            String inputMonth \u003d rule.replace(\"m\", \"\").trim();"
+      },
+      {
+        "lineNumber": 126,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "            ArrayList\u003cTransaction\u003e filterByMonthList \u003d (ArrayList\u003cTransaction\u003e) transactions.stream().filter(record"
+      },
+      {
+        "lineNumber": 127,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "                -\u003e record.setMonth().equals(inputMonth)).collect(Collectors.toList());"
+      },
+      {
+        "lineNumber": 128,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "            if (filterByMonthList.size() \u003c 1) {"
+      },
+      {
+        "lineNumber": 129,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "                throw new MoneyTrackerException(\"Sorry, there is no record for \u0027\" +  inputMonth + \"\u0027.\");"
+      },
+      {
+        "lineNumber": 130,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 131,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "            return filterByMonthList;"
+      },
+      {
+        "lineNumber": 132,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 133,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 134,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "        throw new MoneyTrackerException((\"Sorry, invalid list command.\"));"
+      },
+      {
+        "lineNumber": 135,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 136,
         "author": {
           "gitId": "e0260222"
         },
@@ -9607,8 +10090,8 @@
       }
     ],
     "authorContributionMap": {
-      "dgc5213": 53,
-      "e0260222": 36
+      "dgc5213": 102,
+      "e0260222": 34
     }
   },
   {
@@ -21227,842 +21710,842 @@
       {
         "lineNumber": 80,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
-        "content": "    public void printAddCategory(CategoryList categories) throws MoneyTrackerException {"
+        "content": ""
       },
       {
         "lineNumber": 81,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "e0260222"
         },
-        "content": "        Category categoryToPrint \u003d categories.getCategory(categories.getSize() - 1);"
+        "content": "    public void printAddCategory(CategoryList categories) throws MoneyTrackerException {"
       },
       {
         "lineNumber": 82,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        if (categoryToPrint.getType().equals(\"INCOME\")) {"
+        "content": "        Category categoryToPrint \u003d categories.getCategory(categories.getSize() - 1);"
       },
       {
         "lineNumber": 83,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "        if (categoryToPrint.getType().equals(\"INCOME\")) {"
+      },
+      {
+        "lineNumber": 84,
         "author": {
           "gitId": "e0260222"
         },
         "content": "            System.out.println(\"Got it! I have added this income category:\");"
       },
       {
-        "lineNumber": 84,
+        "lineNumber": 85,
         "author": {
           "gitId": "dgc5213"
         },
         "content": "        } else if (categoryToPrint.getType().equals(\"EXPENSE\")) {"
       },
       {
-        "lineNumber": 85,
+        "lineNumber": 86,
         "author": {
           "gitId": "e0260222"
         },
         "content": "            System.out.println(\"Got it! I have added this expense category:\");"
       },
       {
-        "lineNumber": 86,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        } else {"
-      },
-      {
         "lineNumber": 87,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "            throw new MoneyTrackerException(\"The category type is invalid\");"
+        "content": "        } else {"
       },
       {
         "lineNumber": 88,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        }"
+        "content": "            throw new MoneyTrackerException(\"The category type is invalid\");"
       },
       {
         "lineNumber": 89,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        printIndentation();"
+        "content": "        }"
       },
       {
         "lineNumber": 90,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        System.out.println(categoryToPrint);"
+        "content": "        printIndentation();"
       },
       {
         "lineNumber": 91,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        printIndentation();"
+        "content": "        System.out.println(categoryToPrint);"
       },
       {
         "lineNumber": 92,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        System.out.println(\"Now you have \" + categories.getSize() + \" categories in your list.\");"
+        "content": "        printIndentation();"
       },
       {
         "lineNumber": 93,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        printLine();"
+        "content": "        System.out.println(\"Now you have \" + categories.getSize() + \" categories in your list.\");"
       },
       {
         "lineNumber": 94,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "    }"
+        "content": "        printLine();"
       },
       {
         "lineNumber": 95,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 96,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
-        "content": "    public void printRemoveCategory(int size, String description, String type) {"
+        "content": ""
       },
       {
         "lineNumber": 97,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        System.out.println(\"Noted! I have removed this \" + type + \": \");"
+        "content": "    public void printRemoveCategory(int size, String description, String type) {"
       },
       {
         "lineNumber": 98,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        printIndentation();"
+        "content": "        System.out.println(\"Noted! I have removed this \" + type + \": \");"
       },
       {
         "lineNumber": 99,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        System.out.println(description);"
+        "content": "        printIndentation();"
       },
       {
         "lineNumber": 100,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        printIndentation();"
+        "content": "        System.out.println(description);"
       },
       {
         "lineNumber": 101,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        System.out.println(\"Now you have \" + size + \" categories in the list.\");"
+        "content": "        printIndentation();"
       },
       {
         "lineNumber": 102,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        printLine();"
+        "content": "        System.out.println(\"Now you have \" + size + \" categories in the list.\");"
       },
       {
         "lineNumber": 103,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    }"
+        "content": "        printLine();"
       },
       {
         "lineNumber": 104,
         "author": {
           "gitId": "e0260222"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 105,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    public void printEditItem(String oldDescription, String newDescription, String type) {"
+        "content": ""
       },
       {
         "lineNumber": 106,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        System.out.println(\"Noted! I have edited this \" + type + \": \");"
+        "content": "    public void printEditItem(String oldDescription, String newDescription, String type) {"
       },
       {
         "lineNumber": 107,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        printIndentation();"
+        "content": "        System.out.println(\"Noted! I have edited this \" + type + \": \");"
       },
       {
         "lineNumber": 108,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        System.out.println(\"From \" + oldDescription + \" to \" + newDescription);"
+        "content": "        printIndentation();"
       },
       {
         "lineNumber": 109,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        printLine();"
+        "content": "        System.out.println(\"From \" + oldDescription + \" to \" + newDescription);"
       },
       {
         "lineNumber": 110,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    }"
+        "content": "        printLine();"
       },
       {
         "lineNumber": 111,
         "author": {
           "gitId": "e0260222"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 112,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    public void printError(String errorMessage) {"
+        "content": ""
       },
       {
         "lineNumber": 113,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "    public void printError(String errorMessage) {"
+      },
+      {
+        "lineNumber": 114,
         "author": {
           "gitId": "dgc5213"
         },
         "content": "        System.out.println(\"OOPS!! \" + errorMessage);"
       },
       {
-        "lineNumber": 114,
-        "author": {
-          "gitId": "e0260222"
-        },
-        "content": "        printLine();"
-      },
-      {
         "lineNumber": 115,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    }"
+        "content": "        printLine();"
       },
       {
         "lineNumber": 116,
         "author": {
           "gitId": "e0260222"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 117,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    public void printBudget(Budget budget) {"
+        "content": ""
       },
       {
         "lineNumber": 118,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        double amount \u003d budget.getAmount();"
+        "content": "    public void printBudget(Budget budget) {"
       },
       {
         "lineNumber": 119,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        String amountString \u003d String.format(\"%.2f\", amount);"
+        "content": "        double amount \u003d budget.getAmount();"
       },
       {
         "lineNumber": 120,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        System.out.println(\"Got it! I have set your monthly budget to this amount:\");"
+        "content": "        String amountString \u003d String.format(\"%.2f\", amount);"
       },
       {
         "lineNumber": 121,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        printIndentation();"
+        "content": "        System.out.println(\"Got it! I have set your monthly budget to this amount:\");"
       },
       {
         "lineNumber": 122,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        System.out.println(\"$\" + amountString);"
+        "content": "        printIndentation();"
       },
       {
         "lineNumber": 123,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        printLine();"
+        "content": "        System.out.println(\"$\" + amountString);"
       },
       {
         "lineNumber": 124,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    }"
+        "content": "        printLine();"
       },
       {
         "lineNumber": 125,
         "author": {
           "gitId": "e0260222"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 126,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    public void printHelp() {"
+        "content": ""
       },
       {
         "lineNumber": 127,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        System.out.println(\"Please refer this online user guide:\");"
+        "content": "    public void printHelp() {"
       },
       {
         "lineNumber": 128,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        System.out.println(\"https://ay2021s1-tic4001-2.github.io/tp/UserGuide.html\");"
+        "content": "        System.out.println(\"Please refer this online user guide:\");"
       },
       {
         "lineNumber": 129,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        printLine();"
+        "content": "        System.out.println(\"https://ay2021s1-tic4001-2.github.io/tp/UserGuide.html\");"
       },
       {
         "lineNumber": 130,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    }"
+        "content": "        printLine();"
       },
       {
         "lineNumber": 131,
         "author": {
           "gitId": "e0260222"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 132,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    public void printGoodbye() {"
+        "content": ""
       },
       {
         "lineNumber": 133,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "    public void printGoodbye() {"
+      },
+      {
+        "lineNumber": 134,
         "author": {
           "gitId": "dgc5213"
         },
         "content": "        System.out.println(\"Bye! Hope to see you again soon.\");"
       },
       {
-        "lineNumber": 134,
-        "author": {
-          "gitId": "e0260222"
-        },
-        "content": "        printLine();"
-      },
-      {
         "lineNumber": 135,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    }"
+        "content": "        printLine();"
       },
       {
         "lineNumber": 136,
         "author": {
           "gitId": "e0260222"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 137,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    public void printClearConfirmation() {"
+        "content": ""
       },
       {
         "lineNumber": 138,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        System.out.println(\"Are you sure you want to clear all data? Y / N\");"
+        "content": "    public void printClearConfirmation() {"
       },
       {
         "lineNumber": 139,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    }"
+        "content": "        System.out.println(\"Are you sure you want to clear all data? Y / N\");"
       },
       {
         "lineNumber": 140,
         "author": {
           "gitId": "e0260222"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 141,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    public void printClearAllData(String confirmation) {"
+        "content": ""
       },
       {
         "lineNumber": 142,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        if (confirmation.equals(\"Y\")) {"
+        "content": "    public void printClearAllData(String confirmation) {"
       },
       {
         "lineNumber": 143,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "        if (confirmation.equals(\"Y\")) {"
+      },
+      {
+        "lineNumber": 144,
         "author": {
           "gitId": "dgc5213"
         },
         "content": "            System.out.println(\"Noted! I have cleared all data.\");"
       },
       {
-        "lineNumber": 144,
+        "lineNumber": 145,
         "author": {
           "gitId": "e0260222"
         },
         "content": "        } else if (confirmation.equals(\"N\")) {"
       },
       {
-        "lineNumber": 145,
+        "lineNumber": 146,
         "author": {
           "gitId": "e0260222"
         },
         "content": "            System.out.println(\"Noted! Your data is untouched.\");"
       },
       {
-        "lineNumber": 146,
-        "author": {
-          "gitId": "e0260222"
-        },
-        "content": "        } else {"
-      },
-      {
         "lineNumber": 147,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "            System.out.println(\"Sorry, please enter \\\"Y\\\" or \\\"N\\\" only\");"
+        "content": "        } else {"
       },
       {
         "lineNumber": 148,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        }"
+        "content": "            System.out.println(\"Sorry, please enter \\\"Y\\\" or \\\"N\\\" only\");"
       },
       {
         "lineNumber": 149,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "e0260222"
         },
-        "content": "        printLine();"
+        "content": "        }"
       },
       {
         "lineNumber": 150,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "    }"
+        "content": "        printLine();"
       },
       {
         "lineNumber": 151,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 152,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
-        "content": "    public void printRemoveTransaction(int size, String description, String type) {"
+        "content": ""
       },
       {
         "lineNumber": 153,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        System.out.println(\"Noted! I have removed this \" + type + \": \");"
+        "content": "    public void printRemoveTransaction(int size, String description, String type) {"
       },
       {
         "lineNumber": 154,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        printIndentation();"
+        "content": "        System.out.println(\"Noted! I have removed this \" + type + \": \");"
       },
       {
         "lineNumber": 155,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        System.out.println(description);"
+        "content": "        printIndentation();"
       },
       {
         "lineNumber": 156,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        printIndentation();"
+        "content": "        System.out.println(description);"
       },
       {
         "lineNumber": 157,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        System.out.println(\"Now you have \" + size + \" transactions in the list.\");"
+        "content": "        printIndentation();"
       },
       {
         "lineNumber": 158,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        printLine();"
+        "content": "        System.out.println(\"Now you have \" + size + \" transactions in the list.\");"
       },
       {
         "lineNumber": 159,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    }"
+        "content": "        printLine();"
       },
       {
         "lineNumber": 160,
         "author": {
           "gitId": "e0260222"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 161,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    public void printLine() {"
+        "content": ""
       },
       {
         "lineNumber": 162,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        System.out.println(LINE);"
+        "content": "    public void printLine() {"
       },
       {
         "lineNumber": 163,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    }"
+        "content": "        System.out.println(LINE);"
       },
       {
         "lineNumber": 164,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "e0260222"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 165,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "    public void printIndentation() {"
+        "content": ""
       },
       {
         "lineNumber": 166,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        System.out.print(INDENT);"
+        "content": "    public void printIndentation() {"
       },
       {
         "lineNumber": 167,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "    }"
+        "content": "        System.out.print(INDENT);"
       },
       {
         "lineNumber": 168,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 169,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 170,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "     * Executes the list transactions command."
+        "content": "    /**"
       },
       {
         "lineNumber": 171,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "     *"
+        "content": "     * Executes the list transactions command."
       },
       {
         "lineNumber": 172,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "     * @param transactions List of \u003ccode\u003eTransaction\u003c/code\u003e objects."
+        "content": "     *"
       },
       {
         "lineNumber": 173,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "     */"
+        "content": "     * @param transactions List of \u003ccode\u003eTransaction\u003c/code\u003e objects."
       },
       {
         "lineNumber": 174,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "    public void printListTransaction(TransactionList transactions) {"
+        "content": "     */"
       },
       {
         "lineNumber": 175,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        if (transactions.getSize() \u003d\u003d 0) {"
+        "content": "    public void printListTransaction(TransactionList transactions) {"
       },
       {
         "lineNumber": 176,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
-        "content": "            System.out.println(\"Sorry, there is no transaction in your list.\");"
+        "content": "        if (transactions.getSize() \u003d\u003d 0) {"
       },
       {
         "lineNumber": 177,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "            return;"
+        "content": "            System.out.println(\"Sorry, there is no transaction in your list.\");"
       },
       {
         "lineNumber": 178,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "e0260222"
         },
-        "content": "        } else {"
+        "content": "            return;"
       },
       {
         "lineNumber": 179,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "            System.out.println(\"Here are your transactions:\");"
+        "content": "        } else {"
       },
       {
         "lineNumber": 180,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "            for (int i \u003d 0; i \u003c transactions.getSize(); i++) {"
+        "content": "            System.out.println(\"Here are your transactions:\");"
       },
       {
         "lineNumber": 181,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "                printIndentation();"
+        "content": "            for (int i \u003d 0; i \u003c transactions.getSize(); i++) {"
       },
       {
         "lineNumber": 182,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "                System.out.println((i + 1) + \". \" + transactions.getTransaction(i).toString());"
+        "content": "                printIndentation();"
       },
       {
         "lineNumber": 183,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "            }"
+        "content": "                System.out.println((i + 1) + \". \" + transactions.getTransaction(i).toString());"
       },
       {
         "lineNumber": 184,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        }"
+        "content": "            }"
       },
       {
         "lineNumber": 185,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        printLine();"
+        "content": "        }"
       },
       {
         "lineNumber": 186,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "    }"
+        "content": "        printLine();"
       },
       {
         "lineNumber": 187,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 188,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 189,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "     * Executes the FilteredTransactions command."
+        "content": "    /**"
       },
       {
         "lineNumber": 190,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "     *"
+        "content": "     * Executes the printMyFilteredTransactions comman."
       },
       {
         "lineNumber": 191,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "     * @param transactions List of \u003ccode\u003eTransaction\u003c/code\u003e objects."
+        "content": "     * To Print all the transactions in the filteredTransaction array list."
       },
       {
         "lineNumber": 192,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "     */"
+        "content": "     *"
       },
       {
         "lineNumber": 193,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "    public void printFilteredTransactions(TransactionList transactions) {"
+        "content": "     * @param filteredTransaction ArrayList of \u003ccode\u003eTransaction\u003c/code\u003e objects."
       },
       {
         "lineNumber": 194,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        ArrayList\u003cInteger\u003e searchResultIndexes \u003d transactions.getSearchResultIndexes();"
+        "content": "     */"
       },
       {
         "lineNumber": 195,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        {"
+        "content": "    public void printMyFilteredTransactions(ArrayList\u003cTransaction\u003e filteredTransaction) {"
       },
       {
         "lineNumber": 196,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "            for (int i \u003d 0; i \u003c searchResultIndexes.size(); i++) {"
+        "content": "        System.out.println(\"Here are your transactions:\");"
       },
       {
         "lineNumber": 197,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "                printIndentation();"
+        "content": "        for (int i \u003d 0; i \u003c filteredTransaction.size(); i++) {"
       },
       {
         "lineNumber": 198,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "                System.out.println((i + 1) + \". \" + transactions.getTransaction(searchResultIndexes.get(i)).toString());"
+        "content": "            printIndentation();"
       },
       {
         "lineNumber": 199,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "            }"
+        "content": "            System.out.println((i + 1) + \". \" + filteredTransaction.get(i));"
       },
       {
         "lineNumber": 200,
@@ -22097,238 +22580,238 @@
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 205,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "     * Executes the list transactions command to only display expense records."
+        "content": ""
       },
       {
         "lineNumber": 206,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "     *"
+        "content": "    /**"
       },
       {
         "lineNumber": 207,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "     * @param transactions List of \u003ccode\u003eTransaction\u003c/code\u003e objects."
+        "content": "     * Executes the Filtered Categories command."
       },
       {
         "lineNumber": 208,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "     */"
+        "content": "     *"
       },
       {
         "lineNumber": 209,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "    public void printListTransactionExpenseOnly(TransactionList transactions) {"
+        "content": "     * @param categories List of \u003ccode\u003ecategories\u003c/code\u003e objects."
       },
       {
         "lineNumber": 210,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        transactions.setIsInitialized(true);"
+        "content": "     */"
       },
       {
         "lineNumber": 211,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        transactions.clearSearchResultIndexes();"
+        "content": "    private void printFilteredCategories(CategoryList categories) {"
       },
       {
         "lineNumber": 212,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        int matcheCount \u003d 0;"
+        "content": "        ArrayList\u003cInteger\u003e searchResultIndexes \u003d categories.getSearchResultIndexes();"
       },
       {
         "lineNumber": 213,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "        {"
       },
       {
         "lineNumber": 214,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        if (transactions.getSize() \u003d\u003d 0) {"
+        "content": "            for (int i \u003d 0; i \u003c searchResultIndexes.size(); i++) {"
       },
       {
         "lineNumber": 215,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
-        "content": "            System.out.println(\"Sorry, there is no transaction in your list.\");"
+        "content": "                printIndentation();"
       },
       {
         "lineNumber": 216,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
-        "content": "            return;"
+        "content": "                System.out.println((i + 1) + \". \" + categories.getCategory(searchResultIndexes.get(i)).toString());"
       },
       {
         "lineNumber": 217,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        } else {"
+        "content": "            }"
       },
       {
         "lineNumber": 218,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "        }"
       },
       {
         "lineNumber": 219,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "            for (int i \u003d 0; i \u003c transactions.getSize(); i++) {"
+        "content": "        printLine();"
       },
       {
         "lineNumber": 220,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "                Transaction parentRecord \u003d transactions.getTransaction(i);"
+        "content": "    }"
       },
       {
         "lineNumber": 221,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "                if (parentRecord instanceof Expense) {"
+        "content": ""
       },
       {
         "lineNumber": 222,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "                    matcheCount \u003d matcheCount + 1;"
+        "content": "    /**"
       },
       {
         "lineNumber": 223,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "                    transactions.addSearchResultIndex(i);"
+        "content": "     * Executes the list category command."
       },
       {
         "lineNumber": 224,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "                }"
+        "content": "     *"
       },
       {
         "lineNumber": 225,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "            }"
+        "content": "     * @param categories List of \u003ccode\u003ecategories\u003c/code\u003e objects."
       },
       {
         "lineNumber": 226,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "     */"
       },
       {
         "lineNumber": 227,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        }"
+        "content": "    public void printListCategory(CategoryList categories) {"
       },
       {
         "lineNumber": 228,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "        if (categories.getSize() \u003d\u003d 0) {"
       },
       {
         "lineNumber": 229,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "e0260222"
         },
-        "content": ""
+        "content": "            System.out.println(\"Sorry, there is no category in your list.\");"
       },
       {
         "lineNumber": 230,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        if (matcheCount \u003d\u003d 0) {"
+        "content": "        } else {"
       },
       {
         "lineNumber": 231,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "            System.out.println(\"Sorry! Cannot find any matched expenses records\");"
+        "content": "            System.out.println(\"Here are your categories:\");"
       },
       {
         "lineNumber": 232,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        } else {"
+        "content": "            for (int i \u003d 0; i \u003c categories.getSize(); i++) {"
       },
       {
         "lineNumber": 233,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "            System.out.println(\"Here are your expenses:\");"
+        "content": "                printIndentation();"
       },
       {
         "lineNumber": 234,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "            printFilteredTransactions(transactions);"
+        "content": "                System.out.println((i + 1) + \". \" + categories.getCategory(i).toString());"
       },
       {
         "lineNumber": 235,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        }"
+        "content": "            }"
       },
       {
         "lineNumber": 236,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "        }"
       },
       {
         "lineNumber": 237,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "        printLine();"
       },
       {
         "lineNumber": 238,
@@ -22356,7 +22839,7 @@
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "     * Executes the list transactions command to only display income records."
+        "content": "     * Executes the list category command to display expense categoty only."
       },
       {
         "lineNumber": 242,
@@ -22370,7 +22853,7 @@
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "     * @param transactions List of \u003ccode\u003eTransaction\u003c/code\u003e objects."
+        "content": "     * @param categories List of \u003ccode\u003ecategories\u003c/code\u003e objects."
       },
       {
         "lineNumber": 244,
@@ -22384,175 +22867,175 @@
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "    public void printListTransactionIncomeOnly(TransactionList transactions) {"
+        "content": "    public void printListCategoryExpenseOnly(CategoryList categories) {"
       },
       {
         "lineNumber": 246,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        transactions.setIsInitialized(true);"
+        "content": "        categories.setIsInitialized(true);"
       },
       {
         "lineNumber": 247,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        transactions.clearSearchResultIndexes();"
+        "content": "        categories.clearSearchResultIndexes();"
       },
       {
         "lineNumber": 248,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        int matcheCount \u003d 0;"
+        "content": ""
       },
       {
         "lineNumber": 249,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "        if (categories.getSize() \u003d\u003d 0) {"
       },
       {
         "lineNumber": 250,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "e0260222"
         },
-        "content": "        if (transactions.getSize() \u003d\u003d 0) {"
+        "content": "            System.out.println(\"Sorry, there is no category in your list.\");"
       },
       {
         "lineNumber": 251,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
-        "content": "            System.out.println(\"Sorry, there is no transaction in your list.\");"
+        "content": "        } else {"
       },
       {
         "lineNumber": 252,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
-        "content": "            return;"
+        "content": "            System.out.println(\"Here are your expenses categories:\");"
       },
       {
         "lineNumber": 253,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        } else {"
+        "content": "            for (int i \u003d 0; i \u003c categories.getSize(); i++) {"
       },
       {
         "lineNumber": 254,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "                if (categories.getCategory(i).getType().equals(\"EXPENSE\")) {"
       },
       {
         "lineNumber": 255,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "            for (int i \u003d 0; i \u003c transactions.getSize(); i++) {"
+        "content": "                    categories.addSearchResultIndex(i);"
       },
       {
         "lineNumber": 256,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "                Transaction parentRecord \u003d transactions.getTransaction(i);"
+        "content": "                }"
       },
       {
         "lineNumber": 257,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "                if (parentRecord instanceof Income) {"
+        "content": "            }"
       },
       {
         "lineNumber": 258,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "                    matcheCount \u003d matcheCount + 1;"
+        "content": "        }"
       },
       {
         "lineNumber": 259,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "                    transactions.addSearchResultIndex(i);"
+        "content": "        printFilteredCategories(categories);"
       },
       {
         "lineNumber": 260,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "                }"
+        "content": "    }"
       },
       {
         "lineNumber": 261,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "            }"
+        "content": ""
       },
       {
         "lineNumber": 262,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        }"
+        "content": "    /**"
       },
       {
         "lineNumber": 263,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "     * Executes the list category command to display income categoty only."
       },
       {
         "lineNumber": 264,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        if (matcheCount \u003d\u003d 0) {"
+        "content": "     *"
       },
       {
         "lineNumber": 265,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "            System.out.println(\"Sorry! Cannot find any matched income records\");"
+        "content": "     * @param categories List of \u003ccode\u003ecategories\u003c/code\u003e objects."
       },
       {
         "lineNumber": 266,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        } else {"
+        "content": "     */"
       },
       {
         "lineNumber": 267,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "            System.out.println(\"Here are your incomes:\");"
+        "content": "    public void printListCategoryIncomeOnly(CategoryList categories) {"
       },
       {
         "lineNumber": 268,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "            printFilteredTransactions(transactions);"
+        "content": "        categories.setIsInitialized(true);"
       },
       {
         "lineNumber": 269,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        }"
+        "content": "        categories.clearSearchResultIndexes();"
       },
       {
         "lineNumber": 270,
@@ -22566,2621 +23049,472 @@
         "author": {
           "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "        if (categories.getSize() \u003d\u003d 0) {"
       },
       {
         "lineNumber": 272,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "e0260222"
         },
-        "content": "    }"
+        "content": "            System.out.println(\"Sorry, there is no category in your list.\");"
       },
       {
         "lineNumber": 273,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "        } else {"
       },
       {
         "lineNumber": 274,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "    /**"
+        "content": "            System.out.println(\"Here are your income categories:\");"
       },
       {
         "lineNumber": 275,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "     * Executes the list transactions command to only display records in selected month."
+        "content": "            for (int i \u003d 0; i \u003c categories.getSize(); i++) {"
       },
       {
         "lineNumber": 276,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "     *"
+        "content": "                if (categories.getCategory(i).getType().equals(\"INCOME\")) {"
       },
       {
         "lineNumber": 277,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "     * @param transactions List of \u003ccode\u003eTransaction\u003c/code\u003e objects."
+        "content": "                    categories.addSearchResultIndex(i);"
       },
       {
         "lineNumber": 278,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "     * @param listMonthName String of Month from the user input."
+        "content": "                }"
       },
       {
         "lineNumber": 279,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "     */"
+        "content": "            }"
       },
       {
         "lineNumber": 280,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "    public void printListTransactionMonthOnly(TransactionList transactions, String listMonthName) {"
+        "content": "        }"
       },
       {
         "lineNumber": 281,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        transactions.setIsInitialized(true);"
+        "content": "        printFilteredCategories(categories);"
       },
       {
         "lineNumber": 282,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "        transactions.clearSearchResultIndexes();"
+        "content": "    }"
       },
       {
         "lineNumber": 283,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "daiweinus"
         },
-        "content": "        int matchedMonthCount \u003d 0;"
+        "content": ""
       },
       {
         "lineNumber": 284,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "daiweinus"
         },
-        "content": ""
+        "content": "    /**"
       },
       {
         "lineNumber": 285,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        if (transactions.getSize() \u003d\u003d 0) {"
-      },
-      {
-        "lineNumber": 286,
-        "author": {
-          "gitId": "e0260222"
-        },
-        "content": "            System.out.println(\"Sorry, there is no transaction in your list.\");"
-      },
-      {
-        "lineNumber": 287,
-        "author": {
-          "gitId": "e0260222"
-        },
-        "content": "            return;"
-      },
-      {
-        "lineNumber": 288,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        } else {"
-      },
-      {
-        "lineNumber": 289,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 290,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            for (int i \u003d 0; i \u003c transactions.getSize(); i++) {"
-      },
-      {
-        "lineNumber": 291,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                if (transactions.getTransaction(i).setMonth().equals(listMonthName)) {"
-      },
-      {
-        "lineNumber": 292,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                    matchedMonthCount \u003d matchedMonthCount + 1;"
-      },
-      {
-        "lineNumber": 293,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                    transactions.addSearchResultIndex(i);"
-      },
-      {
-        "lineNumber": 294,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                }"
-      },
-      {
-        "lineNumber": 295,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            }"
-      },
-      {
-        "lineNumber": 296,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 297,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 298,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 299,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        if (matchedMonthCount \u003d\u003d 0) {"
-      },
-      {
-        "lineNumber": 300,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            System.out.println(\"Sorry! Cannot find any matched transactions for \" + listMonthName);"
-      },
-      {
-        "lineNumber": 301,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        } else {"
-      },
-      {
-        "lineNumber": 302,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            System.out.println(\"Here are your transactions for \" + listMonthName + \" :\");"
-      },
-      {
-        "lineNumber": 303,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            printFilteredTransactions(transactions);"
-      },
-      {
-        "lineNumber": 304,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 305,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 306,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 307,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "    /**"
-      },
-      {
-        "lineNumber": 308,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     * Executes the list transactions command to only display income records in selected month."
-      },
-      {
-        "lineNumber": 309,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     *"
-      },
-      {
-        "lineNumber": 310,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     * @param transactions List of \u003ccode\u003eTransaction\u003c/code\u003e objects."
-      },
-      {
-        "lineNumber": 311,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     * @param listMonthName String of Month from the user input."
-      },
-      {
-        "lineNumber": 312,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     */"
-      },
-      {
-        "lineNumber": 313,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "    public void printListTransactionIncomeByMonth(TransactionList transactions, String listMonthName) {"
-      },
-      {
-        "lineNumber": 314,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        transactions.setIsInitialized(true);"
-      },
-      {
-        "lineNumber": 315,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        transactions.clearSearchResultIndexes();"
-      },
-      {
-        "lineNumber": 316,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        int matchedMonthCount \u003d 0;"
-      },
-      {
-        "lineNumber": 317,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 318,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        if (transactions.getSize() \u003d\u003d 0) {"
-      },
-      {
-        "lineNumber": 319,
-        "author": {
-          "gitId": "e0260222"
-        },
-        "content": "            System.out.println(\"Sorry, there is no transaction in your list.\");"
-      },
-      {
-        "lineNumber": 320,
-        "author": {
-          "gitId": "e0260222"
-        },
-        "content": "            return;"
-      },
-      {
-        "lineNumber": 321,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        } else {"
-      },
-      {
-        "lineNumber": 322,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 323,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            for (int i \u003d 0; i \u003c transactions.getSize(); i++) {"
-      },
-      {
-        "lineNumber": 324,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                Transaction parentRecord \u003d transactions.getTransaction(i);"
-      },
-      {
-        "lineNumber": 325,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                if (parentRecord instanceof Income \u0026 transactions.getTransaction(i).setMonth().equals(listMonthName)) {"
-      },
-      {
-        "lineNumber": 326,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                    matchedMonthCount \u003d matchedMonthCount + 1;"
-      },
-      {
-        "lineNumber": 327,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                    transactions.addSearchResultIndex(i);"
-      },
-      {
-        "lineNumber": 328,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                }"
-      },
-      {
-        "lineNumber": 329,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            }"
-      },
-      {
-        "lineNumber": 330,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 331,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 332,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        if (matchedMonthCount \u003d\u003d 0) {"
-      },
-      {
-        "lineNumber": 333,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            System.out.println(\"Sorry! Cannot find any matched income records for \" + listMonthName);"
-      },
-      {
-        "lineNumber": 334,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        } else {"
-      },
-      {
-        "lineNumber": 335,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            System.out.println(\"Here are your income records for \" + listMonthName + \" :\");"
-      },
-      {
-        "lineNumber": 336,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            printFilteredTransactions(transactions);"
-      },
-      {
-        "lineNumber": 337,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 338,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 339,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 340,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "    /**"
-      },
-      {
-        "lineNumber": 341,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     * Checks if the records match to the income category."
-      },
-      {
-        "lineNumber": 342,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     * Return the match counts."
-      },
-      {
-        "lineNumber": 343,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     *"
-      },
-      {
-        "lineNumber": 344,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     * @param transactions List of \u003ccode\u003eTransaction\u003c/code\u003e objects."
-      },
-      {
-        "lineNumber": 345,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     * @param userInputCategoryDetails String of category details from the user input."
-      },
-      {
-        "lineNumber": 346,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     */"
-      },
-      {
-        "lineNumber": 347,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "    public int checkIncomeCategoryDetails(TransactionList transactions, String userInputCategoryDetails) {"
-      },
-      {
-        "lineNumber": 348,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        String incomeCategoryDetails;"
-      },
-      {
-        "lineNumber": 349,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        int matchedCount \u003d 0;"
-      },
-      {
-        "lineNumber": 350,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        for (int i \u003d 0; i \u003c transactions.getSize(); i++) {"
-      },
-      {
-        "lineNumber": 351,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            Transaction parentRecord \u003d transactions.getTransaction(i);"
-      },
-      {
-        "lineNumber": 352,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            if (parentRecord instanceof Income) {"
-      },
-      {
-        "lineNumber": 353,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                incomeCategoryDetails \u003d ((Income) parentRecord).getIncomeCategory();"
-      },
-      {
-        "lineNumber": 354,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                if (incomeCategoryDetails.contains(userInputCategoryDetails)) {"
-      },
-      {
-        "lineNumber": 355,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                    matchedCount \u003d matchedCount + 1;"
-      },
-      {
-        "lineNumber": 356,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                }"
-      },
-      {
-        "lineNumber": 357,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            }"
-      },
-      {
-        "lineNumber": 358,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 359,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        return matchedCount;"
-      },
-      {
-        "lineNumber": 360,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 361,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 362,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "    /**"
-      },
-      {
-        "lineNumber": 363,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     * Checks if the records match to the expense category."
-      },
-      {
-        "lineNumber": 364,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     * Return the match counts."
-      },
-      {
-        "lineNumber": 365,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     *"
-      },
-      {
-        "lineNumber": 366,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     * @param transactions List of \u003ccode\u003eTransaction\u003c/code\u003e objects."
-      },
-      {
-        "lineNumber": 367,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     * @param userInputCategoryDetails String of category details from the user input."
-      },
-      {
-        "lineNumber": 368,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     */"
-      },
-      {
-        "lineNumber": 369,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "    public int checkExpenseCategoryDetails(TransactionList transactions, String userInputCategoryDetails) {"
-      },
-      {
-        "lineNumber": 370,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        String expenseCategoryDetails;"
-      },
-      {
-        "lineNumber": 371,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        int matchedCount \u003d 0;"
-      },
-      {
-        "lineNumber": 372,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        for (int i \u003d 0; i \u003c transactions.getSize(); i++) {"
-      },
-      {
-        "lineNumber": 373,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            Transaction parentRecord \u003d transactions.getTransaction(i);"
-      },
-      {
-        "lineNumber": 374,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            if (parentRecord instanceof Expense) {"
-      },
-      {
-        "lineNumber": 375,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                expenseCategoryDetails \u003d ((Expense) parentRecord).getExpenseCategory();"
-      },
-      {
-        "lineNumber": 376,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                if (expenseCategoryDetails.contains(userInputCategoryDetails)) {"
-      },
-      {
-        "lineNumber": 377,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                    matchedCount \u003d matchedCount + 1;"
-      },
-      {
-        "lineNumber": 378,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                }"
-      },
-      {
-        "lineNumber": 379,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            }"
-      },
-      {
-        "lineNumber": 380,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 381,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        return matchedCount;"
-      },
-      {
-        "lineNumber": 382,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 383,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 384,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "    /**"
-      },
-      {
-        "lineNumber": 385,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     * Executes the list transactions command to only display income records in selected month and category."
-      },
-      {
-        "lineNumber": 386,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     *"
-      },
-      {
-        "lineNumber": 387,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     * @param transactions List of \u003ccode\u003eTransaction\u003c/code\u003e objects."
-      },
-      {
-        "lineNumber": 388,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     * @param listMonthName String of Month from the user input."
-      },
-      {
-        "lineNumber": 389,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     * @param categoryDetails String of categoryDetails from the user input."
-      },
-      {
-        "lineNumber": 390,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     */"
-      },
-      {
-        "lineNumber": 391,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "    public void printListTransactionIncomeByMonthByCatDetails(TransactionList transactions,"
-      },
-      {
-        "lineNumber": 392,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                                                              String listMonthName, String categoryDetails) {"
-      },
-      {
-        "lineNumber": 393,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        transactions.setIsInitialized(true);"
-      },
-      {
-        "lineNumber": 394,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        transactions.clearSearchResultIndexes();"
-      },
-      {
-        "lineNumber": 395,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        int matchedMonthCategoryDetailsCount \u003d 0;"
-      },
-      {
-        "lineNumber": 396,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        int matchedMonthCount \u003d 0;"
-      },
-      {
-        "lineNumber": 397,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 398,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        if (transactions.getSize() \u003d\u003d 0) {"
-      },
-      {
-        "lineNumber": 399,
-        "author": {
-          "gitId": "e0260222"
-        },
-        "content": "            System.out.println(\"Sorry, there is no transaction in your list.\");"
-      },
-      {
-        "lineNumber": 400,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        } else {"
-      },
-      {
-        "lineNumber": 401,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 402,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            for (int i \u003d 0; i \u003c transactions.getSize(); i++) {"
-      },
-      {
-        "lineNumber": 403,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 404,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                Transaction parentRecord \u003d transactions.getTransaction(i);"
-      },
-      {
-        "lineNumber": 405,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 406,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                if ((parentRecord instanceof Income)"
-      },
-      {
-        "lineNumber": 407,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                        \u0026 (transactions.getTransaction(i).setMonth().equals(listMonthName))) {"
-      },
-      {
-        "lineNumber": 408,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                    matchedMonthCount \u003d matchedMonthCount + 1;"
-      },
-      {
-        "lineNumber": 409,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 410,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                    if (((Income) parentRecord).getIncomeCategory().equals(categoryDetails)) {"
-      },
-      {
-        "lineNumber": 411,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                        matchedMonthCategoryDetailsCount \u003d matchedMonthCategoryDetailsCount + 1;"
-      },
-      {
-        "lineNumber": 412,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                        transactions.addSearchResultIndex(i);"
-      },
-      {
-        "lineNumber": 413,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                    }"
-      },
-      {
-        "lineNumber": 414,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 415,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                }"
-      },
-      {
-        "lineNumber": 416,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            }"
-      },
-      {
-        "lineNumber": 417,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 418,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 419,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 420,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        if (matchedMonthCount \u003d\u003d 0) {"
-      },
-      {
-        "lineNumber": 421,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            System.out.println(\"Sorry! Cannot find any matched income records for \" + listMonthName);"
-      },
-      {
-        "lineNumber": 422,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 423,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        if (checkIncomeCategoryDetails(transactions, categoryDetails) \u003d\u003d 0) {"
-      },
-      {
-        "lineNumber": 424,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            System.out.println(\"Sorry! Cannot find any matched income categories for \" + categoryDetails);"
-      },
-      {
-        "lineNumber": 425,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        } else if (matchedMonthCategoryDetailsCount \u003d\u003d 0) {"
-      },
-      {
-        "lineNumber": 426,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            System.out.println(\"Sorry! Cannot find any matched income records (\""
-      },
-      {
-        "lineNumber": 427,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                    + categoryDetails + \") for \" + listMonthName);"
-      },
-      {
-        "lineNumber": 428,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        } else {"
-      },
-      {
-        "lineNumber": 429,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            System.out.println(\"Here are your income records (\" + categoryDetails + \") for \" + listMonthName + \" :\");"
-      },
-      {
-        "lineNumber": 430,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            printFilteredTransactions(transactions);"
-      },
-      {
-        "lineNumber": 431,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 432,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 433,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 434,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "    /**"
-      },
-      {
-        "lineNumber": 435,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     * Executes the list transactions command to only display expense records in selected month."
-      },
-      {
-        "lineNumber": 436,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     *"
-      },
-      {
-        "lineNumber": 437,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     * @param transactions List of \u003ccode\u003eTransaction\u003c/code\u003e objects."
-      },
-      {
-        "lineNumber": 438,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     * @param listMonthName String of Month from the user input."
-      },
-      {
-        "lineNumber": 439,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     */"
-      },
-      {
-        "lineNumber": 440,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "    public void printListTransactionExpenseByMonth(TransactionList transactions, String listMonthName) {"
-      },
-      {
-        "lineNumber": 441,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        transactions.setIsInitialized(true);"
-      },
-      {
-        "lineNumber": 442,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        transactions.clearSearchResultIndexes();"
-      },
-      {
-        "lineNumber": 443,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        int matchedMonthCount \u003d 0;"
-      },
-      {
-        "lineNumber": 444,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 445,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        if (transactions.getSize() \u003d\u003d 0) {"
-      },
-      {
-        "lineNumber": 446,
-        "author": {
-          "gitId": "e0260222"
-        },
-        "content": "            System.out.println(\"Sorry, there is no transaction in your list.\");"
-      },
-      {
-        "lineNumber": 447,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        } else {"
-      },
-      {
-        "lineNumber": 448,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 449,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 450,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            for (int i \u003d 0; i \u003c transactions.getSize(); i++) {"
-      },
-      {
-        "lineNumber": 451,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                Transaction parentRecord \u003d transactions.getTransaction(i);"
-      },
-      {
-        "lineNumber": 452,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                if (parentRecord instanceof Expense \u0026 transactions.getTransaction(i).setMonth().equals(listMonthName)) {"
-      },
-      {
-        "lineNumber": 453,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                    matchedMonthCount \u003d matchedMonthCount + 1;"
-      },
-      {
-        "lineNumber": 454,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                    transactions.addSearchResultIndex(i);"
-      },
-      {
-        "lineNumber": 455,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                }"
-      },
-      {
-        "lineNumber": 456,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            }"
-      },
-      {
-        "lineNumber": 457,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 458,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 459,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        if (matchedMonthCount \u003d\u003d 0) {"
-      },
-      {
-        "lineNumber": 460,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            System.out.println(\"Sorry! Cannot find any matched expense records for \" + listMonthName);"
-      },
-      {
-        "lineNumber": 461,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        } else {"
-      },
-      {
-        "lineNumber": 462,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            System.out.println(\"Here are your expense records for \" + listMonthName + \" :\");"
-      },
-      {
-        "lineNumber": 463,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            printFilteredTransactions(transactions);"
-      },
-      {
-        "lineNumber": 464,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 465,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 466,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 467,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 468,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "    /**"
-      },
-      {
-        "lineNumber": 469,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     * Executes the list transactions command to only display expense records in selected month and category."
-      },
-      {
-        "lineNumber": 470,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     *"
-      },
-      {
-        "lineNumber": 471,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     * @param transactions List of \u003ccode\u003eTransaction\u003c/code\u003e objects."
-      },
-      {
-        "lineNumber": 472,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     * @param listMonthName String of Month from the user input."
-      },
-      {
-        "lineNumber": 473,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     * @param categoryDetails String of categoryDetails from the user input."
-      },
-      {
-        "lineNumber": 474,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     */"
-      },
-      {
-        "lineNumber": 475,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "    public void printListTransactionExpenseByMonthByCatDetails(TransactionList transactions, String listMonthName,"
-      },
-      {
-        "lineNumber": 476,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                                                               String categoryDetails) {"
-      },
-      {
-        "lineNumber": 477,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        transactions.setIsInitialized(true);"
-      },
-      {
-        "lineNumber": 478,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        transactions.clearSearchResultIndexes();"
-      },
-      {
-        "lineNumber": 479,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        int matchedMonthCategoryDetailsCount \u003d 0;"
-      },
-      {
-        "lineNumber": 480,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        int matchedMonthCount \u003d 0;"
-      },
-      {
-        "lineNumber": 481,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 482,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 483,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        if (transactions.getSize() \u003d\u003d 0) {"
-      },
-      {
-        "lineNumber": 484,
-        "author": {
-          "gitId": "e0260222"
-        },
-        "content": "            System.out.println(\"Sorry, there is no transaction in your list.\");"
-      },
-      {
-        "lineNumber": 485,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        } else {"
-      },
-      {
-        "lineNumber": 486,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 487,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            for (int i \u003d 0; i \u003c transactions.getSize(); i++) {"
-      },
-      {
-        "lineNumber": 488,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                Transaction parentRecord \u003d transactions.getTransaction(i);"
-      },
-      {
-        "lineNumber": 489,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                if (parentRecord instanceof Expense \u0026 transactions.getTransaction(i).setMonth().equals(listMonthName)) {"
-      },
-      {
-        "lineNumber": 490,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                    matchedMonthCount \u003d matchedMonthCount + 1;"
-      },
-      {
-        "lineNumber": 491,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                    if (((Expense) parentRecord).getExpenseCategory().equals(categoryDetails)) {"
-      },
-      {
-        "lineNumber": 492,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                        matchedMonthCategoryDetailsCount \u003d matchedMonthCategoryDetailsCount + 1;"
-      },
-      {
-        "lineNumber": 493,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                        transactions.addSearchResultIndex(i);"
-      },
-      {
-        "lineNumber": 494,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                    }"
-      },
-      {
-        "lineNumber": 495,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                }"
-      },
-      {
-        "lineNumber": 496,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            }"
-      },
-      {
-        "lineNumber": 497,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 498,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 499,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        if (matchedMonthCount \u003d\u003d 0) {"
-      },
-      {
-        "lineNumber": 500,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            System.out.println(\"Sorry! Cannot find any matched expense records for \" + listMonthName);"
-      },
-      {
-        "lineNumber": 501,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 502,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        if (checkExpenseCategoryDetails(transactions, categoryDetails) \u003d\u003d 0) {"
-      },
-      {
-        "lineNumber": 503,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            System.out.println(\"Sorry! Cannot find any matched expense categories for \" + categoryDetails);"
-      },
-      {
-        "lineNumber": 504,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        } else if (matchedMonthCategoryDetailsCount \u003d\u003d 0) {"
-      },
-      {
-        "lineNumber": 505,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            System.out.println(\"Sorry! Cannot find any matched expense records (\""
-      },
-      {
-        "lineNumber": 506,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                    + categoryDetails + \") for \" + listMonthName);"
-      },
-      {
-        "lineNumber": 507,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        } else {"
-      },
-      {
-        "lineNumber": 508,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            System.out.println(\"Here are your expense records (\" + categoryDetails + \") for \" + listMonthName + \" :\");"
-      },
-      {
-        "lineNumber": 509,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            printFilteredTransactions(transactions);"
-      },
-      {
-        "lineNumber": 510,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 511,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 512,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 513,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "    /**"
-      },
-      {
-        "lineNumber": 514,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     * Executes the Filtered Categories command."
-      },
-      {
-        "lineNumber": 515,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     *"
-      },
-      {
-        "lineNumber": 516,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     * @param categories List of \u003ccode\u003ecategories\u003c/code\u003e objects."
-      },
-      {
-        "lineNumber": 517,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     */"
-      },
-      {
-        "lineNumber": 518,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "    private void printFilteredCategories(CategoryList categories) {"
-      },
-      {
-        "lineNumber": 519,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        ArrayList\u003cInteger\u003e searchResultIndexes \u003d categories.getSearchResultIndexes();"
-      },
-      {
-        "lineNumber": 520,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        {"
-      },
-      {
-        "lineNumber": 521,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            for (int i \u003d 0; i \u003c searchResultIndexes.size(); i++) {"
-      },
-      {
-        "lineNumber": 522,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                printIndentation();"
-      },
-      {
-        "lineNumber": 523,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                System.out.println((i + 1) + \". \" + categories.getCategory(searchResultIndexes.get(i)).toString());"
-      },
-      {
-        "lineNumber": 524,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            }"
-      },
-      {
-        "lineNumber": 525,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 526,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        printLine();"
-      },
-      {
-        "lineNumber": 527,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 528,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 529,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "    /**"
-      },
-      {
-        "lineNumber": 530,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     * Executes the list category command."
-      },
-      {
-        "lineNumber": 531,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     *"
-      },
-      {
-        "lineNumber": 532,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     * @param categories List of \u003ccode\u003ecategories\u003c/code\u003e objects."
-      },
-      {
-        "lineNumber": 533,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     */"
-      },
-      {
-        "lineNumber": 534,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "    public void printListCategory(CategoryList categories) {"
-      },
-      {
-        "lineNumber": 535,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        if (categories.getSize() \u003d\u003d 0) {"
-      },
-      {
-        "lineNumber": 536,
-        "author": {
-          "gitId": "e0260222"
-        },
-        "content": "            System.out.println(\"Sorry, there is no category in your list.\");"
-      },
-      {
-        "lineNumber": 537,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        } else {"
-      },
-      {
-        "lineNumber": 538,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            System.out.println(\"Here are your categories:\");"
-      },
-      {
-        "lineNumber": 539,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            for (int i \u003d 0; i \u003c categories.getSize(); i++) {"
-      },
-      {
-        "lineNumber": 540,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                printIndentation();"
-      },
-      {
-        "lineNumber": 541,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                System.out.println((i + 1) + \". \" + categories.getCategory(i).toString());"
-      },
-      {
-        "lineNumber": 542,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            }"
-      },
-      {
-        "lineNumber": 543,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 544,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        printLine();"
-      },
-      {
-        "lineNumber": 545,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 546,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 547,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "    /**"
-      },
-      {
-        "lineNumber": 548,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     * Executes the list category command to display expense categoty only."
-      },
-      {
-        "lineNumber": 549,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     *"
-      },
-      {
-        "lineNumber": 550,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     * @param categories List of \u003ccode\u003ecategories\u003c/code\u003e objects."
-      },
-      {
-        "lineNumber": 551,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     */"
-      },
-      {
-        "lineNumber": 552,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "    public void printListCategoryExpenseOnly(CategoryList categories) {"
-      },
-      {
-        "lineNumber": 553,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        categories.setIsInitialized(true);"
-      },
-      {
-        "lineNumber": 554,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        categories.clearSearchResultIndexes();"
-      },
-      {
-        "lineNumber": 555,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 556,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        if (categories.getSize() \u003d\u003d 0) {"
-      },
-      {
-        "lineNumber": 557,
-        "author": {
-          "gitId": "e0260222"
-        },
-        "content": "            System.out.println(\"Sorry, there is no category in your list.\");"
-      },
-      {
-        "lineNumber": 558,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        } else {"
-      },
-      {
-        "lineNumber": 559,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            System.out.println(\"Here are your expenses categories:\");"
-      },
-      {
-        "lineNumber": 560,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            for (int i \u003d 0; i \u003c categories.getSize(); i++) {"
-      },
-      {
-        "lineNumber": 561,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                if (categories.getCategory(i).getType().equals(\"EXPENSE\")) {"
-      },
-      {
-        "lineNumber": 562,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                    categories.addSearchResultIndex(i);"
-      },
-      {
-        "lineNumber": 563,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                }"
-      },
-      {
-        "lineNumber": 564,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            }"
-      },
-      {
-        "lineNumber": 565,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 566,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        printFilteredCategories(categories);"
-      },
-      {
-        "lineNumber": 567,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 568,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 569,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "    /**"
-      },
-      {
-        "lineNumber": 570,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     * Executes the list category command to display income categoty only."
-      },
-      {
-        "lineNumber": 571,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     *"
-      },
-      {
-        "lineNumber": 572,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     * @param categories List of \u003ccode\u003ecategories\u003c/code\u003e objects."
-      },
-      {
-        "lineNumber": 573,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "     */"
-      },
-      {
-        "lineNumber": 574,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "    public void printListCategoryIncomeOnly(CategoryList categories) {"
-      },
-      {
-        "lineNumber": 575,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        categories.setIsInitialized(true);"
-      },
-      {
-        "lineNumber": 576,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        categories.clearSearchResultIndexes();"
-      },
-      {
-        "lineNumber": 577,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 578,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        if (categories.getSize() \u003d\u003d 0) {"
-      },
-      {
-        "lineNumber": 579,
-        "author": {
-          "gitId": "e0260222"
-        },
-        "content": "            System.out.println(\"Sorry, there is no category in your list.\");"
-      },
-      {
-        "lineNumber": 580,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        } else {"
-      },
-      {
-        "lineNumber": 581,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            System.out.println(\"Here are your income categories:\");"
-      },
-      {
-        "lineNumber": 582,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            for (int i \u003d 0; i \u003c categories.getSize(); i++) {"
-      },
-      {
-        "lineNumber": 583,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                if (categories.getCategory(i).getType().equals(\"INCOME\")) {"
-      },
-      {
-        "lineNumber": 584,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                    categories.addSearchResultIndex(i);"
-      },
-      {
-        "lineNumber": 585,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "                }"
-      },
-      {
-        "lineNumber": 586,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "            }"
-      },
-      {
-        "lineNumber": 587,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 588,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "        printFilteredCategories(categories);"
-      },
-      {
-        "lineNumber": 589,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 590,
-        "author": {
-          "gitId": "daiweinus"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 591,
-        "author": {
-          "gitId": "daiweinus"
-        },
-        "content": "    /**"
-      },
-      {
-        "lineNumber": 592,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "     * Gets transaction/category  Month report from user\u0027s full input string."
       },
       {
-        "lineNumber": 593,
+        "lineNumber": 286,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "     *"
       },
       {
-        "lineNumber": 594,
+        "lineNumber": 287,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "     * @param transactions List of \u003ccode\u003eTransaction\u003c/code\u003e objects."
       },
       {
-        "lineNumber": 595,
+        "lineNumber": 288,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "     * @param date month of \u003ccode\u003eTransaction\u003c/code\u003e objects."
       },
       {
-        "lineNumber": 596,
+        "lineNumber": 289,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "     */"
       },
       {
-        "lineNumber": 597,
+        "lineNumber": 290,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "    public void printReport(TransactionList transactions, String date) {"
       },
       {
-        "lineNumber": 598,
+        "lineNumber": 291,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "        transactions.setIsInitialized(true);"
       },
       {
-        "lineNumber": 599,
+        "lineNumber": 292,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "        transactions.clearSearchResultIndexes();"
       },
       {
-        "lineNumber": 600,
+        "lineNumber": 293,
         "author": {
           "gitId": "daiweinus"
         },
         "content": ""
       },
       {
-        "lineNumber": 601,
+        "lineNumber": 294,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "        printLine();"
       },
       {
-        "lineNumber": 602,
+        "lineNumber": 295,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "        if (transactions.getSize() \u003d\u003d 0) {"
       },
       {
-        "lineNumber": 603,
+        "lineNumber": 296,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "            System.out.println(\"Sorry, there is no record in your list.\");"
       },
       {
-        "lineNumber": 604,
+        "lineNumber": 297,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "        } else {"
       },
       {
-        "lineNumber": 605,
+        "lineNumber": 298,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "            double totalIncome \u003d Parser.getTotalIncome(transactions,date);"
       },
       {
-        "lineNumber": 606,
+        "lineNumber": 299,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "            double totalExpense \u003d Parser.getTotalExpense(transactions,date);"
       },
       {
-        "lineNumber": 607,
+        "lineNumber": 300,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "            double balance \u003d totalIncome - totalExpense;"
       },
       {
-        "lineNumber": 608,
+        "lineNumber": 301,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "            double average \u003d totalExpense / Parser.getDaysOfMonth(date);"
       },
       {
-        "lineNumber": 609,
+        "lineNumber": 302,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "            String highestIncomeTrans \u003d Parser.getHighestIncome(transactions,date);"
       },
       {
-        "lineNumber": 610,
+        "lineNumber": 303,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "            String highestExpTrans \u003d Parser.getHighestExpense(transactions,date);"
       },
       {
-        "lineNumber": 611,
+        "lineNumber": 304,
         "author": {
           "gitId": "daiweinus"
         },
         "content": ""
       },
       {
-        "lineNumber": 612,
+        "lineNumber": 305,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "            System.out.println(\"Here is your report for \" + date + \" :\");"
       },
       {
-        "lineNumber": 613,
+        "lineNumber": 306,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "            System.out.println(\"Total Income: $\" + totalIncome);"
       },
       {
-        "lineNumber": 614,
+        "lineNumber": 307,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "            System.out.println(\"Total Expense: $\" + totalExpense);"
       },
       {
-        "lineNumber": 615,
+        "lineNumber": 308,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "            System.out.println(\"Balance: $\" + balance);"
       },
       {
-        "lineNumber": 616,
+        "lineNumber": 309,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "            System.out.println(\"\\nThis month has \" + Parser.getDaysOfMonth(date) + \" days.\");"
       },
       {
-        "lineNumber": 617,
+        "lineNumber": 310,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "            System.out.printf(\"Average Expense Per Day: $%.2f\\n\",(average));"
       },
       {
-        "lineNumber": 618,
+        "lineNumber": 311,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "            System.out.println(\"\");"
       },
       {
-        "lineNumber": 619,
+        "lineNumber": 312,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "            System.out.println(\"Highest Income: \\n\" + \"  \" + highestIncomeTrans);"
       },
       {
-        "lineNumber": 620,
+        "lineNumber": 313,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "            System.out.println(\"\");"
       },
       {
-        "lineNumber": 621,
+        "lineNumber": 314,
         "author": {
           "gitId": "daiweinus"
         },
         "content": ""
       },
       {
-        "lineNumber": 622,
+        "lineNumber": 315,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "            var incomeCatFreq \u003d Parser.getInCatFreq(transactions,date);"
       },
       {
-        "lineNumber": 623,
+        "lineNumber": 316,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "            System.out.println(\"Frequency of Income Category:\");"
       },
       {
-        "lineNumber": 624,
+        "lineNumber": 317,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "            printFreqHelper(incomeCatFreq);"
       },
       {
-        "lineNumber": 625,
+        "lineNumber": 318,
         "author": {
           "gitId": "daiweinus"
         },
         "content": ""
       },
       {
-        "lineNumber": 626,
+        "lineNumber": 319,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "            var expCatFreq \u003d Parser.getExpCatFreq(transactions,date);"
       },
       {
-        "lineNumber": 627,
+        "lineNumber": 320,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "            System.out.println(\"\\nFrequency of Expense Category:\");"
       },
       {
-        "lineNumber": 628,
+        "lineNumber": 321,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "            printFreqHelper(expCatFreq);"
       },
       {
-        "lineNumber": 629,
+        "lineNumber": 322,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "            printLine();"
       },
       {
-        "lineNumber": 630,
+        "lineNumber": 323,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "        }"
       },
       {
-        "lineNumber": 631,
+        "lineNumber": 324,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 632,
+        "lineNumber": 325,
         "author": {
           "gitId": "daiweinus"
         },
         "content": ""
       },
       {
-        "lineNumber": 633,
+        "lineNumber": 326,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "    /**"
       },
       {
-        "lineNumber": 634,
+        "lineNumber": 327,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "     * Help slip frequency string to words."
       },
       {
-        "lineNumber": 635,
+        "lineNumber": 328,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "     *"
       },
       {
-        "lineNumber": 636,
+        "lineNumber": 329,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "     * @param object income/expense category frequency."
       },
       {
-        "lineNumber": 637,
+        "lineNumber": 330,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "     */"
       },
       {
-        "lineNumber": 638,
+        "lineNumber": 331,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "    public void printFreqHelper(Object object) {"
       },
       {
-        "lineNumber": 639,
+        "lineNumber": 332,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "        String line \u003d object.toString();"
       },
       {
-        "lineNumber": 640,
+        "lineNumber": 333,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "        String newline \u003d line.replace(\"{\",\"\").replace(\"}\",\"\");"
       },
       {
-        "lineNumber": 641,
+        "lineNumber": 334,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "        for (String word : newline.split(\" \")) {"
       },
       {
-        "lineNumber": 642,
+        "lineNumber": 335,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "            System.out.println(\"  \" + word);"
       },
       {
-        "lineNumber": 643,
+        "lineNumber": 336,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "        }"
       },
       {
-        "lineNumber": 644,
+        "lineNumber": 337,
         "author": {
           "gitId": "daiweinus"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 645,
+        "lineNumber": 338,
         "author": {
           "gitId": "e0260222"
         },
@@ -25189,8 +23523,8 @@
     ],
     "authorContributionMap": {
       "daiweinus": 61,
-      "dgc5213": 450,
-      "e0260222": 123,
+      "dgc5213": 154,
+      "e0260222": 112,
       "Chenduo1412": 11
     }
   },

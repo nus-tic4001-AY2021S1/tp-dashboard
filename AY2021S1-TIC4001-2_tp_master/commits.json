@@ -278,6 +278,64 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-20",
+        "commitResults": [
+          {
+            "hash": "892f8ac4578551651120dd33494a35dccbc8a402",
+            "messageTitle": "To update",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 2,
+                "deletions": 1
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-10-21",
+        "commitResults": [
+          {
+            "hash": "375e2a1a424f6bdbb479739b322cf89e73d064ae",
+            "messageTitle": "Rewrite all List command functions. support multiple filters and conditions. Edit List User Guide",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 80,
+                "deletions": 350
+              },
+              "docs": {
+                "insertions": 25,
+                "deletions": 3
+              }
+            }
+          },
+          {
+            "hash": "c737a7ce30256a59f767d49a7b92683e77f087e7",
+            "messageTitle": "Rewrite all List command functions v2. support multiple filters and conditions. Edit List User Guide",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 6,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "383e100bd0626788bec21f2c010f94589a6237a6",
+            "messageTitle": "Rewrite all List command functions v2. support multiple filters and conditions. Edit List User Guide",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          }
+        ]
       }
     ],
     "e0260222": [
@@ -1144,13 +1202,13 @@
       "test-code": 0
     },
     "dgc5213": {
-      "docs": 167,
-      "functional-code": 665,
+      "docs": 189,
+      "functional-code": 418,
       "test-code": 36
     },
     "e0260222": {
       "docs": 132,
-      "functional-code": 2086,
+      "functional-code": 2073,
       "test-code": 329,
       "other": 4
     },
@@ -1161,10 +1219,10 @@
     }
   },
   "authorContributionVariance": {
-    "daiweinus": 2420.4302,
-    "dgc5213": 33146.22,
-    "e0260222": 38591.695,
-    "Chenduo1412": 472.7907
+    "daiweinus": 2386.7046,
+    "dgc5213": 35295.887,
+    "e0260222": 38107.83,
+    "Chenduo1412": 466.16046
   },
   "authorDisplayNameMap": {
     "daiweinus": "TIC4001-2 DAI .. WEI",
