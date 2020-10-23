@@ -974,44 +974,44 @@
       {
         "lineNumber": 13,
         "author": {
-          "gitId": "timmyly7"
+          "gitId": "skyventus"
         },
-        "content": "import seedu.duke.utilities.Parser;"
+        "content": "import seedu.duke.exception.IllegalValueException;"
       },
       {
         "lineNumber": 14,
         "author": {
-          "gitId": "timmyly7"
+          "gitId": "skyventus"
         },
-        "content": "import seedu.duke.utilities.Storage;"
+        "content": "import seedu.duke.storage.Storage;"
       },
       {
         "lineNumber": 15,
         "author": {
-          "gitId": "timmyly7"
+          "gitId": "skyventus"
         },
-        "content": "import seedu.duke.utilities.Ui;"
+        "content": "import seedu.duke.storage.Storage.InvalidStorageFilePathException;"
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "timmyly7"
         },
-        "content": ""
+        "content": "import seedu.duke.utilities.Parser;"
       },
       {
         "lineNumber": 17,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "timmyly7"
         },
-        "content": ""
+        "content": "import seedu.duke.utilities.Ui;"
       },
       {
         "lineNumber": 18,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "timmyly7"
         },
-        "content": "public class NusExpenses {"
+        "content": ""
       },
       {
         "lineNumber": 19,
@@ -1025,140 +1025,140 @@
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "    // Version info of the program."
+        "content": "public class NusExpenses {"
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "    public static final String VERSION \u003d \"NUS Expenses Tracker - Version 1.0\";"
+        "content": ""
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": ""
+        "content": "    // Version info of the program."
       },
       {
         "lineNumber": 23,
         "author": {
-          "gitId": "timmyly7"
+          "gitId": "adi-kd0021"
         },
-        "content": "    private Ui ui;"
+        "content": "    public static final String VERSION \u003d \"NUS Expenses Tracker - Version 1.0\";"
       },
       {
         "lineNumber": 24,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "    //private Storage storage;"
+        "content": ""
       },
       {
         "lineNumber": 25,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "timmyly7"
         },
-        "content": "    private TransactionList transactionList;"
+        "content": "    private Ui ui;"
       },
       {
         "lineNumber": 26,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": ""
+        "content": "    //private Storage storage;"
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "    //Expenses list shown to the user recently."
+        "content": "    private TransactionList transactionList;"
       },
       {
         "lineNumber": 28,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "    //Expenses list shown to the user recently."
+      },
+      {
+        "lineNumber": 30,
         "author": {
           "gitId": "timmyly7"
         },
         "content": "    private List\u003c? extends ReadOnlyTransaction\u003e lastShownList \u003d Collections.emptyList();"
       },
       {
-        "lineNumber": 29,
-        "author": {
-          "gitId": "timmyly7"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 30,
-        "author": {
-          "gitId": "adi-kd0021"
-        },
-        "content": ""
-      },
-      {
         "lineNumber": 31,
         "author": {
-          "gitId": "-"
+          "gitId": "skyventus"
         },
-        "content": "    /**"
+        "content": "    private Storage storage;"
       },
       {
         "lineNumber": 32,
         "author": {
-          "gitId": "-"
+          "gitId": "adi-kd0021"
         },
-        "content": "     * Main entry-point for the java.duke.Duke application."
+        "content": ""
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "-"
         },
-        "content": "     */"
+        "content": "    /**"
       },
       {
         "lineNumber": 34,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "-"
         },
-        "content": "    public static void main(String... args) {"
+        "content": "     * Main entry-point for the java.duke.Duke application."
       },
       {
         "lineNumber": 35,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "     */"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "        //Start the Expense Tracker."
+        "content": "    public static void main(String... args) {"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "        new NusExpenses().run();"
+        "content": ""
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": ""
+        "content": "        //Start the Expense Tracker."
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "    }"
+        "content": "        new NusExpenses().run();"
       },
       {
         "lineNumber": 40,
@@ -1172,210 +1172,210 @@
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "    public void run() {"
+        "content": ""
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "        start();"
+        "content": ""
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "        runLoopTillIssuedExit();"
+        "content": "    public void run() {"
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "        exit();"
+        "content": "        start();"
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "    }"
+        "content": "        runLoopTillIssuedExit();"
       },
       {
         "lineNumber": 47,
         "author": {
-          "gitId": "timmyly7"
+          "gitId": "adi-kd0021"
         },
-        "content": ""
+        "content": "        exit();"
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "    //Setup and prints the welcome message."
+        "content": "    }"
       },
       {
         "lineNumber": 49,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "timmyly7"
         },
-        "content": "    private void start() {"
+        "content": ""
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "        this.ui \u003d new Ui();"
+        "content": "    //Setup and prints the welcome message."
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "        this.transactionList \u003d new TransactionList();"
+        "content": "    private void start() {"
       },
       {
         "lineNumber": 52,
         "author": {
-          "gitId": "adi-kd0021"
-        },
-        "content": "        ui.showWelcomeMessage(VERSION);"
-      },
-      {
-        "lineNumber": 53,
-        "author": {
-          "gitId": "adi-kd0021"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 54,
-        "author": {
-          "gitId": "timmyly7"
+          "gitId": "skyventus"
         },
         "content": ""
       },
       {
-        "lineNumber": 55,
+        "lineNumber": 53,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        try {"
+      },
+      {
+        "lineNumber": 54,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "    //Prints the Goodbye messages and exits."
+        "content": "            this.ui \u003d new Ui();"
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "            this.storage \u003d initializeStorage();"
       },
       {
         "lineNumber": 56,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "skyventus"
         },
-        "content": "    private void exit() {"
+        "content": "            this.transactionList \u003d storage.load();"
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "        ui.showGoodbyeMessage();"
+        "content": "            ui.showWelcomeMessage(VERSION);"
       },
       {
         "lineNumber": 58,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "skyventus"
         },
-        "content": "        System.exit(0);"
+        "content": "        } catch (InvalidStorageFilePathException e) {"
       },
       {
         "lineNumber": 59,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "            e.printStackTrace();"
+      },
+      {
+        "lineNumber": 60,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        } catch (IllegalValueException e) {"
+      },
+      {
+        "lineNumber": 61,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "            e.printStackTrace();"
+      },
+      {
+        "lineNumber": 62,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        } catch (InterruptedException e) {"
+      },
+      {
+        "lineNumber": 63,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "            e.printStackTrace();"
+      },
+      {
+        "lineNumber": 64,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 65,
         "author": {
           "gitId": "adi-kd0021"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 60,
-        "author": {
-          "gitId": "adi-kd0021"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 61,
-        "author": {
-          "gitId": "adi-kd0021"
-        },
-        "content": "    private void runLoopTillIssuedExit() {"
-      },
-      {
-        "lineNumber": 62,
-        "author": {
-          "gitId": "timmyly7"
-        },
-        "content": "        Command command;"
-      },
-      {
-        "lineNumber": 63,
-        "author": {
-          "gitId": "timmyly7"
-        },
-        "content": "        do {"
-      },
-      {
-        "lineNumber": 64,
-        "author": {
-          "gitId": "timmyly7"
-        },
-        "content": "            String userCommandText \u003d ui.readUserCommand();"
-      },
-      {
-        "lineNumber": 65,
-        "author": {
-          "gitId": "timmyly7"
-        },
-        "content": "            command \u003d new Parser().parseCommand(userCommandText);"
-      },
-      {
         "lineNumber": 66,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "timmyly7"
         },
-        "content": "            CommandResult result \u003d executeCommand(command);"
+        "content": ""
       },
       {
         "lineNumber": 67,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "            recordResult(result);"
+        "content": "    //Prints the Goodbye messages and exits."
       },
       {
         "lineNumber": 68,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "            ui.showResultToUser(result);"
+        "content": "    private void exit() {"
       },
       {
         "lineNumber": 69,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": ""
+        "content": "        ui.showGoodbyeMessage();"
       },
       {
         "lineNumber": 70,
         "author": {
-          "gitId": "timmyly7"
+          "gitId": "adi-kd0021"
         },
-        "content": "        } while (!ExitCommand.isExit(command));"
+        "content": "        System.exit(0);"
       },
       {
         "lineNumber": 71,
@@ -1387,7 +1387,7 @@
       {
         "lineNumber": 72,
         "author": {
-          "gitId": "timmyly7"
+          "gitId": "adi-kd0021"
         },
         "content": ""
       },
@@ -1396,112 +1396,112 @@
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "    private void recordResult(CommandResult result) {"
+        "content": "    private void runLoopTillIssuedExit() {"
       },
       {
         "lineNumber": 74,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "timmyly7"
         },
-        "content": "        final Optional\u003cList\u003c? extends ReadOnlyTransaction\u003e\u003e transactionList \u003d result.getRelevantTransactions();"
+        "content": "        Command command;"
       },
       {
         "lineNumber": 75,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "timmyly7"
         },
-        "content": "        if (transactionList.isPresent()) {"
+        "content": "        do {"
       },
       {
         "lineNumber": 76,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "timmyly7"
         },
-        "content": "            lastShownList \u003d transactionList.get();"
+        "content": "            String userCommandText \u003d ui.readUserCommand();"
       },
       {
         "lineNumber": 77,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "timmyly7"
         },
-        "content": "        }"
+        "content": "            command \u003d new Parser().parseCommand(userCommandText);"
       },
       {
         "lineNumber": 78,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "    }"
+        "content": "            CommandResult result \u003d executeCommand(command);"
       },
       {
         "lineNumber": 79,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": ""
+        "content": "            recordResult(result);"
       },
       {
         "lineNumber": 80,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "    private CommandResult executeCommand(Command command) {"
+        "content": "            ui.showResultToUser(result);"
       },
       {
         "lineNumber": 81,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "        try {"
+        "content": ""
       },
       {
         "lineNumber": 82,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "timmyly7"
         },
-        "content": "            command.setData(transactionList, lastShownList);"
+        "content": "        } while (!ExitCommand.isExit(command));"
       },
       {
         "lineNumber": 83,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "            CommandResult result \u003d command.execute();"
+        "content": "    }"
       },
       {
         "lineNumber": 84,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "timmyly7"
         },
-        "content": "            return result;"
+        "content": ""
       },
       {
         "lineNumber": 85,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "        } catch (Exception e) {"
+        "content": "    private void recordResult(CommandResult result) {"
       },
       {
         "lineNumber": 86,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "            ui.showToUser(\"An error has occurred! Please reach out to Proj Team @https://ay2021s1-tic4001-4.github.io/tp/AboutUs.html\");"
+        "content": "        final Optional\u003cList\u003c? extends ReadOnlyTransaction\u003e\u003e transactionList \u003d result.getRelevantTransactions();"
       },
       {
         "lineNumber": 87,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "            ui.showToUser(e.getMessage());"
+        "content": "        if (transactionList.isPresent()) {"
       },
       {
         "lineNumber": 88,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "            throw new RuntimeException(e);"
+        "content": "            lastShownList \u003d transactionList.get();"
       },
       {
         "lineNumber": 89,
@@ -1513,12 +1513,138 @@
       {
         "lineNumber": 90,
         "author": {
-          "gitId": "-"
+          "gitId": "adi-kd0021"
         },
         "content": "    }"
       },
       {
         "lineNumber": 91,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 92,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "    private CommandResult executeCommand(Command command) {"
+      },
+      {
+        "lineNumber": 93,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "        try {"
+      },
+      {
+        "lineNumber": 94,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "            command.setData(transactionList, lastShownList);"
+      },
+      {
+        "lineNumber": 95,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "            CommandResult result \u003d command.execute();"
+      },
+      {
+        "lineNumber": 96,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "            storage.save(transactionList);"
+      },
+      {
+        "lineNumber": 97,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "            return result;"
+      },
+      {
+        "lineNumber": 98,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "        } catch (Exception e) {"
+      },
+      {
+        "lineNumber": 99,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "            ui.showToUser(\"An error has occurred! Please reach out to Proj Team @https://ay2021s1-tic4001-4.github.io/tp/AboutUs.html\");"
+      },
+      {
+        "lineNumber": 100,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "            ui.showToUser(e.getMessage());"
+      },
+      {
+        "lineNumber": 101,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "            throw new RuntimeException(e);"
+      },
+      {
+        "lineNumber": 102,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 103,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 104,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 105,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "    private Storage initializeStorage() throws InvalidStorageFilePathException {"
+      },
+      {
+        "lineNumber": 106,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        return new Storage();"
+      },
+      {
+        "lineNumber": 107,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 108,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 109,
         "author": {
           "gitId": "-"
         },
@@ -1526,9 +1652,10 @@
       }
     ],
     "authorContributionMap": {
-      "timmyly7": 20,
+      "skyventus": 21,
+      "timmyly7": 18,
       "-": 7,
-      "adi-kd0021": 64
+      "adi-kd0021": 63
     }
   },
   {
@@ -4513,147 +4640,147 @@
       {
         "lineNumber": 17,
         "author": {
+          "gitId": "skyventus"
+        },
+        "content": "    public TransactionList(List\u003cTransaction\u003e listOfTransaction) {"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        this.internalTransactionList \u003d listOfTransaction;"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 21,
+        "author": {
           "gitId": "Chilaiping"
         },
         "content": "    public List\u003cTransaction\u003e getTransactionList() {"
       },
       {
-        "lineNumber": 18,
+        "lineNumber": 22,
         "author": {
           "gitId": "adi-kd0021"
         },
         "content": "        List\u003cTransaction\u003e list \u003d internalTransactionList.stream().collect(Collectors.toList());"
       },
       {
-        "lineNumber": 19,
+        "lineNumber": 23,
         "author": {
           "gitId": "adi-kd0021"
         },
         "content": "        return list;"
       },
       {
-        "lineNumber": 20,
-        "author": {
-          "gitId": "adi-kd0021"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 21,
-        "author": {
-          "gitId": "adi-kd0021"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 22,
-        "author": {
-          "gitId": "timmyly7"
-        },
-        "content": "    public void addTransaction(Transaction transaction) {"
-      },
-      {
-        "lineNumber": 23,
-        "author": {
-          "gitId": "timmyly7"
-        },
-        "content": "        internalTransactionList.add(transaction);"
-      },
-      {
         "lineNumber": 24,
         "author": {
-          "gitId": "timmyly7"
+          "gitId": "adi-kd0021"
         },
         "content": "    }"
       },
       {
         "lineNumber": 25,
         "author": {
-          "gitId": "timmyly7"
+          "gitId": "adi-kd0021"
         },
         "content": ""
       },
       {
         "lineNumber": 26,
         "author": {
-          "gitId": "e0261618"
+          "gitId": "timmyly7"
         },
-        "content": "    public void removeTransaction(ReadOnlyTransaction toRemove) throws TransactionNotFound {"
+        "content": "    public void addTransaction(Transaction transaction) {"
       },
       {
         "lineNumber": 27,
         "author": {
-          "gitId": "e0261618"
+          "gitId": "timmyly7"
         },
-        "content": "        internalTransactionList.remove(toRemove);"
+        "content": "        internalTransactionList.add(transaction);"
       },
       {
         "lineNumber": 28,
         "author": {
-          "gitId": "e0261618"
+          "gitId": "timmyly7"
         },
         "content": "    }"
       },
       {
         "lineNumber": 29,
         "author": {
-          "gitId": "e0261618"
+          "gitId": "timmyly7"
         },
         "content": ""
       },
       {
         "lineNumber": 30,
         "author": {
+          "gitId": "e0261618"
+        },
+        "content": "    public void removeTransaction(ReadOnlyTransaction toRemove) throws TransactionNotFound {"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": "        internalTransactionList.remove(toRemove);"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 34,
+        "author": {
           "gitId": "Chilaiping"
         },
         "content": "    @Override"
       },
       {
-        "lineNumber": 31,
+        "lineNumber": 35,
         "author": {
           "gitId": "Chilaiping"
         },
         "content": "    public Iterator\u003cTransaction\u003e iterator() {"
       },
       {
-        "lineNumber": 32,
+        "lineNumber": 36,
         "author": {
           "gitId": "Chilaiping"
         },
         "content": "        return internalTransactionList.iterator();"
       },
       {
-        "lineNumber": 33,
-        "author": {
-          "gitId": "Chilaiping"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 34,
-        "author": {
-          "gitId": "adi-kd0021"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 35,
-        "author": {
-          "gitId": "adi-kd0021"
-        },
-        "content": "    public static class TransactionNotFound extends Exception {"
-      },
-      {
-        "lineNumber": 36,
-        "author": {
-          "gitId": "adi-kd0021"
-        },
-        "content": ""
-      },
-      {
         "lineNumber": 37,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "Chilaiping"
         },
         "content": "    }"
       },
@@ -4662,15 +4789,122 @@
         "author": {
           "gitId": "adi-kd0021"
         },
+        "content": ""
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "    public static class TransactionNotFound extends Exception {"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
         "content": "}"
       }
     ],
     "authorContributionMap": {
       "Chilaiping": 10,
-      "skyventus": 1,
+      "skyventus": 5,
       "timmyly7": 4,
       "adi-kd0021": 19,
       "e0261618": 4
+    }
+  },
+  {
+    "path": "src/main/java/seedu/duke/exception/IllegalValueException.java",
+    "fileType": "functional-code",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "package seedu.duke.exception;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "/**"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": " * Signals that some given data does not fulfill some constraints."
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": " */"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "public class IllegalValueException extends Exception {"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "    public IllegalValueException(String message) {"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        super(message);"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "skyventus": 10
     }
   },
   {
@@ -4757,6 +4991,1237 @@
     ],
     "authorContributionMap": {
       "timmyly7": 11
+    }
+  },
+  {
+    "path": "src/main/java/seedu/duke/storage/Storage.java",
+    "fileType": "functional-code",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "package seedu.duke.storage;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "import seedu.duke.data.TransactionList;"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "import seedu.duke.exception.IllegalValueException;"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "import java.io.File;"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "import java.io.FileNotFoundException;"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "import java.io.FileWriter;"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "import java.io.IOException;"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "import java.nio.file.Files;"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "import java.nio.file.Paths;"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "import java.util.List;"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "public class Storage {"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "     * Default file path used if the user doesn\u0027t provide the file name."
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "    public static final String DEFAULT_FILENAME \u003d \"mytransaction.txt\";"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "    public static final String DEFAULT_FILE_DIRECTORY \u003d \"expenses\";"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "    public String fileDirectory;"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "    public String filePath;"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "    public Storage() {"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        this.fileDirectory \u003d DEFAULT_FILE_DIRECTORY;"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        File directory \u003d new File(fileDirectory);"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        if (!directory.exists()) {"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "            directory.mkdir();"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        this.filePath \u003d directory.getAbsolutePath() + \"\\\\\" + DEFAULT_FILENAME;"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "    public Storage(String fileDirectory, String fileName) throws InvalidStorageFilePathException {"
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        this.filePath \u003d fileName;"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        this.fileDirectory \u003d fileDirectory;"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        if (!isValidFilePath(fileName)) {"
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "            throw new InvalidStorageFilePathException(\"Storage file should end with \u0027.txt\u0027\");"
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "    public void save(TransactionList transactionsList) throws StorageOperationException {"
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        FileWriter fw;"
+      },
+      {
+        "lineNumber": 47,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        try {"
+      },
+      {
+        "lineNumber": 48,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "            fw \u003d new FileWriter(filePath);"
+      },
+      {
+        "lineNumber": 49,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "            List\u003cString\u003e encodedTransactionList \u003d TransactionListEncoded.encodeTransactionList(transactionsList);"
+      },
+      {
+        "lineNumber": 50,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "            for (String s : encodedTransactionList) {"
+      },
+      {
+        "lineNumber": 51,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "                fw.write(s);"
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "            fw.close();"
+      },
+      {
+        "lineNumber": 54,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        } catch (IOException ioe) {"
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "            throw new StorageOperationException(\"Error writing to file: \" + filePath);"
+      },
+      {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 58,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 59,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 60,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "     * Returns true if the given path is acceptable as a storage file."
+      },
+      {
+        "lineNumber": 61,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "     * The file path is considered acceptable if it ends with \u0027.txt\u0027"
+      },
+      {
+        "lineNumber": 62,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 63,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "    private static boolean isValidFilePath(String filePath) {"
+      },
+      {
+        "lineNumber": 64,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        return filePath.endsWith(\".txt\");"
+      },
+      {
+        "lineNumber": 65,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 66,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 67,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "    public TransactionList load() throws IllegalValueException, InterruptedException {"
+      },
+      {
+        "lineNumber": 68,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 69,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        if (!Files.exists(Paths.get(filePath))"
+      },
+      {
+        "lineNumber": 70,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "                || !Files.isRegularFile(Paths.get(filePath))) {"
+      },
+      {
+        "lineNumber": 71,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "            return new TransactionList();"
+      },
+      {
+        "lineNumber": 72,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 73,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 74,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        try {"
+      },
+      {
+        "lineNumber": 75,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "            return TransactionListDecoded.decodeTransactions(Files.readAllLines(Paths.get(filePath)));"
+      },
+      {
+        "lineNumber": 76,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        } catch (FileNotFoundException e) {"
+      },
+      {
+        "lineNumber": 77,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "            throw new AssertionError(\"A non-existent file scenario is already handled earlier.\");"
+      },
+      {
+        "lineNumber": 78,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "            // other errors"
+      },
+      {
+        "lineNumber": 79,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        } catch (IllegalValueException | IOException e) {"
+      },
+      {
+        "lineNumber": 80,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "            throw new IllegalValueException(\"File contains illegal data values; data type constraints not met\");"
+      },
+      {
+        "lineNumber": 81,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 82,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 83,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 84,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 85,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "     * Signals that the given file path does not fulfill the storage filepath constraints."
+      },
+      {
+        "lineNumber": 86,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 87,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 88,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "    public class InvalidStorageFilePathException extends IllegalValueException {"
+      },
+      {
+        "lineNumber": 89,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        public InvalidStorageFilePathException(String message) {"
+      },
+      {
+        "lineNumber": 90,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "            super(message);"
+      },
+      {
+        "lineNumber": 91,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 92,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 93,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 94,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 95,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "     * Signals that some error has occured while trying to convert and read/write data between the application"
+      },
+      {
+        "lineNumber": 96,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "     * and the storage file."
+      },
+      {
+        "lineNumber": 97,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 98,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "    public class StorageOperationException extends Exception {"
+      },
+      {
+        "lineNumber": 99,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        public StorageOperationException(String message) {"
+      },
+      {
+        "lineNumber": 100,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "            super(message);"
+      },
+      {
+        "lineNumber": 101,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 102,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 103,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 104,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "skyventus": 104
+    }
+  },
+  {
+    "path": "src/main/java/seedu/duke/storage/TransactionListDecoded.java",
+    "fileType": "functional-code",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "package seedu.duke.storage;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "import seedu.duke.data.Transaction;"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "import seedu.duke.data.TransactionList;"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "import seedu.duke.exception.IllegalValueException;"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "import java.util.ArrayList;"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "import java.util.List;"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "public class TransactionListDecoded {"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "    public static TransactionList decodeTransactions(List\u003cString\u003e encodedTransactions)"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "            throws IllegalValueException {"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        final List\u003cTransaction\u003e decodedTransaction \u003d new ArrayList\u003c\u003e();"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        for (String encodedTransaction : encodedTransactions) {"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "            decodedTransaction.add(decodeTransactionFromString(encodedTransaction));"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        return new TransactionList(decodedTransaction);"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "    public static Transaction decodeTransactionFromString(String transactionText) {"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        String[] transactionSplit \u003d transactionText.split(\" \");"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        String date \u003d transactionSplit[0].equals(\"-\") ? \"\" : transactionSplit[0].trim();"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        String description \u003d transactionText.substring("
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "                transactionText.indexOf(transactionSplit[1]), transactionText.indexOf(\"$\") - 1).trim();"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        double d \u003d Double.parseDouble(transactionText.substring(transactionText.indexOf(\"$\") + 1));"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        double amount \u003d d;"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        return new Transaction(description, amount, date);"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "skyventus": 30
+    }
+  },
+  {
+    "path": "src/main/java/seedu/duke/storage/TransactionListEncoded.java",
+    "fileType": "functional-code",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "package seedu.duke.storage;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "import seedu.duke.data.Transaction;"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "import seedu.duke.data.TransactionList;"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "import java.text.DecimalFormat;"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "import java.util.ArrayList;"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "import java.util.List;"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "public class TransactionListEncoded {"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "     * Encodes all the {@code Person} in the {@code toSave} into a list of decodable and readable string presentation"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "     * for storage."
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "    public static List\u003cString\u003e encodeTransactionList(TransactionList toSave) {"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        final List\u003cString\u003e encodedTransactions \u003d new ArrayList\u003c\u003e();"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        toSave.getTransactionList().forEach(transaction -\u003e"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "                encodedTransactions.add(encodedTransactionToString(transaction)));"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        return encodedTransactions;"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "     * Encodes the {@code person} into a decodable and readable string representation."
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "    private static String encodedTransactionToString(Transaction transaction) {"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        final StringBuilder encodedTransactionBuilder \u003d new StringBuilder();"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        DecimalFormat df2 \u003d new DecimalFormat(\"#.00\");"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        encodedTransactionBuilder.append(transaction.getDate()"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "                .equalsIgnoreCase(\"\") ? \"-\" : transaction.getDate().trim());"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        encodedTransactionBuilder.append(\" \");"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        encodedTransactionBuilder.append(transaction.getDescription());"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        encodedTransactionBuilder.append(\" \");"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        encodedTransactionBuilder.append(\"$\" + df2.format(transaction.getAmount()));"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        encodedTransactionBuilder.append(\"\\n\");"
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "        return encodedTransactionBuilder.toString();"
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "skyventus": 38
     }
   },
   {

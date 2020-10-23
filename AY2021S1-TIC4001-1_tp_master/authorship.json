@@ -3289,29 +3289,6 @@
     }
   },
   {
-    "path": "projects.txt",
-    "fileType": "other",
-    "lines": [
-      {
-        "lineNumber": 1,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "1. --name Clinical --description sda --involve Lily --client Lucy --startdate 11/11/2020 --duedate 12/12/2020 --incharge Desi --email linqing4267@gmail.com"
-      },
-      {
-        "lineNumber": 2,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "2. --name Clinical --description sda --involve Lily --client Donna --startdate 11/11/2020 --duedate 12/12/2020 --incharge Desi --email linqing4267@gmail.com"
-      }
-    ],
-    "authorContributionMap": {
-      "linqing42": 2
-    }
-  },
-  {
     "path": "src/main/java/seedu/tracker/Tracker.java",
     "fileType": "functional-code",
     "lines": [
@@ -4422,9 +4399,9 @@
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "Yiheng0410"
         },
-        "content": "import seedu.tracker.common.TimeConverter;"
+        "content": "import seedu.tracker.common.DateConverter;"
       },
       {
         "lineNumber": 4,
@@ -4905,86 +4882,86 @@
       {
         "lineNumber": 72,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "Yiheng0410"
         },
-        "content": ""
+        "content": "            if(new DateConverter(startDate,dueDate).dateChecker(startDate) \u0026\u0026 new DateConverter(startDate,dueDate).dateChecker(dueDate)){"
       },
       {
         "lineNumber": 73,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "Yiheng0410"
         },
-        "content": "            if(new TimeConverter(startDate,dueDate).timeChecker(startDate) \u0026\u0026 new TimeConverter(startDate,dueDate).timeChecker(dueDate)){"
+        "content": "                newData \u003d newData + \" --duration \"+ new DateConverter(startDate,dueDate).getDateDiff() + \" --status\" + \" Incomplete\";"
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "                newData \u003d newData + \" --duration \"+ new TimeConverter(startDate,dueDate).getDateDiff() + \" --status\" + \" Incomplete\";"
+        "content": "                projects.add(new NewProject(newData));"
       },
       {
         "lineNumber": 75,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "                projects.add(new NewProject(newData));"
+        "content": "                ui.printProjectCreated(projects);"
       },
       {
         "lineNumber": 76,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "                ui.printProjectCreated(projects);"
+        "content": "                storage.updateStorage(projects);"
       },
       {
         "lineNumber": 77,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "                storage.updateStorage(projects);"
+        "content": "            }"
       },
       {
         "lineNumber": 78,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "            }"
+        "content": ""
       },
       {
         "lineNumber": 79,
         "author": {
           "gitId": "linqing42"
         },
-        "content": ""
+        "content": "        } catch (IOException | ParseException e) {"
       },
       {
         "lineNumber": 80,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "        } catch (IOException | ParseException e) {"
+        "content": "            ui.printBorderline(e.getMessage());"
       },
       {
         "lineNumber": 81,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "            ui.printBorderline(e.getMessage());"
+        "content": "        }"
       },
       {
         "lineNumber": 82,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "        }"
+        "content": "    }"
       },
       {
         "lineNumber": 83,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 84,
@@ -5005,18 +4982,12 @@
         "author": {
           "gitId": "linqing42"
         },
-        "content": ""
-      },
-      {
-        "lineNumber": 87,
-        "author": {
-          "gitId": "linqing42"
-        },
         "content": "}"
       }
     ],
     "authorContributionMap": {
-      "linqing42": 87
+      "linqing42": 83,
+      "Yiheng0410": 3
     }
   },
   {
@@ -7087,446 +7058,572 @@
     }
   },
   {
-    "path": "src/main/java/seedu/tracker/common/TimeConverter.java",
+    "path": "src/main/java/seedu/tracker/common/DateConverter.java",
     "fileType": "functional-code",
     "lines": [
       {
         "lineNumber": 1,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
         "content": "package seedu.tracker.common;"
       },
       {
         "lineNumber": 2,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
         "content": ""
       },
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
         "content": "import java.text.SimpleDateFormat;"
       },
       {
         "lineNumber": 4,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
-        "content": "import java.util.Date;"
+        "content": "import java.time.LocalDateTime;"
       },
       {
         "lineNumber": 5,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
-        "content": "import java.text.ParseException;"
+        "content": "import java.time.format.DateTimeFormatter;"
       },
       {
         "lineNumber": 6,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
-        "content": "import java.util.GregorianCalendar;"
+        "content": "import java.util.Date;"
       },
       {
         "lineNumber": 7,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
-        "content": "import java.util.Locale;"
+        "content": "import java.text.ParseException;"
       },
       {
         "lineNumber": 8,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
-        "content": ""
+        "content": "import java.util.GregorianCalendar;"
       },
       {
         "lineNumber": 9,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
-        "content": ""
+        "content": "import java.util.Locale;"
       },
       {
         "lineNumber": 10,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
-        "content": "public class TimeConverter {"
+        "content": ""
       },
       {
         "lineNumber": 11,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
         "content": ""
       },
       {
         "lineNumber": 12,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
-        "content": "    String startDate;"
+        "content": "public class DateConverter {"
       },
       {
         "lineNumber": 13,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
-        "content": "    String dueDate;"
+        "content": "    String startDate;"
       },
       {
         "lineNumber": 14,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
-        "content": "    String dateDiff;"
+        "content": "    String dueDate;"
       },
       {
         "lineNumber": 15,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
-        "content": "    Boolean timeCheck \u003d true;"
+        "content": "    String dateDiff;"
       },
       {
         "lineNumber": 16,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
-        "content": "    public TimeConverter(String startDate, String dueDate) throws ParseException {"
+        "content": "    Boolean timeCheck \u003d true;"
       },
       {
         "lineNumber": 17,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
-        "content": "        this.startDate\u003dstartDate;"
+        "content": ""
       },
       {
         "lineNumber": 18,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
-        "content": "        this.dueDate\u003ddueDate;"
+        "content": "    public DateConverter(String startDate, String dueDate) throws ParseException {"
       },
       {
         "lineNumber": 19,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
-        "content": "        dayOfYear();"
+        "content": "        this.startDate\u003dstartDate;"
       },
       {
         "lineNumber": 20,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
-        "content": "    }"
+        "content": "        this.dueDate\u003ddueDate;"
       },
       {
         "lineNumber": 21,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
-        "content": ""
+        "content": "        setDateDiff();"
       },
       {
         "lineNumber": 22,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
-        "content": "    public void dayOfYear() throws ParseException {"
+        "content": "    }"
       },
       {
         "lineNumber": 23,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
-        "content": "        timeConverter(startDate);"
+        "content": ""
       },
       {
         "lineNumber": 24,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
-        "content": "        timeConverter(dueDate);"
+        "content": "//    public void dayOfYear() throws ParseException {"
       },
       {
         "lineNumber": 25,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
-        "content": "        int day \u003d dayOfYear(startDate) + 365 - dayOfYear(dueDate);"
+        "content": "//        dateConverter(startDate);"
       },
       {
         "lineNumber": 26,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
-        "content": "        dateDiff\u003dInteger.toString(day);"
+        "content": "//        dateConverter(dueDate);"
       },
       {
         "lineNumber": 27,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
-        "content": ""
+        "content": "//        int day \u003d dayOfYear(startDate) + 365 - dayOfYear(dueDate);"
       },
       {
         "lineNumber": 28,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
-        "content": "    }"
+        "content": "//        dateDiff\u003dInteger.toString(day);"
       },
       {
         "lineNumber": 29,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
-        "content": ""
+        "content": "//    }"
       },
       {
         "lineNumber": 30,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
-        "content": "    public boolean timeChecker(String time){"
+        "content": ""
       },
       {
         "lineNumber": 31,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
-        "content": ""
+        "content": "    public void setDateDiff() throws ParseException {"
       },
       {
         "lineNumber": 32,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
-        "content": "        String dateInString \u003d time;"
+        "content": "        dateConverter(startDate);"
       },
       {
         "lineNumber": 33,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
-        "content": "        SimpleDateFormat formatter \u003d new SimpleDateFormat(\"dd/MM/yyyy\", Locale.ENGLISH);"
+        "content": "        dateConverter(dueDate);"
       },
       {
         "lineNumber": 34,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
-        "content": "        try {"
+        "content": "        //String currentDate \u003d new SimpleDateFormat(\"dd/MM/yyyy\").format(new Date());"
       },
       {
         "lineNumber": 35,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
-        "content": "            Date date \u003d formatter.parse(dateInString);"
+        "content": "        Float day \u003d calculateDateDiff(startDate,dueDate);"
       },
       {
         "lineNumber": 36,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
-        "content": "            System.out.println(date + \" is valid date format\");"
+        "content": "        dateDiff\u003dFloat.toString(day);"
       },
       {
         "lineNumber": 37,
         "author": {
-          "gitId": "binbinhui"
-        },
-        "content": "        } catch (ParseException e) {"
-      },
-      {
-        "lineNumber": 38,
-        "author": {
-          "gitId": "binbinhui"
-        },
-        "content": "            return false;"
-      },
-      {
-        "lineNumber": 39,
-        "author": {
-          "gitId": "binbinhui"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 40,
-        "author": {
-          "gitId": "binbinhui"
-        },
-        "content": "        return true;"
-      },
-      {
-        "lineNumber": 41,
-        "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 42,
+        "lineNumber": 38,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
         "content": ""
       },
       {
-        "lineNumber": 43,
+        "lineNumber": 39,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
-        "content": "    public Date timeConverter(String time) throws ParseException {"
+        "content": "    public boolean dateChecker(String dateInString){"
       },
       {
-        "lineNumber": 44,
+        "lineNumber": 40,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
         "content": "        SimpleDateFormat formatter \u003d new SimpleDateFormat(\"dd/MM/yyyy\", Locale.ENGLISH);"
       },
       {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "        try {"
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "            Date date \u003d formatter.parse(dateInString);"
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "            System.out.println(date+ \" is valid date format\");"
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "        } catch (ParseException e) {"
+      },
+      {
         "lineNumber": 45,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
-        "content": "        String dateInString \u003d time;"
+        "content": "            return false;"
       },
       {
         "lineNumber": 46,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
-        "content": "        Date date \u003d formatter.parse(dateInString);"
+        "content": "        }"
       },
       {
         "lineNumber": 47,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
-        "content": "        return date;"
+        "content": "        return true;"
       },
       {
         "lineNumber": 48,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
         "content": "    }"
       },
       {
         "lineNumber": 49,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
         "content": ""
       },
       {
         "lineNumber": 50,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
-        "content": "    public int dayOfYear(String time) throws ParseException {"
+        "content": "    public Date dateConverter(String dateInString) throws ParseException {"
       },
       {
         "lineNumber": 51,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
         "content": "        SimpleDateFormat formatter \u003d new SimpleDateFormat(\"dd/mm/yyyy\", Locale.ENGLISH);"
       },
       {
         "lineNumber": 52,
         "author": {
-          "gitId": "binbinhui"
-        },
-        "content": "        String dateInString \u003d time;"
-      },
-      {
-        "lineNumber": 53,
-        "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
         "content": "        Date date \u003d formatter.parse(dateInString);"
       },
       {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "        return date;"
+      },
+      {
         "lineNumber": 54,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
-        "content": "        GregorianCalendar greg \u003d new GregorianCalendar();"
+        "content": "    }"
       },
       {
         "lineNumber": 55,
         "author": {
-          "gitId": "binbinhui"
-        },
-        "content": "        greg.setTime(date);"
-      },
-      {
-        "lineNumber": 56,
-        "author": {
-          "gitId": "binbinhui"
-        },
-        "content": "        return greg.get(greg.DAY_OF_YEAR);"
-      },
-      {
-        "lineNumber": 57,
-        "author": {
-          "gitId": "binbinhui"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 58,
-        "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
         "content": ""
       },
       {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "    public int dayOfYear(String dateInString) throws ParseException {"
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "        SimpleDateFormat formatter \u003d new SimpleDateFormat(\"dd/mm/yyyy\", Locale.ENGLISH);"
+      },
+      {
+        "lineNumber": 58,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "        Date date \u003d formatter.parse(dateInString);"
+      },
+      {
         "lineNumber": 59,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
-        "content": "    public String getDateDiff() {"
+        "content": "        GregorianCalendar greg \u003d new GregorianCalendar();"
       },
       {
         "lineNumber": 60,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
-        "content": "        return dateDiff;"
+        "content": "        greg.setTime(date);"
       },
       {
         "lineNumber": 61,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
         },
-        "content": "    }"
+        "content": "        return greg.get(greg.DAY_OF_YEAR);"
       },
       {
         "lineNumber": 62,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Yiheng0410"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 63,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 64,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "    public float calculateDateDiff(String startDate,String endDate){"
+      },
+      {
+        "lineNumber": 65,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "        SimpleDateFormat myFormat \u003d new SimpleDateFormat(\"dd/MM/yyyy\");"
+      },
+      {
+        "lineNumber": 66,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "        float daysBetween\u003d0;"
+      },
+      {
+        "lineNumber": 67,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "        try {"
+      },
+      {
+        "lineNumber": 68,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "            Date dateBefore \u003d myFormat.parse(startDate);"
+      },
+      {
+        "lineNumber": 69,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "            Date dateAfter \u003d myFormat.parse(endDate);"
+      },
+      {
+        "lineNumber": 70,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "            long difference \u003d dateAfter.getTime() - dateBefore.getTime();"
+      },
+      {
+        "lineNumber": 71,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "            daysBetween \u003d (difference / (1000*60*60*24));"
+      },
+      {
+        "lineNumber": 72,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "        } catch (Exception e) {"
+      },
+      {
+        "lineNumber": 73,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "            e.printStackTrace();"
+      },
+      {
+        "lineNumber": 74,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 75,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "        return daysBetween;"
+      },
+      {
+        "lineNumber": 76,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 77,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "    public String getDateDiff() {"
+      },
+      {
+        "lineNumber": 78,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "        return dateDiff;"
+      },
+      {
+        "lineNumber": 79,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 80,
+        "author": {
+          "gitId": "Yiheng0410"
         },
         "content": "}"
       }
     ],
     "authorContributionMap": {
-      "binbinhui": 62
+      "Yiheng0410": 80
     }
   },
   {

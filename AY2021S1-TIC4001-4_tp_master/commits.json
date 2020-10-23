@@ -226,6 +226,44 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-23",
+        "commitResults": [
+          {
+            "hash": "c17b2fdb20a8e9cc752327691914474c1dd4ed27",
+            "messageTitle": "[Storage - Save] - Save after every commands",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 38,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "5d273a1921d529672bc87303a85b4353652dc2f3",
+            "messageTitle": "[Storage - Load and Save]  Load at the folder expenese/transactions.txt",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 174,
+                "deletions": 7
+              }
+            }
+          },
+          {
+            "hash": "b244282eb5e60fd2884d71fee595dd27bf36e98f",
+            "messageTitle": "[Storage - Save] - remove extra printout",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 0,
+                "deletions": 1
+              }
+            }
+          }
+        ]
       }
     ],
     "timmyly7": [
@@ -589,17 +627,17 @@
     },
     "skyventus": {
       "docs": 0,
-      "functional-code": 50,
+      "functional-code": 257,
       "test-code": 157
     },
     "timmyly7": {
       "docs": 0,
-      "functional-code": 188,
+      "functional-code": 186,
       "test-code": 142
     },
     "adi-kd0021": {
       "docs": 0,
-      "functional-code": 516,
+      "functional-code": 515,
       "test-code": 0,
       "other": 9
     },
@@ -610,11 +648,11 @@
     }
   },
   "authorContributionVariance": {
-    "Chilaiping": 75.40991,
-    "skyventus": 447.80246,
-    "timmyly7": 2023.4646,
-    "adi-kd0021": 3121.246,
-    "e0261618": 228.08984
+    "Chilaiping": 68.29279,
+    "skyventus": 1051.4349,
+    "timmyly7": 1829.5677,
+    "adi-kd0021": 2828.3923,
+    "e0261618": 206.1301
   },
   "authorDisplayNameMap": {
     "Chilaiping": "TIC4001-4 CHI ..PING",

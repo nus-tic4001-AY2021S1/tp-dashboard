@@ -273,6 +273,26 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-22",
+        "commitResults": [
+          {
+            "hash": "65f76e837b2139d0e632796f99c21a4564c281ae",
+            "messageTitle": "update DateConverter class",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 83,
+                "deletions": 66
+              },
+              "other": {
+                "insertions": 0,
+                "deletions": 2
+              }
+            }
+          }
+        ]
       }
     ],
     "Impala36": [
@@ -727,13 +747,12 @@
   "authorFileTypeContributionMap": {
     "linqing42": {
       "docs": 149,
-      "functional-code": 164,
-      "test-code": 0,
-      "other": 2
+      "functional-code": 160,
+      "test-code": 0
     },
     "Yiheng0410": {
       "docs": 0,
-      "functional-code": 2,
+      "functional-code": 85,
       "test-code": 118
     },
     "Impala36": {
@@ -744,16 +763,16 @@
     },
     "binbinhui": {
       "docs": 0,
-      "functional-code": 335,
+      "functional-code": 273,
       "test-code": 1,
       "other": 15
     }
   },
   "authorContributionVariance": {
-    "linqing42": 1936.1602,
-    "Yiheng0410": 234.94534,
-    "Impala36": 7985.9297,
-    "binbinhui": 17769.133
+    "linqing42": 1804.2329,
+    "Yiheng0410": 530.40405,
+    "Impala36": 7443.6924,
+    "binbinhui": 16536.85
   },
   "authorDisplayNameMap": {
     "linqing42": "TIC4001-1 LIN ..QING",
