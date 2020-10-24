@@ -8379,159 +8379,68 @@
       {
         "lineNumber": 5,
         "author": {
-          "gitId": "linqing42"
-        },
-        "content": "    protected boolean isDone;"
-      },
-      {
-        "lineNumber": 6,
-        "author": {
           "gitId": "Impala36"
         },
         "content": ""
       },
       {
-        "lineNumber": 7,
+        "lineNumber": 6,
         "author": {
           "gitId": "binbinhui"
         },
         "content": "    public Project(String description) {"
       },
       {
-        "lineNumber": 8,
+        "lineNumber": 7,
         "author": {
           "gitId": "binbinhui"
         },
         "content": "        this.description \u003d description;"
       },
       {
-        "lineNumber": 9,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "        this.isDone \u003d false;"
-      },
-      {
-        "lineNumber": 10,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 11,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "    public String getStatusIcon() {"
-      },
-      {
-        "lineNumber": 12,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "        return (isDone ? \"Completed\" : \"incomplete\");"
-      },
-      {
-        "lineNumber": 13,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 14,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "    public Project markAsDone() {"
-      },
-      {
-        "lineNumber": 15,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "        this.isDone \u003d true;"
-      },
-      {
-        "lineNumber": 16,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "        return this;"
-      },
-      {
-        "lineNumber": 17,
+        "lineNumber": 8,
         "author": {
           "gitId": "Impala36"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 18,
+        "lineNumber": 9,
         "author": {
           "gitId": "Impala36"
         },
         "content": ""
       },
       {
-        "lineNumber": 19,
+        "lineNumber": 10,
         "author": {
           "gitId": "Impala36"
         },
         "content": "    public String getDescription() {"
       },
       {
-        "lineNumber": 20,
+        "lineNumber": 11,
         "author": {
           "gitId": "Impala36"
         },
         "content": "        return description;"
       },
       {
-        "lineNumber": 21,
+        "lineNumber": 12,
         "author": {
           "gitId": "Impala36"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 22,
+        "lineNumber": 13,
         "author": {
           "gitId": "binbinhui"
         },
         "content": ""
       },
       {
-        "lineNumber": 23,
-        "author": {
-          "gitId": "binbinhui"
-        },
-        "content": "    public String toString(){"
-      },
-      {
-        "lineNumber": 24,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "        return \"[\" + getStatusIcon() + \"] \" + description;"
-      },
-      {
-        "lineNumber": 25,
-        "author": {
-          "gitId": "binbinhui"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 26,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 27,
+        "lineNumber": 14,
         "author": {
           "gitId": "Impala36"
         },
@@ -8539,9 +8448,9 @@
       }
     ],
     "authorContributionMap": {
-      "linqing42": 12,
+      "linqing42": 1,
       "Impala36": 10,
-      "binbinhui": 5
+      "binbinhui": 3
     }
   },
   {

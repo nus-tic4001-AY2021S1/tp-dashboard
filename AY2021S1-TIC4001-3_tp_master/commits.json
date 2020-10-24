@@ -472,6 +472,66 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-23",
+        "commitResults": [
+          {
+            "hash": "374f09f25a22521dc873a0f1fb66e322d54d75d2",
+            "messageTitle": "Added Classes and changes to be able to load from and save to text files",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 189,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "f987c7c509a6bfb8a63086091c58cab5ed963f03",
+            "messageTitle": "Made changes to error message",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "41d5b3f70c60dc97da3197d9ad74ea8fd56ebed5",
+            "messageTitle": "Added the text files to load tasks",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "other": {
+                "insertions": 3,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "f5122366d2dcec7185c21d4fa1e60fe17fac8f11",
+            "messageTitle": "made changes to handle file not found exception",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 3,
+                "deletions": 6
+              }
+            }
+          },
+          {
+            "hash": "f8937eda790f6ab25837c16884583dfcc2942a22",
+            "messageTitle": "Made formatting changes to pass CheckStyle",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          }
+        ]
       }
     ],
     "pigoliver": [
@@ -787,8 +847,9 @@
     },
     "JanuariusJang": {
       "docs": 0,
-      "functional-code": 18,
-      "test-code": 45
+      "functional-code": 204,
+      "test-code": 45,
+      "other": 3
     },
     "pigoliver": {
       "docs": 28,
@@ -798,10 +859,10 @@
     }
   },
   "authorContributionVariance": {
-    "ZhengShijieNUS": 449.3741,
-    "tototto": 2208.5676,
-    "JanuariusJang": 73.564354,
-    "pigoliver": 3025.292
+    "ZhengShijieNUS": 437.1013,
+    "tototto": 2149.9973,
+    "JanuariusJang": 644.1019,
+    "pigoliver": 2942.9846
   },
   "authorDisplayNameMap": {
     "ZhengShijieNUS": "TIC4001-3 ZHEN..IJIE",

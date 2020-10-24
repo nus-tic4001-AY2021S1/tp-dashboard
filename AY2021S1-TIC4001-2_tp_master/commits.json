@@ -1192,6 +1192,22 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-22",
+        "commitResults": [
+          {
+            "hash": "b9c2dcab9f416e0976d3dae874ba8e7b26b1e677",
+            "messageTitle": "Add Budget alarm function",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 36,
+                "deletions": 0
+              }
+            }
+          }
+        ]
       }
     ]
   },
@@ -1214,15 +1230,15 @@
     },
     "Chenduo1412": {
       "docs": 0,
-      "functional-code": 67,
+      "functional-code": 103,
       "test-code": 0
     }
   },
   "authorContributionVariance": {
-    "daiweinus": 2386.7046,
-    "dgc5213": 35295.887,
-    "e0260222": 38107.83,
-    "Chenduo1412": 466.16046
+    "daiweinus": 2353.905,
+    "dgc5213": 34817.523,
+    "e0260222": 37635.664,
+    "Chenduo1412": 474.02533
   },
   "authorDisplayNameMap": {
     "daiweinus": "TIC4001-2 DAI .. WEI",

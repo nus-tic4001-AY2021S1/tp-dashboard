@@ -217,6 +217,22 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-23",
+        "commitResults": [
+          {
+            "hash": "88bab4f4b3453b95d2717d98fb4368d19ef061d3",
+            "messageTitle": "update",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 0,
+                "deletions": 13
+              }
+            }
+          }
+        ]
       }
     ],
     "Yiheng0410": [
@@ -747,7 +763,7 @@
   "authorFileTypeContributionMap": {
     "linqing42": {
       "docs": 149,
-      "functional-code": 160,
+      "functional-code": 149,
       "test-code": 0
     },
     "Yiheng0410": {
@@ -763,16 +779,16 @@
     },
     "binbinhui": {
       "docs": 0,
-      "functional-code": 273,
+      "functional-code": 271,
       "test-code": 1,
       "other": 15
     }
   },
   "authorContributionVariance": {
-    "linqing42": 1804.2329,
-    "Yiheng0410": 530.40405,
-    "Impala36": 7443.6924,
-    "binbinhui": 16536.85
+    "linqing42": 1779.0322,
+    "Yiheng0410": 523.18866,
+    "Impala36": 7343.9404,
+    "binbinhui": 16310.601
   },
   "authorDisplayNameMap": {
     "linqing42": "TIC4001-1 LIN ..QING",

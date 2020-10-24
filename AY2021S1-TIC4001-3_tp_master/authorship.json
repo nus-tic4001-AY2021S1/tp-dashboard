@@ -1037,6 +1037,36 @@
     }
   },
   {
+    "path": "itlogger.txt",
+    "fileType": "other",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "t/cannot submit s/assigned sv/1 dl/20-10-2020 o/Jack"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "t/cannot login s/assigned sv/1 dl/20-10-2020 o/John"
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "t/cannot view Tasks s/assigned sv/1 dl/20-10-2020 o/John"
+      }
+    ],
+    "authorContributionMap": {
+      "JanuariusJang": 3
+    }
+  },
+  {
     "path": "src/main/java/seedu/itlogger/Defect.java",
     "fileType": "functional-code",
     "lines": [
@@ -2993,205 +3023,205 @@
       {
         "lineNumber": 29,
         "author": {
-          "gitId": "tototto"
+          "gitId": "JanuariusJang"
         },
-        "content": "    public static void setupLogger() throws IOException {"
+        "content": ""
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "tototto"
         },
-        "content": "        // Remove the default console handler"
+        "content": "    public static void setupLogger() throws IOException {"
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "tototto"
         },
-        "content": "        Logger parentLogger \u003d Logger.getLogger(\"\");"
+        "content": "        // Remove the default console handler"
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "tototto"
         },
-        "content": "        Handler[] handlers \u003d parentLogger.getHandlers();"
+        "content": "        Logger parentLogger \u003d Logger.getLogger(\"\");"
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "tototto"
         },
-        "content": "        for (Handler handler : handlers) {"
+        "content": "        Handler[] handlers \u003d parentLogger.getHandlers();"
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "tototto"
         },
-        "content": "            parentLogger.removeHandler(handler);"
+        "content": "        for (Handler handler : handlers) {"
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "tototto"
         },
-        "content": "        }"
+        "content": "            parentLogger.removeHandler(handler);"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "tototto"
         },
-        "content": ""
+        "content": "        }"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "tototto"
         },
-        "content": "        Handler fh \u003d new FileHandler(\"IssueList.log\", true);"
+        "content": ""
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "tototto"
         },
-        "content": "        fh.setFormatter(new SimpleFormatter());"
+        "content": "        Handler fh \u003d new FileHandler(\"IssueList.log\", true);"
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "tototto"
         },
-        "content": "        logger.addHandler(fh);"
+        "content": "        fh.setFormatter(new SimpleFormatter());"
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "tototto"
         },
-        "content": "        logger.setLevel(Level.FINE);"
+        "content": "        logger.addHandler(fh);"
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "tototto"
         },
-        "content": "    }"
+        "content": "        logger.setLevel(Level.FINE);"
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "tototto"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 43,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 44,
         "author": {
           "gitId": "pigoliver"
         },
         "content": "    public Vector\u003cDefect\u003e getIssue() {"
       },
       {
-        "lineNumber": 44,
+        "lineNumber": 45,
         "author": {
           "gitId": "tototto"
         },
         "content": "        logger.info(\"fetching all issues from issueList...\");"
       },
       {
-        "lineNumber": 45,
+        "lineNumber": 46,
         "author": {
           "gitId": "tototto"
         },
         "content": "        assert issueList !\u003d null : \"issueList returned should not be null\";"
       },
       {
-        "lineNumber": 46,
+        "lineNumber": 47,
         "author": {
           "gitId": "tototto"
         },
         "content": "        return issueList;"
       },
       {
-        "lineNumber": 47,
-        "author": {
-          "gitId": "tototto"
-        },
-        "content": "    }"
-      },
-      {
         "lineNumber": 48,
         "author": {
           "gitId": "tototto"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "tototto"
         },
-        "content": "    public void addIssue(Defect defect) {"
+        "content": ""
       },
       {
         "lineNumber": 50,
         "author": {
-          "gitId": "tototto"
+          "gitId": "JanuariusJang"
         },
-        "content": "        logger.info(\"adding an issue to issueList...\");"
+        "content": "    public void loadIssues(Vector\u003cDefect\u003e defectsList) {"
       },
       {
         "lineNumber": 51,
         "author": {
-          "gitId": "tototto"
+          "gitId": "JanuariusJang"
         },
-        "content": "        issueList.add(defect);"
+        "content": "        issueList.addAll(defectsList);"
       },
       {
         "lineNumber": 52,
         "author": {
-          "gitId": "tototto"
+          "gitId": "JanuariusJang"
         },
-        "content": "        assert issueList.size() \u003e 0 : \"issueList should not be empty\";"
+        "content": "    }"
       },
       {
         "lineNumber": 53,
         "author": {
-          "gitId": "tototto"
+          "gitId": "JanuariusJang"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "tototto"
         },
-        "content": ""
+        "content": "    public void addIssue(Defect defect) {"
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "tototto"
         },
-        "content": "    public void deleteIssue(int index) {"
+        "content": "        logger.info(\"adding an issue to issueList...\");"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "tototto"
         },
-        "content": "        logger.info(\"deleting an issue from issueList...\");"
+        "content": "        issueList.add(defect);"
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "tototto"
         },
-        "content": "        issueList.remove(index);"
+        "content": "        assert issueList.size() \u003e 0 : \"issueList should not be empty\";"
       },
       {
         "lineNumber": 58,
@@ -3203,89 +3233,124 @@
       {
         "lineNumber": 59,
         "author": {
-          "gitId": "ZhengShijieNUS"
+          "gitId": "tototto"
         },
         "content": ""
       },
       {
         "lineNumber": 60,
         "author": {
-          "gitId": "ZhengShijieNUS"
+          "gitId": "tototto"
         },
-        "content": "    public Defect getDefect(int index) {"
+        "content": "    public void deleteIssue(int index) {"
       },
       {
         "lineNumber": 61,
         "author": {
           "gitId": "tototto"
         },
-        "content": "        logger.info(\"extracting an issue in issueList...\");"
+        "content": "        logger.info(\"deleting an issue from issueList...\");"
       },
       {
         "lineNumber": 62,
         "author": {
           "gitId": "tototto"
         },
-        "content": "        assert issueList.get(index) !\u003d null : \"defect \" + index + \" retrieved should not be null\";"
+        "content": "        issueList.remove(index);"
       },
       {
         "lineNumber": 63,
         "author": {
-          "gitId": "ZhengShijieNUS"
+          "gitId": "tototto"
         },
-        "content": "        return issueList.get(index);"
+        "content": "    }"
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "ZhengShijieNUS"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 65,
         "author": {
-          "gitId": "JanuariusJang"
+          "gitId": "ZhengShijieNUS"
         },
-        "content": ""
+        "content": "    public Defect getDefect(int index) {"
       },
       {
         "lineNumber": 66,
         "author": {
-          "gitId": "JanuariusJang"
+          "gitId": "tototto"
         },
-        "content": "    public int getSize() {"
+        "content": "        logger.info(\"extracting an issue in issueList...\");"
       },
       {
         "lineNumber": 67,
         "author": {
           "gitId": "tototto"
         },
-        "content": "        logger.info(\"getting total number of issues in issueList...\");"
+        "content": "        assert issueList.get(index) !\u003d null : \"defect \" + index + \" retrieved should not be null\";"
       },
       {
         "lineNumber": 68,
         "author": {
-          "gitId": "tototto"
+          "gitId": "ZhengShijieNUS"
         },
-        "content": "        assert issueList.size() \u003e\u003d 0 : \"issueList should be at least 0 size large\";"
+        "content": "        return issueList.get(index);"
       },
       {
         "lineNumber": 69,
         "author": {
-          "gitId": "JanuariusJang"
+          "gitId": "ZhengShijieNUS"
         },
-        "content": "        return issueList.size();"
+        "content": "    }"
       },
       {
         "lineNumber": 70,
         "author": {
           "gitId": "JanuariusJang"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 71,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "    public int getSize() {"
+      },
+      {
+        "lineNumber": 72,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "        logger.info(\"getting total number of issues in issueList...\");"
+      },
+      {
+        "lineNumber": 73,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "        assert issueList.size() \u003e\u003d 0 : \"issueList should be at least 0 size large\";"
+      },
+      {
+        "lineNumber": 74,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        return issueList.size();"
+      },
+      {
+        "lineNumber": 75,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 76,
         "author": {
           "gitId": "tototto"
         },
@@ -3295,7 +3360,7 @@
     "authorContributionMap": {
       "ZhengShijieNUS": 4,
       "tototto": 60,
-      "JanuariusJang": 4,
+      "JanuariusJang": 9,
       "pigoliver": 3
     }
   },
@@ -3327,303 +3392,303 @@
       {
         "lineNumber": 4,
         "author": {
-          "gitId": "tototto"
+          "gitId": "JanuariusJang"
         },
-        "content": ""
+        "content": "import seedu.itlogger.storage.StorageFile;"
       },
       {
         "lineNumber": 5,
         "author": {
           "gitId": "tototto"
         },
-        "content": "import java.io.IOException;"
+        "content": ""
       },
       {
         "lineNumber": 6,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "JanuariusJang"
         },
-        "content": "import java.text.ParseException;"
+        "content": "import java.io.FileNotFoundException;"
       },
       {
         "lineNumber": 7,
         "author": {
           "gitId": "tototto"
         },
-        "content": "import java.util.Vector;"
+        "content": "import java.io.IOException;"
       },
       {
         "lineNumber": 8,
         "author": {
-          "gitId": "tototto"
+          "gitId": "pigoliver"
         },
-        "content": "import java.util.logging.FileHandler;"
+        "content": "import java.text.ParseException;"
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "tototto"
         },
-        "content": "import java.util.logging.Handler;"
+        "content": "import java.util.Vector;"
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "tototto"
         },
-        "content": "import java.util.logging.Level;"
+        "content": "import java.util.logging.FileHandler;"
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "tototto"
         },
-        "content": "import java.util.logging.Logger;"
+        "content": "import java.util.logging.Handler;"
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "tototto"
         },
-        "content": "import java.util.logging.SimpleFormatter;"
+        "content": "import java.util.logging.Level;"
       },
       {
         "lineNumber": 13,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "tototto"
         },
-        "content": ""
+        "content": "import java.util.logging.Logger;"
       },
       {
         "lineNumber": 14,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "tototto"
         },
-        "content": "import static seedu.itlogger.InputHandler.getInput;"
+        "content": "import java.util.logging.SimpleFormatter;"
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "import static seedu.itlogger.InputHandler.hasNextLine;"
+        "content": ""
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "import static seedu.itlogger.Interface.printFileToUser;"
+        "content": "import static seedu.itlogger.InputHandler.getInput;"
       },
       {
         "lineNumber": 17,
         "author": {
-          "gitId": "tototto"
+          "gitId": "pigoliver"
         },
-        "content": "import static seedu.itlogger.Interface.printErrorMessageToUser;"
+        "content": "import static seedu.itlogger.InputHandler.hasNextLine;"
       },
       {
         "lineNumber": 18,
         "author": {
-          "gitId": "tototto"
+          "gitId": "pigoliver"
         },
-        "content": "import static seedu.itlogger.Interface.printLogo;"
+        "content": "import static seedu.itlogger.Interface.printFileToUser;"
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "tototto"
         },
-        "content": "import static seedu.itlogger.Interface.programOpening;"
+        "content": "import static seedu.itlogger.Interface.printErrorMessageToUser;"
       },
       {
         "lineNumber": 20,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "tototto"
         },
-        "content": "import static seedu.itlogger.Interface.askName;"
+        "content": "import static seedu.itlogger.Interface.printLogo;"
       },
       {
         "lineNumber": 21,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "tototto"
         },
-        "content": "import static seedu.itlogger.Interface.greeter;"
+        "content": "import static seedu.itlogger.Interface.programOpening;"
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "import static seedu.itlogger.Interface.keyWordIssue;"
+        "content": "import static seedu.itlogger.Interface.askName;"
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "import static seedu.itlogger.Interface.emptyErrorMsg;"
+        "content": "import static seedu.itlogger.Interface.greeter;"
       },
       {
         "lineNumber": 24,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "import static seedu.itlogger.Interface.displayIssues;"
+        "content": "import static seedu.itlogger.Interface.keyWordIssue;"
       },
       {
         "lineNumber": 25,
         "author": {
-          "gitId": "tototto"
+          "gitId": "pigoliver"
         },
-        "content": "import static seedu.itlogger.Parser.parseDeadline;"
+        "content": "import static seedu.itlogger.Interface.emptyErrorMsg;"
       },
       {
         "lineNumber": 26,
         "author": {
-          "gitId": "tototto"
+          "gitId": "pigoliver"
         },
-        "content": "import static seedu.itlogger.Parser.parseIndex;"
+        "content": "import static seedu.itlogger.Interface.displayIssues;"
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "tototto"
         },
-        "content": "import static seedu.itlogger.Parser.parseKeyWord;"
+        "content": "import static seedu.itlogger.Parser.parseDeadline;"
       },
       {
         "lineNumber": 28,
         "author": {
           "gitId": "tototto"
         },
-        "content": "import static seedu.itlogger.Parser.parseOwner;"
+        "content": "import static seedu.itlogger.Parser.parseIndex;"
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "tototto"
         },
-        "content": "import static seedu.itlogger.Parser.parseSearchTerm;"
+        "content": "import static seedu.itlogger.Parser.parseKeyWord;"
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "tototto"
         },
-        "content": "import static seedu.itlogger.Parser.parseSearchType;"
+        "content": "import static seedu.itlogger.Parser.parseOwner;"
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "tototto"
         },
-        "content": "import static seedu.itlogger.Parser.parseSeverity;"
+        "content": "import static seedu.itlogger.Parser.parseSearchTerm;"
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "tototto"
         },
-        "content": "import static seedu.itlogger.Parser.parseStatus;"
+        "content": "import static seedu.itlogger.Parser.parseSearchType;"
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "tototto"
         },
-        "content": "import static seedu.itlogger.Parser.parseTitle;"
+        "content": "import static seedu.itlogger.Parser.parseSeverity;"
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "tototto"
         },
-        "content": "import static seedu.itlogger.Search.searchDeadline;"
+        "content": "import static seedu.itlogger.Parser.parseStatus;"
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "tototto"
         },
-        "content": "import static seedu.itlogger.Search.searchOwner;"
+        "content": "import static seedu.itlogger.Parser.parseTitle;"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "tototto"
         },
-        "content": "import static seedu.itlogger.Search.searchSeverity;"
+        "content": "import static seedu.itlogger.Search.searchDeadline;"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "tototto"
         },
-        "content": "import static seedu.itlogger.Search.searchStatus;"
+        "content": "import static seedu.itlogger.Search.searchOwner;"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "tototto"
         },
-        "content": "import static seedu.itlogger.Search.searchTitle;"
+        "content": "import static seedu.itlogger.Search.searchSeverity;"
       },
       {
         "lineNumber": 39,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "tototto"
         },
-        "content": ""
+        "content": "import static seedu.itlogger.Search.searchStatus;"
       },
       {
         "lineNumber": 40,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "tototto"
         },
-        "content": "public class ItLogger {"
+        "content": "import static seedu.itlogger.Search.searchTitle;"
       },
       {
         "lineNumber": 41,
         "author": {
-          "gitId": "tototto"
+          "gitId": "pigoliver"
         },
         "content": ""
       },
       {
         "lineNumber": 42,
         "author": {
-          "gitId": "tototto"
+          "gitId": "pigoliver"
         },
-        "content": "    /**."
+        "content": "public class ItLogger {"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "tototto"
         },
-        "content": "     * Logger for Main Class"
+        "content": ""
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "tototto"
         },
-        "content": "     */"
+        "content": "    /**."
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "tototto"
         },
-        "content": ""
+        "content": "     * Logger for Main Class"
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "tototto"
         },
-        "content": "    private static final Logger logger \u003d Logger.getLogger(ItLogger.class.getName());"
+        "content": "     */"
       },
       {
         "lineNumber": 47,
@@ -3635,891 +3700,891 @@
       {
         "lineNumber": 48,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "tototto"
         },
-        "content": "    /**"
+        "content": "    private static final Logger logger \u003d Logger.getLogger(ItLogger.class.getName());"
       },
       {
         "lineNumber": 49,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "JanuariusJang"
         },
-        "content": "     * Main entry-point for the java.duke.Duke application."
+        "content": "    private static StorageFile storage \u003d new StorageFile();"
       },
       {
         "lineNumber": 50,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "JanuariusJang"
         },
-        "content": "     */"
+        "content": ""
       },
       {
         "lineNumber": 51,
         "author": {
-          "gitId": "tototto"
+          "gitId": "JanuariusJang"
         },
         "content": ""
       },
       {
         "lineNumber": 52,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "tototto"
         },
-        "content": "    public static void main(String[] args) throws IOException {"
+        "content": ""
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": ""
+        "content": "    /**"
       },
       {
         "lineNumber": 54,
         "author": {
-          "gitId": "tototto"
+          "gitId": "pigoliver"
         },
-        "content": "        // Logger setup:"
+        "content": "     * Main entry-point for the java.duke.Duke application."
       },
       {
         "lineNumber": 55,
         "author": {
-          "gitId": "tototto"
+          "gitId": "pigoliver"
         },
-        "content": "        try {"
+        "content": "     */"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "tototto"
         },
-        "content": "            // Remove the default console handler"
+        "content": ""
       },
       {
         "lineNumber": 57,
         "author": {
-          "gitId": "tototto"
+          "gitId": "pigoliver"
         },
-        "content": "            Logger parentLogger \u003d Logger.getLogger(\"\");"
+        "content": "    public static void main(String[] args) throws IOException {"
       },
       {
         "lineNumber": 58,
         "author": {
-          "gitId": "tototto"
+          "gitId": "pigoliver"
         },
-        "content": "            Handler[] handlers \u003d parentLogger.getHandlers();"
+        "content": ""
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "tototto"
         },
-        "content": "            for (Handler handler : handlers) {"
+        "content": "        // Logger setup:"
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "tototto"
         },
-        "content": "                parentLogger.removeHandler(handler);"
+        "content": "        try {"
       },
       {
         "lineNumber": 61,
         "author": {
           "gitId": "tototto"
         },
-        "content": "            }"
+        "content": "            // Remove the default console handler"
       },
       {
         "lineNumber": 62,
         "author": {
           "gitId": "tototto"
         },
-        "content": ""
+        "content": "            Logger parentLogger \u003d Logger.getLogger(\"\");"
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "tototto"
         },
-        "content": "            Handler fh \u003d new FileHandler(\"ItLogger.log\", true);"
+        "content": "            Handler[] handlers \u003d parentLogger.getHandlers();"
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "tototto"
         },
-        "content": "            fh.setFormatter(new SimpleFormatter());"
+        "content": "            for (Handler handler : handlers) {"
       },
       {
         "lineNumber": 65,
         "author": {
           "gitId": "tototto"
         },
-        "content": "            logger.addHandler(fh);"
+        "content": "                parentLogger.removeHandler(handler);"
       },
       {
         "lineNumber": 66,
         "author": {
           "gitId": "tototto"
         },
-        "content": "            logger.setLevel(Level.FINE);"
+        "content": "            }"
       },
       {
         "lineNumber": 67,
         "author": {
           "gitId": "tototto"
         },
-        "content": "        } catch (IOException e) {"
+        "content": ""
       },
       {
         "lineNumber": 68,
         "author": {
           "gitId": "tototto"
         },
-        "content": "            System.out.println(\"Issue creating Log file\");"
+        "content": "            Handler fh \u003d new FileHandler(\"ItLogger.log\", true);"
       },
       {
         "lineNumber": 69,
         "author": {
           "gitId": "tototto"
         },
-        "content": "        }"
+        "content": "            fh.setFormatter(new SimpleFormatter());"
       },
       {
         "lineNumber": 70,
         "author": {
           "gitId": "tototto"
         },
-        "content": ""
+        "content": "            logger.addHandler(fh);"
       },
       {
         "lineNumber": 71,
         "author": {
           "gitId": "tototto"
         },
-        "content": "        // Instantiating InputHandler only for logging purpose"
+        "content": "            logger.setLevel(Level.FINE);"
       },
       {
         "lineNumber": 72,
         "author": {
           "gitId": "tototto"
         },
-        "content": "        InputHandler inputHandler \u003d new InputHandler();"
+        "content": "        } catch (IOException e) {"
       },
       {
         "lineNumber": 73,
         "author": {
           "gitId": "tototto"
         },
-        "content": ""
+        "content": "            System.out.println(\"Issue creating Log file\");"
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "tototto"
         },
-        "content": "        // Program starting point:"
+        "content": "        }"
       },
       {
         "lineNumber": 75,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "tototto"
         },
-        "content": "        IssueList issueList \u003d new IssueList();"
+        "content": ""
       },
       {
         "lineNumber": 76,
         "author": {
           "gitId": "tototto"
         },
-        "content": "        assert issueList !\u003d null : \"issueList should have been created\";"
+        "content": "        // Instantiating InputHandler only for logging purpose"
       },
       {
         "lineNumber": 77,
         "author": {
           "gitId": "tototto"
         },
-        "content": "        logger.info(\"Creating ITLogger issue list...\");"
+        "content": "        InputHandler inputHandler \u003d new InputHandler();"
       },
       {
         "lineNumber": 78,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "tototto"
         },
         "content": ""
       },
       {
         "lineNumber": 79,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "tototto"
         },
-        "content": "        printLogo();"
+        "content": "        // Program starting point:"
       },
       {
         "lineNumber": 80,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "JanuariusJang"
         },
-        "content": "        askName();"
+        "content": ""
       },
       {
         "lineNumber": 81,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "        String userName \u003d \"\";"
+        "content": "        IssueList issueList \u003d new IssueList();"
       },
       {
         "lineNumber": 82,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "tototto"
         },
-        "content": "        if (hasNextLine()) {"
+        "content": "        assert issueList !\u003d null : \"issueList should have been created\";"
       },
       {
         "lineNumber": 83,
         "author": {
-          "gitId": "tototto"
+          "gitId": "JanuariusJang"
         },
-        "content": "            logger.info(\"Getting username from user...\");"
+        "content": "        try {"
       },
       {
         "lineNumber": 84,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "JanuariusJang"
         },
-        "content": "            userName \u003d getInput();"
+        "content": "            storage.load(issueList);"
       },
       {
         "lineNumber": 85,
         "author": {
-          "gitId": "tototto"
+          "gitId": "JanuariusJang"
         },
-        "content": "            logger.fine(\"completed the obtaining of username...\");"
+        "content": "        } catch (StorageFile.StorageOperationException e) {"
       },
       {
         "lineNumber": 86,
         "author": {
-          "gitId": "tototto"
+          "gitId": "JanuariusJang"
         },
-        "content": "            assert userName !\u003d \"\" : \"username should have been captured. Should not be empty\";"
+        "content": "            Interface.printErrorMessageToUser(e);"
       },
       {
         "lineNumber": 87,
         "author": {
-          "gitId": "tototto"
+          "gitId": "JanuariusJang"
         },
-        "content": "            assert userName !\u003d null : \"username should have been captured. Should not be null\";"
+        "content": "        } //catch (FileNotFoundException e) {"
       },
       {
         "lineNumber": 88,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "JanuariusJang"
         },
-        "content": "        }"
+        "content": "        //System.out.println(\"File not found. No Tasks preloaded.\");"
       },
       {
         "lineNumber": 89,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "JanuariusJang"
         },
-        "content": "        greeter(userName);"
+        "content": "        //}"
       },
       {
         "lineNumber": 90,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "tototto"
         },
-        "content": "        boolean keepRun \u003d true;"
+        "content": "        logger.info(\"Creating ITLogger issue list...\");"
       },
       {
         "lineNumber": 91,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "        while (keepRun) {"
+        "content": ""
       },
       {
         "lineNumber": 92,
         "author": {
-          "gitId": "tototto"
+          "gitId": "pigoliver"
         },
-        "content": "            logger.info(\"Beginning program run...\");"
+        "content": "        printLogo();"
       },
       {
         "lineNumber": 93,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "            programOpening();"
+        "content": "        askName();"
       },
       {
         "lineNumber": 94,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "            String input \u003d \"\";"
+        "content": "        String userName \u003d \"\";"
       },
       {
         "lineNumber": 95,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "            if (hasNextLine()) {"
+        "content": "        if (hasNextLine()) {"
       },
       {
         "lineNumber": 96,
         "author": {
           "gitId": "tototto"
         },
-        "content": "                logger.info(\"getting instruction for program...\");"
+        "content": "            logger.info(\"Getting username from user...\");"
       },
       {
         "lineNumber": 97,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "                input \u003d getInput();"
+        "content": "            userName \u003d getInput();"
       },
       {
         "lineNumber": 98,
         "author": {
           "gitId": "tototto"
         },
-        "content": "                logger.info(\"finished getting instruction for program...\");"
+        "content": "            logger.fine(\"completed the obtaining of username...\");"
       },
       {
         "lineNumber": 99,
         "author": {
           "gitId": "tototto"
         },
-        "content": "                assert input !\u003d \"\" : \"input should have been captured. Should not be empty\";"
+        "content": "            assert userName !\u003d \"\" : \"username should have been captured. Should not be empty\";"
       },
       {
         "lineNumber": 100,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "tototto"
         },
-        "content": "            }"
+        "content": "            assert userName !\u003d null : \"username should have been captured. Should not be null\";"
       },
       {
         "lineNumber": 101,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "            KeyWord command \u003d KeyWord.OTHERS;"
+        "content": "        }"
       },
       {
         "lineNumber": 102,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": ""
+        "content": "        greeter(userName);"
       },
       {
         "lineNumber": 103,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "            try {"
+        "content": "        boolean keepRun \u003d true;"
       },
       {
         "lineNumber": 104,
         "author": {
-          "gitId": "tototto"
+          "gitId": "pigoliver"
         },
-        "content": "                command \u003d parseKeyWord(input.toUpperCase());"
+        "content": "        while (keepRun) {"
       },
       {
         "lineNumber": 105,
         "author": {
           "gitId": "tototto"
         },
-        "content": "                logger.config(\"updated config for ItLogger command\");"
+        "content": "            logger.info(\"Beginning program run...\");"
       },
       {
         "lineNumber": 106,
         "author": {
-          "gitId": "tototto"
+          "gitId": "pigoliver"
         },
-        "content": "                assert command !\u003d KeyWord.OTHERS : \"proper keyword should be captured\";"
+        "content": "            programOpening();"
       },
       {
         "lineNumber": 107,
         "author": {
-          "gitId": "tototto"
+          "gitId": "pigoliver"
         },
-        "content": ""
+        "content": "            String input \u003d \"\";"
       },
       {
         "lineNumber": 108,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "            } catch (IllegalArgumentException e) {"
+        "content": "            if (hasNextLine()) {"
       },
       {
         "lineNumber": 109,
         "author": {
           "gitId": "tototto"
         },
-        "content": "                keyWordIssue();"
+        "content": "                logger.info(\"getting instruction for program...\");"
       },
       {
         "lineNumber": 110,
         "author": {
-          "gitId": "tototto"
+          "gitId": "pigoliver"
         },
-        "content": "                logger.log(Level.WARNING, \"Non-existent keyword was captured! error is: \" + e.getMessage(), e);"
+        "content": "                input \u003d getInput();"
       },
       {
         "lineNumber": 111,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "                logger.info(\"finished getting instruction for program...\");"
+      },
+      {
+        "lineNumber": 112,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "                assert input !\u003d \"\" : \"input should have been captured. Should not be empty\";"
+      },
+      {
+        "lineNumber": 113,
         "author": {
           "gitId": "pigoliver"
         },
         "content": "            }"
       },
       {
-        "lineNumber": 112,
-        "author": {
-          "gitId": "pigoliver"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 113,
-        "author": {
-          "gitId": "tototto"
-        },
-        "content": "            //todo -\u003e build PARSER"
-      },
-      {
         "lineNumber": 114,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "            switch (command) {"
+        "content": "            KeyWord command \u003d KeyWord.OTHERS;"
       },
       {
         "lineNumber": 115,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "            case ADD: // Jian Cheng"
+        "content": ""
       },
       {
         "lineNumber": 116,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "                // todo -\u003e add Defect"
+        "content": "            try {"
       },
       {
         "lineNumber": 117,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "tototto"
         },
-        "content": "                logger.info(\"Performing adding operation for ItLogger, add a new defect...\");"
+        "content": "                command \u003d parseKeyWord(input.toUpperCase());"
       },
       {
         "lineNumber": 118,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "tototto"
         },
-        "content": "                try {"
+        "content": "                logger.config(\"updated config for ItLogger command\");"
       },
       {
         "lineNumber": 119,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "tototto"
         },
-        "content": "                    Defect newIssue \u003d new Defect(parseTitle(input), parseStatus(input),"
+        "content": "                assert command !\u003d KeyWord.OTHERS : \"proper keyword should be captured\";"
       },
       {
         "lineNumber": 120,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "tototto"
         },
-        "content": "                                        parseSeverity(input), parseDeadline(input), parseOwner(input));"
+        "content": ""
       },
       {
         "lineNumber": 121,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "                    //System.out.println(test.toString());"
+        "content": "            } catch (IllegalArgumentException e) {"
       },
       {
         "lineNumber": 122,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "tototto"
         },
-        "content": "                    assert newIssue !\u003d null : \"Issue in creating new issue\";"
+        "content": "                keyWordIssue();"
       },
       {
         "lineNumber": 123,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "tototto"
         },
-        "content": "                    issueList.addIssue(newIssue);"
+        "content": "                logger.log(Level.WARNING, \"Non-existent keyword was captured! error is: \" + e.getMessage(), e);"
       },
       {
         "lineNumber": 124,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "                } catch (ParseException e) {"
+        "content": "            }"
       },
       {
         "lineNumber": 125,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "                    printErrorMessageToUser(e);"
+        "content": ""
       },
       {
         "lineNumber": 126,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "tototto"
         },
-        "content": "                    logger.log(Level.WARNING, \"Issue in parsing command: \" + e.getMessage(), e);"
+        "content": "            //todo -\u003e build PARSER"
       },
       {
         "lineNumber": 127,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "                }"
+        "content": "            switch (command) {"
       },
       {
         "lineNumber": 128,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": ""
+        "content": "            case ADD: // Jian Cheng"
       },
       {
         "lineNumber": 129,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "                break;"
+        "content": "                // todo -\u003e add Defect"
       },
       {
         "lineNumber": 130,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": ""
+        "content": "                logger.info(\"Performing adding operation for ItLogger, add a new defect...\");"
       },
       {
         "lineNumber": 131,
         "author": {
-          "gitId": "ZhengShijieNUS"
-        },
-        "content": "            case UPDATE: // Shijie"
-      },
-      {
-        "lineNumber": 132,
-        "author": {
-          "gitId": "ZhengShijieNUS"
-        },
-        "content": "                logger.info(\"Performing updating operation for ItLogger, update an existing defect...\");"
-      },
-      {
-        "lineNumber": 133,
-        "author": {
-          "gitId": "ZhengShijieNUS"
+          "gitId": "pigoliver"
         },
         "content": "                try {"
       },
       {
+        "lineNumber": 132,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "                    Defect newIssue \u003d new Defect(parseTitle(input), parseStatus(input),"
+      },
+      {
+        "lineNumber": 133,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "                                        parseSeverity(input), parseDeadline(input), parseOwner(input));"
+      },
+      {
         "lineNumber": 134,
         "author": {
-          "gitId": "ZhengShijieNUS"
+          "gitId": "pigoliver"
         },
-        "content": "                    Defect defect \u003d issueList.getDefect(parseIndex(input,issueList.getSize()));"
+        "content": "                    //System.out.println(test.toString());"
       },
       {
         "lineNumber": 135,
         "author": {
-          "gitId": "ZhengShijieNUS"
+          "gitId": "pigoliver"
         },
-        "content": "                    boolean isExit \u003d false;"
+        "content": "                    assert newIssue !\u003d null : \"Issue in creating new issue\";"
       },
       {
         "lineNumber": 136,
         "author": {
-          "gitId": "ZhengShijieNUS"
+          "gitId": "pigoliver"
         },
-        "content": "                    do {"
+        "content": "                    issueList.addIssue(newIssue);"
       },
       {
         "lineNumber": 137,
         "author": {
-          "gitId": "ZhengShijieNUS"
+          "gitId": "pigoliver"
         },
-        "content": "                        String updateCommandContent \u003d \"\";"
+        "content": "                } catch (ParseException e) {"
       },
       {
         "lineNumber": 138,
         "author": {
-          "gitId": "ZhengShijieNUS"
+          "gitId": "pigoliver"
         },
-        "content": "                        System.out.println(\"You are modifying:\");"
+        "content": "                    printErrorMessageToUser(e);"
       },
       {
         "lineNumber": 139,
         "author": {
-          "gitId": "ZhengShijieNUS"
+          "gitId": "pigoliver"
         },
-        "content": "                        System.out.println(defect.toString());"
+        "content": "                    logger.log(Level.WARNING, \"Issue in parsing command: \" + e.getMessage(), e);"
       },
       {
         "lineNumber": 140,
         "author": {
-          "gitId": "ZhengShijieNUS"
+          "gitId": "pigoliver"
         },
-        "content": "                        Interface.printUpdateContent();"
+        "content": "                }"
       },
       {
         "lineNumber": 141,
         "author": {
-          "gitId": "ZhengShijieNUS"
+          "gitId": "pigoliver"
         },
-        "content": "                        if (hasNextLine()) {"
+        "content": ""
       },
       {
         "lineNumber": 142,
         "author": {
-          "gitId": "ZhengShijieNUS"
+          "gitId": "pigoliver"
         },
-        "content": "                            updateCommandContent \u003d getInput();"
+        "content": "                break;"
       },
       {
         "lineNumber": 143,
         "author": {
-          "gitId": "ZhengShijieNUS"
+          "gitId": "pigoliver"
         },
-        "content": "                            isExit \u003d Parser.parseUpdateContent(updateCommandContent,defect);"
+        "content": ""
       },
       {
         "lineNumber": 144,
         "author": {
           "gitId": "ZhengShijieNUS"
         },
-        "content": "                        }"
+        "content": "            case UPDATE: // Shijie"
       },
       {
         "lineNumber": 145,
         "author": {
           "gitId": "ZhengShijieNUS"
         },
-        "content": "                    } while (isExit);"
+        "content": "                logger.info(\"Performing updating operation for ItLogger, update an existing defect...\");"
       },
       {
         "lineNumber": 146,
         "author": {
           "gitId": "ZhengShijieNUS"
         },
-        "content": "                } catch (ParseException e) {"
+        "content": "                try {"
       },
       {
         "lineNumber": 147,
         "author": {
           "gitId": "ZhengShijieNUS"
         },
-        "content": "                    printErrorMessageToUser(e);"
+        "content": "                    Defect defect \u003d issueList.getDefect(parseIndex(input,issueList.getSize()));"
       },
       {
         "lineNumber": 148,
         "author": {
           "gitId": "ZhengShijieNUS"
         },
-        "content": "                    logger.log(Level.WARNING, \"Issue in parsing command: \" + e.getMessage(), e);"
+        "content": "                    boolean isExit \u003d false;"
       },
       {
         "lineNumber": 149,
         "author": {
           "gitId": "ZhengShijieNUS"
         },
-        "content": "                } catch (Exception e) {"
+        "content": "                    do {"
       },
       {
         "lineNumber": 150,
         "author": {
           "gitId": "ZhengShijieNUS"
         },
-        "content": "                    printErrorMessageToUser(e);"
+        "content": "                        String updateCommandContent \u003d \"\";"
       },
       {
         "lineNumber": 151,
         "author": {
           "gitId": "ZhengShijieNUS"
         },
-        "content": "                    logger.log(Level.WARNING, \"Update occurs unknown error: \" + e.getMessage(), e);"
+        "content": "                        System.out.println(\"You are modifying:\");"
       },
       {
         "lineNumber": 152,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "ZhengShijieNUS"
         },
-        "content": "                }"
+        "content": "                        System.out.println(defect.toString());"
       },
       {
         "lineNumber": 153,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "ZhengShijieNUS"
         },
-        "content": ""
+        "content": "                        Interface.printUpdateContent();"
       },
       {
         "lineNumber": 154,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "ZhengShijieNUS"
         },
-        "content": "                break;"
+        "content": "                        if (hasNextLine()) {"
       },
       {
         "lineNumber": 155,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "ZhengShijieNUS"
         },
-        "content": ""
+        "content": "                            updateCommandContent \u003d getInput();"
       },
       {
         "lineNumber": 156,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "ZhengShijieNUS"
         },
-        "content": "            case VIEW: // Shi Jie"
+        "content": "                            isExit \u003d Parser.parseUpdateContent(updateCommandContent,defect);"
       },
       {
         "lineNumber": 157,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "ZhengShijieNUS"
         },
-        "content": "                // todo -\u003e view ONE Defect with INDEX NUMBER"
+        "content": "                        }"
       },
       {
         "lineNumber": 158,
         "author": {
           "gitId": "ZhengShijieNUS"
         },
-        "content": "                logger.info(\"Performing view operation for ItLogger, viewing specific defect...\");"
+        "content": "                    } while (isExit);"
       },
       {
         "lineNumber": 159,
         "author": {
           "gitId": "ZhengShijieNUS"
         },
-        "content": "                try {"
+        "content": "                } catch (ParseException e) {"
       },
       {
         "lineNumber": 160,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "ZhengShijieNUS"
         },
-        "content": ""
+        "content": "                    printErrorMessageToUser(e);"
       },
       {
         "lineNumber": 161,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "ZhengShijieNUS"
         },
-        "content": "                    System.out.println(issueList.getDefect(parseIndex(input,issueList.getSize())).toString());"
+        "content": "                    logger.log(Level.WARNING, \"Issue in parsing command: \" + e.getMessage(), e);"
       },
       {
         "lineNumber": 162,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "ZhengShijieNUS"
         },
-        "content": ""
+        "content": "                } catch (Exception e) {"
       },
       {
         "lineNumber": 163,
         "author": {
           "gitId": "ZhengShijieNUS"
         },
-        "content": "                    logger.info(\"Obtained the specific defect...\");"
+        "content": "                    printErrorMessageToUser(e);"
       },
       {
         "lineNumber": 164,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "ZhengShijieNUS"
         },
-        "content": "                    int indexOfDefect \u003d parseIndex(input,issueList.getSize());"
+        "content": "                    logger.log(Level.WARNING, \"Update occurs unknown error: \" + e.getMessage(), e);"
       },
       {
         "lineNumber": 165,
         "author": {
-          "gitId": "ZhengShijieNUS"
+          "gitId": "pigoliver"
         },
-        "content": "                    assert indexOfDefect \u003e\u003d 0 : \"Viewing index shall non-negative\";"
+        "content": "                }"
       },
       {
         "lineNumber": 166,
-        "author": {
-          "gitId": "ZhengShijieNUS"
-        },
-        "content": "                    System.out.println(issueList.getDefect(indexOfDefect).toString());"
-      },
-      {
-        "lineNumber": 167,
-        "author": {
-          "gitId": "ZhengShijieNUS"
-        },
-        "content": "                    logger.info(\"Finished obtaining the specific defect...\");"
-      },
-      {
-        "lineNumber": 168,
-        "author": {
-          "gitId": "ZhengShijieNUS"
-        },
-        "content": "                } catch (ArrayIndexOutOfBoundsException e) {"
-      },
-      {
-        "lineNumber": 169,
-        "author": {
-          "gitId": "ZhengShijieNUS"
-        },
-        "content": "                    logger.log(Level.WARNING,\"Problem viewing defect. error is: \" + e.getMessage(), e);"
-      },
-      {
-        "lineNumber": 170,
-        "author": {
-          "gitId": "ZhengShijieNUS"
-        },
-        "content": "                    System.out.println(\"Please check the index value and also the correct format: \""
-      },
-      {
-        "lineNumber": 171,
-        "author": {
-          "gitId": "ZhengShijieNUS"
-        },
-        "content": "                            + \"VIEW /index. Eg:VIEW /1\");"
-      },
-      {
-        "lineNumber": 172,
         "author": {
           "gitId": "pigoliver"
         },
         "content": ""
       },
       {
-        "lineNumber": 173,
+        "lineNumber": 167,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "                break;"
+      },
+      {
+        "lineNumber": 168,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 169,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "            case VIEW: // Shi Jie"
+      },
+      {
+        "lineNumber": 170,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "                // todo -\u003e view ONE Defect with INDEX NUMBER"
+      },
+      {
+        "lineNumber": 171,
         "author": {
           "gitId": "ZhengShijieNUS"
         },
-        "content": "                }"
+        "content": "                logger.info(\"Performing view operation for ItLogger, viewing specific defect...\");"
+      },
+      {
+        "lineNumber": 172,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": "                try {"
+      },
+      {
+        "lineNumber": 173,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": ""
       },
       {
         "lineNumber": 174,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "                break;"
+        "content": "                    System.out.println(issueList.getDefect(parseIndex(input,issueList.getSize())).toString());"
       },
       {
         "lineNumber": 175,
@@ -4531,628 +4596,761 @@
       {
         "lineNumber": 176,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "ZhengShijieNUS"
         },
-        "content": "            case DELETE: // Jang"
+        "content": "                    logger.info(\"Obtained the specific defect...\");"
       },
       {
         "lineNumber": 177,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "                // todo -\u003e delete ONE Defect using INDEX NUMBER"
+        "content": "                    int indexOfDefect \u003d parseIndex(input,issueList.getSize());"
       },
       {
         "lineNumber": 178,
         "author": {
-          "gitId": "JanuariusJang"
+          "gitId": "ZhengShijieNUS"
         },
-        "content": "                logger.info(\"Begin deleting a specific Defect...\");"
+        "content": "                    assert indexOfDefect \u003e\u003d 0 : \"Viewing index shall non-negative\";"
       },
       {
         "lineNumber": 179,
         "author": {
-          "gitId": "JanuariusJang"
+          "gitId": "ZhengShijieNUS"
         },
-        "content": "                try {"
+        "content": "                    System.out.println(issueList.getDefect(indexOfDefect).toString());"
       },
       {
         "lineNumber": 180,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "ZhengShijieNUS"
         },
-        "content": "                    int indexDeletion \u003d parseIndex(input,issueList.getSize());"
+        "content": "                    logger.info(\"Finished obtaining the specific defect...\");"
       },
       {
         "lineNumber": 181,
         "author": {
-          "gitId": "JanuariusJang"
-        },
-        "content": "                    assert indexDeletion \u003e\u003d 0 : \"Deletion index must be non-negative\";"
-      },
-      {
-        "lineNumber": 182,
-        "author": {
-          "gitId": "JanuariusJang"
-        },
-        "content": "                    assert indexDeletion \u003c\u003d issueList.getSize() : \"Deletion index must \""
-      },
-      {
-        "lineNumber": 183,
-        "author": {
-          "gitId": "JanuariusJang"
-        },
-        "content": "                            + \"be equal or lesser than array size\";"
-      },
-      {
-        "lineNumber": 184,
-        "author": {
-          "gitId": "pigoliver"
-        },
-        "content": "                    issueList.deleteIssue(indexDeletion);"
-      },
-      {
-        "lineNumber": 185,
-        "author": {
-          "gitId": "JanuariusJang"
-        },
-        "content": "                    logger.info(\"Deletion of Defect successful\");"
-      },
-      {
-        "lineNumber": 186,
-        "author": {
-          "gitId": "JanuariusJang"
+          "gitId": "ZhengShijieNUS"
         },
         "content": "                } catch (ArrayIndexOutOfBoundsException e) {"
       },
       {
+        "lineNumber": 182,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": "                    logger.log(Level.WARNING,\"Problem viewing defect. error is: \" + e.getMessage(), e);"
+      },
+      {
+        "lineNumber": 183,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": "                    System.out.println(\"Please check the index value and also the correct format: \""
+      },
+      {
+        "lineNumber": 184,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": "                            + \"VIEW /index. Eg:VIEW /1\");"
+      },
+      {
+        "lineNumber": 185,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 186,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": "                }"
+      },
+      {
         "lineNumber": 187,
         "author": {
-          "gitId": "JanuariusJang"
+          "gitId": "pigoliver"
         },
-        "content": "                    logger.log(Level.WARNING, \"Pls check your index values. It is \""
+        "content": "                break;"
       },
       {
         "lineNumber": 188,
         "author": {
-          "gitId": "JanuariusJang"
+          "gitId": "pigoliver"
         },
-        "content": "                            + \"either greater than the largest value or a negative value.\");"
+        "content": ""
       },
       {
         "lineNumber": 189,
         "author": {
-          "gitId": "JanuariusJang"
+          "gitId": "pigoliver"
         },
-        "content": "                } catch (Exception e) {"
+        "content": "            case DELETE: // Jang"
       },
       {
         "lineNumber": 190,
         "author": {
-          "gitId": "JanuariusJang"
+          "gitId": "pigoliver"
         },
-        "content": "                    System.out.println(e.getMessage());"
+        "content": "                // todo -\u003e delete ONE Defect using INDEX NUMBER"
       },
       {
         "lineNumber": 191,
         "author": {
           "gitId": "JanuariusJang"
         },
-        "content": "                    logger.log(Level.WARNING, \"Some error have occurred. \""
+        "content": "                logger.info(\"Begin deleting a specific Defect...\");"
       },
       {
         "lineNumber": 192,
         "author": {
           "gitId": "JanuariusJang"
         },
-        "content": "                            + \"You must have entered an invalid index\" + e.getMessage());"
+        "content": "                try {"
       },
       {
         "lineNumber": 193,
         "author": {
-          "gitId": "JanuariusJang"
+          "gitId": "pigoliver"
         },
-        "content": "                }"
+        "content": "                    int indexDeletion \u003d parseIndex(input,issueList.getSize());"
       },
       {
         "lineNumber": 194,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "JanuariusJang"
         },
-        "content": "                break;"
+        "content": "                    assert indexDeletion \u003e\u003d 0 : \"Deletion index must be non-negative\";"
       },
       {
         "lineNumber": 195,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "JanuariusJang"
         },
-        "content": ""
+        "content": "                    assert indexDeletion \u003c\u003d issueList.getSize() : \"Deletion index must \""
       },
       {
         "lineNumber": 196,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "JanuariusJang"
         },
-        "content": "            case LIST:  // Jun Wen"
+        "content": "                            + \"be equal or lesser than array size\";"
       },
       {
         "lineNumber": 197,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "                // todo -\u003e list ALL avaliable Defect in Issue List"
+        "content": "                    issueList.deleteIssue(indexDeletion);"
       },
       {
         "lineNumber": 198,
         "author": {
-          "gitId": "tototto"
+          "gitId": "JanuariusJang"
         },
-        "content": "                logger.info(\"Performing listing operation for ItLogger, showing all defect...\");"
+        "content": "                    logger.info(\"Deletion of Defect successful\");"
       },
       {
         "lineNumber": 199,
         "author": {
-          "gitId": "tototto"
+          "gitId": "JanuariusJang"
         },
-        "content": "                try {"
+        "content": "                } catch (ArrayIndexOutOfBoundsException e) {"
       },
       {
         "lineNumber": 200,
         "author": {
-          "gitId": "tototto"
+          "gitId": "JanuariusJang"
         },
-        "content": "                    Vector toBeDisplayed \u003d issueList.getIssue();"
+        "content": "                    logger.log(Level.WARNING, \"Pls check your index values. It is \""
       },
       {
         "lineNumber": 201,
         "author": {
-          "gitId": "tototto"
+          "gitId": "JanuariusJang"
         },
-        "content": "                    logger.info(\"Obtained issueList...\");"
+        "content": "                            + \"either greater than the largest value or a negative value.\");"
       },
       {
         "lineNumber": 202,
         "author": {
-          "gitId": "tototto"
+          "gitId": "JanuariusJang"
         },
-        "content": "                    assert toBeDisplayed !\u003d null : \"IT logger issue list should exists\";"
+        "content": "                } catch (Exception e) {"
       },
       {
         "lineNumber": 203,
         "author": {
-          "gitId": "tototto"
+          "gitId": "JanuariusJang"
         },
-        "content": "                    if (toBeDisplayed.size() \u003d\u003d 0) {"
+        "content": "                    System.out.println(e.getMessage());"
       },
       {
         "lineNumber": 204,
         "author": {
-          "gitId": "tototto"
+          "gitId": "JanuariusJang"
         },
-        "content": "                        logger.info(\"Problem displaying empty list...no item to show...\");"
+        "content": "                    logger.log(Level.WARNING, \"Some error have occurred. \""
       },
       {
         "lineNumber": 205,
         "author": {
-          "gitId": "tototto"
+          "gitId": "JanuariusJang"
         },
-        "content": "                        assert toBeDisplayed.size() \u003d\u003d 0 : \"IT logger issue list should be empty here\";"
+        "content": "                            + \"You must have entered an invalid index\" + e.getMessage());"
       },
       {
         "lineNumber": 206,
         "author": {
-          "gitId": "tototto"
+          "gitId": "JanuariusJang"
         },
-        "content": "                        throw new EmptyListException(\"The IT Logger Defect list is empty\");"
+        "content": "                }"
       },
       {
         "lineNumber": 207,
         "author": {
-          "gitId": "tototto"
+          "gitId": "pigoliver"
         },
-        "content": "                    } else {"
+        "content": "                break;"
       },
       {
         "lineNumber": 208,
         "author": {
-          "gitId": "tototto"
+          "gitId": "pigoliver"
         },
-        "content": "                        logger.info(\"printing issues\");"
+        "content": ""
       },
       {
         "lineNumber": 209,
         "author": {
-          "gitId": "tototto"
+          "gitId": "pigoliver"
         },
-        "content": "                        assert toBeDisplayed.size() \u003e 0 : \"There should be at least 1 issue to be displayed\";"
+        "content": "            case LIST:  // Jun Wen"
       },
       {
         "lineNumber": 210,
         "author": {
-          "gitId": "tototto"
+          "gitId": "pigoliver"
         },
-        "content": "                        displayIssues(toBeDisplayed);"
+        "content": "                // todo -\u003e list ALL avaliable Defect in Issue List"
       },
       {
         "lineNumber": 211,
         "author": {
           "gitId": "tototto"
         },
-        "content": "                    }"
+        "content": "                logger.info(\"Performing listing operation for ItLogger, showing all defect...\");"
       },
       {
         "lineNumber": 212,
         "author": {
           "gitId": "tototto"
         },
-        "content": "                } catch (EmptyListException e) {"
+        "content": "                try {"
       },
       {
         "lineNumber": 213,
         "author": {
           "gitId": "tototto"
         },
-        "content": "                    logger.log(Level.WARNING,\"Problem displaying list. error is: \" + e.getMessage(), e);"
+        "content": "                    Vector toBeDisplayed \u003d issueList.getIssue();"
       },
       {
         "lineNumber": 214,
         "author": {
           "gitId": "tototto"
         },
-        "content": "                    emptyErrorMsg();"
+        "content": "                    logger.info(\"Obtained issueList...\");"
       },
       {
         "lineNumber": 215,
         "author": {
           "gitId": "tototto"
         },
-        "content": "                }"
+        "content": "                    assert toBeDisplayed !\u003d null : \"IT logger issue list should exists\";"
       },
       {
         "lineNumber": 216,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "tototto"
         },
-        "content": "                break;"
+        "content": "                    if (toBeDisplayed.size() \u003d\u003d 0) {"
       },
       {
         "lineNumber": 217,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "tototto"
         },
-        "content": ""
+        "content": "                        logger.info(\"Problem displaying empty list...no item to show...\");"
       },
       {
         "lineNumber": 218,
         "author": {
           "gitId": "tototto"
         },
-        "content": "            case SEARCH: // Jun Wen"
+        "content": "                        assert toBeDisplayed.size() \u003d\u003d 0 : \"IT logger issue list should be empty here\";"
       },
       {
         "lineNumber": 219,
         "author": {
           "gitId": "tototto"
         },
-        "content": "                // todo -\u003e Search (search by title, status, severity, deadline, owner)"
+        "content": "                        throw new EmptyListException(\"The IT Logger Defect list is empty\");"
       },
       {
         "lineNumber": 220,
         "author": {
           "gitId": "tototto"
         },
-        "content": "                String searchBy \u003d parseSearchType(input);"
+        "content": "                    } else {"
       },
       {
         "lineNumber": 221,
         "author": {
           "gitId": "tototto"
         },
-        "content": "                String searchTerm \u003d parseSearchTerm(input);"
+        "content": "                        logger.info(\"printing issues\");"
       },
       {
         "lineNumber": 222,
         "author": {
           "gitId": "tototto"
         },
-        "content": "                Vector\u003cDefect\u003e issues \u003d issueList.getIssue();"
+        "content": "                        assert toBeDisplayed.size() \u003e 0 : \"There should be at least 1 issue to be displayed\";"
       },
       {
         "lineNumber": 223,
         "author": {
           "gitId": "tototto"
         },
-        "content": ""
+        "content": "                        displayIssues(toBeDisplayed);"
       },
       {
         "lineNumber": 224,
         "author": {
           "gitId": "tototto"
         },
-        "content": "                if (searchBy.equals(\"TITLE\")) {"
+        "content": "                    }"
       },
       {
         "lineNumber": 225,
         "author": {
           "gitId": "tototto"
         },
-        "content": "                    displayIssues(searchTitle(searchTerm, issues));"
+        "content": "                } catch (EmptyListException e) {"
       },
       {
         "lineNumber": 226,
         "author": {
           "gitId": "tototto"
         },
-        "content": ""
+        "content": "                    logger.log(Level.WARNING,\"Problem displaying list. error is: \" + e.getMessage(), e);"
       },
       {
         "lineNumber": 227,
         "author": {
           "gitId": "tototto"
         },
-        "content": "                } else if (searchBy.equals(\"STATUS\")) {"
+        "content": "                    emptyErrorMsg();"
       },
       {
         "lineNumber": 228,
         "author": {
           "gitId": "tototto"
         },
-        "content": "                    displayIssues(searchStatus(searchTerm, issues));"
+        "content": "                }"
       },
       {
         "lineNumber": 229,
         "author": {
-          "gitId": "tototto"
+          "gitId": "pigoliver"
         },
-        "content": ""
+        "content": "                break;"
       },
       {
         "lineNumber": 230,
         "author": {
-          "gitId": "tototto"
+          "gitId": "pigoliver"
         },
-        "content": "                } else if (searchBy.equals(\"SEVERITY\")) {"
+        "content": ""
       },
       {
         "lineNumber": 231,
         "author": {
           "gitId": "tototto"
         },
-        "content": "                    displayIssues(searchSeverity(searchTerm, issues));"
+        "content": "            case SEARCH: // Jun Wen"
       },
       {
         "lineNumber": 232,
         "author": {
           "gitId": "tototto"
         },
-        "content": ""
+        "content": "                // todo -\u003e Search (search by title, status, severity, deadline, owner)"
       },
       {
         "lineNumber": 233,
         "author": {
           "gitId": "tototto"
         },
-        "content": "                } else if (searchBy.equals(\"OWNER\")) {"
+        "content": "                String searchBy \u003d parseSearchType(input);"
       },
       {
         "lineNumber": 234,
         "author": {
           "gitId": "tototto"
         },
-        "content": "                    displayIssues(searchOwner(searchTerm, issues));"
+        "content": "                String searchTerm \u003d parseSearchTerm(input);"
       },
       {
         "lineNumber": 235,
         "author": {
           "gitId": "tototto"
         },
-        "content": ""
+        "content": "                Vector\u003cDefect\u003e issues \u003d issueList.getIssue();"
       },
       {
         "lineNumber": 236,
         "author": {
           "gitId": "tototto"
         },
-        "content": "                } else if (searchBy.equals(\"DEADLINE\")) {"
+        "content": ""
       },
       {
         "lineNumber": 237,
         "author": {
           "gitId": "tototto"
         },
-        "content": "                    try {"
+        "content": "                if (searchBy.equals(\"TITLE\")) {"
       },
       {
         "lineNumber": 238,
         "author": {
           "gitId": "tototto"
         },
-        "content": "                        displayIssues(searchDeadline(searchTerm, issues));"
+        "content": "                    displayIssues(searchTitle(searchTerm, issues));"
       },
       {
         "lineNumber": 239,
         "author": {
           "gitId": "tototto"
         },
-        "content": "                    } catch (ParseException e) {"
+        "content": ""
       },
       {
         "lineNumber": 240,
         "author": {
           "gitId": "tototto"
         },
-        "content": "                        System.out.println(\"Issue parsing date searched\");"
+        "content": "                } else if (searchBy.equals(\"STATUS\")) {"
       },
       {
         "lineNumber": 241,
         "author": {
           "gitId": "tototto"
         },
-        "content": "                    }"
+        "content": "                    displayIssues(searchStatus(searchTerm, issues));"
       },
       {
         "lineNumber": 242,
         "author": {
           "gitId": "tototto"
         },
-        "content": "                }"
+        "content": ""
       },
       {
         "lineNumber": 243,
         "author": {
           "gitId": "tototto"
         },
-        "content": ""
+        "content": "                } else if (searchBy.equals(\"SEVERITY\")) {"
       },
       {
         "lineNumber": 244,
         "author": {
           "gitId": "tototto"
         },
-        "content": "                break;"
+        "content": "                    displayIssues(searchSeverity(searchTerm, issues));"
       },
       {
         "lineNumber": 245,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "tototto"
         },
-        "content": "            case HELP:"
+        "content": ""
       },
       {
         "lineNumber": 246,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "tototto"
         },
-        "content": "                logger.info(\"help operation started\");"
+        "content": "                } else if (searchBy.equals(\"OWNER\")) {"
       },
       {
         "lineNumber": 247,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "tototto"
         },
-        "content": "                String helpFilePath \u003d \"docs/help.txt\";"
+        "content": "                    displayIssues(searchOwner(searchTerm, issues));"
       },
       {
         "lineNumber": 248,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "tototto"
         },
-        "content": "                printFileToUser(helpFilePath);"
+        "content": ""
       },
       {
         "lineNumber": 249,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "tototto"
         },
-        "content": "                break;"
+        "content": "                } else if (searchBy.equals(\"DEADLINE\")) {"
       },
       {
         "lineNumber": 250,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "tototto"
         },
-        "content": "            case EXIT:"
+        "content": "                    try {"
       },
       {
         "lineNumber": 251,
         "author": {
           "gitId": "tototto"
         },
-        "content": "                logger.info(\"exiting program\");"
+        "content": "                        displayIssues(searchDeadline(searchTerm, issues));"
       },
       {
         "lineNumber": 252,
         "author": {
           "gitId": "tototto"
         },
-        "content": "                logger.config(\"updating program config to quit\");"
+        "content": "                    } catch (ParseException e) {"
       },
       {
         "lineNumber": 253,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "tototto"
         },
-        "content": "                keepRun \u003d false;"
+        "content": "                        System.out.println(\"Issue parsing date searched\");"
       },
       {
         "lineNumber": 254,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "tototto"
         },
-        "content": "                break;"
+        "content": "                    }"
       },
       {
         "lineNumber": 255,
         "author": {
           "gitId": "tototto"
         },
-        "content": ""
+        "content": "                }"
       },
       {
         "lineNumber": 256,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "tototto"
         },
-        "content": "            default:"
+        "content": ""
       },
       {
         "lineNumber": 257,
         "author": {
           "gitId": "tototto"
         },
-        "content": "                logger.warning(\"unknown keyword sent to IT logger as command\");"
+        "content": "                break;"
       },
       {
         "lineNumber": 258,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "                System.out.println(\"Unknown KeyWord, please try again!\");"
+        "content": "            case HELP:"
       },
       {
         "lineNumber": 259,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "                break;"
+        "content": "                logger.info(\"help operation started\");"
       },
       {
         "lineNumber": 260,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "            }"
+        "content": "                String helpFilePath \u003d \"docs/help.txt\";"
       },
       {
         "lineNumber": 261,
         "author": {
-          "gitId": "tototto"
+          "gitId": "pigoliver"
         },
-        "content": "            logger.info(\"completed an iteration of ItLogger logic flow.\");"
+        "content": "                printFileToUser(helpFilePath);"
       },
       {
         "lineNumber": 262,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "        }"
+        "content": "                break;"
       },
       {
         "lineNumber": 263,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "    }"
+        "content": "            case EXIT:"
       },
       {
         "lineNumber": 264,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "                try {"
+      },
+      {
+        "lineNumber": 265,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "                    storage.save(issueList);"
+      },
+      {
+        "lineNumber": 266,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "                } catch (StorageFile.StorageOperationException e) {"
+      },
+      {
+        "lineNumber": 267,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "                    System.out.println(\"Issue saving file. Exiting Program\");"
+      },
+      {
+        "lineNumber": 268,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "                }"
+      },
+      {
+        "lineNumber": 269,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 270,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "                logger.info(\"exiting program\");"
+      },
+      {
+        "lineNumber": 271,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "                logger.config(\"updating program config to quit\");"
+      },
+      {
+        "lineNumber": 272,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "                keepRun \u003d false;"
+      },
+      {
+        "lineNumber": 273,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "                break;"
+      },
+      {
+        "lineNumber": 274,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 275,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "            default:"
+      },
+      {
+        "lineNumber": 276,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "                logger.warning(\"unknown keyword sent to IT logger as command\");"
+      },
+      {
+        "lineNumber": 277,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "                System.out.println(\"Unknown KeyWord, please try again!\");"
+      },
+      {
+        "lineNumber": 278,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "                break;"
+      },
+      {
+        "lineNumber": 279,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 280,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "            logger.info(\"completed an iteration of ItLogger logic flow.\");"
+      },
+      {
+        "lineNumber": 281,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 282,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 283,
         "author": {
           "gitId": "pigoliver"
         },
         "content": ""
       },
       {
-        "lineNumber": 265,
+        "lineNumber": 284,
         "author": {
           "gitId": "pigoliver"
         },
@@ -5162,7 +5360,7 @@
     "authorContributionMap": {
       "ZhengShijieNUS": 32,
       "tototto": 122,
-      "JanuariusJang": 14,
+      "JanuariusJang": 33,
       "pigoliver": 97
     }
   },
@@ -7574,6 +7772,1167 @@
     ],
     "authorContributionMap": {
       "pigoliver": 7
+    }
+  },
+  {
+    "path": "src/main/java/seedu/itlogger/storage/ItLoggerDecoder.java",
+    "fileType": "functional-code",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "package seedu.itlogger.storage;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "import seedu.itlogger.Defect;"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "import seedu.itlogger.IssueList;"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "import seedu.itlogger.Parser;"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "import java.text.ParseException;"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "import java.util.Date;"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "import java.util.List;"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "import java.util.Vector;"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "public class ItLoggerDecoder {"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "     * Decodes {@code encodedIssueList} into an {@code Vector of Defects } containing the decoded defects."
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "     *"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "     * @throws StorageFile.StorageOperationException if any of the fields in any encoded defect string is invalid."
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "    public static Vector\u003cDefect\u003e decodeIssueList(List\u003cString\u003e encodedIssueList)"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "            throws StorageFile.StorageOperationException {"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        final Vector\u003cDefect\u003e decodedDefects \u003d new Vector\u003c\u003e();"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        for (String encodedDefects : encodedIssueList) {"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "            decodedDefects.add(decodedDefectsFromSting(encodedDefects));"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        return decodedDefects;"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "     * Decodes {@code encodedDefects } into a {@code Defect}."
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "     *"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "     * @throws StorageFile.StorageOperationException if any field in the {@code encodedDefect} is invalid."
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "    private static Defect decodedDefectsFromSting(String encodedDefects)"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "            throws StorageFile.StorageOperationException {"
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        final Parser parser \u003d new Parser();"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        String title \u003d null;"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        String status \u003d null;"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        String owner \u003d null;"
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        int severity \u003d 0;"
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        Date deadLine \u003d null;"
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        try {"
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "            title \u003d parser.parseTitle(encodedDefects);"
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "            status \u003d parser.parseStatus(encodedDefects);"
+      },
+      {
+        "lineNumber": 47,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "            severity \u003d parser.parseSeverity(encodedDefects);"
+      },
+      {
+        "lineNumber": 48,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "            deadLine \u003d parser.parseDeadline(encodedDefects);"
+      },
+      {
+        "lineNumber": 49,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "            owner \u003d parser.parseOwner(encodedDefects);"
+      },
+      {
+        "lineNumber": 50,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        } catch (ParseException e) {"
+      },
+      {
+        "lineNumber": 51,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "            throw new StorageFile.StorageOperationException(\"File contents in wrong format\");"
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        } catch (StringIndexOutOfBoundsException e) {"
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "            throw new StorageFile.StorageOperationException(\"File contents in wrong format.\""
+      },
+      {
+        "lineNumber": 54,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "                    + \"Pls check the formatting in txt file \");"
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        return new Defect(title, status, severity, deadLine, owner);"
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 58,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 59,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "JanuariusJang": 59
+    }
+  },
+  {
+    "path": "src/main/java/seedu/itlogger/storage/ItLoggerEncoder.java",
+    "fileType": "functional-code",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "package seedu.itlogger.storage;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "import java.text.SimpleDateFormat;"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "import java.util.ArrayList;"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "import java.util.Date;"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "import java.util.List;"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "import seedu.itlogger.Defect;"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "import seedu.itlogger.IssueList;"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "public class ItLoggerEncoder {"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "    //private static Date dateFormat \u003d new SimpleDateFormat(\"dd-MM-yyyy\");"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "     * Encodes all the {@code Defects} in the {@code toSave} into a list of decodable and readable string presentation"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "     * for storage."
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "    public static List\u003cString\u003e encodeItLogger(IssueList toSave) {"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        final List\u003cString\u003e encodedDefects \u003d new ArrayList\u003c\u003e();"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        toSave.getIssue().forEach(defect -\u003e encodedDefects.add(encodeDefectToString(defect)));"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        return encodedDefects;"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "    private static String encodeDefectToString(Defect defect) {"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        final StringBuilder encodedDefectBuilder \u003d new StringBuilder();"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        SimpleDateFormat dateFormat \u003d new SimpleDateFormat(\"dd-MM-yyyy\");"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        String strDate \u003d dateFormat.format(defect.getDeadline());"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        encodedDefectBuilder.append(\"t/\").append(defect.getTitle()).append(\" \");"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        encodedDefectBuilder.append(\"s/\").append(defect.getStatus()).append(\" \");"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        encodedDefectBuilder.append(\"sv/\").append(defect.getSeverity()).append(\" \");"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        encodedDefectBuilder.append(\"dl/\").append(strDate).append(\" \");"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        encodedDefectBuilder.append(\"o/\").append(defect.getOwner());"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        return encodedDefectBuilder.toString();"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "JanuariusJang": 37
+    }
+  },
+  {
+    "path": "src/main/java/seedu/itlogger/storage/StorageFile.java",
+    "fileType": "functional-code",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "package seedu.itlogger.storage;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "import seedu.itlogger.IssueList;"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "import java.io.FileNotFoundException;"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "import java.io.IOException;"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "import java.nio.file.Files;"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "import java.nio.file.Path;"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "import java.nio.file.Paths;"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "import java.util.List;"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "public class StorageFile {"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "    /** Default file path used if the user doesn\u0027t provide the file name. */"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "    public static final String DEFAULT_STORAGE_FILEPATH \u003d \"itlogger.txt\";"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "    public final Path path;"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "    public StorageFile() {"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        this(DEFAULT_STORAGE_FILEPATH);"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "    public StorageFile(String filePath)  {"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        path \u003d Paths.get(filePath);"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "     * Saves the {@code IssueList} data to the storage file."
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "     *"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "     * @throws StorageOperationException if there were errors converting and/or storing data to file."
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "    public void save(IssueList issueList) throws StorageOperationException {"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        try {"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "            List\u003cString\u003e encodedItLogger \u003d ItLoggerEncoder.encodeItLogger(issueList);"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "            Files.write(path, encodedItLogger);"
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        } catch (IOException ioe) {"
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "            throw new StorageOperationException(\"Error writing to file: \" + path);"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "     * Loads the {@code Vector of Defects} data into the IssueList."
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "     * @throws StorageOperationException if there were errors reading and/or converting data from file."
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "    public void load(IssueList issueList) throws StorageOperationException, FileNotFoundException {"
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        if (Files.exists(path)) {"
+      },
+      {
+        "lineNumber": 47,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "            try {"
+      },
+      {
+        "lineNumber": 48,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "                issueList.loadIssues(ItLoggerDecoder.decodeIssueList(Files.readAllLines(path)));"
+      },
+      {
+        "lineNumber": 49,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "            } catch (IOException e) {"
+      },
+      {
+        "lineNumber": 50,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "                throw new StorageOperationException(\"File contents in wrong format\");"
+      },
+      {
+        "lineNumber": 51,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 54,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "     * Signals that some error has occured while trying to convert and read/write data between the application"
+      },
+      {
+        "lineNumber": 58,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "     * and the storage file."
+      },
+      {
+        "lineNumber": 59,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 60,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "    public static class StorageOperationException extends Exception {"
+      },
+      {
+        "lineNumber": 61,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        public StorageOperationException(String message) {"
+      },
+      {
+        "lineNumber": 62,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "            super(message);"
+      },
+      {
+        "lineNumber": 63,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 64,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 65,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 66,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "JanuariusJang": 66
     }
   },
   {
