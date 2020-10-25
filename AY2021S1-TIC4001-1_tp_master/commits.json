@@ -309,6 +309,33 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-24",
+        "commitResults": [
+          {
+            "hash": "f59040d73b80db521932fc728f7968ca8550260b",
+            "messageTitle": "Update DateConverter class and List command, display daysLeft when list down the projects",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 47,
+                "deletions": 36
+              }
+            }
+          },
+          {
+            "hash": "c08cb72e82438b55786739e30defab2730ff9122",
+            "messageTitle": "Update DateConverter class and List command, display daysLeft when list down the projects",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 1,
+                "deletions": 2
+              }
+            }
+          }
+        ]
       }
     ],
     "Impala36": [
@@ -757,38 +784,69 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-24",
+        "commitResults": [
+          {
+            "hash": "b4372a3d4a1c28309e44d223590441bf4f3b630a",
+            "messageTitle": "Fixed the sending email to user and edit the userguide",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 7,
+                "deletions": 9
+              },
+              "docs": {
+                "insertions": 11,
+                "deletions": 5
+              }
+            }
+          },
+          {
+            "hash": "b60fc4ce036a493e1d2d7a6c81ce40bd87d5996d",
+            "messageTitle": "enable assertions",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "other": {
+                "insertions": 3,
+                "deletions": 0
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFileTypeContributionMap": {
     "linqing42": {
       "docs": 149,
-      "functional-code": 149,
+      "functional-code": 140,
       "test-code": 0
     },
     "Yiheng0410": {
       "docs": 0,
-      "functional-code": 85,
+      "functional-code": 109,
       "test-code": 118
     },
     "Impala36": {
-      "docs": 76,
-      "functional-code": 529,
+      "docs": 72,
+      "functional-code": 527,
       "test-code": 3,
       "other": 5
     },
     "binbinhui": {
-      "docs": 0,
-      "functional-code": 271,
+      "docs": 10,
+      "functional-code": 266,
       "test-code": 1,
-      "other": 15
+      "other": 18
     }
   },
   "authorContributionVariance": {
-    "linqing42": 1779.0322,
-    "Yiheng0410": 523.18866,
-    "Impala36": 7343.9404,
-    "binbinhui": 16310.601
+    "linqing42": 1755.4716,
+    "Yiheng0410": 607.5084,
+    "Impala36": 7246.8213,
+    "binbinhui": 16086.526
   },
   "authorDisplayNameMap": {
     "linqing42": "TIC4001-1 LIN ..QING",

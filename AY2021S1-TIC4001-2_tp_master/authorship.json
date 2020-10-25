@@ -389,168 +389,168 @@
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "## Product scope"
       },
       {
         "lineNumber": 8,
         "author": {
           "gitId": "-"
         },
-        "content": "## Product scope"
+        "content": "### Target user profile"
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "-"
         },
-        "content": "### Target user profile"
-      },
-      {
-        "lineNumber": 10,
-        "author": {
-          "gitId": "-"
-        },
         "content": ""
       },
       {
-        "lineNumber": 11,
+        "lineNumber": 10,
         "author": {
           "gitId": "e0260222"
         },
         "content": "This app targets young working adults in Singapore who are living on"
       },
       {
-        "lineNumber": 12,
+        "lineNumber": 11,
         "author": {
           "gitId": "e0260222"
         },
         "content": "a tight budget and would like to have better insight into their spending habits."
       },
       {
-        "lineNumber": 13,
+        "lineNumber": 12,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 14,
+        "lineNumber": 13,
         "author": {
           "gitId": "-"
         },
         "content": "### Value proposition"
       },
       {
-        "lineNumber": 15,
+        "lineNumber": 14,
         "author": {
           "gitId": "-"
         },
         "content": ""
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "This app allows users to track their incomes and expenses."
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "This app allows users to track their income and expenditure."
+        "content": "This helps them to stay within their budget and make timely adjustments to their spending habits when necessary."
       },
       {
         "lineNumber": 17,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "-"
         },
-        "content": "This helps them to stay within their budget and make timely adjustments to their spending habits when necessary."
+        "content": ""
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "## User Stories"
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "-"
         },
-        "content": "## User Stories"
+        "content": ""
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "|Version| As a ... | I want to ... | So that I can ...|"
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "-"
         },
-        "content": "|Version| As a ... | I want to ... | So that I can ...|"
-      },
-      {
-        "lineNumber": 22,
-        "author": {
-          "gitId": "-"
-        },
         "content": "|--------|----------|---------------|------------------|"
       },
       {
-        "lineNumber": 23,
+        "lineNumber": 22,
         "author": {
           "gitId": "e0260222"
         },
         "content": "|v1.0|potential user|download the app|get a feel what the app can do|"
       },
       {
-        "lineNumber": 24,
+        "lineNumber": 23,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "|v1.0|potential user|browse through the user guide|have an overview of what are the commands available|"
+        "content": "|v1.0|potential user|browse through the user guide|get an overview of what are the commands available|"
       },
       {
-        "lineNumber": 25,
+        "lineNumber": 24,
         "author": {
           "gitId": "e0260222"
         },
         "content": "|v1.0|new user|access the user guide|refer to it when I forget how to use the app|"
       },
       {
-        "lineNumber": 26,
+        "lineNumber": 25,
         "author": {
           "gitId": "e0260222"
         },
         "content": "|v1.0|new user|add an income|keep track of my incomes|"
       },
       {
-        "lineNumber": 27,
+        "lineNumber": 26,
         "author": {
           "gitId": "e0260222"
         },
         "content": "|v1.0|new user|add an expense|keep track of my expenses|"
       },
       {
-        "lineNumber": 28,
+        "lineNumber": 27,
         "author": {
           "gitId": "e0260222"
         },
         "content": "|v1.0|new user|add an income category|group my incomes under this category|"
       },
       {
-        "lineNumber": 29,
+        "lineNumber": 28,
         "author": {
           "gitId": "e0260222"
         },
         "content": "|v1.0|new user|add an expense category|group my expense under this category|"
       },
       {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": ""
+      },
+      {
         "lineNumber": 30,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "|v1.0|new user|list my incomes and expenses|view all my monetary transactions|"
+        "content": ""
       },
       {
         "lineNumber": 31,
@@ -564,47 +564,47 @@
         "author": {
           "gitId": "e0260222"
         },
-        "content": "|v1.0|expert user|list my incomes or expenses based on a specified month|view the filtered transactions|"
+        "content": ""
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "|v2.0|expert user|edit an income or expense category|change the name of the category|"
+        "content": ""
       },
       {
         "lineNumber": 34,
         "author": {
-          "gitId": "-"
+          "gitId": "e0260222"
         },
         "content": ""
       },
       {
         "lineNumber": 35,
         "author": {
-          "gitId": "-"
-        },
-        "content": "## Non-Functional Requirements"
-      },
-      {
-        "lineNumber": 36,
-        "author": {
-          "gitId": "-"
+          "gitId": "e0260222"
         },
         "content": ""
       },
       {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "|v2.0|expert user|edit an income or expense category|change the name of the category|"
+      },
+      {
         "lineNumber": 37,
         "author": {
-          "gitId": "-"
+          "gitId": "e0260222"
         },
-        "content": "{Give non-functional requirements}"
+        "content": "|v2.0|expert user|edit an income or expenses|change any of its parameters such as amount and date|"
       },
       {
         "lineNumber": 38,
         "author": {
-          "gitId": "-"
+          "gitId": "e0260222"
         },
         "content": ""
       },
@@ -613,45 +613,101 @@
         "author": {
           "gitId": "-"
         },
-        "content": "## Glossary"
+        "content": ""
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "## Non-Functional Requirements"
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "-"
         },
-        "content": "* *glossary item* - Definition"
+        "content": ""
       },
       {
         "lineNumber": 42,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "1. The app should work on any mainstream OS with Java `11` or above installed."
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 46,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 43,
+        "lineNumber": 47,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "## Glossary"
+      },
+      {
+        "lineNumber": 48,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 49,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "* *Mainstream OS* - Windows 7, Windows 10, Linux, Unix, OS-X"
+      },
+      {
+        "lineNumber": 50,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 51,
         "author": {
           "gitId": "-"
         },
         "content": "## Instructions for manual testing"
       },
       {
-        "lineNumber": 44,
+        "lineNumber": 52,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 45,
+        "lineNumber": 53,
         "author": {
           "gitId": "-"
         },
@@ -659,8 +715,8 @@
       }
     ],
     "authorContributionMap": {
-      "e0260222": 15,
-      "-": 30
+      "e0260222": 26,
+      "-": 27
     }
   },
   {
@@ -1533,7 +1589,7 @@
         "author": {
           "gitId": "e0260222"
         },
-        "content": "   From [I] SALARIES to [I] SALARy"
+        "content": "   From [I] SALARIES to [I] SALARY"
       },
       {
         "lineNumber": 125,
@@ -2133,7 +2189,7 @@
       {
         "lineNumber": 210,
         "author": {
-          "gitId": "-"
+          "gitId": "dgc5213"
         },
         "content": ""
       },
@@ -2308,7 +2364,7 @@
       {
         "lineNumber": 235,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "-"
         },
         "content": ""
       },
@@ -2490,168 +2546,168 @@
       {
         "lineNumber": 261,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "e0260222"
         },
-        "content": "### Deleting an income / expense: `delete`"
+        "content": "### Editing an income / expense: `edit`"
       },
       {
         "lineNumber": 262,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "e0260222"
         },
-        "content": "Deletes a specified income or expense."
+        "content": "Edits a specified income or expense."
       },
       {
         "lineNumber": 263,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "e0260222"
         },
         "content": ""
       },
       {
         "lineNumber": 264,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "e0260222"
         },
-        "content": "Format: `delete INDEX`"
+        "content": "Format: `edit INDEX [/aAMOUNT] [/cCATEGORY] [/dDATE] [/eDESCRIPTION]`"
       },
       {
         "lineNumber": 265,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "e0260222"
         },
-        "content": "- The `list` command must be executed first before using the `delete` command."
+        "content": "- The `list` command must be executed first before using the `edit` command."
       },
       {
         "lineNumber": 266,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "e0260222"
         },
         "content": "- `INDEX` refers to the index number shown in the list generated by the `list` command."
       },
       {
         "lineNumber": 267,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "e0260222"
         },
         "content": "- `INDEX` must a positive integer. E.g. `1`, `2`, `3`."
       },
       {
         "lineNumber": 268,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "e0260222"
         },
-        "content": "- The transaction indicated by the index number will be deleted."
+        "content": "- The transaction indicated by the index number will be edited."
       },
       {
         "lineNumber": 269,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "e0260222"
         },
-        "content": ""
+        "content": "- `AMOUNT` must be a positive integer or decimal. E.g. `400`, `3.50`, `4.5`."
       },
       {
         "lineNumber": 270,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "e0260222"
         },
-        "content": "Example of usage: `delete 5`"
+        "content": "- `CATEGORY` is case-insensitive. E.g. `Food` will match `FOOD`."
       },
       {
         "lineNumber": 271,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "e0260222"
         },
-        "content": ""
+        "content": "- `CATEGORY` must match an existing income / expense category."
       },
       {
         "lineNumber": 272,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "e0260222"
         },
-        "content": "Expected outcome:"
+        "content": "- `DATE` must be in yyyy-MM-dd format. E.g. `2020-09-20`."
       },
       {
         "lineNumber": 273,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "e0260222"
         },
-        "content": "```"
+        "content": ""
       },
       {
         "lineNumber": 274,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "e0260222"
         },
-        "content": "Noted! I have removed this expense:"
+        "content": "Example of usage: `edit 1 /a500 /cDIVIDEND /d2020-10-21 /eFrom Singtel`"
       },
       {
         "lineNumber": 275,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "e0260222"
         },
-        "content": "    [E] FOOD $10.00 on 18 Sep 2020 (Dinner at McDonalds’)"
+        "content": ""
       },
       {
         "lineNumber": 276,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "e0260222"
         },
-        "content": "```"
+        "content": "Expected outcome:"
       },
       {
         "lineNumber": 277,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "e0260222"
         },
-        "content": ""
+        "content": "```"
       },
       {
         "lineNumber": 278,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "e0260222"
         },
-        "content": "### Clearing all data: `clear`"
+        "content": "Noted! I have edited this income: "
       },
       {
         "lineNumber": 279,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "e0260222"
         },
-        "content": "Clears all incomes / expenses and income / expense categories."
+        "content": "   From [I] SALARY $4000.00 on 20 Oct 2020 to [I] DIVIDEND $500.00 on 21 Oct 2020 (From Singtel)"
       },
       {
         "lineNumber": 280,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "e0260222"
         },
-        "content": ""
+        "content": "```"
       },
       {
         "lineNumber": 281,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "e0260222"
         },
-        "content": "Format: `clear`"
+        "content": ""
       },
       {
         "lineNumber": 282,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "### Deleting an income / expense: `delete`"
       },
       {
         "lineNumber": 283,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
-        "content": "Example of usage: `clear`"
+        "content": "Deletes a specified income or expense."
       },
       {
         "lineNumber": 284,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
         "content": ""
       },
@@ -2660,49 +2716,49 @@
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "Expected outcome:"
+        "content": "Format: `delete INDEX`"
       },
       {
         "lineNumber": 286,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "```"
+        "content": "- The `list` command must be executed first before using the `delete` command."
       },
       {
         "lineNumber": 287,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "Noted! I have cleared all data"
+        "content": "- `INDEX` refers to the index number shown in the list generated by the `list` command."
       },
       {
         "lineNumber": 288,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "```"
+        "content": "- `INDEX` must a positive integer. E.g. `1`, `2`, `3`."
       },
       {
         "lineNumber": 289,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "- The transaction indicated by the index number will be deleted."
       },
       {
         "lineNumber": 290,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "dgc5213"
         },
-        "content": "### Viewing monthly report: `report`"
+        "content": ""
       },
       {
         "lineNumber": 291,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "dgc5213"
         },
-        "content": "Shows a report that summarises the incomes and expenses for a specified month."
+        "content": "Example of usage: `delete 5`"
       },
       {
         "lineNumber": 292,
@@ -2714,37 +2770,37 @@
       {
         "lineNumber": 293,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "dgc5213"
         },
-        "content": "Format: `report MONTH`"
+        "content": "Expected outcome:"
       },
       {
         "lineNumber": 294,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
-        "content": "- `MONTH` must be in yyyy-MM format. E.g. `2020-09`."
+        "content": "```"
       },
       {
         "lineNumber": 295,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "dgc5213"
         },
-        "content": "- The summary report for the specified month will be displayed."
+        "content": "Noted! I have removed this expense:"
       },
       {
         "lineNumber": 296,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "    [E] FOOD $10.00 on 18 Sep 2020 (Dinner at McDonalds’)"
       },
       {
         "lineNumber": 297,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "dgc5213"
         },
-        "content": "Example of usage: `report 2020-09`"
+        "content": "```"
       },
       {
         "lineNumber": 298,
@@ -2756,268 +2812,268 @@
       {
         "lineNumber": 299,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "dgc5213"
         },
-        "content": "Expected outcome:"
+        "content": "### Clearing all data: `clear`"
       },
       {
         "lineNumber": 300,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "dgc5213"
         },
-        "content": "```"
+        "content": "Clears all incomes / expenses and income / expense categories."
       },
       {
         "lineNumber": 301,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "dgc5213"
         },
-        "content": "Here is your report for 2020-09 :"
+        "content": ""
       },
       {
         "lineNumber": 302,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "dgc5213"
         },
-        "content": "Total Income: $27597.4"
+        "content": "Format: `clear`"
       },
       {
         "lineNumber": 303,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "e0260222"
         },
-        "content": "Total Expense: $31.0"
+        "content": "- The app will prompt for a confirmation. Enter `Y` to confirm the data clear or `N` to cancel the clear command."
       },
       {
         "lineNumber": 304,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "dgc5213"
         },
-        "content": "Balance: $27566.4"
+        "content": ""
       },
       {
         "lineNumber": 305,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "e0260222"
         },
-        "content": ""
+        "content": "Example of usage: `clear`"
       },
       {
         "lineNumber": 306,
         "author": {
-          "gitId": "daiweinus"
-        },
-        "content": "This month has 30 days."
-      },
-      {
-        "lineNumber": 307,
-        "author": {
-          "gitId": "daiweinus"
-        },
-        "content": "Average Expense Per Day: $1.03"
-      },
-      {
-        "lineNumber": 308,
-        "author": {
           "gitId": "e0260222"
         },
         "content": ""
       },
       {
+        "lineNumber": 307,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "Expected outcome:"
+      },
+      {
+        "lineNumber": 308,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "```"
+      },
+      {
         "lineNumber": 309,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "e0260222"
         },
-        "content": "Highest Income: "
+        "content": "Noted! I have cleared all data."
       },
       {
         "lineNumber": 310,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "dgc5213"
         },
-        "content": "  [I] SALARY $9000.00 on 1 Sep 2020 (Given $4000 bonus!)"
+        "content": "```"
       },
       {
         "lineNumber": 311,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
         "content": ""
       },
       {
         "lineNumber": 312,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "e0260222"
         },
-        "content": "Frequency of Income Category:"
+        "content": "### Setting monthly budget: `budget`"
       },
       {
         "lineNumber": 313,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "e0260222"
         },
-        "content": "  SALARY\u003d3,"
+        "content": "Sets monthly budget."
       },
       {
         "lineNumber": 314,
         "author": {
-          "gitId": "daiweinus"
-        },
-        "content": "  HONGBAO\u003d5"
-      },
-      {
-        "lineNumber": 315,
-        "author": {
-          "gitId": "daiweinus"
+          "gitId": "e0260222"
         },
         "content": ""
       },
       {
+        "lineNumber": 315,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "Format: `budget AMOUNT`"
+      },
+      {
         "lineNumber": 316,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "e0260222"
         },
-        "content": "Frequency of Expense Category:"
+        "content": "- `AMOUNT` must be `0` or a positive integer or decimal. E.g. `4000`, `3500.5`, `3000.50`."
       },
       {
         "lineNumber": 317,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "e0260222"
         },
-        "content": "  DRINK\u003d4,"
+        "content": "- During startup, the app will alert the user when the total expenses for the month exceed "
       },
       {
         "lineNumber": 318,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "e0260222"
         },
-        "content": "  FOOD\u003d2"
+        "content": "50%, 75% and 100% of the budget."
       },
       {
         "lineNumber": 319,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "e0260222"
         },
-        "content": "```"
+        "content": "- if `AMOUNT` is `0`, the budget alert will be disabled."
       },
       {
         "lineNumber": 320,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "e0260222"
         },
         "content": ""
       },
       {
         "lineNumber": 321,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "e0260222"
         },
-        "content": "### Exiting the program: `exit`"
+        "content": "Example of usage: `budget 5000`"
       },
       {
         "lineNumber": 322,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "e0260222"
         },
-        "content": "Exits the program. "
+        "content": ""
       },
       {
         "lineNumber": 323,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 324,
-        "author": {
-          "gitId": "daiweinus"
-        },
-        "content": "Format: `exit`"
-      },
-      {
-        "lineNumber": 325,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 326,
-        "author": {
-          "gitId": "e0260222"
-        },
-        "content": "Example of usage: `exit`"
-      },
-      {
-        "lineNumber": 327,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 328,
         "author": {
           "gitId": "e0260222"
         },
         "content": "Expected outcome:"
       },
       {
-        "lineNumber": 329,
+        "lineNumber": 324,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "e0260222"
+        },
+        "content": "```"
+      },
+      {
+        "lineNumber": 325,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "Got it! I have set your monthly budget to this amount:"
+      },
+      {
+        "lineNumber": 326,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "   $5000.00"
+      },
+      {
+        "lineNumber": 327,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "```"
+      },
+      {
+        "lineNumber": 328,
+        "author": {
+          "gitId": "e0260222"
         },
         "content": ""
+      },
+      {
+        "lineNumber": 329,
+        "author": {
+          "gitId": "daiweinus"
+        },
+        "content": "### Viewing monthly report: `report`"
       },
       {
         "lineNumber": 330,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "daiweinus"
         },
-        "content": "```"
+        "content": "Shows a report that summarises the incomes and expenses for a specified month."
       },
       {
         "lineNumber": 331,
-        "author": {
-          "gitId": "e0260222"
-        },
-        "content": "Bye! Hope to see you again soon."
-      },
-      {
-        "lineNumber": 332,
-        "author": {
-          "gitId": "e0260222"
-        },
-        "content": "```"
-      },
-      {
-        "lineNumber": 333,
         "author": {
           "gitId": "dgc5213"
         },
         "content": ""
       },
       {
-        "lineNumber": 334,
+        "lineNumber": 332,
+        "author": {
+          "gitId": "daiweinus"
+        },
+        "content": "Format: `report MONTH`"
+      },
+      {
+        "lineNumber": 333,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "### Saving the data"
+        "content": "- `MONTH` must be in yyyy-MM format. E.g. `2020-09`."
+      },
+      {
+        "lineNumber": 334,
+        "author": {
+          "gitId": "daiweinus"
+        },
+        "content": "- The summary report for the specified month will be displayed."
       },
       {
         "lineNumber": 335,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
-        "content": "There is no save command because any change "
+        "content": ""
       },
       {
         "lineNumber": 336,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "daiweinus"
         },
-        "content": "to the data will be automatically saved."
+        "content": "Example of usage: `report 2020-09`"
       },
       {
         "lineNumber": 337,
@@ -3029,166 +3085,453 @@
       {
         "lineNumber": 338,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
-        "content": "## FAQ"
+        "content": "Expected outcome:"
       },
       {
         "lineNumber": 339,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
-        "content": ""
+        "content": "```"
       },
       {
         "lineNumber": 340,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "daiweinus"
         },
-        "content": "**Q**:"
+        "content": "Here is your report for 2020-09 :"
       },
       {
         "lineNumber": 341,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "daiweinus"
         },
-        "content": "How do I transfer my data to another computer? "
+        "content": "Total Income: $27597.4"
       },
       {
         "lineNumber": 342,
         "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
-        "content": ""
+        "content": "Total Expense: $31.0"
       },
       {
         "lineNumber": 343,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "daiweinus"
         },
-        "content": "**A**: "
+        "content": "Balance: $27566.4"
       },
       {
         "lineNumber": 344,
         "author": {
-          "gitId": "e0260222"
-        },
-        "content": "Go to Money Tracker\u0027s root folder in the current computer."
-      },
-      {
-        "lineNumber": 345,
-        "author": {
-          "gitId": "e0260222"
-        },
-        "content": "Copy the data folder and paste it into the Money Tracker\u0027s root folder in the new computer."
-      },
-      {
-        "lineNumber": 346,
-        "author": {
-          "gitId": "e0260222"
-        },
-        "content": "Click `Yes` if the system prompts you for confirmation of overwriting."
-      },
-      {
-        "lineNumber": 347,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "## Command Summary"
-      },
-      {
-        "lineNumber": 348,
-        "author": {
-          "gitId": "-"
+          "gitId": "daiweinus"
         },
         "content": ""
       },
       {
-        "lineNumber": 349,
+        "lineNumber": 345,
+        "author": {
+          "gitId": "daiweinus"
+        },
+        "content": "This month has 30 days."
+      },
+      {
+        "lineNumber": 346,
+        "author": {
+          "gitId": "daiweinus"
+        },
+        "content": "Average Expense Per Day: $1.03"
+      },
+      {
+        "lineNumber": 347,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "* View help `help`"
+        "content": ""
+      },
+      {
+        "lineNumber": 348,
+        "author": {
+          "gitId": "daiweinus"
+        },
+        "content": "Highest Income: "
+      },
+      {
+        "lineNumber": 349,
+        "author": {
+          "gitId": "daiweinus"
+        },
+        "content": "  [I] SALARY $9000.00 on 1 Sep 2020 (Given $4000 bonus!)"
       },
       {
         "lineNumber": 350,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "* Add income category `addcati INCOME_CATEGORY`"
+        "content": ""
       },
       {
         "lineNumber": 351,
+        "author": {
+          "gitId": "daiweinus"
+        },
+        "content": "Frequency of Income Category:"
+      },
+      {
+        "lineNumber": 352,
+        "author": {
+          "gitId": "daiweinus"
+        },
+        "content": "  SALARY\u003d3,"
+      },
+      {
+        "lineNumber": 353,
+        "author": {
+          "gitId": "daiweinus"
+        },
+        "content": "  HONGBAO\u003d5"
+      },
+      {
+        "lineNumber": 354,
+        "author": {
+          "gitId": "daiweinus"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 355,
+        "author": {
+          "gitId": "daiweinus"
+        },
+        "content": "Frequency of Expense Category:"
+      },
+      {
+        "lineNumber": 356,
+        "author": {
+          "gitId": "daiweinus"
+        },
+        "content": "  DRINK\u003d4,"
+      },
+      {
+        "lineNumber": 357,
+        "author": {
+          "gitId": "daiweinus"
+        },
+        "content": "  FOOD\u003d2"
+      },
+      {
+        "lineNumber": 358,
+        "author": {
+          "gitId": "daiweinus"
+        },
+        "content": "```"
+      },
+      {
+        "lineNumber": 359,
+        "author": {
+          "gitId": "daiweinus"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 360,
+        "author": {
+          "gitId": "daiweinus"
+        },
+        "content": "### Exiting the program: `exit`"
+      },
+      {
+        "lineNumber": 361,
+        "author": {
+          "gitId": "daiweinus"
+        },
+        "content": "Exits the program. "
+      },
+      {
+        "lineNumber": 362,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 363,
+        "author": {
+          "gitId": "daiweinus"
+        },
+        "content": "Format: `exit`"
+      },
+      {
+        "lineNumber": 364,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 365,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "Example of usage: `exit`"
+      },
+      {
+        "lineNumber": 366,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 367,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "Expected outcome:"
+      },
+      {
+        "lineNumber": 368,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 369,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "```"
+      },
+      {
+        "lineNumber": 370,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "Bye! Hope to see you again soon."
+      },
+      {
+        "lineNumber": 371,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "```"
+      },
+      {
+        "lineNumber": 372,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 373,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "### Saving the data"
+      },
+      {
+        "lineNumber": 374,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "There is no save command because any change "
+      },
+      {
+        "lineNumber": 375,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "to the data will be automatically saved."
+      },
+      {
+        "lineNumber": 376,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 377,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "## FAQ"
+      },
+      {
+        "lineNumber": 378,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 379,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "**Q**:"
+      },
+      {
+        "lineNumber": 380,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "How do I transfer my data to another computer? "
+      },
+      {
+        "lineNumber": 381,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 382,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "**A**: "
+      },
+      {
+        "lineNumber": 383,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "Go to Money Tracker\u0027s root folder in the current computer."
+      },
+      {
+        "lineNumber": 384,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "Copy the data folder and paste it into the Money Tracker\u0027s root folder in the new computer."
+      },
+      {
+        "lineNumber": 385,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "Click `Yes` if the system prompts you for confirmation of overwriting."
+      },
+      {
+        "lineNumber": 386,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "## Command Summary"
+      },
+      {
+        "lineNumber": 387,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 388,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "* View help `help`"
+      },
+      {
+        "lineNumber": 389,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "* Add income category `addcati INCOME_CATEGORY`"
+      },
+      {
+        "lineNumber": 390,
         "author": {
           "gitId": "e0260222"
         },
         "content": "* Add expense category `addcate EXPENSE_CATEGORY`"
       },
       {
-        "lineNumber": 352,
+        "lineNumber": 391,
         "author": {
           "gitId": "e0260222"
         },
         "content": "* List income / expense categories `listcat [/tTYPE]`"
       },
       {
-        "lineNumber": 353,
-        "author": {
-          "gitId": "e0260222"
-        },
-        "content": "* Delete income / expense category `deletecat INDEX`"
-      },
-      {
-        "lineNumber": 354,
+        "lineNumber": 392,
         "author": {
           "gitId": "e0260222"
         },
         "content": "* Edit income / expense category `editcat INDEX /nNEW_NAME`"
       },
       {
-        "lineNumber": 355,
+        "lineNumber": 393,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "* Delete income / expense category `deletecat INDEX`"
+      },
+      {
+        "lineNumber": 394,
         "author": {
           "gitId": "dgc5213"
         },
         "content": "* Add income `addi /aAMOUNT /cINCOME_CATEGORY [/dDATE] [/eDESCRIPTION]`"
       },
       {
-        "lineNumber": 356,
+        "lineNumber": 395,
         "author": {
           "gitId": "dgc5213"
         },
         "content": "* Add expense `adde /aAMOUNT /cEXPENSE_CATEGORY [/dDATE] [/eDESCRIPTION]`"
       },
       {
-        "lineNumber": 357,
+        "lineNumber": 396,
         "author": {
           "gitId": "e0260222"
         },
         "content": "* List incomes / expenses `list [/tTYPE] [/mMONTH]`"
       },
       {
-        "lineNumber": 358,
+        "lineNumber": 397,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "* Edit income / expense `edit INDEX [/aAMOUNT] [/cCATEGORY] [/dDATE] [/eDESCRIPTION]`"
+      },
+      {
+        "lineNumber": 398,
         "author": {
           "gitId": "dgc5213"
         },
         "content": "* Delete income / expense `delete INDEX`"
       },
       {
-        "lineNumber": 359,
+        "lineNumber": 399,
         "author": {
           "gitId": "e0260222"
         },
         "content": "* Clear data `clear`"
       },
       {
-        "lineNumber": 360,
+        "lineNumber": 400,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "* Set monthly budget `budget AMOUNT`"
+      },
+      {
+        "lineNumber": 401,
         "author": {
           "gitId": "e0260222"
         },
         "content": "* View monthly report `report MONTH`"
       },
       {
-        "lineNumber": 361,
+        "lineNumber": 402,
         "author": {
           "gitId": "e0260222"
         },
@@ -3197,8 +3540,8 @@
     ],
     "authorContributionMap": {
       "daiweinus": 28,
-      "dgc5213": 189,
-      "e0260222": 117,
+      "dgc5213": 188,
+      "e0260222": 159,
       "-": 27
     }
   },

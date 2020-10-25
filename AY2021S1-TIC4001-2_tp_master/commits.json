@@ -1076,6 +1076,44 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-24",
+        "commitResults": [
+          {
+            "hash": "25a4f58f245ae37aef785bfc5ede140191b9f893",
+            "messageTitle": "Add edit command to UG",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 26,
+                "deletions": 21
+              }
+            }
+          },
+          {
+            "hash": "0919e97844614d11f1f2986b75267f3e8be064cf",
+            "messageTitle": "Add user stories to DG",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 28,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "542dceee30848796ec14b12f546cc330658e84ef",
+            "messageTitle": "Add budget command to UG",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 18,
+                "deletions": 0
+              }
+            }
+          }
+        ]
       }
     ],
     "Chenduo1412": [
@@ -1218,12 +1256,12 @@
       "test-code": 0
     },
     "dgc5213": {
-      "docs": 189,
+      "docs": 188,
       "functional-code": 418,
       "test-code": 36
     },
     "e0260222": {
-      "docs": 132,
+      "docs": 185,
       "functional-code": 2073,
       "test-code": 329,
       "other": 4
@@ -1235,10 +1273,10 @@
     }
   },
   "authorContributionVariance": {
-    "daiweinus": 2353.905,
-    "dgc5213": 34817.523,
-    "e0260222": 37635.664,
-    "Chenduo1412": 474.02533
+    "daiweinus": 2290.934,
+    "dgc5213": 33898.57,
+    "e0260222": 36667.33,
+    "Chenduo1412": 461.3673
   },
   "authorDisplayNameMap": {
     "daiweinus": "TIC4001-2 DAI .. WEI",

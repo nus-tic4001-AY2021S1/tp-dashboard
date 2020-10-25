@@ -1,6 +1,6 @@
 {
   "repoSenseVersion": "d5066b1b49",
-  "reportGeneratedTime": "Sat Oct 24 08:24:47 2020 UTC+08:00",
+  "reportGeneratedTime": "Sun Oct 25 08:26:59 2020 UTC+08:00",
   "reportGenerationTime": " 3.10 second(s)",
   "repos": [
     {
@@ -46,7 +46,7 @@
   ],
   "errorList": [],
   "sinceDate": "2020-08-14",
-  "untilDate": "2020-10-24",
+  "untilDate": "2020-10-25",
   "isSinceDateProvided": true,
   "isUntilDateProvided": false
 }
