@@ -96,6 +96,52 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-25",
+        "commitResults": [
+          {
+            "hash": "1f6f4464dc61c7d7a05c35ecb313ba96138a545e",
+            "messageTitle": "v3 report",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 266,
+                "deletions": 51
+              },
+              "docs": {
+                "insertions": 48,
+                "deletions": 10
+              }
+            }
+          },
+          {
+            "hash": "f6db8686b4a2b74dca2ac15decc0fec350318487",
+            "messageTitle": "develop guide",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 7,
+                "deletions": 7
+              },
+              "docs": {
+                "insertions": 3,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "bff6696af4c3d4f10f2c2283dc44b1beac29db4b",
+            "messageTitle": "fix report",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 5,
+                "deletions": 3
+              }
+            }
+          }
+        ]
       }
     ],
     "dgc5213": [
@@ -327,6 +373,37 @@
           {
             "hash": "383e100bd0626788bec21f2c010f94589a6237a6",
             "messageTitle": "Rewrite all List command functions v2. support multiple filters and conditions. Edit List User Guide",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-10-25",
+        "commitResults": [
+          {
+            "hash": "1d4ee3f17eb26c539dd0a57d8f742cec79757232",
+            "messageTitle": "Add DeveloperGuide",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 1,
+                "deletions": 1
+              },
+              "docs": {
+                "insertions": 5,
+                "deletions": 6
+              }
+            }
+          },
+          {
+            "hash": "8c8e104a55820c4f471c03791aa44edafbd0eac2",
+            "messageTitle": "Add DeveloperGuide v2",
             "messageBody": "",
             "fileTypesAndContributionMap": {
               "functional-code": {
@@ -1246,37 +1323,57 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-25",
+        "commitResults": [
+          {
+            "hash": "eb32441aa02ca097281e7d40dc5733d736c7c183",
+            "messageTitle": "Update the DG and",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 2,
+                "deletions": 2
+              },
+              "docs": {
+                "insertions": 3,
+                "deletions": 2
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFileTypeContributionMap": {
     "daiweinus": {
-      "docs": 28,
-      "functional-code": 303,
+      "docs": 69,
+      "functional-code": 525,
       "test-code": 0
     },
     "dgc5213": {
-      "docs": 188,
-      "functional-code": 418,
+      "docs": 197,
+      "functional-code": 417,
       "test-code": 36
     },
     "e0260222": {
-      "docs": 185,
-      "functional-code": 2073,
+      "docs": 171,
+      "functional-code": 2069,
       "test-code": 329,
       "other": 4
     },
     "Chenduo1412": {
-      "docs": 0,
+      "docs": 3,
       "functional-code": 103,
       "test-code": 0
     }
   },
   "authorContributionVariance": {
-    "daiweinus": 2290.934,
-    "dgc5213": 33898.57,
-    "e0260222": 36667.33,
-    "Chenduo1412": 461.3673
+    "daiweinus": 4344.244,
+    "dgc5213": 33443.383,
+    "e0260222": 36231.152,
+    "Chenduo1412": 455.35547
   },
   "authorDisplayNameMap": {
     "daiweinus": "TIC4001-2 DAI .. WEI",

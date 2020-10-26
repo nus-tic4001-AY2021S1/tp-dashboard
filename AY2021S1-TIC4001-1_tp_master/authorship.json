@@ -6022,49 +6022,49 @@
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "Impala36"
         },
-        "content": "import seedu.tracker.project.ProjectList;"
+        "content": "import seedu.tracker.project.Project;"
       },
       {
         "lineNumber": 4,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "import seedu.tracker.storage.Storage;"
+        "content": "import seedu.tracker.project.ProjectList;"
       },
       {
         "lineNumber": 5,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "import seedu.tracker.ui.Ui;"
+        "content": "import seedu.tracker.storage.Storage;"
       },
       {
         "lineNumber": 6,
         "author": {
           "gitId": "linqing42"
         },
-        "content": ""
+        "content": "import seedu.tracker.ui.Ui;"
       },
       {
         "lineNumber": 7,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "public class Find extends Command {"
+        "content": ""
       },
       {
         "lineNumber": 8,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "Impala36"
         },
-        "content": "    public static final String word \u003d \"--find\";"
+        "content": "import java.io.IOException;"
       },
       {
         "lineNumber": 9,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "Impala36"
         },
         "content": ""
       },
@@ -6073,91 +6073,91 @@
         "author": {
           "gitId": "linqing42"
         },
-        "content": "    public Find(String line, ProjectList projects, Ui ui, Storage storage) {"
+        "content": "public class Find extends Command {"
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "        super(line, projects, ui, storage);"
+        "content": "    public static final String word \u003d \"--find\";"
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "linqing42"
         },
-        "content": ""
+        "content": "    public Find(String line, ProjectList projects, Ui ui, Storage storage) {"
       },
       {
         "lineNumber": 14,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "    @Override"
+        "content": "        super(line, projects, ui, storage);"
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "    public void execute() {"
+        "content": "    }"
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "        String searchWord \u003d line.trim();"
+        "content": ""
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "        if (projects.size() \u003d\u003d 0) {"
+        "content": "    @Override"
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "            ui.printBorderline(\"It appears that you have no project! Perhaps you should start creating one?\");"
+        "content": "    public void execute() {"
       },
       {
         "lineNumber": 19,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "Impala36"
         },
-        "content": "            return;"
+        "content": "        String searchWord \u003d line.split(\"--replace\")[0].trim();"
       },
       {
         "lineNumber": 20,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "Impala36"
         },
-        "content": "        }"
+        "content": ""
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "        if (searchWord.isEmpty()) {"
+        "content": "        if (projects.size() \u003d\u003d 0) {"
       },
       {
         "lineNumber": 22,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "linqing42"
         },
-        "content": "            ui.printBorderline(\"Please type in the \u0027find KEYWORD\u0027 format!\");"
+        "content": "            ui.printBorderline(\"It appears that you have no project! Perhaps you should start creating one?\");"
       },
       {
         "lineNumber": 23,
@@ -6176,110 +6176,411 @@
       {
         "lineNumber": 25,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "Impala36"
         },
-        "content": "        String matches \u003d \"Here are the project that matches \u0027\" + searchWord + \"\u0027!\\n\";"
+        "content": "        if (line.isEmpty()) {"
       },
       {
         "lineNumber": 26,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "Impala36"
         },
-        "content": "        boolean hasMatch \u003d false;"
+        "content": "            ui.printBorderline(\"Please type in the \u0027--find KEYWORD\u0027 or \u0027--find KEYWORD --replace KEYWORD\u0027 format!\");"
       },
       {
         "lineNumber": 27,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "linqing42"
         },
-        "content": ""
+        "content": "            return;"
       },
       {
         "lineNumber": 28,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "        for (int i \u003d 0; i \u003c projects.size(); i++) {"
+        "content": "        }"
       },
       {
         "lineNumber": 29,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "Impala36"
         },
-        "content": "            if (projects.get(i).getDescription().toLowerCase().contains(searchWord)) {"
+        "content": ""
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "                matches \u003d matches.concat(i + 1 + \".\\n\" + ui.displayProject(projects.get(i)));"
+        "content": "        String matches \u003d \"Here are the project(s) that matches \u0027\" + searchWord + \"\u0027!\\n\";"
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "                hasMatch \u003d true;"
+        "content": "        boolean hasMatch \u003d false;"
       },
       {
         "lineNumber": 32,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "Impala36"
         },
-        "content": "            }"
+        "content": ""
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "        }"
+        "content": "        for (int i \u003d 0; i \u003c projects.size(); i++) {"
       },
       {
         "lineNumber": 34,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "Impala36"
         },
-        "content": "        if (!hasMatch) {"
+        "content": "            if (projects.get(i).getDescription().toLowerCase().contains(searchWord.toLowerCase())) {"
       },
       {
         "lineNumber": 35,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "Impala36"
         },
-        "content": "            matches \u003d \"It appears that are no matches for \u0027\" + searchWord + \"\u0027!\\n\" +"
+        "content": "                matches \u003d matches.concat(i + 1 + \".\\n\" + ui.displayProject(projects.get(i)));"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "                \"Perhaps you could try searching another word?\";"
+        "content": "                hasMatch \u003d true;"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "        }"
+        "content": "            }"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "        ui.printBorderline(matches);"
+        "content": "        }"
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "    }"
+        "content": "        if (!hasMatch) {"
       },
       {
         "lineNumber": 40,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "            matches \u003d \"It appears that are no matches for \u0027\" + searchWord + \"\u0027!\\n\" +"
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "                \"Perhaps you could try searching another word?\";"
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        if (hasMatch \u0026\u0026 line.contains(\"--replace\")) {"
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            findAndReplace();"
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            return;"
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 47,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "        ui.printBorderline(matches);"
+      },
+      {
+        "lineNumber": 48,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 49,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 50,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    private void findAndReplace() {"
+      },
+      {
+        "lineNumber": 51,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        try {"
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            String searchWord \u003d line.split(\"--replace\")[0].trim();"
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            String replaceWord \u003d line.split(\"--replace\")[1].trim();"
+      },
+      {
+        "lineNumber": 54,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            String changes \u003d \"Here are the project(s) that has the word \u0027\" + searchWord"
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "                + \"\u0027 replaced with \u0027\" + replaceWord + \"\u0027!\\n\";"
+      },
+      {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            for (int i \u003d 0; i \u003c projects.size(); i++) {"
+      },
+      {
+        "lineNumber": 58,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "                String line \u003d projects.get(i).toString();"
+      },
+      {
+        "lineNumber": 59,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "                String[] currentProject \u003d line.split(\"--\");"
+      },
+      {
+        "lineNumber": 60,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "                String newData \u003d \"\";"
+      },
+      {
+        "lineNumber": 61,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 62,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 63,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "                for (int j \u003d 1; j \u003c currentProject.length; j++) {"
+      },
+      {
+        "lineNumber": 64,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "                    String currentDescription \u003d currentProject[j].split(\" \", 2)[1];"
+      },
+      {
+        "lineNumber": 65,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 66,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "                    if (currentDescription.toLowerCase().contains(searchWord.toLowerCase())) {"
+      },
+      {
+        "lineNumber": 67,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "                        currentDescription \u003d currentProject[j].replace(searchWord, replaceWord);"
+      },
+      {
+        "lineNumber": 68,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "                        newData \u003d newData.concat(\"--\" + currentDescription + \" \").trim();"
+      },
+      {
+        "lineNumber": 69,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "                    } else {"
+      },
+      {
+        "lineNumber": 70,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "                        newData \u003d newData.concat(\"--\" + currentProject[j].trim());"
+      },
+      {
+        "lineNumber": 71,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "                    }"
+      },
+      {
+        "lineNumber": 72,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "                }"
+      },
+      {
+        "lineNumber": 73,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "                projects.set(i, new Project(newData));"
+      },
+      {
+        "lineNumber": 74,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "                changes \u003d changes.concat(i + 1 + \".\\n\" + ui.displayProject(projects.get(i)));"
+      },
+      {
+        "lineNumber": 75,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 76,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            storage.updateStorage(projects);"
+      },
+      {
+        "lineNumber": 77,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            ui.printBorderline(changes);"
+      },
+      {
+        "lineNumber": 78,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 79,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        } catch (IOException e) {"
+      },
+      {
+        "lineNumber": 80,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "            ui.printBorderline(e.getMessage());"
+      },
+      {
+        "lineNumber": 81,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 82,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 83,
         "author": {
           "gitId": "binbinhui"
         },
@@ -6287,8 +6588,8 @@
       }
     ],
     "authorContributionMap": {
-      "linqing42": 34,
-      "Impala36": 3,
+      "linqing42": 30,
+      "Impala36": 50,
       "binbinhui": 3
     }
   },
@@ -10423,502 +10724,509 @@
       {
         "lineNumber": 49,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "Impala36"
         },
-        "content": "                + \" - Exit my program             | \" + colorGreen(\"--exit or hit Enter\");"
+        "content": "                + \" - Find and replace word(s)    | \" + colorGreen(\"--find KEYWORD --replace KEYWORD\\n\")"
       },
       {
         "lineNumber": 50,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "linqing42"
         },
-        "content": "        printBorderline(help);"
+        "content": "                + \" - Exit my program             | \" + colorGreen(\"--exit or hit Enter\");"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    }"
+        "content": "        printBorderline(help);"
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "Impala36"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    public void printFarewell() {"
+        "content": ""
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        String farewell \u003d \"Bye. Hope to see you again soon!\";"
+        "content": "    public void printFarewell() {"
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        printBorderline(farewell);"
+        "content": "        String farewell \u003d \"Bye. Hope to see you again soon!\";"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    }"
+        "content": "        printBorderline(farewell);"
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "Impala36"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    public void printProjectCreated(ProjectList projects) {"
+        "content": ""
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        String added \u003d \"Great! You have created a proper project as shown below:\\n\""
+        "content": "    public void printProjectCreated(ProjectList projects) {"
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "                + colorGreen(displayProject(projects.get(projects.size() - 1))"
+        "content": "        String added \u003d \"Great! You have created a proper project as shown below:\\n\""
       },
       {
         "lineNumber": 61,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "                + \"\\nWe now have \" + projects.size() + \" project(s) in your list!\");"
+        "content": "                + colorGreen(displayProject(projects.get(projects.size() - 1))"
       },
       {
         "lineNumber": 62,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        printBorderline(added);"
+        "content": "                + \"\\nWe now have \" + projects.size() + \" project(s) in your list!\");"
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    }"
+        "content": "        printBorderline(added);"
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "Impala36"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 65,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    public void printProjectRemoved(ProjectList projects, int index) {"
+        "content": ""
       },
       {
         "lineNumber": 66,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        String added \u003d \"Okay! We have removed the project as shown below:\\n\""
+        "content": "    public void printProjectRemoved(ProjectList projects, int index) {"
       },
       {
         "lineNumber": 67,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "                + colorRed(displayProject(projects.get(index - 1))"
+        "content": "        String added \u003d \"Okay! We have removed the project as shown below:\\n\""
       },
       {
         "lineNumber": 68,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "                + colorGreen(\"\\nWe now have \" + (projects.size() - 1) + \" project(s) in your list!\"));"
+        "content": "                + colorRed(displayProject(projects.get(index - 1))"
       },
       {
         "lineNumber": 69,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        printBorderline(added);"
+        "content": "                + colorGreen(\"\\nWe now have \" + (projects.size() - 1) + \" project(s) in your list!\"));"
       },
       {
         "lineNumber": 70,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    }"
+        "content": "        printBorderline(added);"
       },
       {
         "lineNumber": 71,
         "author": {
           "gitId": "Impala36"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 72,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    public void printInvalidCommand() {"
+        "content": ""
       },
       {
         "lineNumber": 73,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        String message \u003d \"It seems that you have typed something out of my unfortunately\\n\""
+        "content": "    public void printInvalidCommand() {"
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "                + \"limited vocabulary. Can you try again?\";"
+        "content": "        String message \u003d \"It seems that you have typed something out of my unfortunately\\n\""
       },
       {
         "lineNumber": 75,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        printBorderline(message);"
+        "content": "                + \"limited vocabulary. Can you try again?\";"
       },
       {
         "lineNumber": 76,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    }"
+        "content": "        printBorderline(message);"
       },
       {
         "lineNumber": 77,
         "author": {
           "gitId": "Impala36"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 78,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    public void printNoFileFound() {"
+        "content": ""
       },
       {
         "lineNumber": 79,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        String message \u003d \"It looks like it\u0027s your first time as I could not find any existing project file.\\n\""
+        "content": "    public void printNoFileFound() {"
       },
       {
         "lineNumber": 80,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "                + \"Get started by creating a project!\";"
+        "content": "        String message \u003d \"It looks like it\u0027s your first time as I could not find any existing project file.\\n\""
       },
       {
         "lineNumber": 81,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        printBorderline(message);"
+        "content": "                + \"Get started by creating a project!\";"
       },
       {
         "lineNumber": 82,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    }"
+        "content": "        printBorderline(message);"
       },
       {
         "lineNumber": 83,
         "author": {
           "gitId": "Impala36"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 84,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    public void printFileExists() {"
+        "content": ""
       },
       {
         "lineNumber": 85,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        String message \u003d \"An existing project file is found!\";"
+        "content": "    public void printFileExists() {"
       },
       {
         "lineNumber": 86,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        printBorderline(message);"
+        "content": "        String message \u003d \"An existing project file is found!\";"
       },
       {
         "lineNumber": 87,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    }"
+        "content": "        printBorderline(message);"
       },
       {
         "lineNumber": 88,
         "author": {
           "gitId": "Impala36"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 89,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 90,
         "author": {
           "gitId": "linqing42"
         },
         "content": "    public void printAddMessage(ProjectList projects) {"
       },
       {
-        "lineNumber": 90,
+        "lineNumber": 91,
         "author": {
           "gitId": "Impala36"
         },
         "content": "        printBorderline(\"Got it. I\u0027ve added this information into the project. \\n\");"
       },
       {
-        "lineNumber": 91,
+        "lineNumber": 92,
         "author": {
           "gitId": "linqing42"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 92,
+        "lineNumber": 93,
         "author": {
           "gitId": "Impala36"
         },
         "content": ""
       },
       {
-        "lineNumber": 93,
+        "lineNumber": 94,
         "author": {
           "gitId": "linqing42"
         },
         "content": "    public void printReplaceMessage(ProjectList projects) {"
       },
       {
-        "lineNumber": 94,
+        "lineNumber": 95,
         "author": {
           "gitId": "Impala36"
         },
         "content": "        printBorderline(\"Got it. I\u0027ve edited the information in the project. \\n\");"
       },
       {
-        "lineNumber": 95,
+        "lineNumber": 96,
         "author": {
           "gitId": "linqing42"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 96,
+        "lineNumber": 97,
         "author": {
           "gitId": "linqing42"
         },
         "content": ""
-      },
-      {
-        "lineNumber": 97,
-        "author": {
-          "gitId": "Impala36"
-        },
-        "content": "    public String displayProject(Project project) {"
       },
       {
         "lineNumber": 98,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        String[] projectDetails \u003d project.getDescription().split(\"--\");"
+        "content": "    public String displayProject(Project project) {"
       },
       {
         "lineNumber": 99,
         "author": {
-          "gitId": "Yiheng0410"
+          "gitId": "Impala36"
         },
-        "content": "        String daysLeft\u003dnull;"
+        "content": "        String[] projectDetails \u003d project.getDescription().split(\"--\");"
       },
       {
         "lineNumber": 100,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": ""
+        "content": "        String daysLeft\u003dnull;"
       },
       {
         "lineNumber": 101,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "        try {"
+        "content": ""
       },
       {
         "lineNumber": 102,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "            daysLeft \u003d new DateConverter(projectDetails[6].split(\" \", 2)[1]).getDaysLeft();"
+        "content": "        try {"
       },
       {
         "lineNumber": 103,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": ""
+        "content": "            daysLeft \u003d new DateConverter(projectDetails[6].split(\" \", 2)[1]).getDaysLeft();"
       },
       {
         "lineNumber": 104,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "        } catch ( ParseException e) {"
+        "content": ""
       },
       {
         "lineNumber": 105,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "            printBorderline(e.getMessage());"
+        "content": "        } catch ( ParseException e) {"
       },
       {
         "lineNumber": 106,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "        }"
+        "content": "            printBorderline(e.getMessage());"
       },
       {
         "lineNumber": 107,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": ""
+        "content": "        }"
       },
       {
         "lineNumber": 108,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "Yiheng0410"
         },
-        "content": "        return \"Project Name: \" + projectDetails[1].split(\" \", 2)[1] + \"\\n\""
+        "content": ""
       },
       {
         "lineNumber": 109,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "                + \"Project Description: \" + projectDetails[2].split(\" \", 2)[1] + \"\\n\""
+        "content": "        return \"Project Name: \" + projectDetails[1].split(\" \", 2)[1] + \"\\n\""
       },
       {
         "lineNumber": 110,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "                + \"Project Team Members: \" + projectDetails[3].split(\" \", 2)[1] + \"\\n\""
+        "content": "                + \"Project Description: \" + projectDetails[2].split(\" \", 2)[1] + \"\\n\""
       },
       {
         "lineNumber": 111,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "Impala36"
         },
-        "content": "                + \"Client: \" + projectDetails[4].split(\" \", 2)[1] + \"\\n\""
+        "content": "                + \"Project Team Members: \" + projectDetails[3].split(\" \", 2)[1] + \"\\n\""
       },
       {
         "lineNumber": 112,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "                + \"Start Date: \" + projectDetails[5].split(\" \", 2)[1] + \"\\n\""
+        "content": "                + \"Client: \" + projectDetails[4].split(\" \", 2)[1] + \"\\n\""
       },
       {
         "lineNumber": 113,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "                + \"Due Date: \" + projectDetails[6].split(\" \", 2)[1] + \"\\n\""
+        "content": "                + \"Start Date: \" + projectDetails[5].split(\" \", 2)[1] + \"\\n\""
       },
       {
         "lineNumber": 114,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "                + \"Person in Charge: \" + projectDetails[7].split(\" \", 2)[1] + \"\\n\""
+        "content": "                + \"Due Date: \" + projectDetails[6].split(\" \", 2)[1] + \"\\n\""
       },
       {
         "lineNumber": 115,
         "author": {
-          "gitId": "Yiheng0410"
+          "gitId": "linqing42"
         },
-        "content": "                + \"Email: \" + projectDetails[8].split(\" \", 2)[1] + \"\\n\""
+        "content": "                + \"Person in Charge: \" + projectDetails[7].split(\" \", 2)[1] + \"\\n\""
       },
       {
         "lineNumber": 116,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "                + \"Duration: \" + projectDetails[9].split(\" \", 2)[1] + \"\\n\""
+        "content": "                + \"Email: \" + projectDetails[8].split(\" \", 2)[1] + \"\\n\""
       },
       {
         "lineNumber": 117,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "                + \"Days Left: \" + daysLeft + \"\\n\""
+        "content": "                + \"Duration: \" + projectDetails[9].split(\" \", 2)[1] + \"\\n\""
       },
       {
         "lineNumber": 118,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "                + \"Status: \" + projectDetails[10].split(\" \", 2)[1] + \"\\n\";"
+        "content": "                + \"Days Left: \" + daysLeft + \"\\n\""
       },
       {
         "lineNumber": 119,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "                + \"Status: \" + projectDetails[10].split(\" \", 2)[1] + \"\\n\";"
+      },
+      {
+        "lineNumber": 120,
         "author": {
           "gitId": "linqing42"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 120,
+        "lineNumber": 121,
         "author": {
           "gitId": "Impala36"
         },
@@ -10927,7 +11235,7 @@
     ],
     "authorContributionMap": {
       "linqing42": 15,
-      "Impala36": 88,
+      "Impala36": 89,
       "Yiheng0410": 17
     }
   },

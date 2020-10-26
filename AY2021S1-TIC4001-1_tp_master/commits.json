@@ -588,6 +588,22 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-26",
+        "commitResults": [
+          {
+            "hash": "3cf319a8001187e7106e1421d6a7224a506d8503",
+            "messageTitle": "Added find and replace to the find command",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 49,
+                "deletions": 5
+              }
+            }
+          }
+        ]
       }
     ],
     "binbinhui": [
@@ -821,7 +837,7 @@
   "authorFileTypeContributionMap": {
     "linqing42": {
       "docs": 149,
-      "functional-code": 140,
+      "functional-code": 136,
       "test-code": 0
     },
     "Yiheng0410": {
@@ -831,7 +847,7 @@
     },
     "Impala36": {
       "docs": 72,
-      "functional-code": 527,
+      "functional-code": 575,
       "test-code": 3,
       "other": 5
     },
@@ -843,10 +859,10 @@
     }
   },
   "authorContributionVariance": {
-    "linqing42": 1755.4716,
-    "Yiheng0410": 607.5084,
-    "Impala36": 7246.8213,
-    "binbinhui": 16086.526
+    "linqing42": 1710.1696,
+    "Yiheng0410": 591.8451,
+    "Impala36": 7072.5156,
+    "binbinhui": 15664.238
   },
   "authorDisplayNameMap": {
     "linqing42": "TIC4001-1 LIN ..QING",

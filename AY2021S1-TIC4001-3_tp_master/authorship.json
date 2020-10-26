@@ -548,9 +548,9 @@
       {
         "lineNumber": 25,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "ZhengShijieNUS"
         },
-        "content": "|* * * |New user|view an issue that is based on the ticket number|see its progress|"
+        "content": "|* * * |New user|view an issue that is based on the ticket number|see its progress.|"
       },
       {
         "lineNumber": 26,
@@ -562,9 +562,9 @@
       {
         "lineNumber": 27,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "ZhengShijieNUS"
         },
-        "content": "|* * * |New user|list all issues currently in the ITLogger|find all of the recorded issues currently in ITLogger|"
+        "content": "|* * * |New user|list all issues currently in the ITLogger|find all of the recorded issues currently in ITLogger.|"
       },
       {
         "lineNumber": 28,
@@ -723,9 +723,9 @@
       {
         "lineNumber": 50,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "tototto"
         },
-        "content": "* *Mainstream OS:* Windows, Linux, Unix, OS-X"
+        "content": "* *Mainstream OS:* Windows, Linux, Unix, OS-X."
       },
       {
         "lineNumber": 51,
@@ -757,8 +757,422 @@
       }
     ],
     "authorContributionMap": {
+      "ZhengShijieNUS": 2,
+      "tototto": 1,
       "-": 26,
-      "pigoliver": 28
+      "pigoliver": 25
+    }
+  },
+  {
+    "path": "docs/UserGuide.md",
+    "fileType": "docs",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "# User Guide"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "## Introduction"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "IT Logger is a desktop app for managing program issues, and tracking issue resolution progression via a Command Line Interface (CLI)."
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "## Quick Start"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "1. Ensure you have Java 11 or above installed in your Computer."
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "2. Download the latest ITlogger.jar."
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "3. Copy the file to the folder you want to use as the home folder for your IT Logger."
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "4. Open the program which should appear in the command prompt with java -jar [Directory of the ITlogger.jar file]."
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "## Features "
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "|Action| Command Summary|"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "|--------|----------|"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "|view | View the issue that is stated with Ticket Number.|"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": "|add  | Adding a new issue.|"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": "|update |Update an existing issue.|"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "|list |Listing all issues|"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "|search |Search the issue with conditions|"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "|delete |Delete an issue that is stated with Ticket Number|"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "|help |Display the Help Guide|"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "|exit |Exit the ITlogger program|"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "|Nil. Not required. If text file itLogger.txt is found, it will preload. |Load issues from text files when program starts|"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "|exit|Save issues to itLogger.txt when program exits. If none exists, it will create one.|"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "### Command Summary"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "-"
+        },
+        "content": " "
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "|Action|Format, Examples|"
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "|--------|----------|"
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "|add|add t/TITLE s/STATUS sv/SEVERITY dl/DEADLINE o/OWNER\u003cbr\u003eE.g. add t/cannot submit s/assigned sv/1 dl/20-10-2020 o/Jack |"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "|update|Update procedure and cmd format:\u003cbr\u003eUsing the following cmd to enter updating mode:\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;update u/1\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;update u/0 \u003cbr\u003eUpdate the content with the following format: \u003cbr\u003eupdate t/ExampleTitle\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;update sv/2\u003cbr\u003eupdate s/assigned\u003cbr\u003eupdate o/Peter\u003cbr\u003eOnce finish updating, using:\u003cbr\u003e\u0026nbsp;\u0026nbsp;\u0026nbsp;\u0026nbsp;update e/exit \u003cbr\u003eto exit update|"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "|view|view v/TICKET\u003cbr\u003eE.g. view v/13451|"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "|delete|delete d/TICKET\u003cbr\u003eE.g. delete d/32231|"
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "|list|list|"
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "|help|help|"
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "|search|search /title /\u003ctitle\u003e\u003cbr\u003esearch /status /\u003cstatus\u003e\u003cbr\u003esearch /severity /\u003cseverityNum\u003e\u003cbr\u003esearch /owner /\u003cowner\u003e\u003cbr\u003esearch /deadline /\u003cdeadlineDateString(dd-MM-yyyy)\u003e|"
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "|exit|exit|"
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 47,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "## FAQ"
+      },
+      {
+        "lineNumber": 48,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 49,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "**Q**: How do I transfer my data to another computer? "
+      },
+      {
+        "lineNumber": 50,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 51,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "**A**: {your answer here}."
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "## Command Summary"
+      },
+      {
+        "lineNumber": 54,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "{Give a \u0027cheat sheet\u0027 of commands here}."
+      },
+      {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "* Add todo `todo n/TODO_NAME d/DEADLINE`"
+      }
+    ],
+    "authorContributionMap": {
+      "ZhengShijieNUS": 2,
+      "tototto": 2,
+      "-": 27,
+      "JanuariusJang": 1,
+      "pigoliver": 25
     }
   },
   {

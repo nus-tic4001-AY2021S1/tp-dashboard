@@ -97,6 +97,33 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-25",
+        "commitResults": [
+          {
+            "hash": "228dd69e4a7aa82f2b9920b13dd63903d230c49e",
+            "messageTitle": "update with full stop",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 2,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "20720cb83c47f759b39356bcf7a559ba8b5bbe5b",
+            "messageTitle": "update with full stop to DG",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 2,
+                "deletions": 2
+              }
+            }
+          }
+        ]
       }
     ],
     "tototto": [
@@ -296,6 +323,44 @@
               "functional-code": {
                 "insertions": 0,
                 "deletions": 23
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-10-25",
+        "commitResults": [
+          {
+            "hash": "7d477fccba7018ebfad211dbb40e6ee086251182",
+            "messageTitle": "Update DeveloperGuide.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "8cad7699e6247d7f5807d039f5de2a57256c43b4",
+            "messageTitle": "Update UserGuide.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "e6a10c6a0e42cf7cbb71576b076cfd167497e204",
+            "messageTitle": "added fullstop",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
               }
             }
           }
@@ -526,6 +591,22 @@
             "messageBody": "",
             "fileTypesAndContributionMap": {
               "functional-code": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-10-25",
+        "commitResults": [
+          {
+            "hash": "5e26860056abdd49edc7609c4c70a7d3489037f1",
+            "messageTitle": "Update UserGuide.md",
+            "messageBody": "edited formatting.",
+            "fileTypesAndContributionMap": {
+              "docs": {
                 "insertions": 1,
                 "deletions": 1
               }
@@ -831,38 +912,54 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-25",
+        "commitResults": [
+          {
+            "hash": "2aa0b12300f3f743ca0b8a8c6412a8d59d12f1e9",
+            "messageTitle": "Team Draft for UG",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 32,
+                "deletions": 17
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFileTypeContributionMap": {
     "ZhengShijieNUS": {
-      "docs": 0,
+      "docs": 4,
       "functional-code": 120,
       "test-code": 103
     },
     "tototto": {
-      "docs": 0,
+      "docs": 3,
       "functional-code": 462,
       "test-code": 88
     },
     "JanuariusJang": {
-      "docs": 0,
+      "docs": 1,
       "functional-code": 204,
       "test-code": 45,
       "other": 3
     },
     "pigoliver": {
-      "docs": 28,
+      "docs": 50,
       "functional-code": 318,
       "test-code": 45,
       "other": 47
     }
   },
   "authorContributionVariance": {
-    "ZhengShijieNUS": 437.1013,
-    "tototto": 2149.9973,
-    "JanuariusJang": 644.1019,
-    "pigoliver": 2942.9846
+    "ZhengShijieNUS": 425.5676,
+    "tototto": 2093.137,
+    "JanuariusJang": 626.86816,
+    "pigoliver": 2884.381
   },
   "authorDisplayNameMap": {
     "ZhengShijieNUS": "TIC4001-3 ZHEN..IJIE",
