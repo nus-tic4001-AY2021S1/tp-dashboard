@@ -413,6 +413,37 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-26",
+        "commitResults": [
+          {
+            "hash": "5d1ce6ad5ec75ed64f014304a581535c5b197fdf",
+            "messageTitle": "Add Testing examples, assert command",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 5,
+                "deletions": 3
+              },
+              "test-code": {
+                "insertions": 100,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "6f3bd34a3dea0352be6dcae5cba1cf7f9ede43bb",
+            "messageTitle": "Add Testing examples, assert command v2",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          }
+        ]
       }
     ],
     "e0260222": [
@@ -1354,12 +1385,12 @@
     },
     "dgc5213": {
       "docs": 197,
-      "functional-code": 417,
-      "test-code": 36
+      "functional-code": 420,
+      "test-code": 136
     },
     "e0260222": {
       "docs": 171,
-      "functional-code": 2069,
+      "functional-code": 2068,
       "test-code": 329,
       "other": 4
     },
@@ -1370,10 +1401,10 @@
     }
   },
   "authorContributionVariance": {
-    "daiweinus": 4344.244,
-    "dgc5213": 33443.383,
-    "e0260222": 36231.152,
-    "Chenduo1412": 455.35547
+    "daiweinus": 4288.37,
+    "dgc5213": 33055.434,
+    "e0260222": 35805.01,
+    "Chenduo1412": 449.4472
   },
   "authorDisplayNameMap": {
     "daiweinus": "TIC4001-2 DAI .. WEI",

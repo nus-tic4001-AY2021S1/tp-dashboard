@@ -123,6 +123,33 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-25",
+        "commitResults": [
+          {
+            "hash": "b146491b5fe96fea656092396dfaceeecae4b2d4",
+            "messageTitle": "Added Budget Input and View Function",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 232,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "771f31a2ba4c4a5d1c568f5a0d6d9f8f84af67b8",
+            "messageTitle": "Rebuild with New Intellij Version",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 0,
+                "deletions": 2
+              }
+            }
+          }
+        ]
       }
     ],
     "skyventus": [
@@ -642,7 +669,7 @@
   "authorFileTypeContributionMap": {
     "Chilaiping": {
       "docs": 0,
-      "functional-code": 35,
+      "functional-code": 271,
       "test-code": 41
     },
     "skyventus": {
@@ -652,12 +679,12 @@
     },
     "timmyly7": {
       "docs": 0,
-      "functional-code": 343,
+      "functional-code": 338,
       "test-code": 148
     },
     "adi-kd0021": {
       "docs": 0,
-      "functional-code": 507,
+      "functional-code": 506,
       "test-code": 0,
       "other": 9
     },
@@ -668,7 +695,7 @@
     }
   },
   "authorContributionVariance": {
-    "Chilaiping": 66.49917,
+    "Chilaiping": 808.2893,
     "skyventus": 1024.0635,
     "timmyly7": 2277.914,
     "adi-kd0021": 2754.5269,

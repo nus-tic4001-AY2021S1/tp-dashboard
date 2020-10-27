@@ -602,6 +602,25 @@
                 "deletions": 5
               }
             }
+          },
+          {
+            "hash": "4333553a812bf983e76b44d5dd1c6ab36e561352",
+            "messageTitle": "Added Equivalence Partitioning JUnit tests for Edit, Delete \u0026 Find Fixed --delete all and project index",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 78,
+                "deletions": 52
+              },
+              "other": {
+                "insertions": 3,
+                "deletions": 0
+              },
+              "test-code": {
+                "insertions": 140,
+                "deletions": 0
+              }
+            }
           }
         ]
       }
@@ -837,7 +856,7 @@
   "authorFileTypeContributionMap": {
     "linqing42": {
       "docs": 149,
-      "functional-code": 136,
+      "functional-code": 135,
       "test-code": 0
     },
     "Yiheng0410": {
@@ -847,13 +866,13 @@
     },
     "Impala36": {
       "docs": 72,
-      "functional-code": 575,
-      "test-code": 3,
-      "other": 5
+      "functional-code": 613,
+      "test-code": 143,
+      "other": 8
     },
     "binbinhui": {
       "docs": 10,
-      "functional-code": 266,
+      "functional-code": 257,
       "test-code": 1,
       "other": 18
     }
@@ -861,7 +880,7 @@
   "authorContributionVariance": {
     "linqing42": 1710.1696,
     "Yiheng0410": 591.8451,
-    "Impala36": 7072.5156,
+    "Impala36": 8325.492,
     "binbinhui": 15664.238
   },
   "authorDisplayNameMap": {
