@@ -291,6 +291,33 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-27",
+        "commitResults": [
+          {
+            "hash": "b2a9738d27bee3d5bf6e929de6f51dcf4b5d6638",
+            "messageTitle": "[assertion] adding assertion to all the class.",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 40,
+                "deletions": 7
+              }
+            }
+          },
+          {
+            "hash": "025f745a939161ad3fd379a2604fe26c3260699c",
+            "messageTitle": "[assertion] adding assertion messages.",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 9,
+                "deletions": 7
+              }
+            }
+          }
+        ]
       }
     ],
     "timmyly7": [
@@ -412,6 +439,26 @@
               "test-code": {
                 "insertions": 7,
                 "deletions": 5
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-10-27",
+        "commitResults": [
+          {
+            "hash": "3509c90e04f37a4f5bd5209b61905e8422334ca7",
+            "messageTitle": "Update view transaction to view with time period",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 92,
+                "deletions": 34
+              },
+              "test-code": {
+                "insertions": 2,
+                "deletions": 2
               }
             }
           }
@@ -613,6 +660,86 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-27",
+        "commitResults": [
+          {
+            "hash": "7cdbd4368c58ddd7aa3d6939c5309e34a764d87b",
+            "messageTitle": "Added Category feature Adjusted Storage / UpdateCommand to support Expense Categories",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 80,
+                "deletions": 50
+              }
+            }
+          },
+          {
+            "hash": "2695d09dd2bfa763c7f07bce24110c16ef582a3a",
+            "messageTitle": "Added Category feature Adjusted Storage / UpdateCommand to support Expense Categories Adjusted a bunch of other stuffs",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 55,
+                "deletions": 35
+              }
+            }
+          },
+          {
+            "hash": "f573866e87dd21f8c4f79c3ae56d48fa22f42081",
+            "messageTitle": "Fixed CheckStyle and tp.test",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 11,
+                "deletions": 8
+              },
+              "test-code": {
+                "insertions": 16,
+                "deletions": 7
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-10-28",
+        "commitResults": [
+          {
+            "hash": "407424fbbb126bca55eb38a61f446ef5a8f12aee",
+            "messageTitle": "Added view category filter",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 76,
+                "deletions": 44
+              }
+            }
+          },
+          {
+            "hash": "2441dd3b63ba4be2566a7bc5cfe56c446ab2a301",
+            "messageTitle": "Fixed CheckStyle",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 34,
+                "deletions": 35
+              }
+            }
+          },
+          {
+            "hash": "4348f845d5e9605f5d182d3093803d5d07b90a0e",
+            "messageTitle": "Update Parser.java",
+            "messageBody": "Shortened line 45 to fit max 120 chars length.",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 2,
+                "deletions": 1
+              }
+            }
+          }
+        ]
       }
     ],
     "e0261618": [
@@ -663,43 +790,64 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-27",
+        "commitResults": [
+          {
+            "hash": "b533e2c138bc2c5f4a7acdd8f03d8e3e09e03410",
+            "messageTitle": "Added report generation function",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 231,
+                "deletions": 3
+              },
+              "other": {
+                "insertions": 3,
+                "deletions": 0
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFileTypeContributionMap": {
     "Chilaiping": {
       "docs": 0,
-      "functional-code": 271,
-      "test-code": 41
+      "functional-code": 259,
+      "test-code": 40
     },
     "skyventus": {
       "docs": 0,
-      "functional-code": 253,
-      "test-code": 153
+      "functional-code": 272,
+      "test-code": 152
     },
     "timmyly7": {
       "docs": 0,
-      "functional-code": 338,
-      "test-code": 148
+      "functional-code": 387,
+      "test-code": 143
     },
     "adi-kd0021": {
       "docs": 0,
-      "functional-code": 506,
-      "test-code": 0,
+      "functional-code": 639,
+      "test-code": 16,
       "other": 9
     },
     "e0261618": {
       "docs": 63,
-      "functional-code": 32,
-      "test-code": 0
+      "functional-code": 247,
+      "test-code": 0,
+      "other": 3
     }
   },
   "authorContributionVariance": {
-    "Chilaiping": 808.2893,
-    "skyventus": 1024.0635,
-    "timmyly7": 2277.914,
-    "adi-kd0021": 2754.5269,
-    "e0261618": 200.61133
+    "Chilaiping": 777.29004,
+    "skyventus": 1025.7424,
+    "timmyly7": 2379.1711,
+    "adi-kd0021": 3873.0884,
+    "e0261618": 909.405
   },
   "authorDisplayNameMap": {
     "Chilaiping": "TIC4001-4 CHI ..PING",

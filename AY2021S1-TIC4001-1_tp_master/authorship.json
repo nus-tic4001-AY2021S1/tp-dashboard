@@ -889,101 +889,122 @@
         "author": {
           "gitId": "linqing42"
         },
-        "content": ""
+        "content": "|v2.0|project manager|receive an email notification|remind myself|"
       },
       {
         "lineNumber": 35,
         "author": {
-          "gitId": "-"
+          "gitId": "linqing42"
         },
-        "content": ""
+        "content": "|v2.0|project manager|have duration of project|know the how many employees need to assign to this project and save manpower|"
       },
       {
         "lineNumber": 36,
         "author": {
-          "gitId": "-"
+          "gitId": "linqing42"
         },
-        "content": "## Non-Functional Requirements"
+        "content": "|v2.0|project manager|add a status of project|know how many project still in progress or completed|"
       },
       {
         "lineNumber": 37,
         "author": {
-          "gitId": "-"
+          "gitId": "linqing42"
         },
-        "content": ""
+        "content": "|v2.0|project manager|add a count down day for project|remind myself|"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "* Should work on any Mainstream OS as long as it has Java **11** or above installed."
+        "content": "|v2.0|project manager|know the client|know suitable communication skill with the client|"
       },
       {
         "lineNumber": 39,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "## Non-Functional Requirements"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "* Should work on any Mainstream OS as long as it has Java **11** or above installed."
+      },
+      {
+        "lineNumber": 42,
         "author": {
           "gitId": "linqing42"
         },
         "content": "* *User-Friendly*: there is nice and helpful UI messages should be very easy for the users to use."
       },
       {
-        "lineNumber": 40,
+        "lineNumber": 43,
         "author": {
           "gitId": "linqing42"
         },
         "content": "* *User-Friendly*: the way to display the project should be easier to read."
       },
       {
-        "lineNumber": 41,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 42,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "## Glossary"
-      },
-      {
-        "lineNumber": 43,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
         "lineNumber": 44,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "-"
         },
-        "content": "* *Mainstream OS * - Windows, Mac and Linux"
+        "content": ""
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "## Glossary"
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "-"
         },
-        "content": "## Instructions for manual testing"
+        "content": ""
       },
       {
         "lineNumber": 47,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "* *Mainstream OS * - Windows, Mac and Linux"
+      },
+      {
+        "lineNumber": 48,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 48,
+        "lineNumber": 49,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "## Instructions for manual testing"
+      },
+      {
+        "lineNumber": 50,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 51,
         "author": {
           "gitId": "-"
         },
@@ -991,8 +1012,8 @@
       }
     ],
     "authorContributionMap": {
-      "linqing42": 20,
-      "-": 28
+      "linqing42": 24,
+      "-": 27
     }
   },
   {
@@ -1279,16 +1300,16 @@
       {
         "lineNumber": 31,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "linqing42"
         },
-        "content": " - Create a new project        | --project --name INPUT --description INPUT -- client INPUT --involve INPUT --startdate dd/mm/yyyy --duedate dd/mm/yyyy --incharge INPUT"
+        "content": " - Create a new project        | --project --name INPUT --description INPUT -- client INPUT --involve INPUT --startdate dd/mm/yyyy --duedate dd/mm/yyyy --incharge INPUT --email INPUT"
       },
       {
         "lineNumber": 32,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "linqing42"
         },
-        "content": " - Replace a project detail    | --replace INDEX --commandName INPUT"
+        "content": " - Edit a project detail       | --edit INDEX --commandName INPUT"
       },
       {
         "lineNumber": 33,
@@ -1391,9 +1412,9 @@
       {
         "lineNumber": 47,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "linqing42"
         },
-        "content": "\u003cbr/\u003e `--project --name Clinical Trials --description regarding hospital task --involve Tom, Lucy --startdate 11/11/2020 --duedate 12/12/2020 --incharge Derek`"
+        "content": "\u003cbr/\u003e `--project --name Clinical Trials --description regarding hospital task --involve Tom, Lucy --client Desi --startdate 11/11/2020 --duedate 12/12/2020 --incharge Derek --email linqing4267@gmail.com`"
       },
       {
         "lineNumber": 48,
@@ -1419,735 +1440,735 @@
       {
         "lineNumber": 51,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "linqing42"
         },
-        "content": "Great! You have created a proper project as shown below:"
+        "content": "Wed Nov 11 00:00:00 SGT 2020 is valid date format"
       },
       {
         "lineNumber": 52,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "linqing42"
         },
-        "content": "Project Name: Clinical Trials "
+        "content": "Sat Dec 12 00:00:00 SGT 2020 is valid date format"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "Project Description: regarding hospital task "
+        "content": "Great! You have created a proper project as shown below:"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "Project Team Members: Tom, Lucy "
+        "content": "Project Name: Clinical Trials "
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "Start Date: 11/11/2020 "
+        "content": "Project Description: regarding hospital task "
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "Due Date: 12/12/2020 "
+        "content": "Project Team Members: Tom, Lucy "
       },
       {
         "lineNumber": 57,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "linqing42"
         },
-        "content": "Person in Charge: Derek"
+        "content": "Client: Desi "
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "Impala36"
         },
-        "content": ""
+        "content": "Start Date: 11/11/2020 "
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "We now have 1 project(s) in your list!"
+        "content": "Due Date: 12/12/2020 "
       },
       {
         "lineNumber": 60,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "```"
-      },
-      {
-        "lineNumber": 61,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "### Replacing a project information:`replace`"
-      },
-      {
-        "lineNumber": 62,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "Replace a specific project information"
-      },
-      {
-        "lineNumber": 63,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 64,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "Format:`--replace INDEX --commandName INPUT`"
-      },
-      {
-        "lineNumber": 65,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "- `INDEX` refers to the index number shown in the list generated by the `list` command."
-      },
-      {
-        "lineNumber": 66,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "- `INDEX` must a positive integer. E.g. `1`, `2`, `3`."
-      },
-      {
-        "lineNumber": 67,
-        "author": {
-          "gitId": "Impala36"
-        },
-        "content": "- The project indicated by the index number will have the command information replaced."
-      },
-      {
-        "lineNumber": 68,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 69,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "Example of usage:"
-      },
-      {
-        "lineNumber": 70,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "\u003cbr/\u003e `--replace 1 --involve Lily, Jessica `"
-      },
-      {
-        "lineNumber": 71,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "\u003cbr/\u003e`--list`"
-      },
-      {
-        "lineNumber": 72,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 73,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "Expected outcome:"
-      },
-      {
-        "lineNumber": 74,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "```"
-      },
-      {
-        "lineNumber": 75,
-        "author": {
-          "gitId": "Impala36"
-        },
-        "content": "Got it. I\u0027ve edited the information in the project."
-      },
-      {
-        "lineNumber": 76,
-        "author": {
-          "gitId": "Impala36"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 77,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "Here are the projects that you currently have!"
-      },
-      {
-        "lineNumber": 78,
-        "author": {
-          "gitId": "Impala36"
-        },
-        "content": "1."
-      },
-      {
-        "lineNumber": 79,
-        "author": {
-          "gitId": "Impala36"
-        },
-        "content": "Project Name: Clinical Trials "
-      },
-      {
-        "lineNumber": 80,
-        "author": {
-          "gitId": "Impala36"
-        },
-        "content": "Project Description: regarding hospital task "
-      },
-      {
-        "lineNumber": 81,
-        "author": {
-          "gitId": "binbinhui"
-        },
-        "content": "Project Team Members: Tom, Lucy "
-      },
-      {
-        "lineNumber": 82,
-        "author": {
-          "gitId": "binbinhui"
-        },
-        "content": "Client: haha "
-      },
-      {
-        "lineNumber": 83,
-        "author": {
-          "gitId": "binbinhui"
-        },
-        "content": "Start Date: 11/10/2020 "
-      },
-      {
-        "lineNumber": 84,
-        "author": {
-          "gitId": "binbinhui"
-        },
-        "content": "Due Date: 26/10/2020 "
-      },
-      {
-        "lineNumber": 85,
         "author": {
           "gitId": "Impala36"
         },
         "content": "Person in Charge: Derek "
       },
       {
-        "lineNumber": 86,
+        "lineNumber": 61,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "linqing42"
         },
-        "content": "Email: zhengyiheng90@gmail.com "
+        "content": "Email: linqing4267@gmail.com "
       },
       {
-        "lineNumber": 87,
+        "lineNumber": 62,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "linqing42"
         },
         "content": "Duration: 31 "
       },
       {
-        "lineNumber": 88,
+        "lineNumber": 63,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "linqing42"
         },
-        "content": "Days Left: 2"
+        "content": "Days Left: 46"
       },
       {
-        "lineNumber": 89,
+        "lineNumber": 64,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "linqing42"
         },
         "content": "Status: Incomplete"
       },
       {
-        "lineNumber": 90,
+        "lineNumber": 65,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 66,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "We now have 1 project(s) in your list!"
+      },
+      {
+        "lineNumber": 67,
         "author": {
           "gitId": "linqing42"
         },
         "content": "```"
       },
       {
-        "lineNumber": 91,
+        "lineNumber": 68,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "### Editing a project information:`edit`"
+      },
+      {
+        "lineNumber": 69,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "Edit a specific project information"
+      },
+      {
+        "lineNumber": 70,
         "author": {
           "gitId": "linqing42"
         },
         "content": ""
       },
       {
-        "lineNumber": 92,
+        "lineNumber": 71,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "### Adding project information: \u0027add\u0027"
+        "content": "Format:`--edit INDEX --commandName INPUT`"
       },
       {
-        "lineNumber": 93,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "Adding a extra project information to specific command details."
-      },
-      {
-        "lineNumber": 94,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 95,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "Format:`--add INDEX --commandName INPUT`"
-      },
-      {
-        "lineNumber": 96,
+        "lineNumber": 72,
         "author": {
           "gitId": "linqing42"
         },
         "content": "- `INDEX` refers to the index number shown in the list generated by the `list` command."
       },
       {
-        "lineNumber": 97,
+        "lineNumber": 73,
         "author": {
           "gitId": "linqing42"
         },
         "content": "- `INDEX` must a positive integer. E.g. `1`, `2`, `3`."
       },
       {
-        "lineNumber": 98,
+        "lineNumber": 74,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "- The project indicated by the index number will add in new information into the specific project."
+        "content": "- The project indicated by the index number will have the command information replaced."
       },
       {
-        "lineNumber": 99,
+        "lineNumber": 75,
         "author": {
           "gitId": "linqing42"
         },
         "content": ""
       },
       {
-        "lineNumber": 100,
+        "lineNumber": 76,
         "author": {
           "gitId": "linqing42"
         },
         "content": "Example of usage:"
       },
       {
-        "lineNumber": 101,
+        "lineNumber": 77,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "linqing42"
         },
-        "content": "\u003cbr/\u003e `--add 1 --description focus on vaccine system`"
+        "content": "\u003cbr/\u003e `--edit 1 --involve Lily, Jessica "
       },
       {
-        "lineNumber": 102,
+        "lineNumber": 78,
         "author": {
           "gitId": "linqing42"
         },
         "content": "\u003cbr/\u003e`--list`"
       },
       {
-        "lineNumber": 103,
+        "lineNumber": 79,
         "author": {
           "gitId": "linqing42"
         },
         "content": ""
       },
       {
-        "lineNumber": 104,
+        "lineNumber": 80,
         "author": {
           "gitId": "linqing42"
         },
         "content": "Expected outcome:"
       },
       {
-        "lineNumber": 105,
+        "lineNumber": 81,
         "author": {
           "gitId": "linqing42"
         },
         "content": "```"
       },
       {
-        "lineNumber": 106,
+        "lineNumber": 82,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "Impala36"
         },
-        "content": "Got it. I\u0027ve added this information into the project."
+        "content": "Got it. I\u0027ve edited the information in the project."
       },
       {
-        "lineNumber": 107,
+        "lineNumber": 83,
         "author": {
           "gitId": "Impala36"
         },
         "content": ""
       },
       {
-        "lineNumber": 108,
+        "lineNumber": 84,
         "author": {
           "gitId": "linqing42"
         },
         "content": "Here are the projects that you currently have!"
       },
       {
-        "lineNumber": 109,
+        "lineNumber": 85,
         "author": {
           "gitId": "Impala36"
         },
         "content": "1."
       },
       {
-        "lineNumber": 110,
+        "lineNumber": 86,
         "author": {
           "gitId": "Impala36"
         },
         "content": "Project Name: Clinical Trials "
       },
       {
-        "lineNumber": 111,
+        "lineNumber": 87,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "Project Description: regarding hospital task , focus on vaccine system "
+        "content": "Project Description: regarding hospital task "
       },
       {
-        "lineNumber": 112,
+        "lineNumber": 88,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "linqing42"
         },
         "content": "Project Team Members: Lily, Jessica "
       },
       {
-        "lineNumber": 113,
+        "lineNumber": 89,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "Client: Desi "
+      },
+      {
+        "lineNumber": 90,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "Start Date: 11/11/2020 "
+      },
+      {
+        "lineNumber": 91,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "Due Date: 12/12/2020 "
+      },
+      {
+        "lineNumber": 92,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "Start Date: 11/11/2020 "
+        "content": "Person in Charge: Derek "
+      },
+      {
+        "lineNumber": 93,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "Email: linqing4267@gmail.com "
+      },
+      {
+        "lineNumber": 94,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "Duration: 31 "
+      },
+      {
+        "lineNumber": 95,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "Days Left: 46"
+      },
+      {
+        "lineNumber": 96,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "Status: Incomplete"
+      },
+      {
+        "lineNumber": 97,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "```"
+      },
+      {
+        "lineNumber": 98,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 99,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "### Adding project information: \u0027add\u0027"
+      },
+      {
+        "lineNumber": 100,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "Adding an extra project information to specific command details."
+      },
+      {
+        "lineNumber": 101,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 102,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "Format:`--add INDEX --commandName INPUT`"
+      },
+      {
+        "lineNumber": 103,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "- `INDEX` refers to the index number shown in the list generated by the `list` command."
+      },
+      {
+        "lineNumber": 104,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "- `INDEX` must a positive integer. E.g. `1`, `2`, `3`."
+      },
+      {
+        "lineNumber": 105,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "- The project indicated by the index number will add in new information into the specific project."
+      },
+      {
+        "lineNumber": 106,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 107,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "Example of usage:"
+      },
+      {
+        "lineNumber": 108,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "\u003cbr/\u003e `--add 1 --description focus on vaccine system`"
+      },
+      {
+        "lineNumber": 109,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "\u003cbr/\u003e`--list`"
+      },
+      {
+        "lineNumber": 110,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 111,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "Expected outcome:"
+      },
+      {
+        "lineNumber": 112,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "```"
+      },
+      {
+        "lineNumber": 113,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "Got it. I\u0027ve added this information into the project."
       },
       {
         "lineNumber": 114,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "Due Date: 12/12/2020 "
+        "content": ""
       },
       {
         "lineNumber": 115,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "linqing42"
         },
-        "content": "Person in Charge: Derek"
+        "content": "Here are the projects that you currently have!"
       },
       {
         "lineNumber": 116,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "Impala36"
         },
-        "content": "```"
+        "content": "1."
       },
       {
         "lineNumber": 117,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "### Marking a specific project as done : `done`"
-      },
-      {
-        "lineNumber": 118,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "Marking a specified project."
-      },
-      {
-        "lineNumber": 119,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 120,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "Format: `--done INDEX`"
-      },
-      {
-        "lineNumber": 121,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "- `INDEX` refers to the index number shown in the list generated by the `list` command."
-      },
-      {
-        "lineNumber": 122,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "- `INDEX` must a positive integer. E.g. `1`, `2`, `3`."
-      },
-      {
-        "lineNumber": 123,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "- The projects indicated by the index number will be mark as completed."
-      },
-      {
-        "lineNumber": 124,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 125,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "Example of usage: "
-      },
-      {
-        "lineNumber": 126,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "\u003cbr/\u003e`--done 1`"
-      },
-      {
-        "lineNumber": 127,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 128,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "Expected outcome:"
-      },
-      {
-        "lineNumber": 129,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "```"
-      },
-      {
-        "lineNumber": 130,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 131,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "```"
-      },
-      {
-        "lineNumber": 132,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "### Deleting a project : `delete`"
-      },
-      {
-        "lineNumber": 133,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "Deletes a specified project."
-      },
-      {
-        "lineNumber": 134,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 135,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "Format: `--delete INDEX`"
-      },
-      {
-        "lineNumber": 136,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "- `INDEX` refers to the index number shown in the list generated by the `list` command."
-      },
-      {
-        "lineNumber": 137,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "- `INDEX` must a positive integer. E.g. `1`, `2`, `3`."
-      },
-      {
-        "lineNumber": 138,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "- The projects indicated by the index number will be deleted."
-      },
-      {
-        "lineNumber": 139,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 140,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "Example of usage: "
-      },
-      {
-        "lineNumber": 141,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "\u003cbr/\u003e`--delete 1`"
-      },
-      {
-        "lineNumber": 142,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 143,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "Expected outcome:"
-      },
-      {
-        "lineNumber": 144,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "```"
-      },
-      {
-        "lineNumber": 145,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "Okay! We have removed the project as shown below:"
-      },
-      {
-        "lineNumber": 146,
         "author": {
           "gitId": "Impala36"
         },
         "content": "Project Name: Clinical Trials "
       },
       {
-        "lineNumber": 147,
+        "lineNumber": 118,
         "author": {
           "gitId": "Impala36"
         },
         "content": "Project Description: regarding hospital task , focus on vaccine system "
       },
       {
-        "lineNumber": 148,
+        "lineNumber": 119,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "linqing42"
         },
-        "content": "Project Team Members: Lily, Jessica "
+        "content": "Project Team Members: Tom, Lucy "
       },
       {
-        "lineNumber": 149,
+        "lineNumber": 120,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "Client: Desi "
+      },
+      {
+        "lineNumber": 121,
         "author": {
           "gitId": "Impala36"
         },
         "content": "Start Date: 11/11/2020 "
       },
       {
-        "lineNumber": 150,
+        "lineNumber": 122,
         "author": {
           "gitId": "Impala36"
         },
         "content": "Due Date: 12/12/2020 "
       },
       {
-        "lineNumber": 151,
+        "lineNumber": 123,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "Person in Charge: Derek"
+        "content": "Person in Charge: Derek "
       },
       {
-        "lineNumber": 152,
-        "author": {
-          "gitId": "Impala36"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 153,
+        "lineNumber": 124,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "We now have 0 project(s) in your list!"
+        "content": "Email: linqing4267@gmail.com "
       },
       {
-        "lineNumber": 154,
+        "lineNumber": 125,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "Duration: 31 "
+      },
+      {
+        "lineNumber": 126,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "Days Left: 46"
+      },
+      {
+        "lineNumber": 127,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "Status: Incomplete"
+      },
+      {
+        "lineNumber": 128,
         "author": {
           "gitId": "linqing42"
         },
         "content": "```"
       },
       {
-        "lineNumber": 155,
+        "lineNumber": 129,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 130,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "### Deleting a project : `delete`"
+      },
+      {
+        "lineNumber": 131,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "Deletes a specified project."
+      },
+      {
+        "lineNumber": 132,
         "author": {
           "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 133,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "Format: `--delete INDEX`"
+      },
+      {
+        "lineNumber": 134,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "- `INDEX` refers to the index number shown in the list generated by the `list` command."
+      },
+      {
+        "lineNumber": 135,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "- `INDEX` must a positive integer. E.g. `1`, `2`, `3`."
+      },
+      {
+        "lineNumber": 136,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "- The projects indicated by the index number will be deleted."
+      },
+      {
+        "lineNumber": 137,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 138,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "Example of usage: "
+      },
+      {
+        "lineNumber": 139,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "\u003cbr/\u003e`--delete 1`"
+      },
+      {
+        "lineNumber": 140,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 141,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "Expected outcome:"
+      },
+      {
+        "lineNumber": 142,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "```"
+      },
+      {
+        "lineNumber": 143,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "Okay! We have removed the project as shown below:"
+      },
+      {
+        "lineNumber": 144,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "Project Name: Clinical Trials "
+      },
+      {
+        "lineNumber": 145,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "Project Description: regarding hospital task "
+      },
+      {
+        "lineNumber": 146,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "Project Team Members: Tom, Lucy "
+      },
+      {
+        "lineNumber": 147,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "Client: Desi "
+      },
+      {
+        "lineNumber": 148,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "Start Date: 11/11/2020 "
+      },
+      {
+        "lineNumber": 149,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "Due Date: 12/12/2020 "
+      },
+      {
+        "lineNumber": 150,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "Person in Charge: Derek "
+      },
+      {
+        "lineNumber": 151,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "Email: linqing4267@gmail.com` "
+      },
+      {
+        "lineNumber": 152,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "Duration: 31 "
+      },
+      {
+        "lineNumber": 153,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "Days Left: 46"
+      },
+      {
+        "lineNumber": 154,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "Status: Incomplete"
+      },
+      {
+        "lineNumber": 155,
+        "author": {
+          "gitId": "Impala36"
         },
         "content": ""
       },
@@ -2156,14 +2177,14 @@
         "author": {
           "gitId": "linqing42"
         },
-        "content": "### Listing projects: `list`"
+        "content": "We now have 0 project(s) in your list!"
       },
       {
         "lineNumber": 157,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "Shows a list of projects."
+        "content": "```"
       },
       {
         "lineNumber": 158,
@@ -2175,460 +2196,768 @@
       {
         "lineNumber": 159,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "binbinhui"
         },
-        "content": "Format: `--list`"
+        "content": "### Sending a project : `send`"
       },
       {
         "lineNumber": 160,
         "author": {
-          "gitId": "-"
+          "gitId": "binbinhui"
         },
-        "content": ""
+        "content": "Deletes a specified project."
       },
       {
         "lineNumber": 161,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "binbinhui"
         },
-        "content": "Example of usage: "
+        "content": ""
       },
       {
         "lineNumber": 162,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "binbinhui"
         },
-        "content": "\u003cbr/\u003e `--list`"
+        "content": "Format: `--send INDEX`"
       },
       {
         "lineNumber": 163,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "- `INDEX` refers to the index number shown in the list generated by the `list` command."
+      },
+      {
+        "lineNumber": 164,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "- `INDEX` must a positive integer. E.g. `1`, `2`, `3`."
+      },
+      {
+        "lineNumber": 165,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "- The projects indicated by the index number will be to the user."
+      },
+      {
+        "lineNumber": 166,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 167,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "Example of usage: "
+      },
+      {
+        "lineNumber": 168,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "\u003cbr/\u003e`--send 1`"
+      },
+      {
+        "lineNumber": 169,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 170,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "Expected outcome:"
+      },
+      {
+        "lineNumber": 171,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "```"
+      },
+      {
+        "lineNumber": 172,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 173,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "Project Name: Clinical Trials "
+      },
+      {
+        "lineNumber": 174,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "Project Description: regarding hospital task "
+      },
+      {
+        "lineNumber": 175,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "Project Team Members: Tom, Lucy "
+      },
+      {
+        "lineNumber": 176,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "Client: Desi "
+      },
+      {
+        "lineNumber": 177,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "Start Date: 11/11/2020 "
+      },
+      {
+        "lineNumber": 178,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "Due Date: 12/12/2020 "
+      },
+      {
+        "lineNumber": 179,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "Person in Charge: Derek "
+      },
+      {
+        "lineNumber": 180,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "Email: linqing4267@gmail.com` "
+      },
+      {
+        "lineNumber": 181,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "Duration: 31 "
+      },
+      {
+        "lineNumber": 182,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "Days Left: 46"
+      },
+      {
+        "lineNumber": 183,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "Status: Incomplete"
+      },
+      {
+        "lineNumber": 184,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "."
+      },
+      {
+        "lineNumber": 185,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "."
+      },
+      {
+        "lineNumber": 186,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "."
+      },
+      {
+        "lineNumber": 187,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "Email has successfully send."
+      },
+      {
+        "lineNumber": 188,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "```"
+      },
+      {
+        "lineNumber": 189,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 164,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "Expected outcome:"
-      },
-      {
-        "lineNumber": 165,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "```"
-      },
-      {
-        "lineNumber": 166,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "Here are the projects that you currently have!"
-      },
-      {
-        "lineNumber": 167,
-        "author": {
-          "gitId": "Impala36"
-        },
-        "content": "1."
-      },
-      {
-        "lineNumber": 168,
-        "author": {
-          "gitId": "Impala36"
-        },
-        "content": "Project Name: Clinical Trials "
-      },
-      {
-        "lineNumber": 169,
-        "author": {
-          "gitId": "Impala36"
-        },
-        "content": "Project Description: regarding hospital task , focus on vaccine system "
-      },
-      {
-        "lineNumber": 170,
-        "author": {
-          "gitId": "Impala36"
-        },
-        "content": "Project Team Members: Lily, Jessica "
-      },
-      {
-        "lineNumber": 171,
-        "author": {
-          "gitId": "Impala36"
-        },
-        "content": "Start Date: 11/11/2020 "
-      },
-      {
-        "lineNumber": 172,
-        "author": {
-          "gitId": "Impala36"
-        },
-        "content": "Due Date: 12/12/2020 "
-      },
-      {
-        "lineNumber": 173,
-        "author": {
-          "gitId": "Impala36"
-        },
-        "content": "Person in Charge: Derek"
-      },
-      {
-        "lineNumber": 174,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "```"
-      },
-      {
-        "lineNumber": 175,
-        "author": {
-          "gitId": "Impala36"
-        },
-        "content": "### Listing projects by keyword(s):`find` "
-      },
-      {
-        "lineNumber": 176,
-        "author": {
-          "gitId": "Impala36"
-        },
-        "content": "Helps to search a project that contain any keyword(s),and the search is case-insensitive."
-      },
-      {
-        "lineNumber": 177,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 178,
-        "author": {
-          "gitId": "Impala36"
-        },
-        "content": "Format:`--find KEYWORD`"
-      },
-      {
-        "lineNumber": 179,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 180,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "Example of usage: "
-      },
-      {
-        "lineNumber": 181,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "\u003cbr/\u003e `--find hospital`"
-      },
-      {
-        "lineNumber": 182,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 183,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "Expected outcome:"
-      },
-      {
-        "lineNumber": 184,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "```"
-      },
-      {
-        "lineNumber": 185,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "Here are the project that matches \u0027hospital\u0027!"
-      },
-      {
-        "lineNumber": 186,
-        "author": {
-          "gitId": "Impala36"
-        },
-        "content": "1."
-      },
-      {
-        "lineNumber": 187,
-        "author": {
-          "gitId": "Impala36"
-        },
-        "content": "Project Name: Clinical Trials "
-      },
-      {
-        "lineNumber": 188,
-        "author": {
-          "gitId": "Impala36"
-        },
-        "content": "Project Description: regarding hospital task "
-      },
-      {
-        "lineNumber": 189,
-        "author": {
-          "gitId": "Impala36"
-        },
-        "content": "Project Team Members: Tom, Lucy "
-      },
-      {
         "lineNumber": 190,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "linqing42"
         },
-        "content": "Start Date: 11/11/2020 "
+        "content": "### Listing projects: `list`"
       },
       {
         "lineNumber": 191,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "linqing42"
         },
-        "content": "Due Date: 12/12/2020 "
+        "content": "Shows a list of projects."
       },
       {
         "lineNumber": 192,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "-"
         },
-        "content": "Person in Charge: Derek"
+        "content": ""
       },
       {
         "lineNumber": 193,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "```"
+        "content": "Format: `--list`"
       },
       {
         "lineNumber": 194,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "-"
         },
-        "content": "### Exiting the program: `exit/hit Enter`"
+        "content": ""
       },
       {
         "lineNumber": 195,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "Example of usage: "
       },
       {
         "lineNumber": 196,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "Format: `--exit`\u003cbr\u003e"
+        "content": "\u003cbr/\u003e `--list`"
       },
       {
         "lineNumber": 197,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "-"
         },
-        "content": "or `hit Enter`\u003cbr\u003e"
+        "content": ""
       },
       {
         "lineNumber": 198,
         "author": {
           "gitId": "linqing42"
         },
-        "content": ""
+        "content": "Expected outcome:"
       },
       {
         "lineNumber": 199,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "Example of usage: `--exit`"
+        "content": "```"
       },
       {
         "lineNumber": 200,
         "author": {
           "gitId": "linqing42"
         },
-        "content": ""
+        "content": "Here are the projects that you currently have!"
       },
       {
         "lineNumber": 201,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "Impala36"
         },
-        "content": "Expected outcome:"
+        "content": "1."
       },
       {
         "lineNumber": 202,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "Impala36"
         },
-        "content": "```"
+        "content": "Project Name: Clinical Trials "
       },
       {
         "lineNumber": 203,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "Bye. Hope to see you again soon!"
+        "content": "Project Description: regarding hospital task "
       },
       {
         "lineNumber": 204,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "```"
+        "content": "Project Team Members: Tom, Lucy "
       },
       {
         "lineNumber": 205,
         "author": {
-          "gitId": "-"
+          "gitId": "linqing42"
         },
-        "content": ""
+        "content": "Client: Desi "
       },
       {
         "lineNumber": 206,
         "author": {
-          "gitId": "-"
+          "gitId": "Impala36"
         },
-        "content": "## FAQ"
+        "content": "Start Date: 11/11/2020 "
       },
       {
         "lineNumber": 207,
         "author": {
-          "gitId": "-"
+          "gitId": "Impala36"
         },
-        "content": ""
+        "content": "Due Date: 12/12/2020 "
       },
       {
         "lineNumber": 208,
         "author": {
-          "gitId": "-"
+          "gitId": "Impala36"
         },
-        "content": "**Q**: How do I transfer my data to another computer? "
+        "content": "Person in Charge: Derek "
       },
       {
         "lineNumber": 209,
         "author": {
-          "gitId": "-"
+          "gitId": "linqing42"
         },
-        "content": ""
+        "content": "Email: linqing4267@gmail.com "
       },
       {
         "lineNumber": 210,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "**A**: Go to Project Tracker\u0027s root folder in the current computer."
+        "content": "Duration: 31 "
       },
       {
         "lineNumber": 211,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "       Copy the data folder and paste it into the Project Tracker\u0027s root folder in the new computer."
+        "content": "Days Left: 46"
       },
       {
         "lineNumber": 212,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "       Click `Yes` if the system prompts you for confirmation of overwriting."
+        "content": "Status: Incomplete"
       },
       {
         "lineNumber": 213,
         "author": {
-          "gitId": "-"
+          "gitId": "linqing42"
         },
         "content": ""
       },
       {
         "lineNumber": 214,
         "author": {
-          "gitId": "-"
+          "gitId": "linqing42"
         },
-        "content": "## Command Summary"
+        "content": "```"
       },
       {
         "lineNumber": 215,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "### Listing projects by keyword(s):`find` "
+      },
+      {
+        "lineNumber": 216,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "Helps to search a project that contain any keyword(s),and the search is case-insensitive."
+      },
+      {
+        "lineNumber": 217,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 216,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "* View help`--help`"
-      },
-      {
-        "lineNumber": 217,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "* Create a new project `--project --name INPUT --description INPUT --involve INPUT --client INPUT --startdate dd/mm/yyyy --duedate dd/mm/yyyy --incharge INPUT --email INPUT`"
-      },
-      {
         "lineNumber": 218,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "Impala36"
         },
-        "content": "* Replace project information `--replace INDEX --commandName INPUT`"
+        "content": "Format:`--find KEYWORD`"
       },
       {
         "lineNumber": 219,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "linqing42"
         },
-        "content": "* Add an extra project detail `--add INDEX --commandName INPUT`"
+        "content": ""
       },
       {
         "lineNumber": 220,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "* Mark as done in specific project `--done INDEX`"
+        "content": "Example of usage: "
       },
       {
         "lineNumber": 221,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "* Delete a project  `--delete INDEX`"
+        "content": "\u003cbr/\u003e `--find hospital`"
       },
       {
         "lineNumber": 222,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 223,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "Expected outcome:"
+      },
+      {
+        "lineNumber": 224,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "```"
+      },
+      {
+        "lineNumber": 225,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "Here are the project that matches \u0027hospital\u0027!"
+      },
+      {
+        "lineNumber": 226,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "1."
+      },
+      {
+        "lineNumber": 227,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "Project Name: Clinical Trials "
+      },
+      {
+        "lineNumber": 228,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "Project Description: regarding hospital task "
+      },
+      {
+        "lineNumber": 229,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "Project Team Members: Tom, Lucy "
+      },
+      {
+        "lineNumber": 230,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "Client: Desi "
+      },
+      {
+        "lineNumber": 231,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "Start Date: 11/11/2020 "
+      },
+      {
+        "lineNumber": 232,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "Due Date: 12/12/2020 "
+      },
+      {
+        "lineNumber": 233,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "Person in Charge: Derek "
+      },
+      {
+        "lineNumber": 234,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "Email: linqing4267@gmail.com "
+      },
+      {
+        "lineNumber": 235,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "Duration: 31 "
+      },
+      {
+        "lineNumber": 236,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "Days Left: 46"
+      },
+      {
+        "lineNumber": 237,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "Status: Incomplete"
+      },
+      {
+        "lineNumber": 238,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "```"
+      },
+      {
+        "lineNumber": 239,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "### Exiting the program: `exit/hit Enter`"
+      },
+      {
+        "lineNumber": 240,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 241,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "Format: `--exit`\u003cbr\u003e"
+      },
+      {
+        "lineNumber": 242,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "or `hit Enter`\u003cbr\u003e"
+      },
+      {
+        "lineNumber": 243,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 244,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "Example of usage: `--exit`"
+      },
+      {
+        "lineNumber": 245,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 246,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "Expected outcome:"
+      },
+      {
+        "lineNumber": 247,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "```"
+      },
+      {
+        "lineNumber": 248,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "Bye. Hope to see you again soon!"
+      },
+      {
+        "lineNumber": 249,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "```"
+      },
+      {
+        "lineNumber": 250,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 251,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "## FAQ"
+      },
+      {
+        "lineNumber": 252,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 253,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "**Q**: How do I transfer my data to another computer? "
+      },
+      {
+        "lineNumber": 254,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 255,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "**A**: Go to Project Tracker\u0027s root folder in the current computer."
+      },
+      {
+        "lineNumber": 256,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "       Copy the data folder and paste it into the Project Tracker\u0027s root folder in the new computer."
+      },
+      {
+        "lineNumber": 257,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "       Click `Yes` if the system prompts you for confirmation of overwriting."
+      },
+      {
+        "lineNumber": 258,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 259,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "## Command Summary"
+      },
+      {
+        "lineNumber": 260,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 261,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "* View help`--help`"
+      },
+      {
+        "lineNumber": 262,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "* Create a new project `--project --name INPUT --description INPUT --involve INPUT --client INPUT --startdate dd/mm/yyyy --duedate dd/mm/yyyy --incharge INPUT --email INPUT`"
+      },
+      {
+        "lineNumber": 263,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "* Edit project information `--Edit INDEX --commandName INPUT`"
+      },
+      {
+        "lineNumber": 264,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "* Add an extra project detail `--add INDEX --commandName INPUT`"
+      },
+      {
+        "lineNumber": 265,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "* Delete a project  `--delete INDEX`"
+      },
+      {
+        "lineNumber": 266,
         "author": {
           "gitId": "linqing42"
         },
         "content": "* List down all projects `--list`"
       },
       {
-        "lineNumber": 223,
+        "lineNumber": 267,
         "author": {
           "gitId": "Impala36"
         },
         "content": "* Find word(s) in project `--find KEYWORD`"
       },
       {
-        "lineNumber": 224,
+        "lineNumber": 268,
         "author": {
           "gitId": "linqing42"
         },
@@ -2636,10 +2965,10 @@
       }
     ],
     "authorContributionMap": {
-      "linqing42": 128,
-      "Impala36": 58,
-      "-": 28,
-      "binbinhui": 10
+      "linqing42": 155,
+      "Impala36": 51,
+      "-": 29,
+      "binbinhui": 33
     }
   },
   {
@@ -9017,12 +9346,19 @@
         "author": {
           "gitId": "Impala36"
         },
+        "content": "    public String toString() { return description; }"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "Impala36"
+        },
         "content": "}"
       }
     ],
     "authorContributionMap": {
       "linqing42": 1,
-      "Impala36": 10,
+      "Impala36": 11,
       "binbinhui": 3
     }
   },
@@ -10786,142 +11122,142 @@
       {
         "lineNumber": 27,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "binbinhui"
         },
-        "content": "                .println(input +"
+        "content": "                .println(input + \"\\n________________________________________________________________________________________________________________________________________________________\\n\");"
       },
       {
         "lineNumber": 28,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "                        \"\\n________________________________________________________________________________________________________________________________________________________\\n\");"
+        "content": "    }"
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "Impala36"
         },
-        "content": ""
+        "content": "    public void printGreeting() {"
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    public void printGreeting() {"
+        "content": "        String greeting \u003d \"Hello! I\u0027m Tracker.\\n\""
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        String greeting \u003d \"Hello! I\u0027m Tracker.\\n\""
+        "content": "                + \"I can help you manage a list of projects!\\n\";"
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "                + \"I can help you manage a list of projects!\\n\";"
+        "content": "        printBorderline(\"\");"
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        printBorderline(\"\");"
+        "content": "        System.out.print(greeting);"
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        System.out.print(greeting);"
+        "content": "    }"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "Impala36"
         },
-        "content": ""
+        "content": "    public void printHelp() {"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    public void printHelp() {"
-      },
-      {
-        "lineNumber": 39,
-        "author": {
-          "gitId": "Impala36"
-        },
         "content": "        String help \u003d \"What you can tell me to do is listed below:\\n\""
       },
       {
-        "lineNumber": 40,
+        "lineNumber": 39,
         "author": {
           "gitId": "linqing42"
         },
         "content": "                + \" - See all commands            | \" + colorGreen(\"--help\\n\")"
       },
       {
-        "lineNumber": 41,
+        "lineNumber": 40,
         "author": {
           "gitId": "Impala36"
         },
         "content": "                + \" - Create a new project        | \" + colorGreen("
       },
       {
-        "lineNumber": 42,
+        "lineNumber": 41,
         "author": {
           "gitId": "linqing42"
         },
         "content": "                \"--project --name INPUT --description INPUT --involve INPUT --client INPUT --startdate dd/mm/yyyy --duedate dd/mm/yyyy --incharge INPUT --email INPUT \\n\")"
       },
       {
-        "lineNumber": 43,
+        "lineNumber": 42,
         "author": {
           "gitId": "linqing42"
         },
         "content": "                + \" - Complete a project          | \" + colorGreen(\"--done INDEX\\n\")"
       },
       {
-        "lineNumber": 44,
+        "lineNumber": 43,
         "author": {
           "gitId": "Impala36"
         },
         "content": "                + \" - Replace a project detail    | \" + colorGreen(\"--replace INDEX --commandName INPUT\\n\")"
       },
       {
-        "lineNumber": 45,
+        "lineNumber": 44,
         "author": {
           "gitId": "Impala36"
         },
         "content": "                + \" - Add an extra project detail | \" + colorGreen(\"--add INDEX --commandName INPUT\\n\")"
       },
       {
-        "lineNumber": 46,
+        "lineNumber": 45,
         "author": {
           "gitId": "Impala36"
         },
         "content": "                + \" - Delete a project            | \" + colorGreen(\"--delete INDEX\\n\")"
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "                + \" - Send a project by email     | \" + colorGreen(\"--send INDEX\\n\")"
       },
       {
         "lineNumber": 47,
@@ -11327,122 +11663,115 @@
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": ""
+        "content": "        } catch (ParseException e) {"
       },
       {
         "lineNumber": 105,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "        } catch ( ParseException e) {"
+        "content": "            printBorderline(e.getMessage());"
       },
       {
         "lineNumber": 106,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "            printBorderline(e.getMessage());"
+        "content": "        }"
       },
       {
         "lineNumber": 107,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 108,
-        "author": {
-          "gitId": "Yiheng0410"
-        },
         "content": ""
       },
       {
-        "lineNumber": 109,
+        "lineNumber": 108,
         "author": {
           "gitId": "Impala36"
         },
         "content": "        return \"Project Name: \" + projectDetails[1].split(\" \", 2)[1] + \"\\n\""
       },
       {
-        "lineNumber": 110,
+        "lineNumber": 109,
         "author": {
           "gitId": "Impala36"
         },
         "content": "                + \"Project Description: \" + projectDetails[2].split(\" \", 2)[1] + \"\\n\""
       },
       {
-        "lineNumber": 111,
+        "lineNumber": 110,
         "author": {
           "gitId": "Impala36"
         },
         "content": "                + \"Project Team Members: \" + projectDetails[3].split(\" \", 2)[1] + \"\\n\""
       },
       {
-        "lineNumber": 112,
+        "lineNumber": 111,
         "author": {
           "gitId": "linqing42"
         },
         "content": "                + \"Client: \" + projectDetails[4].split(\" \", 2)[1] + \"\\n\""
       },
       {
-        "lineNumber": 113,
+        "lineNumber": 112,
         "author": {
           "gitId": "linqing42"
         },
         "content": "                + \"Start Date: \" + projectDetails[5].split(\" \", 2)[1] + \"\\n\""
       },
       {
-        "lineNumber": 114,
+        "lineNumber": 113,
         "author": {
           "gitId": "linqing42"
         },
         "content": "                + \"Due Date: \" + projectDetails[6].split(\" \", 2)[1] + \"\\n\""
       },
       {
-        "lineNumber": 115,
+        "lineNumber": 114,
         "author": {
           "gitId": "linqing42"
         },
         "content": "                + \"Person in Charge: \" + projectDetails[7].split(\" \", 2)[1] + \"\\n\""
       },
       {
-        "lineNumber": 116,
+        "lineNumber": 115,
         "author": {
           "gitId": "Yiheng0410"
         },
         "content": "                + \"Email: \" + projectDetails[8].split(\" \", 2)[1] + \"\\n\""
       },
       {
-        "lineNumber": 117,
+        "lineNumber": 116,
         "author": {
           "gitId": "Yiheng0410"
         },
         "content": "                + \"Duration: \" + projectDetails[9].split(\" \", 2)[1] + \"\\n\""
       },
       {
-        "lineNumber": 118,
+        "lineNumber": 117,
         "author": {
           "gitId": "Yiheng0410"
         },
         "content": "                + \"Days Left: \" + daysLeft + \"\\n\""
       },
       {
-        "lineNumber": 119,
+        "lineNumber": 118,
         "author": {
           "gitId": "Yiheng0410"
         },
         "content": "                + \"Status: \" + projectDetails[10].split(\" \", 2)[1] + \"\\n\";"
       },
       {
-        "lineNumber": 120,
+        "lineNumber": 119,
         "author": {
           "gitId": "linqing42"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 121,
+        "lineNumber": 120,
         "author": {
           "gitId": "Impala36"
         },
@@ -11451,8 +11780,9 @@
     ],
     "authorContributionMap": {
       "linqing42": 15,
-      "Impala36": 89,
-      "Yiheng0410": 17
+      "Impala36": 87,
+      "Yiheng0410": 16,
+      "binbinhui": 2
     }
   },
   {
@@ -13012,9 +13342,9 @@
       {
         "lineNumber": 20,
         "author": {
-          "gitId": "Yiheng0410"
+          "gitId": "linqing42"
         },
-        "content": "        lines.add(\"--project --name testing project 1--description this is a testing project --involve Anna, Tim and Zak --startdate 10/10/2020 --duedate 12/12/2020 --incharge Alex\");"
+        "content": "        lines.add(\"--project --name testing project 1--description this is a testing project --involve Anna, Tim and Zak --client Lucy --startdate 10/10/2020 --duedate 12/12/2020 --incharge Alex --email linqing4267@gmail.com\");"
       },
       {
         "lineNumber": 21,
@@ -13026,9 +13356,9 @@
       {
         "lineNumber": 22,
         "author": {
-          "gitId": "Yiheng0410"
+          "gitId": "linqing42"
         },
-        "content": "        assertEquals(projects.get(0).getDescription(), \"--name testing project 1--description this is a testing project --involve Anna, Tim and Zak --startdate 10/10/2020 --duedate 12/12/2020 --incharge Alex\");"
+        "content": "        assertEquals(projects.get(0).getDescription(), \"--name testing project 1--description this is a testing project --involve Anna, Tim and Zak --client Lucy --startdate 10/10/2020 --duedate 12/12/2020 --incharge Alex --email linqing4267@gmail.com\");"
       },
       {
         "lineNumber": 23,
@@ -13060,7 +13390,8 @@
       }
     ],
     "authorContributionMap": {
-      "Yiheng0410": 24,
+      "linqing42": 2,
+      "Yiheng0410": 22,
       "Impala36": 2
     }
   },
@@ -13418,12 +13749,20 @@
       {
         "lineNumber": 36,
         "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 37,
+        "author": {
           "gitId": "Yiheng0410"
         },
         "content": "}"
       }
     ],
     "authorContributionMap": {
+      "linqing42": 1,
       "Yiheng0410": 36
     }
   },

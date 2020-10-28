@@ -233,6 +233,48 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-27",
+        "commitResults": [
+          {
+            "hash": "96bc81fe1f58943db93039c2441be1637e82bb06",
+            "messageTitle": "update storageTest, DG and UG",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 57,
+                "deletions": 42
+              },
+              "test-code": {
+                "insertions": 2,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "e62a234b82eb6541b73b049286bbb869bde320ed",
+            "messageTitle": "update storageTest, DG and UG",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "test-code": {
+                "insertions": 1,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "c291867c9ef32d8c2e3e3463b599ef6dc27bd0a3",
+            "messageTitle": "update storageTest, DG and UG",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 0
+              }
+            }
+          }
+        ]
       }
     ],
     "Yiheng0410": [
@@ -623,6 +665,22 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-27",
+        "commitResults": [
+          {
+            "hash": "97c92a81692ce6c561e859c1321da9851158a684",
+            "messageTitle": "Fixed Add and Edit using Project class instead of NewProject class",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 1,
+                "deletions": 0
+              }
+            }
+          }
+        ]
       }
     ],
     "binbinhui": [
@@ -850,38 +908,69 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-28",
+        "commitResults": [
+          {
+            "hash": "b6d46f6a610ffe40181bc8c98e4be5efefe1810e",
+            "messageTitle": "disable checkStyle and adding send in UI \u0026 user guide",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 3,
+                "deletions": 4
+              },
+              "docs": {
+                "insertions": 31,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "89bb25bea777b1aace8efc26f644075d5543a576",
+            "messageTitle": "Update UserGuide.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFileTypeContributionMap": {
     "linqing42": {
-      "docs": 149,
+      "docs": 180,
       "functional-code": 135,
-      "test-code": 0
+      "test-code": 3
     },
     "Yiheng0410": {
       "docs": 0,
-      "functional-code": 109,
-      "test-code": 118
+      "functional-code": 108,
+      "test-code": 116
     },
     "Impala36": {
-      "docs": 72,
-      "functional-code": 613,
+      "docs": 65,
+      "functional-code": 612,
       "test-code": 143,
       "other": 8
     },
     "binbinhui": {
-      "docs": 10,
-      "functional-code": 257,
+      "docs": 33,
+      "functional-code": 259,
       "test-code": 1,
       "other": 18
     }
   },
   "authorContributionVariance": {
-    "linqing42": 1710.1696,
-    "Yiheng0410": 591.8451,
-    "Impala36": 8325.492,
-    "binbinhui": 15664.238
+    "linqing42": 1786.6667,
+    "Yiheng0410": 576.9675,
+    "Impala36": 8118.84,
+    "binbinhui": 15262.592
   },
   "authorDisplayNameMap": {
     "linqing42": "TIC4001-1 LIN ..QING",

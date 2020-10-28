@@ -142,6 +142,34 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-27",
+        "commitResults": [
+          {
+            "hash": "d7ee47b60ebc315713c25901e5b1616e7e813c4d",
+            "messageTitle": "v3.2_report",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 40,
+                "deletions": 11
+              },
+              "other": {
+                "insertions": 3,
+                "deletions": 0
+              },
+              "docs": {
+                "insertions": 31,
+                "deletions": 31
+              },
+              "test-code": {
+                "insertions": 149,
+                "deletions": 1
+              }
+            }
+          }
+        ]
       }
     ],
     "dgc5213": [
@@ -1374,37 +1402,54 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-27",
+        "commitResults": [
+          {
+            "hash": "c7128657b070bbcb3d9e7bd284118614a3d7958e",
+            "messageTitle": "Add Summary Class",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 48,
+                "deletions": 32
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFileTypeContributionMap": {
     "daiweinus": {
       "docs": 69,
-      "functional-code": 525,
-      "test-code": 0
+      "functional-code": 554,
+      "test-code": 149,
+      "other": 3
     },
     "dgc5213": {
-      "docs": 197,
+      "docs": 196,
       "functional-code": 420,
       "test-code": 136
     },
     "e0260222": {
-      "docs": 171,
-      "functional-code": 2068,
-      "test-code": 329,
+      "docs": 172,
+      "functional-code": 2067,
+      "test-code": 328,
       "other": 4
     },
     "Chenduo1412": {
       "docs": 3,
-      "functional-code": 103,
+      "functional-code": 120,
       "test-code": 0
     }
   },
   "authorContributionVariance": {
-    "daiweinus": 4288.37,
-    "dgc5213": 33055.434,
-    "e0260222": 35805.01,
-    "Chenduo1412": 449.4472
+    "daiweinus": 5064.115,
+    "dgc5213": 32637.537,
+    "e0260222": 35388.56,
+    "Chenduo1412": 518.9824
   },
   "authorDisplayNameMap": {
     "daiweinus": "TIC4001-2 DAI .. WEI",
