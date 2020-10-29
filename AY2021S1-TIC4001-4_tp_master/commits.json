@@ -318,6 +318,22 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-28",
+        "commitResults": [
+          {
+            "hash": "2b51f59e7998597096cf82594c6102bd858205df",
+            "messageTitle": "[assertion] adding assertion messages.",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "other": {
+                "insertions": 1,
+                "deletions": 0
+              }
+            }
+          }
+        ]
       }
     ],
     "timmyly7": [
@@ -740,6 +756,33 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-29",
+        "commitResults": [
+          {
+            "hash": "4fd9524cc000bebc54e4ca70d38998d405cdf56f",
+            "messageTitle": "Fixed UpdateCommand to also update category",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 9,
+                "deletions": 4
+              }
+            }
+          },
+          {
+            "hash": "7e0321e8476bc760cd99c6c74962b04ee53cd7e6",
+            "messageTitle": "Fixed Checkstyle",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 5,
+                "deletions": 5
+              }
+            }
+          }
+        ]
       }
     ],
     "e0261618": [
@@ -810,6 +853,22 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-29",
+        "commitResults": [
+          {
+            "hash": "a144fc3e0b7c682ad19e970e35d2f1658a90373b",
+            "messageTitle": "Updated description",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 6,
+                "deletions": 4
+              }
+            }
+          }
+        ]
       }
     ]
   },
@@ -821,33 +880,34 @@
     },
     "skyventus": {
       "docs": 0,
-      "functional-code": 272,
-      "test-code": 152
+      "functional-code": 270,
+      "test-code": 152,
+      "other": 1
     },
     "timmyly7": {
       "docs": 0,
-      "functional-code": 387,
+      "functional-code": 386,
       "test-code": 143
     },
     "adi-kd0021": {
       "docs": 0,
-      "functional-code": 639,
+      "functional-code": 646,
       "test-code": 16,
-      "other": 9
+      "other": 8
     },
     "e0261618": {
       "docs": 63,
-      "functional-code": 247,
+      "functional-code": 250,
       "test-code": 0,
       "other": 3
     }
   },
   "authorContributionVariance": {
-    "Chilaiping": 777.29004,
-    "skyventus": 1025.7424,
-    "timmyly7": 2379.1711,
-    "adi-kd0021": 3873.0884,
-    "e0261618": 909.405
+    "Chilaiping": 767.47815,
+    "skyventus": 1012.9936,
+    "timmyly7": 2349.8267,
+    "adi-kd0021": 3823.2695,
+    "e0261618": 897.8935
   },
   "authorDisplayNameMap": {
     "Chilaiping": "TIC4001-4 CHI ..PING",

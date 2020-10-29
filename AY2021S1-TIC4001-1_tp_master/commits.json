@@ -681,6 +681,37 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-28",
+        "commitResults": [
+          {
+            "hash": "1c20b5efb159b47a7eaebfa9fa1e8edde3177d08",
+            "messageTitle": "Updated User Guide Changed ui.printReplaceMessage to ui.printEditMessage",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 3,
+                "deletions": 3
+              },
+              "docs": {
+                "insertions": 38,
+                "deletions": 9
+              }
+            }
+          },
+          {
+            "hash": "0d534e13cfc63ab5b02a570fadca60c650634a42",
+            "messageTitle": "Update UserGuide.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 0
+              }
+            }
+          }
+        ]
       }
     ],
     "binbinhui": [
@@ -944,8 +975,8 @@
   },
   "authorFileTypeContributionMap": {
     "linqing42": {
-      "docs": 180,
-      "functional-code": 135,
+      "docs": 173,
+      "functional-code": 133,
       "test-code": 3
     },
     "Yiheng0410": {
@@ -954,13 +985,13 @@
       "test-code": 116
     },
     "Impala36": {
-      "docs": 65,
-      "functional-code": 612,
+      "docs": 103,
+      "functional-code": 614,
       "test-code": 143,
       "other": 8
     },
     "binbinhui": {
-      "docs": 33,
+      "docs": 32,
       "functional-code": 259,
       "test-code": 1,
       "other": 18
@@ -969,7 +1000,7 @@
   "authorContributionVariance": {
     "linqing42": 1786.6667,
     "Yiheng0410": 576.9675,
-    "Impala36": 8118.84,
+    "Impala36": 8125.514,
     "binbinhui": 15262.592
   },
   "authorDisplayNameMap": {

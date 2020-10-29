@@ -1250,6 +1250,22 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-28",
+        "commitResults": [
+          {
+            "hash": "cdf2c8b80b06a08a77d43244275e14ecd088fc32",
+            "messageTitle": "Fix bug with edit category command",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 4,
+                "deletions": 3
+              }
+            }
+          }
+        ]
       }
     ],
     "Chenduo1412": [
@@ -1435,7 +1451,7 @@
     },
     "e0260222": {
       "docs": 172,
-      "functional-code": 2067,
+      "functional-code": 2068,
       "test-code": 328,
       "other": 4
     },
@@ -1446,10 +1462,10 @@
     }
   },
   "authorContributionVariance": {
-    "daiweinus": 5064.115,
-    "dgc5213": 32637.537,
-    "e0260222": 35388.56,
-    "Chenduo1412": 518.9824
+    "daiweinus": 5001.566,
+    "dgc5213": 32230.01,
+    "e0260222": 34969.91,
+    "Chenduo1412": 512.51025
   },
   "authorDisplayNameMap": {
     "daiweinus": "TIC4001-2 DAI .. WEI",

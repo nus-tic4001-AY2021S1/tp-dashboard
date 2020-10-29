@@ -7941,7 +7941,7 @@
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        transactions.updateTransactionsCategory(currentName, newName);"
+        "content": "        transactions.updateTransactionsCategory(currentName, newName.toUpperCase());"
       },
       {
         "lineNumber": 66,
@@ -7976,17 +7976,24 @@
         "author": {
           "gitId": "e0260222"
         },
-        "content": "        categories.setIsInitialized(false);"
+        "content": "        storage.saveTransactions(transactions);"
       },
       {
         "lineNumber": 71,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    }"
+        "content": "        categories.setIsInitialized(false);"
       },
       {
         "lineNumber": 72,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 73,
         "author": {
           "gitId": "e0260222"
         },
@@ -7994,7 +8001,7 @@
       }
     ],
     "authorContributionMap": {
-      "e0260222": 72
+      "e0260222": 73
     }
   },
   {
@@ -8510,14 +8517,14 @@
         "author": {
           "gitId": "e0260222"
         },
-        "content": "    private void updateTransaction(Transaction transactionToEdit, HashMap\u003cString,"
+        "content": "    private void updateTransaction(Transaction transactionToEdit, HashMap\u003cString, String\u003e editParams,"
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "e0260222"
         },
-        "content": "            String\u003e editParams, CategoryList categories, String type) throws MoneyTrackerException {"
+        "content": "                                   CategoryList categories, String type) throws MoneyTrackerException {"
       },
       {
         "lineNumber": 75,

@@ -342,63 +342,71 @@
       {
         "lineNumber": 49,
         "author": {
-          "gitId": "-"
+          "gitId": "skyventus"
         },
-        "content": "}"
+        "content": "    enableAssertions \u003d true"
       },
       {
         "lineNumber": 50,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "}"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "jar {"
+        "content": ""
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "  manifest {"
+        "content": "jar {"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "    attributes("
+        "content": "  manifest {"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "      \"Class-Path\": configurations.compile.collect { it.getName() }.join(\u0027 \u0027))"
+        "content": "    attributes("
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "  }"
+        "content": "      \"Class-Path\": configurations.compile.collect { it.getName() }.join(\u0027 \u0027))"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "adi-kd0021"
         },
+        "content": "  }"
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "-"
+        },
         "content": "}"
       }
     ],
     "authorContributionMap": {
-      "-": 45,
-      "adi-kd0021": 8,
+      "skyventus": 1,
+      "-": 46,
+      "adi-kd0021": 7,
       "e0261618": 3
     }
   },
@@ -3510,75 +3518,89 @@
       {
         "lineNumber": 14,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "e0261618"
         },
-        "content": "                        + System.lineSeparator() + \"\\n\" + DeleteCommand.MESSAGE_USAGE"
+        "content": "                        + System.lineSeparator() + \"\\n\" + UpdateCommand.MESSAGE_USAGE"
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "                        + System.lineSeparator() + \"\\n\" + SearchCommand.MESSAGE_USAGE"
+        "content": "                        + System.lineSeparator() + \"\\n\" + DeleteCommand.MESSAGE_USAGE"
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "                        + System.lineSeparator() + \"\\n\" + ViewCommand.MESSAGE_USAGE"
+        "content": "                        + System.lineSeparator() + \"\\n\" + SearchCommand.MESSAGE_USAGE"
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "                        + System.lineSeparator() + \"\\n\" + TotalCommand.MESSAGE_USAGE"
+        "content": "                        + System.lineSeparator() + \"\\n\" + ViewCommand.MESSAGE_USAGE"
       },
       {
         "lineNumber": 18,
         "author": {
-          "gitId": "Chilaiping"
+          "gitId": "adi-kd0021"
         },
-        "content": "                        + System.lineSeparator() + \"\\n\" + AddBudgetCommand.MESSAGE_USAGE"
+        "content": "                        + System.lineSeparator() + \"\\n\" + TotalCommand.MESSAGE_USAGE"
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "Chilaiping"
         },
-        "content": "                        + System.lineSeparator() + \"\\n\" + ViewBudgetCommand.MESSAGE_USAGE"
+        "content": "                        + System.lineSeparator() + \"\\n\" + AddBudgetCommand.MESSAGE_USAGE"
       },
       {
         "lineNumber": 20,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "Chilaiping"
         },
-        "content": "                        + System.lineSeparator() + \"\\n\" + HelpCommand.MESSAGE_USAGE"
+        "content": "                        + System.lineSeparator() + \"\\n\" + ViewBudgetCommand.MESSAGE_USAGE"
       },
       {
         "lineNumber": 21,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "e0261618"
         },
-        "content": "                        + System.lineSeparator() + \"\\n\" + ExitCommand.MESSAGE_USAGE"
+        "content": "                        + System.lineSeparator() + \"\\n\" + ReportCommand.MESSAGE_USAGE"
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "        );"
+        "content": "                        + System.lineSeparator() + \"\\n\" + HelpCommand.MESSAGE_USAGE"
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "    }"
+        "content": "                        + System.lineSeparator() + \"\\n\" + ExitCommand.MESSAGE_USAGE"
       },
       {
         "lineNumber": 24,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "        );"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 26,
         "author": {
           "gitId": "timmyly7"
         },
@@ -3588,7 +3610,8 @@
     "authorContributionMap": {
       "Chilaiping": 2,
       "timmyly7": 6,
-      "adi-kd0021": 16
+      "adi-kd0021": 16,
+      "e0261618": 2
     }
   },
   {
@@ -3806,14 +3829,14 @@
         "author": {
           "gitId": "e0261618"
         },
-        "content": "            + \": Adds a transaction to the NUS Expenses Tracker.\\n\""
+        "content": "            + \": Generate transactions summary report and export as excel.\\n\""
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "            + \"Parameters: DESCRIPTION $AMOUNT DATE...\\n\""
+        "content": "            + \"Parameters: STARTDATE ENDDATE...\\n\""
       },
       {
         "lineNumber": 16,
@@ -3827,7 +3850,7 @@
         "author": {
           "gitId": "e0261618"
         },
-        "content": "            + \" Lunch at Com2 $4.50 14-Oct-2020\";"
+        "content": "            + \" /sd 2020-09-28 /ed 2020-09-30\";"
       },
       {
         "lineNumber": 18,
@@ -4634,9 +4657,9 @@
       {
         "lineNumber": 18,
         "author": {
-          "gitId": "timmyly7"
+          "gitId": "e0261618"
         },
-        "content": "            + \"update 1 /a 5 /u Dinner /d 2020-09-02\";"
+        "content": "            + \" 1 /a 5 /u Dinner /d 2020-09-02 /c FOOD\";"
       },
       {
         "lineNumber": 19,
@@ -4781,8 +4804,9 @@
     ],
     "authorContributionMap": {
       "skyventus": 1,
-      "timmyly7": 35,
-      "adi-kd0021": 2
+      "timmyly7": 34,
+      "adi-kd0021": 2,
+      "e0261618": 1
     }
   },
   {
@@ -7568,415 +7592,415 @@
       {
         "lineNumber": 52,
         "author": {
-          "gitId": "timmyly7"
+          "gitId": "adi-kd0021"
         },
-        "content": "    }"
+        "content": "        if (toUpdate.getCategory() !\u003d null \u0026\u0026 !toUpdate.getCategory().isEmpty()) {"
       },
       {
         "lineNumber": 53,
         "author": {
-          "gitId": "timmyly7"
+          "gitId": "adi-kd0021"
         },
-        "content": ""
+        "content": "            target.setCategory(ReadOnlyTransaction.CategoryType.valueOf(toUpdate.getCategory()));"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "    public List\u003cTransaction\u003e getTransactionsByCategory(String category) {"
+        "content": "        }"
       },
       {
         "lineNumber": 55,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "timmyly7"
         },
-        "content": "        List\u003cTransaction\u003e transactionsAccordingToCategory \u003d new ArrayList\u003c\u003e();"
+        "content": "    }"
       },
       {
         "lineNumber": 56,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "timmyly7"
         },
-        "content": "        for (Transaction transaction: internalTransactionList) {"
+        "content": ""
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "            if (transaction.getCategory().equalsIgnoreCase(category)) {"
+        "content": "    public List\u003cTransaction\u003e getTransactionsByCategory(String category) {"
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "                transactionsAccordingToCategory.add(transaction);"
+        "content": "        List\u003cTransaction\u003e transactionsAccordingToCategory \u003d new ArrayList\u003c\u003e();"
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "            }"
+        "content": "        for (Transaction transaction: internalTransactionList) {"
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "        }"
+        "content": "            if (transaction.getCategory().equalsIgnoreCase(category)) {"
       },
       {
         "lineNumber": 61,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "        return transactionsAccordingToCategory;"
+        "content": "                transactionsAccordingToCategory.add(transaction);"
       },
       {
         "lineNumber": 62,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "    }"
+        "content": "            }"
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": ""
+        "content": "        }"
       },
       {
         "lineNumber": 64,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "        return transactionsAccordingToCategory;"
+      },
+      {
+        "lineNumber": 65,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 66,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 67,
         "author": {
           "gitId": "timmyly7"
         },
         "content": "    public List\u003cTransaction\u003e getTransactionsWithinPeriod(Date startDate, Date endDate) {"
       },
       {
-        "lineNumber": 65,
+        "lineNumber": 68,
         "author": {
           "gitId": "e0261618"
         },
         "content": "        List\u003cTransaction\u003e requiredPeriodTransaction \u003d new ArrayList\u003c\u003e();"
       },
       {
-        "lineNumber": 66,
+        "lineNumber": 69,
         "author": {
           "gitId": "e0261618"
         },
         "content": "        if (startDate !\u003d null || endDate !\u003d null) {"
       },
       {
-        "lineNumber": 67,
+        "lineNumber": 70,
         "author": {
           "gitId": "e0261618"
         },
         "content": "            for (Transaction transaction : internalTransactionList) {"
       },
       {
-        "lineNumber": 68,
+        "lineNumber": 71,
         "author": {
           "gitId": "e0261618"
         },
         "content": "                if (startDate !\u003d null \u0026\u0026 endDate !\u003d null \u0026\u0026 transaction.getDate() !\u003d null) {"
       },
       {
-        "lineNumber": 69,
+        "lineNumber": 72,
         "author": {
           "gitId": "e0261618"
         },
         "content": "                    if (transaction.getDate().after(startDate) \u0026\u0026 transaction.getDate().before(endDate)) {"
       },
       {
-        "lineNumber": 70,
-        "author": {
-          "gitId": "e0261618"
-        },
-        "content": "                        requiredPeriodTransaction.add(transaction);"
-      },
-      {
-        "lineNumber": 71,
-        "author": {
-          "gitId": "e0261618"
-        },
-        "content": "                    }"
-      },
-      {
-        "lineNumber": 72,
-        "author": {
-          "gitId": "e0261618"
-        },
-        "content": "                } else if (startDate !\u003d null \u0026\u0026 transaction.getDate() !\u003d null) {"
-      },
-      {
         "lineNumber": 73,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "                    if (transaction.getDate().after(startDate)) {"
+        "content": "                        requiredPeriodTransaction.add(transaction);"
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "                        requiredPeriodTransaction.add(transaction);"
+        "content": "                    }"
       },
       {
         "lineNumber": 75,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "                    }"
+        "content": "                } else if (startDate !\u003d null \u0026\u0026 transaction.getDate() !\u003d null) {"
       },
       {
         "lineNumber": 76,
         "author": {
           "gitId": "e0261618"
         },
-        "content": ""
+        "content": "                    if (transaction.getDate().after(startDate)) {"
       },
       {
         "lineNumber": 77,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "                } else if (endDate !\u003d null \u0026\u0026 transaction.getDate() !\u003d null) {"
+        "content": "                        requiredPeriodTransaction.add(transaction);"
       },
       {
         "lineNumber": 78,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "                    if (transaction.getDate().before(endDate)) {"
+        "content": "                    }"
       },
       {
         "lineNumber": 79,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "                        requiredPeriodTransaction.add(transaction);"
+        "content": ""
       },
       {
         "lineNumber": 80,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "                    }"
+        "content": "                } else if (endDate !\u003d null \u0026\u0026 transaction.getDate() !\u003d null) {"
       },
       {
         "lineNumber": 81,
         "author": {
-          "gitId": "timmyly7"
+          "gitId": "e0261618"
         },
-        "content": "                }"
+        "content": "                    if (transaction.getDate().before(endDate)) {"
       },
       {
         "lineNumber": 82,
         "author": {
-          "gitId": "timmyly7"
+          "gitId": "e0261618"
         },
-        "content": "            }"
+        "content": "                        requiredPeriodTransaction.add(transaction);"
       },
       {
         "lineNumber": 83,
         "author": {
-          "gitId": "timmyly7"
+          "gitId": "e0261618"
         },
-        "content": "        } else {"
+        "content": "                    }"
       },
       {
         "lineNumber": 84,
         "author": {
           "gitId": "timmyly7"
         },
-        "content": "            requiredPeriodTransaction \u003d internalTransactionList;"
+        "content": "                }"
       },
       {
         "lineNumber": 85,
         "author": {
           "gitId": "timmyly7"
         },
-        "content": "        }"
+        "content": "            }"
       },
       {
         "lineNumber": 86,
         "author": {
           "gitId": "timmyly7"
         },
-        "content": "        return requiredPeriodTransaction;"
+        "content": "        } else {"
       },
       {
         "lineNumber": 87,
         "author": {
           "gitId": "timmyly7"
         },
-        "content": "    }"
+        "content": "            requiredPeriodTransaction \u003d internalTransactionList;"
       },
       {
         "lineNumber": 88,
         "author": {
           "gitId": "timmyly7"
         },
-        "content": ""
+        "content": "        }"
       },
       {
         "lineNumber": 89,
         "author": {
           "gitId": "timmyly7"
         },
-        "content": "    public String getDatePeriodString(Date startDate, Date endDate) {"
+        "content": "        return requiredPeriodTransaction;"
       },
       {
         "lineNumber": 90,
         "author": {
           "gitId": "timmyly7"
         },
-        "content": "        String timePeriod \u003d \"\";"
+        "content": "    }"
       },
       {
         "lineNumber": 91,
         "author": {
           "gitId": "timmyly7"
         },
-        "content": "        Date earlyStartDate \u003d new Date();"
+        "content": ""
       },
       {
         "lineNumber": 92,
         "author": {
           "gitId": "timmyly7"
         },
-        "content": "        List\u003cTransaction\u003e requiredPeriodTransaction \u003d getTransactionsWithinPeriod(startDate, endDate);"
+        "content": "    public String getDatePeriodString(Date startDate, Date endDate) {"
       },
       {
         "lineNumber": 93,
         "author": {
           "gitId": "timmyly7"
         },
-        "content": "        for (Transaction transaction : requiredPeriodTransaction) {"
+        "content": "        String timePeriod \u003d \"\";"
       },
       {
         "lineNumber": 94,
         "author": {
           "gitId": "timmyly7"
         },
-        "content": "            if (startDate !\u003d null \u0026\u0026 endDate !\u003d null \u0026\u0026 transaction.getDate() !\u003d null) {"
+        "content": "        Date earlyStartDate \u003d new Date();"
       },
       {
         "lineNumber": 95,
         "author": {
           "gitId": "timmyly7"
         },
-        "content": "                timePeriod \u003d Parser.sdf.format(startDate) + \" - \" + Parser.sdf.format(endDate);"
+        "content": "        List\u003cTransaction\u003e requiredPeriodTransaction \u003d getTransactionsWithinPeriod(startDate, endDate);"
       },
       {
         "lineNumber": 96,
         "author": {
           "gitId": "timmyly7"
         },
-        "content": "            } else if (startDate !\u003d null \u0026\u0026 transaction.getDate() !\u003d null) {"
+        "content": "        for (Transaction transaction : requiredPeriodTransaction) {"
       },
       {
         "lineNumber": 97,
         "author": {
           "gitId": "timmyly7"
         },
-        "content": "                if (earlyStartDate.after(transaction.getDate())) {"
+        "content": "            if (startDate !\u003d null \u0026\u0026 endDate !\u003d null \u0026\u0026 transaction.getDate() !\u003d null) {"
       },
       {
         "lineNumber": 98,
         "author": {
           "gitId": "timmyly7"
         },
-        "content": "                    earlyStartDate \u003d transaction.getDate();"
+        "content": "                timePeriod \u003d Parser.sdf.format(startDate) + \" - \" + Parser.sdf.format(endDate);"
       },
       {
         "lineNumber": 99,
         "author": {
           "gitId": "timmyly7"
         },
-        "content": "                }"
+        "content": "            } else if (startDate !\u003d null \u0026\u0026 transaction.getDate() !\u003d null) {"
       },
       {
         "lineNumber": 100,
         "author": {
           "gitId": "timmyly7"
         },
-        "content": "                timePeriod \u003d \"Every Transaction After \" + Parser.sdf.format(startDate);"
+        "content": "                if (earlyStartDate.after(transaction.getDate())) {"
       },
       {
         "lineNumber": 101,
         "author": {
           "gitId": "timmyly7"
         },
-        "content": "            } else if (endDate !\u003d null \u0026\u0026 transaction.getDate() !\u003d null) {"
+        "content": "                    earlyStartDate \u003d transaction.getDate();"
       },
       {
         "lineNumber": 102,
         "author": {
-          "gitId": "e0261618"
+          "gitId": "timmyly7"
         },
-        "content": ""
+        "content": "                }"
       },
       {
         "lineNumber": 103,
         "author": {
-          "gitId": "e0261618"
+          "gitId": "timmyly7"
         },
-        "content": "                if (earlyStartDate.after(transaction.getDate())) {"
+        "content": "                timePeriod \u003d \"Every Transaction After \" + Parser.sdf.format(startDate);"
       },
       {
         "lineNumber": 104,
         "author": {
-          "gitId": "e0261618"
+          "gitId": "timmyly7"
         },
-        "content": "                    earlyStartDate \u003d transaction.getDate();"
+        "content": "            } else if (endDate !\u003d null \u0026\u0026 transaction.getDate() !\u003d null) {"
       },
       {
         "lineNumber": 105,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "                }"
+        "content": ""
       },
       {
         "lineNumber": 106,
         "author": {
-          "gitId": "timmyly7"
+          "gitId": "e0261618"
         },
-        "content": "                timePeriod \u003d \"Every Transaction Before \" + Parser.sdf.format(endDate);"
+        "content": "                if (earlyStartDate.after(transaction.getDate())) {"
       },
       {
         "lineNumber": 107,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "            }"
+        "content": "                    earlyStartDate \u003d transaction.getDate();"
       },
       {
         "lineNumber": 108,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "        }"
+        "content": "                }"
       },
       {
         "lineNumber": 109,
         "author": {
           "gitId": "timmyly7"
         },
-        "content": "        if (startDate \u003d\u003d null \u0026\u0026 endDate \u003d\u003d null) {"
+        "content": "                timePeriod \u003d \"Every Transaction Before \" + Parser.sdf.format(endDate);"
       },
       {
         "lineNumber": 110,
         "author": {
-          "gitId": "timmyly7"
+          "gitId": "e0261618"
         },
-        "content": "            timePeriod \u003d \"All Time Transactions\";"
+        "content": "            }"
       },
       {
         "lineNumber": 111,
@@ -7990,140 +8014,140 @@
         "author": {
           "gitId": "timmyly7"
         },
-        "content": "        return timePeriod;"
+        "content": "        if (startDate \u003d\u003d null \u0026\u0026 endDate \u003d\u003d null) {"
       },
       {
         "lineNumber": 113,
         "author": {
           "gitId": "timmyly7"
         },
-        "content": "    }"
+        "content": "            timePeriod \u003d \"All Time Transactions\";"
       },
       {
         "lineNumber": 114,
-        "author": {
-          "gitId": "timmyly7"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 115,
-        "author": {
-          "gitId": "timmyly7"
-        },
-        "content": "    public void generateReport(String exportPath, Date startDate, Date endDate) {"
-      },
-      {
-        "lineNumber": 116,
-        "author": {
-          "gitId": "timmyly7"
-        },
-        "content": "        Parser parser \u003d new Parser();"
-      },
-      {
-        "lineNumber": 117,
-        "author": {
-          "gitId": "timmyly7"
-        },
-        "content": "        List\u003cTransaction\u003e requiredPeriodTransaction \u003d getTransactionsWithinPeriod(startDate, endDate);"
-      },
-      {
-        "lineNumber": 118,
-        "author": {
-          "gitId": "timmyly7"
-        },
-        "content": "        String timePeriod \u003d \"\";"
-      },
-      {
-        "lineNumber": 119,
-        "author": {
-          "gitId": "timmyly7"
-        },
-        "content": "        Date earlyStartDate \u003d new Date();"
-      },
-      {
-        "lineNumber": 120,
-        "author": {
-          "gitId": "timmyly7"
-        },
-        "content": "        Date lateEndDate \u003d new Date();"
-      },
-      {
-        "lineNumber": 121,
-        "author": {
-          "gitId": "timmyly7"
-        },
-        "content": "        try {"
-      },
-      {
-        "lineNumber": 122,
-        "author": {
-          "gitId": "timmyly7"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 123,
-        "author": {
-          "gitId": "timmyly7"
-        },
-        "content": "            timePeriod \u003d getDatePeriodString(startDate, endDate);"
-      },
-      {
-        "lineNumber": 124,
-        "author": {
-          "gitId": "timmyly7"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 125,
-        "author": {
-          "gitId": "e0261618"
-        },
-        "content": "            parser.generateReport(requiredPeriodTransaction, getTotalAmount(requiredPeriodTransaction), timePeriod);"
-      },
-      {
-        "lineNumber": 126,
-        "author": {
-          "gitId": "e0261618"
-        },
-        "content": "        } catch (Exception e) {"
-      },
-      {
-        "lineNumber": 127,
-        "author": {
-          "gitId": "e0261618"
-        },
-        "content": "            System.out.println(e.getMessage());"
-      },
-      {
-        "lineNumber": 128,
         "author": {
           "gitId": "e0261618"
         },
         "content": "        }"
       },
       {
+        "lineNumber": 115,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        return timePeriod;"
+      },
+      {
+        "lineNumber": 116,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 117,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 118,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "    public void generateReport(String exportPath, Date startDate, Date endDate) {"
+      },
+      {
+        "lineNumber": 119,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        Parser parser \u003d new Parser();"
+      },
+      {
+        "lineNumber": 120,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        List\u003cTransaction\u003e requiredPeriodTransaction \u003d getTransactionsWithinPeriod(startDate, endDate);"
+      },
+      {
+        "lineNumber": 121,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        String timePeriod \u003d \"\";"
+      },
+      {
+        "lineNumber": 122,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        Date earlyStartDate \u003d new Date();"
+      },
+      {
+        "lineNumber": 123,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        Date lateEndDate \u003d new Date();"
+      },
+      {
+        "lineNumber": 124,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "        try {"
+      },
+      {
+        "lineNumber": 125,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 126,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "            timePeriod \u003d getDatePeriodString(startDate, endDate);"
+      },
+      {
+        "lineNumber": 127,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 128,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": "            parser.generateReport(requiredPeriodTransaction, getTotalAmount(requiredPeriodTransaction), timePeriod);"
+      },
+      {
         "lineNumber": 129,
         "author": {
           "gitId": "e0261618"
         },
-        "content": ""
+        "content": "        } catch (Exception e) {"
       },
       {
         "lineNumber": 130,
         "author": {
           "gitId": "e0261618"
         },
-        "content": ""
+        "content": "            System.out.println(e.getMessage());"
       },
       {
         "lineNumber": 131,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "    }"
+        "content": "        }"
       },
       {
         "lineNumber": 132,
@@ -8137,122 +8161,143 @@
         "author": {
           "gitId": "e0261618"
         },
-        "content": "    public double getTotalAmount(List\u003cTransaction\u003e transactions) {"
+        "content": ""
       },
       {
         "lineNumber": 134,
         "author": {
-          "gitId": "skyventus"
+          "gitId": "e0261618"
         },
-        "content": "        assert transactions !\u003d null;"
+        "content": "    }"
       },
       {
         "lineNumber": 135,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "        double totalAmount \u003d 0.0;"
+        "content": ""
       },
       {
         "lineNumber": 136,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "        for (Transaction transaction : transactions) {"
+        "content": "    public double getTotalAmount(List\u003cTransaction\u003e transactions) {"
       },
       {
         "lineNumber": 137,
         "author": {
-          "gitId": "e0261618"
+          "gitId": "skyventus"
         },
-        "content": "            totalAmount \u003d totalAmount + transaction.getAmount();"
+        "content": "        assert transactions !\u003d null;"
       },
       {
         "lineNumber": 138,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "        }"
+        "content": "        double totalAmount \u003d 0.0;"
       },
       {
         "lineNumber": 139,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "        return totalAmount;"
+        "content": "        for (Transaction transaction : transactions) {"
       },
       {
         "lineNumber": 140,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "    }"
+        "content": "            totalAmount \u003d totalAmount + transaction.getAmount();"
       },
       {
         "lineNumber": 141,
         "author": {
           "gitId": "e0261618"
         },
-        "content": ""
+        "content": "        }"
       },
       {
         "lineNumber": 142,
         "author": {
-          "gitId": "Chilaiping"
+          "gitId": "e0261618"
         },
-        "content": "    @Override"
+        "content": "        return totalAmount;"
       },
       {
         "lineNumber": 143,
         "author": {
-          "gitId": "Chilaiping"
+          "gitId": "e0261618"
         },
-        "content": "    public Iterator\u003cTransaction\u003e iterator() {"
+        "content": "    }"
       },
       {
         "lineNumber": 144,
         "author": {
-          "gitId": "Chilaiping"
+          "gitId": "e0261618"
         },
-        "content": "        return internalTransactionList.iterator();"
+        "content": ""
       },
       {
         "lineNumber": 145,
         "author": {
           "gitId": "Chilaiping"
         },
-        "content": "    }"
+        "content": "    @Override"
       },
       {
         "lineNumber": 146,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "Chilaiping"
         },
-        "content": ""
+        "content": "    public Iterator\u003cTransaction\u003e iterator() {"
       },
       {
         "lineNumber": 147,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "Chilaiping"
         },
-        "content": "    public static class TransactionNotFound extends Exception {"
+        "content": "        return internalTransactionList.iterator();"
       },
       {
         "lineNumber": 148,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "Chilaiping"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 149,
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 150,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "    public static class TransactionNotFound extends Exception {"
+      },
+      {
+        "lineNumber": 151,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 152,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 153,
         "author": {
           "gitId": "adi-kd0021"
         },
@@ -8263,7 +8308,7 @@
       "Chilaiping": 10,
       "skyventus": 10,
       "timmyly7": 55,
-      "adi-kd0021": 29,
+      "adi-kd0021": 32,
       "e0261618": 46
     }
   },
@@ -8810,9 +8855,9 @@
       {
         "lineNumber": 54,
         "author": {
-          "gitId": "skyventus"
+          "gitId": "adi-kd0021"
         },
-        "content": "            logger.log(Level.INFO, \"Saving transaction in progress...\");"
+        "content": "            //logger.log(Level.INFO, \"Saving transaction in progress...\");"
       },
       {
         "lineNumber": 55,
@@ -8859,9 +8904,9 @@
       {
         "lineNumber": 61,
         "author": {
-          "gitId": "skyventus"
+          "gitId": "adi-kd0021"
         },
-        "content": "            logger.log(Level.INFO, \"Saving completed.\");"
+        "content": "            //logger.log(Level.INFO, \"Saving completed.\");"
       },
       {
         "lineNumber": 62,
@@ -9257,7 +9302,8 @@
       }
     ],
     "authorContributionMap": {
-      "skyventus": 117
+      "skyventus": 115,
+      "adi-kd0021": 2
     }
   },
   {
@@ -11804,7 +11850,7 @@
         "author": {
           "gitId": "adi-kd0021"
         },
-        "content": "                temp \u003d args.substring(args.indexOf(Constants.UPDATE_COMMAND_CATEGORY_PARAM) + 2);"
+        "content": "                temp \u003d args.substring(args.indexOf(Constants.UPDATE_COMMAND_CATEGORY_PARAM) + 2).trim();"
       },
       {
         "lineNumber": 261,
@@ -11865,128 +11911,128 @@
       {
         "lineNumber": 269,
         "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "        } catch (IllegalArgumentException argumentException) {"
+      },
+      {
+        "lineNumber": 270,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "            return new IncorrectCommand(\"Incorrect update command: \" + args.trim());"
+      },
+      {
+        "lineNumber": 271,
+        "author": {
           "gitId": "timmyly7"
         },
         "content": "        } catch (Exception e) {"
       },
       {
-        "lineNumber": 270,
+        "lineNumber": 272,
         "author": {
           "gitId": "timmyly7"
         },
         "content": "            e.printStackTrace();"
       },
       {
-        "lineNumber": 271,
+        "lineNumber": 273,
         "author": {
           "gitId": "Chilaiping"
         },
         "content": "            return new IncorrectCommand(e.getMessage());"
       },
       {
-        "lineNumber": 272,
-        "author": {
-          "gitId": "Chilaiping"
-        },
-        "content": "        }"
-      },
-      {
-        "lineNumber": 273,
-        "author": {
-          "gitId": "Chilaiping"
-        },
-        "content": "    }"
-      },
-      {
         "lineNumber": 274,
         "author": {
           "gitId": "Chilaiping"
         },
-        "content": ""
+        "content": "        }"
       },
       {
         "lineNumber": 275,
         "author": {
           "gitId": "Chilaiping"
         },
-        "content": "    private Command createAddBudgetCommand(String args) {"
+        "content": "    }"
       },
       {
         "lineNumber": 276,
         "author": {
           "gitId": "Chilaiping"
         },
-        "content": "        final Matcher matcher \u003d ADDBUDGET_COMMAND_FORMAT.matcher(args.trim());"
+        "content": ""
       },
       {
         "lineNumber": 277,
         "author": {
           "gitId": "Chilaiping"
         },
-        "content": "        // Validate arg string format"
+        "content": "    private Command createAddBudgetCommand(String args) {"
       },
       {
         "lineNumber": 278,
         "author": {
           "gitId": "Chilaiping"
         },
-        "content": "        if (!matcher.matches()) {"
+        "content": "        final Matcher matcher \u003d ADDBUDGET_COMMAND_FORMAT.matcher(args.trim());"
       },
       {
         "lineNumber": 279,
         "author": {
           "gitId": "Chilaiping"
         },
-        "content": "            return new IncorrectCommand(\"Incorrect Add Command\");"
+        "content": "        // Validate arg string format"
       },
       {
         "lineNumber": 280,
         "author": {
           "gitId": "Chilaiping"
         },
-        "content": "        }"
+        "content": "        if (!matcher.matches()) {"
       },
       {
         "lineNumber": 281,
         "author": {
           "gitId": "Chilaiping"
         },
-        "content": "        try {"
+        "content": "            return new IncorrectCommand(\"Incorrect Add Command\");"
       },
       {
         "lineNumber": 282,
         "author": {
           "gitId": "Chilaiping"
         },
-        "content": "            return new AddBudgetCommand("
+        "content": "        }"
       },
       {
         "lineNumber": 283,
         "author": {
           "gitId": "Chilaiping"
         },
-        "content": "                    matcher.group(\"category\").trim(),"
+        "content": "        try {"
       },
       {
         "lineNumber": 284,
         "author": {
           "gitId": "Chilaiping"
         },
-        "content": "                    matcher.group(\"description\").trim(),"
+        "content": "            return new AddBudgetCommand("
       },
       {
         "lineNumber": 285,
         "author": {
           "gitId": "Chilaiping"
         },
-        "content": ""
+        "content": "                    matcher.group(\"category\").trim(),"
       },
       {
         "lineNumber": 286,
         "author": {
           "gitId": "Chilaiping"
         },
-        "content": "                    Double.parseDouble(matcher.group(\"amount\").replace(\"$\", \"\"))"
+        "content": "                    matcher.group(\"description\").trim(),"
       },
       {
         "lineNumber": 287,
@@ -12000,448 +12046,448 @@
         "author": {
           "gitId": "Chilaiping"
         },
-        "content": "            );"
+        "content": "                    Double.parseDouble(matcher.group(\"amount\").replace(\"$\", \"\"))"
       },
       {
         "lineNumber": 289,
         "author": {
           "gitId": "Chilaiping"
         },
-        "content": "        } catch (Exception e) {"
+        "content": ""
       },
       {
         "lineNumber": 290,
         "author": {
           "gitId": "Chilaiping"
         },
-        "content": "            return new IncorrectCommand(e.getMessage());"
+        "content": "            );"
       },
       {
         "lineNumber": 291,
         "author": {
           "gitId": "Chilaiping"
         },
-        "content": "        }"
+        "content": "        } catch (Exception e) {"
       },
       {
         "lineNumber": 292,
         "author": {
           "gitId": "Chilaiping"
         },
-        "content": "    }"
+        "content": "            return new IncorrectCommand(e.getMessage());"
       },
       {
         "lineNumber": 293,
         "author": {
           "gitId": "Chilaiping"
         },
-        "content": ""
+        "content": "        }"
       },
       {
         "lineNumber": 294,
         "author": {
           "gitId": "Chilaiping"
         },
-        "content": "    private Command createViewBudgetCommand(String args) {"
+        "content": "    }"
       },
       {
         "lineNumber": 295,
         "author": {
           "gitId": "Chilaiping"
         },
-        "content": "        Command finalCommand;"
+        "content": ""
       },
       {
         "lineNumber": 296,
         "author": {
           "gitId": "Chilaiping"
         },
-        "content": "        try {"
+        "content": "    private Command createViewBudgetCommand(String args) {"
       },
       {
         "lineNumber": 297,
         "author": {
           "gitId": "Chilaiping"
         },
-        "content": "            finalCommand \u003d new ViewBudgetCommand();"
+        "content": "        Command finalCommand;"
       },
       {
         "lineNumber": 298,
         "author": {
           "gitId": "Chilaiping"
         },
-        "content": "        } catch (Exception e) {"
+        "content": "        try {"
       },
       {
         "lineNumber": 299,
         "author": {
           "gitId": "Chilaiping"
         },
-        "content": "            finalCommand \u003d new IncorrectCommand(\"Incorrect View Budget Command\");"
+        "content": "            finalCommand \u003d new ViewBudgetCommand();"
       },
       {
         "lineNumber": 300,
         "author": {
           "gitId": "Chilaiping"
         },
-        "content": "        }"
+        "content": "        } catch (Exception e) {"
       },
       {
         "lineNumber": 301,
         "author": {
           "gitId": "Chilaiping"
         },
-        "content": "        return finalCommand;"
+        "content": "            finalCommand \u003d new IncorrectCommand(\"Incorrect View Budget Command\");"
       },
       {
         "lineNumber": 302,
         "author": {
           "gitId": "Chilaiping"
         },
-        "content": "    }"
+        "content": "        }"
       },
       {
         "lineNumber": 303,
         "author": {
-          "gitId": "e0261618"
+          "gitId": "Chilaiping"
         },
-        "content": ""
+        "content": "        return finalCommand;"
       },
       {
         "lineNumber": 304,
         "author": {
-          "gitId": "e0261618"
+          "gitId": "Chilaiping"
         },
-        "content": "    private Command prepareReportCommand(String args) {"
+        "content": "    }"
       },
       {
         "lineNumber": 305,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "        Command finalCommand;"
+        "content": ""
       },
       {
         "lineNumber": 306,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "        try {"
+        "content": "    private Command prepareReportCommand(String args) {"
       },
       {
         "lineNumber": 307,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "            String temp \u003d \"\";"
+        "content": "        Command finalCommand;"
       },
       {
         "lineNumber": 308,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "            Date startDate \u003d null;"
+        "content": "        try {"
       },
       {
         "lineNumber": 309,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "            Date endDate \u003d null;"
+        "content": "            String temp \u003d \"\";"
       },
       {
         "lineNumber": 310,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "            if (args.indexOf(Constants.REPORT_COMMAND_START_DATE_PARAM) \u003e 0) {"
+        "content": "            Date startDate \u003d null;"
       },
       {
         "lineNumber": 311,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "                temp \u003d args.substring(args.indexOf(Constants.REPORT_COMMAND_START_DATE_PARAM) + 3);"
+        "content": "            Date endDate \u003d null;"
       },
       {
         "lineNumber": 312,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "                if (temp.indexOf(\"/\") \u003e 0) {"
+        "content": "            if (args.indexOf(Constants.REPORT_COMMAND_START_DATE_PARAM) \u003e 0) {"
       },
       {
         "lineNumber": 313,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "                    temp \u003d temp.substring(0, temp.indexOf(\"/\"));"
+        "content": "                temp \u003d args.substring(args.indexOf(Constants.REPORT_COMMAND_START_DATE_PARAM) + 3);"
       },
       {
         "lineNumber": 314,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "                }"
+        "content": "                if (temp.indexOf(\"/\") \u003e 0) {"
       },
       {
         "lineNumber": 315,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "                startDate \u003d sdf.parse(temp.trim());"
+        "content": "                    temp \u003d temp.substring(0, temp.indexOf(\"/\"));"
       },
       {
         "lineNumber": 316,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "            }"
+        "content": "                }"
       },
       {
         "lineNumber": 317,
         "author": {
           "gitId": "e0261618"
         },
-        "content": ""
+        "content": "                startDate \u003d sdf.parse(temp.trim());"
       },
       {
         "lineNumber": 318,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "            if (args.indexOf(Constants.REPORT_COMMAND_END_DATE_PARAM) \u003e 0) {"
+        "content": "            }"
       },
       {
         "lineNumber": 319,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "                temp \u003d args.substring(args.indexOf(Constants.REPORT_COMMAND_END_DATE_PARAM) + 3);"
+        "content": ""
       },
       {
         "lineNumber": 320,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "                if (temp.indexOf(\"/\") \u003e 0) {"
+        "content": "            if (args.indexOf(Constants.REPORT_COMMAND_END_DATE_PARAM) \u003e 0) {"
       },
       {
         "lineNumber": 321,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "                    temp \u003d temp.substring(0, temp.indexOf(\"/\"));"
+        "content": "                temp \u003d args.substring(args.indexOf(Constants.REPORT_COMMAND_END_DATE_PARAM) + 3);"
       },
       {
         "lineNumber": 322,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "                }"
+        "content": "                if (temp.indexOf(\"/\") \u003e 0) {"
       },
       {
         "lineNumber": 323,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "                endDate \u003d sdf.parse(temp.trim());"
+        "content": "                    temp \u003d temp.substring(0, temp.indexOf(\"/\"));"
       },
       {
         "lineNumber": 324,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "            }"
+        "content": "                }"
       },
       {
         "lineNumber": 325,
         "author": {
           "gitId": "e0261618"
         },
-        "content": ""
+        "content": "                endDate \u003d sdf.parse(temp.trim());"
       },
       {
         "lineNumber": 326,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "            finalCommand \u003d new ReportCommand(null, startDate, endDate);"
+        "content": "            }"
       },
       {
         "lineNumber": 327,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "        } catch (Exception e) {"
+        "content": ""
       },
       {
         "lineNumber": 328,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "            finalCommand \u003d new IncorrectCommand(\"Incorrect Report Command\");"
+        "content": "            finalCommand \u003d new ReportCommand(null, startDate, endDate);"
       },
       {
         "lineNumber": 329,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "        }"
+        "content": "        } catch (Exception e) {"
       },
       {
         "lineNumber": 330,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "        return finalCommand;"
+        "content": "            finalCommand \u003d new IncorrectCommand(\"Incorrect Report Command\");"
       },
       {
         "lineNumber": 331,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "    }"
+        "content": "        }"
       },
       {
         "lineNumber": 332,
         "author": {
           "gitId": "e0261618"
         },
-        "content": ""
+        "content": "        return finalCommand;"
       },
       {
         "lineNumber": 333,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "    public void generateReport(List\u003cTransaction\u003e transactionList, double totalAmount, String timePeriod) {"
+        "content": "    }"
       },
       {
         "lineNumber": 334,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "        String excelFilePath \u003d \"TransactionReportSummary.xlsx\";"
+        "content": ""
       },
       {
         "lineNumber": 335,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "        try {"
+        "content": "    public void generateReport(List\u003cTransaction\u003e transactionList, double totalAmount, String timePeriod) {"
       },
       {
         "lineNumber": 336,
         "author": {
           "gitId": "e0261618"
         },
-        "content": ""
+        "content": "        String excelFilePath \u003d \"TransactionReportSummary.xlsx\";"
       },
       {
         "lineNumber": 337,
         "author": {
           "gitId": "e0261618"
         },
-        "content": ""
+        "content": "        try {"
       },
       {
         "lineNumber": 338,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "            Workbook workbook \u003d new XSSFWorkbook();"
+        "content": ""
       },
       {
         "lineNumber": 339,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "            XSSFSheet sheet \u003d (XSSFSheet) workbook.createSheet(\"Summary\");"
+        "content": ""
       },
       {
         "lineNumber": 340,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "            writeHeaderLine(sheet);"
+        "content": "            Workbook workbook \u003d new XSSFWorkbook();"
       },
       {
         "lineNumber": 341,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "            writeDataLines(transactionList, workbook, sheet, totalAmount, timePeriod);"
+        "content": "            XSSFSheet sheet \u003d (XSSFSheet) workbook.createSheet(\"Summary\");"
       },
       {
         "lineNumber": 342,
         "author": {
           "gitId": "e0261618"
         },
-        "content": ""
+        "content": "            writeHeaderLine(sheet);"
       },
       {
         "lineNumber": 343,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "            FileOutputStream outputStream \u003d new FileOutputStream(excelFilePath);"
+        "content": "            writeDataLines(transactionList, workbook, sheet, totalAmount, timePeriod);"
       },
       {
         "lineNumber": 344,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "            workbook.write(outputStream);"
+        "content": ""
       },
       {
         "lineNumber": 345,
         "author": {
           "gitId": "e0261618"
         },
-        "content": ""
+        "content": "            FileOutputStream outputStream \u003d new FileOutputStream(excelFilePath);"
       },
       {
         "lineNumber": 346,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "        } catch (Exception e) {"
+        "content": "            workbook.write(outputStream);"
       },
       {
         "lineNumber": 347,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "            e.printStackTrace();"
+        "content": ""
       },
       {
         "lineNumber": 348,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "        }"
+        "content": "        } catch (Exception e) {"
       },
       {
         "lineNumber": 349,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "    }"
+        "content": "            e.printStackTrace();"
       },
       {
         "lineNumber": 350,
         "author": {
           "gitId": "e0261618"
         },
-        "content": ""
+        "content": "        }"
       },
       {
         "lineNumber": 351,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "    private void writeHeaderLine(XSSFSheet sheet) {"
+        "content": "    }"
       },
       {
         "lineNumber": 352,
@@ -12455,7 +12501,7 @@
         "author": {
           "gitId": "e0261618"
         },
-        "content": "        Row headerRow \u003d sheet.createRow(0);"
+        "content": "    private void writeHeaderLine(XSSFSheet sheet) {"
       },
       {
         "lineNumber": 354,
@@ -12469,91 +12515,91 @@
         "author": {
           "gitId": "e0261618"
         },
-        "content": "        Cell headerCell \u003d headerRow.createCell(0);"
+        "content": "        Row headerRow \u003d sheet.createRow(0);"
       },
       {
         "lineNumber": 356,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "        headerCell.setCellValue(\"Date\");"
+        "content": ""
       },
       {
         "lineNumber": 357,
         "author": {
           "gitId": "e0261618"
         },
-        "content": ""
+        "content": "        Cell headerCell \u003d headerRow.createCell(0);"
       },
       {
         "lineNumber": 358,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "        headerCell \u003d headerRow.createCell(1);"
+        "content": "        headerCell.setCellValue(\"Date\");"
       },
       {
         "lineNumber": 359,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "        headerCell.setCellValue(\"Usage\");"
+        "content": ""
       },
       {
         "lineNumber": 360,
         "author": {
           "gitId": "e0261618"
         },
-        "content": ""
+        "content": "        headerCell \u003d headerRow.createCell(1);"
       },
       {
         "lineNumber": 361,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "        headerCell \u003d headerRow.createCell(2);"
+        "content": "        headerCell.setCellValue(\"Usage\");"
       },
       {
         "lineNumber": 362,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "        headerCell.setCellValue(\"Category\");"
+        "content": ""
       },
       {
         "lineNumber": 363,
         "author": {
           "gitId": "e0261618"
         },
-        "content": ""
+        "content": "        headerCell \u003d headerRow.createCell(2);"
       },
       {
         "lineNumber": 364,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "        headerCell \u003d headerRow.createCell(3);"
+        "content": "        headerCell.setCellValue(\"Category\");"
       },
       {
         "lineNumber": 365,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "        headerCell.setCellValue(\"Amount\");"
+        "content": ""
       },
       {
         "lineNumber": 366,
         "author": {
           "gitId": "e0261618"
         },
-        "content": ""
+        "content": "        headerCell \u003d headerRow.createCell(3);"
       },
       {
         "lineNumber": 367,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "    }"
+        "content": "        headerCell.setCellValue(\"Amount\");"
       },
       {
         "lineNumber": 368,
@@ -12567,329 +12613,329 @@
         "author": {
           "gitId": "e0261618"
         },
-        "content": "    private void writeDataLines(List\u003cTransaction\u003e transactions, Workbook workbook,"
+        "content": "    }"
       },
       {
         "lineNumber": 370,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "                                XSSFSheet sheet, double totalAmount, String timePeriod) {"
+        "content": ""
       },
       {
         "lineNumber": 371,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "        int rowCount \u003d 1;"
+        "content": "    private void writeDataLines(List\u003cTransaction\u003e transactions, Workbook workbook,"
       },
       {
         "lineNumber": 372,
         "author": {
           "gitId": "e0261618"
         },
-        "content": ""
+        "content": "                                XSSFSheet sheet, double totalAmount, String timePeriod) {"
       },
       {
         "lineNumber": 373,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "        Row row \u003d null;"
+        "content": "        int rowCount \u003d 1;"
       },
       {
         "lineNumber": 374,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "        Cell cell \u003d null;"
+        "content": ""
       },
       {
         "lineNumber": 375,
         "author": {
           "gitId": "e0261618"
         },
-        "content": ""
+        "content": "        Row row \u003d null;"
       },
       {
         "lineNumber": 376,
         "author": {
           "gitId": "e0261618"
         },
-        "content": ""
+        "content": "        Cell cell \u003d null;"
       },
       {
         "lineNumber": 377,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "        for (Transaction transaction : transactions) {"
+        "content": ""
       },
       {
         "lineNumber": 378,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "            String date \u003d \"\";"
+        "content": ""
       },
       {
         "lineNumber": 379,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "            final String usage \u003d transaction.getDescription();"
+        "content": "        for (Transaction transaction : transactions) {"
       },
       {
         "lineNumber": 380,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "            final double amount \u003d transaction.getAmount();"
+        "content": "            String date \u003d \"\";"
       },
       {
         "lineNumber": 381,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "            final String category \u003d transaction.getCategory();"
+        "content": "            final String usage \u003d transaction.getDescription();"
       },
       {
         "lineNumber": 382,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "            if (transaction.getDate() !\u003d null) {"
+        "content": "            final double amount \u003d transaction.getAmount();"
       },
       {
         "lineNumber": 383,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "                date \u003d sdf.format(transaction.getDate());"
+        "content": "            final String category \u003d transaction.getCategory();"
       },
       {
         "lineNumber": 384,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "            }"
+        "content": "            if (transaction.getDate() !\u003d null) {"
       },
       {
         "lineNumber": 385,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "            row \u003d sheet.createRow(rowCount++);"
+        "content": "                date \u003d sdf.format(transaction.getDate());"
       },
       {
         "lineNumber": 386,
         "author": {
           "gitId": "e0261618"
         },
-        "content": ""
+        "content": "            }"
       },
       {
         "lineNumber": 387,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "            int columnCount \u003d 0;"
+        "content": "            row \u003d sheet.createRow(rowCount++);"
       },
       {
         "lineNumber": 388,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "            cell \u003d row.createCell(columnCount++);"
+        "content": ""
       },
       {
         "lineNumber": 389,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "            cell.setCellValue(date);"
+        "content": "            int columnCount \u003d 0;"
       },
       {
         "lineNumber": 390,
         "author": {
           "gitId": "e0261618"
         },
-        "content": ""
+        "content": "            cell \u003d row.createCell(columnCount++);"
       },
       {
         "lineNumber": 391,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "            cell \u003d row.createCell(columnCount++);"
+        "content": "            cell.setCellValue(date);"
       },
       {
         "lineNumber": 392,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "            cell.setCellValue(usage);"
+        "content": ""
       },
       {
         "lineNumber": 393,
         "author": {
           "gitId": "e0261618"
         },
-        "content": ""
+        "content": "            cell \u003d row.createCell(columnCount++);"
       },
       {
         "lineNumber": 394,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "            cell \u003d row.createCell(columnCount++);"
+        "content": "            cell.setCellValue(usage);"
       },
       {
         "lineNumber": 395,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "            cell.setCellValue(category);"
+        "content": ""
       },
       {
         "lineNumber": 396,
         "author": {
           "gitId": "e0261618"
         },
-        "content": ""
+        "content": "            cell \u003d row.createCell(columnCount++);"
       },
       {
         "lineNumber": 397,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "            cell \u003d row.createCell(columnCount++);"
+        "content": "            cell.setCellValue(category);"
       },
       {
         "lineNumber": 398,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "            cell.setCellValue(\"$\" + amount);"
+        "content": ""
       },
       {
         "lineNumber": 399,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "        }"
+        "content": "            cell \u003d row.createCell(columnCount++);"
       },
       {
         "lineNumber": 400,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "        rowCount++;"
+        "content": "            cell.setCellValue(\"$\" + amount);"
       },
       {
         "lineNumber": 401,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "        row \u003d sheet.createRow(rowCount++);"
+        "content": "        }"
       },
       {
         "lineNumber": 402,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "        cell \u003d row.createCell(2);"
+        "content": "        rowCount++;"
       },
       {
         "lineNumber": 403,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "        cell.setCellValue(\"Total :\");"
+        "content": "        row \u003d sheet.createRow(rowCount++);"
       },
       {
         "lineNumber": 404,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "        cell \u003d row.createCell(3);"
+        "content": "        cell \u003d row.createCell(2);"
       },
       {
         "lineNumber": 405,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "        cell.setCellValue(\"$\" + totalAmount);"
+        "content": "        cell.setCellValue(\"Total :\");"
       },
       {
         "lineNumber": 406,
         "author": {
           "gitId": "e0261618"
         },
-        "content": ""
+        "content": "        cell \u003d row.createCell(3);"
       },
       {
         "lineNumber": 407,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "        row \u003d sheet.createRow(rowCount++);"
+        "content": "        cell.setCellValue(\"$\" + totalAmount);"
       },
       {
         "lineNumber": 408,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "        cell \u003d row.createCell(0);"
+        "content": ""
       },
       {
         "lineNumber": 409,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "        cell.setCellValue(\"Generated on :\" + sdfFull.format(new Date()));"
+        "content": "        row \u003d sheet.createRow(rowCount++);"
       },
       {
         "lineNumber": 410,
         "author": {
           "gitId": "e0261618"
         },
-        "content": ""
+        "content": "        cell \u003d row.createCell(0);"
       },
       {
         "lineNumber": 411,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "        row \u003d sheet.createRow(rowCount++);"
+        "content": "        cell.setCellValue(\"Generated on :\" + sdfFull.format(new Date()));"
       },
       {
         "lineNumber": 412,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "        cell \u003d row.createCell(0);"
+        "content": ""
       },
       {
         "lineNumber": 413,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "        cell.setCellValue(\"Generate Period : \" + timePeriod);"
+        "content": "        row \u003d sheet.createRow(rowCount++);"
       },
       {
         "lineNumber": 414,
         "author": {
           "gitId": "e0261618"
         },
-        "content": ""
+        "content": "        cell \u003d row.createCell(0);"
       },
       {
         "lineNumber": 415,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "    }"
+        "content": "        cell.setCellValue(\"Generate Period : \" + timePeriod);"
       },
       {
         "lineNumber": 416,
@@ -12903,10 +12949,24 @@
         "author": {
           "gitId": "e0261618"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 418,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 419,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 420,
         "author": {
           "gitId": "adi-kd0021"
         },
@@ -12917,7 +12977,7 @@
       "Chilaiping": 48,
       "skyventus": 1,
       "timmyly7": 146,
-      "adi-kd0021": 92,
+      "adi-kd0021": 94,
       "e0261618": 131
     }
   },
