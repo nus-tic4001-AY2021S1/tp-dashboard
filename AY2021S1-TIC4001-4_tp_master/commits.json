@@ -150,6 +150,37 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-29",
+        "commitResults": [
+          {
+            "hash": "976a95afcd9cf9435b4cbf91add423cbc7961081",
+            "messageTitle": "Junit for Budget Add Test",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 37,
+                "deletions": 6
+              },
+              "test-code": {
+                "insertions": 75,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "12034657bba7bdf8651543249e4311ac8146ed90",
+            "messageTitle": "Userguide Update for Budget Function",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 11,
+                "deletions": 5
+              }
+            }
+          }
+        ]
       }
     ],
     "skyventus": [
@@ -334,6 +365,48 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-29",
+        "commitResults": [
+          {
+            "hash": "e90d501c4dd4301f681073f1dd07873eecc04b51",
+            "messageTitle": "[JUnit] adding Transaction Storage Test messages with slight amendment on Storage",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 13,
+                "deletions": 2
+              },
+              "test-code": {
+                "insertions": 43,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "7a5693e0c399cf79a7473b1f09837e38f0fea1f7",
+            "messageTitle": "[JUnit] removing valid_format test case due to error",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "test-code": {
+                "insertions": 0,
+                "deletions": 9
+              }
+            }
+          },
+          {
+            "hash": "8d4674ebc1d503e9ee25dc811b22d9ecb8a1844e",
+            "messageTitle": "[JUnit] TransactionDecodedTest and TransactionEncodedTest added",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "test-code": {
+                "insertions": 61,
+                "deletions": 0
+              }
+            }
+          }
+        ]
       }
     ],
     "timmyly7": [
@@ -475,6 +548,33 @@
               "test-code": {
                 "insertions": 2,
                 "deletions": 2
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-10-29",
+        "commitResults": [
+          {
+            "hash": "13d52e483c3f92ae847349f65425656b3a507ead",
+            "messageTitle": "Update view transaction to view with time period",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 16,
+                "deletions": 5
+              }
+            }
+          },
+          {
+            "hash": "5710f5317014e961ba1a92834ecbf067f7b5959c",
+            "messageTitle": "Code cleaning",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 4,
+                "deletions": 6
               }
             }
           }
@@ -781,6 +881,103 @@
                 "deletions": 5
               }
             }
+          },
+          {
+            "hash": "a7978ee0c3011060c95b6d9bf5787510033d211a",
+            "messageTitle": "Added assert for get transaction by category",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 4,
+                "deletions": 8
+              }
+            }
+          },
+          {
+            "hash": "b05a521e09e21ae2dd7bb8847d8c3cfbb227a869",
+            "messageTitle": "Added 1 daily reminder to add expense",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 5,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "4e3b6d657005ae495e8017ef72ff51ce8ad2e727",
+            "messageTitle": "Changed UG, edited view command examples and format",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 26,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "0466ad747f215dd341bc0d857088f820428c5c6c",
+            "messageTitle": "Fixed CheckStyle",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "b96051fe238d57e0a6546deda131b6edd4678a77",
+            "messageTitle": "Added Junit test UpdateCommandTest",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 1,
+                "deletions": 1
+              },
+              "test-code": {
+                "insertions": 28,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "68d9ad1d676b7c984f8100f91c7e97a6d365a931",
+            "messageTitle": "Fixed CheckStyle",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "test-code": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "53e45e87173f03d866cd25c5eeeb2d7c1c988f4e",
+            "messageTitle": "Fixed Version Number to 2.0",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-10-30",
+        "commitResults": [
+          {
+            "hash": "ea507780a90c6d300b23a980576fa2846f3f8074",
+            "messageTitle": "Fixed smiley",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
           }
         ]
       }
@@ -867,6 +1064,28 @@
                 "deletions": 4
               }
             }
+          },
+          {
+            "hash": "ad8073e08427fa5f5660e44ff233913af54dd1f2",
+            "messageTitle": "Updated UserGuide_v2",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 122,
+                "deletions": 59
+              }
+            }
+          },
+          {
+            "hash": "70109657a39204632f3ebfb59039ba64137bd2d1",
+            "messageTitle": "Added assertion",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 1,
+                "deletions": 0
+              }
+            }
           }
         ]
       }
@@ -874,40 +1093,40 @@
   },
   "authorFileTypeContributionMap": {
     "Chilaiping": {
-      "docs": 0,
-      "functional-code": 259,
-      "test-code": 40
+      "docs": 11,
+      "functional-code": 290,
+      "test-code": 115
     },
     "skyventus": {
       "docs": 0,
-      "functional-code": 270,
-      "test-code": 152,
+      "functional-code": 281,
+      "test-code": 247,
       "other": 1
     },
     "timmyly7": {
       "docs": 0,
-      "functional-code": 386,
+      "functional-code": 397,
       "test-code": 143
     },
     "adi-kd0021": {
-      "docs": 0,
-      "functional-code": 646,
-      "test-code": 16,
+      "docs": 26,
+      "functional-code": 648,
+      "test-code": 44,
       "other": 8
     },
     "e0261618": {
-      "docs": 63,
-      "functional-code": 250,
+      "docs": 114,
+      "functional-code": 249,
       "test-code": 0,
       "other": 3
     }
   },
   "authorContributionVariance": {
-    "Chilaiping": 767.47815,
-    "skyventus": 1012.9936,
-    "timmyly7": 2349.8267,
-    "adi-kd0021": 3823.2695,
-    "e0261618": 897.8935
+    "Chilaiping": 969.4386,
+    "skyventus": 1183.4799,
+    "timmyly7": 2324.8298,
+    "adi-kd0021": 3875.3088,
+    "e0261618": 1328.5065
   },
   "authorDisplayNameMap": {
     "Chilaiping": "TIC4001-4 CHI ..PING",

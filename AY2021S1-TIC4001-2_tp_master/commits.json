@@ -1266,6 +1266,22 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-29",
+        "commitResults": [
+          {
+            "hash": "54f9e9959d60a30eb6a66a1e8d141919ea33b5ed",
+            "messageTitle": "Update UG",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 0,
+                "deletions": 15
+              }
+            }
+          }
+        ]
       }
     ],
     "Chenduo1412": [
@@ -1434,38 +1450,81 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-28",
+        "commitResults": [
+          {
+            "hash": "8e69bfde527090302f04995b039884a7b08bc043",
+            "messageTitle": "Add junit test for the budget and summary class.",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "test-code": {
+                "insertions": 135,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "e12b449ffcbd348ead7f834065c77102498a576a",
+            "messageTitle": "Fix some error in the test",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "test-code": {
+                "insertions": 4,
+                "deletions": 6
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-10-29",
+        "commitResults": [
+          {
+            "hash": "372e501aeadf4c583afb226231ee312cf2b14461",
+            "messageTitle": "Add some user guide",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 16,
+                "deletions": 2
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFileTypeContributionMap": {
     "daiweinus": {
-      "docs": 69,
+      "docs": 65,
       "functional-code": 554,
       "test-code": 149,
       "other": 3
     },
     "dgc5213": {
-      "docs": 196,
+      "docs": 192,
       "functional-code": 420,
       "test-code": 136
     },
     "e0260222": {
-      "docs": 172,
+      "docs": 164,
       "functional-code": 2068,
       "test-code": 328,
       "other": 4
     },
     "Chenduo1412": {
-      "docs": 3,
+      "docs": 18,
       "functional-code": 120,
-      "test-code": 0
+      "test-code": 133
     }
   },
   "authorContributionVariance": {
-    "daiweinus": 5001.566,
-    "dgc5213": 32230.01,
-    "e0260222": 34969.91,
-    "Chenduo1412": 512.51025
+    "daiweinus": 4940.535,
+    "dgc5213": 31832.504,
+    "e0260222": 34549.598,
+    "Chenduo1412": 757.36694
   },
   "authorDisplayNameMap": {
     "daiweinus": "TIC4001-2 DAI .. WEI",

@@ -693,7 +693,7 @@
         "author": {
           "gitId": "linqing42"
         },
-        "content": "Here is [UML Class Diagram](https://github.com/AY2021S1-TIC4001-1/tp/blob/master/docs/UML%20Class%20diagram.png) and you can refer to [online website](https://ay2021s1-tic4001-1.github.io/tp/DeveloperGuide.html) ."
+        "content": "Here is [UML Diagram V2](https://github.com/linqing42/tp/blob/master/docs/UML%20V2.png) and you can refer to [online website](https://ay2021s1-tic4001-1.github.io/tp/DeveloperGuide.html) ."
       },
       {
         "lineNumber": 7,
@@ -1335,9 +1335,9 @@
       {
         "lineNumber": 36,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "linqing42"
         },
-        "content": " - Send a email to user        | --send INDEX"
+        "content": " - Send an email to user        | --send INDEX"
       },
       {
         "lineNumber": 37,
@@ -3155,19 +3155,26 @@
       {
         "lineNumber": 296,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "linqing42"
         },
-        "content": "* Find word(s) in project `--find KEYWORD`"
+        "content": "* Send an email to user   `--send INDEX`"
       },
       {
         "lineNumber": 297,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "* Find and replace word(s) `--find KEYWORD --replace KEYWORD`"
+        "content": "* Find word(s) in project `--find KEYWORD`"
       },
       {
         "lineNumber": 298,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "* Find and replace word(s) `--find KEYWORD --replace KEYWORD`"
+      },
+      {
+        "lineNumber": 299,
         "author": {
           "gitId": "linqing42"
         },
@@ -3175,10 +3182,10 @@
       }
     ],
     "authorContributionMap": {
-      "linqing42": 148,
+      "linqing42": 150,
       "Impala36": 89,
       "-": 29,
-      "binbinhui": 32
+      "binbinhui": 31
     }
   },
   {
@@ -11446,7 +11453,7 @@
         "author": {
           "gitId": "Impala36"
         },
-        "content": "                + \" - Edit a project detail    | \" + colorGreen(\"--edit INDEX --commandName INPUT\\n\")"
+        "content": "                + \" - Edit a project detail       | \" + colorGreen(\"--edit INDEX --commandName INPUT\\n\")"
       },
       {
         "lineNumber": 44,
@@ -13849,14 +13856,14 @@
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "        Project project1\u003dnew Project(\"--name testing project 1 --description this is a testing project --involve Anna, Tim and Zak --startdate 10/10/2020 --duedate 12/12/2020 --incharge Alex\");"
+        "content": "        Project project1 \u003d new Project(\"--name Clinical Trials --description regarding hospital task --involve Tom, Lucy --client Desi --startdate 11/11/2020 --duedate 12/12/2020 --incharge Derek --email linqing4267@gmail.com --duration 31 --status Incomplete\");"
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "        ProjectList projects\u003d new ProjectList();"
+        "content": "        ProjectList projects \u003d new ProjectList();"
       },
       {
         "lineNumber": 22,
@@ -13905,66 +13912,108 @@
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "                  \"Project Name: testing project 1 \" + \"\\n\""
+        "content": "                \"Project Name: Clinical Trials \" + \"\\n\""
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "                + \"Project Description: this is a testing project \" + \"\\n\""
+        "content": "                        + \"Project Description: regarding hospital task \" + \"\\n\""
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "                + \"Project Team Members: Anna, Tim and Zak \" + \"\\n\""
+        "content": "                        + \"Project Team Members: Tom, Lucy \" + \"\\n\""
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "                + \"Start Date: 10/10/2020 \" + \"\\n\""
+        "content": "                        + \"Client: Desi \" + \"\\n\""
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "                + \"Due Date: 12/12/2020 \" + \"\\n\""
+        "content": "                        + \"Start Date: 11/11/2020 \" + \"\\n\""
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "                + \"Person in Charge: Alex\" + \"\\n\";"
+        "content": "                        + \"Due Date: 12/12/2020 \" + \"\\n\""
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "        assertEquals(projectDetail1, projectDetail2);"
+        "content": "                        + \"Person in Charge: Derek \" + \"\\n\""
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "    }"
+        "content": "                        + \"Email: linqing4267@gmail.com \"  + \"\\n\""
       },
       {
         "lineNumber": 36,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "                        + \"Duration: 31 \" + \"\\n\""
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "                        + \"Days Left: 44\" + \"\\n\""
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "                        + \"Status: Incomplete\" + \"\\n\";"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "        assertEquals(projectDetail1, projectDetail2);"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 42,
         "author": {
           "gitId": "linqing42"
         },
         "content": ""
       },
       {
-        "lineNumber": 37,
+        "lineNumber": 43,
         "author": {
           "gitId": "Yiheng0410"
         },
@@ -13973,7 +14022,7 @@
     ],
     "authorContributionMap": {
       "linqing42": 1,
-      "Yiheng0410": 36
+      "Yiheng0410": 42
     }
   },
   {

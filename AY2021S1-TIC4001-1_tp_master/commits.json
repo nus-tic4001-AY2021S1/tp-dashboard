@@ -275,6 +275,33 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-29",
+        "commitResults": [
+          {
+            "hash": "598e25ecadd1647944d2a925e9ff442995757f67",
+            "messageTitle": "update DG",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "267ceda0ae2ae3a5c3ad75cd6876f8636176b4bc",
+            "messageTitle": "edit user guid",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 2,
+                "deletions": 1
+              }
+            }
+          }
+        ]
       }
     ],
     "Yiheng0410": [
@@ -374,6 +401,22 @@
               "functional-code": {
                 "insertions": 1,
                 "deletions": 2
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-10-29",
+        "commitResults": [
+          {
+            "hash": "514e9a9caea5de72d21fe423109e3d0ed1a54dd0",
+            "messageTitle": "Update and fix bug for UiTest",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "test-code": {
+                "insertions": 14,
+                "deletions": 8
               }
             }
           }
@@ -970,19 +1013,35 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-29",
+        "commitResults": [
+          {
+            "hash": "aedd44b40abbf6da1c91f0c3ea992be46883986c",
+            "messageTitle": "fixed the ui text test",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFileTypeContributionMap": {
     "linqing42": {
-      "docs": 173,
+      "docs": 175,
       "functional-code": 133,
       "test-code": 3
     },
     "Yiheng0410": {
       "docs": 0,
       "functional-code": 108,
-      "test-code": 116
+      "test-code": 122
     },
     "Impala36": {
       "docs": 103,
@@ -991,17 +1050,17 @@
       "other": 8
     },
     "binbinhui": {
-      "docs": 32,
+      "docs": 31,
       "functional-code": 259,
       "test-code": 1,
       "other": 18
     }
   },
   "authorContributionVariance": {
-    "linqing42": 1786.6667,
-    "Yiheng0410": 576.9675,
-    "Impala36": 8125.514,
-    "binbinhui": 15262.592
+    "linqing42": 1763.7755,
+    "Yiheng0410": 573.14465,
+    "Impala36": 8026.5674,
+    "binbinhui": 15069.088
   },
   "authorDisplayNameMap": {
     "linqing42": "TIC4001-1 LIN ..QING",

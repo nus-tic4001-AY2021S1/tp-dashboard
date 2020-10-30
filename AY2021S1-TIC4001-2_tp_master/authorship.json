@@ -3511,325 +3511,318 @@
         "author": {
           "gitId": "daiweinus"
         },
-        "content": "____________________________________________________________________"
+        "content": "____________________________________________________________________ "
       },
       {
         "lineNumber": 395,
         "author": {
           "gitId": "daiweinus"
         },
-        "content": "You:  "
+        "content": "```"
       },
       {
         "lineNumber": 396,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "Chenduo1412"
         },
-        "content": "```"
+        "content": "### Exiting the program: `exit`"
       },
       {
         "lineNumber": 397,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "Chenduo1412"
         },
-        "content": ""
+        "content": "Exits the program. "
       },
       {
         "lineNumber": 398,
         "author": {
           "gitId": "daiweinus"
         },
-        "content": "### Exiting the program: `exit`"
+        "content": ""
       },
       {
         "lineNumber": 399,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "Chenduo1412"
         },
-        "content": "Exits the program. "
+        "content": "Format: `exit`"
       },
       {
         "lineNumber": 400,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "Chenduo1412"
         },
         "content": ""
       },
       {
         "lineNumber": 401,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "Chenduo1412"
         },
-        "content": "Format: `exit`"
+        "content": "Example of usage: `exit`"
       },
       {
         "lineNumber": 402,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "Chenduo1412"
         },
         "content": ""
       },
       {
         "lineNumber": 403,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "Chenduo1412"
         },
-        "content": "Example of usage: `exit`"
+        "content": "Expected outcome:"
       },
       {
         "lineNumber": 404,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "Chenduo1412"
         },
         "content": ""
       },
       {
         "lineNumber": 405,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "Chenduo1412"
         },
-        "content": "Expected outcome:"
+        "content": "```"
       },
       {
         "lineNumber": 406,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "Chenduo1412"
         },
-        "content": ""
+        "content": "Bye! Hope to see you again soon."
       },
       {
         "lineNumber": 407,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "Chenduo1412"
         },
         "content": "```"
       },
       {
         "lineNumber": 408,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "Chenduo1412"
         },
-        "content": "Bye! Hope to see you again soon."
+        "content": ""
       },
       {
         "lineNumber": 409,
         "author": {
-          "gitId": "e0260222"
-        },
-        "content": "```"
-      },
-      {
-        "lineNumber": 410,
-        "author": {
-          "gitId": "dgc5213"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 411,
-        "author": {
-          "gitId": "e0260222"
+          "gitId": "Chenduo1412"
         },
         "content": "### Saving the data"
       },
       {
-        "lineNumber": 412,
+        "lineNumber": 410,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "Chenduo1412"
         },
         "content": "There is no save command because any change "
       },
       {
-        "lineNumber": 413,
+        "lineNumber": 411,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "Chenduo1412"
         },
         "content": "to the data will be automatically saved."
       },
       {
-        "lineNumber": 414,
+        "lineNumber": 412,
         "author": {
           "gitId": "dgc5213"
         },
         "content": ""
       },
       {
-        "lineNumber": 415,
+        "lineNumber": 413,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 414,
         "author": {
           "gitId": "-"
         },
         "content": "## FAQ"
       },
       {
-        "lineNumber": 416,
+        "lineNumber": 415,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 417,
+        "lineNumber": 416,
         "author": {
           "gitId": "e0260222"
         },
         "content": "**Q**:"
       },
       {
-        "lineNumber": 418,
+        "lineNumber": 417,
         "author": {
           "gitId": "e0260222"
         },
         "content": "How do I transfer my data to another computer? "
       },
       {
-        "lineNumber": 419,
+        "lineNumber": 418,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 420,
+        "lineNumber": 419,
         "author": {
           "gitId": "e0260222"
         },
         "content": "**A**: "
       },
       {
-        "lineNumber": 421,
+        "lineNumber": 420,
         "author": {
           "gitId": "e0260222"
         },
         "content": "Go to Money Tracker\u0027s root folder in the current computer."
       },
       {
-        "lineNumber": 422,
+        "lineNumber": 421,
         "author": {
           "gitId": "e0260222"
         },
         "content": "Copy the data folder and paste it into the Money Tracker\u0027s root folder in the new computer."
       },
       {
-        "lineNumber": 423,
+        "lineNumber": 422,
         "author": {
           "gitId": "e0260222"
         },
         "content": "Click `Yes` if the system prompts you for confirmation of overwriting."
       },
       {
-        "lineNumber": 424,
+        "lineNumber": 423,
         "author": {
           "gitId": "-"
         },
         "content": "## Command Summary"
       },
       {
-        "lineNumber": 425,
+        "lineNumber": 424,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 426,
+        "lineNumber": 425,
         "author": {
           "gitId": "e0260222"
         },
         "content": "* View help `help`"
       },
       {
-        "lineNumber": 427,
+        "lineNumber": 426,
         "author": {
           "gitId": "e0260222"
         },
         "content": "* Add income category `addcati INCOME_CATEGORY`"
       },
       {
-        "lineNumber": 428,
+        "lineNumber": 427,
         "author": {
           "gitId": "e0260222"
         },
         "content": "* Add expense category `addcate EXPENSE_CATEGORY`"
       },
       {
-        "lineNumber": 429,
+        "lineNumber": 428,
         "author": {
           "gitId": "e0260222"
         },
         "content": "* List income / expense categories `listcat [/tTYPE]`"
       },
       {
-        "lineNumber": 430,
+        "lineNumber": 429,
         "author": {
           "gitId": "e0260222"
         },
         "content": "* Edit income / expense category `editcat INDEX /nNEW_NAME`"
       },
       {
-        "lineNumber": 431,
+        "lineNumber": 430,
         "author": {
           "gitId": "e0260222"
         },
         "content": "* Delete income / expense category `deletecat INDEX`"
       },
       {
-        "lineNumber": 432,
+        "lineNumber": 431,
         "author": {
           "gitId": "dgc5213"
         },
         "content": "* Add income `addi /aAMOUNT /cINCOME_CATEGORY [/dDATE] [/eDESCRIPTION]`"
       },
       {
-        "lineNumber": 433,
+        "lineNumber": 432,
         "author": {
           "gitId": "dgc5213"
         },
         "content": "* Add expense `adde /aAMOUNT /cEXPENSE_CATEGORY [/dDATE] [/eDESCRIPTION]`"
       },
       {
-        "lineNumber": 434,
+        "lineNumber": 433,
         "author": {
           "gitId": "e0260222"
         },
         "content": "* List incomes / expenses `list [/tTYPE] [/mMONTH]`"
       },
       {
-        "lineNumber": 435,
+        "lineNumber": 434,
         "author": {
           "gitId": "e0260222"
         },
         "content": "* Edit income / expense `edit INDEX [/aAMOUNT] [/cCATEGORY] [/dDATE] [/eDESCRIPTION]`"
       },
       {
-        "lineNumber": 436,
+        "lineNumber": 435,
         "author": {
           "gitId": "dgc5213"
         },
         "content": "* Delete income / expense `delete INDEX`"
       },
       {
-        "lineNumber": 437,
+        "lineNumber": 436,
         "author": {
           "gitId": "e0260222"
         },
         "content": "* Clear data `clear`"
       },
       {
-        "lineNumber": 438,
+        "lineNumber": 437,
         "author": {
           "gitId": "e0260222"
         },
         "content": "* Set monthly budget `budget AMOUNT`"
       },
       {
-        "lineNumber": 439,
+        "lineNumber": 438,
         "author": {
           "gitId": "e0260222"
         },
         "content": "* View monthly report `report MONTH`"
       },
       {
-        "lineNumber": 440,
+        "lineNumber": 439,
         "author": {
           "gitId": "e0260222"
         },
@@ -3837,9 +3830,10 @@
       }
     ],
     "authorContributionMap": {
-      "daiweinus": 66,
-      "dgc5213": 191,
-      "e0260222": 156,
+      "daiweinus": 62,
+      "dgc5213": 187,
+      "e0260222": 148,
+      "Chenduo1412": 15,
       "-": 27
     }
   },
@@ -28899,6 +28893,955 @@
       "daiweinus": 149,
       "e0260222": 216,
       "-": 7
+    }
+  },
+  {
+    "path": "src/test/java/moneytracker/summary/BudgetTest.java",
+    "fileType": "test-code",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "package moneytracker.summary;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "import org.junit.jupiter.api.Test;"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "import java.time.LocalDate;"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "import java.time.format.TextStyle;"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "import java.util.Locale;"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "import static org.junit.jupiter.api.Assertions.assertEquals;"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "/**"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": " * JUnit tests for Budget class."
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": " */"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "public class BudgetTest {"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "     * Tests the percentage calculation of \u003ccode\u003eBudget\u003c/code\u003e."
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "    @Test"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "    public void budgetTest() {"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "        /**"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "         * Tests expense exceeded 50 percent."
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "         */"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "        double amount \u003d 2000.00;"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "        Budget b \u003d new Budget(amount);"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "        String str1 \u003d b.calPercentage(1000.00);"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "        assertEquals(\"You have exceeded 50% of your budget of $2000.00 for Oct 2020.\",\"You have exceeded \""
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "                + str1 + \" of your budget of $\" + String.format(\"%.2f\", amount) + \" for \""
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "                + LocalDate.now().getMonth().getDisplayName(TextStyle.SHORT, Locale.US)"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "                + \" \" + LocalDate.now().getYear() + \".\");"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "        /**"
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "         * Tests expense exceeded 75 percent."
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "         */"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "        String str2 \u003d b.calPercentage(1751.00);"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "        assertEquals(\"You have exceeded 75% of your budget of $2000.00 for Oct 2020.\",\"You have exceeded \""
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "                + str2 + \" of your budget of $\" + String.format(\"%.2f\", amount) + \" for \""
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "                + LocalDate.now().getMonth().getDisplayName(TextStyle.SHORT, Locale.US)"
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "                + \" \" + LocalDate.now().getYear() + \".\");"
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "        /**"
+      },
+      {
+        "lineNumber": 47,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "         * Tests the expense exceeded 100 percent."
+      },
+      {
+        "lineNumber": 48,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "         */"
+      },
+      {
+        "lineNumber": 49,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "        String str3 \u003d b.calPercentage(2500.10);"
+      },
+      {
+        "lineNumber": 50,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "        assertEquals(\"You have exceeded 100% of your budget of $2000.00 for Oct 2020.\",\"You have exceeded \""
+      },
+      {
+        "lineNumber": 51,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "                + str3 + \" of your budget of $\" + String.format(\"%.2f\", amount) + \" for \""
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "                + LocalDate.now().getMonth().getDisplayName(TextStyle.SHORT, Locale.US)"
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "                + \" \" + LocalDate.now().getYear() + \".\");"
+      },
+      {
+        "lineNumber": 54,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "Chenduo1412": 57
+    }
+  },
+  {
+    "path": "src/test/java/moneytracker/summary/SummaryTest.java",
+    "fileType": "test-code",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "package moneytracker.summary;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "import moneytracker.exception.MoneyTrackerException;"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "import moneytracker.transaction.Income;"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "import moneytracker.transaction.Expense;"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "import moneytracker.transaction.Transaction;"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "import moneytracker.transaction.TransactionList;"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "import java.time.LocalDate;"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "import java.time.format.TextStyle;"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "import java.util.ArrayList;"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "import java.util.Locale;"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "import static org.junit.jupiter.api.Assertions.assertEquals;"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "import org.junit.jupiter.api.Test;"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "/**"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": " * JUnit tests for Summary class."
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": " */"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "public class SummaryTest {"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "     * Tests the Summary calculation of \u003ccode\u003eExpense\u003c/code\u003e."
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "    @Test"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "    public void expenseSummaryTest() {"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "        ArrayList\u003cTransaction\u003e t \u003d new ArrayList\u003c\u003e();"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "        try {"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "            Expense expense1 \u003d new Expense(300, \"dinner\", \"2020-10-10\", \"FOOD\");"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "            t.add(expense1);"
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "            Expense expense2 \u003d new Expense(200.87, \"snack\", \"2020-10-08\", \"FOOD\");"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "            t.add(expense2);"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "            TransactionList transactions \u003d new TransactionList(t);"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "            double exp \u003d Summary.calExpSummary(transactions);"
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "            assertEquals(\"Your total expense for Oct 2020: $500.87\", \"Your total expense for \""
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "                    + LocalDate.now().getMonth().getDisplayName(TextStyle.SHORT, Locale.US)"
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "                    + \" \" + LocalDate.now().getYear() + \": $\" + String.format(\"%.2f\", exp));"
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "        } catch (MoneyTrackerException e) {"
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "            System.out.print(e.getMessage());"
+      },
+      {
+        "lineNumber": 47,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 48,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 49,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 50,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 51,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "     * Tests the summary calculation of \u003ccode\u003eIncome\u003c/code\u003e."
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 54,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "    @Test"
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "    public void incomeSummaryTest() {"
+      },
+      {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "        ArrayList\u003cTransaction\u003e i \u003d new ArrayList\u003c\u003e();"
+      },
+      {
+        "lineNumber": 58,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 59,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "        try {"
+      },
+      {
+        "lineNumber": 60,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "            Income income1 \u003d new Income(1000, \"fulltime\", \"2020-10-10\", \"SALARY\");"
+      },
+      {
+        "lineNumber": 61,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "            i.add(income1);"
+      },
+      {
+        "lineNumber": 62,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 63,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "            Income income2 \u003d new Income(200.87, \"parttime\", \"2020-10-08\", \"SALARY\");"
+      },
+      {
+        "lineNumber": 64,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "            i.add(income2);"
+      },
+      {
+        "lineNumber": 65,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "            TransactionList transactions \u003d new TransactionList(i);"
+      },
+      {
+        "lineNumber": 66,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "            double inc \u003d Summary.calIncSummary(transactions);"
+      },
+      {
+        "lineNumber": 67,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "            assertEquals(\"Your total income for Oct 2020: $1200.87\", \"Your total income for \""
+      },
+      {
+        "lineNumber": 68,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "                    + LocalDate.now().getMonth().getDisplayName(TextStyle.SHORT, Locale.US)"
+      },
+      {
+        "lineNumber": 69,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "                    + \" \" + LocalDate.now().getYear() + \": $\" + String.format(\"%.2f\", inc));"
+      },
+      {
+        "lineNumber": 70,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 71,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "        } catch (MoneyTrackerException e) {"
+      },
+      {
+        "lineNumber": 72,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "            System.out.print(e.getMessage());"
+      },
+      {
+        "lineNumber": 73,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 74,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 75,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 76,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "Chenduo1412": 76
     }
   },
   {
