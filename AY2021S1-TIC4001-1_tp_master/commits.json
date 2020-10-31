@@ -302,6 +302,68 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-30",
+        "commitResults": [
+          {
+            "hash": "feecff035e35e74e61d7626e94842158a6470a06",
+            "messageTitle": "edit user guid",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "b6638abf3e38be34000a9fce4f043291344ce146",
+            "messageTitle": "update developerguide",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 0
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-10-31",
+        "commitResults": [
+          {
+            "hash": "0d4ea0cb5b99b5929ef1fcca822db6d94764817f",
+            "messageTitle": "add Complete command",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 63,
+                "deletions": 4
+              },
+              "other": {
+                "insertions": 1,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "49f6d4b16a2c0e135e1abbc6cf38cbdb549891b5",
+            "messageTitle": "add CompleteTest, update, projectListTestStorageTest and UiTest",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 1,
+                "deletions": 0
+              },
+              "test-code": {
+                "insertions": 74,
+                "deletions": 12
+              }
+            }
+          }
+        ]
       }
     ],
     "Yiheng0410": [
@@ -417,6 +479,22 @@
               "test-code": {
                 "insertions": 14,
                 "deletions": 8
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-10-30",
+        "commitResults": [
+          {
+            "hash": "32815160c3cb0b4fc9faad976551de627788a98d",
+            "messageTitle": "Update and fix bug for UiTest",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "test-code": {
+                "insertions": 10,
+                "deletions": 1
               }
             }
           }
@@ -1035,17 +1113,18 @@
   "authorFileTypeContributionMap": {
     "linqing42": {
       "docs": 175,
-      "functional-code": 133,
-      "test-code": 3
+      "functional-code": 196,
+      "test-code": 75,
+      "other": 1
     },
     "Yiheng0410": {
       "docs": 0,
-      "functional-code": 108,
-      "test-code": 122
+      "functional-code": 106,
+      "test-code": 107
     },
     "Impala36": {
       "docs": 103,
-      "functional-code": 614,
+      "functional-code": 613,
       "test-code": 143,
       "other": 8
     },
@@ -1057,10 +1136,10 @@
     }
   },
   "authorContributionVariance": {
-    "linqing42": 1763.7755,
-    "Yiheng0410": 573.14465,
-    "Impala36": 8026.5674,
-    "binbinhui": 15069.088
+    "linqing42": 1983.2737,
+    "Yiheng0410": 559.4012,
+    "Impala36": 7835.705,
+    "binbinhui": 14698.3955
   },
   "authorDisplayNameMap": {
     "linqing42": "TIC4001-1 LIN ..QING",

@@ -693,7 +693,7 @@
         "author": {
           "gitId": "linqing42"
         },
-        "content": "Here is [UML Diagram V2](https://github.com/linqing42/tp/blob/master/docs/UML%20V2.png) and you can refer to [online website](https://ay2021s1-tic4001-1.github.io/tp/DeveloperGuide.html) ."
+        "content": "Here is [UML Diagram V2](https://github.com/AY2021S1-TIC4001-1/tp/blob/master/docs/UML%20V2.drawio) and you can refer to [online website](https://ay2021s1-tic4001-1.github.io/tp/DeveloperGuide.html) ."
       },
       {
         "lineNumber": 7,
@@ -924,87 +924,94 @@
         "author": {
           "gitId": "-"
         },
-        "content": "## Non-Functional Requirements"
+        "content": ""
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "## Non-Functional Requirements"
       },
       {
         "lineNumber": 41,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "-"
         },
-        "content": "* Should work on any Mainstream OS as long as it has Java **11** or above installed."
+        "content": ""
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "* *User-Friendly*: there is nice and helpful UI messages should be very easy for the users to use."
+        "content": "* Should work on any Mainstream OS as long as it has Java **11** or above installed."
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "* *User-Friendly*: the way to display the project should be easier to read."
+        "content": "* *User-Friendly*: there is nice and helpful UI messages should be very easy for the users to use."
       },
       {
         "lineNumber": 44,
         "author": {
-          "gitId": "-"
+          "gitId": "linqing42"
         },
-        "content": ""
+        "content": "* *User-Friendly*: the way to display the project should be easier to read."
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "-"
         },
-        "content": "## Glossary"
+        "content": ""
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "## Glossary"
       },
       {
         "lineNumber": 47,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 48,
         "author": {
           "gitId": "linqing42"
         },
         "content": "* *Mainstream OS * - Windows, Mac and Linux"
       },
       {
-        "lineNumber": 48,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
         "lineNumber": 49,
         "author": {
           "gitId": "-"
         },
-        "content": "## Instructions for manual testing"
+        "content": ""
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "## Instructions for manual testing"
       },
       {
         "lineNumber": 51,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 52,
         "author": {
           "gitId": "-"
         },
@@ -1013,7 +1020,7 @@
     ],
     "authorContributionMap": {
       "linqing42": 24,
-      "-": 27
+      "-": 28
     }
   },
   {
@@ -3920,6 +3927,22 @@
     }
   },
   {
+    "path": "projects.txt",
+    "fileType": "other",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "1. [Complete] --name Clinical Trials --description regarding hospital task --involve Tom, Lucy --client Desi --startdate 11/11/2020 --duedate 12/12/2020 --incharge Derek --email linqing4267@gmail.com --duration 31 --status Incomplete"
+      }
+    ],
+    "authorContributionMap": {
+      "linqing42": 1
+    }
+  },
+  {
     "path": "src/main/java/seedu/tracker/Tracker.java",
     "fileType": "functional-code",
     "lines": [
@@ -5007,6 +5030,330 @@
     "authorContributionMap": {
       "Impala36": 39,
       "binbinhui": 2
+    }
+  },
+  {
+    "path": "src/main/java/seedu/tracker/command/Complete.java",
+    "fileType": "functional-code",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "package seedu.tracker.command;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "import seedu.tracker.exception.TrackerException;"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "import seedu.tracker.project.ProjectList;"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "import seedu.tracker.storage.Storage;"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "import seedu.tracker.ui.Ui;"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "import java.io.IOException;"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "public class Complete extends Command {"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "    public static final String word \u003d \"--complete\";"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "    public Complete(String line, ProjectList projects, Ui ui, Storage storage) {"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "        super(line, projects, ui, storage);"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "    public void execute() {"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "        try {"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "            if (projects.size() \u003d\u003d 0) {"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "                ui.printBorderline(\"It appears that you have no projects yet, so you can\u0027t complete any!\\n\" +"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "                        \"Perhaps you should start creating one?\");"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "                return;"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "            if (line.isEmpty()) {"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "                throw new TrackerException(\"You almost typed a proper complete command, but you missed out the number!\\n\" +"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "                        \"Please type in the \u0027--complete \u003ctask index number\u003e\u0027 format.\");"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "            int index \u003d Integer.parseInt(line);"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "            projects.get(index - 1).setComplete();"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "            ui.printTaskCompleted(index, projects);"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "            storage.updateStorage(projects);"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "        } catch (TrackerException | IOException e) {"
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "            ui.printBorderline(e.getMessage());"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "        } catch (NumberFormatException e) {"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "            ui.printBorderline(\"I\u0027m sorry, but the list goes numerically.\\nPerhaps you could type a number for the index?\");"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "        } catch (IndexOutOfBoundsException e) {"
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "            ui.printBorderline(\"It appears that you only have \" + projects.size() + \" project(s) in your list,\\n\" +"
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "                    \"perhaps you might want to try typing an index number from 1 to \" + projects.size() + \" instead?\");"
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "linqing42": 45
     }
   },
   {
@@ -9289,54 +9636,68 @@
       {
         "lineNumber": 34,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "linqing42"
         },
-        "content": "            case Exit.word:"
+        "content": "            case Complete.word:"
       },
       {
         "lineNumber": 35,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "linqing42"
         },
-        "content": "            case \"\":        // also exits when user input is empty"
+        "content": "                return new Complete(lineWithoutCommand, projects, ui, storage);"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "                return new Exit(ui);"
+        "content": "            case Exit.word:"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "            default:"
+        "content": "            case \"\":        // also exits when user input is empty"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "                return new Invalid(ui);"
+        "content": "                return new Exit(ui);"
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        }"
+        "content": "            default:"
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    }"
+        "content": "                return new Invalid(ui);"
       },
       {
         "lineNumber": 41,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 43,
         "author": {
           "gitId": "Impala36"
         },
@@ -9344,7 +9705,7 @@
       }
     ],
     "authorContributionMap": {
-      "linqing42": 3,
+      "linqing42": 5,
       "Impala36": 29,
       "binbinhui": 9
     }
@@ -9498,75 +9859,138 @@
       {
         "lineNumber": 5,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "linqing42"
         },
-        "content": ""
+        "content": "    private boolean isComplete;"
       },
       {
         "lineNumber": 6,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "Impala36"
         },
-        "content": "    public Project(String description) {"
+        "content": ""
       },
       {
         "lineNumber": 7,
         "author": {
           "gitId": "binbinhui"
         },
-        "content": "        this.description \u003d description;"
+        "content": "    public Project(String description) {"
       },
       {
         "lineNumber": 8,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "binbinhui"
         },
-        "content": "    }"
+        "content": "        this.description \u003d description;"
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "Impala36"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 10,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "linqing42"
         },
-        "content": "    public String getDescription() {"
+        "content": ""
       },
       {
         "lineNumber": 11,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "linqing42"
         },
-        "content": "        return description;"
+        "content": "    public void setComplete() {"
       },
       {
         "lineNumber": 12,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "linqing42"
         },
-        "content": "    }"
+        "content": "        this.isComplete \u003dtrue;"
       },
       {
         "lineNumber": 13,
         "author": {
-          "gitId": "binbinhui"
+          "gitId": "linqing42"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 14,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    public String toString() { return description; }"
+        "content": ""
       },
       {
         "lineNumber": 15,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    public String getDescription() {"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "        return getStatusIcon() + description;"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": "    public String toString() { return description; }"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "    public String getStatusIcon() {"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "        return \"[\" + (isComplete ? \"Complete\" : \"Incomplete\") + \"] \";"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 24,
         "author": {
           "gitId": "Impala36"
         },
@@ -9574,8 +9998,8 @@
       }
     ],
     "authorContributionMap": {
-      "linqing42": 1,
-      "Impala36": 11,
+      "linqing42": 11,
+      "Impala36": 10,
       "binbinhui": 3
     }
   },
@@ -11201,794 +11625,822 @@
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "import java.io.IOException;"
+        "content": "import java.text.ParseException;"
       },
       {
         "lineNumber": 8,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "import java.text.ParseException;"
-      },
-      {
-        "lineNumber": 9,
-        "author": {
-          "gitId": "Yiheng0410"
-        },
         "content": ""
       },
       {
-        "lineNumber": 10,
+        "lineNumber": 9,
         "author": {
           "gitId": "Impala36"
         },
         "content": "/**"
       },
       {
-        "lineNumber": 11,
+        "lineNumber": 10,
         "author": {
           "gitId": "Impala36"
         },
         "content": " * Responsible for displaying all messages and its format to the user except for error-related messages."
       },
       {
-        "lineNumber": 12,
+        "lineNumber": 11,
         "author": {
           "gitId": "Impala36"
         },
         "content": " */"
       },
       {
-        "lineNumber": 13,
+        "lineNumber": 12,
         "author": {
           "gitId": "Impala36"
         },
         "content": "public class Ui {"
       },
       {
-        "lineNumber": 14,
+        "lineNumber": 13,
         "author": {
           "gitId": "Impala36"
         },
         "content": "    public String colorRed(String input) {"
       },
       {
-        "lineNumber": 15,
+        "lineNumber": 14,
         "author": {
           "gitId": "Impala36"
         },
         "content": "        return \"\\033[31m\" + input + \"\\033[0m\";"
       },
       {
-        "lineNumber": 16,
+        "lineNumber": 15,
         "author": {
           "gitId": "Impala36"
         },
         "content": "    }"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "Impala36"
         },
-        "content": ""
+        "content": "    public String colorGreen(String input) {"
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    public String colorGreen(String input) {"
+        "content": "        return \"\\033[33m\" + input + \"\\033[0m\";"
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        return \"\\033[33m\" + input + \"\\033[0m\";"
+        "content": "    }"
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "Impala36"
         },
-        "content": ""
+        "content": "    /**"
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    /**"
+        "content": "     * Prints the input string with a borderline."
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "     * Prints the input string with a borderline."
+        "content": "     */"
       },
       {
         "lineNumber": 24,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "     */"
+        "content": "    public void printBorderline(String input) {"
       },
       {
         "lineNumber": 25,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    public void printBorderline(String input) {"
-      },
-      {
-        "lineNumber": 26,
-        "author": {
-          "gitId": "Impala36"
-        },
         "content": "        System.out"
       },
       {
-        "lineNumber": 27,
+        "lineNumber": 26,
         "author": {
           "gitId": "binbinhui"
         },
         "content": "                .println(input + \"\\n________________________________________________________________________________________________________________________________________________________\\n\");"
       },
       {
-        "lineNumber": 28,
+        "lineNumber": 27,
         "author": {
           "gitId": "Impala36"
         },
         "content": "    }"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "Impala36"
         },
-        "content": ""
+        "content": "    public void printGreeting() {"
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    public void printGreeting() {"
+        "content": "        String greeting \u003d \"Hello! I\u0027m Tracker.\\n\""
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        String greeting \u003d \"Hello! I\u0027m Tracker.\\n\""
+        "content": "                + \"I can help you manage a list of projects!\\n\";"
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "                + \"I can help you manage a list of projects!\\n\";"
+        "content": "        printBorderline(\"\");"
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        printBorderline(\"\");"
+        "content": "        System.out.print(greeting);"
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        System.out.print(greeting);"
+        "content": "    }"
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "Impala36"
         },
-        "content": ""
+        "content": "    public void printHelp() {"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    public void printHelp() {"
-      },
-      {
-        "lineNumber": 38,
-        "author": {
-          "gitId": "Impala36"
-        },
         "content": "        String help \u003d \"What you can tell me to do is listed below:\\n\""
       },
       {
-        "lineNumber": 39,
+        "lineNumber": 38,
         "author": {
           "gitId": "linqing42"
         },
         "content": "                + \" - See all commands            | \" + colorGreen(\"--help\\n\")"
       },
       {
-        "lineNumber": 40,
+        "lineNumber": 39,
         "author": {
           "gitId": "Impala36"
         },
         "content": "                + \" - Create a new project        | \" + colorGreen("
       },
       {
-        "lineNumber": 41,
+        "lineNumber": 40,
         "author": {
           "gitId": "linqing42"
         },
         "content": "                \"--project --name INPUT --description INPUT --involve INPUT --client INPUT --startdate dd/mm/yyyy --duedate dd/mm/yyyy --incharge INPUT --email INPUT \\n\")"
       },
       {
-        "lineNumber": 42,
+        "lineNumber": 41,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "                + \" - Complete a project          | \" + colorGreen(\"--done INDEX\\n\")"
+        "content": "                + \" - Complete a project          | \" + colorGreen(\"--complete INDEX\\n\")"
       },
       {
-        "lineNumber": 43,
+        "lineNumber": 42,
         "author": {
           "gitId": "Impala36"
         },
         "content": "                + \" - Edit a project detail       | \" + colorGreen(\"--edit INDEX --commandName INPUT\\n\")"
       },
       {
-        "lineNumber": 44,
+        "lineNumber": 43,
         "author": {
           "gitId": "Impala36"
         },
         "content": "                + \" - Add an extra project detail | \" + colorGreen(\"--add INDEX --commandName INPUT\\n\")"
       },
       {
-        "lineNumber": 45,
+        "lineNumber": 44,
         "author": {
           "gitId": "Impala36"
         },
         "content": "                + \" - Delete a project            | \" + colorGreen(\"--delete INDEX\\n\")"
       },
       {
-        "lineNumber": 46,
+        "lineNumber": 45,
         "author": {
           "gitId": "binbinhui"
         },
         "content": "                + \" - Send a project by email     | \" + colorGreen(\"--send INDEX\\n\")"
       },
       {
-        "lineNumber": 47,
+        "lineNumber": 46,
         "author": {
           "gitId": "linqing42"
         },
         "content": "                + \" - List down all projects      | \" + colorGreen(\"--list\\n\")"
       },
       {
-        "lineNumber": 48,
+        "lineNumber": 47,
         "author": {
           "gitId": "Impala36"
         },
         "content": "                + \" - Find word(s) in projects    | \" + colorGreen(\"--find KEYWORD\\n\")"
       },
       {
-        "lineNumber": 49,
+        "lineNumber": 48,
         "author": {
           "gitId": "Impala36"
         },
         "content": "                + \" - Find and replace word(s)    | \" + colorGreen(\"--find KEYWORD --replace KEYWORD\\n\")"
       },
       {
-        "lineNumber": 50,
+        "lineNumber": 49,
         "author": {
           "gitId": "linqing42"
         },
         "content": "                + \" - Exit my program             | \" + colorGreen(\"--exit or hit Enter\");"
       },
       {
-        "lineNumber": 51,
+        "lineNumber": 50,
         "author": {
           "gitId": "Impala36"
         },
         "content": "        printBorderline(help);"
       },
       {
-        "lineNumber": 52,
+        "lineNumber": 51,
         "author": {
           "gitId": "Impala36"
         },
         "content": "    }"
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "Impala36"
         },
-        "content": ""
+        "content": "    public void printFarewell() {"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    public void printFarewell() {"
+        "content": "        String farewell \u003d \"Bye. Hope to see you again soon!\";"
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        String farewell \u003d \"Bye. Hope to see you again soon!\";"
+        "content": "        printBorderline(farewell);"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        printBorderline(farewell);"
+        "content": "    }"
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "Impala36"
         },
-        "content": ""
+        "content": "    public void printProjectCreated(ProjectList projects) {"
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    public void printProjectCreated(ProjectList projects) {"
+        "content": "        String added \u003d \"Great! You have created a proper project as shown below:\\n\""
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        String added \u003d \"Great! You have created a proper project as shown below:\\n\""
+        "content": "                + colorGreen(displayProject(projects.get(projects.size() - 1))"
       },
       {
         "lineNumber": 61,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "                + colorGreen(displayProject(projects.get(projects.size() - 1))"
+        "content": "                + \"\\nWe now have \" + projects.size() + \" project(s) in your list!\");"
       },
       {
         "lineNumber": 62,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "                + \"\\nWe now have \" + projects.size() + \" project(s) in your list!\");"
+        "content": "        printBorderline(added);"
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        printBorderline(added);"
+        "content": "    }"
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 65,
         "author": {
           "gitId": "Impala36"
         },
-        "content": ""
+        "content": "    public void printProjectRemoved(ProjectList projects, int index) {"
       },
       {
         "lineNumber": 66,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    public void printProjectRemoved(ProjectList projects, int index) {"
+        "content": "        String added \u003d \"Okay! We have removed the project as shown below:\\n\""
       },
       {
         "lineNumber": 67,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        String added \u003d \"Okay! We have removed the project as shown below:\\n\""
+        "content": "                + colorRed(displayProject(projects.get(index))"
       },
       {
         "lineNumber": 68,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "                + colorRed(displayProject(projects.get(index))"
+        "content": "                + colorGreen(\"\\nWe now have \" + (projects.size() - 1) + \" project(s) in your list!\"));"
       },
       {
         "lineNumber": 69,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "                + colorGreen(\"\\nWe now have \" + (projects.size() - 1) + \" project(s) in your list!\"));"
+        "content": "        printBorderline(added);"
       },
       {
         "lineNumber": 70,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        printBorderline(added);"
+        "content": "    }"
       },
       {
         "lineNumber": 71,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 72,
         "author": {
           "gitId": "Impala36"
         },
-        "content": ""
+        "content": "    public void printInvalidCommand() {"
       },
       {
         "lineNumber": 73,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    public void printInvalidCommand() {"
+        "content": "        String message \u003d \"It seems that you have typed something out of my unfortunately\\n\""
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        String message \u003d \"It seems that you have typed something out of my unfortunately\\n\""
+        "content": "                + \"limited vocabulary. Can you try again?\";"
       },
       {
         "lineNumber": 75,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "                + \"limited vocabulary. Can you try again?\";"
+        "content": "        printBorderline(message);"
       },
       {
         "lineNumber": 76,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        printBorderline(message);"
+        "content": "    }"
       },
       {
         "lineNumber": 77,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 78,
         "author": {
           "gitId": "Impala36"
         },
-        "content": ""
+        "content": "    public void printNoFileFound() {"
       },
       {
         "lineNumber": 79,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    public void printNoFileFound() {"
+        "content": "        String message \u003d \"It looks like it\u0027s your first time as I could not find any existing project file.\\n\""
       },
       {
         "lineNumber": 80,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        String message \u003d \"It looks like it\u0027s your first time as I could not find any existing project file.\\n\""
+        "content": "                + \"Get started by creating a project!\";"
       },
       {
         "lineNumber": 81,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "                + \"Get started by creating a project!\";"
+        "content": "        printBorderline(message);"
       },
       {
         "lineNumber": 82,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        printBorderline(message);"
+        "content": "    }"
       },
       {
         "lineNumber": 83,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 84,
         "author": {
           "gitId": "Impala36"
         },
-        "content": ""
+        "content": "    public void printFileExists() {"
       },
       {
         "lineNumber": 85,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    public void printFileExists() {"
+        "content": "        String message \u003d \"An existing project file is found!\";"
       },
       {
         "lineNumber": 86,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        String message \u003d \"An existing project file is found!\";"
+        "content": "        printBorderline(message);"
       },
       {
         "lineNumber": 87,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "        printBorderline(message);"
+        "content": "    }"
       },
       {
         "lineNumber": 88,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 89,
-        "author": {
-          "gitId": "Impala36"
-        },
         "content": ""
       },
       {
-        "lineNumber": 90,
+        "lineNumber": 89,
         "author": {
           "gitId": "linqing42"
         },
         "content": "    public void printAddMessage(ProjectList projects) {"
       },
       {
-        "lineNumber": 91,
+        "lineNumber": 90,
         "author": {
           "gitId": "Impala36"
         },
         "content": "        printBorderline(\"Got it. I\u0027ve added this information into the project. \\n\");"
       },
       {
-        "lineNumber": 92,
+        "lineNumber": 91,
         "author": {
           "gitId": "linqing42"
         },
         "content": "    }"
+      },
+      {
+        "lineNumber": 92,
+        "author": {
+          "gitId": "Impala36"
+        },
+        "content": ""
       },
       {
         "lineNumber": 93,
         "author": {
           "gitId": "Impala36"
         },
-        "content": ""
+        "content": "    public void printEditMessage(ProjectList projects) {"
       },
       {
         "lineNumber": 94,
         "author": {
           "gitId": "Impala36"
         },
-        "content": "    public void printEditMessage(ProjectList projects) {"
+        "content": "        printBorderline(\"Got it. I\u0027ve edited the information in the project. \\n\");"
       },
       {
         "lineNumber": 95,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "linqing42"
         },
-        "content": "        printBorderline(\"Got it. I\u0027ve edited the information in the project. \\n\");"
+        "content": "    }"
       },
       {
         "lineNumber": 96,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 97,
-        "author": {
-          "gitId": "linqing42"
-        },
         "content": ""
       },
       {
-        "lineNumber": 98,
+        "lineNumber": 97,
         "author": {
           "gitId": "Impala36"
         },
         "content": "    public String displayProject(Project project) {"
       },
       {
-        "lineNumber": 99,
+        "lineNumber": 98,
         "author": {
           "gitId": "Impala36"
         },
         "content": "        String[] projectDetails \u003d project.getDescription().split(\"--\");"
       },
       {
-        "lineNumber": 100,
+        "lineNumber": 99,
         "author": {
           "gitId": "Yiheng0410"
         },
         "content": "        String daysLeft\u003dnull;"
       },
       {
-        "lineNumber": 101,
+        "lineNumber": 100,
         "author": {
           "gitId": "Yiheng0410"
         },
         "content": ""
       },
       {
-        "lineNumber": 102,
+        "lineNumber": 101,
         "author": {
           "gitId": "Yiheng0410"
         },
         "content": "        try {"
       },
       {
-        "lineNumber": 103,
+        "lineNumber": 102,
         "author": {
           "gitId": "Yiheng0410"
         },
         "content": "            daysLeft \u003d new DateConverter(projectDetails[6].split(\" \", 2)[1]).getDaysLeft();"
       },
       {
-        "lineNumber": 104,
+        "lineNumber": 103,
         "author": {
           "gitId": "Yiheng0410"
         },
         "content": "        } catch (ParseException e) {"
       },
       {
-        "lineNumber": 105,
+        "lineNumber": 104,
         "author": {
           "gitId": "Yiheng0410"
         },
         "content": "            printBorderline(e.getMessage());"
       },
       {
-        "lineNumber": 106,
+        "lineNumber": 105,
         "author": {
           "gitId": "Yiheng0410"
         },
         "content": "        }"
       },
       {
-        "lineNumber": 107,
+        "lineNumber": 106,
         "author": {
           "gitId": "Yiheng0410"
         },
         "content": ""
       },
       {
-        "lineNumber": 108,
+        "lineNumber": 107,
         "author": {
           "gitId": "Impala36"
         },
         "content": "        return \"Project Name: \" + projectDetails[1].split(\" \", 2)[1] + \"\\n\""
       },
       {
-        "lineNumber": 109,
+        "lineNumber": 108,
         "author": {
           "gitId": "Impala36"
         },
         "content": "                + \"Project Description: \" + projectDetails[2].split(\" \", 2)[1] + \"\\n\""
       },
       {
-        "lineNumber": 110,
+        "lineNumber": 109,
         "author": {
           "gitId": "Impala36"
         },
         "content": "                + \"Project Team Members: \" + projectDetails[3].split(\" \", 2)[1] + \"\\n\""
       },
       {
-        "lineNumber": 111,
+        "lineNumber": 110,
         "author": {
           "gitId": "linqing42"
         },
         "content": "                + \"Client: \" + projectDetails[4].split(\" \", 2)[1] + \"\\n\""
       },
       {
-        "lineNumber": 112,
+        "lineNumber": 111,
         "author": {
           "gitId": "linqing42"
         },
         "content": "                + \"Start Date: \" + projectDetails[5].split(\" \", 2)[1] + \"\\n\""
       },
       {
-        "lineNumber": 113,
+        "lineNumber": 112,
         "author": {
           "gitId": "linqing42"
         },
         "content": "                + \"Due Date: \" + projectDetails[6].split(\" \", 2)[1] + \"\\n\""
       },
       {
-        "lineNumber": 114,
+        "lineNumber": 113,
         "author": {
           "gitId": "linqing42"
         },
         "content": "                + \"Person in Charge: \" + projectDetails[7].split(\" \", 2)[1] + \"\\n\""
       },
       {
-        "lineNumber": 115,
+        "lineNumber": 114,
         "author": {
           "gitId": "Yiheng0410"
         },
         "content": "                + \"Email: \" + projectDetails[8].split(\" \", 2)[1] + \"\\n\""
       },
       {
-        "lineNumber": 116,
+        "lineNumber": 115,
         "author": {
           "gitId": "Yiheng0410"
         },
         "content": "                + \"Duration: \" + projectDetails[9].split(\" \", 2)[1] + \"\\n\""
       },
       {
-        "lineNumber": 117,
+        "lineNumber": 116,
         "author": {
           "gitId": "Yiheng0410"
         },
         "content": "                + \"Days Left: \" + daysLeft + \"\\n\""
       },
       {
-        "lineNumber": 118,
+        "lineNumber": 117,
         "author": {
-          "gitId": "Yiheng0410"
+          "gitId": "linqing42"
         },
-        "content": "                + \"Status: \" + projectDetails[10].split(\" \", 2)[1] + \"\\n\";"
+        "content": "                + \"Status: \" + project.getStatusIcon()+ \"\\n\";"
       },
       {
-        "lineNumber": 119,
+        "lineNumber": 118,
         "author": {
           "gitId": "linqing42"
         },
         "content": "    }"
       },
       {
+        "lineNumber": 119,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "    public void printTaskCompleted(int index, ProjectList tasks) {"
+      },
+      {
         "lineNumber": 120,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "        String complete\u003d \"Good Job! You have completed:\\n\""
+      },
+      {
+        "lineNumber": 121,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "                + \"\\033[33mProject [\" + index + \"] \";"
+      },
+      {
+        "lineNumber": 122,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "        printBorderline(complete);"
+      },
+      {
+        "lineNumber": 123,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 124,
         "author": {
           "gitId": "Impala36"
         },
@@ -11996,10 +12448,348 @@
       }
     ],
     "authorContributionMap": {
-      "linqing42": 14,
+      "linqing42": 20,
       "Impala36": 88,
-      "Yiheng0410": 16,
+      "Yiheng0410": 14,
       "binbinhui": 2
+    }
+  },
+  {
+    "path": "src/test/java/seedu/tracker/CompleteTest.java",
+    "fileType": "test-code",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "package seedu.tracker;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "import org.junit.Rule;"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "import org.junit.jupiter.api.Test;"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "import org.junit.rules.ExpectedException;"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "import seedu.tracker.parser.Parser;"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "import seedu.tracker.project.ProjectList;"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "import seedu.tracker.storage.Storage;"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "import seedu.tracker.ui.Ui;"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "public class CompleteTest {"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "    @Rule"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "    public ExpectedException thrown \u003d ExpectedException.none();"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "    @Test"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "    public void testDelete() {"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "        ProjectList projects \u003d new ProjectList();"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "        Parser parser \u003d new Parser();"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "        Ui ui \u003d new Ui();"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "        Storage storage \u003d new Storage(\"testProjects.txt\", projects, ui);"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "        parser.parseInput(\"--complete 1\", ui, projects, storage).execute();"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "        //Adding new projects to list"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "        parser.parseInput(\"--project --name Project 1 --description regarding hospital task --involve \" +"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "                \"Tom, Lucy --client MOH --startdate 11/11/2020 --duedate 12/12/2020 --incharge Derek --email linqing4267@gmail.com\", ui, projects, storage).execute();"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "        parser.parseInput(\"--project --name Project 2 --description regarding hospital task --involve \" +"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "                \"Tom, Lucy --client MOH --startdate 11/11/2020 --duedate 12/12/2020 --incharge Derek --email linqing4267@gmail.com\", ui, projects, storage).execute();"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "        parser.parseInput(\"--project --name Project 3 --description regarding hospital task --involve \" +"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "                \"Tom, Lucy --client MOH --startdate 11/11/2020 --duedate 12/12/2020 --incharge Derek --email linqing4267@gmail.com\", ui, projects, storage).execute();"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "        thrown.expect(IndexOutOfBoundsException.class);"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "        parser.parseInput(\"--complete 0\", ui, projects, storage).execute();"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "        parser.parseInput(\"--complete 4\", ui, projects, storage).execute();"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "        thrown.expect(NumberFormatException.class);"
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "        parser.parseInput(\"--complete   \", ui, projects, storage).execute();"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "        parser.parseInput(\"--complete a\", ui, projects, storage).execute();"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "        parser.parseInput(\"--complete abc\", ui, projects, storage).execute();"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "        //complete 3rd project successfully"
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "        parser.parseInput(\"--complete 3\", ui, projects, storage).execute();"
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "}"
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 47,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      }
+    ],
+    "authorContributionMap": {
+      "linqing42": 47
     }
   },
   {
@@ -13375,23 +14165,23 @@
       {
         "lineNumber": 23,
         "author": {
-          "gitId": "Yiheng0410"
+          "gitId": "linqing42"
         },
-        "content": "        assertEquals(projects.get(0).getDescription(),\"--project --name testing project 1--description this is a testing project --involve Anna, Tim and Zak --startdate 10/10/2020 --duedate 12/12/2020 --incharge Alex\");"
+        "content": "        assertEquals(projects.get(0).getDescription(),\"[Incomplete] --project --name testing project 1--description this is a testing project --involve Anna, Tim and Zak --startdate 10/10/2020 --duedate 12/12/2020 --incharge Alex\");"
       },
       {
         "lineNumber": 24,
         "author": {
-          "gitId": "Yiheng0410"
+          "gitId": "linqing42"
         },
-        "content": "        assertEquals(projects.get(1).getDescription(),\"--project --name testing project 2--description this is a testing project --involve Anna, Tim and Zak --startdate 10/10/2020 --duedate 12/12/2020 --incharge Alex\");"
+        "content": "        assertEquals(projects.get(1).getDescription(),\"[Incomplete] --project --name testing project 2--description this is a testing project --involve Anna, Tim and Zak --startdate 10/10/2020 --duedate 12/12/2020 --incharge Alex\");"
       },
       {
         "lineNumber": 25,
         "author": {
-          "gitId": "Yiheng0410"
+          "gitId": "linqing42"
         },
-        "content": "        assertEquals(projects.get(2).getDescription(),\"--project --name testing project 3--description this is a testing project --involve Anna, Tim and Zak --startdate 10/10/2020 --duedate 12/12/2020 --incharge Alex\");"
+        "content": "        assertEquals(projects.get(2).getDescription(),\"[Incomplete] --project --name testing project 3--description this is a testing project --involve Anna, Tim and Zak --startdate 10/10/2020 --duedate 12/12/2020 --incharge Alex\");"
       },
       {
         "lineNumber": 26,
@@ -13416,7 +14206,8 @@
       }
     ],
     "authorContributionMap": {
-      "Yiheng0410": 28
+      "linqing42": 3,
+      "Yiheng0410": 25
     }
   },
   {
@@ -13575,7 +14366,7 @@
         "author": {
           "gitId": "linqing42"
         },
-        "content": "        assertEquals(projects.get(0).getDescription(), \"--name testing project 1--description this is a testing project --involve Anna, Tim and Zak --client Lucy --startdate 10/10/2020 --duedate 12/12/2020 --incharge Alex --email linqing4267@gmail.com\");"
+        "content": "        assertEquals(projects.get(0).getDescription(), \"[Incomplete] --name testing project 1--description this is a testing project --involve Anna, Tim and Zak --client Lucy --startdate 10/10/2020 --duedate 12/12/2020 --incharge Alex --email linqing4267@gmail.com\");"
       },
       {
         "lineNumber": 23,
@@ -13742,37 +14533,37 @@
       {
         "lineNumber": 4,
         "author": {
-          "gitId": "Yiheng0410"
+          "gitId": "linqing42"
         },
-        "content": "import seedu.tracker.project.ProjectList;"
+        "content": "import seedu.tracker.common.DateConverter;"
       },
       {
         "lineNumber": 5,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "import seedu.tracker.storage.Storage;"
+        "content": "import seedu.tracker.project.ProjectList;"
       },
       {
         "lineNumber": 6,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "import seedu.tracker.ui.Ui;"
+        "content": "import seedu.tracker.storage.Storage;"
       },
       {
         "lineNumber": 7,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "import seedu.tracker.project.Project;"
+        "content": "import seedu.tracker.ui.Ui;"
       },
       {
         "lineNumber": 8,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": ""
+        "content": "import seedu.tracker.project.Project;"
       },
       {
         "lineNumber": 9,
@@ -13786,63 +14577,63 @@
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "import static org.junit.jupiter.api.Assertions.assertEquals;"
+        "content": ""
       },
       {
         "lineNumber": 11,
         "author": {
-          "gitId": "Yiheng0410"
+          "gitId": "linqing42"
         },
-        "content": ""
+        "content": "import java.text.ParseException;"
       },
       {
         "lineNumber": 12,
         "author": {
-          "gitId": "Yiheng0410"
+          "gitId": "linqing42"
         },
-        "content": "public class UiTest {"
+        "content": ""
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "    Ui ui \u003d new Ui();"
+        "content": "import static org.junit.jupiter.api.Assertions.assertEquals;"
       },
       {
         "lineNumber": 14,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "    ProjectList projects \u003d new ProjectList();"
+        "content": ""
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "    Storage storage \u003d new Storage(\"projects.txt\", projects, ui);"
+        "content": "public class UiTest {"
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": ""
+        "content": "    Ui ui \u003d new Ui();"
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "    @Test"
+        "content": "    ProjectList projects \u003d new ProjectList();"
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "    public void testDisplayProject() {"
+        "content": "    Storage storage \u003d new Storage(\"projects.txt\", projects, ui);"
       },
       {
         "lineNumber": 19,
@@ -13856,164 +14647,234 @@
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "        Project project1 \u003d new Project(\"--name Clinical Trials --description regarding hospital task --involve Tom, Lucy --client Desi --startdate 11/11/2020 --duedate 12/12/2020 --incharge Derek --email linqing4267@gmail.com --duration 31 --status Incomplete\");"
+        "content": "    @Test"
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "        ProjectList projects \u003d new ProjectList();"
+        "content": "    public void testDisplayProject() {"
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "        projects.add(project1);"
+        "content": ""
       },
       {
         "lineNumber": 23,
         "author": {
-          "gitId": "Yiheng0410"
+          "gitId": "linqing42"
         },
-        "content": ""
+        "content": "        Project project1 \u003d new Project(\"--name Clinical Trials --description regarding hospital task --involve Tom, Lucy --client Desi --startdate 11/11/2020 --duedate 12/12/2020 --incharge Derek --email linqing4267@gmail.com --duration 31 --status Incomplete\");"
       },
       {
         "lineNumber": 24,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "        String projectDetail1 \u003d ui.displayProject(projects.get(0));"
+        "content": "        ProjectList projects \u003d new ProjectList();"
       },
       {
         "lineNumber": 25,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": ""
+        "content": "        projects.add(project1);"
       },
       {
         "lineNumber": 26,
         "author": {
-          "gitId": "Yiheng0410"
+          "gitId": "linqing42"
         },
-        "content": ""
+        "content": "        String daysLeft\u003dnull;"
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "        String projectDetail2 \u003d"
+        "content": ""
       },
       {
         "lineNumber": 28,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "                \"Project Name: Clinical Trials \" + \"\\n\""
+        "content": "        String projectDetail1 \u003d ui.displayProject(projects.get(0));"
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "                        + \"Project Description: regarding hospital task \" + \"\\n\""
+        "content": ""
       },
       {
         "lineNumber": 30,
         "author": {
-          "gitId": "Yiheng0410"
+          "gitId": "linqing42"
         },
-        "content": "                        + \"Project Team Members: Tom, Lucy \" + \"\\n\""
+        "content": "        try {"
       },
       {
         "lineNumber": 31,
-        "author": {
-          "gitId": "Yiheng0410"
-        },
-        "content": "                        + \"Client: Desi \" + \"\\n\""
-      },
-      {
-        "lineNumber": 32,
-        "author": {
-          "gitId": "Yiheng0410"
-        },
-        "content": "                        + \"Start Date: 11/11/2020 \" + \"\\n\""
-      },
-      {
-        "lineNumber": 33,
-        "author": {
-          "gitId": "Yiheng0410"
-        },
-        "content": "                        + \"Due Date: 12/12/2020 \" + \"\\n\""
-      },
-      {
-        "lineNumber": 34,
-        "author": {
-          "gitId": "Yiheng0410"
-        },
-        "content": "                        + \"Person in Charge: Derek \" + \"\\n\""
-      },
-      {
-        "lineNumber": 35,
-        "author": {
-          "gitId": "Yiheng0410"
-        },
-        "content": "                        + \"Email: linqing4267@gmail.com \"  + \"\\n\""
-      },
-      {
-        "lineNumber": 36,
-        "author": {
-          "gitId": "Yiheng0410"
-        },
-        "content": "                        + \"Duration: 31 \" + \"\\n\""
-      },
-      {
-        "lineNumber": 37,
-        "author": {
-          "gitId": "Yiheng0410"
-        },
-        "content": "                        + \"Days Left: 44\" + \"\\n\""
-      },
-      {
-        "lineNumber": 38,
-        "author": {
-          "gitId": "Yiheng0410"
-        },
-        "content": "                        + \"Status: Incomplete\" + \"\\n\";"
-      },
-      {
-        "lineNumber": 39,
-        "author": {
-          "gitId": "Yiheng0410"
-        },
-        "content": "        assertEquals(projectDetail1, projectDetail2);"
-      },
-      {
-        "lineNumber": 40,
-        "author": {
-          "gitId": "Yiheng0410"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 41,
-        "author": {
-          "gitId": "Yiheng0410"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 42,
         "author": {
           "gitId": "linqing42"
         },
         "content": ""
       },
       {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "            daysLeft \u003d new DateConverter(\"12/12/2020\").getDaysLeft();"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "        } catch (ParseException e) {"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "            ui.printBorderline(e.getMessage());"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "        String projectDetail2 \u003d"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "                \"Project Name: Clinical Trials \" + \"\\n\""
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "                        + \"Project Description: regarding hospital task \" + \"\\n\""
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "                        + \"Project Team Members: Tom, Lucy \" + \"\\n\""
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "                        + \"Client: Desi \" + \"\\n\""
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "                        + \"Start Date: 11/11/2020 \" + \"\\n\""
+      },
+      {
         "lineNumber": 43,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "                        + \"Due Date: 12/12/2020 \" + \"\\n\""
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "                        + \"Person in Charge: Derek \" + \"\\n\""
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "                        + \"Email: linqing4267@gmail.com \"  + \"\\n\""
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "                        + \"Duration: 31 \" + \"\\n\""
+      },
+      {
+        "lineNumber": 47,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "                        + \"Days Left: \"+daysLeft+ \"\\n\""
+      },
+      {
+        "lineNumber": 48,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "                        + \"Status: \" + project1.getStatusIcon()+ \"\\n\";"
+      },
+      {
+        "lineNumber": 49,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "        assertEquals(projectDetail1, projectDetail2);"
+      },
+      {
+        "lineNumber": 50,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 51,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 53,
         "author": {
           "gitId": "Yiheng0410"
         },
@@ -14021,8 +14882,8 @@
       }
     ],
     "authorContributionMap": {
-      "linqing42": 1,
-      "Yiheng0410": 42
+      "linqing42": 23,
+      "Yiheng0410": 30
     }
   },
   {

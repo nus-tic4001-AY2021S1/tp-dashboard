@@ -928,38 +928,58 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-29",
+        "commitResults": [
+          {
+            "hash": "9304ee54a2a41a6b796fff34e7a80409c91fb311",
+            "messageTitle": "Modified List function to support sorting according to severity, deadline or date raised.",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 139,
+                "deletions": 6
+              },
+              "other": {
+                "insertions": 2,
+                "deletions": 1
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFileTypeContributionMap": {
     "ZhengShijieNUS": {
       "docs": 4,
-      "functional-code": 120,
+      "functional-code": 119,
       "test-code": 103
     },
     "tototto": {
       "docs": 3,
-      "functional-code": 462,
+      "functional-code": 458,
       "test-code": 88
     },
     "JanuariusJang": {
       "docs": 1,
       "functional-code": 204,
       "test-code": 45,
-      "other": 3
+      "other": 2
     },
     "pigoliver": {
       "docs": 50,
-      "functional-code": 318,
+      "functional-code": 456,
       "test-code": 45,
-      "other": 47
+      "other": 49
     }
   },
   "authorContributionVariance": {
-    "ZhengShijieNUS": 425.5676,
-    "tototto": 2093.137,
-    "JanuariusJang": 626.86816,
-    "pigoliver": 2884.381
+    "ZhengShijieNUS": 404.11905,
+    "tototto": 1990.3468,
+    "JanuariusJang": 595.39075,
+    "pigoliver": 2982.6753
   },
   "authorDisplayNameMap": {
     "ZhengShijieNUS": "TIC4001-3 ZHEN..IJIE",
