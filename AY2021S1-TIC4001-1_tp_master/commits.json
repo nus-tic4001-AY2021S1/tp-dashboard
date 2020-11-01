@@ -833,6 +833,34 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-01",
+        "commitResults": [
+          {
+            "hash": "8798e91fcffd4aa9053f6c76c96fd5f3ea8ed938",
+            "messageTitle": "Corrected all checkstyle errors (#86)",
+            "messageBody": "Fixed status writing to and reading from Storage\r\nRemoved --duration from Storage\r\nEdit and Find checks date format\r\nui.displayProject uses getDateDiff for duration",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 241,
+                "deletions": 210
+              },
+              "other": {
+                "insertions": 9,
+                "deletions": 9
+              },
+              "docs": {
+                "insertions": 2,
+                "deletions": 0
+              },
+              "test-code": {
+                "insertions": 78,
+                "deletions": 64
+              }
+            }
+          }
+        ]
       }
     ],
     "binbinhui": [
@@ -1113,33 +1141,32 @@
   "authorFileTypeContributionMap": {
     "linqing42": {
       "docs": 175,
-      "functional-code": 196,
-      "test-code": 75,
-      "other": 1
+      "functional-code": 165,
+      "test-code": 60
     },
     "Yiheng0410": {
       "docs": 0,
-      "functional-code": 106,
-      "test-code": 107
+      "functional-code": 85,
+      "test-code": 82
     },
     "Impala36": {
-      "docs": 103,
-      "functional-code": 613,
-      "test-code": 143,
-      "other": 8
+      "docs": 105,
+      "functional-code": 744,
+      "test-code": 196,
+      "other": 9
     },
     "binbinhui": {
       "docs": 31,
-      "functional-code": 259,
+      "functional-code": 213,
       "test-code": 1,
       "other": 18
     }
   },
   "authorContributionVariance": {
-    "linqing42": 1983.2737,
-    "Yiheng0410": 559.4012,
-    "Impala36": 7835.705,
-    "binbinhui": 14698.3955
+    "linqing42": 1960.1488,
+    "Yiheng0410": 552.756,
+    "Impala36": 12052.157,
+    "binbinhui": 14519.791
   },
   "authorDisplayNameMap": {
     "linqing42": "TIC4001-1 LIN ..QING",

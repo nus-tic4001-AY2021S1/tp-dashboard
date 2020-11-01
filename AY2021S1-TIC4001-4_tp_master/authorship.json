@@ -445,42 +445,42 @@
       {
         "lineNumber": 5,
         "author": {
-          "gitId": "e0261618"
+          "gitId": "adi-kd0021"
         },
-        "content": "![](https://via.placeholder.com/100.png?text\u003dPhoto) | Adi-Kesava Das | [Github](https://github.com/) | [Portfolio](docs/team/johndoe.md)"
+        "content": "![](https://upload.wikimedia.org/wikipedia/en/b/b1/Portrait_placeholder.png) | Adi-Kesava Das | [adi-kd0021](https://github.com/adi-kd0021) | [Portfolio](team/adi-kd0021.md)"
       },
       {
         "lineNumber": 6,
         "author": {
-          "gitId": "e0261618"
+          "gitId": "adi-kd0021"
         },
-        "content": "![](https://via.placeholder.com/100.png?text\u003dPhoto) | Olivier Cheah | [Github](https://github.com/) | [Portfolio](docs/team/johndoe.md)"
+        "content": "![](https://upload.wikimedia.org/wikipedia/en/b/b1/Portrait_placeholder.png) | Olivier Cheah | [skyventus](https://github.com/skyventus) | [Portfolio](team/skyventus.md)"
       },
       {
         "lineNumber": 7,
         "author": {
-          "gitId": "e0261618"
+          "gitId": "adi-kd0021"
         },
-        "content": "![](https://via.placeholder.com/100.png?text\u003dPhoto) | Li Yi | [Github](https://github.com/) | [Portfolio](docs/team/johndoe.md)"
+        "content": "![](https://upload.wikimedia.org/wikipedia/en/b/b1/Portrait_placeholder.png) | Li Yi | [timmyly7](https://github.com/timmyly7) | [Portfolio](team/timmyly7.md)"
       },
       {
         "lineNumber": 8,
         "author": {
-          "gitId": "e0261618"
+          "gitId": "adi-kd0021"
         },
-        "content": "![](https://via.placeholder.com/100.png?text\u003dPhoto) | Hngoi Zi Wen | [Github](https://github.com/) | [Portfolio](docs/team/johndoe.md)"
+        "content": "![](https://upload.wikimedia.org/wikipedia/en/b/b1/Portrait_placeholder.png) | Hngoi Zi Wen | [e0261618](https://github.com/e0261618) | [Portfolio](docs/team/e0261618.md)"
       },
       {
         "lineNumber": 9,
         "author": {
-          "gitId": "e0261618"
+          "gitId": "adi-kd0021"
         },
-        "content": "![](https://via.placeholder.com/100.png?text\u003dPhoto) | Chi Lai Ping  | [Github](https://github.com/) | [Portfolio](docs/team/johndoe.md)"
+        "content": "![](https://upload.wikimedia.org/wikipedia/en/b/b1/Portrait_placeholder.png) | Chi Lai Ping  | [Chilaiping](https://github.com/Chilaiping) | [Portfolio](team/Chilaiping.md)"
       }
     ],
     "authorContributionMap": {
       "-": 4,
-      "e0261618": 5
+      "adi-kd0021": 5
     }
   },
   {
@@ -1934,6 +1934,372 @@
       "-": 3,
       "adi-kd0021": 26,
       "e0261618": 107
+    }
+  },
+  {
+    "path": "docs/team/adi-kd0021.md",
+    "fileType": "docs",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "# Adi-Kesava Das\u0027s - Project Portfolio Page"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "## Project: NUS Expenses Tracker (NET)"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "NET is an app for managing expenses, optimized for use via a Command Line Interface (CLI) while still having the benefits of a Graphical User Interface (GUI)."
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "### Contributions to the project."
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "* Initial Code Skeleton / Baseline"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "* New Feature: User Interface (UI)"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "  * What it does: Provides a interface layer for the user to interact with. In this case, it handles the inputs from the user and displays outputs from the application to the user. Thus users respond to visual prompt and type a command on the specified line. "
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "  * Justification: This feature is a must have for a command line application. It allows users to know when to input commands and respond accordingly with feedbacks from the application."
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "  * Credits: Logic and design adapted from addressbook-level2 ([TextUi](https://github.com/se-edu/addressbook-level2/blob/master/src/seedu/addressbook/ui/TextUi.java))"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "  "
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "* New Feature: Regular Expressions (Regex) for different commands. E.g. Add, Update, Search, View, "
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "([#21](https://github.com/AY2021S1-TIC4001-4/tp/pull/21), [#39](https://github.com/AY2021S1-TIC4001-4/tp/pull/39), "
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "[#43](https://github.com/AY2021S1-TIC4001-4/tp/pull/43), [#45](https://github.com/AY2021S1-TIC4001-4/tp/pull/45))."
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "  * What it does: User input is parsed and matched by Regex to determine the commands and arguments input"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "  * Justification: This method of pattern matching of a string allows for optional inputs as well as efficient parsing to isolate target arguments for processing. This also allows for good exception handling should the arugments supplied not match."
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "  * Credits: Some minor reference taken from addressbook-level2 ([Parser](https://github.com/se-edu/addressbook-level2/blob/master/src/seedu/addressbook/parser/Parser.java]))"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "     "
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "* New Feature: Added a Search Function"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "  * What it does: allows the user to search for transactions with a specified keyword."
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "  * Justification: This feature is required for the user to view past transactions in a more efficient manner."
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "  * This function can be improved upon in future versions in order to allow more fine tuned searching of transaction records."
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "  * Credits: Logic and design adapted from addressbook-level2 ([FindCommand](https://github.com/se-edu/addressbook-level2/blob/master/src/seedu/addressbook/commands/FindCommand.java))"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "  "
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "* New Feature: Added the Category Functionality "
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "  * What it does: Allows for the user to specify the category for a transaction when adding and or modifying. ([#39](https://github.com/AY2021S1-TIC4001-4/tp/pull/39))."
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "  * Justification: This feature adds value by categorizing transactions with a String tag. This allows further sorting as well as a more insightful look at past transactions in order to understand why they had taken place.  "
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "* Code contributed: [RepoSense Link](https://nus-tic4001-ay2021s1.github.io/tp-dashboard/#breakdown\u003dtrue\u0026search\u003dadi-kd0021\u0026sort\u003dgroupTitle\u0026sortWithin\u003dtitle\u0026since\u003d2020-08-14\u0026timeframe\u003dcommit\u0026mergegroup\u003d\u0026groupSelect\u003dgroupByRepos\u0026checkedFileTypes\u003ddocs~functional-code~test-code~other\u0026tabOpen\u003dtrue\u0026tabType\u003dauthorship\u0026tabAuthor\u003dadi-kd0021\u0026tabRepo\u003dAY2021S1-TIC4001-4%2Ftp%5Bmaster%5D\u0026authorshipIsMergeGroup\u003dfalse\u0026authorshipFileTypes\u003ddocs~functional-code~test-code~other)"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": " "
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "* Project management"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "  * Managed releases ```v1.0``` - ```v3.0``` (3 releases) on Github"
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": " "
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "* Enhancements to existing features:"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "  * "
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "  * Enhanced the View functionality to allow filtering to display only transactions of a specified category"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "  * Enhanced the Update functionality to allow updating of a transactions category."
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "* Documentation:"
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "  * User Guide:"
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "    * Added documentation for the ```view``` ([#52](https://github.com/AY2021S1-TIC4001-4/tp/pull/52))"
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "  * Developer Guide:"
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "    * TBD"
+      },
+      {
+        "lineNumber": 47,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "* Community:"
+      },
+      {
+        "lineNumber": 48,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "  * Our application was created using a combination of pair-programming and adhoc coding sessions. During each session lasting between an hour to four or more, all group members sat in a meeting session while coding/ implementing their assigned components. If a concern was raised or support was needed, they shared their screen via the meeting session and everyone participated or assisted to clear the obstacle. Using this method we\u0027ve successfully cleared v1.0 to v3.0 of our project milestones. "
+      },
+      {
+        "lineNumber": 49,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 50,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "* Tools"
+      },
+      {
+        "lineNumber": 51,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "  * All Regular Expression created with aid of [RegExr](https://regexr.com/) by gskinner."
+      }
+    ],
+    "authorContributionMap": {
+      "adi-kd0021": 51
     }
   },
   {

@@ -980,6 +980,55 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-31",
+        "commitResults": [
+          {
+            "hash": "55ba1838adf57c2398587e530878fb0f8221e597",
+            "messageTitle": "Adi-PPP Draft",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 44,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "5a82e85fe24ee23fa276d72302849ea8be6d60ef",
+            "messageTitle": "Adi-PPP Draft v0.2",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 20,
+                "deletions": 13
+              }
+            }
+          },
+          {
+            "hash": "7a7435ff997b08b905dabdc1727ec0f16f9094b0",
+            "messageTitle": "Adi-PPP Draft v0.2",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 5,
+                "deletions": 5
+              }
+            }
+          },
+          {
+            "hash": "963dd74e8f991ebcd5897f725071d8ec2184931c",
+            "messageTitle": "Fixed? AboutUs.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 4,
+                "deletions": 4
+              }
+            }
+          }
+        ]
       }
     ],
     "e0261618": [
@@ -1125,24 +1174,24 @@
       "test-code": 143
     },
     "adi-kd0021": {
-      "docs": 26,
+      "docs": 82,
       "functional-code": 648,
       "test-code": 44,
       "other": 8
     },
     "e0261618": {
-      "docs": 135,
+      "docs": 130,
       "functional-code": 249,
       "test-code": 0,
       "other": 3
     }
   },
   "authorContributionVariance": {
-    "Chilaiping": 969.4386,
-    "skyventus": 1183.4799,
-    "timmyly7": 2324.8298,
-    "adi-kd0021": 3875.3088,
-    "e0261618": 1332.062
+    "Chilaiping": 957.6625,
+    "skyventus": 1169.5435,
+    "timmyly7": 2296.9487,
+    "adi-kd0021": 3900.7263,
+    "e0261618": 1315.9674
   },
   "authorDisplayNameMap": {
     "Chilaiping": "TIC4001-4 CHI ..PING",
