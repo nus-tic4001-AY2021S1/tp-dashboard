@@ -364,6 +364,55 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-01",
+        "commitResults": [
+          {
+            "hash": "0f24470ae9e305cda7851590a22e7f9fdde65e86",
+            "messageTitle": "Update UserGuide.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 39,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "805305efc2ca627eacef8c66a98429d4ee3d4d6d",
+            "messageTitle": "Update UserGuide.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 9,
+                "deletions": 9
+              }
+            }
+          },
+          {
+            "hash": "899ba48c56f47d182529bd88255a958bd2442c76",
+            "messageTitle": "Update DeveloperGuide.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 4,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "1cffae1fc5b6d59ed23c53f149fefa2785bbc273",
+            "messageTitle": "Update UserGuide.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 0,
+                "deletions": 11
+              }
+            }
+          }
+        ]
       }
     ],
     "Yiheng0410": [
@@ -1140,7 +1189,7 @@
   },
   "authorFileTypeContributionMap": {
     "linqing42": {
-      "docs": 175,
+      "docs": 209,
       "functional-code": 165,
       "test-code": 60
     },
@@ -1150,20 +1199,20 @@
       "test-code": 82
     },
     "Impala36": {
-      "docs": 105,
+      "docs": 101,
       "functional-code": 744,
       "test-code": 196,
       "other": 9
     },
     "binbinhui": {
-      "docs": 31,
+      "docs": 30,
       "functional-code": 213,
       "test-code": 1,
       "other": 18
     }
   },
   "authorContributionVariance": {
-    "linqing42": 1960.1488,
+    "linqing42": 2008.0671,
     "Yiheng0410": 552.756,
     "Impala36": 12052.157,
     "binbinhui": 14519.791

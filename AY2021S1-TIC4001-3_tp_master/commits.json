@@ -948,6 +948,55 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-30",
+        "commitResults": [
+          {
+            "hash": "7dc0907de03c145ad2deef54767978ad3ed23c13",
+            "messageTitle": "Update UserGuide.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 2,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "15f8e1794bb80b9576f9494fbc4ba25aa947eec4",
+            "messageTitle": "Update help.txt",
+            "messageBody": "Update helper information for search and enhanced list with sorting command.",
+            "fileTypesAndContributionMap": {
+              "other": {
+                "insertions": 33,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "c87e986f15327ccfb0a5e8479b3d730db2cea603",
+            "messageTitle": "Modified Help Command to make it work in jar file.",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 76,
+                "deletions": 12
+              }
+            }
+          },
+          {
+            "hash": "4e7825e629199096b65514e87253bfd7886f3279",
+            "messageTitle": "Update ItLogger.java",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 1,
+                "deletions": 2
+              }
+            }
+          }
+        ]
       }
     ]
   },
@@ -959,27 +1008,27 @@
     },
     "tototto": {
       "docs": 3,
-      "functional-code": 458,
+      "functional-code": 456,
       "test-code": 88
     },
     "JanuariusJang": {
       "docs": 1,
-      "functional-code": 204,
+      "functional-code": 203,
       "test-code": 45,
       "other": 2
     },
     "pigoliver": {
       "docs": 50,
-      "functional-code": 456,
+      "functional-code": 522,
       "test-code": 45,
-      "other": 49
+      "other": 81
     }
   },
   "authorContributionVariance": {
-    "ZhengShijieNUS": 404.11905,
-    "tototto": 1990.3468,
-    "JanuariusJang": 595.39075,
-    "pigoliver": 2982.6753
+    "ZhengShijieNUS": 399.09006,
+    "tototto": 1966.2021,
+    "JanuariusJang": 588.0086,
+    "pigoliver": 3118.264
   },
   "authorDisplayNameMap": {
     "ZhengShijieNUS": "TIC4001-3 ZHEN..IJIE",

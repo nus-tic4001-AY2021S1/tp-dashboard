@@ -181,6 +181,37 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-01",
+        "commitResults": [
+          {
+            "hash": "033374b9938d2399869522d8c7aca0e1d82f1cda",
+            "messageTitle": "Added Budget Category, Budget Storage and Delete Budget Function",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 370,
+                "deletions": 27
+              },
+              "docs": {
+                "insertions": 2,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "1df0ec1e3c43d90af20d6b704752081faee616fa",
+            "messageTitle": "Added Budget Category, Budget Storage and Delete Budget Function",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 66,
+                "deletions": 50
+              }
+            }
+          }
+        ]
       }
     ],
     "skyventus": [
@@ -407,6 +438,22 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-01",
+        "commitResults": [
+          {
+            "hash": "1aa8fd1281c383dfe0f016a9b47dce07294b80a4",
+            "messageTitle": "[PPP, DG and UserGuide] Added PPP and updated DG and UG.",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 54,
+                "deletions": 5
+              }
+            }
+          }
+        ]
       }
     ],
     "timmyly7": [
@@ -575,6 +622,52 @@
               "functional-code": {
                 "insertions": 4,
                 "deletions": 6
+              }
+            }
+          },
+          {
+            "hash": "e728fe770266770b2c5d64a710ecea7d1097be03",
+            "messageTitle": "Add test cases, add assert and update user guide",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 7,
+                "deletions": 5
+              },
+              "docs": {
+                "insertions": 4,
+                "deletions": 3
+              },
+              "test-code": {
+                "insertions": 63,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "9b44f77dbfb9cac595098fc6f5d719fad17eec6c",
+            "messageTitle": "Add test cases, add assert and update user guide",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 4,
+                "deletions": 4
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-11-01",
+        "commitResults": [
+          {
+            "hash": "023c1f91d71e63fd70e980ed04d0711309a29818",
+            "messageTitle": "Update documentation and update PPP",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 48,
+                "deletions": 2
               }
             }
           }
@@ -1029,6 +1122,44 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-01",
+        "commitResults": [
+          {
+            "hash": "e01b6bb75ddcc4bf8591893f6d08da015dd29996",
+            "messageTitle": "Added Component diagram to DG",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 8,
+                "deletions": 3
+              }
+            }
+          },
+          {
+            "hash": "6c748d1c51d734e87fc2493cd78a10f24818eb96",
+            "messageTitle": "Added Component diagram to DG Added plantUML Architecture.puml to DG",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 5,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "6aa5b656d4e66eb1303c16779df41c4b0b85aef2",
+            "messageTitle": "Fixed grammar and DG markdowns",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 21,
+                "deletions": 22
+              }
+            }
+          }
+        ]
       }
     ],
     "e0261618": [
@@ -1153,45 +1284,61 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-10-31",
+        "commitResults": [
+          {
+            "hash": "b79dc44fb1f5ceeb86a5a70f602f2f66cb9dd2a6",
+            "messageTitle": "Updated PPP draft",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 41,
+                "deletions": 1
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFileTypeContributionMap": {
     "Chilaiping": {
       "docs": 11,
-      "functional-code": 290,
+      "functional-code": 649,
       "test-code": 115
     },
     "skyventus": {
-      "docs": 0,
+      "docs": 51,
       "functional-code": 281,
       "test-code": 247,
       "other": 1
     },
     "timmyly7": {
-      "docs": 0,
-      "functional-code": 397,
-      "test-code": 143
+      "docs": 50,
+      "functional-code": 404,
+      "test-code": 206
     },
     "adi-kd0021": {
-      "docs": 82,
-      "functional-code": 648,
-      "test-code": 44,
+      "docs": 110,
+      "functional-code": 644,
+      "test-code": 18,
       "other": 8
     },
     "e0261618": {
-      "docs": 130,
-      "functional-code": 249,
+      "docs": 148,
+      "functional-code": 248,
       "test-code": 0,
       "other": 3
     }
   },
   "authorContributionVariance": {
-    "Chilaiping": 957.6625,
-    "skyventus": 1169.5435,
-    "timmyly7": 2296.9487,
-    "adi-kd0021": 3900.7263,
-    "e0261618": 1315.9674
+    "Chilaiping": 4166.19,
+    "skyventus": 1185.7527,
+    "timmyly7": 2430.9407,
+    "adi-kd0021": 3873.9636,
+    "e0261618": 1314.0111
   },
   "authorDisplayNameMap": {
     "Chilaiping": "TIC4001-4 CHI ..PING",
