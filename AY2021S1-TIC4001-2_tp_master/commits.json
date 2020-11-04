@@ -170,6 +170,81 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-02",
+        "commitResults": [
+          {
+            "hash": "5cd27f162d844822dfa7018f191deba11e8e799c",
+            "messageTitle": "fix report income/expense type error",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 1,
+                "deletions": 1
+              },
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "6ce1c40c5fea11b156a2ae3d3884d763077ab8d7",
+            "messageTitle": "fix test",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "test-code": {
+                "insertions": 5,
+                "deletions": 5
+              }
+            }
+          },
+          {
+            "hash": "a3d6a6c72f8bce8a23a599ed0aa27ab6ba27f748",
+            "messageTitle": "fix test",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "test-code": {
+                "insertions": 0,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "c092b8c0df67a59c6dcdbd45c1a7f307c958a1a2",
+            "messageTitle": "fix test",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "test-code": {
+                "insertions": 0,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "79720b3bf9b57e31eab5626679249e42f3c880b6",
+            "messageTitle": "fix test case",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "test-code": {
+                "insertions": 2,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "277688660e640b5cbbcfcc35db3f682e6cb7c8cf",
+            "messageTitle": "fix testcase",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "test-code": {
+                "insertions": 2,
+                "deletions": 2
+              }
+            }
+          }
+        ]
       }
     ],
     "dgc5213": [
@@ -1500,7 +1575,7 @@
     "daiweinus": {
       "docs": 65,
       "functional-code": 554,
-      "test-code": 149,
+      "test-code": 154,
       "other": 3
     },
     "dgc5213": {
@@ -1517,14 +1592,14 @@
     "Chenduo1412": {
       "docs": 18,
       "functional-code": 120,
-      "test-code": 133
+      "test-code": 125
     }
   },
   "authorContributionVariance": {
-    "daiweinus": 4940.535,
-    "dgc5213": 31832.504,
-    "e0260222": 34549.598,
-    "Chenduo1412": 757.36694
+    "daiweinus": 4708.0503,
+    "dgc5213": 30335.75,
+    "e0260222": 33046.06,
+    "Chenduo1412": 722.4137
   },
   "authorDisplayNameMap": {
     "daiweinus": "TIC4001-2 DAI .. WEI",

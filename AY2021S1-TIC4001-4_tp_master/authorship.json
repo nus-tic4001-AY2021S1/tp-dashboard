@@ -792,145 +792,152 @@
       {
         "lineNumber": 44,
         "author": {
-          "gitId": "e0261618"
+          "gitId": "Chilaiping"
         },
-        "content": "|**|v2.0|Student|view the budget in the system||"
+        "content": "|**|v2.0|Student|delete a budget in the system||"
       },
       {
         "lineNumber": 45,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": "|**|v2.0|Student|view the budget with respect to expenses in the system||"
+      },
+      {
+        "lineNumber": 46,
         "author": {
           "gitId": "timmyly7"
         },
         "content": "|**|v2.0|Student|view the transactions in the system with a specific time period|I can find the specific transaction more easily|"
       },
       {
-        "lineNumber": 46,
+        "lineNumber": 47,
         "author": {
           "gitId": "e0261618"
         },
         "content": "|**|v2.0|Student|generate and export a transactions report summary with a specific time period|keep a copy and view them outside the system|"
       },
       {
-        "lineNumber": 47,
+        "lineNumber": 48,
         "author": {
           "gitId": "e0261618"
         },
         "content": "|*|v2.0|Student|make sure I input daily expenses|I can keep track of it|"
       },
       {
-        "lineNumber": 48,
+        "lineNumber": 49,
         "author": {
           "gitId": "e0261618"
         },
         "content": "|*|v2.0|Student|view tips on saving money|have motivation to achieve my goal|"
       },
       {
-        "lineNumber": 49,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
         "lineNumber": 50,
         "author": {
           "gitId": "-"
         },
-        "content": "## Non-Functional Requirements"
+        "content": ""
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "## Non-Functional Requirements"
       },
       {
         "lineNumber": 52,
         "author": {
-          "gitId": "skyventus"
+          "gitId": "-"
         },
-        "content": "1. Should work on any mainstream OS as long it has Java ```11``` or above installed."
+        "content": ""
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "skyventus"
         },
-        "content": "2. User will be able to interact with the systems with regular english text. For example: (```"
+        "content": "1. Should work on any mainstream OS as long it has Java ```11``` or above installed."
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "skyventus"
         },
-        "content": "add chicken rice $4.00 2020-11-01 /C FOOD. ```)."
+        "content": "2. User will be able to interact with the systems with regular english text. For example: (```"
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "skyventus"
         },
-        "content": "3. Will be able to handle up to 1000 expenses without noticeable slowness in performance for typical usage."
+        "content": "add chicken rice $4.00 2020-11-01 /C FOOD. ```)."
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "skyventus"
         },
-        "content": "4. User will be able to interact with their expenses.txt if they wish to make amendment. "
+        "content": "3. Will be able to handle up to 1000 expenses without noticeable slowness in performance for typical usage."
       },
       {
         "lineNumber": 57,
         "author": {
-          "gitId": "-"
+          "gitId": "skyventus"
         },
-        "content": ""
+        "content": "4. User will be able to interact with their expenses.txt if they wish to make amendment. "
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "-"
         },
-        "content": "## Glossary"
+        "content": ""
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "## Glossary"
       },
       {
         "lineNumber": 60,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 61,
         "author": {
           "gitId": "skyventus"
         },
         "content": "* *MainStream OS* - Windows, Linux, Unix, OS-X"
       },
       {
-        "lineNumber": 61,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
         "lineNumber": 62,
         "author": {
           "gitId": "-"
         },
-        "content": "## Instructions for manual testing"
+        "content": ""
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "## Instructions for manual testing"
       },
       {
         "lineNumber": 64,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 65,
         "author": {
           "gitId": "-"
         },
@@ -938,11 +945,12 @@
       }
     ],
     "authorContributionMap": {
+      "Chilaiping": 2,
       "skyventus": 9,
       "timmyly7": 3,
       "-": 25,
       "adi-kd0021": 10,
-      "e0261618": 17
+      "e0261618": 16
     }
   },
   {
@@ -2417,6 +2425,309 @@
     ],
     "authorContributionMap": {
       "adi-kd0021": 51
+    }
+  },
+  {
+    "path": "docs/team/chilaiping.md",
+    "fileType": "docs",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": "# Chi Lai Ping’s - Project Portfolio Page"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": "## Project: NUS Expenses Tracker (NET)"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": "NET is an app for managing expenses, optimized for use via a Command Line Interface (CLI) while still having the benefits of a Graphical User Interface (GUI)."
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": "### Contributions to the project."
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": "* New Feature: Added the ability to view all expenses."
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": "([#20](https://github.com/AY2021S1-TIC4001-4/tp/pull/20))."
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": "  * What it does: Allows the user to see all expenses input so far  "
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": "  * Justification: This feature is important in the product because user need to view the expenses for reference at any time.  "
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": "  "
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": "* New Feature: Added the ability to add, view and delete budget."
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": "([#38](https://github.com/AY2021S1-TIC4001-4/tp/pull/38))."
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": "  * What it does: Allow the user to create new budget and compare current expenses with respect to budget.  "
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": "  * Justification: This feature considers the additional feature because it is useful for user to understand the current spending compare to target budget. "
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": "  * Credits: Logic and design adapted from existing addressbook-level2 ([Parser](https://github.com/se-edu/addressbook-level2/blob/master/src/seedu/addressbook/parser/Parser.java]))"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": "* Code contributed: [RepoSense Link](https://nus-tic4001-ay2021s1.github.io/tp-dashboard/#breakdown\u003dtrue\u0026search\u003dchilaiping\u0026sort\u003dgroupTitle\u0026sortWithin\u003dtitle\u0026since\u003d2020-08-14\u0026timeframe\u003dcommit\u0026mergegroup\u003d\u0026groupSelect\u003dgroupByRepos\u0026checkedFileTypes\u003ddocs~functional-code~test-code~other)"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": " "
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": "* Project management"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": "  * Managed releases ```v1.0``` - ```v3.0``` (3 releases) on Github"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": "* Community"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": "  * Reported bugs in regards to regex and as well as Update features. "
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": "  "
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": "* Enhancements to existing features:"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": "  "
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": "  * Enhanced the budget function with persistent storage. ([BudgetStorage](https://github.com/AY2021S1-TIC4001-4/tp/pull/65))"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": "  * Junit testing for Search and BudgetList related classes. "
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": "    ([Search Test](https://github.com/AY2021S1-TIC4001-4/tp/pull/24))"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": "    ([BudgetList Test](https://github.com/AY2021S1-TIC4001-4/tp/pull/50))"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": "  "
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": "* Documentation:"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": "  * User Guide:"
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": "    * Budget-related feature description update. "
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": "    "
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": "  * Developer Guide:"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": "    * TBD"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": "\t"
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": ""
+      }
+    ],
+    "authorContributionMap": {
+      "Chilaiping": 42
     }
   },
   {

@@ -3385,7 +3385,7 @@
         "author": {
           "gitId": "daiweinus"
         },
-        "content": "Highest Income transaction: "
+        "content": "Highest Expense transaction: "
       },
       {
         "lineNumber": 377,
@@ -25948,7 +25948,7 @@
         "author": {
           "gitId": "daiweinus"
         },
-        "content": "            System.out.println(\"Highest Income transaction: \\n\" + \"  \" + highestExpTrans);"
+        "content": "            System.out.println(\"Highest Expense transaction: \\n\" + \"  \" + highestExpTrans);"
       },
       {
         "lineNumber": 335,
@@ -29105,9 +29105,9 @@
       {
         "lineNumber": 30,
         "author": {
-          "gitId": "Chenduo1412"
+          "gitId": "daiweinus"
         },
-        "content": "        assertEquals(\"You have exceeded 50% of your budget of $2000.00 for Oct 2020.\",\"You have exceeded \""
+        "content": "        assertEquals(\"You have exceeded 50% of your budget of $2000.00 for Nov 2020.\",\"You have exceeded \""
       },
       {
         "lineNumber": 31,
@@ -29175,9 +29175,9 @@
       {
         "lineNumber": 40,
         "author": {
-          "gitId": "Chenduo1412"
+          "gitId": "daiweinus"
         },
-        "content": "        assertEquals(\"You have exceeded 75% of your budget of $2000.00 for Oct 2020.\",\"You have exceeded \""
+        "content": "        assertEquals(\"You have exceeded 75% of your budget of $2000.00 for Nov 2020.\",\"You have exceeded \""
       },
       {
         "lineNumber": 41,
@@ -29245,9 +29245,9 @@
       {
         "lineNumber": 50,
         "author": {
-          "gitId": "Chenduo1412"
+          "gitId": "daiweinus"
         },
-        "content": "        assertEquals(\"You have exceeded 100% of your budget of $2000.00 for Oct 2020.\",\"You have exceeded \""
+        "content": "        assertEquals(\"You have exceeded 100% of your budget of $2000.00 for Nov 2020.\",\"You have exceeded \""
       },
       {
         "lineNumber": 51,
@@ -29275,24 +29275,10 @@
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": ""
-      },
-      {
-        "lineNumber": 55,
-        "author": {
-          "gitId": "Chenduo1412"
-        },
         "content": "    }"
       },
       {
-        "lineNumber": 56,
-        "author": {
-          "gitId": "Chenduo1412"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 57,
+        "lineNumber": 55,
         "author": {
           "gitId": "Chenduo1412"
         },
@@ -29300,7 +29286,8 @@
       }
     ],
     "authorContributionMap": {
-      "Chenduo1412": 57
+      "daiweinus": 3,
+      "Chenduo1412": 52
     }
   },
   {
@@ -29590,9 +29577,9 @@
       {
         "lineNumber": 41,
         "author": {
-          "gitId": "Chenduo1412"
+          "gitId": "daiweinus"
         },
-        "content": "            assertEquals(\"Your total expense for Oct 2020: $500.87\", \"Your total expense for \""
+        "content": "            assertEquals(\"Your total expense for Nov 2020: $0.00\", \"Your total expense for \""
       },
       {
         "lineNumber": 42,
@@ -29772,9 +29759,9 @@
       {
         "lineNumber": 67,
         "author": {
-          "gitId": "Chenduo1412"
+          "gitId": "daiweinus"
         },
-        "content": "            assertEquals(\"Your total income for Oct 2020: $1200.87\", \"Your total income for \""
+        "content": "            assertEquals(\"Your total income for Nov 2020: $0.00\", \"Your total income for \""
       },
       {
         "lineNumber": 68,
@@ -29823,17 +29810,10 @@
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": ""
-      },
-      {
-        "lineNumber": 75,
-        "author": {
-          "gitId": "Chenduo1412"
-        },
         "content": "    }"
       },
       {
-        "lineNumber": 76,
+        "lineNumber": 75,
         "author": {
           "gitId": "Chenduo1412"
         },
@@ -29841,7 +29821,8 @@
       }
     ],
     "authorContributionMap": {
-      "Chenduo1412": 76
+      "daiweinus": 2,
+      "Chenduo1412": 73
     }
   },
   {
