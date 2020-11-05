@@ -547,6 +547,22 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-04",
+        "commitResults": [
+          {
+            "hash": "b8487ec9423388b031e44c4db2a6bc436f54bd98",
+            "messageTitle": "Add the first version of Project Portfolio Page",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 46,
+                "deletions": 0
+              }
+            }
+          }
+        ]
       }
     ],
     "e0260222": [
@@ -1357,6 +1373,22 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-04",
+        "commitResults": [
+          {
+            "hash": "1cfaad9cbeff9c80f488fec224244229cd2d106d",
+            "messageTitle": "Add Personal Portfolio Page",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 51,
+                "deletions": 1
+              }
+            }
+          }
+        ]
       }
     ],
     "Chenduo1412": [
@@ -1568,6 +1600,53 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-03",
+        "commitResults": [
+          {
+            "hash": "4fcda7ca111110f19bd952175e58a1829ba87828",
+            "messageTitle": "Create portfolio page",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 0,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "22d8689a76d9cad803809ec16a2e05b9ff2aff1f",
+            "messageTitle": "Made changes to Summary test and Budget Test",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "test-code": {
+                "insertions": 22,
+                "deletions": 9
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-11-04",
+        "commitResults": [
+          {
+            "hash": "d3e47a3bd24c052cfc20d3885faa0d523c94b991",
+            "messageTitle": "Solve the conflict and gradle problem",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 4,
+                "deletions": 0
+              },
+              "test-code": {
+                "insertions": 4,
+                "deletions": 4
+              }
+            }
+          }
+        ]
       }
     ]
   },
@@ -1575,31 +1654,31 @@
     "daiweinus": {
       "docs": 65,
       "functional-code": 554,
-      "test-code": 154,
+      "test-code": 149,
       "other": 3
     },
     "dgc5213": {
-      "docs": 192,
+      "docs": 238,
       "functional-code": 420,
       "test-code": 136
     },
     "e0260222": {
-      "docs": 164,
+      "docs": 215,
       "functional-code": 2068,
       "test-code": 328,
       "other": 4
     },
     "Chenduo1412": {
       "docs": 18,
-      "functional-code": 120,
-      "test-code": 125
+      "functional-code": 124,
+      "test-code": 143
     }
   },
   "authorContributionVariance": {
-    "daiweinus": 4708.0503,
-    "dgc5213": 30335.75,
-    "e0260222": 33046.06,
-    "Chenduo1412": 722.4137
+    "daiweinus": 4601.1816,
+    "dgc5213": 29622.834,
+    "e0260222": 32297.34,
+    "Chenduo1412": 712.218
   },
   "authorDisplayNameMap": {
     "daiweinus": "TIC4001-2 DAI .. WEI",

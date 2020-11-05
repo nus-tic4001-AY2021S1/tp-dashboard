@@ -361,6 +361,79 @@
     }
   },
   {
+    "path": "docs/AboutUs.md",
+    "fileType": "docs",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "# About us"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "Display | Name | Github Profile | Portfolio "
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "--------|:----:|:--------------:|:---------:"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "![](https://avatars1.githubusercontent.com/u/44324568?s\u003d400\u0026u\u003d0c556c8d5c6fab4bda690e45e42b11d56c73b777\u0026v\u003d4) | Chan Weizhong | [Github](https://github.com/e0260222) | [Portfolio](docs/team/e0260222.md)"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "![](https://via.placeholder.com/100.png?text\u003dPhoto) | Don Joe | [Github](https://github.com/) | [Portfolio](docs/team/johndoe.md)"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "![](https://via.placeholder.com/100.png?text\u003dPhoto) | Ron John | [Github](https://github.com/) | [Portfolio](docs/team/johndoe.md)"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "![](https://via.placeholder.com/100.png?text\u003dPhoto) | John Roe | [Github](https://github.com/) | [Portfolio](docs/team/johndoe.md)"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "![](https://via.placeholder.com/100.png?text\u003dPhoto) | Don Roe | [Github](https://github.com/) | [Portfolio](docs/team/johndoe.md)"
+      }
+    ],
+    "authorContributionMap": {
+      "e0260222": 1,
+      "-": 8
+    }
+  },
+  {
     "path": "docs/DeveloperGuide.md",
     "fileType": "docs",
     "lines": [
@@ -3835,6 +3908,696 @@
       "e0260222": 148,
       "Chenduo1412": 15,
       "-": 27
+    }
+  },
+  {
+    "path": "docs/team/dgc5213.md",
+    "fileType": "docs",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "# Lin Tong - Project Portfolio Page"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "## Project: Money Tracker"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "## Overview"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "Money Tracker is a CLI application that allows users to keep track of their income and expenses. Users can record their inflows and outflows of money and then view monthly reports of these movements of money."
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "### Summary of Contributions"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "Given below are my contributions to the project."
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "* **New Feature**: Added the ability to list commands."
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "  * What it does: allows the user to list the transaction records based on the different filters one at a time."
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "  * Justification: This feature improves the flexiblity of getting the desire result significantly because a user can have the flexiblity to excute different filters in various orders in list commands and the app should provide a convenient way to return the matched results."
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "  * Highlights: To enhance this program, the enhancement of using Streams filter to check the list command. Streams can succinctly express quite sophisticated behaviour. It encourages looser coupling and less mutability. This is because it is a more declarative approach that tells the application what we want to achieve, not how we want to achieve it. "
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": " "
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "* **New Feature**: Added the ability to list category commands."
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "  * What it does: allows the user to list of all income and/or expense categories."
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "* **Code contributed**:   "
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "[dgc5213/tp.git](https://github.com/dgc5213/tp.git) \u003cbr\u003e"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "[RepoSense link](https://nus-tic4001-ay2021s1.github.io/tp-dashboard/#breakdown\u003dtrue\u0026search\u003ddgc5213\u0026sort\u003dgroupTitle\u0026sortWithin\u003dtitle\u0026since\u003d2020-08-14\u0026timeframe\u003dcommit\u0026mergegroup\u003d\u0026groupSelect\u003dgroupByRepos\u0026checkedFileTypes\u003ddocs~functional-code~test-code~other\u0026tabOpen\u003dtrue\u0026tabType\u003dzoom\u0026zA\u003ddgc5213\u0026zR\u003dAY2021S1-TIC4001-2%2Ftp%5Bmaster%5D\u0026zACS\u003d284.875\u0026zS\u003d2020-08-14\u0026zFS\u003ddgc5213\u0026zU\u003d2020-11-04\u0026zMG\u003dfalse\u0026zFTF\u003dcommit\u0026zFGS\u003dgroupByRepos\u0026zFR\u003dfalse)"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "* **Enhancements to existing features**:"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "  * Enhanced the list commands (Pull requests [\\#27](https://github.com/AY2021S1-TIC4001-2/tp/pull/27/files), [\\#44](https://github.com/AY2021S1-TIC4001-2/tp/pull/44/files), [\\#61](https://github.com/AY2021S1-TIC4001-2/tp/pull/61/files), [\\#79](https://github.com/AY2021S1-TIC4001-2/tp/pull/79/files), [\\#91](https://github.com/AY2021S1-TIC4001-2/tp/pull/91/files))"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "  * Wrote additional tests for existing features to increase coverage: TransactionListTest.java, TransactionTest.java (Pull requests [\\#101](https://github.com/AY2021S1-TIC4001-2/tp/pull/101/files), [\\#44](https://github.com/AY2021S1-TIC4001-2/tp/pull/44/files))"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "* **Documentation**:"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "  * User Guide:"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "    * Added documentation for the features `listcat` `addcati` `addcate` `deletecat` and `list`  (Pull requests [\\#49](https://github.com/AY2021S1-TIC4001-2/tp/pull/49/files))"
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "    * Did cosmetic tweaks to existing documentation of features `list`  (Pull requests [\\#62](https://github.com/AY2021S1-TIC4001-2/tp/pull/62/files) ）"
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "  * Developer Guide:"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "    * Added User Stories of the `listcat` `list` feature. (Pull requests [\\#96](https://github.com/AY2021S1-TIC4001-2/tp/pull/96/files) )  "
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "    * Added Non-Functional Requirements. (Pull requests [\\#96](https://github.com/AY2021S1-TIC4001-2/tp/pull/96/files)) )"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "   * **Community**:"
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "     * PRs reviewed: add comments"
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "     * Updating user/developer docs that are not specific to a feature"
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      }
+    ],
+    "authorContributionMap": {
+      "dgc5213": 46
+    }
+  },
+  {
+    "path": "docs/team/e0260222.md",
+    "fileType": "docs",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "# Chan Weizhong - Project Portfolio Page"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "## Overview"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "Money Tracker is a CLI application that allows users to keep track of their income and expenses."
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "Users can record their inflows and outflows of money and view summary reports of their transactions."
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "This helps them to keep track of their incomes and expenses, helping them to stay within their budget"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "and alerting them make timely adjustments to their spending habits when necessary."
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "### Summary of Contributions"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "Shown below are my contributions to this project:"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "**New Feature:** Added the code foundation."
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "- What it does:"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "- Justification:"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "- Highlights:"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "**New Feature:** Added the ability for users to add transactions."
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "- What it does:"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "- Justification:"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "- Highlights:"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "**New Feature:** Added the ability for users to edit transactions."
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "- What it does:"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "- Justification:"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "- Highlights:"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "**New Feature:** Added the ability for users to add categories."
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "- What it does:"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "- Justification:"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "- Highlights:"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "**New Feature:** Added the ability for users to edit categories."
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "- What it does:"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "- Justification:"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "- Highlights:"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "**New Feature:** Added the ability for users to set monthly budget."
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "- What it does:"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "- Justification:"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "- Highlights:"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "**Code contributed:**"
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "[RepoSense link](https://nus-tic4001-ay2021s1.github.io/tp-dashboard/#breakdown\u003dtrue\u0026search\u003de0260222)"
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "**Contributions to documentation:**"
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "**Contributions to the DG:**"
+      },
+      {
+        "lineNumber": 47,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 48,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "**Contributions to team-based tasks:**"
+      },
+      {
+        "lineNumber": 49,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 50,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "**Review/mentoring contributions:**"
+      }
+    ],
+    "authorContributionMap": {
+      "e0260222": 50
     }
   },
   {
@@ -18779,6 +19542,43 @@
     }
   },
   {
+    "path": "src/main/java/moneytracker/summary/Reminder.java",
+    "fileType": "functional-code",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "package moneytracker.summary;"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "public class Reminder {"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "}"
+      }
+    ],
+    "authorContributionMap": {
+      "Chenduo1412": 4
+    }
+  },
+  {
     "path": "src/main/java/moneytracker/summary/Summary.java",
     "fileType": "functional-code",
     "lines": [
@@ -29105,180 +29905,243 @@
       {
         "lineNumber": 30,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "Chenduo1412"
         },
-        "content": "        assertEquals(\"You have exceeded 50% of your budget of $2000.00 for Nov 2020.\",\"You have exceeded \""
+        "content": "        assertEquals(\"You have exceeded 50% of your budget of $2000.00 for \""
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": "                + str1 + \" of your budget of $\" + String.format(\"%.2f\", amount) + \" for \""
+        "content": "                + LocalDate.now().getMonth().getDisplayName(TextStyle.SHORT, Locale.US)"
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": "                + LocalDate.now().getMonth().getDisplayName(TextStyle.SHORT, Locale.US)"
+        "content": "                + \" \" + LocalDate.now().getYear()"
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": "                + \" \" + LocalDate.now().getYear() + \".\");"
+        "content": "                + \".\",\"You have exceeded \""
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": ""
+        "content": "                + str1 + \" of your budget of $\" + String.format(\"%.2f\", amount) + \" for \""
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": ""
+        "content": "                + LocalDate.now().getMonth().getDisplayName(TextStyle.SHORT, Locale.US)"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": "        /**"
+        "content": "                + \" \" + LocalDate.now().getYear() + \".\");"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": "         * Tests expense exceeded 75 percent."
+        "content": ""
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": "         */"
+        "content": ""
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": "        String str2 \u003d b.calPercentage(1751.00);"
+        "content": "        /**"
       },
       {
         "lineNumber": 40,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "Chenduo1412"
         },
-        "content": "        assertEquals(\"You have exceeded 75% of your budget of $2000.00 for Nov 2020.\",\"You have exceeded \""
+        "content": "         * Tests expense exceeded 75 percent."
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": "                + str2 + \" of your budget of $\" + String.format(\"%.2f\", amount) + \" for \""
+        "content": "         */"
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": "                + LocalDate.now().getMonth().getDisplayName(TextStyle.SHORT, Locale.US)"
+        "content": "        String str2 \u003d b.calPercentage(1751.00);"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": "                + \" \" + LocalDate.now().getYear() + \".\");"
+        "content": "        assertEquals(\"You have exceeded 75% of your budget of $2000.00 for \""
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": ""
+        "content": "                + LocalDate.now().getMonth().getDisplayName(TextStyle.SHORT, Locale.US)"
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": ""
+        "content": "                + \" \" + LocalDate.now().getYear()"
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": "        /**"
+        "content": "                + \".\",\"You have exceeded \""
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": "         * Tests the expense exceeded 100 percent."
+        "content": "                + str2 + \" of your budget of $\" + String.format(\"%.2f\", amount) + \" for \""
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": "         */"
+        "content": "                + LocalDate.now().getMonth().getDisplayName(TextStyle.SHORT, Locale.US)"
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": "        String str3 \u003d b.calPercentage(2500.10);"
+        "content": "                + \" \" + LocalDate.now().getYear() + \".\");"
       },
       {
         "lineNumber": 50,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "Chenduo1412"
         },
-        "content": "        assertEquals(\"You have exceeded 100% of your budget of $2000.00 for Nov 2020.\",\"You have exceeded \""
+        "content": ""
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": "                + str3 + \" of your budget of $\" + String.format(\"%.2f\", amount) + \" for \""
+        "content": ""
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": "                + LocalDate.now().getMonth().getDisplayName(TextStyle.SHORT, Locale.US)"
+        "content": "        /**"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": "                + \" \" + LocalDate.now().getYear() + \".\");"
+        "content": "         * Tests the expense exceeded 100 percent."
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": "    }"
+        "content": "         */"
       },
       {
         "lineNumber": 55,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "        String str3 \u003d b.calPercentage(2500.10);"
+      },
+      {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "        assertEquals(\"You have exceeded 100% of your budget of $2000.00 for \""
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "                + LocalDate.now().getMonth().getDisplayName(TextStyle.SHORT, Locale.US)"
+      },
+      {
+        "lineNumber": 58,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "                + \" \" + LocalDate.now().getYear()"
+      },
+      {
+        "lineNumber": 59,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "                + \".\",\"You have exceeded \""
+      },
+      {
+        "lineNumber": 60,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "                + str3 + \" of your budget of $\" + String.format(\"%.2f\", amount) + \" for \""
+      },
+      {
+        "lineNumber": 61,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "                + LocalDate.now().getMonth().getDisplayName(TextStyle.SHORT, Locale.US)"
+      },
+      {
+        "lineNumber": 62,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "                + \" \" + LocalDate.now().getYear() + \".\");"
+      },
+      {
+        "lineNumber": 63,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 64,
         "author": {
           "gitId": "Chenduo1412"
         },
@@ -29286,8 +30149,7 @@
       }
     ],
     "authorContributionMap": {
-      "daiweinus": 3,
-      "Chenduo1412": 52
+      "Chenduo1412": 64
     }
   },
   {
@@ -29530,7 +30392,7 @@
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": "            Expense expense1 \u003d new Expense(300, \"dinner\", \"2020-10-10\", \"FOOD\");"
+        "content": "            Expense expense1 \u003d new Expense(300, \"dinner\", \"2020-11-10\", \"FOOD\");"
       },
       {
         "lineNumber": 35,
@@ -29551,7 +30413,7 @@
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": "            Expense expense2 \u003d new Expense(200.87, \"snack\", \"2020-10-08\", \"FOOD\");"
+        "content": "            Expense expense2 \u003d new Expense(200.87, \"snack\", \"2020-11-08\", \"FOOD\");"
       },
       {
         "lineNumber": 38,
@@ -29577,9 +30439,9 @@
       {
         "lineNumber": 41,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "Chenduo1412"
         },
-        "content": "            assertEquals(\"Your total expense for Nov 2020: $0.00\", \"Your total expense for \""
+        "content": "            assertEquals(\"Your total expense for \""
       },
       {
         "lineNumber": 42,
@@ -29593,105 +30455,105 @@
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": "                    + \" \" + LocalDate.now().getYear() + \": $\" + String.format(\"%.2f\", exp));"
+        "content": "                    + \" \" + LocalDate.now().getYear() + \": $500.87\", \"Your total expense for \""
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": ""
+        "content": "                    + LocalDate.now().getMonth().getDisplayName(TextStyle.SHORT, Locale.US)"
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": "        } catch (MoneyTrackerException e) {"
+        "content": "                    + \" \" + LocalDate.now().getYear() + \": $\" + String.format(\"%.2f\", exp));"
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": "            System.out.print(e.getMessage());"
+        "content": ""
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": "        }"
+        "content": "        } catch (MoneyTrackerException e) {"
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": "    }"
+        "content": "            System.out.print(e.getMessage());"
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": ""
+        "content": "        }"
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": "    /**"
+        "content": "    }"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": "     * Tests the summary calculation of \u003ccode\u003eIncome\u003c/code\u003e."
+        "content": ""
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": "     */"
+        "content": "    /**"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": ""
+        "content": "     * Tests the summary calculation of \u003ccode\u003eIncome\u003c/code\u003e."
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": "    @Test"
+        "content": "     */"
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": "    public void incomeSummaryTest() {"
+        "content": ""
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": ""
+        "content": "    @Test"
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": "        ArrayList\u003cTransaction\u003e i \u003d new ArrayList\u003c\u003e();"
+        "content": "    public void incomeSummaryTest() {"
       },
       {
         "lineNumber": 58,
@@ -29705,115 +30567,143 @@
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": "        try {"
+        "content": "        ArrayList\u003cTransaction\u003e i \u003d new ArrayList\u003c\u003e();"
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": "            Income income1 \u003d new Income(1000, \"fulltime\", \"2020-10-10\", \"SALARY\");"
+        "content": ""
       },
       {
         "lineNumber": 61,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": "            i.add(income1);"
+        "content": "        try {"
       },
       {
         "lineNumber": 62,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": ""
+        "content": "            Income income1 \u003d new Income(1000, \"fulltime\", \"2020-11-10\", \"SALARY\");"
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": "            Income income2 \u003d new Income(200.87, \"parttime\", \"2020-10-08\", \"SALARY\");"
+        "content": "            i.add(income1);"
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": "            i.add(income2);"
+        "content": ""
       },
       {
         "lineNumber": 65,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": "            TransactionList transactions \u003d new TransactionList(i);"
+        "content": "            Income income2 \u003d new Income(200.87, \"parttime\", \"2020-11-08\", \"SALARY\");"
       },
       {
         "lineNumber": 66,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": "            double inc \u003d Summary.calIncSummary(transactions);"
+        "content": "            i.add(income2);"
       },
       {
         "lineNumber": 67,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "Chenduo1412"
         },
-        "content": "            assertEquals(\"Your total income for Nov 2020: $0.00\", \"Your total income for \""
+        "content": "            TransactionList transactions \u003d new TransactionList(i);"
       },
       {
         "lineNumber": 68,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": "                    + LocalDate.now().getMonth().getDisplayName(TextStyle.SHORT, Locale.US)"
+        "content": "            double inc \u003d Summary.calIncSummary(transactions);"
       },
       {
         "lineNumber": 69,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": "                    + \" \" + LocalDate.now().getYear() + \": $\" + String.format(\"%.2f\", inc));"
+        "content": "            assertEquals(\"Your total income for \""
       },
       {
         "lineNumber": 70,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": ""
+        "content": "                    + LocalDate.now().getMonth().getDisplayName(TextStyle.SHORT, Locale.US)"
       },
       {
         "lineNumber": 71,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": "        } catch (MoneyTrackerException e) {"
+        "content": "                    + \" \" + LocalDate.now().getYear() + \": $1200.87\", \"Your total income for \""
       },
       {
         "lineNumber": 72,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": "            System.out.print(e.getMessage());"
+        "content": "                    + LocalDate.now().getMonth().getDisplayName(TextStyle.SHORT, Locale.US)"
       },
       {
         "lineNumber": 73,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": "        }"
+        "content": "                    + \" \" + LocalDate.now().getYear() + \": $\" + String.format(\"%.2f\", inc));"
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "Chenduo1412"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 75,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "        } catch (MoneyTrackerException e) {"
+      },
+      {
+        "lineNumber": 76,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "            System.out.print(e.getMessage());"
+      },
+      {
+        "lineNumber": 77,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 78,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 79,
         "author": {
           "gitId": "Chenduo1412"
         },
@@ -29821,8 +30711,7 @@
       }
     ],
     "authorContributionMap": {
-      "daiweinus": 2,
-      "Chenduo1412": 73
+      "Chenduo1412": 79
     }
   },
   {

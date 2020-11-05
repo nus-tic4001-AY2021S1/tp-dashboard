@@ -124,6 +124,33 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-04",
+        "commitResults": [
+          {
+            "hash": "8142b38bcedcb35ea7ef11ea4009d1142f550b61",
+            "messageTitle": "Create ImageReadMe.txt",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "other": {
+                "insertions": 1,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "9c30271baaf28834336a09b1a495c8f660549393",
+            "messageTitle": "Update DeveloperGuide.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 25,
+                "deletions": 1
+              }
+            }
+          }
+        ]
       }
     ],
     "tototto": [
@@ -361,6 +388,44 @@
               "docs": {
                 "insertions": 1,
                 "deletions": 1
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-11-04",
+        "commitResults": [
+          {
+            "hash": "de6089ad1c2efe2e85c4075ea0d3b5584de0828e",
+            "messageTitle": "Update DeveloperGuide.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "d1ce7b8149e30e889e130b26a890814d1317ea52",
+            "messageTitle": "Update DeveloperGuide.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 3,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "0d9c2b9a08b0fc19985e1d9df42871102e418559",
+            "messageTitle": "Update DeveloperGuide.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 15,
+                "deletions": 0
               }
             }
           }
@@ -1002,12 +1067,13 @@
   },
   "authorFileTypeContributionMap": {
     "ZhengShijieNUS": {
-      "docs": 4,
+      "docs": 26,
       "functional-code": 119,
-      "test-code": 103
+      "test-code": 103,
+      "other": 1
     },
     "tototto": {
-      "docs": 3,
+      "docs": 22,
       "functional-code": 456,
       "test-code": 88
     },
@@ -1025,10 +1091,10 @@
     }
   },
   "authorContributionVariance": {
-    "ZhengShijieNUS": 399.09006,
-    "tototto": 1966.2021,
-    "JanuariusJang": 588.0086,
-    "pigoliver": 3118.264
+    "ZhengShijieNUS": 382.2964,
+    "tototto": 1854.1025,
+    "JanuariusJang": 553.6812,
+    "pigoliver": 2940.4453
   },
   "authorDisplayNameMap": {
     "ZhengShijieNUS": "TIC4001-3 ZHEN..IJIE",
