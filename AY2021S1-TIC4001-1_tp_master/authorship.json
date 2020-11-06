@@ -6078,75 +6078,82 @@
       {
         "lineNumber": 73,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "Yiheng0410"
         },
-        "content": "                \u0026\u0026 new DateConverter(startDate, dueDate).dateChecker(dueDate)) {"
+        "content": "                \u0026\u0026 new DateConverter(startDate, dueDate).dateChecker(dueDate)"
       },
       {
         "lineNumber": 74,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "Yiheng0410"
         },
-        "content": "                projects.add(new NewProject(newData));"
+        "content": "                    \u0026\u0026  new DateConverter(startDate, dueDate).dateValidator(startDate, dueDate)) {"
       },
       {
         "lineNumber": 75,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "                ui.printProjectCreated(projects);"
+        "content": "                projects.add(new NewProject(newData));"
       },
       {
         "lineNumber": 76,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "                storage.updateStorage(projects);"
+        "content": "                ui.printProjectCreated(projects);"
       },
       {
         "lineNumber": 77,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "            }"
+        "content": "                storage.updateStorage(projects);"
       },
       {
         "lineNumber": 78,
         "author": {
           "gitId": "linqing42"
         },
-        "content": ""
+        "content": "            }"
       },
       {
         "lineNumber": 79,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "        } catch (IOException | ParseException e) {"
+        "content": ""
       },
       {
         "lineNumber": 80,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "            ui.printBorderline(e.getMessage());"
+        "content": "        } catch (IOException | ParseException e) {"
       },
       {
         "lineNumber": 81,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "        }"
+        "content": "            ui.printBorderline(e.getMessage());"
       },
       {
         "lineNumber": 82,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "    }"
+        "content": "        }"
       },
       {
         "lineNumber": 83,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 84,
         "author": {
           "gitId": "linqing42"
         },
@@ -6155,8 +6162,8 @@
     ],
     "authorContributionMap": {
       "linqing42": 72,
-      "Impala36": 10,
-      "Yiheng0410": 1
+      "Impala36": 9,
+      "Yiheng0410": 3
     }
   },
   {
@@ -9277,7 +9284,7 @@
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "        } catch (Exception e) {"
+        "content": "        } catch (ParseException e) {"
       },
       {
         "lineNumber": 67,
@@ -9319,21 +9326,21 @@
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "    public String getDateDiff() {"
+        "content": "    public boolean dateValidator(String startDate, String endDate) {"
       },
       {
         "lineNumber": 73,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "        return dateDiff;"
+        "content": "        SimpleDateFormat formatter \u003d new SimpleDateFormat(\"dd/MM/yyyy\");"
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "    }"
+        "content": "        boolean isSdEarlierThanEd \u003d false;"
       },
       {
         "lineNumber": 75,
@@ -9347,24 +9354,157 @@
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "    public String getDaysLeft() {"
+        "content": "        try {"
       },
       {
         "lineNumber": 77,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "        return daysLeft;"
+        "content": "            Date sd \u003d formatter.parse(startDate);"
       },
       {
         "lineNumber": 78,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "    }"
+        "content": "            Date ed \u003d formatter.parse(endDate);"
       },
       {
         "lineNumber": 79,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "            if (sd.compareTo(ed) \u003c 0) {"
+      },
+      {
+        "lineNumber": 80,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "                isSdEarlierThanEd \u003d true;"
+      },
+      {
+        "lineNumber": 81,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "            } else {"
+      },
+      {
+        "lineNumber": 82,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "                System.out.println(\"Due Date is earlier than Start Date, please enter the correct date!\");"
+      },
+      {
+        "lineNumber": 83,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "                isSdEarlierThanEd \u003d false;"
+      },
+      {
+        "lineNumber": 84,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 85,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "        } catch (ParseException e) {"
+      },
+      {
+        "lineNumber": 86,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "            e.printStackTrace();"
+      },
+      {
+        "lineNumber": 87,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 88,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "        return isSdEarlierThanEd;"
+      },
+      {
+        "lineNumber": 89,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 90,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 91,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "    public String getDateDiff() {"
+      },
+      {
+        "lineNumber": 92,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "        return dateDiff;"
+      },
+      {
+        "lineNumber": 93,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 94,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 95,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "    public String getDaysLeft() {"
+      },
+      {
+        "lineNumber": 96,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "        return daysLeft;"
+      },
+      {
+        "lineNumber": 97,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 98,
         "author": {
           "gitId": "Yiheng0410"
         },
@@ -9372,7 +9512,7 @@
       }
     ],
     "authorContributionMap": {
-      "Yiheng0410": 74,
+      "Yiheng0410": 93,
       "Impala36": 5
     }
   },

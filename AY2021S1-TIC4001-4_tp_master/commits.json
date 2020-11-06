@@ -470,6 +470,49 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-03",
+        "commitResults": [
+          {
+            "hash": "5055e3bc9a3e8c94ed07cf7cd1dfa1af180ee6b3",
+            "messageTitle": "[total enhancement] able to key in total with start date and end date as well",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 47,
+                "deletions": 3
+              }
+            }
+          },
+          {
+            "hash": "fa4a5c23c6ce3d5760557b9e158d46d2f6c4221c",
+            "messageTitle": "[total enhancement] fixed checkstyle issue",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 2,
+                "deletions": 2
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-11-05",
+        "commitResults": [
+          {
+            "hash": "1f4ab3c4735dc55a6fec11dd938336df45f0e4ee",
+            "messageTitle": "[Developer Guide] added documentation for storage",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 16,
+                "deletions": 0
+              }
+            }
+          }
+        ]
       }
     ],
     "timmyly7": [
@@ -684,6 +727,22 @@
               "docs": {
                 "insertions": 48,
                 "deletions": 2
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-11-05",
+        "commitResults": [
+          {
+            "hash": "1d5391da16954ad5ae48974d9947e45f5693cace",
+            "messageTitle": "Update PPP",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 30,
+                "deletions": 0
               }
             }
           }
@@ -1176,6 +1235,22 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-05",
+        "commitResults": [
+          {
+            "hash": "9876197ab0f35257c9eefcc157e44db8db97d0b7",
+            "messageTitle": "Added SearchSequenceDiagram.png",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 4,
+                "deletions": 1
+              }
+            }
+          }
+        ]
       }
     ],
     "e0261618": [
@@ -1326,18 +1401,18 @@
       "test-code": 115
     },
     "skyventus": {
-      "docs": 51,
-      "functional-code": 281,
+      "docs": 66,
+      "functional-code": 325,
       "test-code": 247,
       "other": 1
     },
     "timmyly7": {
-      "docs": 50,
+      "docs": 80,
       "functional-code": 404,
       "test-code": 206
     },
     "adi-kd0021": {
-      "docs": 110,
+      "docs": 113,
       "functional-code": 644,
       "test-code": 18,
       "other": 8
@@ -1350,11 +1425,11 @@
     }
   },
   "authorContributionVariance": {
-    "Chilaiping": 4127.5557,
-    "skyventus": 1172.2489,
-    "timmyly7": 2402.8635,
-    "adi-kd0021": 3830.6853,
-    "e0261618": 1298.6013
+    "Chilaiping": 3985.9636,
+    "skyventus": 1155.2614,
+    "timmyly7": 2324.3965,
+    "adi-kd0021": 3704.5098,
+    "e0261618": 1254.4606
   },
   "authorDisplayNameMap": {
     "Chilaiping": "TIC4001-4 CHI ..PING",

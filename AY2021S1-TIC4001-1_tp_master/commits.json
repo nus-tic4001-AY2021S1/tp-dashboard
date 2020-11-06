@@ -548,6 +548,22 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-05",
+        "commitResults": [
+          {
+            "hash": "9866b27fc5a6355022824fab9204fa75a1cc0d64",
+            "messageTitle": "add date validator, start date cannot be later than due date.",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 22,
+                "deletions": 2
+              }
+            }
+          }
+        ]
       }
     ],
     "Impala36": [
@@ -1195,12 +1211,12 @@
     },
     "Yiheng0410": {
       "docs": 0,
-      "functional-code": 85,
+      "functional-code": 106,
       "test-code": 82
     },
     "Impala36": {
       "docs": 101,
-      "functional-code": 744,
+      "functional-code": 743,
       "test-code": 196,
       "other": 9
     },
@@ -1212,10 +1228,10 @@
     }
   },
   "authorContributionVariance": {
-    "linqing42": 2008.0671,
-    "Yiheng0410": 552.756,
-    "Impala36": 12052.157,
-    "binbinhui": 14519.791
+    "linqing42": 1919.4329,
+    "Yiheng0410": 531.60364,
+    "Impala36": 11516.873,
+    "binbinhui": 13846.776
   },
   "authorDisplayNameMap": {
     "linqing42": "TIC4001-1 LIN ..QING",
