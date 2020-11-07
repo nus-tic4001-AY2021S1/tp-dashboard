@@ -151,6 +151,38 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-05",
+        "commitResults": [
+          {
+            "hash": "e310f02d625513e92695ee781b3acd46c0dfc11b",
+            "messageTitle": "add description to DG",
+            "messageBody": "add descriptions to IssueList component and Common component",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 16,
+                "deletions": 2
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-11-06",
+        "commitResults": [
+          {
+            "hash": "0ab9d9180db1786eb0290948e94978f9f33f3a1c",
+            "messageTitle": "Create zhengshijienus.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 51,
+                "deletions": 0
+              }
+            }
+          }
+        ]
       }
     ],
     "tototto": [
@@ -426,6 +458,176 @@
               "docs": {
                 "insertions": 15,
                 "deletions": 0
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-11-06",
+        "commitResults": [
+          {
+            "hash": "4880476bf244a546e440b42a017832602d0804ca",
+            "messageTitle": "Create tayjunwen.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 6,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "2379d07a7d8be737fe3080f46ac41083fb2ca54e",
+            "messageTitle": "Update tayjunwen.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 12,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "153106134e85a1394f49a33e0691b4bc6a1bb31f",
+            "messageTitle": "Update tayjunwen.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 26,
+                "deletions": 3
+              }
+            }
+          },
+          {
+            "hash": "befea5b533d8d7af33b40413b26a57694939f8c0",
+            "messageTitle": "Update tayjunwen.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 12,
+                "deletions": 4
+              }
+            }
+          },
+          {
+            "hash": "335ba148646a9a3d092002bc21f50bfacfeee3e5",
+            "messageTitle": "Update tayjunwen.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "ce2c7c35fbbe68857930b6810f919d28cdb22ea8",
+            "messageTitle": "Update tayjunwen.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 7,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "1d6e98fbf69478d9629b4eb07fcf3520af7ad95e",
+            "messageTitle": "Update tayjunwen.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "7e74cfae72344ab5a7d70d06b25d6b92f721f1b7",
+            "messageTitle": "Update tayjunwen.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "89b75e7e0b1e9b1b443ac758edf9239cb749790e",
+            "messageTitle": "Update tayjunwen.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 15,
+                "deletions": 3
+              }
+            }
+          },
+          {
+            "hash": "710d416880bbb08d8b3d75c7a95b16a499b562e4",
+            "messageTitle": "Update tayjunwen.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 7,
+                "deletions": 7
+              }
+            }
+          },
+          {
+            "hash": "d1b27a3f61b75a14ba3137f79249a1a16e03fb53",
+            "messageTitle": "Update tayjunwen.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "6041c4746e6f8b2f4fc5ebb98edec366228c03b1",
+            "messageTitle": "Update DeveloperGuide.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 2,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "ca3154734def542fa1cd3a0652217a43435cccd0",
+            "messageTitle": "Update DeveloperGuide.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 2,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "fe1dcd8a8562ff021fbc8cc2ef5ff3c9b26e6974",
+            "messageTitle": "Update DeveloperGuide.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 4,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "f7cda0007c4938f09c825f660fc117fd0c157926",
+            "messageTitle": "Update DeveloperGuide.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 0,
+                "deletions": 3
               }
             }
           }
@@ -1062,18 +1264,45 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-06",
+        "commitResults": [
+          {
+            "hash": "37b033b4a89b35dea3525e580aee141232436e8f",
+            "messageTitle": "Update DeveloperGuide.md",
+            "messageBody": "Updated DG in UI component and search portion of FINDER component.",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 10,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "60576918d0670e42cdc7e9309abd5a87794a3fe1",
+            "messageTitle": "Create pigoliver.md",
+            "messageBody": "Draft PPP for Jiancheng",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 17,
+                "deletions": 0
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFileTypeContributionMap": {
     "ZhengShijieNUS": {
-      "docs": 26,
+      "docs": 88,
       "functional-code": 119,
       "test-code": 103,
       "other": 1
     },
     "tototto": {
-      "docs": 22,
+      "docs": 94,
       "functional-code": 456,
       "test-code": 88
     },
@@ -1084,17 +1313,17 @@
       "other": 2
     },
     "pigoliver": {
-      "docs": 50,
+      "docs": 73,
       "functional-code": 522,
       "test-code": 45,
       "other": 81
     }
   },
   "authorContributionVariance": {
-    "ZhengShijieNUS": 382.2964,
-    "tototto": 1854.1025,
-    "JanuariusJang": 553.6812,
-    "pigoliver": 2940.4453
+    "ZhengShijieNUS": 401.7269,
+    "tototto": 1965.9182,
+    "JanuariusJang": 541.046,
+    "pigoliver": 2876.295
   },
   "authorDisplayNameMap": {
     "ZhengShijieNUS": "TIC4001-3 ZHEN..IJIE",

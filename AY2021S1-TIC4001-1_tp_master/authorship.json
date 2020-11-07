@@ -693,61 +693,61 @@
         "author": {
           "gitId": "linqing42"
         },
-        "content": "Here is [UML Diagram V2](https://github.com/AY2021S1-TIC4001-1/tp/blob/master/docs/UML%20V2.drawio) and you can refer to [online website](https://ay2021s1-tic4001-1.github.io/tp/DeveloperGuide.html) ."
+        "content": "and you can refer to [online website](https://ay2021s1-tic4001-1.github.io/tp/DeveloperGuide.html) ."
       },
       {
         "lineNumber": 7,
         "author": {
           "gitId": "linqing42"
         },
-        "content": ""
+        "content": "## Design"
       },
       {
         "lineNumber": 8,
         "author": {
-          "gitId": "-"
+          "gitId": "linqing42"
         },
         "content": ""
       },
       {
         "lineNumber": 9,
         "author": {
-          "gitId": "-"
+          "gitId": "linqing42"
         },
-        "content": ""
+        "content": "### UML diagram "
       },
       {
         "lineNumber": 10,
         "author": {
-          "gitId": "-"
+          "gitId": "linqing42"
         },
-        "content": "## Product scope"
+        "content": "![UML Diagram V2](images/UML%20V2.png) "
       },
       {
         "lineNumber": 11,
         "author": {
-          "gitId": "-"
+          "gitId": "linqing42"
         },
-        "content": "### Target user profile"
+        "content": ""
       },
       {
         "lineNumber": 12,
         "author": {
-          "gitId": "-"
+          "gitId": "linqing42"
         },
-        "content": ""
+        "content": "### Storage method: getlines(string fileName)"
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "The target user is a project manager who can keep tracking various projects, know the progress of each project with  principal members to participate in each project. However, he cannot remember the progress of various projects, who is the member that involve to each specific project and cannot close monitor the progress of each project."
+        "content": "![Sequence Diagram](images/StorageGetLine-Page-1.png)"
       },
       {
         "lineNumber": 14,
         "author": {
-          "gitId": "-"
+          "gitId": "linqing42"
         },
         "content": ""
       },
@@ -756,7 +756,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "### Value proposition"
+        "content": ""
       },
       {
         "lineNumber": 16,
@@ -768,212 +768,212 @@
       {
         "lineNumber": 17,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "-"
         },
-        "content": "Project Tracker will help to solve to tracking and managing projects. It will involve person-in-charge, members who involved in each project and the description of each project. Furthermore, the duration of the project will be included in this Project Tracker that helps the project manager to know the timeframe of each project."
+        "content": "## Product scope"
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "### Target user profile"
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "-"
         },
-        "content": "## User Stories"
+        "content": ""
       },
       {
         "lineNumber": 20,
         "author": {
-          "gitId": "-"
+          "gitId": "linqing42"
         },
-        "content": ""
+        "content": "The target user is a project manager who can keep tracking various projects, know the progress of each project with  principal members to participate in each project. However, he cannot remember the progress of various projects, who is the member that involve to each specific project and cannot close monitor the progress of each project."
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "-"
         },
-        "content": "|Version| As a ... | I want to ... | So that I can ...|"
+        "content": ""
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "-"
         },
-        "content": "|--------|----------|---------------|------------------|"
+        "content": "### Value proposition"
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "-"
         },
-        "content": "|v1.0|new user|see usage instructions|refer to them when I forget how to use the application|"
+        "content": ""
       },
       {
         "lineNumber": 24,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "|v1.0|project manager|create a project|put in the project information|"
+        "content": "Project Tracker will help to solve to tracking and managing projects. It will involve person-in-charge, members who involved in each project and the description of each project. Furthermore, the duration of the project will be included in this Project Tracker that helps the project manager to know the timeframe of each project."
       },
       {
         "lineNumber": 25,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "-"
         },
-        "content": "|v1.0|project manager|add a start and end date to my project| know the timeframe|"
+        "content": ""
       },
       {
         "lineNumber": 26,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "-"
         },
-        "content": "|v1.0|project manager|add employees to the project|know who are involved|"
+        "content": "## User Stories"
       },
       {
         "lineNumber": 27,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "-"
         },
-        "content": "|v1.0|project manager|add person_on-charge|know who is leading the project|"
+        "content": ""
       },
       {
         "lineNumber": 28,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "-"
         },
-        "content": "|v1.0|project manager|add the description to the project|know what is the project about|"
+        "content": "|Version| As a ... | I want to ... | So that I can ...|"
       },
       {
         "lineNumber": 29,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "-"
         },
-        "content": "|v1.0|project manager|save my project|keep a record for reference|"
+        "content": "|--------|----------|---------------|------------------|"
       },
       {
         "lineNumber": 30,
         "author": {
-          "gitId": "linqing42"
+          "gitId": "-"
         },
-        "content": "|v1.0|project manager|delete my project| reduce the clutter|"
+        "content": "|v1.0|new user|see usage instructions|refer to them when I forget how to use the application|"
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "|v1.0|project manager|include extra project information |add new member or add extra content in my project information|"
+        "content": "|v1.0|project manager|create a project|put in the project information|"
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "|v1.0|project manager|update a project information|change or update the project without re-key in whole project information|"
+        "content": "|v1.0|project manager|add a start and end date to my project| know the timeframe|"
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "|v1.0|project manager|close the program|exit|"
+        "content": "|v1.0|project manager|add employees to the project|know who are involved|"
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "|v2.0|project manager|receive an email notification|remind myself|"
+        "content": "|v1.0|project manager|add person_on-charge|know who is leading the project|"
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "|v2.0|project manager|have duration of project|know the how many employees need to assign to this project and save manpower|"
+        "content": "|v1.0|project manager|add the description to the project|know what is the project about|"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "|v2.0|project manager|add a status of project|know how many project still in progress or completed|"
+        "content": "|v1.0|project manager|save my project|keep a record for reference|"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "|v2.0|project manager|add a count down day for project|remind myself|"
+        "content": "|v1.0|project manager|delete my project| reduce the clutter|"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "|v2.0|project manager|know the client|find client\u0027s information|"
+        "content": "|v1.0|project manager|include extra project information |add new member or add extra content in my project information|"
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "|v2.0|project manager|receive an email notification when the deadline is only left few days|focus on the project first|"
+        "content": "|v1.0|project manager|update a project information|change or update the project without re-key in whole project information|"
       },
       {
         "lineNumber": 40,
         "author": {
-          "gitId": "-"
+          "gitId": "linqing42"
         },
-        "content": ""
+        "content": "|v1.0|project manager|close the program|exit|"
       },
       {
         "lineNumber": 41,
         "author": {
-          "gitId": "-"
+          "gitId": "linqing42"
         },
-        "content": "## Non-Functional Requirements"
+        "content": "|v2.0|project manager|receive an email notification|remind myself|"
       },
       {
         "lineNumber": 42,
         "author": {
-          "gitId": "-"
+          "gitId": "linqing42"
         },
-        "content": ""
+        "content": "|v2.0|project manager|have duration of project|know the how many employees need to assign to this project and save manpower|"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "* Should work on any Mainstream OS as long as it has Java **11** or above installed."
+        "content": "|v2.0|project manager|add a status of project|know how many project still in progress or completed|"
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "* *User-Friendly*: there is nice and helpful UI messages should be very easy for the users to use."
+        "content": "|v2.0|project manager|add a count down day for project|remind myself|"
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "* *User-Friendly*: the way to display the project should be easier to read."
+        "content": "|v2.0|project manager|know the client|find client\u0027s information|"
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "* *User-Friendly*: Should load from and save to from a text file"
+        "content": "|v2.0|project manager|receive an email notification when the deadline is only left few days|focus on the project first|"
       },
       {
         "lineNumber": 47,
@@ -987,7 +987,7 @@
         "author": {
           "gitId": "-"
         },
-        "content": "## Glossary"
+        "content": "## Non-Functional Requirements"
       },
       {
         "lineNumber": 49,
@@ -1001,31 +1001,80 @@
         "author": {
           "gitId": "linqing42"
         },
-        "content": "* *Mainstream OS * - Windows, Mac and Linux"
+        "content": "* Should work on any Mainstream OS as long as it has Java **11** or above installed."
       },
       {
         "lineNumber": 51,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "* *User-Friendly*: there is nice and helpful UI messages should be very easy for the users to use."
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "* *User-Friendly*: the way to display the project should be easier to read."
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "* *User-Friendly*: Should load from and save to from a text file"
+      },
+      {
+        "lineNumber": 54,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 52,
+        "lineNumber": 55,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "## Glossary"
+      },
+      {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "* *Mainstream OS * - Windows, Mac and Linux"
+      },
+      {
+        "lineNumber": 58,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 59,
         "author": {
           "gitId": "-"
         },
         "content": "## Instructions for manual testing"
       },
       {
-        "lineNumber": 53,
+        "lineNumber": 60,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 54,
+        "lineNumber": 61,
         "author": {
           "gitId": "-"
         },
@@ -1033,7 +1082,7 @@
       }
     ],
     "authorContributionMap": {
-      "linqing42": 26,
+      "linqing42": 33,
       "-": 28
     }
   },
@@ -3413,6 +3462,428 @@
     }
   },
   {
+    "path": "docs/team/linqing.md",
+    "fileType": "docs",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "# Lin Qing - Project Portfolio Page"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "## Overview"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "### Project: Project Tracker"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "Project Tracker is a desktop app for managing and tracking projects, optimized for use via a Command Line Interface (CLI)."
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "### Summary of Contributions"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "Given below are my contributions to the "
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "- Add Find Command: Added the ability to find the word in the project and allows the user to easily find the specific project[#3](https://github.com/AY2021S1-TIC4001-1/tp/pull/3/commits/6210d0e4b0630f758309959d467163e6ac2440f6)"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "- Add Complete command: Added the ability to mark the project is completed and store in project.txt[#83](https://github.com/AY2021S1-TIC4001-1/tp/pull/83/commits/0d4ea0cb5b99b5929ef1fcca822db6d94764817f)"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "- Add project-in-charge: add the project information [#3](https://github.com/AY2021S1-TIC4001-1/tp/pull/3/commits/6210d0e4b0630f758309959d467163e6ac2440f6)"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "- Add client: add the project information[#54](https://github.com/AY2021S1-TIC4001-1/tp/pull/54/commits/919bdb4cef27a68227358fe2247501a684cc1e7c)"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "- Add email address: add the project information [#54](https://github.com/AY2021S1-TIC4001-1/tp/pull/54/commits/919bdb4cef27a68227358fe2247501a684cc1e7c)"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "- Add status of the project: add the status to show in the project[#56](https://github.com/AY2021S1-TIC4001-1/tp/pull/56)"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "- Add J-unit test: CompleteTest [#85](https://github.com/AY2021S1-TIC4001-1/tp/pull/85)"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "### Code contributed: "
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "[RepoSense link](https://nus-tic4001-ay2021s1.github.io/tp-dashboard/#breakdown\u003dtrue\u0026search\u003dQING\u0026sort\u003dgroupTitle\u0026sortWithin\u003dtitle\u0026since\u003d2020-08-14\u0026timeframe\u003dcommit\u0026mergegroup\u003d\u0026groupSelect\u003dgroupByAuthors\u0026checkedFileTypes\u003ddocs~functional-code~test-code~other\u0026tabOpen\u003dtrue\u0026tabType\u003dauthorship\u0026tabAuthor\u003dlinqing42\u0026tabRepo\u003dAY2021S1-TIC4001-1%2Ftp%5Bmaster%5D\u0026authorshipIsMergeGroup\u003dfalse\u0026authorshipFileTypes\u003ddocs~functional-code~test-code)"
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "### Project management"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "- Managed releases ```v1.0``` - ```v3.0``` (3 releases) on Github"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "### Enhancements to existing features:"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "- Update the project feature [#83](https://github.com/AY2021S1-TIC4001-1/tp/pull/83/commits/0d4ea0cb5b99b5929ef1fcca822db6d94764817f)"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "- Update the Storage feature[#83](https://github.com/AY2021S1-TIC4001-1/tp/pull/83/commits/0d4ea0cb5b99b5929ef1fcca822db6d94764817f)"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "- Update the Create feature[#83](https://github.com/AY2021S1-TIC4001-1/tp/pull/83/commits/0d4ea0cb5b99b5929ef1fcca822db6d94764817f)"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "- Update Parser[#83](https://github.com/AY2021S1-TIC4001-1/tp/pull/83/commits/0d4ea0cb5b99b5929ef1fcca822db6d94764817f)"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "- Update the Add feature[#83](https://github.com/AY2021S1-TIC4001-1/tp/pull/83/commits/0d4ea0cb5b99b5929ef1fcca822db6d94764817f)"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "- Update the Tracker"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "- Update the Expected.TXT (text-ui-test)[#84](https://github.com/AY2021S1-TIC4001-1/tp/pull/84)"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "- Update the UI feature such as printHelp(),displayProject()[#83](https://github.com/AY2021S1-TIC4001-1/tp/pull/83/commits/0d4ea0cb5b99b5929ef1fcca822db6d94764817f)"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "- Update the StorageTest, projectsListTest, Ui Test[#64](https://github.com/AY2021S1-TIC4001-1/tp/pull/64),[#85](https://github.com/AY2021S1-TIC4001-1/tp/pull/85)"
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "### Documentation:"
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "#### User Guide:"
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "- Create documents  and add website link: `product introduction`, `quick start`,  `FAQ`, `Command summary`: [#5](https://github.com/AY2021S1-TIC4001-1/tp/pull/5/commits/6965a02f9bc47ce6dc5859a54f6af6d62667e23e),[#4](https://github.com/AY2021S1-TIC4001-1/tp/pull/4/commits/d5e6bc4aa5658592ee91ee04dcd30e16f3a4c495),[#64](https://github.com/AY2021S1-TIC4001-1/tp/pull/64)"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "- Added following features in the documentation: `help`, `create`, `delete`, `list`, `find`, `exit`, `storage`, `complete`: [#4](https://github.com/AY2021S1-TIC4001-1/tp/pull/4/commits/d5e6bc4aa5658592ee91ee04dcd30e16f3a4c495),[#87](https://github.com/AY2021S1-TIC4001-1/tp/pull/87)"
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "- Did cosmetic tweaks to existing documentation of features: `create`, `help`, `delete`, `list`, `find`, `exit`, `storage`, `complete`: [#7](https://github.com/AY2021S1-TIC4001-1/tp/pull/7/commits/9ba7a90287c5e5a49ec66430d456a901fc9f34a2),[#9](https://github.com/AY2021S1-TIC4001-1/tp/pull/9),[#54](https://github.com/AY2021S1-TIC4001-1/tp/pull/54/commits/919bdb4cef27a68227358fe2247501a684cc1e7c),[#64](https://github.com/AY2021S1-TIC4001-1/tp/pull/64),[#70](https://github.com/AY2021S1-TIC4001-1/tp/pull/70),[#75](https://github.com/AY2021S1-TIC4001-1/tp/pull/75)"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "#### Developer Guide:"
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "- Added all implementation details: `Design\u0026implementation`, `Product scope`, `target user profile`, `value proposition`, `users stories in version 1` and `version 2`,`non-functional requirement` and `glossary`:[#35](https://github.com/AY2021S1-TIC4001-1/tp/pull/35/commits/e160d66ace079036465a4ec7aaab583cfbbec4ee),[#37](https://github.com/AY2021S1-TIC4001-1/tp/pull/37/commits),[#38](https://github.com/AY2021S1-TIC4001-1/tp/pull/38/commits/d4cbf4bb5cd9b3f2e484ad2e05c69973739791ec),[#39](https://github.com/AY2021S1-TIC4001-1/tp/pull/39/commits),[#87](https://github.com/AY2021S1-TIC4001-1/tp/pull/87)"
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "- Create \u0026 Draw a Sequence Diagram in Storage Command(getLines(stringe fileName) methods)[#91](https://github.com/AY2021S1-TIC4001-1/tp/pull/91),[#92](https://github.com/AY2021S1-TIC4001-1/tp/pull/92)"
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "- Create \u0026 Draw UML class diagrams in Version 1 (Parser,Storage, Ui,Tracker, Command,Help, Add, Invalid, List,Create, Delete, Find, Exit, Project, ProjectList, NewProject, Exception, TrackerException and Edit Diagram) using Cacoo website, but expiry in 14 days, so change to Draw io and manually copy one by one, the UML class diagram Version 1 into the draw io table[#37](https://github.com/AY2021S1-TIC4001-1/tp/pull/37/commits), [#38](https://github.com/AY2021S1-TIC4001-1/tp/pull/38/commits/d4cbf4bb5cd9b3f2e484ad2e05c69973739791ec),[#87](https://github.com/AY2021S1-TIC4001-1/tp/pull/87)"
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "- Did cosmetic tweaks to existing UML diagram and create Version 2 using draw io. (Parser,Storage,Ui,Tracker,Command,Help, Add, Invalid,List,Create,Delete, Find, Exit,Project, ProjectList, NewProject,Exception, TrackerException and Edit Diagram) and add a new class diagram in Version 2 which is Complete Diagram:[#58](https://github.com/AY2021S1-TIC4001-1/tp/pull/58/commits),[#69](https://github.com/AY2021S1-TIC4001-1/tp/pull/69),[#74](https://github.com/AY2021S1-TIC4001-1/tp/pull/74),[#87](https://github.com/AY2021S1-TIC4001-1/tp/pull/87)"
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "- Did cosmetic tweaks to existing documentation[#64](https://github.com/AY2021S1-TIC4001-1/tp/pull/64)"
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 47,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "#### Read.me"
+      },
+      {
+        "lineNumber": 48,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "- Put Product introduction and  useful links for UG and DG[#4](https://github.com/AY2021S1-TIC4001-1/tp/pull/4/commits/d5e6bc4aa5658592ee91ee04dcd30e16f3a4c495)"
+      },
+      {
+        "lineNumber": 49,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 50,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "### Contributions to team-based tasks :"
+      },
+      {
+        "lineNumber": 51,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "- Maintaining the issue tracker such as create issue tracker in version 2 and close the issue tracker in version 1, and put a remark on it."
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "- Create and include all Developer document: `Design\u0026implementation`, `Product scope`, `target user profile`, `value proposition`, `users stories in version 1` and `version 2`,`non-functional requirement` and `glossary`:[#35](https://github.com/AY2021S1-TIC4001-1/tp/pull/35/commits/e160d66ace079036465a4ec7aaab583cfbbec4ee),[#37](https://github.com/AY2021S1-TIC4001-1/tp/pull/37/commits),[#38](https://github.com/AY2021S1-TIC4001-1/tp/pull/38/commits/d4cbf4bb5cd9b3f2e484ad2e05c69973739791ec),[#39](https://github.com/AY2021S1-TIC4001-1/tp/pull/39/commits),[#87](https://github.com/AY2021S1-TIC4001-1/tp/pull/87)"
+      },
+      {
+        "lineNumber": 54,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "- Create and include all User Guide documents: `product introduction`, `quick start`,  `FAQ`, `Command summary`: [#5](https://github.com/AY2021S1-TIC4001-1/tp/pull/5/commits/6965a02f9bc47ce6dc5859a54f6af6d62667e23e),[#4](https://github.com/AY2021S1-TIC4001-1/tp/pull/4/commits/d5e6bc4aa5658592ee91ee04dcd30e16f3a4c495),[#64](https://github.com/AY2021S1-TIC4001-1/tp/pull/64)"
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "- Create draw io and invite my teammembers  "
+      },
+      {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "### Community:"
+      },
+      {
+        "lineNumber": 58,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "- PRs reviewed (with non-trivial review comments):[#12](https://github.com/AY2021S1-TIC4001-1/tp/pull/12),[#77](https://github.com/AY2021S1-TIC4001-1/tp/issues/77),[#42](https://github.com/AY2021S1-TIC4001-1/tp/issues/42)"
+      },
+      {
+        "lineNumber": 59,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "- Reported bugs: [#12](https://github.com/AY2021S1-TIC4001-1/tp/pull/12)"
+      }
+    ],
+    "authorContributionMap": {
+      "linqing42": 59
+    }
+  },
+  {
     "path": "gradlew.bat",
     "fileType": "other",
     "lines": [
@@ -4141,22 +4612,6 @@
     "authorContributionMap": {
       "Impala36": 4,
       "-": 99
-    }
-  },
-  {
-    "path": "projects.txt",
-    "fileType": "other",
-    "lines": [
-      {
-        "lineNumber": 1,
-        "author": {
-          "gitId": "Impala36"
-        },
-        "content": "1. [Incomplete] --name Clinical Trials --description regarding hospital task --involve Tom, Lucy --client MOH --startdate 11/11/2020 --duedate 12/12/2020 --incharge Derek --email zhenquan38@gmail.com"
-      }
-    ],
-    "authorContributionMap": {
-      "Impala36": 1
     }
   },
   {
@@ -9123,378 +9578,378 @@
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "        SimpleDateFormat formatter \u003d new SimpleDateFormat(\"dd/MM/yyyy\", Locale.ENGLISH);"
+        "content": ""
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "        try {"
+        "content": "        SimpleDateFormat formatter \u003d new SimpleDateFormat(\"dd/MM/yyyy\", Locale.ENGLISH);"
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "            Date date \u003d formatter.parse(dateInString);"
+        "content": ""
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "            System.out.println(date + \" is valid date format\");"
+        "content": "        if((Integer.parseInt(dateInString.substring(0,2))\u003e\u003d31 || Integer.parseInt(dateInString.substring(0,2))\u003c\u003d0)"
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "        } catch (ParseException e) {"
+        "content": "                ||(Integer.parseInt(dateInString.substring(3,5))\u003e\u003d13 || Integer.parseInt(dateInString.substring(3,5))\u003c\u003d0)){"
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "            return false;"
+        "content": "            System.out.println(dateInString + \"is out of correct date range, please enter the correct date\");"
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "        }"
+        "content": "            return false;"
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "        return true;"
+        "content": "        }"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": ""
+        "content": "        try {"
       },
       {
         "lineNumber": 53,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "Yiheng0410"
         },
-        "content": "    public void dateConverter(String dateInString) throws ParseException {"
+        "content": "            Date date \u003d formatter.parse(dateInString);"
       },
       {
         "lineNumber": 54,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "Yiheng0410"
         },
-        "content": "        SimpleDateFormat formatter \u003d new SimpleDateFormat(\"dd/MM/yyyy\", Locale.ENGLISH);"
+        "content": "            System.out.println(date + \" is valid date format\");"
       },
       {
         "lineNumber": 55,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "Yiheng0410"
         },
-        "content": "        formatter.parse(dateInString);"
+        "content": "        } catch (ParseException e) {"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "    }"
+        "content": "            return false;"
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": ""
+        "content": "        }"
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "    public float calculateDateDiff(String startDate, String endDate) {"
+        "content": "        return true;"
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "        SimpleDateFormat formatter \u003d new SimpleDateFormat(\"dd/MM/yyyy\");"
+        "content": "    }"
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "        float daysBetween \u003d 0;"
+        "content": ""
       },
       {
         "lineNumber": 61,
         "author": {
-          "gitId": "Yiheng0410"
+          "gitId": "Impala36"
         },
-        "content": "        try {"
+        "content": "    public void dateConverter(String dateInString) throws ParseException {"
       },
       {
         "lineNumber": 62,
         "author": {
-          "gitId": "Yiheng0410"
+          "gitId": "Impala36"
         },
-        "content": "            Date dateBefore \u003d formatter.parse(startDate);"
+        "content": "        SimpleDateFormat formatter \u003d new SimpleDateFormat(\"dd/MM/yyyy\", Locale.ENGLISH);"
       },
       {
         "lineNumber": 63,
         "author": {
-          "gitId": "Yiheng0410"
+          "gitId": "Impala36"
         },
-        "content": "            Date dateAfter \u003d formatter.parse(endDate);"
+        "content": "        formatter.parse(dateInString);"
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "            long difference \u003d dateAfter.getTime() - dateBefore.getTime();"
+        "content": "    }"
       },
       {
         "lineNumber": 65,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "Yiheng0410"
         },
-        "content": "            daysBetween \u003d (float) (difference / (1000 * 60 * 60 * 24));"
+        "content": ""
       },
       {
         "lineNumber": 66,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "        } catch (ParseException e) {"
+        "content": "    public float calculateDateDiff(String startDate, String endDate) {"
       },
       {
         "lineNumber": 67,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "            e.printStackTrace();"
+        "content": "        SimpleDateFormat formatter \u003d new SimpleDateFormat(\"dd/MM/yyyy\");"
       },
       {
         "lineNumber": 68,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "        }"
+        "content": "        float daysBetween \u003d 0;"
       },
       {
         "lineNumber": 69,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "        return daysBetween;"
+        "content": "        try {"
       },
       {
         "lineNumber": 70,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "    }"
+        "content": "            Date dateBefore \u003d formatter.parse(startDate);"
       },
       {
         "lineNumber": 71,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": ""
+        "content": "            Date dateAfter \u003d formatter.parse(endDate);"
       },
       {
         "lineNumber": 72,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "    public boolean dateValidator(String startDate, String endDate) {"
+        "content": "            long difference \u003d dateAfter.getTime() - dateBefore.getTime();"
       },
       {
         "lineNumber": 73,
         "author": {
-          "gitId": "Yiheng0410"
+          "gitId": "Impala36"
         },
-        "content": "        SimpleDateFormat formatter \u003d new SimpleDateFormat(\"dd/MM/yyyy\");"
+        "content": "            daysBetween \u003d (float) (difference / (1000 * 60 * 60 * 24));"
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "        boolean isSdEarlierThanEd \u003d false;"
+        "content": "        } catch (ParseException e) {"
       },
       {
         "lineNumber": 75,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": ""
+        "content": "            e.printStackTrace();"
       },
       {
         "lineNumber": 76,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "        try {"
+        "content": "        }"
       },
       {
         "lineNumber": 77,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "            Date sd \u003d formatter.parse(startDate);"
+        "content": "        return daysBetween;"
       },
       {
         "lineNumber": 78,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "            Date ed \u003d formatter.parse(endDate);"
+        "content": "    }"
       },
       {
         "lineNumber": 79,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "            if (sd.compareTo(ed) \u003c 0) {"
+        "content": ""
       },
       {
         "lineNumber": 80,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "                isSdEarlierThanEd \u003d true;"
+        "content": "    public boolean dateValidator(String startDate, String endDate) {"
       },
       {
         "lineNumber": 81,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "            } else {"
+        "content": "        SimpleDateFormat formatter \u003d new SimpleDateFormat(\"dd/MM/yyyy\");"
       },
       {
         "lineNumber": 82,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "                System.out.println(\"Due Date is earlier than Start Date, please enter the correct date!\");"
+        "content": "        boolean isSdEarlierThanEd \u003d false;"
       },
       {
         "lineNumber": 83,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "                isSdEarlierThanEd \u003d false;"
+        "content": ""
       },
       {
         "lineNumber": 84,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "            }"
+        "content": "        try {"
       },
       {
         "lineNumber": 85,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "        } catch (ParseException e) {"
+        "content": "            Date sd \u003d formatter.parse(startDate);"
       },
       {
         "lineNumber": 86,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "            e.printStackTrace();"
+        "content": "            Date ed \u003d formatter.parse(endDate);"
       },
       {
         "lineNumber": 87,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "        }"
+        "content": "            if (sd.compareTo(ed) \u003c 0) {"
       },
       {
         "lineNumber": 88,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "        return isSdEarlierThanEd;"
+        "content": "                isSdEarlierThanEd \u003d true;"
       },
       {
         "lineNumber": 89,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "    }"
+        "content": "            } else {"
       },
       {
         "lineNumber": 90,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": ""
+        "content": "                System.out.println(\"Due Date is earlier than Start Date, please enter the correct date!\");"
       },
       {
         "lineNumber": 91,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "    public String getDateDiff() {"
+        "content": "                isSdEarlierThanEd \u003d false;"
       },
       {
         "lineNumber": 92,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "        return dateDiff;"
+        "content": "            }"
       },
       {
         "lineNumber": 93,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "    }"
+        "content": "        } catch (ParseException e) {"
       },
       {
         "lineNumber": 94,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": ""
+        "content": "            e.printStackTrace();"
       },
       {
         "lineNumber": 95,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "    public String getDaysLeft() {"
+        "content": "        }"
       },
       {
         "lineNumber": 96,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "        return daysLeft;"
+        "content": "        return isSdEarlierThanEd;"
       },
       {
         "lineNumber": 97,
@@ -9508,11 +9963,67 @@
         "author": {
           "gitId": "Yiheng0410"
         },
+        "content": ""
+      },
+      {
+        "lineNumber": 99,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "    public String getDateDiff() {"
+      },
+      {
+        "lineNumber": 100,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "        return dateDiff;"
+      },
+      {
+        "lineNumber": 101,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 102,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 103,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "    public String getDaysLeft() {"
+      },
+      {
+        "lineNumber": 104,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "        return daysLeft;"
+      },
+      {
+        "lineNumber": 105,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 106,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
         "content": "}"
       }
     ],
     "authorContributionMap": {
-      "Yiheng0410": 93,
+      "Yiheng0410": 101,
       "Impala36": 5
     }
   },
@@ -15237,9 +15748,9 @@
       {
         "lineNumber": 6,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "Yiheng0410"
         },
-        "content": "import org.junit.Test;"
+        "content": "import org.junit.jupiter.api.Test;"
       },
       {
         "lineNumber": 7,
@@ -15321,23 +15832,23 @@
       {
         "lineNumber": 18,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "Yiheng0410"
         },
-        "content": "        Project project1 \u003d new Project(\"--name Clinical Trials --description regarding hospital task \""
+        "content": "        Project project1 \u003d new Project(\"--name Clinical Trials --description regarding hospital task\" +"
       },
       {
         "lineNumber": 19,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "Yiheng0410"
         },
-        "content": "                + \"--involve Tom, Lucy --client Desi --startdate 11/11/2020 --duedate 12/12/2020 \""
+        "content": "                \"--involve Tom, Lucy --client Desi --startdate 11/11/2020 --duedate 12/12/2020\" +"
       },
       {
         "lineNumber": 20,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "Yiheng0410"
         },
-        "content": "                + \"--incharge Derek --email linqing4267@gmail.com --duration 31 --status Incomplete\");"
+        "content": "                \"--incharge Derek --email linqing4267@gmail.com\");"
       },
       {
         "lineNumber": 21,
@@ -15393,133 +15904,133 @@
         "author": {
           "gitId": "linqing42"
         },
-        "content": ""
+        "content": "            daysLeft \u003d new DateConverter(\"12/12/2020\").getDaysLeft();"
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "            daysLeft \u003d new DateConverter(\"12/12/2020\").getDaysLeft();"
+        "content": "        } catch (ParseException e) {"
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "        } catch (ParseException e) {"
+        "content": "            ui.printBorderline(e.getMessage());"
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "            ui.printBorderline(e.getMessage());"
-      },
-      {
-        "lineNumber": 32,
-        "author": {
-          "gitId": "linqing42"
-        },
         "content": "        }"
       },
       {
-        "lineNumber": 33,
+        "lineNumber": 32,
         "author": {
           "gitId": "Yiheng0410"
         },
         "content": ""
       },
       {
-        "lineNumber": 34,
+        "lineNumber": 33,
         "author": {
           "gitId": "Yiheng0410"
         },
         "content": "        String projectDetail2 \u003d"
       },
       {
-        "lineNumber": 35,
+        "lineNumber": 34,
         "author": {
           "gitId": "linqing42"
         },
         "content": "                \"Project Name: Clinical Trials \" + \"\\n\""
       },
       {
-        "lineNumber": 36,
+        "lineNumber": 35,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "                        + \"Project Description: regarding hospital task \" + \"\\n\""
+        "content": "                        + \"Project Description: regarding hospital task\" + \"\\n\""
       },
       {
-        "lineNumber": 37,
+        "lineNumber": 36,
         "author": {
           "gitId": "linqing42"
         },
         "content": "                        + \"Project Team Members: Tom, Lucy \" + \"\\n\""
       },
       {
-        "lineNumber": 38,
+        "lineNumber": 37,
         "author": {
           "gitId": "linqing42"
         },
         "content": "                        + \"Client: Desi \" + \"\\n\""
       },
       {
-        "lineNumber": 39,
+        "lineNumber": 38,
         "author": {
           "gitId": "linqing42"
         },
         "content": "                        + \"Start Date: 11/11/2020 \" + \"\\n\""
       },
       {
-        "lineNumber": 40,
+        "lineNumber": 39,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "                        + \"Due Date: 12/12/2020 \" + \"\\n\""
+        "content": "                        + \"Due Date: 12/12/2020\" + \"\\n\""
       },
       {
-        "lineNumber": 41,
+        "lineNumber": 40,
         "author": {
           "gitId": "linqing42"
         },
         "content": "                        + \"Person in Charge: Derek \" + \"\\n\""
       },
       {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "linqing42"
+        },
+        "content": "                        + \"Email: linqing4267@gmail.com\" + \"\\n\""
+      },
+      {
         "lineNumber": 42,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "                        + \"Email: linqing4267@gmail.com \" + \"\\n\""
+        "content": "                        + \"Duration: 31\" + \"\\n\""
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "linqing42"
         },
-        "content": "                        + \"Duration: 31 \" + \"\\n\""
+        "content": "                        + \"Days Left: \" + daysLeft+ \"\\n\""
       },
       {
         "lineNumber": 44,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": "                        + \"Days Left: \" + daysLeft + \"\\n\""
-      },
-      {
-        "lineNumber": 45,
         "author": {
           "gitId": "Impala36"
         },
         "content": "                        + \"Status: \" + project1.getStatus() + \"\\n\";"
       },
       {
-        "lineNumber": 46,
+        "lineNumber": 45,
         "author": {
           "gitId": "Yiheng0410"
         },
         "content": "        assertEquals(projectDetail1, projectDetail2);"
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "    }"
       },
       {
         "lineNumber": 47,
@@ -15533,27 +16044,13 @@
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 49,
-        "author": {
-          "gitId": "linqing42"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 50,
-        "author": {
-          "gitId": "Yiheng0410"
-        },
         "content": "}"
       }
     ],
     "authorContributionMap": {
-      "linqing42": 19,
-      "Yiheng0410": 22,
-      "Impala36": 9
+      "linqing42": 17,
+      "Yiheng0410": 26,
+      "Impala36": 5
     }
   },
   {

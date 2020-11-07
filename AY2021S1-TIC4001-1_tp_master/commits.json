@@ -413,6 +413,88 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-06",
+        "commitResults": [
+          {
+            "hash": "9714c29d2ddd3d6b48262918b05015dde25602d2",
+            "messageTitle": "Update and rename johndoe.md to linqing.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 57,
+                "deletions": 6
+              }
+            }
+          },
+          {
+            "hash": "2bbd6082af1f24ecc73153fd3bbdf8bbd61ad1b6",
+            "messageTitle": "Update linqing.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "69a255d84db2fbc1e9a09f6c7c0c1775f1fed187",
+            "messageTitle": "Update linqing.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "b6b1584e2c14c749670f50b51c18e5a8b5fa8ab3",
+            "messageTitle": "ADD in sequence diagram in StorageGetLine-Page-1.png",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 8,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "30350a01d79a250a9bc7cd7dbdeca30b3ab25f06",
+            "messageTitle": "Update linqing.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 2,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "9132203bad354b5bc509b92a7c953cfcae16e47b",
+            "messageTitle": "Update linqing.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "850bbbbaf7838e14b45b74a9a8840f75c0e8c58a",
+            "messageTitle": "Update DeveloperGuide.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 2,
+                "deletions": 2
+              }
+            }
+          }
+        ]
       }
     ],
     "Yiheng0410": [
@@ -560,6 +642,37 @@
               "functional-code": {
                 "insertions": 22,
                 "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "b67f4fc800d14a55d02cb23d5bf6808b6e660671",
+            "messageTitle": "Update UiTest",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "other": {
+                "insertions": 0,
+                "deletions": 1
+              },
+              "test-code": {
+                "insertions": 9,
+                "deletions": 11
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-11-06",
+        "commitResults": [
+          {
+            "hash": "9aea670e0ea8754bfd8ae361581ff58f91324bc3",
+            "messageTitle": "add in date range check",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 8,
+                "deletions": 0
               }
             }
           }
@@ -1205,20 +1318,20 @@
   },
   "authorFileTypeContributionMap": {
     "linqing42": {
-      "docs": 209,
+      "docs": 275,
       "functional-code": 165,
-      "test-code": 60
+      "test-code": 58
     },
     "Yiheng0410": {
       "docs": 0,
-      "functional-code": 106,
-      "test-code": 82
+      "functional-code": 114,
+      "test-code": 86
     },
     "Impala36": {
       "docs": 101,
       "functional-code": 743,
-      "test-code": 196,
-      "other": 9
+      "test-code": 192,
+      "other": 8
     },
     "binbinhui": {
       "docs": 30,
@@ -1228,10 +1341,10 @@
     }
   },
   "authorContributionVariance": {
-    "linqing42": 1919.4329,
-    "Yiheng0410": 531.60364,
-    "Impala36": 11516.873,
-    "binbinhui": 13846.776
+    "linqing42": 1957.4213,
+    "Yiheng0410": 539.80023,
+    "Impala36": 11390.365,
+    "binbinhui": 13688.1455
   },
   "authorDisplayNameMap": {
     "linqing42": "TIC4001-1 LIN ..QING",

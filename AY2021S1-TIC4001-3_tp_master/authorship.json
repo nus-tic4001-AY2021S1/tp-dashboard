@@ -562,9 +562,9 @@
       {
         "lineNumber": 27,
         "author": {
-          "gitId": "ZhengShijieNUS"
+          "gitId": "tototto"
         },
-        "content": "//todo UI component"
+        "content": "## UI component"
       },
       {
         "lineNumber": 28,
@@ -576,37 +576,37 @@
       {
         "lineNumber": 29,
         "author": {
-          "gitId": "ZhengShijieNUS"
+          "gitId": "tototto"
         },
-        "content": ""
+        "content": "![Image of UI Class Diagram](https://github.com/AY2021S1-TIC4001-3/tp/blob/master/docs/Images/interface.png)"
       },
       {
         "lineNumber": 30,
         "author": {
-          "gitId": "ZhengShijieNUS"
-        },
-        "content": "//todo FINDER component"
-      },
-      {
-        "lineNumber": 31,
-        "author": {
-          "gitId": "ZhengShijieNUS"
+          "gitId": "pigoliver"
         },
         "content": ""
       },
       {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "The UI componenet is the handler of the user input and output result to the user. It includes InputHandler Class which will deal with user input, and Interface Class which will handle all the console printing interaction. Project team have also store the information of help command inside Interface which will make the help command work when the program is compiled into the jar file."
+      },
+      {
         "lineNumber": 32,
         "author": {
-          "gitId": "ZhengShijieNUS"
+          "gitId": "tototto"
         },
         "content": ""
       },
       {
         "lineNumber": 33,
         "author": {
-          "gitId": "ZhengShijieNUS"
+          "gitId": "pigoliver"
         },
-        "content": "//todo STORAGE component"
+        "content": "Both InputHandler and Interface contains only static method, which will be utilize in all the other classes. But the majority of the method call was from the main class, ItLogger."
       },
       {
         "lineNumber": 34,
@@ -618,44 +618,44 @@
       {
         "lineNumber": 35,
         "author": {
-          "gitId": "ZhengShijieNUS"
+          "gitId": "pigoliver"
         },
-        "content": ""
+        "content": "## FINDER component"
       },
       {
         "lineNumber": 36,
         "author": {
-          "gitId": "ZhengShijieNUS"
-        },
-        "content": "//todo IssueList component"
-      },
-      {
-        "lineNumber": 37,
-        "author": {
-          "gitId": "ZhengShijieNUS"
+          "gitId": "pigoliver"
         },
         "content": ""
       },
       {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "![Image of Finder Class Diagram](https://github.com/AY2021S1-TIC4001-3/tp/blob/master/docs/Images/finder.png)"
+      },
+      {
         "lineNumber": 38,
         "author": {
-          "gitId": "ZhengShijieNUS"
+          "gitId": "tototto"
         },
         "content": ""
       },
       {
         "lineNumber": 39,
         "author": {
-          "gitId": "ZhengShijieNUS"
+          "gitId": "tototto"
         },
-        "content": "//todo COMMONS component"
+        "content": "The FINDER component includes Search and Sort classes. It is used to provide an organised output based on the user desired output selection option."
       },
       {
         "lineNumber": 40,
         "author": {
-          "gitId": "ZhengShijieNUS"
+          "gitId": "pigoliver"
         },
-        "content": ""
+        "content": "Sort class is consist of API to sort the issuelist in given request with quick sort algorithm. It is called from view command with addon keyword to view the sorted list."
       },
       {
         "lineNumber": 41,
@@ -669,243 +669,243 @@
         "author": {
           "gitId": "ZhengShijieNUS"
         },
-        "content": "## Implementation"
+        "content": "//todo STORAGE component"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "ZhengShijieNUS"
         },
-        "content": "// take one user story as example to showcase how certain features are implemented. "
+        "content": ""
       },
       {
         "lineNumber": 44,
         "author": {
-          "gitId": "-"
+          "gitId": "ZhengShijieNUS"
         },
         "content": ""
       },
       {
         "lineNumber": 45,
         "author": {
-          "gitId": "-"
+          "gitId": "ZhengShijieNUS"
         },
-        "content": ""
+        "content": "## IssueList component"
       },
       {
         "lineNumber": 46,
         "author": {
-          "gitId": "-"
+          "gitId": "ZhengShijieNUS"
         },
-        "content": "## Product scope"
+        "content": ""
       },
       {
         "lineNumber": 47,
         "author": {
-          "gitId": "-"
+          "gitId": "ZhengShijieNUS"
         },
-        "content": "### Target user profile"
+        "content": "The IssueList component is the container to save the data of defects during execution of program. It consist two classes, IssueList and Defects. Issuelist has a vector to store defects.  And the Defect class is the class of defects as what we defined. It contains the defect name, status, severity,date raised, deadline and owner."
       },
       {
         "lineNumber": 48,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "ZhengShijieNUS"
         },
-        "content": "* Is a developer, tester or member of the project team."
+        "content": ""
       },
       {
         "lineNumber": 49,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "ZhengShijieNUS"
         },
-        "content": "* prefer desktop apps over other types."
+        "content": "The IssueList component:"
       },
       {
         "lineNumber": 50,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "ZhengShijieNUS"
         },
-        "content": "* can type fast."
+        "content": "* Able to interact with Storage component and load existing issues"
       },
       {
         "lineNumber": 51,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "ZhengShijieNUS"
         },
-        "content": "* prefers typing to mouse interactions."
+        "content": "* Able to add new defects and store it in the instance of IssueList class"
       },
       {
         "lineNumber": 52,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "ZhengShijieNUS"
         },
-        "content": "* is reasonably comfortable using CLI apps."
+        "content": "* Able to delete existing defects that stored in the instance of IssueList class"
       },
       {
         "lineNumber": 53,
         "author": {
-          "gitId": "-"
+          "gitId": "ZhengShijieNUS"
         },
-        "content": ""
+        "content": "* Able to get defects that stored in the instaance of IssueList class"
       },
       {
         "lineNumber": 54,
         "author": {
-          "gitId": "-"
+          "gitId": "ZhengShijieNUS"
         },
-        "content": ""
+        "content": "* Able to get the whole IssueList itself "
       },
       {
         "lineNumber": 55,
         "author": {
-          "gitId": "-"
+          "gitId": "ZhengShijieNUS"
         },
-        "content": "### Value proposition"
+        "content": "* Able to set/get all details of any specified defect"
       },
       {
         "lineNumber": 56,
         "author": {
-          "gitId": "pigoliver"
-        },
-        "content": "manage defects faster than a typical mouse/GUI driven app. Allows the user to better manage the project issues."
-      },
-      {
-        "lineNumber": 57,
-        "author": {
-          "gitId": "-"
+          "gitId": "ZhengShijieNUS"
         },
         "content": ""
       },
       {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": "![Image of IssueListComponentClassDiagram](https://github.com/AY2021S1-TIC4001-3/tp/blob/master/docs/Images/IssueListComponent.png)"
+      },
+      {
         "lineNumber": 58,
         "author": {
-          "gitId": "-"
+          "gitId": "ZhengShijieNUS"
         },
-        "content": "## User Stories"
+        "content": ""
       },
       {
         "lineNumber": 59,
         "author": {
-          "gitId": "-"
+          "gitId": "ZhengShijieNUS"
         },
-        "content": " "
+        "content": "## COMMONS component"
       },
       {
         "lineNumber": 60,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "ZhengShijieNUS"
         },
-        "content": "|Priority| As a … | I want to … | So that I can… |"
+        "content": ""
       },
       {
         "lineNumber": 61,
         "author": {
-          "gitId": "-"
+          "gitId": "ZhengShijieNUS"
         },
-        "content": "|--------|----------|---------------|------------------|"
+        "content": "The commons component are those classes used by multiple components are in the program, such as enum classes and the parser class."
       },
       {
         "lineNumber": 62,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "ZhengShijieNUS"
         },
-        "content": "|* * * |new user|add issues into IT logger|track my issues|"
+        "content": ""
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "ZhengShijieNUS"
         },
-        "content": "|* * * |New user|view an issue that is based on the ticket number|see its progress.|"
+        "content": "The parser class is mainly in charge of parse user\u0027s input and convert them to a workable format to the program. The enum classes are used to strict the keywords. "
       },
       {
         "lineNumber": 64,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "ZhengShijieNUS"
         },
-        "content": "|* * * |New user|delete a defect|remove defects that are resolved or no longer required|"
+        "content": ""
       },
       {
         "lineNumber": 65,
         "author": {
           "gitId": "ZhengShijieNUS"
         },
-        "content": "|* * * |New user|list all issues currently in the ITLogger|find all of the recorded issues currently in ITLogger.|"
+        "content": "## Implementation"
       },
       {
         "lineNumber": 66,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "ZhengShijieNUS"
         },
-        "content": "|* * |New user|I would like a given issue format|so that I can know a structured way of using the app|"
+        "content": "// take one user story as example to showcase how certain features are implemented. "
       },
       {
         "lineNumber": 67,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "-"
         },
-        "content": "|* |New user|I would like the issue I logged to be date stamped|so that I know when it was raised|"
+        "content": ""
       },
       {
         "lineNumber": 68,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "-"
         },
-        "content": "|* * * |User|be able to load defects from a text file or database|View and track all defects previously recorded in the system|"
+        "content": ""
       },
       {
         "lineNumber": 69,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "-"
         },
-        "content": "|* * * |User|Have a help guide|View the usage of the app|"
+        "content": "## Product scope"
       },
       {
         "lineNumber": 70,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "-"
         },
-        "content": "|* * * |User|Update information of existing defects|Keep track of those defects that have changed|"
+        "content": "### Target user profile"
       },
       {
         "lineNumber": 71,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "|* * |user|Search defects based on my preference|Narrow down the search result based on what i want to look up|"
+        "content": "* Is a developer, tester or member of the project team."
       },
       {
         "lineNumber": 72,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "|* * * |User|Automatically save my records when the defect list has been changed|progression will not be lost|"
+        "content": "* prefer desktop apps over other types."
       },
       {
         "lineNumber": 73,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "|* * |User|View my defect in a sorted order|More easily track my list of items|"
+        "content": "* can type fast."
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "|* * * |Forgetful user|Be notified of my task that are due|Not forget what i need to fix and close|"
+        "content": "* prefers typing to mouse interactions."
       },
       {
         "lineNumber": 75,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "|* * * |User|Have a robust app|So that my data integrity is maintained (e.g. no deletion, cannot reopen after close)|"
+        "content": "* is reasonably comfortable using CLI apps."
       },
       {
         "lineNumber": 76,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "-"
         },
         "content": ""
       },
@@ -921,122 +921,283 @@
         "author": {
           "gitId": "-"
         },
-        "content": "## Non-Functional Requirements"
+        "content": "### Value proposition"
       },
       {
         "lineNumber": 79,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "manage defects faster than a typical mouse/GUI driven app. Allows the user to better manage the project issues."
+      },
+      {
+        "lineNumber": 80,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 80,
-        "author": {
-          "gitId": "pigoliver"
-        },
-        "content": "* Should work on any mainstream OS as long as it has Java 11 or above installed."
-      },
-      {
         "lineNumber": 81,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "-"
         },
-        "content": "* Should be able to hold up to 1000 defects without a noticeable sluggishness in performance for typical usage."
+        "content": "## User Stories"
       },
       {
         "lineNumber": 82,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "-"
         },
-        "content": "* A user with above average typing speed for regular English text (i.e. not code, not system admin commands) should be able to accomplish most of the tasks faster using commands than using the mouse"
+        "content": " "
       },
       {
         "lineNumber": 83,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "* Should load from and save to from a text files"
+        "content": "|Priority| As a … | I want to … | So that I can… |"
       },
       {
         "lineNumber": 84,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "|--------|----------|---------------|------------------|"
+      },
+      {
+        "lineNumber": 85,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "|* * * |new user|add issues into IT logger|track my issues|"
+      },
+      {
+        "lineNumber": 86,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": "|* * * |New user|view an issue that is based on the ticket number|see its progress.|"
+      },
+      {
+        "lineNumber": 87,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "|* * * |New user|delete a defect|remove defects that are resolved or no longer required|"
+      },
+      {
+        "lineNumber": 88,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": "|* * * |New user|list all issues currently in the ITLogger|find all of the recorded issues currently in ITLogger.|"
+      },
+      {
+        "lineNumber": 89,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "|* * |New user|I would like a given issue format|so that I can know a structured way of using the app|"
+      },
+      {
+        "lineNumber": 90,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "|* |New user|I would like the issue I logged to be date stamped|so that I know when it was raised|"
+      },
+      {
+        "lineNumber": 91,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "|* * * |User|be able to load defects from a text file or database|View and track all defects previously recorded in the system|"
+      },
+      {
+        "lineNumber": 92,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "|* * * |User|Have a help guide|View the usage of the app|"
+      },
+      {
+        "lineNumber": 93,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "|* * * |User|Update information of existing defects|Keep track of those defects that have changed|"
+      },
+      {
+        "lineNumber": 94,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "|* * |user|Search defects based on my preference|Narrow down the search result based on what i want to look up|"
+      },
+      {
+        "lineNumber": 95,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "|* * * |User|Automatically save my records when the defect list has been changed|progression will not be lost|"
+      },
+      {
+        "lineNumber": 96,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "|* * |User|View my defect in a sorted order|More easily track my list of items|"
+      },
+      {
+        "lineNumber": 97,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "|* * * |Forgetful user|Be notified of my task that are due|Not forget what i need to fix and close|"
+      },
+      {
+        "lineNumber": 98,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "|* * * |User|Have a robust app|So that my data integrity is maintained (e.g. no deletion, cannot reopen after close)|"
+      },
+      {
+        "lineNumber": 99,
         "author": {
           "gitId": "pigoliver"
         },
         "content": ""
       },
       {
-        "lineNumber": 85,
+        "lineNumber": 100,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 86,
+        "lineNumber": 101,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "## Non-Functional Requirements"
+      },
+      {
+        "lineNumber": 102,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 103,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "* Should work on any mainstream OS as long as it has Java 11 or above installed."
+      },
+      {
+        "lineNumber": 104,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "* Should be able to hold up to 1000 defects without a noticeable sluggishness in performance for typical usage."
+      },
+      {
+        "lineNumber": 105,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "* A user with above average typing speed for regular English text (i.e. not code, not system admin commands) should be able to accomplish most of the tasks faster using commands than using the mouse"
+      },
+      {
+        "lineNumber": 106,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "* Should load from and save to from a text files"
+      },
+      {
+        "lineNumber": 107,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 108,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 109,
         "author": {
           "gitId": "-"
         },
         "content": "## Glossary"
       },
       {
-        "lineNumber": 87,
+        "lineNumber": 110,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 88,
+        "lineNumber": 111,
         "author": {
           "gitId": "tototto"
         },
         "content": "* *Mainstream OS:* Windows, Linux, Unix, OS-X."
       },
       {
-        "lineNumber": 89,
+        "lineNumber": 112,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 90,
+        "lineNumber": 113,
         "author": {
           "gitId": "-"
         },
         "content": "## Instructions for manual testing"
       },
       {
-        "lineNumber": 91,
+        "lineNumber": 114,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 92,
+        "lineNumber": 115,
         "author": {
           "gitId": "-"
         },
         "content": "{Give instructions on how to do a manual product testing e.g., how to load sample data to be used for testing}"
       },
       {
-        "lineNumber": 93,
+        "lineNumber": 116,
         "author": {
           "gitId": "ZhengShijieNUS"
         },
         "content": ""
       },
       {
-        "lineNumber": 94,
+        "lineNumber": 117,
         "author": {
           "gitId": "ZhengShijieNUS"
         },
         "content": "![Image of UpdateSequenceDiagram](https://github.com/AY2021S1-TIC4001-3/tp/blob/master/docs/Images/updateSequenceDiagram.png)"
       },
       {
-        "lineNumber": 95,
+        "lineNumber": 118,
         "author": {
           "gitId": "ZhengShijieNUS"
         },
@@ -1044,10 +1205,10 @@
       }
     ],
     "authorContributionMap": {
-      "ZhengShijieNUS": 24,
-      "tototto": 20,
+      "ZhengShijieNUS": 35,
+      "tototto": 26,
       "-": 26,
-      "pigoliver": 25
+      "pigoliver": 31
     }
   },
   {
@@ -1975,6 +2136,971 @@
     ],
     "authorContributionMap": {
       "pigoliver": 70
+    }
+  },
+  {
+    "path": "docs/team/pigoliver.md",
+    "fileType": "docs",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "# Hong Jiancheng - Project Portfolio Page"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "## Overview"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "IT Logger is a desktop app for managing program issues, and tracking issue resolution progression via a Command Line Interface (CLI)."
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "### Summary of Contributions"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "#### Contributed Features:"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "* Created Parser Class which will parse the user input into respective keywords"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "* Created Add command"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "* Created Help command"
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "* Created Sort Class and enhanced the View command with sort functionality."
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "#### Contributed Documentation:"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "* Discuss documentation with teammates"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "* Help in transferring googledoc dollaborative work into Github"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "### Code contributed: "
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "* [Link to RepoSense](https://nus-tic4001-ay2021s1.github.io/tp-dashboard/#breakdown\u003dtrue\u0026search\u003dpigoliver\u0026sort\u003dgroupTitle\u0026sortWithin\u003dtitle\u0026since\u003d2020-08-14\u0026timeframe\u003dcommit\u0026mergegroup\u003d\u0026groupSelect\u003dgroupByRepos\u0026checkedFileTypes\u003ddocs~functional-code~test-code~other \"Jiancheng\u0027s code on tP Code Dashboard\")"
+      }
+    ],
+    "authorContributionMap": {
+      "pigoliver": 17
+    }
+  },
+  {
+    "path": "docs/team/tayjunwen.md",
+    "fileType": "docs",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "# Tay Jun Wen - Project Portfolio Page"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "## Objectives"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "A software Engineering project focusing on the implementation of a Green Field Project with an empahsis on Team work with different team members that adopts a software iterative approach to development. This software underwent 3 iteration during its development."
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "## Overview"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "### Project: IT logger"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "Developed using JAVA, IT Logger is a desktop app for managing software issues during development and production. It is used for tracking issue resolution from defect inception till resolution via a Command Line Interface (CLI)."
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "It can be used for managing the Quality Control (QC) of different project during its SDLC."
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "It has features similar to most defect tracking softwares such as JIRA \u0026 HP ALM."
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "The project is built based on the User Story collected."
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "### Code Contributed"
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "https://nus-tic4001-ay2021s1.github.io/tp-dashboard/#breakdown\u003dtrue\u0026search\u003d\u0026sort\u003dgroupTitle\u0026sortWithin\u003dtitle\u0026since\u003d2020-08-14\u0026timeframe\u003dcommit\u0026mergegroup\u003d\u0026groupSelect\u003dgroupByRepos\u0026checkedFileTypes\u003ddocs~functional-code~test-code~other\u0026tabOpen\u003dtrue\u0026tabType\u003dauthorship\u0026tabAuthor\u003dtototto\u0026tabRepo\u003dAY2021S1-TIC4001-3%2Ftp%5Bmaster%5D\u0026authorshipIsMergeGroup\u003dfalse\u0026authorshipFileTypes\u003ddocs~functional-code~test-code"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "### Enhancements implemented:"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "Implemented the following function:"
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "|Action|Format, Examples|"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "|--------|----------|"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "| list | ```list``` |"
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "| Search| ```search /title /\u003ctitle\u003e``` \u003cbr\u003e ```search /status /\u003cstatus\u003e``` \u003cbr\u003e``` search /severity /\u003cseverityNum\u003e``` \u003cbr\u003e ```search /owner /\u003cowner\u003e ```\u003cbr\u003e ```search /deadline /\u003cdeadlineDateString(dd-MM-yyyy)\u003e``` |"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "  "
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": " The ```list``` function was created to allow different users to view the total list of defects present in the IT Logger"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": " It was subsequently enhanced to perform listing based on different types \u0026 category such as severity, deadline and etc. It is a must have feature in for usage."
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": " "
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": " The ```search``` function was created to allow users to look up all defects present in the IT Logger that meets certain search criteria. The list of which can be found   above."
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "### Contributions to documentation:"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "##### User Guide:"
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "Assisted to produce the Feature \u0026 Command Summary Section."
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "Also Collaborated \u0026 Worked together with the team on the remaining parts of the UG. Jiancheng consolidated the submission to teams repo."
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "##### Contributions to the Developer Guide:"
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "Assisted to upload members UML diagram\u0027s and created Object and Class diagram to illustrate program makeup and flow for ```list``` and ```search``` function."
+      },
+      {
+        "lineNumber": 47,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "Also Collaborated \u0026 Collaborated \u0026 Worked together with the team. Jiancheng consolidated the submission to teams repo."
+      },
+      {
+        "lineNumber": 48,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 49,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "### Contributions to team-based tasks :"
+      },
+      {
+        "lineNumber": 50,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 51,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": " 1. Setup the Repo in preparation for the project (e.g. creating the Repo, implementing Repo security setup, etc)"
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": " 2. Advising and reminding team to utilise project tools such as style guide checker to avoid Continuous Integration failure."
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": " 3. Setting up of Team mile stone, creating incidents and moving User stories into them for easy tracking"
+      },
+      {
+        "lineNumber": 54,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": " 4. Perform basic manual testing during early stages of development. Raised bugs and issues."
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": " 5. Contributed ideas during discussions in weekly meetings."
+      },
+      {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": " 6. Set forward each iteration task and planning to ensure smooth project progress."
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": " 7. Perform code enhancement for Logging and Assertion."
+      },
+      {
+        "lineNumber": 58,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": " 8. Assist to create the setup of additional Junit Testcases."
+      },
+      {
+        "lineNumber": 59,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 60,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "### Review/mentoring contributions: "
+      },
+      {
+        "lineNumber": 61,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 62,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "Assisted team members to resolve technical issue and provided articles to assist in their problem resolution within Team\u0027s internal chat."
+      },
+      {
+        "lineNumber": 63,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 64,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "### Contributions beyond the project team:"
+      },
+      {
+        "lineNumber": 65,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 66,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "Motivated the team during weekly discussion by discussing about matters outside of project work to build and consolidate bond. Kept relationship healthy."
+      }
+    ],
+    "authorContributionMap": {
+      "tototto": 66
+    }
+  },
+  {
+    "path": "docs/team/zhengshijienus.md",
+    "fileType": "docs",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": "# Zheng Shijie - Project Portfolio Page"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": "## Team Project: ItLogger"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": "IT Logger is a desktop app for managing program issues, and tracking issue resolution progression via a Command Line Interface (CLI)."
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": "## Summary of Contributions"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": "### New Feature"
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": "* Added the ability to Update defects commands."
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": "  * What it does: allows the user to update any existing defects at a time. This command will allow user to enter updating mode to update a defect and exit until user use “update e/exit” command"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": "  * Justification: This feature improves the product significantly because the any part(deadline, owner, severity etc.) of an defect might be changed. The program shall provide a function to allow user update them accordingly."
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": "  * Highlights: This enhancement doesn’t affects existing command and data structures. It works like a individual function. The implementation achieves decoupling target."
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": "* Added the ability to View defects command."
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": "  * What it does: allows user to view the details of a specific defect in the defect list."
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": " "
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": "### Code contributed: "
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": "* https://nus-tic4001-ay2021s1.github.io/tp-dashboard/#breakdown\u003dtrue\u0026search\u003d\u0026sort\u003dgroupTitle\u0026sortWithin\u003dtitle\u0026since\u003d2020-08-14\u0026timeframe\u003dcommit\u0026mergegroup\u003d\u0026groupSelect\u003dgroupByRepos\u0026checkedFileTypes\u003ddocs~functional-code~test-code~other\u0026tabOpen\u003dtrue\u0026tabType\u003dauthorship\u0026tabAuthor\u003dZhengShijieNUS\u0026tabRepo\u003dAY2021S1-TIC4001-3%2Ftp%5Bmaster%5D\u0026authorshipIsMergeGroup\u003dfalse\u0026authorshipFileTypes\u003ddocs~functional-code~test-code~other"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": "### Enhancements to existing features:"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": "* Upgrade the date format, force to be represented in English and make it compliant with different language system(such as Chinese system) (Pull requests #38)"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": "* Wrote additional tests for existing features to increase coverage (Pull requests #31)"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": "* Added additional parse function to parse commands(Pull requests #38)"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": "### Documentation:"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": "* User Guide:"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": "  * Work together with all teammates. And one of us (Jiancheng) is in charge of submission to teams repo."
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": "  "
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": "* Developer Guide: "
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": "  * Work together with all teammates. And one of us (Jiancheng) is in charge of submission to teams repo."
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": " "
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": " ### Community: "
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": " "
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": " * PRs reviewed: #7, #31, #38, #53, #55"
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": " * Contributed ideas to discussions during weekly meetings."
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": " * Reported bugs and suggestions to others codes.(example: DATE format is not compatible with Chinese environmental system issue )"
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": " "
+      },
+      {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": " ### Contribution to DG:"
+      },
+      {
+        "lineNumber": 47,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": " "
+      },
+      {
+        "lineNumber": 48,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": " * Generate Architecture class diagram"
+      },
+      {
+        "lineNumber": 49,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": " * Generate IssueList component diagram"
+      },
+      {
+        "lineNumber": 50,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": " * In charge of description of IssueList component and Common component"
+      },
+      {
+        "lineNumber": 51,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": " * Generate Update sequence diagram and View sequence diagram"
+      }
+    ],
+    "authorContributionMap": {
+      "ZhengShijieNUS": 51
     }
   },
   {
