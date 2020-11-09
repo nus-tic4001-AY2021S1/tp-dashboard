@@ -228,6 +228,22 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-08",
+        "commitResults": [
+          {
+            "hash": "53f36c302feccdcc98d3a3573e7ebc825fb8b5f7",
+            "messageTitle": "Updated PPP",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 7,
+                "deletions": 0
+              }
+            }
+          }
+        ]
       }
     ],
     "skyventus": [
@@ -509,6 +525,22 @@
               "docs": {
                 "insertions": 16,
                 "deletions": 0
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-11-06",
+        "commitResults": [
+          {
+            "hash": "7a3abd98bd53234b20a166ae8eb2d96bb48c8ce7",
+            "messageTitle": "[Developer Guide] added sequence diagram for total command.",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 9,
+                "deletions": 3
               }
             }
           }
@@ -1391,45 +1423,65 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-08",
+        "commitResults": [
+          {
+            "hash": "c27dba09d652dad2a7b87050dfdf567e3b7d8b37",
+            "messageTitle": "Amended DG, Updated images, updated ppp",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "other": {
+                "insertions": 3,
+                "deletions": 0
+              },
+              "docs": {
+                "insertions": 98,
+                "deletions": 44
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFileTypeContributionMap": {
     "Chilaiping": {
-      "docs": 55,
+      "docs": 61,
       "functional-code": 649,
       "test-code": 115
     },
     "skyventus": {
-      "docs": 66,
+      "docs": 72,
       "functional-code": 325,
       "test-code": 247,
       "other": 1
     },
     "timmyly7": {
-      "docs": 80,
+      "docs": 50,
       "functional-code": 404,
       "test-code": 206
     },
     "adi-kd0021": {
-      "docs": 113,
+      "docs": 107,
       "functional-code": 644,
       "test-code": 18,
       "other": 8
     },
     "e0261618": {
-      "docs": 147,
+      "docs": 238,
       "functional-code": 248,
       "test-code": 0,
-      "other": 3
+      "other": 6
     }
   },
   "authorContributionVariance": {
-    "Chilaiping": 3985.9636,
-    "skyventus": 1155.2614,
-    "timmyly7": 2324.3965,
-    "adi-kd0021": 3704.5098,
-    "e0261618": 1254.4606
+    "Chilaiping": 3852.3567,
+    "skyventus": 1117.7367,
+    "timmyly7": 2249.328,
+    "adi-kd0021": 3588.1028,
+    "e0261618": 1427.0851
   },
   "authorDisplayNameMap": {
     "Chilaiping": "TIC4001-4 CHI ..PING",

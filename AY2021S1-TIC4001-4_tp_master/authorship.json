@@ -498,310 +498,310 @@
       {
         "lineNumber": 2,
         "author": {
-          "gitId": "-"
+          "gitId": "e0261618"
         },
-        "content": ""
+        "content": "* [Setting Up and Getting Started](#Setting-Up-and-Getting-Started)"
       },
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "-"
+          "gitId": "e0261618"
         },
-        "content": "## Design \u0026 implementation"
+        "content": "* [Design](#Design)"
       },
       {
         "lineNumber": 4,
         "author": {
-          "gitId": "-"
+          "gitId": "e0261618"
         },
-        "content": ""
+        "content": "  * [Architecture](#Architecture)"
       },
       {
         "lineNumber": 5,
         "author": {
-          "gitId": "-"
+          "gitId": "e0261618"
         },
-        "content": "{Describe the design and implementation of the product. Use UML diagrams and short code snippets where applicable.}"
+        "content": "  * [UI component](#Component)"
       },
       {
         "lineNumber": 6,
         "author": {
-          "gitId": "-"
+          "gitId": "e0261618"
         },
-        "content": ""
+        "content": "  * [Logic component](#Component)"
       },
       {
         "lineNumber": 7,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "e0261618"
         },
-        "content": "## Design"
+        "content": "  * [Model component](#Component)"
       },
       {
         "lineNumber": 8,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "e0261618"
         },
-        "content": ""
+        "content": "  * [Storage component](#Storage-Component)"
       },
       {
         "lineNumber": 9,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "e0261618"
         },
-        "content": "##### Architecture - Sample (To Be Changed)"
+        "content": "  * [Common classes](#Component)"
       },
       {
         "lineNumber": 10,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "e0261618"
         },
-        "content": "![Sample - Architecture](images/Architecture.png)"
+        "content": "* [Implementation](#Implementation)"
       },
       {
         "lineNumber": 11,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "e0261618"
         },
-        "content": ""
+        "content": "* [Appendix: Requirements](#Appendix:-Requirements)"
       },
       {
         "lineNumber": 12,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "e0261618"
         },
-        "content": "##### Component"
+        "content": "  * [Product scope](#Product-scope)"
       },
       {
         "lineNumber": 13,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "e0261618"
         },
-        "content": "![Component](images/TP-Design.png)"
+        "content": "  * [User stories](#User-Stories)"
       },
       {
         "lineNumber": 14,
         "author": {
-          "gitId": "-"
+          "gitId": "e0261618"
         },
-        "content": ""
+        "content": "  * [Non-Functional Requirements](#Non-Functional-Requirements)"
       },
       {
         "lineNumber": 15,
         "author": {
-          "gitId": "skyventus"
+          "gitId": "e0261618"
         },
-        "content": "##### Storage Component"
+        "content": "  * [Glossary](#Glossary)"
       },
       {
         "lineNumber": 16,
         "author": {
-          "gitId": "skyventus"
+          "gitId": "-"
         },
-        "content": "######Storage(Load)"
+        "content": ""
       },
       {
         "lineNumber": 17,
         "author": {
-          "gitId": "skyventus"
+          "gitId": "-"
         },
-        "content": "![StorageComponent](images/storageDecodedDiagram.png)"
+        "content": ""
       },
       {
         "lineNumber": 18,
         "author": {
-          "gitId": "skyventus"
+          "gitId": "e0261618"
         },
-        "content": ""
+        "content": "## Setting Up and Getting Started"
       },
       {
         "lineNumber": 19,
         "author": {
-          "gitId": "skyventus"
+          "gitId": "e0261618"
         },
-        "content": "###### Storage(save)"
+        "content": ":heavy_exclamation_mark: **Caution** Follow the steps in the following guide precisely. Things will not work out if you deviate in some steps."
       },
       {
         "lineNumber": 20,
         "author": {
-          "gitId": "skyventus"
+          "gitId": "-"
         },
-        "content": "![StorageComponent](images/storageEncodedDiagram.png)"
+        "content": ""
       },
       {
         "lineNumber": 21,
         "author": {
-          "gitId": "skyventus"
+          "gitId": "e0261618"
         },
-        "content": ""
+        "content": "First, **fork** this repo, and **clone** the fork into your computer."
       },
       {
         "lineNumber": 22,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "e0261618"
         },
-        "content": "###### Search Command Sequence Diagram"
+        "content": "If you plan to use Intellij IDEA (highly recommended):"
       },
       {
         "lineNumber": 23,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "-"
         },
-        "content": "![Sequence](images/SearchSequenceDiagram.png)"
+        "content": ""
       },
       {
         "lineNumber": 24,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "e0261618"
         },
-        "content": ""
+        "content": "1. **Configure the JDK:**"
       },
       {
         "lineNumber": 25,
         "author": {
-          "gitId": "skyventus"
+          "gitId": "e0261618"
         },
-        "content": "API:  ```Storage.java```"
+        "content": "  * Ensure you have the correct JDK version installed in your computer."
       },
       {
         "lineNumber": 26,
         "author": {
-          "gitId": "skyventus"
+          "gitId": "e0261618"
         },
-        "content": ""
+        "content": "  * Open IntelliJ (if you are not in the welcome screen, click File → Close Project to close the existing project dialog first)."
       },
       {
         "lineNumber": 27,
         "author": {
-          "gitId": "skyventus"
+          "gitId": "e0261618"
         },
-        "content": "The Storage Component,"
+        "content": "  * Set up the correct JDK version for Gradle."
       },
       {
         "lineNumber": 28,
         "author": {
-          "gitId": "skyventus"
+          "gitId": "e0261618"
         },
-        "content": "* Load function will read the text file and passing the list of string in the file"
+        "content": "    * Click Configure → Project Defaults → Project Structure"
       },
       {
         "lineNumber": 29,
         "author": {
-          "gitId": "skyventus"
+          "gitId": "e0261618"
         },
-        "content": "to the decoding class. "
+        "content": "    * Click New…​ and set it to the directory of the JDK."
       },
       {
         "lineNumber": 30,
         "author": {
-          "gitId": "skyventus"
+          "gitId": "e0261618"
         },
-        "content": ""
+        "content": "2. **Import the project as a Gradle project:**"
       },
       {
         "lineNumber": 31,
         "author": {
-          "gitId": "skyventus"
+          "gitId": "e0261618"
         },
-        "content": "* Saving function will Encode the transaction detail and pass it back to storage"
+        "content": "  * IntelliJ IDEA by default has the Gradle plugin installed. If you have disabled it, go to File → Settings → Plugins to re-enable them."
       },
       {
         "lineNumber": 32,
         "author": {
-          "gitId": "skyventus"
+          "gitId": "e0261618"
         },
-        "content": "to save to the file. "
+        "content": "  * If your project involves GUI programming, similarly ensure the JavaFX plugin has not been disabled."
       },
       {
         "lineNumber": 33,
         "author": {
-          "gitId": "-"
+          "gitId": "e0261618"
         },
-        "content": ""
+        "content": "  * Click Import Project (or Open or Import in newer version of Intellij)."
       },
       {
         "lineNumber": 34,
         "author": {
-          "gitId": "-"
+          "gitId": "e0261618"
         },
-        "content": "## Product scope"
+        "content": "  * Locate the build.gradle file (not the root folder as you would do in a normal importing) and select it. Click OK."
       },
       {
         "lineNumber": 35,
         "author": {
-          "gitId": "skyventus"
+          "gitId": "e0261618"
         },
-        "content": "##### Target user profile"
+        "content": "  * If asked, choose to Open as Project (not Open as File)."
       },
       {
         "lineNumber": 36,
         "author": {
-          "gitId": "-"
+          "gitId": "e0261618"
         },
-        "content": ""
+        "content": "  * Click OK to accept the default settings but do ensure that the selected version of Gradle JVM matches the JDK being used for the project."
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "* Has a need to manage his/her expenses"
+        "content": "  * Wait for the importing process to finish (could take a few minutes)."
       },
       {
         "lineNumber": 38,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "e0261618"
         },
-        "content": "* Is able to use command line interface (CLI)"
+        "content": "  * :heavy_exclamation_mark: **Note**: Importing a Gradle project is slightly different from importing a normal Java project."
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "* Can type fast"
+        "content": "3. **Verify the setup:**"
       },
       {
         "lineNumber": 40,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "e0261618"
         },
-        "content": "* Prefers typing to interaction with a graphical user interface (GUI)"
+        "content": "  * Run the NusExpenses.java and try a few commands."
       },
       {
         "lineNumber": 41,
         "author": {
-          "gitId": "adi-kd0021"
+          "gitId": "-"
         },
-        "content": "* Is comfortable using CLI apps"
+        "content": "  "
       },
       {
         "lineNumber": 42,
         "author": {
-          "gitId": "-"
+          "gitId": "adi-kd0021"
         },
-        "content": ""
+        "content": "## Design"
       },
       {
         "lineNumber": 43,
         "author": {
-          "gitId": "skyventus"
+          "gitId": "-"
         },
-        "content": "##### Value proposition: "
+        "content": ""
       },
       {
         "lineNumber": 44,
         "author": {
-          "gitId": "skyventus"
+          "gitId": "e0261618"
         },
-        "content": "To manage all expenses faster than a typical excel budget spreadsheet."
+        "content": "##### Architecture"
       },
       {
         "lineNumber": 45,
         "author": {
-          "gitId": "-"
+          "gitId": "adi-kd0021"
         },
-        "content": ""
+        "content": "![Sample - Architecture](images/Architecture.png)"
       },
       {
         "lineNumber": 46,
@@ -813,16 +813,16 @@
       {
         "lineNumber": 47,
         "author": {
-          "gitId": "-"
+          "gitId": "adi-kd0021"
         },
-        "content": ""
+        "content": "##### Component"
       },
       {
         "lineNumber": 48,
         "author": {
-          "gitId": "-"
+          "gitId": "adi-kd0021"
         },
-        "content": "## User Stories"
+        "content": "![Component](images/TP-Design.png)"
       },
       {
         "lineNumber": 49,
@@ -834,466 +834,900 @@
       {
         "lineNumber": 50,
         "author": {
-          "gitId": "e0261618"
+          "gitId": "skyventus"
         },
-        "content": "|Priority|Version| As a ... | I want to ... | So that I can ...|"
+        "content": "##### Storage Component"
       },
       {
         "lineNumber": 51,
         "author": {
-          "gitId": "e0261618"
+          "gitId": "skyventus"
         },
-        "content": "|--------|--------|----------|---------------|------------------|"
+        "content": "######Storage(Load)"
       },
       {
         "lineNumber": 52,
         "author": {
-          "gitId": "e0261618"
+          "gitId": "skyventus"
         },
-        "content": "|***|v1.0|Student|see usage instructions|refer to them when I forget how to use the application|"
+        "content": "![StorageComponent](images/storageDecodedDiagram.png)"
       },
       {
         "lineNumber": 53,
         "author": {
-          "gitId": "e0261618"
+          "gitId": "-"
         },
-        "content": "|***|v1.0|Student|exit the program|close the program|"
+        "content": ""
       },
       {
         "lineNumber": 54,
         "author": {
-          "gitId": "e0261618"
+          "gitId": "-"
         },
-        "content": "|***|v1.0|Student|add my daily expenses in the system|add the information into the system and keep track of my daily expenses|"
+        "content": ""
       },
       {
         "lineNumber": 55,
         "author": {
-          "gitId": "e0261618"
+          "gitId": "skyventus"
         },
-        "content": "|***|v1.0|Student|view all my transactions by category in the system|be aware of what I have added|"
+        "content": "###### Storage(save)"
       },
       {
         "lineNumber": 56,
         "author": {
-          "gitId": "e0261618"
+          "gitId": "skyventus"
         },
-        "content": "|***|v1.0|Student|remove my daily expense in the system|remove the transactions|"
+        "content": "![StorageComponent](images/storageEncodedDiagram.png)"
       },
       {
         "lineNumber": 57,
         "author": {
-          "gitId": "e0261618"
+          "gitId": "-"
         },
-        "content": "|***|v1.0|Student|search for an expenses with keyword in the system|filter out the expenses that I want to see|"
+        "content": ""
       },
       {
         "lineNumber": 58,
         "author": {
-          "gitId": "e0261618"
+          "gitId": "Chilaiping"
         },
-        "content": "|***|v1.0|Student|see the total expense incurred in the system|be aware of my spending|"
+        "content": "######Budget Storage(Load)"
       },
       {
         "lineNumber": 59,
         "author": {
-          "gitId": "timmyly7"
+          "gitId": "Chilaiping"
         },
-        "content": "|***|v2.0|Student|update my expenses in the system|update the transactions|"
+        "content": "![BudgetStorageComponent](images/BudgetStorageDecodedDiagram.png)"
       },
       {
         "lineNumber": 60,
         "author": {
-          "gitId": "timmyly7"
+          "gitId": "skyventus"
         },
-        "content": "|***|v2.0|Student|Save all transactions to a readable text file and load from it|I can have a copy of transaction history.|"
+        "content": "API:  ```Storage.java```"
       },
       {
         "lineNumber": 61,
         "author": {
-          "gitId": "e0261618"
+          "gitId": "-"
         },
-        "content": "|**|v2.0|Student|categorize my daily expense in the system|better managed/view my expenses|"
+        "content": ""
       },
       {
         "lineNumber": 62,
         "author": {
-          "gitId": "e0261618"
+          "gitId": "skyventus"
         },
-        "content": "|**|v2.0|Student|add a budget in the system||"
+        "content": "The Storage Component,"
       },
       {
         "lineNumber": 63,
         "author": {
-          "gitId": "Chilaiping"
+          "gitId": "skyventus"
         },
-        "content": "|**|v2.0|Student|delete a budget in the system||"
+        "content": "* Load function will read the text file and passing the list of string in the file"
       },
       {
         "lineNumber": 64,
         "author": {
-          "gitId": "Chilaiping"
+          "gitId": "skyventus"
         },
-        "content": "|**|v2.0|Student|view the budget with respect to expenses in the system||"
+        "content": "to the decoding class. "
       },
       {
         "lineNumber": 65,
         "author": {
-          "gitId": "timmyly7"
+          "gitId": "-"
         },
-        "content": "|**|v2.0|Student|view the transactions in the system with a specific time period|I can find the specific transaction more easily|"
+        "content": ""
       },
       {
         "lineNumber": 66,
         "author": {
-          "gitId": "e0261618"
+          "gitId": "skyventus"
         },
-        "content": "|**|v2.0|Student|generate and export a transactions report summary with a specific time period|keep a copy and view them outside the system|"
+        "content": "* Saving function will Encode the transaction detail and pass it back to storage"
       },
       {
         "lineNumber": 67,
         "author": {
-          "gitId": "e0261618"
+          "gitId": "skyventus"
         },
-        "content": "|*|v2.0|Student|make sure I input daily expenses|I can keep track of it|"
+        "content": "to save to the file. "
       },
       {
         "lineNumber": 68,
         "author": {
-          "gitId": "e0261618"
+          "gitId": "-"
         },
-        "content": "|*|v2.0|Student|view tips on saving money|have motivation to achieve my goal|"
+        "content": ""
       },
       {
         "lineNumber": 69,
         "author": {
-          "gitId": "-"
+          "gitId": "skyventus"
         },
         "content": ""
       },
       {
         "lineNumber": 70,
         "author": {
-          "gitId": "-"
+          "gitId": "skyventus"
         },
-        "content": "## Non-Functional Requirements"
+        "content": "###### Search Command Sequence Diagram"
       },
       {
         "lineNumber": 71,
         "author": {
-          "gitId": "-"
+          "gitId": "skyventus"
         },
-        "content": ""
+        "content": "![Sequence](images/SearchSequenceDiagram.png)"
       },
       {
         "lineNumber": 72,
         "author": {
           "gitId": "skyventus"
         },
-        "content": "1. Should work on any mainstream OS as long it has Java ```11``` or above installed."
+        "content": ""
       },
       {
         "lineNumber": 73,
         "author": {
           "gitId": "skyventus"
         },
-        "content": "2. User will be able to interact with the systems with regular english text. For example: (```"
+        "content": ""
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "skyventus"
         },
-        "content": "add chicken rice $4.00 2020-11-01 /C FOOD. ```)."
+        "content": "###### Total Command Sequence Diagram"
       },
       {
         "lineNumber": 75,
         "author": {
           "gitId": "skyventus"
         },
-        "content": "3. Will be able to handle up to 1000 expenses without noticeable slowness in performance for typical usage."
+        "content": "![Sequence](images/TotalCommandSequence.png)"
       },
       {
         "lineNumber": 76,
         "author": {
           "gitId": "skyventus"
         },
-        "content": "4. User will be able to interact with their expenses.txt if they wish to make amendment. "
+        "content": ""
       },
       {
         "lineNumber": 77,
         "author": {
-          "gitId": "-"
+          "gitId": "e0261618"
         },
-        "content": ""
+        "content": "## Implementation"
       },
       {
         "lineNumber": 78,
         "author": {
-          "gitId": "-"
+          "gitId": "e0261618"
         },
-        "content": "## Glossary"
+        "content": "This section describes some noteworthy details on how certain features were implemented."
       },
       {
         "lineNumber": 79,
         "author": {
-          "gitId": "-"
+          "gitId": "e0261618"
         },
         "content": ""
       },
       {
         "lineNumber": 80,
         "author": {
-          "gitId": "skyventus"
+          "gitId": "e0261618"
         },
-        "content": "* *MainStream OS* - Windows, Linux, Unix, OS-X"
+        "content": "##### Delete Feature"
       },
       {
         "lineNumber": 81,
         "author": {
-          "gitId": "-"
+          "gitId": "e0261618"
         },
         "content": ""
       },
       {
         "lineNumber": 82,
         "author": {
-          "gitId": "-"
+          "gitId": "e0261618"
         },
-        "content": "## Instructions for manual testing"
+        "content": "The purpose of delete function is to facilitate user to remove a transaction in the TransactionList if they made a mistake."
       },
       {
         "lineNumber": 83,
         "author": {
-          "gitId": "-"
+          "gitId": "e0261618"
         },
-        "content": ""
+        "content": "It extends Command and TransactionList to get the correct index to remove."
       },
       {
         "lineNumber": 84,
         "author": {
-          "gitId": "-"
-        },
-        "content": "{Give instructions on how to do a manual product testing e.g., how to load sample data to be used for testing}"
-      },
-      {
-        "lineNumber": 85,
-        "author": {
-          "gitId": "timmyly7"
+          "gitId": "e0261618"
         },
         "content": ""
       },
       {
+        "lineNumber": 85,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": "Given below is an example usage scenario and how the report mechanism behaves at each step."
+      },
+      {
         "lineNumber": 86,
         "author": {
-          "gitId": "timmyly7"
+          "gitId": "e0261618"
         },
-        "content": "## Implementation"
+        "content": ""
       },
       {
         "lineNumber": 87,
         "author": {
-          "gitId": "timmyly7"
+          "gitId": "e0261618"
         },
-        "content": "This section describes some noteworthy details on how certain features are implemented."
+        "content": "Step 1. The user launches the application for the first time. The TransactionList is empty."
       },
       {
         "lineNumber": 88,
         "author": {
-          "gitId": "timmyly7"
+          "gitId": "e0261618"
         },
         "content": ""
       },
       {
         "lineNumber": 89,
         "author": {
-          "gitId": "timmyly7"
+          "gitId": "e0261618"
         },
-        "content": "##### Report Feature"
+        "content": "![Sample - Stage1](images/ReportFeature_Stage1.png)"
       },
       {
         "lineNumber": 90,
         "author": {
-          "gitId": "timmyly7"
+          "gitId": "e0261618"
         },
         "content": ""
       },
       {
         "lineNumber": 91,
         "author": {
-          "gitId": "timmyly7"
+          "gitId": "e0261618"
         },
-        "content": "The purpose of report feature is to facilitate user to generate report for the expenses user entered. "
+        "content": "Step 2. User executes ```add Lunch at ...``` to add a new transaction. The ```add``` command will save the record into TransactionList. User will continue to add another 5 more records to the TransactionList. There are a total of 6 Transactions saved."
       },
       {
         "lineNumber": 92,
         "author": {
-          "gitId": "timmyly7"
+          "gitId": "e0261618"
         },
-        "content": "It extends Command and TrancationList, get all the transcations and generate report with a time period."
+        "content": ""
       },
       {
         "lineNumber": 93,
         "author": {
-          "gitId": "timmyly7"
+          "gitId": "e0261618"
         },
-        "content": ""
+        "content": "![Sample - Stage2](images/DeleteFeature_Stage2.png)"
       },
       {
         "lineNumber": 94,
         "author": {
-          "gitId": "timmyly7"
+          "gitId": "e0261618"
         },
-        "content": "Given below is an example usage scenario and how the report mechanism behaves at each step."
+        "content": ""
       },
       {
         "lineNumber": 95,
         "author": {
-          "gitId": "timmyly7"
+          "gitId": "e0261618"
         },
-        "content": ""
+        "content": "Step 3. User executes ```delete 3``` command to delete the 3rd transaction in the Expenses Tracking Application. TransactionList will be left with 5 records after User delete successfully."
       },
       {
         "lineNumber": 96,
         "author": {
-          "gitId": "timmyly7"
-        },
-        "content": "Step 1. The user launches the application for the first time. The TrancationList is empty, there is no record in the transcationList, user will need to add transaction."
-      },
-      {
-        "lineNumber": 97,
-        "author": {
-          "gitId": "timmyly7"
+          "gitId": "e0261618"
         },
         "content": ""
       },
       {
+        "lineNumber": 97,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": "![Sample - Stage3](images/DeleteFeature_Stage3.png)"
+      },
+      {
         "lineNumber": 98,
         "author": {
-          "gitId": "timmyly7"
+          "gitId": "e0261618"
         },
-        "content": "![Sample - Stage1](images/Stage1.JPG)"
+        "content": ""
       },
       {
         "lineNumber": 99,
         "author": {
-          "gitId": "timmyly7"
+          "gitId": "e0261618"
         },
         "content": ""
       },
       {
         "lineNumber": 100,
         "author": {
-          "gitId": "timmyly7"
+          "gitId": "e0261618"
         },
-        "content": "Step 2. User should enter the add command and add in some of the transcations in order to extract the report with valuable data."
+        "content": "##### Report Feature"
       },
       {
         "lineNumber": 101,
         "author": {
-          "gitId": "timmyly7"
+          "gitId": "e0261618"
         },
         "content": ""
       },
       {
         "lineNumber": 102,
         "author": {
-          "gitId": "timmyly7"
+          "gitId": "e0261618"
         },
-        "content": "![Sample - Stage2](images/Stages2.JPG)"
+        "content": "The purpose of report feature is to facilitate user to be able to generate a summary report with all the expense details user entered. "
       },
       {
         "lineNumber": 103,
         "author": {
-          "gitId": "timmyly7"
+          "gitId": "e0261618"
         },
-        "content": ""
+        "content": "It extends Command and TransactionList, get all the transactions and generate report with a time period."
       },
       {
         "lineNumber": 104,
         "author": {
-          "gitId": "timmyly7"
+          "gitId": "e0261618"
         },
-        "content": "Step 3. After user enters record in transactionList, then can proceed to generate the report with or without a time period."
+        "content": ""
       },
       {
         "lineNumber": 105,
         "author": {
-          "gitId": "timmyly7"
+          "gitId": "e0261618"
         },
-        "content": ""
+        "content": "Given below is an example usage scenario and how the report mechanism behaves at each step."
       },
       {
         "lineNumber": 106,
         "author": {
-          "gitId": "timmyly7"
+          "gitId": "e0261618"
         },
-        "content": "![Sample - Stage3](images/Stages3.JPG)"
+        "content": ""
       },
       {
         "lineNumber": 107,
         "author": {
-          "gitId": "timmyly7"
+          "gitId": "e0261618"
         },
-        "content": ""
+        "content": "Step 1. The user launches the application for the first time. The TransactionList is empty."
       },
       {
         "lineNumber": 108,
         "author": {
-          "gitId": "timmyly7"
+          "gitId": "e0261618"
         },
-        "content": "In the stage 3, when transaction export to excel file, program is using external library called \u0027Apache-POI\u0027, this library helps to generate the excel file into such format that:"
+        "content": ""
       },
       {
         "lineNumber": 109,
         "author": {
-          "gitId": "timmyly7"
+          "gitId": "e0261618"
         },
-        "content": ""
+        "content": "![Sample - Stage1](images/ReportFeature_Stage1.png)"
       },
       {
         "lineNumber": 110,
         "author": {
-          "gitId": "timmyly7"
+          "gitId": "e0261618"
         },
-        "content": "![Sample - CSV](images/CSV.JPG)"
+        "content": ""
       },
       {
         "lineNumber": 111,
         "author": {
-          "gitId": "timmyly7"
+          "gitId": "e0261618"
         },
-        "content": ""
+        "content": "Step 2. User executes ```add Lunch at ...``` to add a new transaction. The ```add``` command will save the record into TransactionList."
       },
       {
         "lineNumber": 112,
         "author": {
-          "gitId": "timmyly7"
-        },
-        "content": "The following activity diagram summarizes what happens when a user executes a report command:"
-      },
-      {
-        "lineNumber": 113,
-        "author": {
-          "gitId": "timmyly7"
+          "gitId": "e0261618"
         },
         "content": ""
       },
       {
+        "lineNumber": 113,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": "![Sample - Stage2](images/ReportFeature_Stage2.png)"
+      },
+      {
         "lineNumber": 114,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 115,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": "Step 3. After user enters multiple records in TransactionList, they will executes ```report /sd...``` command to generate the report with or without a time period."
+      },
+      {
+        "lineNumber": 116,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 117,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": "![Sample - Stage3](images/ReportFeature_Stage3.png)"
+      },
+      {
+        "lineNumber": 118,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 119,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": "In step 3, the application used an external library named **\u0027Apache-POI\u0027**. This library helps to generate the summary report into an Excel file with the following format:"
+      },
+      {
+        "lineNumber": 120,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 121,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": "![Sample - CSV](images/CSV.JPG)"
+      },
+      {
+        "lineNumber": 122,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 123,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": "The following activity diagram summarizes what happens when a user executes report command:"
+      },
+      {
+        "lineNumber": 124,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 125,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": "![Sample - Report Activity Diagram](images/Report%20Activity%20Diagram.png)"
+      },
+      {
+        "lineNumber": 126,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 127,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": "## Appendix: Requirements"
+      },
+      {
+        "lineNumber": 128,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": "### Product scope"
+      },
+      {
+        "lineNumber": 129,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "##### Target user profile"
+      },
+      {
+        "lineNumber": 130,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 131,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": "* Has a need to manage his/her expenses"
+      },
+      {
+        "lineNumber": 132,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "* Is able to use command line interface (CLI)"
+      },
+      {
+        "lineNumber": 133,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": "* Can type fast"
+      },
+      {
+        "lineNumber": 134,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "* Prefers typing to interaction with a graphical user interface (GUI)"
+      },
+      {
+        "lineNumber": 135,
+        "author": {
+          "gitId": "adi-kd0021"
+        },
+        "content": "* Is comfortable using CLI apps"
+      },
+      {
+        "lineNumber": 136,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 137,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "##### Value proposition: "
+      },
+      {
+        "lineNumber": 138,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "To manage all expenses faster than a typical excel budget spreadsheet."
+      },
+      {
+        "lineNumber": 139,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 140,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": "### User Stories"
+      },
+      {
+        "lineNumber": 141,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 142,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": "|Priority|Version| As a ... | I want to ... | So that I can ...|"
+      },
+      {
+        "lineNumber": 143,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": "|--------|--------|----------|---------------|------------------|"
+      },
+      {
+        "lineNumber": 144,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": "|***|v1.0|Student|see usage instructions|refer to them when I forget how to use the application|"
+      },
+      {
+        "lineNumber": 145,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": "|***|v1.0|Student|exit the program|close the program|"
+      },
+      {
+        "lineNumber": 146,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": "|***|v1.0|Student|add my daily expenses in the system|add the information into the system and keep track of my daily expenses|"
+      },
+      {
+        "lineNumber": 147,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": "|***|v1.0|Student|view all my transactions by category in the system|be aware of what I have added|"
+      },
+      {
+        "lineNumber": 148,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": "|***|v1.0|Student|remove my daily expense in the system|remove the transactions|"
+      },
+      {
+        "lineNumber": 149,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": "|***|v1.0|Student|search for an expenses with keyword in the system|filter out the expenses that I want to see|"
+      },
+      {
+        "lineNumber": 150,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": "|***|v1.0|Student|see the total expense incurred in the system|be aware of my spending|"
+      },
+      {
+        "lineNumber": 151,
         "author": {
           "gitId": "timmyly7"
         },
-        "content": "![Sample - Report Activity Diagram](images/Report Activity Diagram.PNG)"
+        "content": "|***|v2.0|Student|update my expenses in the system|update the transactions|"
+      },
+      {
+        "lineNumber": 152,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "|***|v2.0|Student|Save all transactions to a readable text file and load from it|I can have a copy of transaction history.|"
+      },
+      {
+        "lineNumber": 153,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": "|**|v2.0|Student|categorize my daily expense in the system|better managed/view my expenses|"
+      },
+      {
+        "lineNumber": 154,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": "|**|v2.0|Student|add a budget in the system||"
+      },
+      {
+        "lineNumber": 155,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": "|**|v2.0|Student|delete a budget in the system||"
+      },
+      {
+        "lineNumber": 156,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": "|**|v2.0|Student|view the budget with respect to expenses in the system||"
+      },
+      {
+        "lineNumber": 157,
+        "author": {
+          "gitId": "timmyly7"
+        },
+        "content": "|**|v2.0|Student|view the transactions in the system with a specific time period|I can find the specific transaction more easily|"
+      },
+      {
+        "lineNumber": 158,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": "|**|v2.0|Student|generate and export a transactions report summary with a specific time period|keep a copy and view them outside the system|"
+      },
+      {
+        "lineNumber": 159,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": "|*|v2.0|Student|make sure I input daily expenses|I can keep track of it|"
+      },
+      {
+        "lineNumber": 160,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": "|*|v2.0|Student|view tips on saving money|have motivation to achieve my goal|"
+      },
+      {
+        "lineNumber": 161,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 162,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": "### Non Functional Requirements"
+      },
+      {
+        "lineNumber": 163,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 164,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "1. Should work on any mainstream OS as long it has Java ```11``` or above installed."
+      },
+      {
+        "lineNumber": 165,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "2. User will be able to interact with the systems with regular english text. For example: (```"
+      },
+      {
+        "lineNumber": 166,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "add chicken rice $4.00 2020-11-01 /C FOOD. ```)."
+      },
+      {
+        "lineNumber": 167,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "3. Will be able to handle up to 1000 expenses without noticeable slowness in performance for typical usage."
+      },
+      {
+        "lineNumber": 168,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "4. User will be able to interact with their expenses.txt if they wish to make amendment. "
+      },
+      {
+        "lineNumber": 169,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 170,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": "### Glossary"
+      },
+      {
+        "lineNumber": 171,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 172,
+        "author": {
+          "gitId": "skyventus"
+        },
+        "content": "* *MainStream OS* - Windows, Linux, Unix, OS-X"
+      },
+      {
+        "lineNumber": 173,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 174,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "## Instructions for manual testing"
+      },
+      {
+        "lineNumber": 175,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 176,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "{Give instructions on how to do a manual product testing e.g., how to load sample data to be used for testing}"
       }
     ],
     "authorContributionMap": {
-      "Chilaiping": 2,
-      "skyventus": 24,
-      "timmyly7": 33,
+      "Chilaiping": 4,
+      "skyventus": 30,
+      "timmyly7": 3,
       "-": 26,
-      "adi-kd0021": 13,
-      "e0261618": 16
+      "adi-kd0021": 7,
+      "e0261618": 106
     }
   },
   {
@@ -3052,17 +3486,45 @@
         "author": {
           "gitId": "Chilaiping"
         },
-        "content": "\t"
+        "content": ""
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "Chilaiping"
         },
-        "content": ""
+        "content": "* Community:"
       },
       {
         "lineNumber": 42,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": "  * Our application was created using a combination of pair-programming and adhoc coding sessions. During each session lasting between an hour to four or more, all group members sat in a meeting session while coding/ implementing their assigned components. If a concern was raised or support was needed, they shared their screen via the meeting session and everyone participated or assisted to clear the obstacle. Using this method we\u0027ve successfully cleared v1.0 to v3.0 of our project milestones. "
+      },
+      {
+        "lineNumber": 43,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 44,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": "\t"
+      },
+      {
+        "lineNumber": 45,
+        "author": {
+          "gitId": "Chilaiping"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 46,
         "author": {
           "gitId": "Chilaiping"
         },
@@ -3070,7 +3532,7 @@
       }
     ],
     "authorContributionMap": {
-      "Chilaiping": 42
+      "Chilaiping": 46
     }
   },
   {
@@ -3313,45 +3775,52 @@
         "author": {
           "gitId": "e0261618"
         },
-        "content": "    * Added implementation details of the ```delete``` and ```generate report``` feature."
+        "content": "    * Added Setting Up and Getting Started ([#82](https://github.com/AY2021S1-TIC4001-4/tp/pull/82))"
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "\t"
+        "content": "    * Added implementation details of the ```delete``` and ```generate report``` feature. ([#82](https://github.com/AY2021S1-TIC4001-4/tp/pull/82))"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "* Community:"
+        "content": "\t"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "  * Our application was created using a combination of pair-programming and adhoc coding sessions. During each session lasting between an hour to four or more, all group members sat in a meeting session while coding/ implementing their assigned components. If a concern was raised or support was needed, they shared their screen via the meeting session and everyone participated or assisted to clear the obstacle. Using this method we\u0027ve successfully cleared v1.0 to v3.0 of our project milestones. "
+        "content": "* Community:"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "e0261618"
         },
-        "content": ""
+        "content": "  * Our application was created using a combination of pair-programming and adhoc coding sessions. During each session lasting between an hour to four or more, all group members sat in a meeting session while coding/ implementing their assigned components. If a concern was raised or support was needed, they shared their screen via the meeting session and everyone participated or assisted to clear the obstacle. Using this method we\u0027ve successfully cleared v1.0 to v3.0 of our project milestones. "
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "e0261618"
         },
-        "content": "* Tools"
+        "content": ""
       },
       {
         "lineNumber": 40,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": "* Tools"
+      },
+      {
+        "lineNumber": 41,
         "author": {
           "gitId": "e0261618"
         },
@@ -3359,7 +3828,7 @@
       }
     ],
     "authorContributionMap": {
-      "e0261618": 40
+      "e0261618": 41
     }
   },
   {
@@ -3987,6 +4456,36 @@
     ],
     "authorContributionMap": {
       "timmyly7": 45
+    }
+  },
+  {
+    "path": "expenses/mytransaction.txt",
+    "fileType": "other",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": " lunch $3.00 /c MISC"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": "2020-09-09 dinner $4.00 /c MISC"
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "e0261618"
+        },
+        "content": "2020-09-24  dinner  $5.00 /c FOOD"
+      }
+    ],
+    "authorContributionMap": {
+      "e0261618": 3
     }
   },
   {

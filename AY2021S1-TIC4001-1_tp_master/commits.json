@@ -1313,6 +1313,33 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-08",
+        "commitResults": [
+          {
+            "hash": "4647958667b404172f529fce6f40832b53467a1f",
+            "messageTitle": "Fixed, send, email, add command line",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 27,
+                "deletions": 37
+              }
+            }
+          },
+          {
+            "hash": "e48114af4e88d5d39390a4a7d6e085554c7b68ba",
+            "messageTitle": "fixed checkstyle",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 6,
+                "deletions": 4
+              }
+            }
+          }
+        ]
       }
     ]
   },
@@ -1335,16 +1362,16 @@
     },
     "binbinhui": {
       "docs": 30,
-      "functional-code": 213,
+      "functional-code": 230,
       "test-code": 1,
       "other": 18
     }
   },
   "authorContributionVariance": {
-    "linqing42": 1957.4213,
-    "Yiheng0410": 539.80023,
-    "Impala36": 11390.365,
-    "binbinhui": 13688.1455
+    "linqing42": 1916.0287,
+    "Yiheng0410": 528.0835,
+    "Impala36": 11145.463,
+    "binbinhui": 13412.257
   },
   "authorDisplayNameMap": {
     "linqing42": "TIC4001-1 LIN ..QING",

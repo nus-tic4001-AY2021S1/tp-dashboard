@@ -245,6 +245,44 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-08",
+        "commitResults": [
+          {
+            "hash": "4c7a450f4cd78501de042a95917b53425a25bdd1",
+            "messageTitle": "PPP Draft",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 14,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "cb9cb65b614e82588496b9e11cdf45fd4305fb07",
+            "messageTitle": "V3.0 DG",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "c9c80f5f30a5a51e1c1248b0ad5dc8a26292ab01",
+            "messageTitle": "update UG \u0026 DG",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 16,
+                "deletions": 16
+              }
+            }
+          }
+        ]
       }
     ],
     "dgc5213": [
@@ -1389,6 +1427,37 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-08",
+        "commitResults": [
+          {
+            "hash": "5665dd9e878d811a19130a8e6bf17762142b3bb2",
+            "messageTitle": "Update AboutUs.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 3,
+                "deletions": 4
+              }
+            }
+          },
+          {
+            "hash": "f8479c23ffc2b2d761a1de5fb1badfa498162053",
+            "messageTitle": "Fix a bug that causes the category of some transactions to be wrongfully changed",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 19,
+                "deletions": 15
+              },
+              "other": {
+                "insertions": 5,
+                "deletions": 4
+              }
+            }
+          }
+        ]
       }
     ],
     "Chenduo1412": [
@@ -1645,6 +1714,17 @@
                 "deletions": 4
               }
             }
+          },
+          {
+            "hash": "0b280f89335602d69bcc68096cc0915712f23fda",
+            "messageTitle": "Add reminder function",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 52,
+                "deletions": 0
+              }
+            }
           }
         ]
       }
@@ -1652,33 +1732,33 @@
   },
   "authorFileTypeContributionMap": {
     "daiweinus": {
-      "docs": 65,
-      "functional-code": 554,
+      "docs": 80,
+      "functional-code": 553,
       "test-code": 149,
       "other": 3
     },
     "dgc5213": {
       "docs": 238,
-      "functional-code": 420,
+      "functional-code": 419,
       "test-code": 136
     },
     "e0260222": {
-      "docs": 215,
-      "functional-code": 2068,
+      "docs": 218,
+      "functional-code": 2075,
       "test-code": 328,
       "other": 4
     },
     "Chenduo1412": {
       "docs": 18,
-      "functional-code": 124,
+      "functional-code": 176,
       "test-code": 143
     }
   },
   "authorContributionVariance": {
-    "daiweinus": 4601.1816,
-    "dgc5213": 29622.834,
-    "e0260222": 32297.34,
-    "Chenduo1412": 712.218
+    "daiweinus": 4409.595,
+    "dgc5213": 28323.184,
+    "e0260222": 30939.58,
+    "Chenduo1412": 718.59467
   },
   "authorDisplayNameMap": {
     "daiweinus": "TIC4001-2 DAI .. WEI",
