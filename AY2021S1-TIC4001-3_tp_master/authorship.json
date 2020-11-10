@@ -842,231 +842,231 @@
       {
         "lineNumber": 67,
         "author": {
-          "gitId": "-"
+          "gitId": "ZhengShijieNUS"
         },
         "content": ""
       },
       {
         "lineNumber": 68,
         "author": {
-          "gitId": "-"
+          "gitId": "tototto"
         },
-        "content": ""
+        "content": "Search Implementation"
       },
       {
         "lineNumber": 69,
         "author": {
-          "gitId": "-"
-        },
-        "content": "## Product scope"
-      },
-      {
-        "lineNumber": 70,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "### Target user profile"
-      },
-      {
-        "lineNumber": 71,
-        "author": {
-          "gitId": "pigoliver"
-        },
-        "content": "* Is a developer, tester or member of the project team."
-      },
-      {
-        "lineNumber": 72,
-        "author": {
-          "gitId": "pigoliver"
-        },
-        "content": "* prefer desktop apps over other types."
-      },
-      {
-        "lineNumber": 73,
-        "author": {
-          "gitId": "pigoliver"
-        },
-        "content": "* can type fast."
-      },
-      {
-        "lineNumber": 74,
-        "author": {
-          "gitId": "pigoliver"
-        },
-        "content": "* prefers typing to mouse interactions."
-      },
-      {
-        "lineNumber": 75,
-        "author": {
-          "gitId": "pigoliver"
-        },
-        "content": "* is reasonably comfortable using CLI apps."
-      },
-      {
-        "lineNumber": 76,
-        "author": {
-          "gitId": "-"
+          "gitId": "tototto"
         },
         "content": ""
       },
       {
+        "lineNumber": 70,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "The ```search``` feature displays all items in the the ItLogger. It is facillated by the Search Class which comprises of the following implementation:"
+      },
+      {
+        "lineNumber": 71,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 72,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "1. ```Search#searchTitle``` - searches all Issue in the ItLogger by title listed"
+      },
+      {
+        "lineNumber": 73,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "2. ```Search#searchStatus``` - searches all Issue in the ItLogger by status listed"
+      },
+      {
+        "lineNumber": 74,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "3. ```Search#searchSeverity``` - searches all Issue in the ItLogger by severity listed"
+      },
+      {
+        "lineNumber": 75,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "4. ```Search#searchDeadline``` - searches all Issue in the ItLogger by deadline listed"
+      },
+      {
+        "lineNumber": 76,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "5. ```Search#searchOwner``` - searches all Issue in the ItLogger by owner listed"
+      },
+      {
         "lineNumber": 77,
         "author": {
-          "gitId": "-"
+          "gitId": "tototto"
         },
         "content": ""
       },
       {
         "lineNumber": 78,
         "author": {
-          "gitId": "-"
+          "gitId": "tototto"
         },
-        "content": "### Value proposition"
+        "content": "The following sequence diagram shows how the undo operation works."
       },
       {
         "lineNumber": 79,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "tototto"
         },
-        "content": "manage defects faster than a typical mouse/GUI driven app. Allows the user to better manage the project issues."
+        "content": ""
       },
       {
         "lineNumber": 80,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "##### Design consideration:"
+      },
+      {
+        "lineNumber": 81,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "Aspect: Search can otherwise be implemented"
+      },
+      {
+        "lineNumber": 82,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 83,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "###### Alternative 1 (current choice): Allow user to search returning result in the order they are stored."
+      },
+      {
+        "lineNumber": 84,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "Pros: Easy to implement."
+      },
+      {
+        "lineNumber": 85,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "Cons: Less relevant result to user"
+      },
+      {
+        "lineNumber": 86,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 87,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "###### Alternative 2: Allow user to sort the search e.g. by Alphabetical order."
+      },
+      {
+        "lineNumber": 88,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "Pros: More relevant result to user"
+      },
+      {
+        "lineNumber": 89,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "Cons: more difficult to implement."
+      },
+      {
+        "lineNumber": 90,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 81,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "## User Stories"
-      },
-      {
-        "lineNumber": 82,
-        "author": {
-          "gitId": "-"
-        },
-        "content": " "
-      },
-      {
-        "lineNumber": 83,
-        "author": {
-          "gitId": "pigoliver"
-        },
-        "content": "|Priority| As a … | I want to … | So that I can… |"
-      },
-      {
-        "lineNumber": 84,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "|--------|----------|---------------|------------------|"
-      },
-      {
-        "lineNumber": 85,
-        "author": {
-          "gitId": "pigoliver"
-        },
-        "content": "|* * * |new user|add issues into IT logger|track my issues|"
-      },
-      {
-        "lineNumber": 86,
-        "author": {
-          "gitId": "ZhengShijieNUS"
-        },
-        "content": "|* * * |New user|view an issue that is based on the ticket number|see its progress.|"
-      },
-      {
-        "lineNumber": 87,
-        "author": {
-          "gitId": "pigoliver"
-        },
-        "content": "|* * * |New user|delete a defect|remove defects that are resolved or no longer required|"
-      },
-      {
-        "lineNumber": 88,
-        "author": {
-          "gitId": "ZhengShijieNUS"
-        },
-        "content": "|* * * |New user|list all issues currently in the ITLogger|find all of the recorded issues currently in ITLogger.|"
-      },
-      {
-        "lineNumber": 89,
-        "author": {
-          "gitId": "pigoliver"
-        },
-        "content": "|* * |New user|I would like a given issue format|so that I can know a structured way of using the app|"
-      },
-      {
-        "lineNumber": 90,
-        "author": {
-          "gitId": "pigoliver"
-        },
-        "content": "|* |New user|I would like the issue I logged to be date stamped|so that I know when it was raised|"
-      },
-      {
         "lineNumber": 91,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "-"
         },
-        "content": "|* * * |User|be able to load defects from a text file or database|View and track all defects previously recorded in the system|"
+        "content": "## Product scope"
       },
       {
         "lineNumber": 92,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "-"
         },
-        "content": "|* * * |User|Have a help guide|View the usage of the app|"
+        "content": "### Target user profile"
       },
       {
         "lineNumber": 93,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "|* * * |User|Update information of existing defects|Keep track of those defects that have changed|"
+        "content": "* Is a developer, tester or member of the project team."
       },
       {
         "lineNumber": 94,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "|* * |user|Search defects based on my preference|Narrow down the search result based on what i want to look up|"
+        "content": "* prefer desktop apps over other types."
       },
       {
         "lineNumber": 95,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "|* * * |User|Automatically save my records when the defect list has been changed|progression will not be lost|"
+        "content": "* can type fast."
       },
       {
         "lineNumber": 96,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "|* * |User|View my defect in a sorted order|More easily track my list of items|"
+        "content": "* prefers typing to mouse interactions."
       },
       {
         "lineNumber": 97,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "|* * * |Forgetful user|Be notified of my task that are due|Not forget what i need to fix and close|"
+        "content": "* is reasonably comfortable using CLI apps."
       },
       {
         "lineNumber": 98,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "-"
         },
-        "content": "|* * * |User|Have a robust app|So that my data integrity is maintained (e.g. no deletion, cannot reopen after close)|"
+        "content": ""
       },
       {
         "lineNumber": 99,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "-"
         },
         "content": ""
       },
@@ -1075,14 +1075,14 @@
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "### Value proposition"
       },
       {
         "lineNumber": 101,
         "author": {
-          "gitId": "-"
+          "gitId": "pigoliver"
         },
-        "content": "## Non-Functional Requirements"
+        "content": "manage defects faster than a typical mouse/GUI driven app. Allows the user to better manage the project issues."
       },
       {
         "lineNumber": 102,
@@ -1094,110 +1094,264 @@
       {
         "lineNumber": 103,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "-"
         },
-        "content": "* Should work on any mainstream OS as long as it has Java 11 or above installed."
+        "content": "## User Stories"
       },
       {
         "lineNumber": 104,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "-"
         },
-        "content": "* Should be able to hold up to 1000 defects without a noticeable sluggishness in performance for typical usage."
+        "content": " "
       },
       {
         "lineNumber": 105,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "* A user with above average typing speed for regular English text (i.e. not code, not system admin commands) should be able to accomplish most of the tasks faster using commands than using the mouse"
+        "content": "|Priority| As a … | I want to … | So that I can… |"
       },
       {
         "lineNumber": 106,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "-"
         },
-        "content": "* Should load from and save to from a text files"
+        "content": "|--------|----------|---------------|------------------|"
       },
       {
         "lineNumber": 107,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": ""
+        "content": "|* * * |new user|add issues into IT logger|track my issues|"
       },
       {
         "lineNumber": 108,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": "|* * * |New user|view an issue that is based on the ticket number|see its progress.|"
+      },
+      {
+        "lineNumber": 109,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "|* * * |New user|delete a defect|remove defects that are resolved or no longer required|"
+      },
+      {
+        "lineNumber": 110,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": "|* * * |New user|list all issues currently in the ITLogger|find all of the recorded issues currently in ITLogger.|"
+      },
+      {
+        "lineNumber": 111,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "|* * |New user|I would like a given issue format|so that I can know a structured way of using the app|"
+      },
+      {
+        "lineNumber": 112,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "|* |New user|I would like the issue I logged to be date stamped|so that I know when it was raised|"
+      },
+      {
+        "lineNumber": 113,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "|* * * |User|be able to load defects from a text file or database|View and track all defects previously recorded in the system|"
+      },
+      {
+        "lineNumber": 114,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "|* * * |User|Have a help guide|View the usage of the app|"
+      },
+      {
+        "lineNumber": 115,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "|* * * |User|Update information of existing defects|Keep track of those defects that have changed|"
+      },
+      {
+        "lineNumber": 116,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "|* * |user|Search defects based on my preference|Narrow down the search result based on what i want to look up|"
+      },
+      {
+        "lineNumber": 117,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "|* * * |User|Automatically save my records when the defect list has been changed|progression will not be lost|"
+      },
+      {
+        "lineNumber": 118,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "|* * |User|View my defect in a sorted order|More easily track my list of items|"
+      },
+      {
+        "lineNumber": 119,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "|* * * |Forgetful user|Be notified of my task that are due|Not forget what i need to fix and close|"
+      },
+      {
+        "lineNumber": 120,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "|* * * |User|Have a robust app|So that my data integrity is maintained (e.g. no deletion, cannot reopen after close)|"
+      },
+      {
+        "lineNumber": 121,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 122,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 109,
+        "lineNumber": 123,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "## Non-Functional Requirements"
+      },
+      {
+        "lineNumber": 124,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 125,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "* Should work on any mainstream OS as long as it has Java 11 or above installed."
+      },
+      {
+        "lineNumber": 126,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "* Should be able to hold up to 1000 defects without a noticeable sluggishness in performance for typical usage."
+      },
+      {
+        "lineNumber": 127,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "* A user with above average typing speed for regular English text (i.e. not code, not system admin commands) should be able to accomplish most of the tasks faster using commands than using the mouse"
+      },
+      {
+        "lineNumber": 128,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": "* Should load from and save to from a text files"
+      },
+      {
+        "lineNumber": 129,
+        "author": {
+          "gitId": "pigoliver"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 130,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 131,
         "author": {
           "gitId": "-"
         },
         "content": "## Glossary"
       },
       {
-        "lineNumber": 110,
+        "lineNumber": 132,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 111,
+        "lineNumber": 133,
         "author": {
           "gitId": "tototto"
         },
         "content": "* *Mainstream OS:* Windows, Linux, Unix, OS-X."
       },
       {
-        "lineNumber": 112,
+        "lineNumber": 134,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 113,
+        "lineNumber": 135,
         "author": {
           "gitId": "-"
         },
         "content": "## Instructions for manual testing"
       },
       {
-        "lineNumber": 114,
+        "lineNumber": 136,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 115,
+        "lineNumber": 137,
         "author": {
           "gitId": "-"
         },
         "content": "{Give instructions on how to do a manual product testing e.g., how to load sample data to be used for testing}"
       },
       {
-        "lineNumber": 116,
+        "lineNumber": 138,
         "author": {
           "gitId": "ZhengShijieNUS"
         },
         "content": ""
       },
       {
-        "lineNumber": 117,
+        "lineNumber": 139,
         "author": {
           "gitId": "ZhengShijieNUS"
         },
         "content": "![Image of UpdateSequenceDiagram](https://github.com/AY2021S1-TIC4001-3/tp/blob/master/docs/Images/updateSequenceDiagram.png)"
       },
       {
-        "lineNumber": 118,
+        "lineNumber": 140,
         "author": {
           "gitId": "ZhengShijieNUS"
         },
@@ -1205,9 +1359,9 @@
       }
     ],
     "authorContributionMap": {
-      "ZhengShijieNUS": 35,
-      "tototto": 26,
-      "-": 26,
+      "ZhengShijieNUS": 36,
+      "tototto": 48,
+      "-": 25,
       "pigoliver": 31
     }
   },
@@ -2590,143 +2744,150 @@
         "author": {
           "gitId": "tototto"
         },
-        "content": "Assisted to upload members UML diagram\u0027s and created Object and Class diagram to illustrate program makeup and flow for ```list``` and ```search``` function."
+        "content": "Assisted to upload members UML object diagram\u0027s, created description for the developer guide and created Class diagram to illustrate program for ```UI``` and ```Finder``` component."
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "tototto"
         },
-        "content": "Also Collaborated \u0026 Collaborated \u0026 Worked together with the team. Jiancheng consolidated the submission to teams repo."
+        "content": ""
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "tototto"
         },
-        "content": ""
+        "content": "Also Collaborated \u0026 Collaborated \u0026 Worked together with the team for the rest of the items. Jiancheng consolidated the remaning submission to teams repo."
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "tototto"
         },
-        "content": "### Contributions to team-based tasks :"
+        "content": ""
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "tototto"
         },
-        "content": ""
+        "content": "### Contributions to team-based tasks :"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "tototto"
         },
-        "content": " 1. Setup the Repo in preparation for the project (e.g. creating the Repo, implementing Repo security setup, etc)"
+        "content": ""
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "tototto"
         },
-        "content": " 2. Advising and reminding team to utilise project tools such as style guide checker to avoid Continuous Integration failure."
+        "content": " 1. Setup the Repo in preparation for the project (e.g. creating the Repo, implementing Repo security setup, etc)"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "tototto"
         },
-        "content": " 3. Setting up of Team mile stone, creating incidents and moving User stories into them for easy tracking"
+        "content": " 2. Advising and reminding team to utilise project tools such as style guide checker to avoid Continuous Integration failure."
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "tototto"
         },
-        "content": " 4. Perform basic manual testing during early stages of development. Raised bugs and issues."
+        "content": " 3. Setting up of Team mile stone, creating incidents and moving User stories into them for easy tracking"
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "tototto"
         },
-        "content": " 5. Contributed ideas during discussions in weekly meetings."
+        "content": " 4. Perform basic manual testing during early stages of development. Raised bugs and issues."
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "tototto"
         },
-        "content": " 6. Set forward each iteration task and planning to ensure smooth project progress."
+        "content": " 5. Contributed ideas during discussions in weekly meetings."
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "tototto"
         },
-        "content": " 7. Perform code enhancement for Logging and Assertion."
+        "content": " 6. Set forward each iteration task and planning to ensure smooth project progress."
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "tototto"
         },
-        "content": " 8. Assist to create the setup of additional Junit Testcases."
+        "content": " 7. Perform code enhancement for Logging and Assertion."
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "tototto"
         },
-        "content": ""
+        "content": " 8. Assist to create the setup of additional Junit Testcases."
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "tototto"
         },
-        "content": "### Review/mentoring contributions: "
+        "content": ""
       },
       {
         "lineNumber": 61,
         "author": {
           "gitId": "tototto"
         },
-        "content": ""
+        "content": "### Review/mentoring contributions: "
       },
       {
         "lineNumber": 62,
         "author": {
           "gitId": "tototto"
         },
-        "content": "Assisted team members to resolve technical issue and provided articles to assist in their problem resolution within Team\u0027s internal chat."
+        "content": ""
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "tototto"
         },
-        "content": ""
+        "content": "Assisted team members to resolve technical issue and provided articles to assist in their problem resolution within Team\u0027s internal chat."
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "tototto"
         },
-        "content": "### Contributions beyond the project team:"
+        "content": ""
       },
       {
         "lineNumber": 65,
         "author": {
           "gitId": "tototto"
         },
-        "content": ""
+        "content": "### Contributions beyond the project team:"
       },
       {
         "lineNumber": 66,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 67,
         "author": {
           "gitId": "tototto"
         },
@@ -2734,7 +2895,7 @@
       }
     ],
     "authorContributionMap": {
-      "tototto": 66
+      "tototto": 67
     }
   },
   {

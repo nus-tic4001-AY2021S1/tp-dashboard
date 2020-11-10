@@ -632,6 +632,33 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-09",
+        "commitResults": [
+          {
+            "hash": "f3620e3f803eef12100206518103d27080ed5062",
+            "messageTitle": "Update tayjunwen.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 3,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "f7d16c8e4dd7d8ddb8bd6465d0faf12e038bc93d",
+            "messageTitle": "Update DeveloperGuide.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 22,
+                "deletions": 0
+              }
+            }
+          }
+        ]
       }
     ],
     "JanuariusJang": [
@@ -1296,13 +1323,13 @@
   },
   "authorFileTypeContributionMap": {
     "ZhengShijieNUS": {
-      "docs": 88,
+      "docs": 89,
       "functional-code": 119,
       "test-code": 103,
       "other": 1
     },
     "tototto": {
-      "docs": 94,
+      "docs": 117,
       "functional-code": 456,
       "test-code": 88
     },
@@ -1320,10 +1347,10 @@
     }
   },
   "authorContributionVariance": {
-    "ZhengShijieNUS": 401.7269,
-    "tototto": 1965.9182,
-    "JanuariusJang": 541.046,
-    "pigoliver": 2876.295
+    "ZhengShijieNUS": 388.6321,
+    "tototto": 1904.5723,
+    "JanuariusJang": 523.13715,
+    "pigoliver": 2783.4275
   },
   "authorDisplayNameMap": {
     "ZhengShijieNUS": "TIC4001-3 ZHEN..IJIE",
