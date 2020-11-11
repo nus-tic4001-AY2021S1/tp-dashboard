@@ -659,6 +659,44 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-10",
+        "commitResults": [
+          {
+            "hash": "ba12eac9ccfc4ddcba60843ac84ba6bb562eed5f",
+            "messageTitle": "Update DeveloperGuide.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 4,
+                "deletions": 3
+              }
+            }
+          },
+          {
+            "hash": "546625fe14ea9eb51416020e32f064dd6e2920d2",
+            "messageTitle": "Update DeveloperGuide.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "a07eafe2e80693d37a24bed4fec9d7327ed66e3c",
+            "messageTitle": "Update tayjunwen.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          }
+        ]
       }
     ],
     "JanuariusJang": [
@@ -1329,7 +1367,7 @@
       "other": 1
     },
     "tototto": {
-      "docs": 117,
+      "docs": 118,
       "functional-code": 456,
       "test-code": 88
     },
@@ -1347,10 +1385,10 @@
     }
   },
   "authorContributionVariance": {
-    "ZhengShijieNUS": 388.6321,
-    "tototto": 1904.5723,
-    "JanuariusJang": 523.13715,
-    "pigoliver": 2783.4275
+    "ZhengShijieNUS": 384.4544,
+    "tototto": 1883.1735,
+    "JanuariusJang": 517.4279,
+    "pigoliver": 2753.7878
   },
   "authorDisplayNameMap": {
     "ZhengShijieNUS": "TIC4001-3 ZHEN..IJIE",

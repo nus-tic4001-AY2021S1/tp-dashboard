@@ -921,147 +921,147 @@
         "author": {
           "gitId": "tototto"
         },
-        "content": "The following sequence diagram shows how the undo operation works."
+        "content": "The following sequence diagram shows how the Search operation works."
       },
       {
         "lineNumber": 79,
         "author": {
           "gitId": "tototto"
         },
-        "content": ""
+        "content": "![Image of SearchSequenceDiagram](https://github.com/AY2021S1-TIC4001-3/tp/blob/master/docs/Images/search_seq_diag.jpg)"
       },
       {
         "lineNumber": 80,
         "author": {
           "gitId": "tototto"
         },
-        "content": "##### Design consideration:"
+        "content": ""
       },
       {
         "lineNumber": 81,
         "author": {
           "gitId": "tototto"
         },
-        "content": "Aspect: Search can otherwise be implemented"
+        "content": "##### Design consideration:"
       },
       {
         "lineNumber": 82,
         "author": {
           "gitId": "tototto"
         },
-        "content": ""
+        "content": "Aspect: Search can otherwise be implemented"
       },
       {
         "lineNumber": 83,
         "author": {
           "gitId": "tototto"
         },
-        "content": "###### Alternative 1 (current choice): Allow user to search returning result in the order they are stored."
+        "content": ""
       },
       {
         "lineNumber": 84,
         "author": {
           "gitId": "tototto"
         },
-        "content": "Pros: Easy to implement."
+        "content": "###### Alternative 1 (current choice): Allow user to search returning result in the order they are stored."
       },
       {
         "lineNumber": 85,
         "author": {
           "gitId": "tototto"
         },
-        "content": "Cons: Less relevant result to user"
+        "content": "Pros: Easy to implement. \u003cbr\u003e"
       },
       {
         "lineNumber": 86,
         "author": {
           "gitId": "tototto"
         },
-        "content": ""
+        "content": "Cons: Less relevant result to user."
       },
       {
         "lineNumber": 87,
         "author": {
           "gitId": "tototto"
         },
-        "content": "###### Alternative 2: Allow user to sort the search e.g. by Alphabetical order."
+        "content": ""
       },
       {
         "lineNumber": 88,
         "author": {
           "gitId": "tototto"
         },
-        "content": "Pros: More relevant result to user"
+        "content": "###### Alternative 2: Allow user to sort the search e.g. by Alphabetical order."
       },
       {
         "lineNumber": 89,
         "author": {
           "gitId": "tototto"
         },
-        "content": "Cons: more difficult to implement."
+        "content": "Pros: More relevant result to user.\u003cbr\u003e"
       },
       {
         "lineNumber": 90,
         "author": {
-          "gitId": "-"
+          "gitId": "tototto"
         },
-        "content": ""
+        "content": "Cons: more difficult to implement."
       },
       {
         "lineNumber": 91,
         "author": {
           "gitId": "-"
         },
-        "content": "## Product scope"
+        "content": ""
       },
       {
         "lineNumber": 92,
         "author": {
           "gitId": "-"
         },
-        "content": "### Target user profile"
+        "content": "## Product scope"
       },
       {
         "lineNumber": 93,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "-"
         },
-        "content": "* Is a developer, tester or member of the project team."
+        "content": "### Target user profile"
       },
       {
         "lineNumber": 94,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "* prefer desktop apps over other types."
+        "content": "* Is a developer, tester or member of the project team."
       },
       {
         "lineNumber": 95,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "* can type fast."
+        "content": "* prefer desktop apps over other types."
       },
       {
         "lineNumber": 96,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "* prefers typing to mouse interactions."
+        "content": "* can type fast."
       },
       {
         "lineNumber": 97,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "* is reasonably comfortable using CLI apps."
+        "content": "* prefers typing to mouse interactions."
       },
       {
         "lineNumber": 98,
         "author": {
-          "gitId": "-"
+          "gitId": "pigoliver"
         },
-        "content": ""
+        "content": "* is reasonably comfortable using CLI apps."
       },
       {
         "lineNumber": 99,
@@ -1075,159 +1075,159 @@
         "author": {
           "gitId": "-"
         },
-        "content": "### Value proposition"
+        "content": ""
       },
       {
         "lineNumber": 101,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "### Value proposition"
+      },
+      {
+        "lineNumber": 102,
         "author": {
           "gitId": "pigoliver"
         },
         "content": "manage defects faster than a typical mouse/GUI driven app. Allows the user to better manage the project issues."
       },
       {
-        "lineNumber": 102,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
         "lineNumber": 103,
         "author": {
           "gitId": "-"
         },
-        "content": "## User Stories"
+        "content": ""
       },
       {
         "lineNumber": 104,
         "author": {
           "gitId": "-"
         },
-        "content": " "
+        "content": "## User Stories"
       },
       {
         "lineNumber": 105,
+        "author": {
+          "gitId": "-"
+        },
+        "content": " "
+      },
+      {
+        "lineNumber": 106,
         "author": {
           "gitId": "pigoliver"
         },
         "content": "|Priority| As a … | I want to … | So that I can… |"
       },
       {
-        "lineNumber": 106,
+        "lineNumber": 107,
         "author": {
           "gitId": "-"
         },
         "content": "|--------|----------|---------------|------------------|"
       },
       {
-        "lineNumber": 107,
+        "lineNumber": 108,
         "author": {
           "gitId": "pigoliver"
         },
         "content": "|* * * |new user|add issues into IT logger|track my issues|"
       },
       {
-        "lineNumber": 108,
+        "lineNumber": 109,
         "author": {
           "gitId": "ZhengShijieNUS"
         },
         "content": "|* * * |New user|view an issue that is based on the ticket number|see its progress.|"
       },
       {
-        "lineNumber": 109,
+        "lineNumber": 110,
         "author": {
           "gitId": "pigoliver"
         },
         "content": "|* * * |New user|delete a defect|remove defects that are resolved or no longer required|"
       },
       {
-        "lineNumber": 110,
+        "lineNumber": 111,
         "author": {
           "gitId": "ZhengShijieNUS"
         },
         "content": "|* * * |New user|list all issues currently in the ITLogger|find all of the recorded issues currently in ITLogger.|"
       },
       {
-        "lineNumber": 111,
+        "lineNumber": 112,
         "author": {
           "gitId": "pigoliver"
         },
         "content": "|* * |New user|I would like a given issue format|so that I can know a structured way of using the app|"
       },
       {
-        "lineNumber": 112,
+        "lineNumber": 113,
         "author": {
           "gitId": "pigoliver"
         },
         "content": "|* |New user|I would like the issue I logged to be date stamped|so that I know when it was raised|"
       },
       {
-        "lineNumber": 113,
+        "lineNumber": 114,
         "author": {
           "gitId": "pigoliver"
         },
         "content": "|* * * |User|be able to load defects from a text file or database|View and track all defects previously recorded in the system|"
       },
       {
-        "lineNumber": 114,
+        "lineNumber": 115,
         "author": {
           "gitId": "pigoliver"
         },
         "content": "|* * * |User|Have a help guide|View the usage of the app|"
       },
       {
-        "lineNumber": 115,
+        "lineNumber": 116,
         "author": {
           "gitId": "pigoliver"
         },
         "content": "|* * * |User|Update information of existing defects|Keep track of those defects that have changed|"
       },
       {
-        "lineNumber": 116,
+        "lineNumber": 117,
         "author": {
           "gitId": "pigoliver"
         },
         "content": "|* * |user|Search defects based on my preference|Narrow down the search result based on what i want to look up|"
       },
       {
-        "lineNumber": 117,
+        "lineNumber": 118,
         "author": {
           "gitId": "pigoliver"
         },
         "content": "|* * * |User|Automatically save my records when the defect list has been changed|progression will not be lost|"
       },
       {
-        "lineNumber": 118,
+        "lineNumber": 119,
         "author": {
           "gitId": "pigoliver"
         },
         "content": "|* * |User|View my defect in a sorted order|More easily track my list of items|"
       },
       {
-        "lineNumber": 119,
+        "lineNumber": 120,
         "author": {
           "gitId": "pigoliver"
         },
         "content": "|* * * |Forgetful user|Be notified of my task that are due|Not forget what i need to fix and close|"
       },
       {
-        "lineNumber": 120,
+        "lineNumber": 121,
         "author": {
           "gitId": "pigoliver"
         },
         "content": "|* * * |User|Have a robust app|So that my data integrity is maintained (e.g. no deletion, cannot reopen after close)|"
       },
       {
-        "lineNumber": 121,
-        "author": {
-          "gitId": "pigoliver"
-        },
-        "content": ""
-      },
-      {
         "lineNumber": 122,
         "author": {
-          "gitId": "-"
+          "gitId": "pigoliver"
         },
         "content": ""
       },
@@ -1236,54 +1236,54 @@
         "author": {
           "gitId": "-"
         },
-        "content": "## Non-Functional Requirements"
+        "content": ""
       },
       {
         "lineNumber": 124,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "## Non-Functional Requirements"
       },
       {
         "lineNumber": 125,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "-"
         },
-        "content": "* Should work on any mainstream OS as long as it has Java 11 or above installed."
+        "content": ""
       },
       {
         "lineNumber": 126,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "* Should be able to hold up to 1000 defects without a noticeable sluggishness in performance for typical usage."
+        "content": "* Should work on any mainstream OS as long as it has Java 11 or above installed."
       },
       {
         "lineNumber": 127,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "* A user with above average typing speed for regular English text (i.e. not code, not system admin commands) should be able to accomplish most of the tasks faster using commands than using the mouse"
+        "content": "* Should be able to hold up to 1000 defects without a noticeable sluggishness in performance for typical usage."
       },
       {
         "lineNumber": 128,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "* Should load from and save to from a text files"
+        "content": "* A user with above average typing speed for regular English text (i.e. not code, not system admin commands) should be able to accomplish most of the tasks faster using commands than using the mouse"
       },
       {
         "lineNumber": 129,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": ""
+        "content": "* Should load from and save to from a text files"
       },
       {
         "lineNumber": 130,
         "author": {
-          "gitId": "-"
+          "gitId": "pigoliver"
         },
         "content": ""
       },
@@ -1292,66 +1292,73 @@
         "author": {
           "gitId": "-"
         },
-        "content": "## Glossary"
+        "content": ""
       },
       {
         "lineNumber": 132,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "## Glossary"
       },
       {
         "lineNumber": 133,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 134,
         "author": {
           "gitId": "tototto"
         },
         "content": "* *Mainstream OS:* Windows, Linux, Unix, OS-X."
       },
       {
-        "lineNumber": 134,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
         "lineNumber": 135,
         "author": {
           "gitId": "-"
         },
-        "content": "## Instructions for manual testing"
+        "content": ""
       },
       {
         "lineNumber": 136,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "## Instructions for manual testing"
       },
       {
         "lineNumber": 137,
         "author": {
           "gitId": "-"
         },
-        "content": "{Give instructions on how to do a manual product testing e.g., how to load sample data to be used for testing}"
+        "content": ""
       },
       {
         "lineNumber": 138,
         "author": {
-          "gitId": "ZhengShijieNUS"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "{Give instructions on how to do a manual product testing e.g., how to load sample data to be used for testing}"
       },
       {
         "lineNumber": 139,
         "author": {
           "gitId": "ZhengShijieNUS"
         },
-        "content": "![Image of UpdateSequenceDiagram](https://github.com/AY2021S1-TIC4001-3/tp/blob/master/docs/Images/updateSequenceDiagram.png)"
+        "content": ""
       },
       {
         "lineNumber": 140,
+        "author": {
+          "gitId": "ZhengShijieNUS"
+        },
+        "content": "![Image of UpdateSequenceDiagram](https://github.com/AY2021S1-TIC4001-3/tp/blob/master/docs/Images/updateSequenceDiagram.png)"
+      },
+      {
+        "lineNumber": 141,
         "author": {
           "gitId": "ZhengShijieNUS"
         },
@@ -1360,7 +1367,7 @@
     ],
     "authorContributionMap": {
       "ZhengShijieNUS": 36,
-      "tototto": 48,
+      "tototto": 49,
       "-": 25,
       "pigoliver": 31
     }
@@ -2744,7 +2751,7 @@
         "author": {
           "gitId": "tototto"
         },
-        "content": "Assisted to upload members UML object diagram\u0027s, created description for the developer guide and created Class diagram to illustrate program for ```UI``` and ```Finder``` component."
+        "content": "Assisted to upload members UML object diagram\u0027s, created description for the developer guide and created Class diagram to illustrate program for ```UI``` and ```Finder``` component. Added the implementation of ```search``` function and feature of ItLogger such as the description, sequence diagram \u0026 design consideration. "
       },
       {
         "lineNumber": 47,

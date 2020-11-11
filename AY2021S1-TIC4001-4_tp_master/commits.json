@@ -244,6 +244,33 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-10",
+        "commitResults": [
+          {
+            "hash": "4e5d5ea0d721797354c25735ca877eb113921652",
+            "messageTitle": "Add ViewBudget Object and Sequence Diagram",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 6,
+                "deletions": 3
+              }
+            }
+          },
+          {
+            "hash": "85ecbe1b6f977528d056cb770e510774924ee19b",
+            "messageTitle": "Revised BudgetView Object Diagram \u0026 updated DG, PPP",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 8,
+                "deletions": 5
+              }
+            }
+          }
+        ]
       }
     ],
     "skyventus": [
@@ -1283,6 +1310,55 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-10",
+        "commitResults": [
+          {
+            "hash": "be1ad93911341eac457e35d15718398c991dff49",
+            "messageTitle": "commit to pull",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "other": {
+                "insertions": 0,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "539932509d6b8355a9d84fc62c7bc645f5355808",
+            "messageTitle": "commit to pull",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "other": {
+                "insertions": 7,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "43ee6df104ac4652cd0af8728eaaa1cece54f5c9",
+            "messageTitle": "Adjusted PPP for DG contributions Added Use Case Diagram Added Object Diagram",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 131,
+                "deletions": 22
+              }
+            }
+          },
+          {
+            "hash": "7bb32656ea0b10fcbbf1bc46e6efec523730830a",
+            "messageTitle": "Adjusted DG stuffs / Grammar Added Diagram explanations Added glossary things / links",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 63,
+                "deletions": 29
+              }
+            }
+          }
+        ]
       }
     ],
     "e0261618": [
@@ -1448,40 +1524,40 @@
   },
   "authorFileTypeContributionMap": {
     "Chilaiping": {
-      "docs": 61,
+      "docs": 67,
       "functional-code": 649,
       "test-code": 115
     },
     "skyventus": {
-      "docs": 72,
+      "docs": 67,
       "functional-code": 325,
       "test-code": 247,
       "other": 1
     },
     "timmyly7": {
-      "docs": 50,
+      "docs": 47,
       "functional-code": 404,
       "test-code": 206
     },
     "adi-kd0021": {
-      "docs": 107,
+      "docs": 266,
       "functional-code": 644,
       "test-code": 18,
       "other": 8
     },
     "e0261618": {
-      "docs": 238,
+      "docs": 134,
       "functional-code": 248,
       "test-code": 0,
       "other": 6
     }
   },
   "authorContributionVariance": {
-    "Chilaiping": 3852.3567,
-    "skyventus": 1117.7367,
-    "timmyly7": 2249.328,
-    "adi-kd0021": 3588.1028,
-    "e0261618": 1427.0851
+    "Chilaiping": 3768.5376,
+    "skyventus": 1094.7349,
+    "timmyly7": 2201.9102,
+    "adi-kd0021": 4121.331,
+    "e0261618": 1396.8636
   },
   "authorDisplayNameMap": {
     "Chilaiping": "TIC4001-4 CHI ..PING",
