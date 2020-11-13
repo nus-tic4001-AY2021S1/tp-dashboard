@@ -945,6 +945,22 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-12",
+        "commitResults": [
+          {
+            "hash": "f15d66ded3d3deb422458cb64fcd20f20814dc8f",
+            "messageTitle": "Update DeveloperGuide.md with the Storage Class.",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 7,
+                "deletions": 1
+              }
+            }
+          }
+        ]
       }
     ],
     "pigoliver": [
@@ -1361,7 +1377,7 @@
   },
   "authorFileTypeContributionMap": {
     "ZhengShijieNUS": {
-      "docs": 89,
+      "docs": 88,
       "functional-code": 119,
       "test-code": 103,
       "other": 1
@@ -1372,7 +1388,7 @@
       "test-code": 88
     },
     "JanuariusJang": {
-      "docs": 1,
+      "docs": 8,
       "functional-code": 203,
       "test-code": 45,
       "other": 2
@@ -1385,10 +1401,10 @@
     }
   },
   "authorContributionVariance": {
-    "ZhengShijieNUS": 384.4544,
-    "tototto": 1883.1735,
-    "JanuariusJang": 517.4279,
-    "pigoliver": 2753.7878
+    "ZhengShijieNUS": 376.36258,
+    "tototto": 1844.4247,
+    "JanuariusJang": 506.4084,
+    "pigoliver": 2696.3542
   },
   "authorDisplayNameMap": {
     "ZhengShijieNUS": "TIC4001-3 ZHEN..IJIE",

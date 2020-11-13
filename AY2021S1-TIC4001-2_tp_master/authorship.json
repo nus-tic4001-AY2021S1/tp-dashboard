@@ -447,369 +447,1041 @@
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "-"
+          "gitId": "dgc5213"
         },
-        "content": "## Design \u0026 implementation"
+        "content": "## **Design**"
       },
       {
         "lineNumber": 4,
         "author": {
-          "gitId": "-"
+          "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "### Architecture"
       },
       {
         "lineNumber": 5,
         "author": {
-          "gitId": "-"
+          "gitId": "dgc5213"
         },
-        "content": "{Describe the design and implementation of the product. Use UML diagrams and short code snippets where applicable.}"
+        "content": "\u003cbr\u003e \u003cimg src\u003d\"docs/images/ArchitectureDiagram.png\" width\u003d\"450\" /\u003e \u003cbr\u003e"
       },
       {
         "lineNumber": 6,
         "author": {
-          "gitId": "-"
+          "gitId": "dgc5213"
         },
         "content": ""
       },
       {
         "lineNumber": 7,
         "author": {
-          "gitId": "-"
+          "gitId": "dgc5213"
         },
-        "content": "## Product scope"
+        "content": "The ***Architecture Diagram*** given above explains the high-level design of the Money Tracker App."
       },
       {
         "lineNumber": 8,
         "author": {
-          "gitId": "-"
-        },
-        "content": "### Target user profile"
-      },
-      {
-        "lineNumber": 9,
-        "author": {
-          "gitId": "-"
+          "gitId": "dgc5213"
         },
         "content": ""
       },
       {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "MoneyTracker is the `Main` class. It is responsible for:"
+      },
+      {
         "lineNumber": 10,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
-        "content": "This app targets young working adults in Singapore who are living on"
+        "content": "* At app launch: Initializes the components in the correct sequence, and connects them up with each other."
       },
       {
         "lineNumber": 11,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
-        "content": "a tight budget and would like to have better insight into their spending habits."
+        "content": "* At shut down: Shuts down the components."
       },
       {
         "lineNumber": 12,
         "author": {
-          "gitId": "-"
+          "gitId": "dgc5213"
         },
         "content": ""
       },
       {
         "lineNumber": 13,
         "author": {
-          "gitId": "-"
+          "gitId": "dgc5213"
         },
-        "content": "### Value proposition"
+        "content": ""
       },
       {
         "lineNumber": 14,
         "author": {
-          "gitId": "-"
+          "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "The App consists of the following components."
       },
       {
         "lineNumber": 15,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
-        "content": "This app allows users to track their incomes and expenses."
+        "content": "* `UI`: The UI of the App."
       },
       {
         "lineNumber": 16,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
-        "content": "This helps them to stay within their budget and make timely adjustments to their spending habits when necessary."
+        "content": "* `Parser`: The parser executor."
       },
       {
         "lineNumber": 17,
         "author": {
-          "gitId": "-"
+          "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "* `Exception`: The exception executor."
       },
       {
         "lineNumber": 18,
         "author": {
-          "gitId": "-"
+          "gitId": "dgc5213"
         },
-        "content": "## User Stories"
+        "content": "* `Transaction`: Holds the transaction related records such as Category, Expense, Income."
       },
       {
         "lineNumber": 19,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "* `Command`: The command executor."
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "* `Summary`: The summary executor and holds the Budget."
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "* `Storage`: Reads data from and writes data to the hard disk."
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "## Design \u0026 implementation"
+      },
+      {
+        "lineNumber": 26,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 20,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "|Version| As a ... | I want to ... | So that I can ...|"
-      },
-      {
-        "lineNumber": 21,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "|--------|----------|---------------|------------------|"
-      },
-      {
-        "lineNumber": 22,
-        "author": {
-          "gitId": "e0260222"
-        },
-        "content": "|v1.0|potential user|download the app|get a feel what the app can do|"
-      },
-      {
-        "lineNumber": 23,
-        "author": {
-          "gitId": "e0260222"
-        },
-        "content": "|v1.0|potential user|browse through the user guide|get an overview of what are the commands available|"
-      },
-      {
-        "lineNumber": 24,
-        "author": {
-          "gitId": "e0260222"
-        },
-        "content": "|v1.0|new user|access the user guide|refer to it when I forget how to use the app|"
-      },
-      {
-        "lineNumber": 25,
-        "author": {
-          "gitId": "e0260222"
-        },
-        "content": "|v1.0|new user|add an income|keep track of my incomes|"
-      },
-      {
-        "lineNumber": 26,
-        "author": {
-          "gitId": "e0260222"
-        },
-        "content": "|v1.0|new user|add an expense|keep track of my expenses|"
-      },
-      {
         "lineNumber": 27,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "-"
         },
-        "content": "|v1.0|new user|add an income category|group my incomes under this category|"
+        "content": "{Describe the design and implementation of the product. Use UML diagrams and short code snippets where applicable.}"
       },
       {
         "lineNumber": 28,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "-"
         },
-        "content": "|v1.0|new user|add an expense category|group my expense under this category|"
+        "content": ""
       },
       {
         "lineNumber": 29,
         "author": {
-          "gitId": "dgc5213"
+          "gitId": "-"
         },
-        "content": "|v1.0|new user|list my incomes and expenses|view all my monetary transactions|"
+        "content": ""
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "|v1.0|user|list my income and expense categories|view all my income and expense categories|"
+        "content": ""
       },
       {
         "lineNumber": 31,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
-        "content": "|v1.0|user|clear all my data|start afresh with the app|"
+        "content": "--------------------------------------------------------------------------------------------------------------------"
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "|v1.0|expert user|list my incomes and/or expenses based on a specified month|view my filtered transactions|"
+        "content": ""
       },
       {
         "lineNumber": 33,
         "author": {
-          "gitId": "Chenduo1412"
+          "gitId": "dgc5213"
         },
-        "content": "|v2.0|user|view my total income and expense of the month upon app startup|get an overview of my incomes and expenses|"
+        "content": "## **Design of Command Component: List, ListCategory**"
       },
       {
         "lineNumber": 34,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "dgc5213"
         },
-        "content": "|v2.0|user|view a report on my incomes and expenses for a specified month|get a deep insight of my incomes and expenses|"
+        "content": "**How the architecture components interact with each other**"
       },
       {
         "lineNumber": 35,
         "author": {
-          "gitId": "Chenduo1412"
+          "gitId": "dgc5213"
         },
-        "content": "|v2.0|user|set a monthly budget|get notified when I exceed 50%, 75% and 100% of my budget|"
+        "content": ""
       },
       {
         "lineNumber": 36,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
-        "content": "|v2.0|expert user|edit an income or expense category|change the name of the category|"
+        "content": "The *Sequence Diagram* below shows how the components interact with each other for the scenario where the user issues the command `list /cSalary`."
       },
       {
         "lineNumber": 37,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
-        "content": "|v2.0|expert user|edit an income or expenses|change any of its parameters such as amount and date|"
+        "content": "\u003cbr\u003e \u003cimg src\u003d\"docs/images/ArchitectureSequenceDiagramListCommand.png\" width\u003d\"574\" /\u003e \u003cbr\u003e"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "|v2.0|expert user|list my incomes and/or expenses based on a specified category|view my filtered transactions|"
+        "content": "The *Class Diagram* below shows how the components interact with each other for the scenario where the user issues the command `list /cSalary`."
       },
       {
         "lineNumber": 39,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "dgc5213"
         },
-        "content": "|v3.0|expert user|view the total incomes and expenses for the past six months|see the trend of my monthly incomes and expenses|"
+        "content": "\u003cbr\u003e \u003cimg src\u003d\"docs/images/ArchitecturClassDiagramListCommand.png\" width\u003d\"574\" /\u003e \u003cbr\u003e"
       },
       {
         "lineNumber": 40,
         "author": {
-          "gitId": "-"
+          "gitId": "dgc5213"
         },
         "content": ""
       },
       {
         "lineNumber": 41,
         "author": {
-          "gitId": "-"
+          "gitId": "dgc5213"
         },
-        "content": "## Non-Functional Requirements"
+        "content": "The Command Component: List, ListCategory"
       },
       {
         "lineNumber": 42,
         "author": {
-          "gitId": "-"
+          "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "* can list `transaction` objects to users based on the command rules."
       },
       {
         "lineNumber": 43,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
-        "content": "1. The app should work on any mainstream OS with Java `11` or above installed."
+        "content": "* can list `category` objects to users based on the command rules."
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "2. The response time for each command should not exceed `3` seconds."
+        "content": ""
       },
       {
         "lineNumber": 45,
         "author": {
-          "gitId": "Chenduo1412"
+          "gitId": "dgc5213"
         },
-        "content": "3. A user with average typing speed should be able to enter any one command within `10` seconds."
+        "content": ""
       },
       {
         "lineNumber": 46,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "dgc5213"
         },
-        "content": "4. After using each command for at least `3` times, a user with no cognitive disability should be able to"
+        "content": ""
       },
       {
         "lineNumber": 47,
         "author": {
-          "gitId": "daiweinus"
+          "gitId": "dgc5213"
         },
-        "content": "use all the app features without having to reference the user guide."
+        "content": "## **Implementation of Command Component: List, ListCategory**"
       },
       {
         "lineNumber": 48,
         "author": {
-          "gitId": "-"
+          "gitId": "dgc5213"
         },
         "content": ""
       },
       {
         "lineNumber": 49,
         "author": {
-          "gitId": "-"
+          "gitId": "dgc5213"
         },
-        "content": "## Glossary"
+        "content": "This section describes some noteworthy details on how certain features are implemented."
       },
       {
         "lineNumber": 50,
         "author": {
-          "gitId": "-"
+          "gitId": "dgc5213"
         },
         "content": ""
       },
       {
         "lineNumber": 51,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
-        "content": "* *Mainstream OS* - Windows 7, Windows 10, Linux, Unix, OS-X"
+        "content": ""
       },
       {
         "lineNumber": 52,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "### \\[Enhanced\\] list feature"
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 54,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "#### Enhanced Implementation"
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "The enhanced list feature was implement for *ListCommand*. It extends ListCommand with more *flexibility* and *variety*. The users can enter the list command to filter the result as what they require such as list by income category, by expense category, by year month, by type. Also, the order of filter condition is flexible. "
+      },
+      {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 58,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "* `list /te`: Lists all expense categories."
+      },
+      {
+        "lineNumber": 59,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "* `list /m2020-09`: Lists all transaction happened in 2020 September."
+      },
+      {
+        "lineNumber": 60,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "* `list /cSALARY`: Lists all SALARY."
+      },
+      {
+        "lineNumber": 61,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "* `list /te /cfood /m2020-09`: Lists all Food expense happened in 2020 September"
+      },
+      {
+        "lineNumber": 62,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "* `list /m2020-09 /te`: Lists all expense happened in 2020 September"
+      },
+      {
+        "lineNumber": 63,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 64,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 65,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 66,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "These operations are exposed in the `ListCommand()` class."
+      },
+      {
+        "lineNumber": 67,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "* Step 1: The user executes list command. "
+      },
+      {
+        "lineNumber": 68,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "* Step 2: The ListCommand() class will parser the user instruction keywords and save as rules. "
+      },
+      {
+        "lineNumber": 69,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "* Step 3: Then check the rules one by one and return matched transaction records by calling the method `getFilteredList`"
+      },
+      {
+        "lineNumber": 70,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "* Step 4: Display the matched transaction records to the user."
+      },
+      {
+        "lineNumber": 71,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 72,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 73,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "The following sequence diagram shows how the list operation works:"
+      },
+      {
+        "lineNumber": 74,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "\u003cbr\u003e \u003cimg src\u003d\"docs/images/ArchitectureSequenceDiagramListCommand.png\" width\u003d\"574\" /\u003e \u003cbr\u003e"
+      },
+      {
+        "lineNumber": 75,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 76,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 77,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "The following activity diagram summarizes what happens when a user executes a list command:"
+      },
+      {
+        "lineNumber": 78,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "\u003cbr\u003e \u003cimg src\u003d\"docs/images/ArchitectureActivityDiagramListCommand.png\" width\u003d\"574\" /\u003e \u003cbr\u003e"
+      },
+      {
+        "lineNumber": 79,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 80,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 81,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "#### Design consideration:"
+      },
+      {
+        "lineNumber": 82,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "##### Aspect: How to check the list command rules"
+      },
+      {
+        "lineNumber": 83,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 84,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "* **Alternative 1 (current choice):** Use Streams filter to check the list command rules."
+      },
+      {
+        "lineNumber": 85,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "  * Pros: Streams can succinctly express quite sophisticated behaviour. It encourages looser coupling and less mutability. This is because it is a more declarative approach that tells the application what we want to achieve, not how we want to achieve it. Easy to implement by using streams filter."
+      },
+      {
+        "lineNumber": 86,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "  * Cons: May have performance issues in terms of memory usage. Streams may be novel for some programmers."
+      },
+      {
+        "lineNumber": 87,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 88,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "* **Alternative 2:** Use “loop” and “if else” to check the list command rules."
+      },
+      {
+        "lineNumber": 89,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "  * Pros:  we are familiar with “loop” and “if else”. Will use less memory."
+      },
+      {
+        "lineNumber": 90,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "  * Cons: The logic of checking list command rules can become very complex, especially when there are multiple rules and order of rules is various every time. We must tell the application how we want to achieve based on the complex logic. We must ensure that the logic of checking can satisfy each case."
+      },
+      {
+        "lineNumber": 91,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 92,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 93,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 94,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 95,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 96,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "--------------------------------------------------------------------------------------------------------------------"
+      },
+      {
+        "lineNumber": 97,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 98,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 99,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 100,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 101,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 102,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 103,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "## Product scope"
+      },
+      {
+        "lineNumber": 104,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "### Target user profile"
+      },
+      {
+        "lineNumber": 105,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 53,
+        "lineNumber": 106,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "This app targets young working adults in Singapore who are living on"
+      },
+      {
+        "lineNumber": 107,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "a tight budget and would like to have better insight into their spending habits."
+      },
+      {
+        "lineNumber": 108,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 109,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "### Value proposition"
+      },
+      {
+        "lineNumber": 110,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 111,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "This app allows users to track their incomes and expenses."
+      },
+      {
+        "lineNumber": 112,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "This helps them to stay within their budget and make timely adjustments to their spending habits when necessary."
+      },
+      {
+        "lineNumber": 113,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 114,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "## User Stories"
+      },
+      {
+        "lineNumber": 115,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 116,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "|Version| As a ... | I want to ... | So that I can ...|"
+      },
+      {
+        "lineNumber": 117,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "|--------|----------|---------------|------------------|"
+      },
+      {
+        "lineNumber": 118,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "|v1.0|potential user|download the app|get a feel what the app can do|"
+      },
+      {
+        "lineNumber": 119,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "|v1.0|potential user|browse through the user guide|get an overview of what are the commands available|"
+      },
+      {
+        "lineNumber": 120,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "|v1.0|new user|access the user guide|refer to it when I forget how to use the app|"
+      },
+      {
+        "lineNumber": 121,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "|v1.0|new user|add an income|keep track of my incomes|"
+      },
+      {
+        "lineNumber": 122,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "|v1.0|new user|add an expense|keep track of my expenses|"
+      },
+      {
+        "lineNumber": 123,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "|v1.0|new user|add an income category|group my incomes under this category|"
+      },
+      {
+        "lineNumber": 124,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "|v1.0|new user|add an expense category|group my expense under this category|"
+      },
+      {
+        "lineNumber": 125,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "|v1.0|new user|list my incomes and expenses|view all my monetary transactions|"
+      },
+      {
+        "lineNumber": 126,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "|v1.0|user|list my income and expense categories|view all my income and expense categories|"
+      },
+      {
+        "lineNumber": 127,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "|v1.0|user|clear all my data|start afresh with the app|"
+      },
+      {
+        "lineNumber": 128,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "|v1.0|expert user|list my incomes and/or expenses based on a specified month|view my filtered transactions|"
+      },
+      {
+        "lineNumber": 129,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "|v2.0|user|view my total income and expense of the month upon app startup|get an overview of my incomes and expenses|"
+      },
+      {
+        "lineNumber": 130,
+        "author": {
+          "gitId": "daiweinus"
+        },
+        "content": "|v2.0|user|view a report on my incomes and expenses for a specified month|get a deep insight of my incomes and expenses|"
+      },
+      {
+        "lineNumber": 131,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "|v2.0|user|set a monthly budget|get notified when I exceed 50%, 75% and 100% of my budget|"
+      },
+      {
+        "lineNumber": 132,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "|v2.0|expert user|edit an income or expense category|change the name of the category|"
+      },
+      {
+        "lineNumber": 133,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "|v2.0|expert user|edit an income or expenses|change any of its parameters such as amount and date|"
+      },
+      {
+        "lineNumber": 134,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "|v2.0|expert user|list my incomes and/or expenses based on a specified category|view my filtered transactions|"
+      },
+      {
+        "lineNumber": 135,
+        "author": {
+          "gitId": "daiweinus"
+        },
+        "content": "|v3.0|expert user|view the total incomes and expenses for the past six months|see the trend of my monthly incomes and expenses|"
+      },
+      {
+        "lineNumber": 136,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 137,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "## Non-Functional Requirements"
+      },
+      {
+        "lineNumber": 138,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 139,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "1. The app should work on any mainstream OS with Java `11` or above installed."
+      },
+      {
+        "lineNumber": 140,
+        "author": {
+          "gitId": "dgc5213"
+        },
+        "content": "2. The response time for each command should not exceed `3` seconds."
+      },
+      {
+        "lineNumber": 141,
+        "author": {
+          "gitId": "Chenduo1412"
+        },
+        "content": "3. A user with average typing speed should be able to enter any one command within `10` seconds."
+      },
+      {
+        "lineNumber": 142,
+        "author": {
+          "gitId": "daiweinus"
+        },
+        "content": "4. After using each command for at least `3` times, a user with no cognitive disability should be able to"
+      },
+      {
+        "lineNumber": 143,
+        "author": {
+          "gitId": "daiweinus"
+        },
+        "content": "use all the app features without having to reference the user guide."
+      },
+      {
+        "lineNumber": 144,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 145,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "## Glossary"
+      },
+      {
+        "lineNumber": 146,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 147,
+        "author": {
+          "gitId": "e0260222"
+        },
+        "content": "* *Mainstream OS* - Windows 7, Windows 10, Linux, Unix, OS-X"
+      },
+      {
+        "lineNumber": 148,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 149,
         "author": {
           "gitId": "-"
         },
         "content": "## Instructions for manual testing"
       },
       {
-        "lineNumber": 54,
+        "lineNumber": 150,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 55,
+        "lineNumber": 151,
         "author": {
           "gitId": "-"
         },
@@ -818,10 +1490,10 @@
     ],
     "authorContributionMap": {
       "daiweinus": 4,
-      "dgc5213": 5,
+      "dgc5213": 100,
       "e0260222": 16,
       "Chenduo1412": 3,
-      "-": 27
+      "-": 28
     }
   },
   {
@@ -964,9 +1636,9 @@
       {
         "lineNumber": 20,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
-        "content": "    - `list /te /m2020-09`: Lists all expenses in Sep 2020."
+        "content": "    - `list /te /m2020-09 /cFood`: Lists all Food expenses in Sep 2020."
       },
       {
         "lineNumber": 21,
@@ -1048,9 +1720,9 @@
       {
         "lineNumber": 32,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
-        "content": "E.g. The command `list [/tTYPE] [/mMONTH]` can also be in this form: `list [/mMONTH] [/tTYPE]`."
+        "content": "E.g. The command `list [/tTYPE] [/mMONTH] [/cCATEGORY]` can also be in this form: `list [/mMONTH] [/tTYPE] [/cCATEGORY]`."
       },
       {
         "lineNumber": 33,
@@ -2135,7 +2807,7 @@
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "Format:  `list [/tTYPE] [/mMONTH]` \u003cbr\u003e"
+        "content": "Format:  `list [/tTYPE] [/mMONTH] [/cCATEGORY]` \u003cbr\u003e"
       },
       {
         "lineNumber": 188,
@@ -3855,9 +4527,9 @@
       {
         "lineNumber": 433,
         "author": {
-          "gitId": "e0260222"
+          "gitId": "dgc5213"
         },
-        "content": "* List incomes / expenses `list [/tTYPE] [/mMONTH]`"
+        "content": "* List incomes / expenses `list [/tTYPE] [/mMONTH] [/cCATEGORY]`"
       },
       {
         "lineNumber": 434,
@@ -3904,8 +4576,8 @@
     ],
     "authorContributionMap": {
       "daiweinus": 62,
-      "dgc5213": 187,
-      "e0260222": 148,
+      "dgc5213": 190,
+      "e0260222": 145,
       "Chenduo1412": 15,
       "-": 27
     }
@@ -4243,56 +4915,56 @@
         "author": {
           "gitId": "dgc5213"
         },
-        "content": ""
+        "content": "* **Documentation**:"
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "* **Documentation**:"
+        "content": "  * User Guide:"
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "  * User Guide:"
+        "content": "    * Added documentation for the features `listcat` `addcati` `addcate` `deletecat` and `list`  (Pull requests [\\#49](https://github.com/AY2021S1-TIC4001-2/tp/pull/49/files) [\\#131](https://github.com/AY2021S1-TIC4001-2/tp/pull/131/files))"
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "    * Added documentation for the features `listcat` `addcati` `addcate` `deletecat` and `list`  (Pull requests [\\#49](https://github.com/AY2021S1-TIC4001-2/tp/pull/49/files))"
+        "content": "    * Did cosmetic tweaks to existing documentation of features `list`  (Pull requests [\\#62](https://github.com/AY2021S1-TIC4001-2/tp/pull/62/files) ）"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "    * Did cosmetic tweaks to existing documentation of features `list`  (Pull requests [\\#62](https://github.com/AY2021S1-TIC4001-2/tp/pull/62/files) ）"
+        "content": "  * Developer Guide:"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "  * Developer Guide:"
+        "content": "    * Added User Stories of the `listcat` `list` feature. (Pull requests [\\#96](https://github.com/AY2021S1-TIC4001-2/tp/pull/96/files) )  "
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "    * Added User Stories of the `listcat` `list` feature. (Pull requests [\\#96](https://github.com/AY2021S1-TIC4001-2/tp/pull/96/files) )  "
+        "content": "    * Added Non-Functional Requirements. (Pull requests [\\#96](https://github.com/AY2021S1-TIC4001-2/tp/pull/96/files)) )"
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "dgc5213"
         },
-        "content": "    * Added Non-Functional Requirements. (Pull requests [\\#96](https://github.com/AY2021S1-TIC4001-2/tp/pull/96/files)) )"
+        "content": "    * Added Design, Architecuture, Component, Implementation. (Pull requests [\\#131](https://github.com/AY2021S1-TIC4001-2/tp/pull/131/files)) )"
       },
       {
         "lineNumber": 40,

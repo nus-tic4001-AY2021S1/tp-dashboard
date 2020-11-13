@@ -1405,6 +1405,44 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-12",
+        "commitResults": [
+          {
+            "hash": "e292e40bbf5b867b09e34d4239422088281e0b79",
+            "messageTitle": "Create binhui.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 54,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "e98f3e850436e20c5ba656c0032673454a0314bb",
+            "messageTitle": "Adding comments",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 42,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "fb4e79de114303cf078e4104497a467f39a9d982",
+            "messageTitle": "edit the javadoc",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          }
+        ]
       }
     ]
   },
@@ -1416,7 +1454,7 @@
     },
     "Yiheng0410": {
       "docs": 9,
-      "functional-code": 117,
+      "functional-code": 116,
       "test-code": 92
     },
     "Impala36": {
@@ -1426,8 +1464,8 @@
       "other": 8
     },
     "binbinhui": {
-      "docs": 30,
-      "functional-code": 230,
+      "docs": 84,
+      "functional-code": 272,
       "test-code": 1,
       "other": 18
     }
@@ -1436,7 +1474,7 @@
     "linqing42": 1838.2484,
     "Yiheng0410": 511.59045,
     "Impala36": 10685.823,
-    "binbinhui": 12838.473
+    "binbinhui": 12904.71
   },
   "authorDisplayNameMap": {
     "linqing42": "TIC4001-1 LIN ..QING",

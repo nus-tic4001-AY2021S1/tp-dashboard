@@ -601,6 +601,44 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-12",
+        "commitResults": [
+          {
+            "hash": "597c7b348dc8bb2cd79afaf9e09d7ffd28a65899",
+            "messageTitle": "Add DG:design, implemetation etc Edit UG, PPP",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 102,
+                "deletions": 5
+              }
+            }
+          },
+          {
+            "hash": "f8c1a4ee6b4c830cb4ae8cd23fde988fcd09b0d7",
+            "messageTitle": "Add DG:design, implemetation etc Edit UG, PPP",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 0,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "8514d6fd8efae63b227c6c6e76fddd7fac353a1e",
+            "messageTitle": "Update dgc5213.md",
+            "messageBody": "change to https://github.com/AY2021S1-TIC4001-2/tp/pull/131",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 2,
+                "deletions": 2
+              }
+            }
+          }
+        ]
       }
     ],
     "e0260222": [
@@ -1738,12 +1776,12 @@
       "other": 3
     },
     "dgc5213": {
-      "docs": 238,
+      "docs": 336,
       "functional-code": 419,
       "test-code": 136
     },
     "e0260222": {
-      "docs": 218,
+      "docs": 215,
       "functional-code": 2075,
       "test-code": 328,
       "other": 4
@@ -1755,10 +1793,10 @@
     }
   },
   "authorContributionVariance": {
-    "daiweinus": 4409.595,
-    "dgc5213": 28323.184,
-    "e0260222": 30939.58,
-    "Chenduo1412": 718.59467
+    "daiweinus": 4226.683,
+    "dgc5213": 27184.256,
+    "e0260222": 29727.494,
+    "Chenduo1412": 689.3607
   },
   "authorDisplayNameMap": {
     "daiweinus": "TIC4001-2 DAI .. WEI",

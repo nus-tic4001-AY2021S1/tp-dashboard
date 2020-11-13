@@ -271,6 +271,60 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-12",
+        "commitResults": [
+          {
+            "hash": "80b3185a86eddecb613812614e29a3a0f66456ab",
+            "messageTitle": "Added budget persistent storage to DB",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 2,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "9ff66d02350043b20f8f95480bb43e70e64cc8f5",
+            "messageTitle": "Revised PPP",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 2,
+                "deletions": 5
+              }
+            }
+          },
+          {
+            "hash": "961e774e2de1647ccb373c4dbe1534283d046333",
+            "messageTitle": "Added page break for DG",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 18,
+                "deletions": 0
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-11-13",
+        "commitResults": [
+          {
+            "hash": "169207abc8e1d74ca16f2358fd65325f91fdc521",
+            "messageTitle": "Improvise page break for DG",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 8,
+                "deletions": 2
+              }
+            }
+          }
+        ]
       }
     ],
     "skyventus": [
@@ -572,6 +626,33 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-12",
+        "commitResults": [
+          {
+            "hash": "5c1abcdb914cf4904786f8df16f68836168c8c81",
+            "messageTitle": "[Developer Guide] push images up",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 9,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "6d96a07f5aa15b3ce7e81f17a3bb64ce3505ef3b",
+            "messageTitle": "[PPP] added a PR link",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          }
+        ]
       }
     ],
     "timmyly7": [
@@ -802,6 +883,33 @@
               "docs": {
                 "insertions": 30,
                 "deletions": 0
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-11-12",
+        "commitResults": [
+          {
+            "hash": "a590c479f56e5f76eb28a78bf1cd349c856e2693",
+            "messageTitle": "Update DG and PPP",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 7,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "97eae548f451585c791b57256de766e13b308a14",
+            "messageTitle": "Update DG and PPP",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
               }
             }
           }
@@ -1359,6 +1467,77 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-12",
+        "commitResults": [
+          {
+            "hash": "3e935345ebcd5880abf401153a0ff8c8d1a90187",
+            "messageTitle": "UpdatedPPP",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 7,
+                "deletions": 8
+              }
+            }
+          },
+          {
+            "hash": "132d9011f498385629fcd63e6c311dc9a5e48ddf",
+            "messageTitle": "Adjusted PPP for 2 pages",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 7,
+                "deletions": 10
+              }
+            }
+          },
+          {
+            "hash": "f870e57cc8f2ecc248c4ed74b79a66a68ef8034a",
+            "messageTitle": "Adjusted PPP for 2 pages again!",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 6,
+                "deletions": 6
+              }
+            }
+          },
+          {
+            "hash": "ad9272715af661721dfd1b4c0d078ba05d35c777",
+            "messageTitle": "Adjusted PPP for 2 pages again!!!!",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 4,
+                "deletions": 4
+              }
+            }
+          },
+          {
+            "hash": "45b9e9346327d32f7b2892de7948e800c7497d71",
+            "messageTitle": "Adjusted PPP for 2 pages Please just work...",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 3,
+                "deletions": 3
+              }
+            }
+          },
+          {
+            "hash": "adc4421e8055e00af55ef0e21ccf3f23adeacf34",
+            "messageTitle": "Version Number fix",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          }
+        ]
       }
     ],
     "e0261618": [
@@ -1519,45 +1698,110 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-12",
+        "commitResults": [
+          {
+            "hash": "fdb3660d33ec316165a076ddab25e95a3cc8c07b",
+            "messageTitle": "Clean up user guide alighnment added ppp Clean up DG",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 75,
+                "deletions": 80
+              }
+            }
+          },
+          {
+            "hash": "fe025acb26c7e9e42bdc231a91046c1ef7155d7a",
+            "messageTitle": "Added page break",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 3,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "87efb399c3974d7d7f4168337a3cc4afe3f02384",
+            "messageTitle": "added page break, fix alignment",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 20,
+                "deletions": 14
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-11-13",
+        "commitResults": [
+          {
+            "hash": "27129826be302ad3a4365f94736b1cd72cc3c384",
+            "messageTitle": "changed stars to line",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 33,
+                "deletions": 32
+              }
+            }
+          },
+          {
+            "hash": "507a0797fa84f840d90da5cdbcd8194810793968",
+            "messageTitle": "page break",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 3,
+                "deletions": 0
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFileTypeContributionMap": {
     "Chilaiping": {
-      "docs": 67,
+      "docs": 84,
       "functional-code": 649,
       "test-code": 115
     },
     "skyventus": {
-      "docs": 67,
+      "docs": 74,
       "functional-code": 325,
       "test-code": 247,
       "other": 1
     },
     "timmyly7": {
-      "docs": 47,
+      "docs": 51,
       "functional-code": 404,
       "test-code": 206
     },
     "adi-kd0021": {
-      "docs": 266,
+      "docs": 227,
       "functional-code": 644,
       "test-code": 18,
       "other": 8
     },
     "e0261618": {
-      "docs": 134,
+      "docs": 186,
       "functional-code": 248,
       "test-code": 0,
       "other": 6
     }
   },
   "authorContributionVariance": {
-    "Chilaiping": 3768.5376,
-    "skyventus": 1094.7349,
-    "timmyly7": 2201.9102,
-    "adi-kd0021": 4121.331,
-    "e0261618": 1396.8636
+    "Chilaiping": 3649.7017,
+    "skyventus": 1061.0682,
+    "timmyly7": 2133.002,
+    "adi-kd0021": 4013.0298,
+    "e0261618": 1751.7281
   },
   "authorDisplayNameMap": {
     "Chilaiping": "TIC4001-4 CHI ..PING",
