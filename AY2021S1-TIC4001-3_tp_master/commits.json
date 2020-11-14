@@ -961,6 +961,22 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-13",
+        "commitResults": [
+          {
+            "hash": "676542b8cbbf8636937cc4c20e09536358735580",
+            "messageTitle": "Create JanuariusJang.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 17,
+                "deletions": 0
+              }
+            }
+          }
+        ]
       }
     ],
     "pigoliver": [
@@ -1372,39 +1388,66 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-12",
+        "commitResults": [
+          {
+            "hash": "c0b4d207602f8cb18433379b01f03a07d162fef6",
+            "messageTitle": "Update DeveloperGuide.md",
+            "messageBody": "Update DG for Instructions for manual testing and some formatting",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 33,
+                "deletions": 13
+              }
+            }
+          },
+          {
+            "hash": "166e597b4ad5856583391ab1e42c7b5242fde735",
+            "messageTitle": "Update pigoliver.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 10,
+                "deletions": 0
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFileTypeContributionMap": {
     "ZhengShijieNUS": {
-      "docs": 88,
+      "docs": 83,
       "functional-code": 119,
       "test-code": 103,
       "other": 1
     },
     "tototto": {
-      "docs": 118,
+      "docs": 114,
       "functional-code": 456,
       "test-code": 88
     },
     "JanuariusJang": {
-      "docs": 8,
+      "docs": 24,
       "functional-code": 203,
       "test-code": 45,
       "other": 2
     },
     "pigoliver": {
-      "docs": 73,
+      "docs": 114,
       "functional-code": 522,
       "test-code": 45,
       "other": 81
     }
   },
   "authorContributionVariance": {
-    "ZhengShijieNUS": 376.36258,
-    "tototto": 1844.4247,
-    "JanuariusJang": 506.4084,
-    "pigoliver": 2696.3542
+    "ZhengShijieNUS": 372.44263,
+    "tototto": 1825.6368,
+    "JanuariusJang": 502.76086,
+    "pigoliver": 2688.1208
   },
   "authorDisplayNameMap": {
     "ZhengShijieNUS": "TIC4001-3 ZHEN..IJIE",

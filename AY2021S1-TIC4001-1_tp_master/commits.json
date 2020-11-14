@@ -495,6 +495,121 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-13",
+        "commitResults": [
+          {
+            "hash": "0142d342dda7fa53120fbd465159e2edc3bd18f8",
+            "messageTitle": "Create lin.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 59,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "9203df87e9d1efded61324862a8479fbec1eac91",
+            "messageTitle": "Delete linqing.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 0,
+                "deletions": 59
+              }
+            }
+          },
+          {
+            "hash": "afe1c588011b7a33c34069466adbcf31196876c1",
+            "messageTitle": "Rename lin.md to linqing.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 0,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "ba1e89ebed584f4e8ce46678261e6fd4926d0978",
+            "messageTitle": "Update linqing.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "9c2d21b608a3372c34befc72966b683a1f5aa648",
+            "messageTitle": "Update AboutUs.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "e5afb26ad50d5f57a9c379fef6ae2615f114f482",
+            "messageTitle": "Update AboutUs.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "aeebb19a49761f3d6f3ab6fbeb9d26846b528d9e",
+            "messageTitle": "Update AboutUs.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "d1a355770d7e852af20b1c1d8ab04798fdaf5f02",
+            "messageTitle": "Update linqing.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "370141b5fdf8f69e671bd3bc03ee4b433be6531c",
+            "messageTitle": "Update linqing.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "a1b08cf9a16cf22030e011845ba7a45a63123c98",
+            "messageTitle": "Update linqing.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          }
+        ]
       }
     ],
     "Yiheng0410": [
@@ -738,6 +853,22 @@
               "docs": {
                 "insertions": 10,
                 "deletions": 5
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-11-13",
+        "commitResults": [
+          {
+            "hash": "00bc7a1b454f363249bb408cfa029dd017df0a79",
+            "messageTitle": "Add in yiheng.md PPP",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 42,
+                "deletions": 0
               }
             }
           }
@@ -1443,38 +1574,65 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-13",
+        "commitResults": [
+          {
+            "hash": "ee992b916dcbf42e52fabb9c013558cf8448bfe7",
+            "messageTitle": "Update DeveloperGuide.md",
+            "messageBody": "Update the V3 issues.",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 7,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "319cee0115c1bfb7c0941911b94ccb6e84e3d8ff",
+            "messageTitle": "Update DeveloperGuide.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 7,
+                "deletions": 7
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFileTypeContributionMap": {
     "linqing42": {
-      "docs": 271,
+      "docs": 272,
       "functional-code": 164,
       "test-code": 58
     },
     "Yiheng0410": {
-      "docs": 9,
+      "docs": 51,
       "functional-code": 116,
       "test-code": 92
     },
     "Impala36": {
-      "docs": 101,
+      "docs": 100,
       "functional-code": 743,
       "test-code": 189,
       "other": 8
     },
     "binbinhui": {
-      "docs": 84,
+      "docs": 91,
       "functional-code": 272,
       "test-code": 1,
       "other": 18
     }
   },
   "authorContributionVariance": {
-    "linqing42": 1838.2484,
-    "Yiheng0410": 511.59045,
-    "Impala36": 10685.823,
-    "binbinhui": 12904.71
+    "linqing42": 1973.5122,
+    "Yiheng0410": 520.23724,
+    "Impala36": 10576.76,
+    "binbinhui": 12764.441
   },
   "authorDisplayNameMap": {
     "linqing42": "TIC4001-1 LIN ..QING",

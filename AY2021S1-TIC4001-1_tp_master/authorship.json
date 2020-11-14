@@ -618,9 +618,9 @@
       {
         "lineNumber": 5,
         "author": {
-          "gitId": "Impala36"
+          "gitId": "linqing42"
         },
-        "content": "![](https://via.placeholder.com/100.png?text\u003dPhoto) | Lin Qing | https://github.com/linqing42"
+        "content": "![](https://via.placeholder.com/100.png?text\u003dPhoto) | Lin Qing | https://linqing42.github.io/tp/team/linqing"
       },
       {
         "lineNumber": 6,
@@ -645,7 +645,8 @@
       }
     ],
     "authorContributionMap": {
-      "Impala36": 6,
+      "linqing42": 1,
+      "Impala36": 5,
       "-": 2
     }
   },
@@ -978,131 +979,180 @@
       {
         "lineNumber": 47,
         "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "|v3.0|project manager|Check date format in Find,Edit| so that only valid date allows|"
+      },
+      {
+        "lineNumber": 48,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "|v3.0|project manager|Ensure duration is not negative and days left to Not Applicable| so that no negative number appear|"
+      },
+      {
+        "lineNumber": 49,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "|v3.0|project manager|Catch all input exceptions for Send command| ensure is valid input in send|"
+      },
+      {
+        "lineNumber": 50,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "|v3.0|project manager|validate email format| ensure correct email address|"
+      },
+      {
+        "lineNumber": 51,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "|v3.0|project manager|create complete command to set a project to complete| Ensure project can update to be done|"
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "|v3.0|project manager|add not allowed to start date, due date and email| limite the add, only meaningful data allow|"
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "binbinhui"
+        },
+        "content": "|v3.0|project manager|Fix all checkstyle errors| inorder to pass the CI test|"
+      },
+      {
+        "lineNumber": 54,
+        "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 48,
+        "lineNumber": 55,
         "author": {
           "gitId": "-"
         },
         "content": "## Non-Functional Requirements"
       },
       {
-        "lineNumber": 49,
+        "lineNumber": 56,
         "author": {
           "gitId": "-"
         },
         "content": ""
-      },
-      {
-        "lineNumber": 50,
-        "author": {
-          "gitId": "Yiheng0410"
-        },
-        "content": "* Operation Environment: Project tracker works on any Mainstream OS as long as it has Java **11** or above installed. "
-      },
-      {
-        "lineNumber": 51,
-        "author": {
-          "gitId": "Yiheng0410"
-        },
-        "content": "* Usability: A command line interface application, user will use specified command to interact with the system."
-      },
-      {
-        "lineNumber": 52,
-        "author": {
-          "gitId": "Yiheng0410"
-        },
-        "content": "* Capacity: Project tracker should be able to record at least 1,000 project records. "
-      },
-      {
-        "lineNumber": 53,
-        "author": {
-          "gitId": "Yiheng0410"
-        },
-        "content": "* Reliability / Availability: Once the project tracker has been successfully deployed on user\u0027s computer, availability is 24/7.   "
-      },
-      {
-        "lineNumber": 54,
-        "author": {
-          "gitId": "Yiheng0410"
-        },
-        "content": "* Scalability: The current version of project tracker only support local data file storage, users are unable to share a centralised project data."
-      },
-      {
-        "lineNumber": 55,
-        "author": {
-          "gitId": "Yiheng0410"
-        },
-        "content": "               If the need of having a centralised data storage raised in the future, it can be added as system enhancement. "
-      },
-      {
-        "lineNumber": 56,
-        "author": {
-          "gitId": "Yiheng0410"
-        },
-        "content": "* Security: User login is not required. The project tracker use user\u0027s computer login as authentication."
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "Yiheng0410"
         },
-        "content": "* Maintainability: A updated JAR file will be released to user if there is any update to the current version of the project tracker.                 "
+        "content": "* Operation Environment: Project tracker works on any Mainstream OS as long as it has Java **11** or above installed. "
       },
       {
         "lineNumber": 58,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "* Usability: A command line interface application, user will use specified command to interact with the system."
+      },
+      {
+        "lineNumber": 59,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "* Capacity: Project tracker should be able to record at least 1,000 project records. "
+      },
+      {
+        "lineNumber": 60,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "* Reliability / Availability: Once the project tracker has been successfully deployed on user\u0027s computer, availability is 24/7.   "
+      },
+      {
+        "lineNumber": 61,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "* Scalability: The current version of project tracker only support local data file storage, users are unable to share a centralised project data."
+      },
+      {
+        "lineNumber": 62,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "               If the need of having a centralised data storage raised in the future, it can be added as system enhancement. "
+      },
+      {
+        "lineNumber": 63,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "* Security: User login is not required. The project tracker use user\u0027s computer login as authentication."
+      },
+      {
+        "lineNumber": 64,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "* Maintainability: A updated JAR file will be released to user if there is any update to the current version of the project tracker.                 "
+      },
+      {
+        "lineNumber": 65,
         "author": {
           "gitId": "-"
         },
         "content": "               "
       },
       {
-        "lineNumber": 59,
+        "lineNumber": 66,
         "author": {
           "gitId": "-"
         },
         "content": "## Glossary"
       },
       {
-        "lineNumber": 60,
+        "lineNumber": 67,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 61,
+        "lineNumber": 68,
         "author": {
           "gitId": "linqing42"
         },
         "content": "* *Mainstream OS * - Windows, Mac and Linux"
       },
       {
-        "lineNumber": 62,
+        "lineNumber": 69,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 63,
+        "lineNumber": 70,
         "author": {
           "gitId": "-"
         },
         "content": "## Instructions for manual testing"
       },
       {
-        "lineNumber": 64,
+        "lineNumber": 71,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 65,
+        "lineNumber": 72,
         "author": {
           "gitId": "-"
         },
@@ -1112,7 +1162,8 @@
     "authorContributionMap": {
       "linqing42": 29,
       "Yiheng0410": 8,
-      "-": 28
+      "-": 28,
+      "binbinhui": 7
     }
   },
   {
@@ -3922,7 +3973,7 @@
         "author": {
           "gitId": "linqing42"
         },
-        "content": "Project Tracker is a desktop app for managing and tracking projects, optimized for use via a Command Line Interface (CLI)."
+        "content": "Project Tracker is a desktop app for managing and tracking projects, optimized for use via a Command Line Interface (CLI) and the [website](https://linqing42.github.io/tp/team/linqing)."
       },
       {
         "lineNumber": 6,
@@ -4181,7 +4232,7 @@
         "author": {
           "gitId": "linqing42"
         },
-        "content": "- Create \u0026 Draw a Sequence Diagram in Storage Command(getLines(stringe fileName) methods)[#91](https://github.com/AY2021S1-TIC4001-1/tp/pull/91),[#92](https://github.com/AY2021S1-TIC4001-1/tp/pull/92)"
+        "content": "- Create \u0026 Draw a [Sequence Diagram](https://github.com/linqing42/tp/blob/master/docs/images/StorageGetLine-Page-1.png) in Storage Command(getLines(stringe fileName) methods)[#91](https://github.com/AY2021S1-TIC4001-1/tp/pull/91),[#92](https://github.com/AY2021S1-TIC4001-1/tp/pull/92)"
       },
       {
         "lineNumber": 43,
@@ -4305,6 +4356,309 @@
     ],
     "authorContributionMap": {
       "linqing42": 59
+    }
+  },
+  {
+    "path": "docs/team/yiheng.md",
+    "fileType": "docs",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "# Zheng Yiheng - Project Portfolio Page"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "## Overview"
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "### Project: Project Tracker"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "Project Tracker is a desktop app for managing and tracking projects, optimized for use via a Command Line Interface (CLI)."
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "### Summary of Contributions"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "Given below are my contributions to the "
+      },
+      {
+        "lineNumber": 10,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 11,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "- Update list command[#12](https://github.com/AY2021S1-TIC4001-1/tp/pull/12/commits/5ee400ac08530393acef8ecd7120adb2628a3e0f)"
+      },
+      {
+        "lineNumber": 12,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "- Add Junit Test (ParserTest,ProjectListTest,StorageTest)[#40](https://github.com/AY2021S1-TIC4001-1/tp/pull/40/commits/0015df4eb427a429d8f92c37e65f9ac766fc518b)"
+      },
+      {
+        "lineNumber": 13,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "- Add Junit Test (UiTest)[#41](https://github.com/AY2021S1-TIC4001-1/tp/pull/41/commits/49dabf4ed954bea43be9dd83933e376698bb4281)"
+      },
+      {
+        "lineNumber": 14,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "- Update DateConverter class and command line class[#57](https://github.com/AY2021S1-TIC4001-1/tp/pull/57/commits/65f76e837b2139d0e632796f99c21a4564c281ae) [#59](https://github.com/AY2021S1-TIC4001-1/tp/pull/59/commits/f59040d73b80db521932fc728f7968ca8550260b)"
+      },
+      {
+        "lineNumber": 15,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "- Display daysLeft when list down the projects information[#59](https://github.com/AY2021S1-TIC4001-1/tp/pull/59/commits/f59040d73b80db521932fc728f7968ca8550260b)"
+      },
+      {
+        "lineNumber": 16,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "- Update and fix bug for UiTest [#72](https://github.com/AY2021S1-TIC4001-1/tp/pull/72/commits/514e9a9caea5de72d21fe423109e3d0ed1a54dd0)"
+      },
+      {
+        "lineNumber": 17,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "- Correct check style error [#96](https://github.com/AY2021S1-TIC4001-1/tp/pull/96/commits/9dc12fe3440a70942f54b4bc438cd1004d187a2f)"
+      },
+      {
+        "lineNumber": 18,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "- Correct error in StorageTest[#96](https://github.com/AY2021S1-TIC4001-1/tp/pull/96/commits/9dc12fe3440a70942f54b4bc438cd1004d187a2f)"
+      },
+      {
+        "lineNumber": 19,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 20,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "### Code contributed: "
+      },
+      {
+        "lineNumber": 21,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "[RepoSense link](https://nus-tic4001-ay2021s1.github.io/tp-dashboard/#breakdown\u003dtrue\u0026search\u003dYiheng0410\u0026sort\u003dgroupTitle\u0026sortWithin\u003dtitle\u0026since\u003d2020-08-14\u0026timeframe\u003dcommit\u0026mergegroup\u003d\u0026groupSelect\u003dgroupByAuthors\u0026checkedFileTypes\u003ddocs~functional-code~test-code~other\u0026tabOpen\u003dtrue\u0026tabType\u003dauthorship\u0026zFR\u003dfalse\u0026tabAuthor\u003dYiheng0410\u0026tabRepo\u003dAY2021S1-TIC4001-1%2Ftp%5Bmaster%5D\u0026authorshipIsMergeGroup\u003dfalse\u0026authorshipFileTypes\u003ddocs~functional-code~test-code)"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "### Project management"
+      },
+      {
+        "lineNumber": 23,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "- Managed releases ```v1.0``` - ```v3.0``` (3 releases) on Github"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "### Enhancements to existing features:"
+      },
+      {
+        "lineNumber": 25,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 26,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "- Update the project feature - Add date validator, start date cannot be later than due date project[#88](https://github.com/AY2021S1-TIC4001-1/tp/pull/88/commits/9866b27fc5a6355022824fab9204fa75a1cc0d64)"
+      },
+      {
+        "lineNumber": 27,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "- Add Date range check [#89](https://github.com/AY2021S1-TIC4001-1/tp/pull/89/commits/9aea670e0ea8754bfd8ae361581ff58f91324bc3)"
+      },
+      {
+        "lineNumber": 28,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "- Correct bugs in UiTest [#89](https://github.com/AY2021S1-TIC4001-1/tp/pull/89/commits/b67f4fc800d14a55d02cb23d5bf6808b6e660671)"
+      },
+      {
+        "lineNumber": 29,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 30,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "### Documentation:"
+      },
+      {
+        "lineNumber": 31,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "#### User Guide:"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "- Update User Guide:[#97](https://github.com/AY2021S1-TIC4001-1/tp/pull/97/commits/ae13b5f0b63704c56f2e3af2ae9946ad944de75e)"
+      },
+      {
+        "lineNumber": 33,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 34,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "#### Developer Guide:"
+      },
+      {
+        "lineNumber": 35,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "- Update Developer Guide:[#97](https://github.com/AY2021S1-TIC4001-1/tp/pull/97/commits/ae13b5f0b63704c56f2e3af2ae9946ad944de75e)"
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "- Update UML diagram"
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "### Contributions to team-based tasks :"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "- Brianstorming and provide ideas for enhancement or add in new features "
+      },
+      {
+        "lineNumber": 40,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "- Review and edit UD and DG"
+      },
+      {
+        "lineNumber": 41,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "- Review and edit UML diagram"
+      },
+      {
+        "lineNumber": 42,
+        "author": {
+          "gitId": "Yiheng0410"
+        },
+        "content": "- Debug and correct codes"
+      }
+    ],
+    "authorContributionMap": {
+      "Yiheng0410": 42
     }
   },
   {

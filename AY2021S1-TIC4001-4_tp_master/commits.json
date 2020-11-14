@@ -323,6 +323,17 @@
                 "deletions": 2
               }
             }
+          },
+          {
+            "hash": "154e5a3762b8bd8c0ff04b39fd748d17557b6037",
+            "messageTitle": "Update page break at Implementation Section",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 4,
+                "deletions": 1
+              }
+            }
           }
         ]
       }
@@ -1761,6 +1772,39 @@
                 "deletions": 0
               }
             }
+          },
+          {
+            "hash": "9f830bc075d448c89ae3c243b9dc2701731e533a",
+            "messageTitle": "amended UG/DG and diagram",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 29,
+                "deletions": 19
+              }
+            }
+          },
+          {
+            "hash": "90ea3f550ddd4af976c2e78c22b120f95580676f",
+            "messageTitle": "update ppp",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "e927a9d232bddffb6d38981a168f36b8b1964691",
+            "messageTitle": "Fix alignment \u0026 fix dirgram size",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 3,
+                "deletions": 14
+              }
+            }
           }
         ]
       }
@@ -1768,7 +1812,7 @@
   },
   "authorFileTypeContributionMap": {
     "Chilaiping": {
-      "docs": 84,
+      "docs": 83,
       "functional-code": 649,
       "test-code": 115
     },
@@ -1784,24 +1828,24 @@
       "test-code": 206
     },
     "adi-kd0021": {
-      "docs": 227,
+      "docs": 205,
       "functional-code": 644,
       "test-code": 18,
       "other": 8
     },
     "e0261618": {
-      "docs": 186,
+      "docs": 211,
       "functional-code": 248,
       "test-code": 0,
       "other": 6
     }
   },
   "authorContributionVariance": {
-    "Chilaiping": 3649.7017,
+    "Chilaiping": 3649.7344,
     "skyventus": 1061.0682,
     "timmyly7": 2133.002,
     "adi-kd0021": 4013.0298,
-    "e0261618": 1751.7281
+    "e0261618": 1882.269
   },
   "authorDisplayNameMap": {
     "Chilaiping": "TIC4001-4 CHI ..PING",

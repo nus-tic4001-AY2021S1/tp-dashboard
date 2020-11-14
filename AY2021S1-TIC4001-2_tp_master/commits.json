@@ -1496,6 +1496,22 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-13",
+        "commitResults": [
+          {
+            "hash": "94cb5ff8ed5e844d71e16edd7d6ef2cad455d21c",
+            "messageTitle": "FIx image path issue in DG",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 7,
+                "deletions": 26
+              }
+            }
+          }
+        ]
       }
     ],
     "Chenduo1412": [
@@ -1776,12 +1792,12 @@
       "other": 3
     },
     "dgc5213": {
-      "docs": 336,
+      "docs": 311,
       "functional-code": 419,
       "test-code": 136
     },
     "e0260222": {
-      "docs": 215,
+      "docs": 222,
       "functional-code": 2075,
       "test-code": 328,
       "other": 4
@@ -1793,10 +1809,10 @@
     }
   },
   "authorContributionVariance": {
-    "daiweinus": 4226.683,
-    "dgc5213": 27184.256,
-    "e0260222": 29727.494,
-    "Chenduo1412": 689.3607
+    "daiweinus": 4183.2886,
+    "dgc5213": 26902.387,
+    "e0260222": 29410.4,
+    "Chenduo1412": 682.418
   },
   "authorDisplayNameMap": {
     "daiweinus": "TIC4001-2 DAI .. WEI",
