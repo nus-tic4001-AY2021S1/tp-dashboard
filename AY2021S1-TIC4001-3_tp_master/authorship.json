@@ -374,6 +374,79 @@
     }
   },
   {
+    "path": "docs/AboutUs.md",
+    "fileType": "docs",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "# About us"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "Display | Name | Github Profile | Portfolio "
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "--------|:----:|:--------------:|:---------:"
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "![](https://via.placeholder.com/100.png?text\u003dPhoto) | Hong Jian Cheng | [Github](https://github.com/pigoliver) | [Portfolio](team/pigoliver.md)"
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "![](https://via.placeholder.com/100.png?text\u003dPhoto) | Tay Jun Wen | [Github](https://github.com/tototto) | [Portfolio](team/tayjunwen.md)"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "![](https://via.placeholder.com/100.png?text\u003dPhoto) | Zheng Shi Jie | [Github](https://github.com/ZhengShijieNUS) | [Portfolio](team/zhengshijienus.md)"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "![](https://via.placeholder.com/100.png?text\u003dPhoto) | Januarius Jang | [Github](https://github.com/JanuariusJang) | [Portfolio](team/JanuariusJang.md)"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": ""
+      }
+    ],
+    "authorContributionMap": {
+      "tototto": 5,
+      "-": 4
+    }
+  },
+  {
     "path": "docs/DeveloperGuide.md",
     "fileType": "docs",
     "lines": [
@@ -424,7 +497,7 @@
         "author": {
           "gitId": "tototto"
         },
-        "content": "![Image of UpdateSequenceDiagram](https://github.com/AY2021S1-TIC4001-3/tp/blob/master/docs/Images/architecture.png)"
+        "content": "![Image of UpdateSequenceDiagram](https://github.com/AY2021S1-TIC4001-3/tp/blob/master/docs/Images/architecture.png?raw\u003dtrue)"
       },
       {
         "lineNumber": 8,
@@ -548,9 +621,9 @@
       {
         "lineNumber": 25,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "tototto"
         },
-        "content": "![Image of UpdateSequenceDiagram](https://github.com/AY2021S1-TIC4001-3/tp/blob/master/docs/Images/updateSequenceDiagram.png)"
+        "content": "![Image of UpdateSequenceDiagram](https://github.com/AY2021S1-TIC4001-3/tp/blob/master/docs/Images/updateSequenceDiagram.png?raw\u003dtrue)"
       },
       {
         "lineNumber": 26,
@@ -578,7 +651,7 @@
         "author": {
           "gitId": "tototto"
         },
-        "content": "![Image of UI Class Diagram](https://github.com/AY2021S1-TIC4001-3/tp/blob/master/docs/Images/interface.png)"
+        "content": "![Image of UI Class Diagram](https://github.com/AY2021S1-TIC4001-3/tp/blob/master/docs/Images/interface.png?raw\u003dtrue)"
       },
       {
         "lineNumber": 30,
@@ -634,7 +707,7 @@
         "author": {
           "gitId": "tototto"
         },
-        "content": "![Image of Finder Class Diagram](https://github.com/AY2021S1-TIC4001-3/tp/blob/master/docs/Images/finder.png)"
+        "content": "![Image of Finder Class Diagram](https://github.com/AY2021S1-TIC4001-3/tp/blob/master/docs/Images/finder.png?raw\u003dtrue)"
       },
       {
         "lineNumber": 38,
@@ -688,9 +761,9 @@
       {
         "lineNumber": 45,
         "author": {
-          "gitId": "JanuariusJang"
+          "gitId": "tototto"
         },
-        "content": "![Image of Storage Class Diagram](https://github.com/AY2021S1-TIC4001-3/tp/blob/master/docs/Images/storage.png)"
+        "content": "![Image of Storage Class Diagram](https://github.com/AY2021S1-TIC4001-3/tp/blob/master/docs/Images/storage.png?raw\u003dtrue)"
       },
       {
         "lineNumber": 46,
@@ -814,9 +887,9 @@
       {
         "lineNumber": 63,
         "author": {
-          "gitId": "ZhengShijieNUS"
+          "gitId": "tototto"
         },
-        "content": "![Image of IssueListComponentClassDiagram](https://github.com/AY2021S1-TIC4001-3/tp/blob/master/docs/Images/IssueListComponent.png)"
+        "content": "![Image of IssueListComponentClassDiagram](https://github.com/AY2021S1-TIC4001-3/tp/blob/master/docs/Images/IssueListComponent.png?raw\u003dtrue)"
       },
       {
         "lineNumber": 64,
@@ -963,7 +1036,7 @@
         "author": {
           "gitId": "tototto"
         },
-        "content": "![Image of SearchSequenceDiagram](https://github.com/AY2021S1-TIC4001-3/tp/blob/master/docs/Images/search_seq_diag.jpg)"
+        "content": "![Image of SearchSequenceDiagram](https://github.com/AY2021S1-TIC4001-3/tp/blob/master/docs/Images/search_seq_diag.jpg?raw\u003dtrue)"
       },
       {
         "lineNumber": 85,
@@ -1432,127 +1505,253 @@
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "3. { more test cases …​ }"
+        "content": ""
       },
       {
         "lineNumber": 152,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": ""
+        "content": "### Adding a defect"
       },
       {
         "lineNumber": 153,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "### Adding a defect"
+        "content": "1. Add the Defect through following command:"
       },
       {
         "lineNumber": 154,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "1. Add the Defect through following command:"
+        "content": "    1. add t/\u003cTITLE\u003e s/\u003cSTATUS\u003e sv/\u003cSEVERITY in integer from 0 to 10\u003e dl/\u003cDEADLINE in dd-mm-yyyy format\u003e o/\u003cOWNER\u003e"
       },
       {
         "lineNumber": 155,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "    1. add t/\u003cTITLE\u003e s/\u003cSTATUS\u003e sv/\u003cSEVERITY in integer from 0 to 10\u003e dl/\u003cDEADLINE in dd-mm-yyyy format\u003e o/\u003cOWNER\u003e"
+        "content": " "
       },
       {
         "lineNumber": 156,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "2. { more test cases …​ }"
+        "content": "### Updating a defect"
       },
       {
         "lineNumber": 157,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": " "
+        "content": "1. Enter the update mode for a defect:"
       },
       {
         "lineNumber": 158,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "### Updating a defect"
+        "content": "    1. update u/\u003cTICKET in integer\u003e"
       },
       {
         "lineNumber": 159,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "1. Enter the update mode for a defect:"
+        "content": "2. When in update mode, update the title of the defect:"
       },
       {
         "lineNumber": 160,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "    1. update u/\u003cTICKET in integer\u003e"
+        "content": "    1. update t/\u003cNEW TITLE\u003e"
       },
       {
         "lineNumber": 161,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "2. When in update mode, update the title of the defect:"
+        "content": "3. When in update mode, update the severity of the defect:"
       },
       {
         "lineNumber": 162,
         "author": {
           "gitId": "pigoliver"
         },
-        "content": "    1. update t/\u003cNEW TITLE\u003e"
+        "content": "    1. update sv/\u003cNEW SEVERITY in integer from 0 to 10\u003e"
       },
       {
         "lineNumber": 163,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "ZhengShijieNUS"
         },
-        "content": "3. When in update mode, update the severity of the defect:"
+        "content": ""
       },
       {
         "lineNumber": 164,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "JanuariusJang"
         },
-        "content": "    1. update sv/\u003cNEW SEVERITY in integer from 0 to 10\u003e"
+        "content": "### Listing all Defects in the system"
       },
       {
         "lineNumber": 165,
         "author": {
-          "gitId": "pigoliver"
+          "gitId": "JanuariusJang"
         },
-        "content": "4. { more test cases …​ }"
+        "content": "1. Enter the command"
       },
       {
         "lineNumber": 166,
         "author": {
-          "gitId": "ZhengShijieNUS"
+          "gitId": "JanuariusJang"
         },
-        "content": ""
+        "content": "    1. List"
       },
       {
         "lineNumber": 167,
         "author": {
-          "gitId": "ZhengShijieNUS"
+          "gitId": "JanuariusJang"
+        },
+        "content": "2. List of all Defects in the system will be listed in the order they were created."
+      },
+      {
+        "lineNumber": 168,
+        "author": {
+          "gitId": "JanuariusJang"
         },
         "content": ""
+      },
+      {
+        "lineNumber": 169,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "### Viewing a particular Defect in the system"
+      },
+      {
+        "lineNumber": 170,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "1. Enter the command"
+      },
+      {
+        "lineNumber": 171,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "    1. View /index. Eg:View 1"
+      },
+      {
+        "lineNumber": 172,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "2. The second Defect created will be shown on screen in details."
+      },
+      {
+        "lineNumber": 173,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 174,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "### Delete a particular Defect in the system"
+      },
+      {
+        "lineNumber": 175,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "1. Enter the command"
+      },
+      {
+        "lineNumber": 176,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "    1. Delete d/index. Eg:Delete d/1"
+      },
+      {
+        "lineNumber": 177,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "2. The second Defect will be deleted."
+      },
+      {
+        "lineNumber": 178,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 179,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "### Load a list of Defects into the progam upon lauch"
+      },
+      {
+        "lineNumber": 180,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "1. Program looks for and loads itlogger.txt"
+      },
+      {
+        "lineNumber": 181,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "2. If file is not found, no Defects will be preloaded. Program starts as per normal operation."
+      },
+      {
+        "lineNumber": 182,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 183,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "### Save a list of Defects into itlogger.txt upon exit"
+      },
+      {
+        "lineNumber": 184,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "1. Saves all Defects into the itlogger.txt file when user enters the Exit command."
+      },
+      {
+        "lineNumber": 185,
+        "author": {
+          "gitId": "JanuariusJang"
+        },
+        "content": "2. If file does not exist, itlogger.txt will be created."
       }
     ],
     "authorContributionMap": {
-      "ZhengShijieNUS": 30,
-      "tototto": 45,
+      "ZhengShijieNUS": 28,
+      "tototto": 48,
       "-": 24,
-      "JanuariusJang": 6,
-      "pigoliver": 62
+      "JanuariusJang": 27,
+      "pigoliver": 58
     }
   },
   {
@@ -1569,6 +1768,79 @@
     ],
     "authorContributionMap": {
       "ZhengShijieNUS": 1
+    }
+  },
+  {
+    "path": "docs/README.md",
+    "fileType": "docs",
+    "lines": [
+      {
+        "lineNumber": 1,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "# IT Logger"
+      },
+      {
+        "lineNumber": 2,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 3,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "IT Logger is a CLI program that allows user to perform Defect Tracking of software defects during Software Quality Control."
+      },
+      {
+        "lineNumber": 4,
+        "author": {
+          "gitId": "tototto"
+        },
+        "content": "It allows project users to manage their defects and issues more efficiently and can be purposed for different projects."
+      },
+      {
+        "lineNumber": 5,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 6,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "Useful links:"
+      },
+      {
+        "lineNumber": 7,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "* [User Guide](UserGuide.md)"
+      },
+      {
+        "lineNumber": 8,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "* [Developer Guide](DeveloperGuide.md)"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "* [About Us](AboutUs.md)"
+      }
+    ],
+    "authorContributionMap": {
+      "tototto": 3,
+      "-": 6
     }
   },
   {
@@ -1896,89 +2168,11 @@
           "gitId": "-"
         },
         "content": ""
-      },
-      {
-        "lineNumber": 47,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "## FAQ"
-      },
-      {
-        "lineNumber": 48,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 49,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "**Q**: How do I transfer my data to another computer? "
-      },
-      {
-        "lineNumber": 50,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 51,
-        "author": {
-          "gitId": "tototto"
-        },
-        "content": "**A**: {your answer here}."
-      },
-      {
-        "lineNumber": 52,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 53,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "## Command Summary"
-      },
-      {
-        "lineNumber": 54,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 55,
-        "author": {
-          "gitId": "tototto"
-        },
-        "content": "{Give a \u0027cheat sheet\u0027 of commands here}."
-      },
-      {
-        "lineNumber": 56,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 57,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "* Add todo `todo n/TODO_NAME d/DEADLINE`"
       }
     ],
     "authorContributionMap": {
       "ZhengShijieNUS": 2,
-      "tototto": 2,
-      "-": 27,
+      "-": 18,
       "JanuariusJang": 1,
       "pigoliver": 25
     }
@@ -2957,7 +3151,7 @@
         "author": {
           "gitId": "tototto"
         },
-        "content": "https://nus-tic4001-ay2021s1.github.io/tp-dashboard/#breakdown\u003dtrue\u0026search\u003d\u0026sort\u003dgroupTitle\u0026sortWithin\u003dtitle\u0026since\u003d2020-08-14\u0026timeframe\u003dcommit\u0026mergegroup\u003d\u0026groupSelect\u003dgroupByRepos\u0026checkedFileTypes\u003ddocs~functional-code~test-code~other\u0026tabOpen\u003dtrue\u0026tabType\u003dauthorship\u0026tabAuthor\u003dtototto\u0026tabRepo\u003dAY2021S1-TIC4001-3%2Ftp%5Bmaster%5D\u0026authorshipIsMergeGroup\u003dfalse\u0026authorshipFileTypes\u003ddocs~functional-code~test-code"
+        "content": "* [Link to RepoSense](https://nus-tic4001-ay2021s1.github.io/tp-dashboard/#breakdown\u003dtrue\u0026search\u003d\u0026sort\u003dgroupTitle\u0026sortWithin\u003dtitle\u0026since\u003d2020-08-14\u0026timeframe\u003dcommit\u0026mergegroup\u003d\u0026groupSelect\u003dgroupByRepos\u0026checkedFileTypes\u003ddocs~functional-code~test-code~other\u0026tabOpen\u003dtrue\u0026tabType\u003dauthorship\u0026tabAuthor\u003dtototto\u0026tabRepo\u003dAY2021S1-TIC4001-3%2Ftp%5Bmaster%5D\u0026authorshipIsMergeGroup\u003dfalse\u0026authorshipFileTypes\u003ddocs~functional-code~test-code)"
       },
       {
         "lineNumber": 22,
@@ -3083,7 +3277,7 @@
         "author": {
           "gitId": "tototto"
         },
-        "content": "##### User Guide:"
+        "content": "##### Contribution to the User Guide:"
       },
       {
         "lineNumber": 40,
@@ -3442,7 +3636,7 @@
         "author": {
           "gitId": "ZhengShijieNUS"
         },
-        "content": "* https://nus-tic4001-ay2021s1.github.io/tp-dashboard/#breakdown\u003dtrue\u0026search\u003d\u0026sort\u003dgroupTitle\u0026sortWithin\u003dtitle\u0026since\u003d2020-08-14\u0026timeframe\u003dcommit\u0026mergegroup\u003d\u0026groupSelect\u003dgroupByRepos\u0026checkedFileTypes\u003ddocs~functional-code~test-code~other\u0026tabOpen\u003dtrue\u0026tabType\u003dauthorship\u0026tabAuthor\u003dZhengShijieNUS\u0026tabRepo\u003dAY2021S1-TIC4001-3%2Ftp%5Bmaster%5D\u0026authorshipIsMergeGroup\u003dfalse\u0026authorshipFileTypes\u003ddocs~functional-code~test-code~other"
+        "content": "* [Link to RepoSense](https://nus-tic4001-ay2021s1.github.io/tp-dashboard/#breakdown\u003dtrue\u0026search\u003d\u0026sort\u003dgroupTitle\u0026sortWithin\u003dtitle\u0026since\u003d2020-08-14\u0026timeframe\u003dcommit\u0026mergegroup\u003d\u0026groupSelect\u003dgroupByRepos\u0026checkedFileTypes\u003ddocs~functional-code~test-code~other\u0026tabOpen\u003dtrue\u0026tabType\u003dauthorship\u0026tabAuthor\u003dZhengShijieNUS\u0026tabRepo\u003dAY2021S1-TIC4001-3%2Ftp%5Bmaster%5D\u0026authorshipIsMergeGroup\u003dfalse\u0026authorshipFileTypes\u003ddocs~functional-code~test-code~other)"
       },
       {
         "lineNumber": 23,
@@ -3645,7 +3839,7 @@
         "author": {
           "gitId": "ZhengShijieNUS"
         },
-        "content": " * Generate Update sequence diagram and View sequence diagram"
+        "content": " * Generate Update sequence diagram"
       }
     ],
     "authorContributionMap": {

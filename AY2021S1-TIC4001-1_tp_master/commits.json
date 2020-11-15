@@ -610,6 +610,22 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-14",
+        "commitResults": [
+          {
+            "hash": "4f01cb2060c4b576cede2d88a23f6085257bf833",
+            "messageTitle": "Update linqing.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 2
+              }
+            }
+          }
+        ]
       }
     ],
     "Yiheng0410": [
@@ -1212,6 +1228,29 @@
         "date": "2020-11-01",
         "commitResults": [
           {
+            "hash": "f7c6fbfc41ecc9e4e3dc5ba4c1df49753bf5dbdd",
+            "messageTitle": "Corrected all checkstyle errors Fixed status writing to and reading from Storage Removed --duration from Storage Edit and Find checks date format ui.displayProject uses getDateDiff for duration",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 241,
+                "deletions": 210
+              },
+              "other": {
+                "insertions": 9,
+                "deletions": 9
+              },
+              "docs": {
+                "insertions": 2,
+                "deletions": 0
+              },
+              "test-code": {
+                "insertions": 78,
+                "deletions": 64
+              }
+            }
+          },
+          {
             "hash": "8798e91fcffd4aa9053f6c76c96fd5f3ea8ed938",
             "messageTitle": "Corrected all checkstyle errors (#86)",
             "messageBody": "Fixed status writing to and reading from Storage\r\nRemoved --duration from Storage\r\nEdit and Find checks date format\r\nui.displayProject uses getDateDiff for duration",
@@ -1231,6 +1270,90 @@
               "test-code": {
                 "insertions": 78,
                 "deletions": 64
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-11-14",
+        "commitResults": [
+          {
+            "hash": "f87f0a7e98e1988ff4730598dd5523bb8e0a6adb",
+            "messageTitle": "Changed dateChecker to properly check actual dates  dateChecker able to toggle error message (turned off in Find when non-dates are inputted) Fixed date checking in Edit and Find Removed unnecessary ParseExceptions",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 64,
+                "deletions": 57
+              },
+              "test-code": {
+                "insertions": 2,
+                "deletions": 6
+              }
+            }
+          },
+          {
+            "hash": "84e21034381277b4a609dec7d7d4c75a4d9e407f",
+            "messageTitle": "Update AboutUs.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 2,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "03e6475c7056cbdc95cf85b3401cb2525b2e8adf",
+            "messageTitle": "Update AboutUs.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 3,
+                "deletions": 3
+              }
+            }
+          },
+          {
+            "hash": "ab695b2fd9039f3fce8dee2f7d62d2d85feb6c04",
+            "messageTitle": "Added PPP Removed index from printProjectCompleted and unused import",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 2,
+                "deletions": 3
+              },
+              "docs": {
+                "insertions": 54,
+                "deletions": 0
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-11-15",
+        "commitResults": [
+          {
+            "hash": "ba064b6e263d80616ad75ddedcd4a2c97d9eafbe",
+            "messageTitle": "Update AboutUs.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "543120cf921dbd32e242fab74f6cce153e11bfc9",
+            "messageTitle": "Rename impala36.md to zhenquan.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 0,
+                "deletions": 0
               }
             }
           }
@@ -1601,38 +1724,241 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-14",
+        "commitResults": [
+          {
+            "hash": "84ce49a448d143ffa886f784978282ef7726ec56",
+            "messageTitle": "Update DeveloperGuide.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 8,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "cfbbeb8de93962f6c5e6ab988217c4c067424e17",
+            "messageTitle": "Update DeveloperGuide.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 4,
+                "deletions": 4
+              }
+            }
+          },
+          {
+            "hash": "62eb609c5e61a1452ee55abd1dacbb6ecfb10c36",
+            "messageTitle": "Update DeveloperGuide.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 5,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "569610b71b61e82e744cdcbcfdcc618d5a17232d",
+            "messageTitle": "Update DeveloperGuide.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 0,
+                "deletions": 4
+              }
+            }
+          },
+          {
+            "hash": "1f2625e18d1c4094b747b625f92e1bcc1df3bdfe",
+            "messageTitle": "Update binhui.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 3,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "b68b1683d63325d492c6578df17f98c0b06b79fc",
+            "messageTitle": "Update binhui.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 2,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "9d2147f8c52a254e1b8e769f988f3d843ce2ddb1",
+            "messageTitle": "Update AboutUs.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "c5b9bdf3857be1093c2809bbc00a005d6ec4f189",
+            "messageTitle": "Update AboutUs.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "691714b5abe3ed29a527f2f796f6b474e3c4e885",
+            "messageTitle": "Update AboutUs.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "e6b60c940c432a54572f82b7a95c46941fb16fde",
+            "messageTitle": "Update AboutUs.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 0,
+                "deletions": 4
+              }
+            }
+          },
+          {
+            "hash": "c9c8b1234e2369986caf9b3a88787839f8a6c1fe",
+            "messageTitle": "fixed bugs",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 41,
+                "deletions": 14
+              }
+            }
+          },
+          {
+            "hash": "a1d3cccfbe4755b7bddf04b1cdefbe6628dc308a",
+            "messageTitle": "Update binhui.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 2,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "d467dfd61bb36d5b2f244ef4ac38f14c69d06107",
+            "messageTitle": "add email format check",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "functional-code": {
+                "insertions": 5,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "cc14242640552722b377fc6ad9186a4ca04a9ef0",
+            "messageTitle": "Update binhui.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "f28597b476c71c9c00d1e477fb80f91095cbcaf3",
+            "messageTitle": "Update binhui.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 6,
+                "deletions": 6
+              }
+            }
+          },
+          {
+            "hash": "1d551d7e7f1c511d16d92fa1fdf494371d7b66a7",
+            "messageTitle": "Update UserGuide.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 3,
+                "deletions": 3
+              }
+            }
+          },
+          {
+            "hash": "dfa2b34334c50bf4dc3793d0eed1777fd92f3cda",
+            "messageTitle": "Update UserGuide.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 4,
+                "deletions": 4
+              }
+            }
+          },
+          {
+            "hash": "0cbefba016f1c639c78ade222f9d693146d829d7",
+            "messageTitle": "Update AboutUs.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 3,
+                "deletions": 3
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFileTypeContributionMap": {
     "linqing42": {
-      "docs": 272,
-      "functional-code": 164,
-      "test-code": 58
+      "docs": 265,
+      "functional-code": 160,
+      "test-code": 53
     },
     "Yiheng0410": {
       "docs": 51,
-      "functional-code": 116,
+      "functional-code": 91,
       "test-code": 92
     },
     "Impala36": {
-      "docs": 100,
-      "functional-code": 743,
-      "test-code": 189,
+      "docs": 152,
+      "functional-code": 763,
+      "test-code": 190,
       "other": 8
     },
     "binbinhui": {
-      "docs": 91,
-      "functional-code": 272,
+      "docs": 111,
+      "functional-code": 326,
       "test-code": 1,
       "other": 18
     }
   },
   "authorContributionVariance": {
-    "linqing42": 1973.5122,
-    "Yiheng0410": 520.23724,
-    "Impala36": 10576.76,
-    "binbinhui": 12764.441
+    "linqing42": 1934.3934,
+    "Yiheng0410": 509.92874,
+    "Impala36": 22270.377,
+    "binbinhui": 12652.537
   },
   "authorDisplayNameMap": {
     "linqing42": "TIC4001-1 LIN ..QING",

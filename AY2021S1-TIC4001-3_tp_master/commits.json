@@ -183,6 +183,22 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-13",
+        "commitResults": [
+          {
+            "hash": "3d0db38acfd35a8ebce27dfa41c963e16b26d19c",
+            "messageTitle": "Update zhengshijienus.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 2,
+                "deletions": 2
+              }
+            }
+          }
+        ]
       }
     ],
     "tototto": [
@@ -697,6 +713,132 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-14",
+        "commitResults": [
+          {
+            "hash": "57d7b66bd0f6b1dbc1b860f24710d86456c9ff68",
+            "messageTitle": "Update README.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 2,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "af67dd69447fb1613ce6587cdcb62e67cca73fc0",
+            "messageTitle": "Update AboutUs.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 5,
+                "deletions": 5
+              }
+            }
+          },
+          {
+            "hash": "31d69fb1ce9f12824393b8b51f6058c46df0695c",
+            "messageTitle": "Update AboutUs.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 4,
+                "deletions": 4
+              }
+            }
+          },
+          {
+            "hash": "3641464da5b73b26960ef057eddad8e3c91773be",
+            "messageTitle": "Update AboutUs.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 3,
+                "deletions": 3
+              }
+            }
+          },
+          {
+            "hash": "ecc1cee11db3cabcb73c090646d864e72e18cadf",
+            "messageTitle": "Update tayjunwen.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "7f971a1fb2e86fe000b248fb2135fc86489b5783",
+            "messageTitle": "Update tayjunwen.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "1197a761bae349fbb1e1daa899befb377509f19b",
+            "messageTitle": "Update UserGuide.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 0,
+                "deletions": 11
+              }
+            }
+          },
+          {
+            "hash": "ede16f423628e4524e97d898a3f581c8151e452e",
+            "messageTitle": "Update DeveloperGuide.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 0,
+                "deletions": 3
+              }
+            }
+          },
+          {
+            "hash": "a30f638489a9d3c39864a3b634adc11736df056a",
+            "messageTitle": "Update DeveloperGuide.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "8de2bc9b4c18f86aa1cea40d5d5a91e8d9d1cfc0",
+            "messageTitle": "Update DeveloperGuide.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 6,
+                "deletions": 6
+              }
+            }
+          },
+          {
+            "hash": "c3a759a38df28599fda7bf8a74940f64978982ea",
+            "messageTitle": "Update README.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          }
+        ]
       }
     ],
     "JanuariusJang": [
@@ -973,6 +1115,22 @@
               "docs": {
                 "insertions": 17,
                 "deletions": 0
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-11-14",
+        "commitResults": [
+          {
+            "hash": "7d95fe1196309059443c9f571150a14e5763c29c",
+            "messageTitle": "Update DeveloperGuide.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 22,
+                "deletions": 1
               }
             }
           }
@@ -1415,39 +1573,55 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-14",
+        "commitResults": [
+          {
+            "hash": "41415f67c11206b9f5268b42a9e084a784cd5e6e",
+            "messageTitle": "Delete johndoe.md",
+            "messageBody": "Delete template",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 0,
+                "deletions": 6
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFileTypeContributionMap": {
     "ZhengShijieNUS": {
-      "docs": 83,
+      "docs": 81,
       "functional-code": 119,
       "test-code": 103,
       "other": 1
     },
     "tototto": {
-      "docs": 114,
+      "docs": 123,
       "functional-code": 456,
       "test-code": 88
     },
     "JanuariusJang": {
-      "docs": 24,
+      "docs": 45,
       "functional-code": 203,
       "test-code": 45,
       "other": 2
     },
     "pigoliver": {
-      "docs": 114,
+      "docs": 110,
       "functional-code": 522,
       "test-code": 45,
       "other": 81
     }
   },
   "authorContributionVariance": {
-    "ZhengShijieNUS": 372.44263,
-    "tototto": 1825.6368,
-    "JanuariusJang": 502.76086,
-    "pigoliver": 2688.1208
+    "ZhengShijieNUS": 368.43796,
+    "tototto": 1832.9023,
+    "JanuariusJang": 501.19476,
+    "pigoliver": 2659.6262
   },
   "authorDisplayNameMap": {
     "ZhengShijieNUS": "TIC4001-3 ZHEN..IJIE",

@@ -283,6 +283,44 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-14",
+        "commitResults": [
+          {
+            "hash": "bc121d2043a1dd1324182d2887f4f9031080adfe",
+            "messageTitle": "update PPP \u0026 DG",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 81,
+                "deletions": 10
+              }
+            }
+          },
+          {
+            "hash": "18c75f664a9f12e80845b6aef9684d4963ab54e5",
+            "messageTitle": "Update DeveloperGuide.md",
+            "messageBody": "fix pics cannot display",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 2,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "78e3390ca00e8573918a784b9b748df86ac88209",
+            "messageTitle": "fix dg type error",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 2,
+                "deletions": 2
+              }
+            }
+          }
+        ]
       }
     ],
     "dgc5213": [
@@ -635,6 +673,66 @@
               "docs": {
                 "insertions": 2,
                 "deletions": 2
+              }
+            }
+          }
+        ]
+      },
+      {
+        "date": "2020-11-14",
+        "commitResults": [
+          {
+            "hash": "1d63b7120194427237f5b08a7662d76d4200184f",
+            "messageTitle": "Edit DG, PPP",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 8,
+                "deletions": 8
+              }
+            }
+          },
+          {
+            "hash": "10baeaa3e2bc90f85f359c316798ad4a35ef1122",
+            "messageTitle": "Update dgc5213.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "39201d8b930b8495bbaad2463cc5811961f7626d",
+            "messageTitle": "Update dgc5213.md",
+            "messageBody": "update the link",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "65b752e313f90a137c605d733b06474eda6f224c",
+            "messageTitle": "Edit imgs",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 7,
+                "deletions": 7
+              }
+            }
+          },
+          {
+            "hash": "7e6da02408d981585913d91f84f53e21f145cd08",
+            "messageTitle": "Update DeveloperGuide.md",
+            "messageBody": "rename img: ArchitectureClassDiagramListCommand",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
               }
             }
           }
@@ -1512,6 +1610,165 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-14",
+        "commitResults": [
+          {
+            "hash": "eaf54c2ded0a8b2495ab69ef5e44a150418c88cc",
+            "messageTitle": "Add implementation section to UG",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 21,
+                "deletions": 10
+              }
+            }
+          },
+          {
+            "hash": "9f98b5e5a3a4fcce83c98608cb07a49140d63ab6",
+            "messageTitle": "Add sequence diagram to DG",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 3,
+                "deletions": 2
+              }
+            }
+          },
+          {
+            "hash": "65f85665fad7e5d258f5ee2d7dfbe82cf02ce8c2",
+            "messageTitle": "Add activity diagram to DG",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 16,
+                "deletions": 6
+              }
+            }
+          },
+          {
+            "hash": "b815e2bebd3e9a634c9c4756d8fa42b55c365b92",
+            "messageTitle": "Fix activity diagram link",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "a6ddc189a049f245b8d10cc229d25cba2975795b",
+            "messageTitle": "Edit width of activity diagram",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "fc53aed01859d93edaa02a531ced75de20100dc3",
+            "messageTitle": "Update PPP",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 49,
+                "deletions": 221
+              }
+            }
+          },
+          {
+            "hash": "89f9c3ad2854cd839d70d718f09d47bb49b3f738",
+            "messageTitle": "Finalize UG",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 187,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "c68d3c850ee13275f3d3dbf01d62fd2968e6c4db",
+            "messageTitle": "Reduce length of PPP",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 9,
+                "deletions": 13
+              }
+            }
+          },
+          {
+            "hash": "c40229ef8585f02e7ffb4e7bf9b0bbd940bf86af",
+            "messageTitle": "Upload sample data",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "other": {
+                "insertions": 34,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "185b23b50e12a3e794ee066ccb512b551743b516",
+            "messageTitle": "Update README.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 3,
+                "deletions": 3
+              }
+            }
+          },
+          {
+            "hash": "e54c80cb82c5f5cd57abd1cb39c505c4ace2efa6",
+            "messageTitle": "Update profile pic",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "3771e1a71d8f8a27aa4ea2a71201ed8692a652ab",
+            "messageTitle": "Fix name in aboutus.md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          },
+          {
+            "hash": "c78ab13a355faf263a174687f2f8a57e9e7462fb",
+            "messageTitle": "Update sample data",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "other": {
+                "insertions": 8,
+                "deletions": 5
+              }
+            }
+          },
+          {
+            "hash": "c843cf1336dedfc8c0bfde1934730120faf9b775",
+            "messageTitle": "Update transactions sample data",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "other": {
+                "insertions": 1,
+                "deletions": 1
+              }
+            }
+          }
+        ]
       }
     ],
     "Chenduo1412": [
@@ -1781,38 +2038,109 @@
             }
           }
         ]
+      },
+      {
+        "date": "2020-11-14",
+        "commitResults": [
+          {
+            "hash": "7df81f80bd54e41666cde34aaeb45f0d2d1cb233",
+            "messageTitle": "add DG and teams md",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 78,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "af81fb17bf1383ae5a99c297b9d8a95700160f6e",
+            "messageTitle": "fix md name",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 0,
+                "deletions": 0
+              }
+            }
+          },
+          {
+            "hash": "e606a15712e8dfca32ca1f0e08583834ad664c99",
+            "messageTitle": "add some info in the md file",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 11,
+                "deletions": 3
+              }
+            }
+          },
+          {
+            "hash": "8561f82d29605cbcbd26fc6fbfa29a2d1e5180a7",
+            "messageTitle": "change the design to implement",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 6
+              }
+            }
+          },
+          {
+            "hash": "1cc63b15f418df42ffd304af2782d7223b796dec",
+            "messageTitle": "remove title",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 0,
+                "deletions": 3
+              }
+            }
+          },
+          {
+            "hash": "776893c98c14ebb2b167f9bf83163c45e30785ee",
+            "messageTitle": "add user story.",
+            "messageBody": "",
+            "fileTypesAndContributionMap": {
+              "docs": {
+                "insertions": 1,
+                "deletions": 0
+              }
+            }
+          }
+        ]
       }
     ]
   },
   "authorFileTypeContributionMap": {
     "daiweinus": {
-      "docs": 80,
+      "docs": 149,
       "functional-code": 553,
       "test-code": 149,
       "other": 3
     },
     "dgc5213": {
-      "docs": 311,
+      "docs": 240,
       "functional-code": 419,
       "test-code": 136
     },
     "e0260222": {
-      "docs": 222,
+      "docs": 339,
       "functional-code": 2075,
       "test-code": 328,
-      "other": 4
+      "other": 41
     },
     "Chenduo1412": {
-      "docs": 18,
+      "docs": 97,
       "functional-code": 176,
       "test-code": 143
     }
   },
   "authorContributionVariance": {
-    "daiweinus": 4183.2886,
-    "dgc5213": 26902.387,
-    "e0260222": 29410.4,
-    "Chenduo1412": 682.418
+    "daiweinus": 4212.939,
+    "dgc5213": 26613.088,
+    "e0260222": 32236.807,
+    "Chenduo1412": 772.9559
   },
   "authorDisplayNameMap": {
     "daiweinus": "TIC4001-2 DAI .. WEI",
